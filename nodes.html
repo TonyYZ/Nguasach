@@ -1,0 +1,163 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 1500px;
+                 height: 650px;
+                 background-color: #ffffff;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#FF0000", "id": 0, "label": "English", "shape": "dot"}, {"color": "#FF5100", "id": 1, "label": "Hungarian", "shape": "dot"}, {"color": "#FFA100", "id": 2, "label": "Finnish", "shape": "dot"}, {"color": "#FFF200", "id": 3, "label": "Greek", "shape": "dot"}, {"color": "#BCFF00", "id": 4, "label": "Russian", "shape": "dot"}, {"color": "#6BFF00", "id": 5, "label": "German", "shape": "dot"}, {"color": "#1BFF00", "id": 6, "label": "Spanish", "shape": "dot"}, {"color": "#00FF36", "id": 7, "label": "Italian", "shape": "dot"}, {"color": "#00FF86", "id": 8, "label": "French", "shape": "dot"}, {"color": "#00FFD7", "id": 9, "label": "Irish", "shape": "dot"}, {"color": "#00D7FF", "id": 10, "label": "Welsh", "shape": "dot"}, {"color": "#0086FF", "id": 11, "label": "Chinese", "shape": "dot"}, {"color": "#0036FF", "id": 12, "label": "Vietnamese", "shape": "dot"}, {"color": "#1B00FF", "id": 13, "label": "Korean", "shape": "dot"}, {"color": "#6B00FF", "id": 14, "label": "Thai", "shape": "dot"}, {"color": "#BC00FF", "id": 15, "label": "Indonesian", "shape": "dot"}, {"color": "#FF00F2", "id": 16, "label": "Turkish", "shape": "dot"}, {"color": "#FF00A1", "id": 17, "label": "Swahili", "shape": "dot"}, {"color": "#FF0051", "id": 18, "label": "Hindi", "shape": "dot"}]);
+                  edges = new vis.DataSet([{"from": 0, "to": 1, "width": 5.1257861635220126}, {"from": 0, "to": 2, "width": 5.141509433962264}, {"from": 0, "to": 3, "width": 3.3333333333333335}, {"from": 0, "to": 4, "width": 4.528301886792453}, {"from": 0, "to": 5, "width": 8.364779874213838}, {"from": 0, "to": 6, "width": 5.864779874213836}, {"from": 0, "to": 7, "width": 6.855345911949685}, {"from": 0, "to": 8, "width": 6.037735849056604}, {"from": 0, "to": 9, "width": 5.566037735849057}, {"from": 0, "to": 10, "width": 7.751572327044026}, {"from": 0, "to": 11, "width": 0.9119496855345912}, {"from": 0, "to": 12, "width": 7.044025157232704}, {"from": 0, "to": 13, "width": 3.852201257861635}, {"from": 0, "to": 14, "width": 1.8238993710691824}, {"from": 0, "to": 15, "width": 7.138364779874214}, {"from": 0, "to": 16, "width": 4.056603773584905}, {"from": 0, "to": 17, "width": 11.4937106918239}, {"from": 0, "to": 18, "width": 5.3930817610062896}, {"from": 1, "to": 2, "width": 3.9779874213836477}, {"from": 1, "to": 3, "width": 2.20125786163522}, {"from": 1, "to": 4, "width": 2.79874213836478}, {"from": 1, "to": 5, "width": 4.261006289308176}, {"from": 1, "to": 6, "width": 3.6635220125786168}, {"from": 1, "to": 7, "width": 3.632075471698113}, {"from": 1, "to": 8, "width": 2.9559748427672954}, {"from": 1, "to": 9, "width": 1.7138364779874213}, {"from": 1, "to": 10, "width": 2.3742138364779874}, {"from": 1, "to": 11, "width": 0.9591194968553458}, {"from": 1, "to": 12, "width": 2.3899371069182394}, {"from": 1, "to": 13, "width": 0.8805031446540881}, {"from": 1, "to": 14, "width": 0.7861635220125786}, {"from": 1, "to": 15, "width": 2.5628930817610063}, {"from": 1, "to": 16, "width": 2.515723270440252}, {"from": 1, "to": 17, "width": 2.20125786163522}, {"from": 1, "to": 18, "width": 0.8647798742138364}, {"from": 2, "to": 3, "width": 1.9339622641509435}, {"from": 2, "to": 4, "width": 2.4842767295597485}, {"from": 2, "to": 5, "width": 4.009433962264151}, {"from": 2, "to": 6, "width": 3.30188679245283}, {"from": 2, "to": 7, "width": 3.207547169811321}, {"from": 2, "to": 8, "width": 3.066037735849057}, {"from": 2, "to": 9, "width": 1.8867924528301887}, {"from": 2, "to": 10, "width": 2.4371069182389933}, {"from": 2, "to": 11, "width": 0.6761006289308176}, {"from": 2, "to": 12, "width": 2.216981132075472}, {"from": 2, "to": 13, "width": 0.7232704402515723}, {"from": 2, "to": 14, "width": 0.4245283018867924}, {"from": 2, "to": 15, "width": 2.5786163522012577}, {"from": 2, "to": 16, "width": 2.0283018867924527}, {"from": 2, "to": 17, "width": 2.688679245283019}, {"from": 2, "to": 18, "width": 0.880503144654088}, {"from": 3, "to": 4, "width": 1.7138364779874213}, {"from": 3, "to": 5, "width": 1.729559748427673}, {"from": 3, "to": 6, "width": 2.5314465408805034}, {"from": 3, "to": 7, "width": 2.1540880503144653}, {"from": 3, "to": 8, "width": 1.9182389937106916}, {"from": 3, "to": 9, "width": 0.990566037735849}, {"from": 3, "to": 10, "width": 1.1792452830188678}, {"from": 3, "to": 11, "width": 0.5660377358490566}, {"from": 3, "to": 12, "width": 0.9748427672955975}, {"from": 3, "to": 13, "width": 0.770440251572327}, {"from": 3, "to": 14, "width": 1.0062893081761006}, {"from": 3, "to": 15, "width": 0.9591194968553458}, {"from": 3, "to": 16, "width": 0.8176100628930817}, {"from": 3, "to": 17, "width": 1.1320754716981132}, {"from": 3, "to": 18, "width": 1.0062893081761006}, {"from": 4, "to": 5, "width": 2.767295597484277}, {"from": 4, "to": 6, "width": 2.3584905660377355}, {"from": 4, "to": 7, "width": 2.8459119496855347}, {"from": 4, "to": 8, "width": 2.1226415094339623}, {"from": 4, "to": 9, "width": 1.3836477987421383}, {"from": 4, "to": 10, "width": 1.9025157232704402}, {"from": 4, "to": 11, "width": 0.660377358490566}, {"from": 4, "to": 12, "width": 1.10062893081761}, {"from": 4, "to": 13, "width": 0.8018867924528301}, {"from": 4, "to": 14, "width": 0.5031446540880503}, {"from": 4, "to": 15, "width": 1.4308176100628929}, {"from": 4, "to": 16, "width": 1.0377358490566038}, {"from": 4, "to": 17, "width": 1.2264150943396226}, {"from": 4, "to": 18, "width": 1.10062893081761}, {"from": 5, "to": 6, "width": 3.993710691823899}, {"from": 5, "to": 7, "width": 4.465408805031446}, {"from": 5, "to": 8, "width": 4.040880503144654}, {"from": 5, "to": 9, "width": 2.2169811320754715}, {"from": 5, "to": 10, "width": 3.1132075471698117}, {"from": 5, "to": 11, "width": 1.1792452830188678}, {"from": 5, "to": 12, "width": 3.1761006289308176}, {"from": 5, "to": 13, "width": 1.3836477987421383}, {"from": 5, "to": 14, "width": 1.0062893081761006}, {"from": 5, "to": 15, "width": 3.4119496855345917}, {"from": 5, "to": 16, "width": 2.4371069182389937}, {"from": 5, "to": 17, "width": 4.2767295597484285}, {"from": 5, "to": 18, "width": 1.4465408805031446}, {"from": 6, "to": 7, "width": 5.89622641509434}, {"from": 6, "to": 8, "width": 3.852201257861635}, {"from": 6, "to": 9, "width": 1.9182389937106918}, {"from": 6, "to": 10, "width": 1.9182389937106916}, {"from": 6, "to": 11, "width": 0.7389937106918238}, {"from": 6, "to": 12, "width": 2.4371069182389937}, {"from": 6, "to": 13, "width": 0.6761006289308176}, {"from": 6, "to": 14, "width": 0.770440251572327}, {"from": 6, "to": 15, "width": 2.2955974842767297}, {"from": 6, "to": 16, "width": 2.5}, {"from": 6, "to": 17, "width": 2.4842767295597485}, {"from": 6, "to": 18, "width": 1.1477987421383649}, {"from": 7, "to": 8, "width": 4.49685534591195}, {"from": 7, "to": 9, "width": 1.572327044025157}, {"from": 7, "to": 10, "width": 2.0754716981132075}, {"from": 7, "to": 11, "width": 0.6132075471698113}, {"from": 7, "to": 12, "width": 2.79874213836478}, {"from": 7, "to": 13, "width": 0.6918238993710691}, {"from": 7, "to": 14, "width": 0.9433962264150944}, {"from": 7, "to": 15, "width": 3.050314465408805}, {"from": 7, "to": 16, "width": 2.2955974842767297}, {"from": 7, "to": 17, "width": 3.113207547169811}, {"from": 7, "to": 18, "width": 1.022012578616352}, {"from": 8, "to": 9, "width": 1.8081761006289307}, {"from": 8, "to": 10, "width": 2.5}, {"from": 8, "to": 11, "width": 0.9119496855345912}, {"from": 8, "to": 12, "width": 2.610062893081761}, {"from": 8, "to": 13, "width": 1.0220125786163523}, {"from": 8, "to": 14, "width": 0.7232704402515724}, {"from": 8, "to": 15, "width": 2.720125786163522}, {"from": 8, "to": 16, "width": 2.4685534591194966}, {"from": 8, "to": 17, "width": 2.5628930817610063}, {"from": 8, "to": 18, "width": 1.1635220125786163}, {"from": 9, "to": 10, "width": 2.783018867924528}, {"from": 9, "to": 11, "width": 0.9119496855345912}, {"from": 9, "to": 12, "width": 1.682389937106918}, {"from": 9, "to": 13, "width": 1.069182389937107}, {"from": 9, "to": 14, "width": 0.8647798742138364}, {"from": 9, "to": 15, "width": 1.2893081761006289}, {"from": 9, "to": 16, "width": 1.1635220125786163}, {"from": 9, "to": 17, "width": 1.430817610062893}, {"from": 9, "to": 18, "width": 1.320754716981132}, {"from": 10, "to": 11, "width": 0.6132075471698113}, {"from": 10, "to": 12, "width": 2.547169811320755}, {"from": 10, "to": 13, "width": 1.1320754716981132}, {"from": 10, "to": 14, "width": 0.6918238993710691}, {"from": 10, "to": 15, "width": 1.9968553459119498}, {"from": 10, "to": 16, "width": 1.3679245283018866}, {"from": 10, "to": 17, "width": 1.3050314465408803}, {"from": 10, "to": 18, "width": 0.9119496855345912}, {"from": 11, "to": 12, "width": 0.7075471698113207}, {"from": 11, "to": 13, "width": 0.9276729559748427}, {"from": 11, "to": 14, "width": 0.48742138364779874}, {"from": 11, "to": 15, "width": 0.5660377358490566}, {"from": 11, "to": 16, "width": 0.9276729559748427}, {"from": 11, "to": 17, "width": 0.7389937106918238}, {"from": 11, "to": 18, "width": 0.5188679245283019}, {"from": 12, "to": 13, "width": 1.2106918238993711}, {"from": 12, "to": 14, "width": 1.1163522012578615}, {"from": 12, "to": 15, "width": 1.509433962264151}, {"from": 12, "to": 16, "width": 0.8805031446540881}, {"from": 12, "to": 17, "width": 0.6289308176100629}, {"from": 12, "to": 18, "width": 0.17295597484276728}, {"from": 13, "to": 14, "width": 0.8176100628930818}, {"from": 13, "to": 15, "width": 0.9276729559748427}, {"from": 13, "to": 16, "width": 0.330188679245283}, {"from": 13, "to": 17, "width": 0.29874213836477986}, {"from": 13, "to": 18, "width": 0.06289308176100629}, {"from": 14, "to": 15, "width": 0.6761006289308176}, {"from": 14, "to": 16, "width": 0.4245283018867924}, {"from": 14, "to": 17, "width": 0.220125786163522}, {"from": 15, "to": 16, "width": 0.09433962264150943}, {"from": 15, "to": 17, "width": 0.18867924528301885}, {"from": 15, "to": 18, "width": 0.04716981132075471}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "repulsion": {
+            "centralGravity": 0.2,
+            "damping": 0.09,
+            "nodeDistance": 150,
+            "springConstant": 0.05,
+            "springLength": 200
+        },
+        "solver": "repulsion",
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>
