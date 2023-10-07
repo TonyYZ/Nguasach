@@ -1,0 +1,1221 @@
+Abandonment: agent, theme
+Abounding_with: theme, location
+Absorb_heat: entity, container, heat source
+Abundance: collection, quantity, place
+Abusing: abuser, victim
+Access_scenario: theme, useful location, barrier
+Accompaniment: participant, co-participant, participants
+Accomplishment: agent, goal
+Accoutrements: accoutrement
+Accuracy: agent, means, degree, instrument, deviation
+Achieving_first: cognizer, new idea
+Active_substance: effect, substance
+Activity: agent
+Activity_abandoned_state: agent, activity
+Activity_done_state: agent, activity
+Activity_finish: agent, activity
+Activity_ongoing: duration, activity, agent
+Activity_pause: activity, agent
+Activity_paused_state: agent, activity
+Activity_prepare: agent, activity
+Activity_ready_state: protagonist, activity, salient entity
+Activity_resume: activity, agent
+Activity_start: activity, agent
+Activity_stop: agent
+Actually_occurring_entity: instance, type
+Addiction: addict, addictant
+Adding_up: cognizer, numbers, result
+Adducing: speaker, medium, specified entity, role
+Adjacency: ground, figure
+Adjusting: agent, part, feature
+Adopt_selection: agent, attribute, value
+Aesthetics: entity, attribute, degree
+Affirm_or_deny: speaker, message, medium, topic
+Age: entity, attribute, age, degree, expressor
+Aggregate: individuals, aggregate
+Aging: entity
+Agree_or_refuse_to_act: speaker, interlocutor, proposed action
+Agriculture: agriculturist, food, ground
+Aiming: agent, targeted, instrument, target location, activity
+Alignment_image_schema: alignment match, ground, alignment mismatch
+Alliance: alliance, members, member 1, member 2
+Alternatives: situation, agent, salient entity
+Alternativity: profiled alternative, contrasting alternative
+Amalgamation: parts, whole, part 1, part 2
+Amassing: recipient, mass theme
+Ambient_temperature: place, attribute, temperature, degree, time, weather
+Ammunition: ammunition
+Amounting_to: value, attribute, numbers
+Animals: animal
+Annoyance: experiencer, topic, stimulus, expressor, state
+Appeal: convict, representative, decision
+Appellations: name, title
+Apply_heat: cook, heating instrument, food, temperature setting, container
+Appointing: selector, official, role, function, body
+Architectural_part: part, whole
+Arithmetic: term1, term2, terms
+Arithmetic_commutative: terms, term1, term2
+Arithmetic_non-commutative: term 1, term 2
+Armor: armor, danger, asset
+Arraignment: defendant, judge, charges
+Arranging: agent, theme, configuration
+Arrest: charges, authorities, suspect, offense
+Arriving: theme, goal
+Arson: offense, perpetrator, victim
+Artifact: artifact
+Artifact_subpart: component, artifact
+Artificiality: entity, reference category
+Artistic_style: artist, artwork, form
+Assemble: individuals, group, party 1, party 2
+Assessing: assessor, phenomenon, feature, method, medium
+Assigned_location: station, responsible party
+Assistance: benefited party, helper, goal, focal entity
+Asymmetric_reciprocality: protagonist 1, protagonist 2
+Atonement: agent, wrong, amends
+Attaching: agent, item, goal, connector, items
+Attack: victim, assailant
+Attempt: agent
+Attempt_action_scenario: agent
+Attempt_distant_interaction_scenario: agent, instrument, target location
+Attempt_means: agent, means
+Attempt_obtain_food_scenario: seeker, food, ground
+Attempt_obtain_mineral_scenario: agent, mineral
+Attempt_suasion: content, addressee, speaker, topic, medium, salient entity
+Attempting_and_resolving_scenario: agent
+Attending: agent, event
+Attention: perceiver, figure, expressor
+Attention_getting: address term, interjection
+Attitude_description: cognizer, attitude, state of affairs
+Attributed_information: proposition, speaker, text
+Attributes: entity
+Authority: agent, theme
+Avoiding: agent, undesirable situation
+Awareness: cognizer, content, topic, expressor
+Awareness_situation: cognizer, content, expressor, topic
+Awareness_status: content, role
+Bail_decision: accused, judge, status
+Basis_for_attribute: trajector, landmark
+Be_in_agreement_on_action: party 1, party 2, obligation, topic, parties
+Be_in_agreement_on_assessment: cognizers, cognizer 1, cognizer 2, question, opinion, topic
+Be_on_alert: protagonist, activity, danger, dangerous entity
+Be_subset_of: total, part
+Be_translation_equivalent: source symbol, source representation, target symbol, target representation, content
+Bearing_arms: weapon, protagonist
+Beat_opponent: winner, loser
+Becoming: entity
+Becoming_a_member: new member, group
+Becoming_attached: connector, item, items, goal
+Becoming_aware: cognizer, phenomenon, means, topic, instrument
+Becoming_detached: item, source, items
+Becoming_dry: entity
+Becoming_separated: whole, parts, part 1, part 2
+Becoming_silent: speaker, expressor
+Becoming_visible: entity
+Behind_the_scenes: artist, production, type, distributor, studio, medium, performer, score, scene
+Being_active: activity, agent, salient entity, role
+Being_at_risk: asset
+Being_attached: connector, item, items, goal
+Being_awake: protagonist
+Being_born: child
+Being_contained_within: landmark, trajector
+Being_detached: item, items, source
+Being_dry: item
+Being_employed: employee, employer, place of employment, position, task, field
+Being_in_captivity: theme, holding location
+Being_in_category: item, category, criteria
+Being_in_control: controlling entity, dependent entity
+Being_in_effect: binding principle
+Being_in_operation: device
+Being_incarcerated: prisoner, prison
+Being_included: whole, part
+Being_located: theme, location
+Being_named: name, entity
+Being_necessary: dependent, requirement, required entity
+Being_obligated: responsible party, duty
+Being_obligatory: duty, responsible party
+Being_operational: object
+Being_pregnant: mother, father, parents, offspring
+Being_questionable: behavior, social actor, entity
+Being_relevant: phenomenon, endeavor, cognizer
+Being_rotted: patient
+Being_up_to_it: entity, activity
+Being_wet: item, liquid
+Besieging: assailant, victim
+Beyond_compare: standard, variable, competitors
+Billing: debtor, goods, money, rate, owed party, billing authority, bad action
+Biological_area: locale
+Biological_classification: rank, member, subtype
+Biological_entity: organism
+Biological_mechanisms: systemic effect
+Biological_urge: experiencer, expressor, state
+Birth_scenario: offspring, mother, father, parents
+Board_vehicle: traveller, vehicle
+Body_decoration: decoration
+Body_description_holistic: individual, figure
+Body_description_part: individual, figure
+Body_mark: body mark, possessor
+Body_movement: agent, body part
+Body_parts: possessor, body part
+Bond_maturation: financial instrument, time
+Borrowing: borrower, lender, theme
+Boundary: boundary, entity, entities
+Bounded_entity: bounded area, constituent parts, relative location, name, owner, formational cause
+Bounded_region: interior, ground, surface, boundary, exterior
+Bragging: speaker, topic, medium, message, expressor
+Breaking_apart: whole, pieces
+Breaking_off: subpart, whole
+Breaking_out_captive: agent, theme, location of confinement
+Breathing: agent, air
+Bringing: agent, goal, source, path, theme, area, carrier
+Building: agent, components, created entity
+Building_subparts: building part
+Buildings: building
+Bungling: agent, patient, action, area
+Burying: agent, theme, goal, cause
+Business_closure: entity
+Businesses: business
+Cache: cache, resource, use, possessor
+Calendric_unit: relative time, whole, unit
+Candidness: speaker, message, topic, medium
+Capability: entity
+Capacity: entity, theme
+Capital_stock: stock, type, shareholder, issuer
+Cardinal_numbers: number, entity, unit
+Carry_goods: distributor, goods
+Catastrophe: undesirable event, patient
+Catching_fire: fire, fuel
+Categorization: cognizer, item, category, criteria
+Causation: affected, actor
+Causation_scenario: cause, effect, averted situation
+Cause_bodily_experience: agent, experiencer, body part, cause
+Cause_change: agent, initial category, final category, final value, initial value, entity
+Cause_change_of_consistency: patient, agent, cause
+Cause_change_of_phase: agent, patient, cause
+Cause_change_of_position_on_a_scale: agent, attribute, item, cause
+Cause_change_of_strength: agent, patient
+Cause_emotion: agent, experiencer, event
+Cause_expansion: agent, item, cause
+Cause_fluidic_motion: agent, cause, fluid, source, goal, path, area
+Cause_harm: agent, victim, body part, cause
+Cause_impact: impactee, impactor, impactors, agent, cause
+Cause_motion: agent, theme, source, path, goal, area, cause, result, initial state
+Cause_proliferation_in_number: agent, attribute, set, cause
+Cause_temperature_change: agent, item, cause, hot cold source
+Cause_to_amalgamate: agent, whole, parts, part 1, part 2
+Cause_to_be_dry: agent, dryee, cause
+Cause_to_be_included: agent, existing member, new member, group, cause
+Cause_to_be_sharp: agent, patient, cause
+Cause_to_be_wet: agent, liquid, patient, cause
+Cause_to_burn: agent, flammables, cause, actor
+Cause_to_continue: agent, process, state, cause
+Cause_to_end: process, agent, cause, state
+Cause_to_experience: agent, experiencer
+Cause_to_fragment: agent, whole patient, pieces, cause
+Cause_to_land: vehicle, goal, operator
+Cause_to_make_noise: agent, sound maker, cause
+Cause_to_make_progress: project, agent
+Cause_to_move_in_place: theme, agent, bodypart of agent, cause
+Cause_to_perceive: agent, phenomenon, perceiver, actor, entity, medium
+Cause_to_resume: agent, process, hiatus, cause
+Cause_to_rot: agent, patient, cause
+Cause_to_start: cause, effect
+Cause_to_wake: sleeper, agent, cause
+Ceasing_to_be: entity
+Certainty: cognizer, topic, content, expressor
+Change_accessibility: agent, useful location, portal
+Change_direction: theme, direction
+Change_event_duration: agent, event, cause
+Change_event_time: agent, cause, event
+Change_of_consistency: patient
+Change_of_leadership: selector, old leader, new leader, role, old order, function, body
+Change_of_phase: patient
+Change_of_phase_scenario: patient
+Change_of_quantity_of_possession: owner, possession
+Change_of_temperature: item, temperature
+Change_operational_state: device, agent, cause
+Change_position_on_a_scale: attribute, item, difference, final value, initial value, value range, initial state, final state
+Change_post-state: 
+Change_posture: protagonist
+Change_resistance: agent, patient
+Change_tool: agent, tools, old tool, new tool
+Chaos: entity, state
+Chatting: interlocutors, interlocutor 1, interlocutor 2
+Chemical-sense_description: perceptual source, sensory attribute
+Chemical_potency: chemical entity, degree
+Choosing: cognizer, chosen, possibilities
+Circumscribed_existence: entity, time, place, circumstances
+Citing: defendant, authority, charges
+Claim_ownership: claimant, property
+Clemency: offender, crime, executive authority
+Closure: containing object, agent, fastener, container portal
+Clothing: garment
+Clothing_parts: subpart
+Co-association: participant1, participants, participant2
+Cogitation: cognizer, topic
+Cognitive_connection: concept 1, concept 2, concepts
+Cognitive_impact: phenomenon, experiencer
+Coincidence: state of affairs
+Collaboration: partner 1, partner 2, undertaking, partners
+Collocation_image_schema: profiled region, ground
+Colonization: colonists, homeland, new area
+Color: entity, color
+Color_qualities: color, described entity
+Come_down_with: protagonist, disease
+Come_into_effect: 
+Come_together: individuals, configuration, party 1, party 2
+Coming_to_be: entity
+Coming_to_believe: cognizer, evidence, content, topic, means, medium
+Coming_up_with: cognizer, idea
+Commemorative: honored entity, dedicated type, dedicated entity
+Commerce_buy: buyer, goods
+Commerce_collect: buyer, goods, money, rate, seller
+Commerce_goods-transfer: buyer, goods, money, seller, exchangers
+Commerce_money-transfer: buyer, goods, money, seller, exchangers
+Commerce_pay: buyer, goods, money, rate, seller
+Commerce_scenario: buyer, seller, money, goods
+Commerce_sell: buyer, goods, seller
+Commercial_transaction: buyer, goods, money, seller
+Commitment: speaker, addressee, message, topic, medium
+Committing_crime: perpetrator
+Commonality: entities, commonality, entity 1, entity 2
+Communicate_categorization: speaker, category, item, medium
+Communication: communicator, message, topic, medium
+Communication_manner: speaker, addressee, message, topic
+Communication_means: communicator, addressee, message, topic, means
+Communication_noise: speaker, message, topic, voice
+Communication_response: speaker, addressee, message, topic, trigger
+Commutation: executive authority, original punishment
+Commutative_process: term1, term2, terms
+Commutative_statement: term1, term2, terms
+Compatibility: item 1, item 2, items, parameter
+Competition: participant 1, participant 2, participants, competition
+Complaining: complainer, complaint, topic, medium
+Completeness: whole
+Compliance: protagonist, act, state of affairs, norm
+Concessive: conceded state of affairs, topic, main assertion
+Condition_symptom_relation: patient, medical condition, symptom
+Conditional_occurrence: profiled possibility, consequence
+Conditional_scenario: profiled possibility, consequence, anti consequence
+Conduct: agent, manner
+Conferring_benefit: benefactor, beneficiary, beneficial situation
+Confronting_problem: issue, agent
+Connecting_architecture: part
+Connectors: connector
+Conquering: conqueror, theme
+Contact_image_schema: profiled region, ground
+Contacting: communicator, addressee, address, communication, topic
+Container_focused_placing: agent, theme, goal, cause
+Container_focused_removing: agent, theme, source, cause
+Containers: container
+Containing: container, contents
+Containment_scenario: container, interior, contents
+Contingency: outcome, determinant
+Continued_state_of_affairs: state of affairs, reference occasion
+Contrary_circumstances: event, adversity
+Contrition: experiencer, action, expressor, emotional state
+Control: controlling entity, dependent entity
+Controller_object: control
+Convey_importance: speaker, message, medium
+Convoy: vehicles, convoy, cargo, support
+Cooking_creation: cook, produced food
+Corporal_punishment: agent, evaluee, reason
+Correctness: information, source, communicative act, topic
+Corroding: patient
+Corroding_caused: patient, cause, agent
+Cotheme: theme, cotheme, source, path, goal, area, road, direction
+Counterattack: victim, assailant
+Court_examination: questioner, witness
+Craft: activity, practitioner, culture
+Create_physical_artwork: creator, representation
+Create_representation: creator, represented
+Creating: created entity, creator
+Crime_scenario: suspect, perpetrator, crime, charge, authorities
+Criminal_investigation: investigator, incident, suspect
+Criminal_process: court, defendant, judge, prosecution, charges, defense, jury, offense, authorities, suspect
+Cure: healer, patient, affliction, treatment, medication, body part
+Custom: behavior, protagonist, society
+Cutting: agent, item, pieces
+Cycle_of_existence_scenario: entity
+Cycle_of_life_and_death: protagonist
+Damaging: agent, patient, cause
+Daring: agent, action
+Dead_or_alive: protagonist, figure
+Death: protagonist
+Deception_end: victim, deceiver, phenomenon, topic
+Deception_scenario: victim, deceiver, phenomenon, topic
+Deception_success: deceiver, victim, topic, phenomenon
+Deciding: cognizer, decision
+Defending: defender, assailant, victim
+Degree: gradable attribute
+Degree_of_processing: material
+Delimitation_of_diversity: item, variable, limit1, limit2, limits
+Delimited_state_scenario: duration, state
+Delivery: deliverer, goal, theme, recipient
+Deny_or_grant_permission: authority, protagonist, action
+Departing: theme, source
+Deserving: state of affairs, action
+Desirability: evaluee
+Desirable_event: state of affairs
+Desiring: experiencer, event, focal participant, location of event
+Destiny: state of affairs, protagonist, role
+Destroying: destroyer, patient, cause
+Detaching: agent, item, source, items
+Detaining: authorities, suspect
+Detonate_explosive: agent, explosive
+Differentiation: cognizer, phenomenon 1, phenomenon 2, phenomena, quality
+Difficulty: activity, experiencer
+Dimension: dimension, object, measurement
+Direction: path
+Directional_locative_relation: ground, figure
+Disaster_scenario: disaster
+Discussion: interlocutor 1, interlocutor 2, interlocutors, topic
+Disembarking: traveller, vehicle
+Disgraceful_situation: state of affairs, protagonist
+Dispersal: agent, individuals, cause
+Distant_operated_IED: bomb
+Distinctiveness: feature, entity
+Distributed_abundance: theme, location
+Distributed_position: theme, location
+Diversity: group, dimension
+Documents: bearer, issuer, obligation, right, status, document
+Dodging: dodger, bad entity
+Domain: predicate, domain
+Dominate_competitor: agent, patient
+Dominate_situation: agent, situation
+Domination: agent, situation, competitor
+Dough_rising: dough
+Downing: agent, patient, cause
+Dressing: wearer, clothing
+Drop_in_on: visitor, host, host location
+Dunking: agent, theme, substance
+Duplication: creator, original, copy
+Duration_description: eventuality, period
+Duration_relation: eventuality, period, duration, entity
+Duration_scenario: period, attribute, duration, degree, unit, count, event
+Dying: protagonist
+Dynamic_situation_scenario: entity, event
+Dynamism: action, exerter, force
+Earnings_and_losses: earner, earnings
+Eclipse: obstruction, eclipsed
+Economy: political region, economy
+Education_teaching: teacher, student, institution, subject, qualification, skill, precept, fact, material, role, course
+Electricity: electricity
+Elusive_goal: experiencer, desired goal
+Emanating: emission, source
+Emergency: undesirable event, experiencer, time
+Emergency_fire: fire, fuel
+Emitting: source emitter, emission
+Emotion_active: experiencer, topic
+Emotion_directed: experiencer, topic, stimulus, expressor, state, event
+Emotion_heat: experiencer, emotion, seat of emotion
+Emotions: experiencer, topic, stimulus, expressor, state, event
+Emotions_by_possibility: experiencer, topic, stimulus, expressor, state, event
+Emotions_by_stimulus: experiencer, topic, stimulus, expressor, state, event
+Emotions_of_mental_activity: experiencer, stimulus
+Emotions_success_or_failure: experiencer, topic, stimulus, expressor, state, event
+Emphasizing: consideration, agent, competing consideration, artifact, action
+Employee_scenario: employee, employer, task
+Employer_scenario: employee, employer, task
+Employing: employee, employer, field, position, task
+Employment_continue: employee, employer
+Employment_end: employee, employer, position
+Employment_scenario: employee, employer, task
+Employment_start: employee, employer
+Emptying: agent, theme, source, cause
+Encoding: speaker, message, manner, medium
+Encounter: group, individuals, party 1, party 2
+Endangering: cause, valued entity, agent
+Endeavor_failure: endeavor
+Enforcing: rule, agent, medium
+Entering_of_plea: judge, accused, charges, plea, court
+Entity: entity
+Entourage: individuals, entourage, attended person
+Erasing: agent, information, cause, document
+Escaping: escapee, undesirable location
+Estimated_value: cognizer, value, item, estimation, question
+Estimating: cognizer, feature, value, item, estimation, question
+Evading: evader, pursuer, capture
+Evaluative_comparison: profiled item, standard item, attribute, standard attribute, profiled attribute
+Event: place, time
+Event_endstate: entity, state
+Event_initial_state: entity, state
+Event_instance: instance, event
+Eventive_affecting: entity
+Eventive_cognizer_affecting: cognizer, content, event
+Evidence: support, proposition
+Evoking: cognizer, phenomenon, stimulus
+Examination: examiner, examinee, knowledge, qualification, examination
+Exchange: exchanger 1, exchanger 2, exchangers, theme 1, theme 2, themes
+Exchange_currency: money owner, sum 1, source currency, sum 2, target currency, money
+Exclude_member: member, group, authority
+Excreting: excreta, excreter, source
+Execute_plan: plan, agent, medium
+Execution: executioner, executed
+Exemplar: instance, type
+Exemplariness: entity, comparison set
+Exercising: agent
+Existence: entity
+Expansion: item
+Expectation: cognizer, phenomenon, topic
+Expected_location_of_person: location, person
+Expend_resource: resource, agent
+Expensiveness: goods, payer, asset, intended event
+Experience_bodily_harm: body part, experiencer
+Experiencer_focus: experiencer, content, topic, event
+Experiencer_obj: experiencer, stimulus
+Experimentation: experimenter, control group, control group member, treatment group, treated individual, experiment, hypothesis, subjects, topic
+Expertise: protagonist, skill, knowledge, behavior product, focal participant, role
+Explaining_the_facts: fact, state of affairs, question
+Explosion: explosive
+Exporting: exporter, goods, importing area, exporting area
+Expressing_publicly: communicator, content, medium
+Extradition: authorities, current jurisdiction, crime jurisdiction, suspect
+Extreme_point: entity, marker
+Extreme_value: entity, attribute, value
+Facial_expression: expression, possessor, conveyed emotion
+Fairness_evaluation: actor, action, grounds, affected party
+Fall_asleep: sleeper
+Fall_for: victim, deception
+Fame: entity, reason
+Familiarity: entity, cognizer, degree
+Fastener: container, fastener, container portal
+Fear: experiencer, topic, stimulus, expressor, state
+Feeling: experiencer, emotion, emotional state, evaluation
+Feigning: agent, original, copy, state of affairs
+Fields: activity, practitioner, salient entity, work
+Fighting_activity: combatants, fight
+Filling: agent, theme, goal, cause
+Fining: speaker, payer, reason, fine
+Finish_competition: competitor, opponent, competitors, competition
+Finish_game: game, player
+Fire_break: fire break
+Fire_burning: fire, fuel
+Fire_emergency_scenario: fire
+Fire_end_scenario: fire
+Fire_going_out: fire
+Fire_stopping_scenario: agent, fire
+Firefighting: fire, firefighter
+Firing: employee, employer, position, task
+Firing_point: firing point
+First_experience: experience
+First_rank: item, limits of consideration, contrast set
+Fleeing: self mover, source, path, goal, direction
+Fluidic_motion: area, goal, path, source, fluid
+Food: food
+Food_gathering: gatherer, crop, source
+Foreign_or_domestic_country: current country, discourse salient country
+Forging: agent, forgery, standard
+Forgiveness: judge, evaluee, offense
+Forgoing: forgoer, desirable
+Forming_relationships: partner 1, partner 2, partners
+Fragmentation_scenario: whole, parts, part 1, part 2
+Freeing_from_confinement: agent, theme, location of confinement
+Frequency: event, degree, interval, time span, rate, salient entity, attribute
+Friction: theme, static object, themes
+Friendly_or_hostile: side 1, side 2, sides
+Front_for: front, illicit organization, illicit activity
+Frugality: resource controller, behavior, resource
+Fugitive: fugitive
+Fullness: container
+Function: entity, activity, role
+Funding: supplier, recipient, imposed purpose
+Gathering_up: aggregate, agent, individuals
+Gesture: communicator, addressee, message, body part, indicated entity
+Get_a_job: employee, employer, position, task
+Getting: recipient, theme
+Getting_scenario: recipient, theme
+Getting_triggered: system
+Getting_underway: self mover, source
+Getting_up: protagonist, bed
+Getting_vehicle_underway: driver, vehicle, source
+Give_impression: phenomenon, characterization, appraisal, inference
+Giving: donor, recipient, theme
+Giving_birth: mother, child, father, egg, parents
+Giving_in: capitulator, issue, compeller, force, resultant action
+Giving_scenario: donor, recipient, theme
+Gizmo: gizmo
+Go_into_shape: theme, resultant configuration
+Goal: landmark, trajector
+Going_back_on_a_commitment: protagonist, affected party, commitment
+Government_institution: institution
+Gradable_artistic_quality: entity, degree
+Gradable_attributes: entity, degree
+Gradable_proximity: ground, figure
+Graph_shape: shape, data, graph
+Grasp: cognizer, phenomenon, faculty
+Grinding: grinding cause, grinder, patient
+Grooming: agent, patient, body part
+Ground_up: patient
+Growing_food: grower, food
+Guest_and_host: host, guest, host location
+Guilt_or_innocence: accused, misdeed
+Gusto: person
+Hair_configuration: hair, possessor, configuration, hair property
+Halt: theme
+Have_as_requirement: dependent, requirement, required entity
+Have_as_translation_equivalent: source symbol, source representation, target symbol, target representation, content
+Have_associated: entity, topical entity
+Have_visitor_over: host, visitor
+Having_commercial_agreement: party 1, party 2, obligation, topic, parties
+Having_or_lacking_access: theme, useful location, barrier
+Health_response: protagonist, trigger
+Hearsay: hearer, message, topic
+Heat_potential: insulator
+Hedging: hedged content
+Heralding: communicator, individual, event, medium
+Hiding_objects: hidden object, agent, hiding place
+Hindering: protagonist, hindrance, action
+Hiring: employee, employer, task, position, field
+Historic_event: event, entity
+History: topic
+History_scenario: event
+Hit_or_miss: agent, instrument, target location
+Hit_target: target, agent
+Holding_off_on: agent, desirable action, salient entity
+Hospitality: host, guest, behavior, topic, expressor
+Hostile_encounter: side 1, side 2, sides, issue, purpose
+Hunting: hunter, food, ground
+Hunting_scenario: hunter, food, ground
+Hunting_success_or_failure: hunter, food
+Identicality: type, current instance, previous instance, previous context, set of instances
+Identity: instance
+Identity_scenario: type, instance
+Idiosyncrasy: idiosyncrasy, entity
+Image_schema: profiled region, ground
+Imitating: agent, characteristic, standard
+Immobilization: agent, patient
+Impact: impactor, impactee, impactors
+Import_export_scenario: agent, goods, importing area, exporting area
+Importance: factor, undertaking, interested party, field
+Importing: importer, goods, importing area, exporting area
+Imposing_obligation: responsible party, duty, obligator, situation, principle
+Impression: figure, audience, impression
+Imprisonment: prisoner, prison, authorities
+Improvement_or_decline: entity
+Improvised_explosive_device: bomb
+Inclination: entity
+Inclusion: total, part
+Inclusion_scenario: whole, part
+Increment: class, added set, initial set
+Indicating: communicator, unresolved referent, medium
+Indigenous_origin: entity, origin
+Individual_history: participant, events
+Ineffability: stimulus
+Infecting: infection, infected entity, infection cause
+Influencing_potential: force, entity, state of affairs
+Information: information, cognizer, topic
+Information_display: display
+Infrastructure: activity, possessor, resource, user, infrastructure
+Ingest_substance: delivery device, ingestor, substance
+Ingestion: ingestor, ingestibles
+Ingredients: material, use, product
+Inherent_purpose: apparatus, goal
+Inhibit_motion_scenario: agent, theme, holding location, cause
+Inhibit_movement: theme, holding location, agent, cause
+Inspecting: inspector, ground, unwanted entity, purpose, desired state of affairs
+Installing: agent, component, fixed location
+Instance: instance, type
+Institutionalization: patient, facility, authority
+Institutions: institution, domain
+Intentional_deception: deceiver, victim, topic
+Intentional_traversing: self mover, source, path, goal, path shape, direction
+Intentionally_act: agent
+Intentionally_affect: agent, patient
+Intentionally_create: creator, created entity
+Intercepting: interceptor, theme
+Interior_profile_relation: figure, ground, profiled region
+Interrupt_process: cause, process, actor
+Intoxicants: intoxicant
+Intoxication: cognizer, intoxicant
+Invading: land, invader
+Invasion_scenario: invader, attacked
+Irregular_combatants: combatant
+Isolated_places: place
+Judgment: cognizer, evaluee, reason, expressor
+Judgment_communication: communicator, medium, topic, evaluee, expressor, reason
+Judgment_direct_address: communicator, addressee, topic, reason, medium, expressor
+Judgment_of_intensity: entity, degree
+Judicial_body: judicial body, domain, task, jurisdiction
+Jury_deliberation: jury, charges, case, possible sentence
+Just_found_out: experiencer, topic, stimulus, expressor, state
+Justifying: agent, act, state of affairs
+Key: key, function, location, object
+Kidnapping: perpetrator, victim
+Killing: killer, victim, cause, means, instrument
+Kinship: alter, ego, relatives
+Knot_creation: agent, knot
+Knot_creation_scenario: agent, rope, knot
+Labeling: speaker, entity, label, medium
+Labor_product: agent, cause, input, output
+Launch_process: process, agent
+Law: law, forbidden, required
+Law_enforcement_agency: agency, jurisdiction
+Leadership: leader, role, governed, activity
+Leaving_traces: evidence, entity, event
+Left_to_do: process, remainder
+Legal_rulings: authority, finding, case, defendant
+Legality: action, object
+Lending: borrower, lender, theme
+Level_of_force_exertion: exerter, force, action
+Level_of_force_resistance: resisting entity, opposing force
+Level_of_light: location, source
+Light_movement: emitter, source, beam, path, goal
+Likelihood: hypothetical event
+Limitation: entity
+Limiting: agent, cause, range of options, characteristic
+Linguistic_meaning: form, meaning, referent
+Lively_place: location, activity, individuals
+Living_conditions: experiencer, condition
+Locale: locale
+Locale_by_characteristic_entity: locale, characteristic
+Locale_by_collocation: profiled region, entity
+Locale_by_event: locale
+Locale_by_ownership: locale
+Locale_by_use: locale
+Locale_closure: locale
+Locating: perceiver, sought entity, location, ground
+Location_in_time: focal time
+Location_of_light: figure, ground, light
+Location_on_path: ground, figure, profiled region
+Locative_relation: ground, figure, profiled region
+Locative_scenario: figure, ground, figures
+Lodging_scenario: host, lodger, residence
+Lose_possession: donor, theme, recipient
+Lose_possession_scenario: donor, theme
+Losing: owner, possession
+Losing_it: protagonist, action
+Losing_someone: sufferer, deceased
+Losing_track_of: perceiver, theme
+Losing_track_of_perceiver: theme, perceiver
+Losing_track_of_theme: perceiver, theme
+Luck: state of affairs, protagonist, role
+Make_acquaintance: individuals, individual 1, individual 2
+Make_agreement_on_action: party 1, party 2, obligation, topic, parties
+Make_cognitive_connection: concept 1, concept 2, cognizer, concepts
+Make_compromise: party 1, party 2, obligation, topic, parties
+Make_noise: sound source, sound, noisy event
+Making_arrangements: agent, event, scheduled time
+Making_faces: agent, body part
+Manipulate_into_doing: manipulator, victim, resulting action, goods
+Manipulate_into_shape: agent, theme
+Manipulation: agent, entity, bodypart of agent
+Manner: comparison event, salient entity, manner, manner descriptor, comparison activity
+Manner_of_life: experiencer, lifestyle, manner
+Manufacturing: producer, product, factory
+Margin_of_resolution: outcome, margin, degree
+Mass_motion: mass theme, area, source, path, goal, direction
+Mathematical_relationship: expression 1, expression 2
+Means: agent, means, purpose
+Measurable_attributes: entity, degree
+Measure_area: unit, area, count, occupant
+Measure_by_action: entity, event
+Measure_duration: count, unit, process
+Measure_linear_extent: count, stuff, unit
+Measure_mass: count, unit, stuff
+Measure_scenario: entity, attribute, value, degree, unit, count
+Measure_volume: count, stuff, unit
+Measures: count, unit, entity
+Medical_conditions: patient, ailment
+Medical_instruments: instrument
+Medical_interaction_scenario: medic, affliction, patient
+Medical_intervention: intervention, result, medical condition, medical professional
+Medical_professionals: professional
+Medical_specialties: specialty
+Medium: text, item
+Meet_specifications: agent, entity, event, standard
+Meet_with: party 1, party 2
+Meet_with_response: trigger, response
+Member_of_military: person
+Membership: member, group
+Memorization: cognizer, pattern
+Memory: cognizer, content, topic
+Mental_activity: sentient entity, content, topic, expressor
+Mental_property: protagonist, behavior, practice
+Mental_stimulus_exp_focus: experiencer, topic, stimulus, state, expressor
+Mental_stimulus_stimulus_focus: experiencer, stimulus
+Mention: communicator, message, medium, specified content
+Military: force, possessor
+Military_operation: force, area, opponent, goal
+Mining: miner, resource
+Misdeed: wrongdoer, misdeed
+Money: money
+Morality_evaluation: evaluee, behavior, expressor
+Motion: theme, source, path, goal, area, distance, direction
+Motion_directional: area, goal, path, theme, source, direction
+Motion_noise: theme, source, path, goal, area
+Motion_scenario: duration, area, cotheme, distance, goal, path, source, speed, theme, mode of transportation
+Moving_in_place: theme
+Name_conferral: entity, name, speaker
+Namesake: entity, namesake
+Natural_features: locale
+Needing: cognizer, requirement, dependent, consequences
+Negation: negated proposition, factual situation
+Negative_conditional: profiled possibility, anti consequence
+Network: network, nodes, connections
+Noise_makers: noise maker
+Non-commutative_process: term 1, term 2
+Non-commutative_statement: term 1, term 2, result
+Non-gradable_proximity: ground, figure
+Noncombatant: person
+Notability: type, name
+Notification_of_charges: arraign authority, accused, charges
+Nuclear_process: element, final element, initial element
+Objective_influence: influencing entity, dependent entity
+Obligation_scenario: responsible party, duty
+Obscurity: entity
+Obviousness: phenomenon, attribute, degree
+Occupy_rank: rank, item, dimension
+Offenses: offense, victim, perpetrator
+Offering: offerer, potential recipient, theme
+Offshoot: branch
+Omen: predictive phenomenon, future phenomenon, outcome
+Ontogeny: entity, organism, domain
+Openness: theme, useful location, barrier
+Operate_vehicle: driver, vehicle, source, path, goal, area
+Operate_vehicle_scenario: operator, vehicle, source, path, goal, area
+Operating_a_system: system, operator
+Operational_testing: tester, product, unwanted characteristics, purpose, desired state of affairs, tested property
+Opinion: cognizer, opinion
+Opportunity: opportunity, agent, desirable situation
+Optical_image: image, source
+Ordinal_numbers: type, starting point, basis of order, item, comparison set
+Organization: organization, members
+Origin: entity, origin
+Others_situation_as_stimulus: experiencer, other, situation
+Out_of_existence: entity
+Pardon: offender, authority, offense
+Part_edge: whole, part
+Part_inner_outer: part, whole
+Part_ordered_segments: ordinality, part, whole
+Part_orientational: part, whole
+Part_piece: piece, substance
+Part_whole: part, whole
+Partiality: decision maker, side 1, sides, side 2, manifestation of bias, dispute, expressor
+Participation: participants, participant 1, participant 2, event, institution
+Partitive: subset, group
+Passing: agent, theme, source, path, recipient, area, result, initial state
+Passing_off: agent, item, simulated entity
+Path_shape: source, path, goal, road, area, path shape, direction
+Path_traveled: path, theme
+Patrolling: patrol, ground, unwanted entity, purpose, desired state of affairs
+Pattern: entities
+People: person
+People_along_political_spectrum: individual
+People_by_age: person, age
+People_by_jurisdiction: person
+People_by_military_specialty: fighter
+People_by_morality: person
+People_by_origin: origin, person
+People_by_religion: person, religion
+People_by_residence: known resident, indicated resident, residents
+People_by_vocation: person
+Perception: perceiver, phenomenon
+Perception_active: perceiver agentive, phenomenon
+Perception_body: experiencer, body part
+Perception_experience: perceiver passive, phenomenon, body part
+Performers: person
+Performers_and_roles: audience, medium, performance, performer, score, script, type, role, performer1, performer2
+Performing_arts: performer, personnel, audience, performance, script, score, type, medium
+Personal_relationship: partner 1, partner 2, partners
+Personal_success: person, endeavor
+Physical_artworks: artifact
+Physical_entity: entity
+Piracy: perpetrator, vehicle, victim
+Placing: agent, theme, goal, cause
+Placing_scenario: agent, theme, goal, cause
+Planned_trajectory: theme, source, path, goal
+Planting: agent, theme, ground
+Plants: plant
+Point_of_dispute: question
+Political_actions: activists, institution, demands
+Political_locales: locale
+Popularity: evaluee
+Posing_as: agent, simulated entity
+Position_on_a_scale: item, variable
+Possession: owner, possession
+Possibility: 
+Post_getting: recipient, theme
+Post_giving: donor, theme, recipient
+Post_lose_possession: owner, possession
+Post_receiving: recipient, donor, theme
+Post_transfer: donor, theme, recipient
+Posture: agent, location, point of contact
+Practice: action, agent, occasion
+Praiseworthiness: evaluee, behavior
+Prank: prank, joker, victim
+Pre_getting: recipient, theme
+Pre_giving: donor, theme
+Pre_lose_possession: owner, possession
+Pre_receiving: recipient, donor, theme
+Pre_transfer: donor, theme
+Precariousness: theme
+Precipitation: precipitation, place, time
+Predicament: experiencer, situation
+Predicting: speaker, eventuality, medium, topic
+Preference: experiencer, event, focal participant, location of event, contrast
+Preferred_alternative_scenario: profiled possibility, positive consequence, undesirable consequence
+Preliminaries: agent, preparatory act, purpose, preparatory phase
+Presence: entity, location
+Presentation_of_mitigation: mitigating situation
+Preserving: agent, medium, patient
+Prevarication: speaker, addressee, topic
+Prevent_or_allow_possession: potential hindrance, state of affairs, agent, protagonist
+Preventing_or_letting: potential hindrance, event, agent
+Price_per_unit: product, price
+Prison: penal institution
+Probability: odds, position, hypothetical event
+Process: 
+Process_completed_state: process
+Process_continue: 
+Process_end: process
+Process_initial_state: process
+Process_pause: process
+Process_resume: process
+Process_start: 
+Process_stop: process
+Process_stopped_state: process
+Process_uncompleted_state: process
+Processing_materials: agent, alterant, material
+Procreative_sex: participants, participant 1, participant 2
+Product_delivery: deliverer, goal, goods, purchaser
+Product_development: developer, product
+Product_development_scenario: developer, entity
+Product_line: brand, collection, products, designer
+Progression: entity
+Prohibiting_or_licensing: state of affairs, principle
+Project: agent, field, activity, goal, salient entity, project
+Proliferating_in_number: set, difference, final number, initial number, initial state, final state
+Prominence: entity, attribute
+Proper_reference: entity, intended referent
+Proportion: criteria, subset, ratio
+Proportional_quantity: denoted quantity, mass, individuals, reference quantity
+Protecting: protection, danger, asset
+Protest: protester, issue, side, action
+Provide_lodging: host, lodger, residence
+Proximity_image_schema: near profiled region, ground, degree, distant profiled region
+Public_services: institution, domain, target group, service action
+Publishing: publisher, work, author
+Punctual_perception: perceiver, phenomenon, body part
+Purpose: agent, goal, means, attribute, value
+Putting_out_fire: agent, fire
+Quantified_mass: quantity, mass, individuals
+Quantity: entity, quantity, value
+Quarreling: arguers, arguer1, arguer2, issue
+Questioning: speaker, addressee, message, topic
+Quitting: employee, employer, field, position
+Quitting_a_place: self mover, source
+Race_descriptor: person
+Range: event, participant, instrument, distance
+Rank: rank, item
+Ranked_expectation: entity
+Rape: perpetrator, victim
+Rashness: protagonist, action
+Rate_description: event, rate
+Rate_quantification: event, rate, entity
+Ratification: ratifier, proposal
+Reading_activity: reader, text, topic
+Reading_aloud: addressee, speaker, text
+Reading_perception: reader, text
+Reason: agent, action, state of affairs
+Reasoning: content, arguer
+Reassuring: speaker, experiencer, message, situation
+Rebellion: rebel, current leadership, current order
+Receive_visitor_scenario: host, visitor
+Receiving: recipient, donor, theme
+Receiving_scenario: recipient, donor, theme
+Reciprocality: protagonist 1, protagonist 2, protagonists
+Recording: agent, phenomenon, attribute, value, entity
+Records: record
+Recovery: patient, affliction, body part
+Redirecting: theme, original path, path, goal, direction, agent, cause
+Reference_text: source of information
+Referring_by_name: speaker, entity, name
+Reforming_a_system: agent, entity, cause
+Regard: cognizer, evaluee, judgment
+Region_with_portal: interior, ground, surface, boundary, exterior
+Rejuvenation: entity, agent, cause
+Relating_concepts: concept 1, concept 2, evidence, concepts
+Relation: entity 1, entity 2
+Relation_between_individuals: individual 1, individual 2, individuals
+Relational_location: profiled region, ground
+Relational_natural_features: focal feature, landmark feature
+Relational_political_locales: container possessor, locale
+Relational_quantity: rate, numerator, focal entity, denominator
+Relative_time: focal occasion, landmark occasion, focal participant
+Releasing: captor, theme, location of confinement
+Releasing_from_custody: authorities, suspect, holding location
+Reliance: protagonist, benefit, intermediary, instrument, purpose, means
+Reliance_on_expectation: cognizer, expectation
+Religious_belief: believer, content, role, element
+Remainder: remainder, resource, original owner, original context
+Remembering_experience: cognizer, salient entity, experience, impression, state
+Remembering_information: cognizer, mental content
+Remembering_to_do: cognizer, action, salient entity
+Removing: agent, theme, source, cause
+Removing_scenario: agent, theme, source, cause
+Render_nonfunctional: agent, artifact, cause
+Renting: lessee, goods
+Renting_out: lessee, goods, lessor
+Renunciation: speaker, content, medium
+Reparation: injured party, injury, wrongdoer, benefiting action, gift
+Repayment: loaner, debtor, money, loan
+Repel: enemy, defender, invasion act
+Replacing: agent, new, old
+Reporting: informer, wrongdoer, authorities, behavior
+Representative: representative
+Representing: phenomenon, entity
+Request: speaker, addressee, message, medium
+Request_entity: customer, entity, supplier
+Required_event: required situation
+Requirement_scenario: dependent, requirement, required entity
+Rescuing: agent, patient, asset, harmful situation
+Research: researcher, question, topic
+Reserving: client, services, organization, scheduled time, booker
+Reshaping: deformer, patient, cause, configuration
+Residence: resident, location, co resident
+Resolve_problem: agent, problem, cause
+Respond_to_proposal: speaker, interlocutor, proposal
+Response: responding entity, trigger, agent
+Response_scenario: responding entity, trigger, response, agent
+Responsibility: agent
+Rest: part, rest, whole
+Result_of_attempt_scenario: agent, goal, role
+Resurrection: protagonist
+Retaining: agent, theme
+Reveal_secret: speaker, information, topic, medium
+Revenge: avenger, offender, punishment, injury, injured party
+Revolution: agent, current leadership, current order
+Rewards_and_punishments: evaluee, reason, agent
+Ride_vehicle: theme, vehicle, source, path, goal, area
+Rising_to_a_challenge: protagonist, activity
+Risk_scenario: asset, harmful event, situation
+Risky_situation: situation, asset, dangerous entity
+Rite: leader, member, organization, instrument, desired state of affairs, type, object, new status, guardian
+Roadways: roadway
+Robbery: perpetrator, victim, source
+Rope_manipulation: agent, rope, knot
+Rotting: patient
+Run_risk: protagonist, bad outcome, asset, action
+Sacrificing_for: agent, asset, benefit
+Satisfying: agent, entity, event, standard
+Scarcity: collection, quantity, place
+Scheduling: agent, event, scheduled time
+Scope: event, salient entity
+Scouring: searcher, ground, sought entity
+Scrutinizing_for: cognizer, ground, phenomenon
+Scrutiny: cognizer, ground, medium, instrument
+Searching_scenario: cognizer, ground, phenomenon
+Secrecy_status: phenomenon
+See_through: cognizer, state of affairs, focal entity, means, medium, topic
+Seeking: cognizer agent, sought entity
+Seeking_to_achieve: agent, sought entity, state of affairs
+Self_control: agent, event
+Self_motion: self mover, source, path, goal, area, direction
+Sending: sender, goal, theme, transport means, recipient
+Sensation: perceiver passive, source, percept, body part, ground
+Sent_items: sent item
+Sentencing: convict, court, sentence, term of sentence, offense
+Separating: whole, parts, part 1, part 2, agent, cause
+Sequence: entity 1, entity 2, entities
+Serving_in_capacity: agent, role
+Set_of_interrelated_entities: component entities, complex
+Set_relation: superset, subset
+Setting_back_burn: firefighter, flame, flammables
+Setting_fire: kindler, flame, flammables, cause
+Setting_out: self mover, source
+Severity_of_offense: offense
+Sex: participants, participant 1, participant 2
+Sexual_reproduction_scenario: parents, father, mother, offspring
+Shaped_part: part, whole
+Shapes: substance, shape
+Sharing: protagonists, protagonist 1, protagonist 2, entity
+Sharpness: entity, attribute, degree
+Shoot_projectiles: projectile, agent
+Shooting_scenario: projectile, agent
+Shopping: shopper, goods
+Short_selling: lender, assets, intermediary, market
+Sidereal_appearance: astronomical entity
+Sign: indicator, indicated
+Sign_agreement: signatory, signature, agreement
+Silencing: agent, speaker, expressor
+Similarity: entities, entity 1, entity 2, dimension, differentiating fact
+Simple_name: term, entity
+Simple_naming: entity, term, speaker
+Simultaneity: profiled event, landmark event
+Size: entity
+Sleep: sleeper
+Sleep_wake_cycle: duration, sleeper
+Smuggling: perpetrator, goods, source, path, goal
+Soaking: agent, theme, medium
+Soaking_up: item, substance
+Sociability: protagonist, company, content
+Social_behavior_evaluation: behavior, individual
+Social_connection: individuals, individual 1, individual 2, connection
+Social_desirability: evaluee
+Social_event: attendee
+Social_event_collective: attendees
+Social_event_individuals: party 1, party 2
+Social_interaction_evaluation: evaluee, affected party, behavior, topic, expressor
+Socially_significant_history_scenario: event
+Sole_instance: item, type
+Sound_level: entity, attribute, degree
+Sound_movement: sound, location of sound source, path, sound source, goal
+Sounds: sound source
+Source_of_getting: theme, source, goal
+Source_path_goal: trajector, source, path, goal, means
+Spatial_co-location: ground, figure
+Spatial_contact: ground, figure
+Speak_on_topic: audience, speaker, topic
+Specific_individual: type, instance
+Speed_description: entity, attribute, speed, degree
+Spelling_and_pronouncing: speaker, sign, judgment, formal realization, part of form, manner
+Sports_jargon: agent
+Stage_of_progress: entity
+Standing_by: protagonist, salient entity, expected request, activity
+State: entity
+State_continue: entity
+State_of_entity: entity
+Statement: speaker, message, topic, medium
+Stimulus_focus: stimulus
+Stinginess: resource controller, resource, recipient, behavior, expressor
+Store: supply, resource, use, possessor
+Storing: agent, theme, location
+Strictness: agent, controlled entity, controlling act, issue, medium, expressor
+Studying: teacher, student, institution, subject
+Suasion: addressee, speaker, content, text, topic
+Subjective_influence: cognizer, situation, entity, action, behavior, product, agent
+Subjective_temperature: experiencer, body part
+Submitting_documents: submittor, authority, documents
+Subordinates_and_superiors: superior, subordinate
+Subsisting: entity, support
+Substance: substance
+Substance_by_phase: substance
+Subversion: cause, counter actor, agent, activity, state of affairs
+Success_or_failure: agent
+Successful_action: means, goal, instrument, role
+Successfully_communicate_message: communicator, addressee, message, medium
+Sufficiency: item, scale, enabled situation
+Suicide_attack: victim, assailant
+Suitability: evaluee, purpose, user
+Summarizing: communicator, state of affairs, medium
+Supply: supplier, recipient, theme, imposed purpose
+Supporting: supporter, supported
+Surpassing: standard item, profiled item, attribute, standard attribute, profiled attribute
+Surrendering: fugitive, authorities
+Surrendering_possession: surrenderer, recipient, theme
+Surrounding: figure, ground, profiled region
+Surviving: survivor, dangerous situation
+Suspicion: authority, suspect, incident
+Symmetrical_collective_reciprocality: protagonists
+System: component entities, complex, function, salient entity
+System_complexity: system
+Take_place_of: new, role, function, old
+Taking: agent, theme, source
+Taking_captive: captive, agent, cause
+Taking_sides: cognizer, issue, side, action
+Taking_time: activity, time length, degree, agent
+Talking_into: speaker, content, addressee
+Tasting: agent, food
+Team: members, team, activity
+Telling: speaker, addressee, message, topic, medium
+Temperature: entity, attribute, temperature, degree
+Temporal_collocation: trajector entity, landmark event, trajector period, landmark period, trajector event, landmark entity
+Temporal_pattern: process, subevent, pattern
+Temporal_subregion: subpart, time period
+Temporary_group: temporary group, members, parent organization
+Temporary_leave: person, activity, duration
+Temporary_stay: guest, location, duration, host
+Temporary_transfer_scenario: theme, lender, borrower
+Terms_of_agreement: agreement, regulated entity, requirements, desired state of affairs, party
+Terrorism: terrorist, act, victim
+Text: text
+Text_creation: author, text
+Theft: perpetrator, victim, goods, source
+Thermodynamic_phase: matter, phase
+Thriving: entity, desirability
+Thwarting: preventing cause, protagonist, action
+Time_period_of_action: enabled action, duration, agent
+Time_vector: landmark event, distance, direction, event
+Timespan: duration, state
+Timetable: timetable, events, cognizer
+Tolerating: experiencer, content, topic, state, event
+Tool_purpose: purpose, tool
+Topic: topic, text, communicator
+Touring: tourist, attraction
+Toxic_substance: victim, toxic substance, toxin source
+Transfer: recipient, theme, donor, transferors
+Transfer_scenario: recipient, theme, donor, transferors
+Transition_to_a_quality: entity
+Transition_to_a_situation: entity
+Transition_to_state: entity
+Transitive_action: agent, patient
+Translating: cognizer, source symbol, source representation, target symbol, target representation, content
+Transportation_status: rider
+Trap: trap, deceiver, victim
+Travel: area, goal, path, traveler, source, mode of transportation, direction
+Traversing: theme, source, path, goal, distance, area, path shape, direction
+Treating_and_mistreating: agent, manner, affected party
+Trendiness: behavior, evaluee
+Trial: charges, court, defense, jury, prosecution, defendant, judge, case
+Triggering: cause, system, actor
+Trust: cognizer, expressor, information source, information
+Try_defendant: judge, defendant, jury, charges, governing authority
+Trying_out: evaluator, experience, entity, purpose
+Turning_out: state of affairs
+Type: subtype, category
+Typicality: state of affairs, feature
+Unattributed_information: reported fact
+Undergo_change: entity, final category, initial category
+Undergo_transformation: entity, final category, initial category
+Undergoing: entity
+Undergoing_scenario: entity, event
+Undressing: wearer, clothing
+Unemployment_rate: individuals, employment, value, degree
+Use_firearm: agent, firearm
+Use_vehicle: theme, vehicle, source, path, goal, area, driver
+Used_up: resource
+Usefulness: entity, purpose
+Using: agent, purpose, instrument
+Using_resource: agent, resource, purpose, portion, means
+Vehicle: vehicle
+Vehicle_departure_initial_stage: vehicle, source
+Vehicle_landing: vehicle, goal
+Vehicle_subpart: part, whole
+Verdict: judge, finding, defendant, charges, case
+Verification: inspector, unconfirmed content, medium
+Version_sequence: item
+Victim_operated_IED: bomb, victim
+Violence: aggressor, victim, cause, aggressors
+Visit_host: visitor, host, host location
+Visit_host_arrival: visitor, host, host location
+Visit_host_departure: visitor, host location, host
+Visit_host_stay: visitor, host, host location
+Visiting: agent, entity
+Visiting_scenario: agent
+Visiting_scenario_arrival: agent, goal
+Visiting_scenario_departing: agent, source
+Visiting_scenario_stay: agent, entity
+Visitor_and_host: visitor, host, host location
+Visitor_arrival: agent, goal
+Visitor_departure: agent, source
+Visitor_scenario: agent, entity
+Vocalizations: sound source
+Volubility: speaker, text, topic
+Wagering: gambler, asset, outcome, uncertain situation
+Waiting: protagonist, salient entity, expected event
+Waking_up: sleeper, sleep state
+Want_suspect: suspect
+Warning: speaker, addressee, message, topic, medium
+Waver_between_options: cognizer, options, issue, option 1, option 2
+Wealthiness: person, institution
+Weapon: weapon
+Wearing: wearer, clothing, body part
+Weather: place, time
+Wholes_and_parts: whole, part
+Willingness: cognizer, activity
+Win_prize: competitor, prize
+Withdraw_from_participation: participant, activity, organization
+Within_distance: ground, figure, distance
+Word_relations: sign 1, sign 2, signs
+Work: agent, goal, salient entity
+Working_a_post: agent, post, salient entity
