@@ -1,0 +1,1007 @@
+Greek Russian > Sanskrit
+Greek 0% 13% True
+Russian 0% 17% True
+ 
+Greek Russian > German
+Greek 26% 17% False
+Russian 9% 13% True
+ 
+Greek Russian > Spanish
+Greek 13% 26% True
+Russian 9% 17% True
+ 
+Greek Russian > Italian
+Greek 17% 9% False
+Russian 13% 22% True
+ 
+Greek Russian > French
+Greek 17% 9% False
+Russian 9% 17% True
+ 
+Greek Russian > Irish
+Greek 0% 9% True
+Russian 9% 9% False
+ 
+Greek Russian > English
+Greek 9% 0% False
+Russian 13% 0% False
+ 
+Greek Sanskrit > Russian
+Greek 17% 9% False
+Sanskrit 17% 22% True
+ 
+Greek Sanskrit > German
+Greek 13% 17% True
+Sanskrit 4% 4% False
+ 
+Greek Sanskrit > Spanish
+Greek 30% 26% False
+Sanskrit 9% 13% True
+ 
+Greek Sanskrit > Italian
+Greek 9% 9% False
+Sanskrit 22% 13% False
+ 
+Greek Sanskrit > French
+Greek 13% 9% False
+Sanskrit 13% 13% False
+ 
+Greek Sanskrit > Irish
+Greek 9% 9% False
+Sanskrit 13% 4% False
+ 
+Greek Sanskrit > English
+Greek 0% 0% False
+Sanskrit 4% 4% False
+ 
+Greek German > Russian
+Greek 4% 9% True
+German 13% 13% False
+ 
+Greek German > Sanskrit
+Greek 9% 13% True
+German 4% 4% False
+ 
+Greek German > Spanish
+Greek 26% 26% False
+German 9% 22% True
+ 
+Greek German > Italian
+Greek 13% 9% False
+German 13% 22% True
+ 
+Greek German > French
+Greek 9% 9% False
+German 13% 4% False
+ 
+Greek German > Irish
+Greek 13% 9% False
+German 9% 17% True
+ 
+Greek German > English
+Greek 13% 0% False
+German 22% 30% True
+ 
+Greek Spanish > Russian
+Greek 13% 9% False
+Spanish 17% 17% False
+ 
+Greek Spanish > Sanskrit
+Greek 0% 13% True
+Spanish 22% 22% False
+ 
+Greek Spanish > German
+Greek 9% 17% True
+Spanish 26% 17% False
+ 
+Greek Spanish > Italian
+Greek 17% 9% False
+Spanish 48% 57% True
+ 
+Greek Spanish > French
+Greek 4% 9% True
+Spanish 30% 35% True
+ 
+Greek Spanish > Irish
+Greek 0% 9% True
+Spanish 9% 4% False
+ 
+Greek Spanish > English
+Greek 4% 0% False
+Spanish 13% 13% False
+ 
+Greek Italian > Russian
+Greek 0% 9% True
+Italian 17% 17% False
+ 
+Greek Italian > Sanskrit
+Greek 13% 13% False
+Italian 13% 17% True
+ 
+Greek Italian > German
+Greek 13% 17% True
+Italian 13% 13% False
+ 
+Greek Italian > Spanish
+Greek 30% 26% False
+Italian 26% 52% True
+ 
+Greek Italian > French
+Greek 0% 9% True
+Italian 30% 35% True
+ 
+Greek Italian > Irish
+Greek 9% 9% False
+Italian 4% 0% False
+ 
+Greek Italian > English
+Greek 4% 0% False
+Italian 9% 4% False
+ 
+Greek French > Russian
+Greek 17% 9% False
+French 9% 13% True
+ 
+Greek French > Sanskrit
+Greek 13% 13% False
+French 13% 4% False
+ 
+Greek French > German
+Greek 13% 17% True
+French 9% 13% True
+ 
+Greek French > Spanish
+Greek 26% 26% False
+French 22% 35% True
+ 
+Greek French > Italian
+Greek 13% 9% False
+French 13% 35% True
+ 
+Greek French > Irish
+Greek 13% 9% False
+French 17% 13% False
+ 
+Greek French > English
+Greek 9% 0% False
+French 0% 9% True
+ 
+Greek Irish > Russian
+Greek 4% 9% True
+Irish 17% 9% False
+ 
+Greek Irish > Sanskrit
+Greek 9% 13% True
+Irish 9% 0% False
+ 
+Greek Irish > German
+Greek 17% 17% False
+Irish 13% 22% True
+ 
+Greek Irish > Spanish
+Greek 30% 26% False
+Irish 13% 9% False
+ 
+Greek Irish > Italian
+Greek 13% 9% False
+Irish 13% 13% False
+ 
+Greek Irish > French
+Greek 4% 9% True
+Irish 26% 22% False
+ 
+Greek Irish > English
+Greek 4% 0% False
+Irish 0% 4% True
+ 
+Greek English > Russian
+Greek 17% 9% False
+English 13% 17% True
+ 
+Greek English > Sanskrit
+Greek 9% 13% True
+English 4% 0% False
+ 
+Greek English > German
+Greek 22% 17% False
+English 13% 26% True
+ 
+Greek English > Spanish
+Greek 17% 26% True
+English 4% 4% False
+ 
+Greek English > Italian
+Greek 17% 9% False
+English 9% 4% False
+ 
+Greek English > French
+Greek 4% 9% True
+English 9% 9% False
+ 
+Greek English > Irish
+Greek 4% 9% True
+English 13% 4% False
+ 
+Russian Sanskrit > Greek
+Russian 4% 4% False
+Sanskrit 4% 13% True
+ 
+Russian Sanskrit > German
+Russian 9% 13% True
+Sanskrit 4% 4% False
+ 
+Russian Sanskrit > Spanish
+Russian 13% 17% True
+Sanskrit 4% 13% True
+ 
+Russian Sanskrit > Italian
+Russian 9% 22% True
+Sanskrit 9% 13% True
+ 
+Russian Sanskrit > French
+Russian 9% 17% True
+Sanskrit 13% 13% False
+ 
+Russian Sanskrit > Irish
+Russian 4% 9% True
+Sanskrit 9% 4% False
+ 
+Russian Sanskrit > English
+Russian 13% 0% False
+Sanskrit 4% 4% False
+ 
+Russian German > Greek
+Russian 4% 4% False
+German 4% 13% True
+ 
+Russian German > Sanskrit
+Russian 13% 17% True
+German 0% 4% True
+ 
+Russian German > Spanish
+Russian 22% 17% False
+German 9% 22% True
+ 
+Russian German > Italian
+Russian 22% 22% False
+German 9% 22% True
+ 
+Russian German > French
+Russian 9% 17% True
+German 4% 4% False
+ 
+Russian German > Irish
+Russian 13% 9% False
+German 13% 17% True
+ 
+Russian German > English
+Russian 4% 0% False
+German 22% 30% True
+ 
+Russian Spanish > Greek
+Russian 9% 4% False
+Spanish 4% 17% True
+ 
+Russian Spanish > Sanskrit
+Russian 13% 17% True
+Spanish 0% 22% True
+ 
+Russian Spanish > German
+Russian 4% 13% True
+Spanish 13% 17% True
+ 
+Russian Spanish > Italian
+Russian 17% 22% True
+Spanish 43% 57% True
+ 
+Russian Spanish > French
+Russian 9% 17% True
+Spanish 35% 35% False
+ 
+Russian Spanish > Irish
+Russian 9% 9% False
+Spanish 0% 4% True
+ 
+Russian Spanish > English
+Russian 13% 0% False
+Spanish 26% 13% False
+ 
+Russian Italian > Greek
+Russian 13% 4% False
+Italian 0% 17% True
+ 
+Russian Italian > Sanskrit
+Russian 4% 17% True
+Italian 13% 17% True
+ 
+Russian Italian > German
+Russian 17% 13% False
+Italian 13% 13% False
+ 
+Russian Italian > Spanish
+Russian 22% 17% False
+Italian 35% 52% True
+ 
+Russian Italian > French
+Russian 17% 17% False
+Italian 22% 35% True
+ 
+Russian Italian > Irish
+Russian 17% 9% False
+Italian 4% 0% False
+ 
+Russian Italian > English
+Russian 9% 0% False
+Italian 9% 4% False
+ 
+Russian French > Greek
+Russian 9% 4% False
+French 9% 9% False
+ 
+Russian French > Sanskrit
+Russian 4% 17% True
+French 9% 4% False
+ 
+Russian French > German
+Russian 9% 13% True
+French 17% 13% False
+ 
+Russian French > Spanish
+Russian 13% 17% True
+French 26% 35% True
+ 
+Russian French > Italian
+Russian 22% 22% False
+French 35% 35% False
+ 
+Russian French > Irish
+Russian 13% 9% False
+French 4% 13% True
+ 
+Russian French > English
+Russian 4% 0% False
+French 4% 9% True
+ 
+Russian Irish > Greek
+Russian 9% 4% False
+Irish 9% 9% False
+ 
+Russian Irish > Sanskrit
+Russian 13% 17% True
+Irish 4% 0% False
+ 
+Russian Irish > German
+Russian 17% 13% False
+Irish 22% 22% False
+ 
+Russian Irish > Spanish
+Russian 22% 17% False
+Irish 9% 9% False
+ 
+Russian Irish > Italian
+Russian 22% 22% False
+Irish 17% 13% False
+ 
+Russian Irish > French
+Russian 17% 17% False
+Irish 9% 22% True
+ 
+Russian Irish > English
+Russian 4% 0% False
+Irish 13% 4% False
+ 
+Russian English > Greek
+Russian 0% 4% True
+English 9% 0% False
+ 
+Russian English > Sanskrit
+Russian 17% 17% False
+English 4% 0% False
+ 
+Russian English > German
+Russian 9% 13% True
+English 17% 26% True
+ 
+Russian English > Spanish
+Russian 13% 17% True
+English 13% 4% False
+ 
+Russian English > Italian
+Russian 17% 22% True
+English 9% 4% False
+ 
+Russian English > French
+Russian 13% 17% True
+English 9% 9% False
+ 
+Russian English > Irish
+Russian 4% 9% True
+English 13% 4% False
+ 
+Sanskrit German > Greek
+Sanskrit 13% 13% False
+German 9% 13% True
+ 
+Sanskrit German > Russian
+Sanskrit 17% 22% True
+German 9% 13% True
+ 
+Sanskrit German > Spanish
+Sanskrit 22% 13% False
+German 17% 22% True
+ 
+Sanskrit German > Italian
+Sanskrit 13% 13% False
+German 26% 22% False
+ 
+Sanskrit German > French
+Sanskrit 13% 13% False
+German 13% 4% False
+ 
+Sanskrit German > Irish
+Sanskrit 4% 4% False
+German 9% 17% True
+ 
+Sanskrit German > English
+Sanskrit 4% 4% False
+German 17% 30% True
+ 
+Sanskrit Spanish > Greek
+Sanskrit 4% 13% True
+Spanish 9% 17% True
+ 
+Sanskrit Spanish > Russian
+Sanskrit 17% 22% True
+Spanish 13% 17% True
+ 
+Sanskrit Spanish > German
+Sanskrit 4% 4% False
+Spanish 17% 17% False
+ 
+Sanskrit Spanish > Italian
+Sanskrit 17% 13% False
+Spanish 48% 57% True
+ 
+Sanskrit Spanish > French
+Sanskrit 13% 13% False
+Spanish 35% 35% False
+ 
+Sanskrit Spanish > Irish
+Sanskrit 13% 4% False
+Spanish 4% 4% False
+ 
+Sanskrit Spanish > English
+Sanskrit 13% 4% False
+Spanish 13% 13% False
+ 
+Sanskrit Italian > Greek
+Sanskrit 13% 13% False
+Italian 17% 17% False
+ 
+Sanskrit Italian > Russian
+Sanskrit 26% 22% False
+Italian 17% 17% False
+ 
+Sanskrit Italian > German
+Sanskrit 9% 4% False
+Italian 13% 13% False
+ 
+Sanskrit Italian > Spanish
+Sanskrit 9% 13% True
+Italian 30% 52% True
+ 
+Sanskrit Italian > French
+Sanskrit 4% 13% True
+Italian 30% 35% True
+ 
+Sanskrit Italian > Irish
+Sanskrit 13% 4% False
+Italian 13% 0% False
+ 
+Sanskrit Italian > English
+Sanskrit 13% 4% False
+Italian 17% 4% False
+ 
+Sanskrit French > Greek
+Sanskrit 9% 13% True
+French 9% 9% False
+ 
+Sanskrit French > Russian
+Sanskrit 13% 22% True
+French 4% 13% True
+ 
+Sanskrit French > German
+Sanskrit 4% 4% False
+French 13% 13% False
+ 
+Sanskrit French > Spanish
+Sanskrit 9% 13% True
+French 26% 35% True
+ 
+Sanskrit French > Italian
+Sanskrit 22% 13% False
+French 26% 35% True
+ 
+Sanskrit French > Irish
+Sanskrit 13% 4% False
+French 9% 13% True
+ 
+Sanskrit French > English
+Sanskrit 9% 4% False
+French 26% 9% False
+ 
+Sanskrit Irish > Greek
+Sanskrit 4% 13% True
+Irish 4% 9% True
+ 
+Sanskrit Irish > Russian
+Sanskrit 9% 22% True
+Irish 9% 9% False
+ 
+Sanskrit Irish > German
+Sanskrit 13% 4% False
+Irish 22% 22% False
+ 
+Sanskrit Irish > Spanish
+Sanskrit 13% 13% False
+Irish 0% 9% True
+ 
+Sanskrit Irish > Italian
+Sanskrit 4% 13% True
+Irish 13% 13% False
+ 
+Sanskrit Irish > French
+Sanskrit 17% 13% False
+Irish 22% 22% False
+ 
+Sanskrit Irish > English
+Sanskrit 4% 4% False
+Irish 4% 4% False
+ 
+Sanskrit English > Greek
+Sanskrit 4% 13% True
+English 9% 0% False
+ 
+Sanskrit English > Russian
+Sanskrit 22% 22% False
+English 4% 17% True
+ 
+Sanskrit English > German
+Sanskrit 4% 4% False
+English 22% 26% True
+ 
+Sanskrit English > Spanish
+Sanskrit 13% 13% False
+English 13% 4% False
+ 
+Sanskrit English > Italian
+Sanskrit 13% 13% False
+English 4% 4% False
+ 
+Sanskrit English > French
+Sanskrit 13% 13% False
+English 13% 9% False
+ 
+Sanskrit English > Irish
+Sanskrit 4% 4% False
+English 9% 4% False
+ 
+German Spanish > Greek
+German 0% 13% True
+Spanish 9% 17% True
+ 
+German Spanish > Russian
+German 9% 13% True
+Spanish 9% 17% True
+ 
+German Spanish > Sanskrit
+German 0% 4% True
+Spanish 13% 22% True
+ 
+German Spanish > Italian
+German 9% 22% True
+Spanish 48% 57% True
+ 
+German Spanish > French
+German 9% 4% False
+Spanish 35% 35% False
+ 
+German Spanish > Irish
+German 17% 17% False
+Spanish 9% 4% False
+ 
+German Spanish > English
+German 35% 30% False
+Spanish 9% 13% True
+ 
+German Italian > Greek
+German 4% 13% True
+Italian 17% 17% False
+ 
+German Italian > Russian
+German 9% 13% True
+Italian 17% 17% False
+ 
+German Italian > Sanskrit
+German 0% 4% True
+Italian 13% 17% True
+ 
+German Italian > Spanish
+German 4% 22% True
+Italian 22% 52% True
+ 
+German Italian > French
+German 9% 4% False
+Italian 13% 35% True
+ 
+German Italian > Irish
+German 4% 17% True
+Italian 9% 0% False
+ 
+German Italian > English
+German 35% 30% False
+Italian 9% 4% False
+ 
+German French > Greek
+German 0% 13% True
+French 9% 9% False
+ 
+German French > Russian
+German 13% 13% False
+French 9% 13% True
+ 
+German French > Sanskrit
+German 0% 4% True
+French 0% 4% True
+ 
+German French > Spanish
+German 13% 22% True
+French 22% 35% True
+ 
+German French > Italian
+German 13% 22% True
+French 35% 35% False
+ 
+German French > Irish
+German 22% 17% False
+French 17% 13% False
+ 
+German French > English
+German 22% 30% True
+French 4% 9% True
+ 
+German Irish > Greek
+German 13% 13% False
+Irish 13% 9% False
+ 
+German Irish > Russian
+German 13% 13% False
+Irish 9% 9% False
+ 
+German Irish > Sanskrit
+German 13% 4% False
+Irish 0% 0% False
+ 
+German Irish > Spanish
+German 17% 22% True
+Irish 4% 9% True
+ 
+German Irish > Italian
+German 17% 22% True
+Irish 9% 13% True
+ 
+German Irish > French
+German 9% 4% False
+Irish 9% 22% True
+ 
+German Irish > English
+German 22% 30% True
+Irish 9% 4% False
+ 
+German English > Greek
+German 13% 13% False
+English 0% 0% False
+ 
+German English > Russian
+German 13% 13% False
+English 13% 17% True
+ 
+German English > Sanskrit
+German 0% 4% True
+English 0% 0% False
+ 
+German English > Spanish
+German 9% 22% True
+English 9% 4% False
+ 
+German English > Italian
+German 22% 22% False
+English 9% 4% False
+ 
+German English > French
+German 13% 4% False
+English 9% 9% False
+ 
+German English > Irish
+German 4% 17% True
+English 13% 4% False
+ 
+Spanish Italian > Greek
+Spanish 17% 17% False
+Italian 9% 17% True
+ 
+Spanish Italian > Russian
+Spanish 13% 17% True
+Italian 13% 17% True
+ 
+Spanish Italian > Sanskrit
+Spanish 9% 22% True
+Italian 17% 17% False
+ 
+Spanish Italian > German
+Spanish 13% 17% True
+Italian 13% 13% False
+ 
+Spanish Italian > French
+Spanish 35% 35% False
+Italian 17% 35% True
+ 
+Spanish Italian > Irish
+Spanish 9% 4% False
+Italian 9% 0% False
+ 
+Spanish Italian > English
+Spanish 13% 13% False
+Italian 4% 4% False
+ 
+Spanish French > Greek
+Spanish 22% 17% False
+French 4% 9% True
+ 
+Spanish French > Russian
+Spanish 9% 17% True
+French 0% 13% True
+ 
+Spanish French > Sanskrit
+Spanish 13% 22% True
+French 9% 4% False
+ 
+Spanish French > German
+Spanish 4% 17% True
+French 13% 13% False
+ 
+Spanish French > Italian
+Spanish 39% 57% True
+French 13% 35% True
+ 
+Spanish French > Irish
+Spanish 9% 4% False
+French 9% 13% True
+ 
+Spanish French > English
+Spanish 4% 13% True
+French 4% 9% True
+ 
+Spanish Irish > Greek
+Spanish 4% 17% True
+Irish 4% 9% True
+ 
+Spanish Irish > Russian
+Spanish 13% 17% True
+Irish 17% 9% False
+ 
+Spanish Irish > Sanskrit
+Spanish 17% 22% True
+Irish 0% 0% False
+ 
+Spanish Irish > German
+Spanish 9% 17% True
+Irish 13% 22% True
+ 
+Spanish Irish > Italian
+Spanish 30% 57% True
+Irish 0% 13% True
+ 
+Spanish Irish > French
+Spanish 30% 35% True
+Irish 4% 22% True
+ 
+Spanish Irish > English
+Spanish 17% 13% False
+Irish 4% 4% False
+ 
+Spanish English > Greek
+Spanish 17% 17% False
+English 13% 0% False
+ 
+Spanish English > Russian
+Spanish 13% 17% True
+English 9% 17% True
+ 
+Spanish English > Sanskrit
+Spanish 13% 22% True
+English 13% 0% False
+ 
+Spanish English > German
+Spanish 9% 17% True
+English 22% 26% True
+ 
+Spanish English > Italian
+Spanish 35% 57% True
+English 22% 4% False
+ 
+Spanish English > French
+Spanish 26% 35% True
+English 9% 9% False
+ 
+Spanish English > Irish
+Spanish 9% 4% False
+English 4% 4% False
+ 
+Italian French > Greek
+Italian 17% 17% False
+French 13% 9% False
+ 
+Italian French > Russian
+Italian 13% 17% True
+French 4% 13% True
+ 
+Italian French > Sanskrit
+Italian 13% 17% True
+French 4% 4% False
+ 
+Italian French > German
+Italian 4% 13% True
+French 17% 13% False
+ 
+Italian French > Spanish
+Italian 35% 52% True
+French 13% 35% True
+ 
+Italian French > Irish
+Italian 0% 0% False
+French 17% 13% False
+ 
+Italian French > English
+Italian 9% 4% False
+French 22% 9% False
+ 
+Italian Irish > Greek
+Italian 17% 17% False
+Irish 4% 9% True
+ 
+Italian Irish > Russian
+Italian 4% 17% True
+Irish 9% 9% False
+ 
+Italian Irish > Sanskrit
+Italian 13% 17% True
+Irish 4% 0% False
+ 
+Italian Irish > German
+Italian 17% 13% False
+Irish 22% 22% False
+ 
+Italian Irish > Spanish
+Italian 43% 52% True
+Irish 4% 9% True
+ 
+Italian Irish > French
+Italian 17% 35% True
+Irish 9% 22% True
+ 
+Italian Irish > English
+Italian 26% 4% False
+Irish 9% 4% False
+ 
+Italian English > Greek
+Italian 4% 17% True
+English 0% 0% False
+ 
+Italian English > Russian
+Italian 22% 17% False
+English 17% 17% False
+ 
+Italian English > Sanskrit
+Italian 13% 17% True
+English 4% 0% False
+ 
+Italian English > German
+Italian 22% 13% False
+English 26% 26% False
+ 
+Italian English > Spanish
+Italian 17% 52% True
+English 13% 4% False
+ 
+Italian English > French
+Italian 22% 35% True
+English 4% 9% True
+ 
+Italian English > Irish
+Italian 0% 0% False
+English 4% 4% False
+ 
+French Irish > Greek
+French 4% 9% True
+Irish 13% 9% False
+ 
+French Irish > Russian
+French 0% 13% True
+Irish 13% 9% False
+ 
+French Irish > Sanskrit
+French 9% 4% False
+Irish 9% 0% False
+ 
+French Irish > German
+French 4% 13% True
+Irish 22% 22% False
+ 
+French Irish > Spanish
+French 22% 35% True
+Irish 9% 9% False
+ 
+French Irish > Italian
+French 30% 35% True
+Irish 22% 13% False
+ 
+French Irish > English
+French 9% 9% False
+Irish 4% 4% False
+ 
+French English > Greek
+French 0% 9% True
+English 0% 0% False
+ 
+French English > Russian
+French 13% 13% False
+English 13% 17% True
+ 
+French English > Sanskrit
+French 4% 4% False
+English 0% 0% False
+ 
+French English > German
+French 4% 13% True
+English 17% 26% True
+ 
+French English > Spanish
+French 35% 35% False
+English 4% 4% False
+ 
+French English > Italian
+French 30% 35% True
+English 4% 4% False
+ 
+French English > Irish
+French 4% 13% True
+English 13% 4% False
+ 
+Irish English > Greek
+Irish 9% 9% False
+English 13% 0% False
+ 
+Irish English > Russian
+Irish 9% 9% False
+English 4% 17% True
+ 
+Irish English > Sanskrit
+Irish 0% 0% False
+English 0% 0% False
+ 
+Irish English > German
+Irish 17% 22% True
+English 35% 26% False
+ 
+Irish English > Spanish
+Irish 17% 9% False
+English 4% 4% False
+ 
+Irish English > Italian
+Irish 13% 13% False
+English 13% 4% False
+ 
+Irish English > French
+Irish 22% 22% False
+English 4% 9% True

@@ -1,0 +1,88 @@
+#!/bin/sh
+
+test_phonemes() {
+	TEST_LANG=$1
+	EXPECTED=$2
+	TEST_TEXT=$3
+
+	echo "testing ${TEST_LANG} \"${TEST_TEXT}\""
+	ESPEAK_DATA_PATH=`pwd` LD_LIBRARY_PATH=src:${LD_LIBRARY_PATH} \
+		src/espeak-ng -xq -v ${TEST_LANG} "${TEST_TEXT}" > actual.txt
+	echo "${EXPECTED}" > expected.txt
+	diff expected.txt actual.txt || exit 1
+}
+
+# word lookup
+test_phonemes en "h@l'oU" "hello"
+
+# correct word stress
+test_phonemes en "s'VmTIN Imp'o@t@nt" "something important"
+
+# suffix rules
+test_phonemes lv \
+	"nev'ie:na nuo\`_ 'eiRo:pas v'alsti:m nek,ad nav p'a:Rga:jusi nuo\`_ 'univERsa:la:s_:_: nuo\` v'ispa:Re:jiem n'uoduok_|l^iem f'inanse:tas_:_: s'iste:mas uz 'obliga:ta:s 'apdRuoSina:Sanas s'iste:mu b'eigas" \
+	"Neviena no Eiropas valstīm nekad nav pārgājusi no universālās (no vispārējiem nodokļiem finansētas) sistēmas uz obligātās apdrošināšanas sistēmu Beigas."
+
+# A list entry that uses '$text' to map to another list entry crashes 1.49.2 multi-word support:
+test_phonemes en "d'eIbju:tI2d" "débuted"
+test_phonemes en-US "d'eIbju:t#I#d" "débuted"
+
+# s at the end of abbreviations
+# https://github.com/espeak-ng/espeak-ng/issues/706
+test_phonemes en ",aIb,i:;'Em m'It 'Ib@mz m'Its ,aIb,i:;'Em ,Em,aIt'i:; ,eIp,i:;'eItS s,i:;,i:;'Es ,aIt,i:;'Eks ,aIb,i:;'Emz ,Em,aIt'i:z ,eIp,i:;'eItSIz s,i:;,i:;'EsIz ,aIt,i:;'EksIz" "ibm mit ibms mits IBM MIT APH CES ITX IBMs MIT's APHs CES's ITXs"
+test_phonemes lv "'ibm m'it 'ibm-s m'its 'ibm m'it 'aph ts'Es 'it_ks 'ibm-s m'its 'aphs ts'Ess 'it_kss 'a>_:,ess_! ,a:_:,ess_!v'e:_:_:_: s'i:a:_ 'u>_:t,e:_:t,e:_:" "ibm mit ibms mits IBM MIT APH CES ITX IBMs MIT's APHs CES's ITXs AS ASV SIA utt"
+test_phonemes ru "'Ibm (en),aIb,i:;'Em m'It 'Ib@mz m'Its ,aIb,i:;'Em ,Em,aIt'i:; ,eIp,i:;'eItS s,i:;,i:;'Es ,aIt,i:;'Eks 'Ib@mz m'Its 'afz s'EI2zI2z 'ItEksz(ru) SS'A" "ИБМ ibm mit ibms mits IBM MIT APH CES ITX IBMs MIT's APHs CES's ITXs США"
+
+# bug: https://github.com/nvaccess/nvda/issues/7740
+test_phonemes ta "'il." "ள்"
+test_phonemes my "kon'i" "7"
+test_phonemes ka "s'ami Sv'idi" "3 7"
+
+# bug: https://github.com/nvaccess/nvda/issues/7805
+test_phonemes hi "r'UcI" "रुचि"
+test_phonemes hi "dUk'a:n" "दुकान"
+test_phonemes hi "ka:n'u:n" "कानून"
+
+# A deleted phoneme at the start of a word should preserve the sourceix property.
+test_phonemes en-GB-x-gbcwmd "aI 'av" "I have"
+
+# A deleted phonSWITCH should preserve the sourceix property of the deleted phoneme.
+test_phonemes hyw "'a g@rn'am" "A Կրնամ"
+
+test_phonemes en "'eI
+b'i: s'i:
+d'i:
+'i:
+'Ef" "A. B C, D. E: F."
+
+# Handling of english acronym + genitive without breaking simple quote
+test_phonemes en "hi: s'Ed
+aI w0z b'O@n InD@ j,u:,Es'eI z_:_: and l'Eft" "He said : I was born in the u.s.a.'s and left."
+
+test_phonemes en "hi: s'Ed
+h@l'oU
+aIa#m b'ak
+and l'Eft" "He said : 'Hello, I am back.' and left."
+
+# Hawaiian okina to apostrophe
+test_phonemes en "h@w'aIi:" "Hawaiʻi"
+
+#----- Emoji [http://www.unicode.org/reports/tr51/tr51-12.html] -----
+
+# ED-3 - emoji_character
+test_phonemes en "'e@ri:z" "♈"
+test_phonemes my "pru3'a2nke3DN_|_| mj@@lu3'a2mj@2tsnh,a2N_|_| nm_|n'e3DN_|_| mj@@nh,ats" "😙"
+test_phonemes ka "k'ots#nis g'amomx,atveli s'axe m'omQim,are t#v'alebit#" "😙"
+test_phonemes ka "'imedg,ats#ru,ebuli m'agram Sv'ebis g'amomx,atveli s'axe" "😥"
+# TODO: Fix adjacent emoji without whitespace so the pronunciation is separated by a space.
+test_phonemes en "'e@ri:zr'eInboU" "♈🌈"
+test_phonemes en "'e@ri:z r'eInboU" "♈ 🌈"
+
+# multi-word emoji
+test_phonemes en "Ekskla#m'eIS@n kw'EstS@n m'A@k" "⁉"
+test_phonemes en "Ekskla#m'eIS@n kw'EstS@n m'A@k r'eInboU" "⁉ 🌈"
+test_phonemes en "r'oUlIN 0nD@ fl'o@ l'aafIN" "🤣" # skip words
+
+# bug: https://github.com/espeak-ng/espeak-ng/issues/471
+test_phonemes sk "sm'eju:tsa s'a tv'a:R" "☺"
+test_phonemes sk "bl'ax sm'eju:tsa s'a tv'a:R" "blah ☺"
