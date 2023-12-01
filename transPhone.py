@@ -41,10 +41,10 @@ global indexer
 global source_model
 global target_model
 
-initialExecution = False
+initialExecution = True
 useNeuralNetwork = False
 useVecMap = False
-useUni = False
+useUni = True
 needShuffle = True
 
 '''
