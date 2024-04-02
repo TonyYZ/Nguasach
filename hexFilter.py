@@ -106,9 +106,9 @@ def getRanking(origHist, num, needMax=True, verbose=False):
 
 def main():
     needMax = False
-    semRanges = getConcise('potion_', soundMode=True)
+    semRanges = getConcise('water_', soundMode=True)
     print('hex rankings', getRanking(semRanges, 5, needMax=needMax, verbose=True))
-    semRank = [trans2Char(hexCombo) for hexCombo in getRanking(semRanges, 2, needMax=needMax, verbose=False)]
+    semRank = [trans2Char(hexCombo) for hexCombo in getRanking(semRanges, 3, needMax=needMax, verbose=False)]
     print("char rankings", semRank)
     targetLst = semRank
     for target in targetLst:
