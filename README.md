@@ -1,55 +1,79 @@
-main.py 导入谷歌翻译输出文件
+# Nguasach — A Cross-Linguistic Phonetic-Semantic Corpus
 
-collection.csv 语言翻译结果
+Nguasach is a multilingual dataset and analysis pipeline for studying **language iconicity**: the non-arbitrary correspondence between the sound structure of words and their meanings. The project builds phonetic vector representations of basic vocabulary across 22 languages and uses cross-lingual transfer learning to map phonetic and semantic spaces, asking whether words that mean similar things tend to sound similar across languages. The name comes from the Irish word *cnuasach* (collection), the Vietnamese word *ngữ* (language), and the Vietnamese word *sách* (book).
 
-nguasach.xlsx 所有语言
+---
 
-nguasachV.csv 需要输入PSV的所有语言 给向量打词语标签
+## Motivation
 
-Chinese.txt 汉语词语标签 （等同于nguasachV）
+The arbitrariness of the linguistic sign — the Saussurean claim that form and meaning are unrelated — has been challenged by cross-linguistic studies of sound symbolism and iconicity. This project provides a computational framework for measuring phonetic-semantic correspondences at scale, across a typologically diverse set of languages.
 
-nguasachVOnlyE.csv 只有espeaker支持的语言 用于自动生成读音
+---
 
-Thai.txt 泰语http://www.thai-language.com/?nav=dictionary&anyxlit=1 复制表格粘贴进记事本
+## Languages and Data
 
-processThai.py 从Thai.txt提取出泰语的部分
+- **Core vocabulary**: ~3,000 basic words per language (sourced from translation resources and the THINGS dataset)
+- **Languages covered**: 22 languages including Mandarin Chinese, Japanese, Thai, Sanskrit, Tibetan, and others
+- **Data files**:
+  - `nguasach.xlsx` — full multilingual vocabulary table
+  - `collection.csv` — raw translation results
+  - `nguasachV.csv` — vocabulary formatted for Phonetic Similarity Vector (PSV) input
+  - `Other.csv` — IPA representations for all non-Chinese languages after processing
 
-ThaiV.txt 提取结果
+---
 
-pronounce.py 将大部分语言的每个词语依次填充在eSpeak NG文件夹readyV.txt里 自动调用espaker生成结果在processedV.txt 最后将所有结果合并存储在resultV.csv里面，剩下梵语藏语调用相应库，日语打开词典文件，泰语导入ThaiV.txt
+## Pipeline Overview
 
-resultV.csv pronounce的结果
+The pipeline proceeds in four stages:
 
-resultVT.xlsx resultV的转置矩阵（行列倒过来）放进Other
+### 1. Data Collection
+- `main.py` — imports and processes Google Translate output files
+- `thingsDict.py` — generates translations of the THINGS dataset across all languages, using MUSE multilingual dictionaries with Google Translate as fallback, cross-validated against word2word alternatives
+- `thingsDictCompare.csv` — records comparison results between translation sources
 
-Other.csv 除了汉语的所有语言处理过后的IPA
+### 2. Phonetic Transcription
+Converts vocabulary into IPA (International Phonetic Alphabet) representations for each language:
+- `pronounce.py` — the main transcription script; uses eSpeak NG for most languages, language-specific libraries for Sanskrit and Tibetan, a dictionary file for Japanese, and `ThaiV.txt` for Thai
+- `processThai.py` — extracts Thai IPA from raw dictionary data (`Thai.txt`)
+- `resultV.csv` / `resultVT.xlsx` — transcription results in original and transposed format
+- `transposeResult.py` — utility for transposing the results table
 
-processChn 将Chinese.txt词语全部转换为PSV (Phonetic Similarity Vectors) 可处理的格式
+### 3. Vector Generation (PSV — Phonetic Similarity Vectors)
+Converts IPA transcriptions into dense phonetic embedding vectors:
+- `processChn.py` — converts Chinese vocabulary into PSV-compatible format → `ChineseV.txt`
+- `processAll.py` — converts all other languages into PSV-compatible format, saves as `[Language]V.txt` in the `PSV/` folder, and calls `generate.py` for each
+- `generate.py` — reads a PSV-formatted IPA file and generates a phonetic embedding vector per word → `[Language]Emb.txt`
+- `generateTable.py` — generates a syllable table (consonant × vowel) for a given language, called by `processAll.py`
+- `similarity.py` — interactive script: takes a word as input and returns the closest words by phonetic vector distance
+- `sortHexagram.py` — converts continuous embedding values to binary (0/1) sequences inspired by Yijing hexagrams → `[Language]hex.txt`
 
-ChineseV.txt 在PSV文件夹里 processChn的结果
+### 4. Cross-Lingual Transfer Learning
+Maps phonetic vector spaces across language pairs to test cross-linguistic phonetic-semantic correspondences:
+- `transPhone.py` — loads two languages, builds KeyedVectors models, trains a bilingual model using `transvec` on 80% of vocabulary, and evaluates on the remaining 20%
+- `neuralNetwork.py` — neural network variant of the cross-lingual transfer in `transPhone.py`
+- `compressSemantics.py` — reduces dimensionality of semantic embedding files (`model.txt` → `SemanticsEmb.txt`)
+- `loadLarge.py` — loads ~600,000 English vectors from `cc.en.300.vec`, filters to ~25,000 content words, augments with vocabulary from Nguasach
 
-processAll 从Other.csv提取出剩下所有语言 全部转换为PSV可处理格式 名为语言名+V.txt 保存在PSV文件夹里，并交给generate.py批量为每种语言生成嵌入向量文件（词语  数1 数2 数3…… 词数之间2个空格）还可以用genTable来生成一个音节表（横轴声母 竖轴韵母）
+---
 
-generate.py PSV的一部分 读取一个可处理格式下的IPA文件 为每个词语生成一个对应向量（词语 数1 数2 数3…… 词数之间1个空格）得到名为语言名+Emb.txt 保存在PSV文件夹里
+## Key Dependencies
 
-generateTable.py 取了generate.py的前一部分 由processAll的genTable调用 生成音节表
+- [eSpeak NG](https://github.com/espeak-ng/espeak-ng) — phonetic transcription for most languages
+- [transvec](https://github.com/Babylonpartners/transvec) — cross-lingual vector space alignment
+- [MUSE](https://github.com/facebookresearch/MUSE) — multilingual word embeddings
+- [word2word](https://github.com/kakaobrain/word2word) — bilingual lexicons
+- Python: `gensim`, `pandas`, `numpy`
 
-similarity.py PSV的一部分 读取一个嵌入向量文件 用户可以输入一个词语得到与其最接近向量对应的词语
+---
 
-transPhone.py 读取任意两种语言 生成对应两种Keyedvectors模型 用transvec库建立bilingual模型 将nguasachV前80%词语输入bilingual模型训练 输出剩下20%的测试结果
+## Related Projects
 
-generateTable基于processAll生成的源语言音节表生成一个目标语言音节表（即求平均向量并转换）
+- [Aitia](https://github.com/TonyYZ/Aitia) — Bayesian concept learning using a spatial language of thought formalized from Yijing trigrams
+- [Ítí (Ete)](https://github.com/TonyYZ/Ete) — an artistic constructed language and web-based learnability experiment
 
-thingsDict.py 生成THINGS数据集在所有语言中的对应翻译 先从MUSE多语言词典搜集 若空缺则谷歌翻译填补 再与word2word的五个备选方案做对照
+---
 
-thingsDictCompare.csv 当前词汇未出现再word2word选项中则列出选项 出现则标记y（yes） word2word无此词条则标记n（no）
+## Author
 
-transposeResult.py 将resultV.csv的表格转置以后保存到resultVT.csv里
-
-sortHexagram.py 将n维向量的emb文件的每个词条按照正负转换成1或0的序列保存到语言名+hex.txt
-
-neuralNetwork.py 负责transPhone.py的神经网络模式
-
-compressSemantics.py 将n维向量的model.txt转换成少于n维向量的SemanticsEmb.txt
-
-loadLarge.py 从cc.en.300.vec读取六十万个词 选取前面大约两万五千个词 去除掉废词（简写、专有名词）并加入出现在nguasach 却未出现在两万五千的词
+Yutong (Tony) Zhou — M1 Cognitive Science, ENS-PSL  
+Background in cognitive science, computational linguistics, and cross-linguistic semantics.
