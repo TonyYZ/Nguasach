@@ -22,15 +22,26 @@ statistics, paper) follow.
 
 ## Setup
 
+Plain venv (Python 3.10–3.12):
+
 ```bash
-conda env create -f environment.yml
-conda activate nguasach
-pip install -e .
+py -3.12 -m venv .venv           # or: python3.12 -m venv .venv
+.venv/Scripts/python -m pip install -e .   # Linux/mac: .venv/bin/python
 ```
 
-`environment.yml` pins Python 3.10 and pulls in `espeak-ng` (needed for IPA
-generation). Neither pre-existing venv in this tree works — `venv_old` points at a
-deleted Anaconda, `.venv` is a bare 3.14.
+Or conda, if you have it:
+
+```bash
+conda env create -f environment.yml && conda activate nguasach && pip install -e .
+```
+
+The `ipa` stage needs the **espeak-ng** binary on PATH (conda installs it; on
+Windows otherwise use `scoop install espeak-ng` or the official installer). Every
+other stage is pure Python.
+
+Heavy deps (`torch`, `gensim`) are only needed from the `align` stage on; the
+`data` / `semantics` / `ipa` / `phonetics` stages need just
+`numpy pandas openpyxl pyyaml scikit-learn`.
 
 Large inputs (`model.txt`, `cc.en.300.vec`, …) are gitignored — see
 [`data/README.md`](data/README.md) for checksums and how to obtain them.

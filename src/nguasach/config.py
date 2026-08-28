@@ -66,6 +66,10 @@ class Config:
     ridge_alpha: float = 1.0
     k: int = 100                      # retrieval top-k for a "hit"
 
+    # --- semantics ---
+    semantic_dim: int = 50            # PCA target for model.txt (compressSemantics.py default)
+    semantic_whiten: bool = True
+
     # --- cross-validation ---
     folds: int = 10
     test_folds: int = 1
