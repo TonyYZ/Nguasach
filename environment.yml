@@ -1,0 +1,28 @@
+# Reproducible environment for the Nguasach pipeline.
+#   conda env create -f environment.yml
+#   conda activate nguasach
+#   pip install -e .
+#
+# Rationale: Python 3.10 (3.8 is EOL; 3.10 still supports gensim 4.3 / transvec /
+# torch 2.x). Neither existing venv in this repo is usable (venv_old points at a
+# deleted D:\Anaconda3; .venv is bare Python 3.14).
+name: nguasach
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - numpy<2.0
+  - scipy=1.10.*
+  - pandas=2.*
+  - scikit-learn=1.3.*
+  - statsmodels=0.14.*
+  - pyarrow=14.*
+  - openpyxl=3.1.*
+  - matplotlib=3.8.*
+  - seaborn=0.13.*
+  - pytest=7.4.*
+  # espeak-ng as a system binary for phonemizer (IPA generation)
+  - espeak-ng
+  - pip:
+      - -e .

@@ -1,0 +1,67 @@
+# Semantic poles for the phoneme-meaning association ("hexagram") analysis.
+#
+# Each pole is a cluster of English seed words; its anchor vector is the mean of
+# the words' word2vec vectors (model.txt, "<word>_" keys). Every concept in a
+# language is assigned to its nearest pole in the aligned bilingual space, then
+# phoneme frequencies per pole are z-scored across poles (see association.py).
+#
+# Verbatim from transPhone.py (the third, uncommented `hexLabels` block, lines
+# ~75-93) and `hexNames` (lines ~96-100): the nine I-Ching trigram names, each
+# split into a static and a dynamic pole -> 18 poles. The trigram framing is
+# descriptive shorthand only; the substance is "semantic pole -> phoneme z-score".
+
+poles:
+  - name: "坤卦-static"
+    gloss: "earth / void"
+    words: [void, empty, sparse, few, clean, space]
+  - name: "坤卦-dynamic"
+    gloss: "earth / stillness"
+    words: [static, motionless, quiet, calm, fixed, dead, stay]
+  - name: "艮卦-static"
+    gloss: "mountain / cover"
+    words: [high, aloft, top, cover, shell, protect, roof, surface, limit, constrain]
+  - name: "艮卦-dynamic"
+    gloss: "mountain / descent"
+    words: [retreat, return, come, descend, fall, gravity, backward, pull]
+  - name: "坎卦-static"
+    gloss: "water / core"
+    words: [inner, core, center, middle, occupy, obstruct, barrier, separated, isolated]
+  - name: "坎卦-dynamic"
+    gloss: "water / dispersal"
+    words: [separate, split, repel, break, disconnect, radiate, disperse, spread, source, expand, detach]
+  - name: "巽卦-static"
+    gloss: "wind / detachment"
+    words: [tall, lush, drifting, unsupported, detached]
+  - name: "巽卦-dynamic"
+    gloss: "wind / seepage"
+    words: [leak, seep, shed, erode, decay, discard, feedback, loosen, release]
+  - name: "中卦-static"
+    gloss: "center / uniformity"
+    words: [vague, monotonous, homogeneous, uniformity]
+  - name: "中卦-dynamic"
+    gloss: "center / mixture"
+    words: [varying, mixed, intricate, complex, random]
+  - name: "震卦-static"
+    gloss: "thunder / base"
+    words: [support, carry, base, low, bottom, floor, ground, platform, deep]
+  - name: "震卦-dynamic"
+    gloss: "thunder / rising"
+    words: [depart, advance, go, rise, ascend, climb, forward, push, overcome]
+  - name: "離卦-static"
+    gloss: "fire / enclosure"
+    words: [enclosure, surface, periphery, surround, hollow, contain, together, eachother]
+  - name: "離卦-dynamic"
+    gloss: "fire / contraction"
+    words: [combine, concentrate, join, attach, connect, attract, receive, shrink, contract]
+  - name: "兌卦-static"
+    gloss: "marsh / cavity"
+    words: [recessed, cavity, shallow, exposed, incomplete]
+  - name: "兌卦-dynamic"
+    gloss: "marsh / emission"
+    words: [express, depart, emit, throw, eject, give, grow, swell, abandon]
+  - name: "乾卦-static"
+    gloss: "sky / fullness"
+    words: [congested, teeming, abundant, enormous, whole]
+  - name: "乾卦-dynamic"
+    gloss: "sky / tumult"
+    words: [tumultuous, chaotic, energetic, lively, hustle, bustle, dynamic, vibrant]

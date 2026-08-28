@@ -1,0 +1,24 @@
+# FROZEN exploratory extension for the manuscript.
+# All 22 languages; translation-QC flags applied; corrected as a SEPARATE FDR
+# family from the confirmatory pairs.
+name: paper_exploratory
+
+languages: [Hungarian, Finnish, Greek, Russian, German, Spanish, Italian, French,
+            Irish, Welsh, English, Chinese, Vietnamese, Japanese, Korean, Thai,
+            Indonesian, Turkish, Arabic, Hebrew, Swahili, Hindi]
+verified_core: [English, Chinese, French, Irish]
+concept_set: all
+
+map: ridge
+dim: 300
+ridge_alpha: 1.0
+k: 100
+
+folds: 10
+test_folds: 1
+seed: 20240828
+
+null_iters: 1000
+bootstrap_iters: 2000
+
+qc_mode: exclude_flagged

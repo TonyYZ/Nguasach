@@ -1,0 +1,22 @@
+# CI / fast local check: 5 languages, 150 concepts, tiny resampling.
+# Must run end-to-end in well under 10 minutes.
+name: smoke
+
+languages: [English, French, Irish, Chinese, German]
+verified_core: [English, French, Irish, Chinese]
+concept_set: all
+max_concepts: 150
+
+map: ridge
+dim: 64
+ridge_alpha: 1.0
+k: 20
+
+folds: 5
+test_folds: 1
+seed: 1
+
+null_iters: 100
+bootstrap_iters: 300
+
+qc_mode: exclude_flagged

@@ -1,0 +1,57 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nguasach"
+version = "0.1.0"
+description = "Cross-linguistic phonosemantics: phonetic->semantic alignment retrieval and phoneme-meaning association"
+requires-python = ">=3.10,<3.12"
+readme = "README.md"
+license = { text = "MIT" }
+
+dependencies = [
+    # --- numerics / data ---
+    "numpy<2.0",
+    "scipy~=1.10",
+    "pandas~=2.0",
+    "scikit-learn~=1.3",
+    "statsmodels~=0.14",       # BH-FDR, misc stats
+    "pyarrow~=14.0",           # parquet for null distributions
+    "openpyxl~=3.1",           # read nguasach.xlsx
+
+    # --- embeddings / alignment ---
+    "gensim~=4.3",
+    "transvec~=0.1",           # bilingual TranslationWordVectorizer
+    "annoy~=1.17",             # approx NN (interactive only)
+    "torch~=2.2",              # neuralNetwork.py alignment mode
+
+    # --- phonetics ---
+    "panphon~=0.20",           # articulatory-feature baseline
+    "phonemizer~=3.2",         # eSpeak NG frontend
+    "python-Levenshtein~=0.23",  # orthographic baseline
+
+    # --- pipeline / config / QC ---
+    "pyyaml~=6.0",
+    "snakemake~=7.32",
+    "deep-translator~=1.11",   # second MT engine for translation QC
+    "alive-progress~=3.1",
+
+    # --- viz ---
+    "matplotlib~=3.8",
+    "seaborn~=0.13",
+    "pyvis~=0.3",
+]
+
+[project.optional-dependencies]
+dev = ["pytest~=7.4", "jupyter", "nbconvert", "ruff"]
+
+[project.scripts]
+nguasach = "nguasach.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"

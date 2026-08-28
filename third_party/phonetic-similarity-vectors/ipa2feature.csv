@@ -1,0 +1,575 @@
+﻿m̥,nas blb vls
+m,nas blb vcd
+,nas lbd vls
+ɱ,nas lbd vcd
+,nas dnt vls
+,nas dnt vcd
+n̥,nas alv vls
+n,nas alv vcd
+,nas pla vls
+,nas pla vcd
+ɳ̊,nas rfx vls
+ɳ,nas rfx vcd
+ɲ̟̊,nas alp vls
+ɲ̟,nas alp vcd
+ɲ̊,nas pal vls
+ɲ,nas pal vcd
+ŋ̊,nas vel vls
+ŋ,nas vel vcd
+ɴ̥,nas uvl vls
+ɴ,nas uvl vcd
+,nas phr vls
+,nas phr vcd
+,nas glt vls
+,nas glt vcd
+p,stp blb vls
+b,stp blb vcd
+p̪,stp lbd vls
+b̪,stp lbd vcd
+t̪,stp dnt vls
+d̪,stp dnt vcd
+t,stp alv vls
+d,stp alv vcd
+,stp pla vls
+,stp pla vcd
+ʈ,stp rfx vls
+ɖ,stp rfx vcd
+,stp alp vls
+,stp alp vcd
+c,stp pal vls
+ɟ,stp pal vcd
+k,stp vel vls
+g,stp vel vcd
+ɡ,stp vel vcd
+q,stp uvl vls
+ɢ,stp uvl vcd
+ʡ,stp phr vls
+,stp phr vcd
+ʔ,stp glt vls
+,stp glt vcd
+,sib afr blb vls
+,sib afr blb vcd
+,sib afr lbd vls
+,sib afr lbd vcd
+,sib afr dnt vls
+,sib afr dnt vcd
+t͡s,sib afr alv vls
+d͡z,sib afr alv vcd
+t͡ʃ,sib afr pla vls
+d͡ʒ,sib afr pla vcd
+ʈ͡ʂ,sib afr rfx vls
+ɖ͡ʐ,sib afr rfx vcd
+t͡ɕ,sib afr alp vls
+d͡ʑ,sib afr alp vcd
+,sib afr pal vls
+,sib afr pal vcd
+,sib afr vel vls
+,sib afr vel vcd
+,sib afr uvl vls
+,sib afr uvl vcd
+,sib afr phr vls
+,sib afr phr vcd
+,sib afr glt vls
+,sib afr glt vcd
+p͡ɸ,afr blb vls
+b͡β,afr blb vcd
+p̪͡f,afr lbd vls
+b̪͡v,afr lbd vcd
+t͡θ,afr dnt vls
+d͡ð,afr dnt vcd
+,afr alv vls
+,afr alv vcd
+,afr pla vls
+,afr pla vcd
+,afr rfx vls
+,afr rfx vcd
+,afr alp vls
+,afr alp vcd
+c͡ç,afr pal vls
+ɟ͡ʝ,afr pal vcd
+k͡x,afr vel vls
+ɡ͡ɣ,afr vel vcd
+q͡χ,afr uvl vls
+ɢ͡ʁ,afr uvl vcd
+ʡ͡ħ,afr phr vls
+ʡ͡ʕ,afr phr vcd
+ʔ͡h,afr glt vls
+,afr glt vcd
+,lat afr blb vls
+,lat afr blb vcd
+,lat afr lbd vls
+,lat afr lbd vcd
+,lat afr dnt vls
+,lat afr dnt vcd
+t͡ɬ,lat afr alv vls
+d͡ɮ,lat afr alv vcd
+,lat afr pla vls
+,lat afr pla vcd
+ʈ͡ɭ̊˔,lat afr rfx vls
+,lat afr rfx vcd
+,lat afr alp vls
+,lat afr alp vcd
+c͡ʎ̥˔,lat afr pal vls
+,lat afr pal vcd
+k͡ʟ̝̊,lat afr vel vls
+ɡ͡ʟ̝,lat afr vel vcd
+,lat afr uvl vls
+,lat afr uvl vcd
+,lat afr phr vls
+,lat afr phr vcd
+,lat afr glt vls
+,lat afr glt vcd
+,sib frc blb vls
+,sib frc blb vcd
+,sib frc lbd vls
+,sib frc lbd vcd
+,sib frc dnt vls
+,sib frc dnt vcd
+s,sib frc alv vls
+z,sib frc alv vcd
+ʃ,sib frc pla vls
+ʒ,sib frc pla vcd
+ʂ,sib frc rfx vls
+ʐ,sib frc rfx vcd
+ɕ,sib frc alp vls
+ʑ,sib frc alp vcd
+,sib frc pal vls
+,sib frc pal vcd
+,sib frc vel vls
+,sib frc vel vcd
+,sib frc uvl vls
+,sib frc uvl vcd
+,sib frc phr vls
+,sib frc phr vcd
+,sib frc glt vls
+,sib frc glt vcd
+ɸ,frc blb vls
+β,frc blb vcd
+f,frc lbd vls
+v,frc lbd vcd
+θ,frc dnt vls
+ð,frc dnt vcd
+,frc alv vls
+,frc alv vcd
+,frc pla vls
+,frc pla vcd
+,frc rfx vls
+,frc rfx vcd
+,frc alp vls
+,frc alp vcd
+ç,frc pal vls
+ʝ,frc pal vcd
+x,frc vel vls
+ɣ,frc vel vcd
+χ,frc uvl vls
+ʁ,frc uvl vcd
+ħ,frc phr vls
+ʕ,frc phr vcd
+h,frc glt vls
+ɦ,frc glt vcd
+,lat frc blb vls
+,lat frc blb vcd
+,lat frc lbd vls
+,lat frc lbd vcd
+,lat frc dnt vls
+,lat frc dnt vcd
+ɬ,lat frc alv vls
+ɮ,lat frc alv vcd
+,lat frc pla vls
+,lat frc pla vcd
+ɭ̊˔,lat frc rfx vls
+,lat frc rfx vcd
+,lat frc alp vls
+,lat frc alp vcd
+ʎ̥˔,lat frc pal vls
+ʎ̝,lat frc pal vcd
+ʟ̝̊,lat frc vel vls
+ʟ̝,lat frc vel vcd
+,lat frc uvl vls
+,lat frc uvl vcd
+,lat frc phr vls
+,lat frc phr vcd
+,lat frc glt vls
+,lat frc glt vcd
+,apr blb vls
+,apr blb vcd
+ʋ̥,apr lbd vls
+ʋ,apr lbd vcd
+,apr dnt vls
+,apr dnt vcd
+ɹ̥,apr alv vls
+ɹ,apr alv vcd
+,apr pla vls
+,apr pla vcd
+ɻ̊,apr rfx vls
+ɻ,apr rfx vcd
+,apr alp vls
+,apr alp vcd
+j̊,apr pal vls
+j,apr pal vcd
+ɰ̊,apr vel vls
+ɰ,apr vel vcd
+,apr uvl vls
+,apr uvl vcd
+,apr phr vls
+,apr phr vcd
+,apr glt vls
+,apr glt vcd
+,lat apr blb vls
+,lat apr blb vcd
+,lat apr lbd vls
+,lat apr lbd vcd
+,lat apr dnt vls
+,lat apr dnt vcd
+l̥,lat apr alv vls
+l,lat apr alv vcd
+,lat apr pla vls
+,lat apr pla vcd
+ɭ̊,lat apr rfx vls
+ɭ,lat apr rfx vcd
+,lat apr alp vls
+,lat apr alp vcd
+ʎ̥,lat apr pal vls
+ʎ,lat apr pal vcd
+ʟ̥,lat apr vel vls
+ʟ,lat apr vel vcd
+,lat apr uvl vls
+ʟ̠,lat apr uvl vcd
+,lat apr phr vls
+,lat apr phr vcd
+,lat apr glt vls
+,lat apr glt vcd
+,flp blb vls
+ⱱ̟,flp blb vcd
+,flp lbd vls
+ⱱ,flp lbd vcd
+,flp dnt vls
+,flp dnt vcd
+ɾ̥,flp alv vls
+ɾ,flp alv vcd
+,flp pla vls
+,flp pla vcd
+ɽ̊,flp rfx vls
+ɽ,flp rfx vcd
+,flp alp vls
+,flp alp vcd
+,flp pal vls
+,flp pal vcd
+,flp vel vls
+,flp vel vcd
+,flp uvl vls
+ɢ̆,flp uvl vcd
+,flp phr vls
+ʡ̮,flp phr vcd
+,flp glt vls
+,flp glt vcd
+,lat flp blb vls
+,lat flp blb vcd
+,lat flp lbd vls
+,lat flp lbd vcd
+,lat flp dnt vls
+,lat flp dnt vcd
+,lat flp alv vls
+ɺ,lat flp alv vcd
+,lat flp pla vls
+,lat flp pla vcd
+,lat flp rfx vls
+ɭ̆,lat flp rfx vcd
+,lat flp alp vls
+,lat flp alp vcd
+,lat flp pal vls
+ʎ̮,lat flp pal vcd
+,lat flp vel vls
+ʟ̆,lat flp vel vcd
+,lat flp uvl vls
+,lat flp uvl vcd
+,lat flp phr vls
+,lat flp phr vcd
+,lat flp glt vls
+,lat flp glt vcd
+,trl blb vls
+ʙ,trl blb vcd
+,trl lbd vls
+,trl lbd vcd
+,trl dnt vls
+,trl dnt vcd
+r̥,trl alv vls
+r,trl alv vcd
+,trl pla vls
+,trl pla vcd
+ɽ͡r̥,trl rfx vls
+ɽ͡r,trl rfx vcd
+,trl alp vls
+,trl alp vcd
+,trl pal vls
+,trl pal vcd
+,trl vel vls
+,trl vel vcd
+ʀ̥,trl uvl vls
+ʀ,trl uvl vcd
+ʜ,trl phr vls
+ʢ,trl phr vcd
+,trl glt vls
+,trl glt vcd
+ʘ,clk blb vls
+,clk blb vcd
+,clk lbd vls
+,clk lbd vcd
+ǀ,clk dnt vls
+,clk dnt vcd
+ǃ,clk alv vls
+,clk alv vcd
+,clk pla vls
+,clk pla vcd
+,clk rfx vls
+,clk rfx vcd
+ǂ,clk alp vls
+,clk alp vcd
+,clk pal vls
+,clk pal vcd
+,clk vel vls
+,clk vel vcd
+,clk uvl vls
+,clk uvl vcd
+,clk phr vls
+,clk phr vcd
+,clk glt vls
+,clk glt vcd
+,lat clk blb vls
+,lat clk blb vcd
+,lat clk lbd vls
+,lat clk lbd vcd
+,lat clk dnt vls
+,lat clk dnt vcd
+ǁ,lat clk alv vls
+,lat clk alv vcd
+,lat clk pla vls
+,lat clk pla vcd
+,lat clk rfx vls
+,lat clk rfx vcd
+,lat clk alp vls
+,lat clk alp vcd
+,lat clk pal vls
+,lat clk pal vcd
+,lat clk vel vls
+,lat clk vel vcd
+,lat clk uvl vls
+,lat clk uvl vcd
+,lat clk phr vls
+,lat clk phr vcd
+,lat clk glt vls
+,lat clk glt vcd
+,imp blb vls
+ɓ,imp blb vcd
+,imp lbd vls
+,imp lbd vcd
+,imp dnt vls
+,imp dnt vcd
+,imp alv vls
+ɗ,imp alv vcd
+,imp pla vls
+,imp pla vcd
+,imp rfx vls
+,imp rfx vcd
+,imp alp vls
+,imp alp vcd
+,imp pal vls
+ʄ,imp pal vcd
+,imp vel vls
+ɠ,imp vel vcd
+,imp uvl vls
+ʛ,imp uvl vcd
+,imp phr vls
+,imp phr vcd
+,imp glt vls
+,imp glt vcd
+pʼ,ejc blb vls
+,ejc blb vcd
+,ejc lbd vls
+,ejc lbd vcd
+,ejc dnt vls
+,ejc dnt vcd
+tʼ,ejc alv vls
+,ejc alv vcd
+,ejc pla vls
+,ejc pla vcd
+ʈʼ,ejc rfx vls
+,ejc rfx vcd
+,ejc alp vls
+,ejc alp vcd
+cʼ,ejc pal vls
+,ejc pal vcd
+kʼ,ejc vel vls
+,ejc vel vcd
+qʼ,ejc uvl vls
+,ejc uvl vcd
+ʡʼ,ejc phr vls
+,ejc phr vcd
+,ejc glt vls
+,ejc glt vcd
+,ejc frc blb vls
+,ejc frc blb vcd
+fʼ,ejc frc lbd vls
+,ejc frc lbd vcd
+θʼ,ejc frc dnt vls
+,ejc frc dnt vcd
+sʼ,ejc frc alv vls
+,ejc frc alv vcd
+ʃʼ,ejc frc pla vls
+,ejc frc pla vcd
+ʂʼ,ejc frc rfx vls
+,ejc frc rfx vcd
+,ejc frc alp vls
+,ejc frc alp vcd
+,ejc frc pal vls
+,ejc frc pal vcd
+xʼ,ejc frc vel vls
+,ejc frc vel vcd
+χʼ,ejc frc uvl vls
+,ejc frc uvl vcd
+,ejc frc phr vls
+,ejc frc phr vcd
+,ejc frc glt vls
+,ejc frc glt vcd
+,lat ejc frc blb vls
+,lat ejc frc blb vcd
+,lat ejc frc lbd vls
+,lat ejc frc lbd vcd
+,lat ejc frc dnt vls
+,lat ejc frc dnt vcd
+ɬʼ,lat ejc frc alv vls
+,lat ejc frc alv vcd
+,lat ejc frc pla vls
+,lat ejc frc pla vcd
+,lat ejc frc rfx vls
+,lat ejc frc rfx vcd
+,lat ejc frc alp vls
+,lat ejc frc alp vcd
+,lat ejc frc pal vls
+,lat ejc frc pal vcd
+,lat ejc frc vel vls
+,lat ejc frc vel vcd
+,lat ejc frc uvl vls
+,lat ejc frc uvl vcd
+,lat ejc frc phr vls
+,lat ejc frc phr vcd
+,lat ejc frc glt vls
+,lat ejc frc glt vcd
+i,hgh fnt unr
+y,hgh fnt rnd
+ɨ,hgh cnt unr
+ʉ,hgh cnt rnd
+ɯ,hgh bck unr
+u,hgh bck rnd
+ɪ,smh fnt unr
+ʏ,smh fnt rnd
+,smh cnt unr
+,smh cnt rnd
+,smh bck unr
+ʊ,smh bck rnd
+e,umd fnt unr
+ø,umd fnt rnd
+ɘ,umd cnt unr
+ɵ,umd cnt rnd
+ɤ,umd bck unr
+o,umd bck rnd
+,mid fnt unr
+,mid fnt rnd
+ə,mid cnt unr
+,mid cnt rnd
+,mid bck unr
+,mid bck rnd
+ɛ,lmd fnt unr
+œ,lmd fnt rnd
+ɜ,lmd cnt unr
+ɞ,lmd cnt rnd
+ʌ,lmd bck unr
+ɔ,lmd bck rnd
+æ,sml fnt unr
+,sml fnt rnd
+ɐ,sml cnt unr
+,sml cnt rnd
+,sml bck unr
+,sml bck rnd
+a,low fnt unr
+ɶ,low fnt rnd
+,low cnt unr
+,low cnt rnd
+ɑ,low bck unr
+ɒ,low bck rnd
+ʰ,asp
+ʲ,pzd
+,nas bld vls
+,nas bld vcd
+,nas alv vls
+,nas alv vcd
+,nas pla vls
+,nas pla vcd
+,nas pal vls
+,nas pal vcd
+,nas lbv vls
+ŋ͡m,nas lbv vcd
+,nas vel vls
+,nas vel vcd
+,stp bld vls
+,stp bld vcd
+,stp alv vls
+,stp alv vcd
+,stp pla vls
+,stp pla vcd
+,stp pal vls
+,stp pal vcd
+k͡p,stp lbv vls
+ɡ͡b,stp lbv vcd
+,stp vel vls
+,stp vel vcd
+p͡f,afr bld vls
+b͡v,afr bld vcd
+,afr alv vls
+,afr alv vcd
+,afr pla vls
+,afr pla vcd
+,afr pal vls
+,afr pal vcd
+,afr lbv vls
+,afr lbv vcd
+,afr vel vls
+,afr vel vcd
+,vzd frc bld vls
+,vzd frc bld vcd
+,vzd frc alv vls
+,vzd frc alv vcd
+ɧ,vzd frc pla vls
+,vzd frc pla vcd
+,vzd frc pal vls
+,vzd frc pal vcd
+,vzd frc lbv vls
+,vzd frc lbv vcd
+,vzd frc vel vls
+,vzd frc vel vcd
+,ptr apr bld vls
+,ptr apr bld vcd
+,ptr apr alv vls
+,ptr apr alv vcd
+,ptr apr pla vls
+,ptr apr pla vcd
+,ptr apr pal vls
+ɥ,ptr apr pal vcd
+,ptr apr lbv vls
+,ptr apr lbv vcd
+ʍ,ptr apr vel vls
+w,ptr apr vel vcd
+,fzd lat apr bld vls
+,fzd lat apr bld vcd
+,fzd lat apr alv vls
+ɫ,fzd lat apr alv vcd
+,fzd lat apr pla vls
+,fzd lat apr pla vcd
+,fzd lat apr pal vls
+,fzd lat apr pal vcd
+,fzd lat apr lbv vls
+,fzd lat apr lbv vcd
+,fzd lat apr vel vls
+,fzd lat apr vel vcd
+ɚ,unr mid cnt rzd vwl
+ɝ,unr lmd cnt rzd vwl
