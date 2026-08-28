@@ -5,7 +5,7 @@ name: smoke
 languages: [English, French, Irish, Chinese, German]
 verified_core: [English, French, Irish, Chinese]
 concept_set: all
-max_concepts: 150
+max_concepts: 200
 
 map: ridge
 dim: 64
@@ -16,7 +16,7 @@ folds: 5
 test_folds: 1
 seed: 1
 
-null_iters: 100
+null_iters: 50
 bootstrap_iters: 300
 
 qc_mode: exclude_flagged

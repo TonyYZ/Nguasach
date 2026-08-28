@@ -11,6 +11,7 @@ from __future__ import annotations
 import json
 import re
 import unicodedata
+from functools import lru_cache
 from pathlib import Path
 
 import numpy as np
@@ -39,11 +40,13 @@ def _norm_cell(s: object) -> str:
     return _WS.sub(" ", s).strip()
 
 
+@lru_cache(maxsize=4)
 def load_raw(cfg: Config) -> pd.DataFrame:
     """Read ``nguasach.xlsx`` -> normalized DataFrame, columns == ALL_LANGUAGES.
 
     Row order is sheet order (the positional key the pipeline aligns on).
     ``concept_set`` / ``max_concepts`` from the config are applied here.
+    Cached: called once per pair in the null loop.
     """
     path = cfg.paths.resolve("xlsx")
     raw = pd.read_excel(path, dtype=str, keep_default_na=False, engine="openpyxl")

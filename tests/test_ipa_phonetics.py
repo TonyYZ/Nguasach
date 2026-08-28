@@ -51,13 +51,13 @@ def test_pipeline_data_ipa_phonetics(cfg, _has_espeak):
     ph = phonetics.run(cfg)
     for lang in ("English", "French", "Irish", "Chinese"):
         m = ph["languages"][lang]
-        assert m["n_words"] == 150
+        assert m["n_words"] == cfg.max_concepts
         assert m["dim"] == cfg.dim
         assert m["unknown_phones"] == {}, f"{lang}: {m['unknown_phones']}"
 
     emb = cfg.paths.resolve("processed") / "EnglishEmb.txt"
     head = emb.read_text(encoding="utf-8").splitlines()[0].split()
-    assert int(head[0]) == 150 and int(head[1]) == cfg.dim
+    assert int(head[0]) == cfg.max_concepts and int(head[1]) == cfg.dim
 
 
 def test_embed_file_is_deterministic(cfg, _has_espeak):
