@@ -16,19 +16,21 @@ import time
 
 from .config import Config
 
-STAGES = ["data", "ipa", "phonetics", "semantics", "align"]
+STAGES = ["data", "ipa", "phonetics", "semantics", "align", "associate", "report"]
+_MODULE = {"align": "crossval", "associate": "association"}
+_TAKES_JOBS = {"align", "associate"}
 
 
 def _import(stage: str):
     from importlib import import_module
 
-    return import_module(f".{ 'crossval' if stage == 'align' else stage}", "nguasach")
+    return import_module(f".{_MODULE.get(stage, stage)}", "nguasach")
 
 
 def _run_stage(stage: str, cfg: Config, n_jobs: int) -> dict:
     mod = _import(stage)
     t = time.time()
-    rep = mod.run(cfg, n_jobs=n_jobs) if stage == "align" else mod.run(cfg)
+    rep = mod.run(cfg, n_jobs=n_jobs) if stage in _TAKES_JOBS else mod.run(cfg)
     rep["_seconds"] = round(time.time() - t, 1)
     return rep
 
