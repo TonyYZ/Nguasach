@@ -13,6 +13,7 @@ from __future__ import annotations
 
 import json
 import sys
+import unicodedata
 from collections import Counter
 from pathlib import Path
 
@@ -62,11 +63,15 @@ def embed_file(v_path: Path, dim: int, seed: int, min_feature_count: int = 2):
             return False
 
     def resolve(ph: str) -> list[str]:
-        """Known -> [ph]; unknown tied diphthong 'x͡y' -> split to known halves."""
+        """Known -> [ph]; unknown tied diphthong 'x͡y' -> split to known halves;
+        else drop any combining marks and retry the bare segment(s)."""
         if known(ph):
             return [ph]
         if "͡" in ph:
             return [p for p in ph.split("͡") if known(p)]
+        bare = "".join(c for c in ph if not unicodedata.combining(c))
+        if bare != ph and known(bare):
+            return [bare]
         return []
 
     labels: list[str] = []

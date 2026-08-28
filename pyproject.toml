@@ -29,6 +29,7 @@ dependencies = [
     # --- phonetics ---
     "panphon~=0.20",           # articulatory-feature baseline
     "phonemizer~=3.2",         # eSpeak NG frontend
+    "espeakng-loader~=0.2",    # bundles libespeak-ng 1.52 (no system install)
     "python-Levenshtein~=0.23",  # orthographic baseline
 
     # --- pipeline / config / QC ---

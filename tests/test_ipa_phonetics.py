@@ -30,22 +30,23 @@ def cfg() -> Config:
 
 
 @pytest.fixture(scope="module")
-def _has_espeak(cfg) -> bool:
+def _has_espeak() -> bool:
     try:
-        ipa._find_espeak(cfg)
+        ipa._setup_espeak()
         return True
-    except FileNotFoundError:
+    except Exception:
         return False
 
 
 def test_pipeline_data_ipa_phonetics(cfg, _has_espeak):
     if not _has_espeak:
-        pytest.skip("bundled espeak-ng not found")
+        pytest.skip("phonemizer/espeakng-loader not available")
 
     data.run(cfg)
     ir = ipa.run(cfg)
     assert set(ir["written"]) >= {"English", "French", "Irish", "Chinese"}
-    assert ir["pending_backend"] == {}          # smoke config excludes Thai/Japanese
+    assert ir["skipped"] == []
+    assert ir["espeak_version"].startswith("1.52")
 
     ph = phonetics.run(cfg)
     for lang in ("English", "French", "Irish", "Chinese"):

@@ -70,12 +70,6 @@ class Config:
     semantic_dim: int = 50            # PCA target for model.txt (compressSemantics.py default)
     semantic_whiten: bool = True
 
-    # --- ipa stage ---
-    espeak_bin: str | None = None     # override; default = "eSpeak NG/espeak-ng.exe"
-    espeak_data: str | None = None    # override; default = alongside the binary
-    thai_backend: str = "pending"     # "espeak" | "frozen" | "pending"
-    ja_backend: str = "pending"
-
     # --- cross-validation ---
     folds: int = 10
     test_folds: int = 1
