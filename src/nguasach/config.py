@@ -70,6 +70,10 @@ class Config:
     semantic_dim: int = 50            # PCA target for model.txt (compressSemantics.py default)
     semantic_whiten: bool = True
 
+    # --- baselines stage ---
+    baselines: tuple[str, ...] = ("editdist", "orth", "feat")
+    char_ngram: tuple[int, ...] = (2, 3)
+
     # --- cross-validation ---
     folds: int = 10
     test_folds: int = 1
@@ -92,7 +96,7 @@ class Config:
             path = REPO_ROOT / path
         data = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
         paths = Paths(**data.pop("paths", {}))
-        for key in ("languages", "verified_core"):
+        for key in ("languages", "verified_core", "baselines", "char_ngram"):
             if key in data and data[key] is not None:
                 data[key] = tuple(data[key])
         cfg = cls(paths=paths, **data)

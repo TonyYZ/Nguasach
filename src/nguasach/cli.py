@@ -11,14 +11,21 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import sys
 import time
 
-from .config import Config
+# This box's locale is GBK; several third-party libs (panphon) open data files
+# without an explicit encoding and crash. Re-exec once in UTF-8 mode.
+if sys.flags.utf8_mode == 0 and os.environ.get("NGUASACH_UTF8_REEXEC") != "1":
+    os.environ["NGUASACH_UTF8_REEXEC"] = "1"
+    os.execv(sys.executable, [sys.executable, "-X", "utf8", "-m", "nguasach.cli", *sys.argv[1:]])
 
-STAGES = ["data", "ipa", "phonetics", "semantics", "align", "associate", "report"]
+from .config import Config  # noqa: E402
+
+STAGES = ["data", "ipa", "phonetics", "semantics", "align", "associate", "baselines", "report"]
 _MODULE = {"align": "crossval", "associate": "association"}
-_TAKES_JOBS = {"align", "associate"}
+_TAKES_JOBS = {"align", "associate", "baselines"}
 
 
 def _import(stage: str):

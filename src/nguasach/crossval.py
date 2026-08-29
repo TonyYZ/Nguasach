@@ -46,14 +46,17 @@ def _labels_json(cfg: Config) -> dict:
     return json.loads((cfg.paths.resolve("interim") / "labels.json").read_text(encoding="utf-8"))
 
 
-def load_pair_data(cfg: Config, source: str, target: str) -> PairData:
+def load_pair_data(cfg: Config, source: str, target: str, emb_tag: str = "") -> PairData:
+    """``emb_tag`` selects the embedding family: "" -> ``<Lang>Emb.txt`` (phonetic),
+    "Orth" -> ``<Lang>OrthEmb.txt``, "Feat" -> ``<Lang>FeatEmb.txt`` (baselines).
+    The Semantics target always uses ``SemanticsEmb.txt`` regardless of tag."""
     interim = cfg.paths.resolve("interim")
     processed = cfg.paths.resolve("processed")
     lj = _labels_json(cfg)
     df = _data.load_raw(cfg)
 
     s_lab = lj[source]
-    s_labels, s_mat = _emb(str(processed / f"{source}Emb.txt"))
+    s_labels, s_mat = _emb(str(processed / f"{source}{emb_tag}Emb.txt"))
     s_idx = {lab: i for i, lab in enumerate(s_labels)}
 
     if target == "Semantics":
@@ -61,7 +64,7 @@ def load_pair_data(cfg: Config, source: str, target: str) -> PairData:
         t_labels, t_mat = _emb(str(processed / "SemanticsEmb.txt"))
     else:
         t_lab = lj[target]
-        t_labels, t_mat = _emb(str(processed / f"{target}Emb.txt"))
+        t_labels, t_mat = _emb(str(processed / f"{target}{emb_tag}Emb.txt"))
     t_idx = {lab: i for i, lab in enumerate(t_labels)}
 
     concepts = np.array(
