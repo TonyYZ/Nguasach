@@ -161,7 +161,7 @@ def _ridge_baseline_rows(cfg: Config, tag: str, folds, targets: list[str]) -> li
                 continue
             pd = crossval.load_pair_data(cfg, src, tgt, emb_tag=tag)
             r = crossval.score_pair(pd, folds, k=cfg.k, map_kind="ridge",
-                                    alpha=cfg.ridge_alpha).summary()
+                                    alpha=cfg.ridge_alpha, csls_k=cfg.csls_k).summary()
             null = null_distribution(cfg, pd, folds, cfg.null_iters, cfg.seed)
             _, lo, hi = bootstrap_ci(r["acc_folds"], cfg.bootstrap_iters, cfg.seed)
             rows.append({

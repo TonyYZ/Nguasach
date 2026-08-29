@@ -41,6 +41,7 @@ def _ridge_null(
     k: int,
     alpha: float,
     seeds: np.ndarray,
+    csls_k: int = 0,
 ) -> np.ndarray:
     local = []
     for tr_c, te_c in folds:
@@ -60,7 +61,7 @@ def _ridge_null(
             my = yt.mean(0)
             pred = P @ yt - np.outer(Psum, my) + my
             pred /= np.linalg.norm(pred, axis=1, keepdims=True).clip(min=1e-12)
-            ranks = rank_of_gold(pred.astype(np.float32), pd.xt, perm[te])
+            ranks = rank_of_gold(pred.astype(np.float32), pd.xt, perm[te], csls_k=csls_k)
             accs.append(float(topk_hits(ranks, k).mean()))
         out[i] = np.mean(accs)
     return out
@@ -72,11 +73,11 @@ def null_distribution(
 ) -> np.ndarray:
     seeds = np.random.default_rng(seed).integers(1, 2**31 - 1, size=iters)
     if cfg.map == "ridge":
-        return _ridge_null(pd, folds, cfg.k, cfg.ridge_alpha, seeds)
+        return _ridge_null(pd, folds, cfg.k, cfg.ridge_alpha, seeds, csls_k=cfg.csls_k)
     # generic (slow) path for other maps
     return np.array([
         score_pair(pd, folds, k=cfg.k, map_kind=cfg.map, alpha=cfg.ridge_alpha,
-                   permute_seed=int(s)).summary()["acc_mean"]
+                   csls_k=cfg.csls_k, permute_seed=int(s)).summary()["acc_mean"]
         for s in seeds
     ])
 

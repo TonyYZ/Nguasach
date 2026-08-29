@@ -67,9 +67,16 @@ def load_pair_data(cfg: Config, source: str, target: str, emb_tag: str = "") -> 
         t_labels, t_mat = _emb(str(processed / f"{target}{emb_tag}Emb.txt"))
     t_idx = {lab: i for i, lab in enumerate(t_labels)}
 
+    drop: set[int] = set()
+    if cfg.qc_mode != "off":
+        from .translate_qc import flagged_concepts
+
+        drop = flagged_concepts(cfg, source) | (
+            flagged_concepts(cfg, target) if target != "Semantics" else set()
+        )
     concepts = np.array(
         [i for i in range(len(df))
-         if i < len(s_lab) and i < len(t_lab)
+         if i not in drop and i < len(s_lab) and i < len(t_lab)
          and s_lab[i] in s_idx and t_lab[i] in t_idx],
         dtype=int,
     )
@@ -115,6 +122,7 @@ def score_pair(
     k: int,
     map_kind: str,
     alpha: float,
+    csls_k: int = 0,
     permute_seed: int | None = None,
 ) -> PairResult:
     n = len(pd.concepts)
@@ -133,7 +141,7 @@ def score_pair(
         pred = model.predict(pd.xs[te])
         pred = pred / np.linalg.norm(pred, axis=1, keepdims=True).clip(min=1e-12)
 
-        ranks = rank_of_gold(pred, pd.xt, gold)
+        ranks = rank_of_gold(pred, pd.xt, gold, csls_k=csls_k)
         hits = topk_hits(ranks, k)
 
         train_surf = set(pd.surf[perm[tr]])
@@ -177,7 +185,8 @@ def run(cfg: Config, n_jobs: int = 1) -> dict:
             if src == tgt:
                 continue
             pd = load_pair_data(cfg, src, tgt)
-            r = score_pair(pd, folds, k=cfg.k, map_kind=cfg.map, alpha=cfg.ridge_alpha).summary()
+            r = score_pair(pd, folds, k=cfg.k, map_kind=cfg.map,
+                           alpha=cfg.ridge_alpha, csls_k=cfg.csls_k).summary()
             null = null_for_pair(cfg, pd, folds, n_jobs=n_jobs)
             _, lo, hi = bootstrap_ci(r["acc_folds"], cfg.bootstrap_iters, cfg.seed)
             r["boot_ci95"] = [lo, hi]

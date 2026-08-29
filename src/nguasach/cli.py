@@ -23,9 +23,10 @@ if sys.flags.utf8_mode == 0 and os.environ.get("NGUASACH_UTF8_REEXEC") != "1":
 
 from .config import Config  # noqa: E402
 
-STAGES = ["data", "ipa", "phonetics", "semantics", "align", "associate", "baselines", "report"]
-_MODULE = {"align": "crossval", "associate": "association"}
-_TAKES_JOBS = {"align", "associate", "baselines"}
+STAGES = ["data", "translate-qc", "ipa", "phonetics", "semantics",
+          "align", "mantel", "associate", "baselines", "report"]
+_MODULE = {"align": "crossval", "associate": "association", "translate-qc": "translate_qc"}
+_TAKES_JOBS = {"align", "mantel", "associate", "baselines"}
 
 
 def _import(stage: str):

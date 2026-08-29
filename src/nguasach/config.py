@@ -65,6 +65,7 @@ class Config:
     dim: int = 300                    # PSV embedding dimensionality (generate.py default)
     ridge_alpha: float = 1.0
     k: int = 100                      # retrieval top-k for a "hit"
+    csls_k: int = 10                  # CSLS de-hubbing neighbourhood (0 = plain cosine)
 
     # --- semantics ---
     semantic_dim: int = 50            # PCA target for model.txt (compressSemantics.py default)
@@ -82,6 +83,7 @@ class Config:
     # --- resampling ---
     null_iters: int = 1000            # label permutations
     bootstrap_iters: int = 2000       # test-concept bootstrap for CIs
+    mantel_cap: int = 700             # concept subsample for the O(n^2) Mantel matrices
 
     # --- translation QC ---
     qc_mode: str = "exclude_flagged"  # "exclude_flagged" | "downweight" | "off"

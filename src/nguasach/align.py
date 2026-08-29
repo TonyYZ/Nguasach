@@ -79,13 +79,25 @@ def make_map(kind: str, alpha: float = 1.0):
 
 # ------------------------------------------------------------- retrieval
 def rank_of_gold(
-    pred: np.ndarray, target_mat: np.ndarray, gold_rows: np.ndarray
+    pred: np.ndarray,
+    target_mat: np.ndarray,
+    gold_rows: np.ndarray,
+    csls_k: int = 0,
 ) -> np.ndarray:
-    """1-based rank of each gold target row under cosine similarity to pred.
+    """1-based rank of each gold target row under similarity to pred.
 
-    pred, target_mat assumed L2-normalized (so pred @ target_mat.T = cosine).
+    pred, target_mat assumed L2-normalized (pred @ target_mat.T = cosine).
+    ``csls_k > 0`` applies CSLS de-hubbing (Conneau et al. 2018):
+    ``csls(i,j) = 2 sim(i,j) - r_T(j) - r_S(i)`` with ``r`` the mean of the
+    top-``csls_k`` similarities. Without it, degenerate spaces (char-ngram,
+    mean-panphon) give ~0.4 retrieval even under the permutation null.
     """
     sims = pred @ target_mat.T                       # (n_test, n_targets)
+    if csls_k > 0:
+        kk = min(csls_k, sims.shape[1] - 1, sims.shape[0] - 1)
+        r_t = np.sort(sims, axis=0)[-kk:].mean(axis=0)        # per target column
+        r_s = np.sort(sims, axis=1)[:, -kk:].mean(axis=1)     # per pred row
+        sims = 2 * sims - r_t[None, :] - r_s[:, None]
     gold_sim = sims[np.arange(len(pred)), gold_rows]
     return (sims > gold_sim[:, None]).sum(axis=1) + 1
 
