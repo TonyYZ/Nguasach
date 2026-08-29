@@ -29,6 +29,10 @@ def run(cfg: Config) -> dict:
     assoc_path = rdir / "association_z.json"
     assoc = json.loads(assoc_path.read_text(encoding="utf-8")) if assoc_path.exists() else None
 
+    base_path = rdir / "baselines.json"
+    base_rows = json.loads(base_path.read_text(encoding="utf-8"))["rows"] if base_path.exists() else []
+    base = {(r["baseline"], r["source"], r["target"]): r for r in base_rows}
+
     lines: list[str] = []
     lines.append(f"# Results — config `{acc['config']}` (`{acc['config_fingerprint']}`)\n")
     lines.append(
@@ -51,6 +55,25 @@ def run(cfg: Config) -> dict:
         lines.extend(_fmt_pair(r) for r in pairs)
         n_sig = sum(1 for r in pairs if r.get("q_fdr", 1) < 0.05)
         lines.append(f"\n{n_sig}/{len(pairs)} pairs significant at q<0.05.\n")
+
+    if base_rows:
+        kinds = sorted({r["baseline"] for r in base_rows})
+        lines.append(f"\n## Baseline comparison — phonetic vs {', '.join(kinds)}\n")
+        lines.append("| pair | phonetic acc | " + " | ".join(f"{k} acc" for k in kinds) + " | null |")
+        lines.append("|---|---|" + "---|" * len(kinds) + "---|")
+        for p in sorted((x for x in acc["pairs"]), key=lambda x: -x["acc_mean"]):
+            cells = []
+            for k in kinds:
+                b = base.get((k, p["source"], p["target"]))
+                cells.append(f"{b['acc_mean']:.3f}" if b else "—")
+            lines.append(
+                f"| {p['source']} → {p['target']} | {p['acc_mean']:.3f} | "
+                + " | ".join(cells) + f" | {p['null_mean']:.3f} |"
+            )
+        lines.append(
+            "\nphonetic − editdist is the retrieval accuracy not explained by raw "
+            "orthographic string overlap (cognates / borrowing).\n"
+        )
 
     if assoc:
         lines.append(f"\n## Phoneme–meaning association ({assoc['n_poles']} poles, "

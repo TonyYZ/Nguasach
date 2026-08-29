@@ -1,0 +1,14 @@
+name: paper_confirmatory
+languages: [English, Chinese, French, Irish]
+verified_core: [English, Chinese, French, Irish]
+concept_set: all
+map: ridge
+dim: 300
+k: 100
+folds: 10
+test_folds: 1
+seed: 20240828
+null_iters: 1000
+bootstrap_iters: 2000
+qc_mode: "off"
+baselines: [editdist]

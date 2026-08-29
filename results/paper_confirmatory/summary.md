@@ -35,6 +35,30 @@ map=ridge, k=100, folds=10, null_iters=1000, bootstrap_iters=2000
 4/4 pairs significant at q<0.05.
 
 
+## Baseline comparison — phonetic vs editdist
+
+| pair | phonetic acc | editdist acc | null |
+|---|---|---|---|
+| French → English | 0.400 | 0.255 | 0.043 |
+| English → French | 0.398 | 0.265 | 0.044 |
+| Irish → English | 0.240 | 0.120 | 0.042 |
+| English → Irish | 0.235 | 0.120 | 0.042 |
+| English → Semantics | 0.204 | — | 0.052 |
+| French → Semantics | 0.201 | — | 0.052 |
+| Irish → Semantics | 0.195 | — | 0.052 |
+| Irish → French | 0.182 | 0.080 | 0.043 |
+| French → Irish | 0.180 | 0.055 | 0.041 |
+| Chinese → Semantics | 0.166 | — | 0.052 |
+| Irish → Chinese | 0.085 | 0.000 | 0.043 |
+| Chinese → Irish | 0.084 | 0.000 | 0.042 |
+| French → Chinese | 0.077 | 0.000 | 0.044 |
+| Chinese → French | 0.072 | 0.000 | 0.044 |
+| English → Chinese | 0.070 | 0.000 | 0.044 |
+| Chinese → English | 0.068 | 0.000 | 0.044 |
+
+phonetic − editdist is the retrieval accuracy not explained by raw orthographic string overlap (cognates / borrowing).
+
+
 ## Phoneme–meaning association (18 poles, null_iters=1000)
 
 Significant phoneme×pole cells (q<0.10): **9** total.
