@@ -1,7 +1,7 @@
 {
   "stage": "baselines",
   "config": "paper_confirmatory",
-  "config_fingerprint": "75722711885d65bf",
+  "config_fingerprint": "feca32fdec615186",
   "rows": [
     {
       "baseline": "editdist",
@@ -242,6 +242,646 @@
       "mean_rank": NaN,
       "n_collision_total": 0,
       "q_fdr": 0.14385614385614387
+    },
+    {
+      "baseline": "orth",
+      "source": "English",
+      "target": "Chinese",
+      "k": 100,
+      "n_concepts": 200,
+      "acc_mean": 0.53,
+      "acc_clean_mean": 0.53,
+      "boot_ci95": [
+        0.48500000000000004,
+        0.575
+      ],
+      "nb_se": 0.03824264635194589,
+      "null_mean": 0.42454000000000003,
+      "null_p95": 0.49000000000000005,
+      "p_perm": 0.006993006993006993,
+      "mean_rank": 98.22,
+      "n_collision_total": 0,
+      "q_fdr": 0.028771228771228775
+    },
+    {
+      "baseline": "orth",
+      "source": "English",
+      "target": "French",
+      "k": 100,
+      "n_concepts": 200,
+      "acc_mean": 0.485,
+      "acc_clean_mean": 0.4697147147147147,
+      "boot_ci95": [
+        0.45500000000000007,
+        0.5149999999999999
+      ],
+      "nb_se": 0.025433737436719762,
+      "null_mean": 0.42488,
+      "null_p95": 0.49499999999999994,
+      "p_perm": 0.08091908091908091,
+      "mean_rank": 99.04499999999999,
+      "n_collision_total": 13,
+      "q_fdr": 0.14385614385614384
+    },
+    {
+      "baseline": "orth",
+      "source": "English",
+      "target": "Irish",
+      "k": 100,
+      "n_concepts": 200,
+      "acc_mean": 0.445,
+      "acc_clean_mean": 0.4245098039215686,
+      "boot_ci95": [
+        0.33499999999999996,
+        0.5349999999999999
+      ],
+      "nb_se": 0.08501838036565974,
+      "null_mean": 0.41905999999999993,
+      "null_p95": 0.48500000000000004,
+      "p_perm": 0.26673326673326675,
+      "mean_rank": 101.94500000000001,
+      "n_collision_total": 24,
+      "q_fdr": 0.30483801912373343
+    },
+    {
+      "baseline": "orth",
+      "source": "English",
+      "target": "Semantics",
+      "k": 100,
+      "n_concepts": 200,
+      "acc_mean": 0.555,
+      "acc_clean_mean": 0.546025641025641,
+      "boot_ci95": [
+        0.53,
+        0.58
+      ],
+      "nb_se": 0.02186606960566986,
+      "null_mean": 0.48224,
+      "null_p95": 0.53,
+      "p_perm": 0.008991008991008992,
+      "mean_rank": 91.24,
+      "n_collision_total": 4,
+      "q_fdr": 0.028771228771228775
+    },
+    {
+      "baseline": "orth",
+      "source": "Chinese",
+      "target": "English",
+      "k": 100,
+      "n_concepts": 200,
+      "acc_mean": 0.485,
+      "acc_clean_mean": 0.4801282051282051,
+      "boot_ci95": [
+        0.40499999999999997,
+        0.585
+      ],
+      "nb_se": 0.08007808689023485,
+      "null_mean": 0.40031,
+      "null_p95": 0.47000000000000003,
+      "p_perm": 0.03196803196803197,
+      "mean_rank": 102.50999999999999,
+      "n_collision_total": 4,
+      "q_fdr": 0.08524808524808525
+    },
+    {
+      "baseline": "orth",
+      "source": "Chinese",
+      "target": "French",
+      "k": 100,
+      "n_concepts": 200,
+      "acc_mean": 0.355,
+      "acc_clean_mean": 0.36232732732732736,
+      "boot_ci95": [
+        0.29,
+        0.41999999999999993
+      ],
+      "nb_se": 0.056124860801609125,
+      "null_mean": 0.425865,
+      "null_p95": 0.5,
+      "p_perm": 0.949050949050949,
+      "mean_rank": 115.16499999999999,
+      "n_collision_total": 13,
+      "q_fdr": 0.949050949050949
+    },
+    {
+      "baseline": "orth",
+      "source": "Chinese",
+      "target": "Irish",
+      "k": 100,
+      "n_concepts": 200,
+      "acc_mean": 0.515,
+      "acc_clean_mean": 0.4839869281045752,
+      "boot_ci95": [
+        0.43499999999999994,
+        0.5900000000000001
+      ],
+      "nb_se": 0.06975403214151853,
+      "null_mean": 0.419175,
+      "null_p95": 0.485,
+      "p_perm": 0.007992007992007992,
+      "mean_rank": 99.39500000000001,
+      "n_collision_total": 24,
+      "q_fdr": 0.028771228771228775
+    },
+    {
+      "baseline": "orth",
+      "source": "Chinese",
+      "target": "Semantics",
+      "k": 100,
+      "n_concepts": 200,
+      "acc_mean": 0.56,
+      "acc_clean_mean": 0.5557692307692308,
+      "boot_ci95": [
+        0.515,
+        0.6000000000000001
+      ],
+      "nb_se": 0.03860861302870125,
+      "null_mean": 0.47778500000000007,
+      "null_p95": 0.53,
+      "p_perm": 0.002997002997002997,
+      "mean_rank": 90.375,
+      "n_collision_total": 4,
+      "q_fdr": 0.023976023976023976
+    },
+    {
+      "baseline": "orth",
+      "source": "French",
+      "target": "English",
+      "k": 100,
+      "n_concepts": 200,
+      "acc_mean": 0.5,
+      "acc_clean_mean": 0.49525641025641026,
+      "boot_ci95": [
+        0.45499999999999996,
+        0.545
+      ],
+      "nb_se": 0.04107919181288745,
+      "null_mean": 0.42571000000000003,
+      "null_p95": 0.495,
+      "p_perm": 0.04295704295704296,
+      "mean_rank": 100.045,
+      "n_collision_total": 4,
+      "q_fdr": 0.09818752675895534
+    },
+    {
+      "baseline": "orth",
+      "source": "French",
+      "target": "Chinese",
+      "k": 100,
+      "n_concepts": 200,
+      "acc_mean": 0.39,
+      "acc_clean_mean": 0.39,
+      "boot_ci95": [
+        0.365,
+        0.41500000000000004
+      ],
+      "nb_se": 0.0225,
+      "null_mean": 0.443705,
+      "null_p95": 0.515,
+      "p_perm": 0.9150849150849151,
+      "mean_rank": 109.30499999999999,
+      "n_collision_total": 0,
+      "q_fdr": 0.949050949050949
+    },
+    {
+      "baseline": "orth",
+      "source": "French",
+      "target": "Irish",
+      "k": 100,
+      "n_concepts": 200,
+      "acc_mean": 0.48999999999999994,
+      "acc_clean_mean": 0.453921568627451,
+      "boot_ci95": [
+        0.45499999999999996,
+        0.52
+      ],
+      "nb_se": 0.02806243040080457,
+      "null_mean": 0.438595,
+      "null_p95": 0.505,
+      "p_perm": 0.11688311688311688,
+      "mean_rank": 100.38000000000001,
+      "n_collision_total": 24,
+      "q_fdr": 0.17001180637544275
+    },
+    {
+      "baseline": "orth",
+      "source": "French",
+      "target": "Semantics",
+      "k": 100,
+      "n_concepts": 200,
+      "acc_mean": 0.505,
+      "acc_clean_mean": 0.4943589743589743,
+      "boot_ci95": [
+        0.45499999999999996,
+        0.56
+      ],
+      "nb_se": 0.04802343178074637,
+      "null_mean": 0.48002,
+      "null_p95": 0.535,
+      "p_perm": 0.22577422577422576,
+      "mean_rank": 96.2,
+      "n_collision_total": 4,
+      "q_fdr": 0.2778759701836625
+    },
+    {
+      "baseline": "orth",
+      "source": "Irish",
+      "target": "English",
+      "k": 100,
+      "n_concepts": 200,
+      "acc_mean": 0.475,
+      "acc_clean_mean": 0.46974358974358976,
+      "boot_ci95": [
+        0.39,
+        0.55
+      ],
+      "nb_se": 0.0670820393249937,
+      "null_mean": 0.41687,
+      "null_p95": 0.49000000000000005,
+      "p_perm": 0.0969030969030969,
+      "mean_rank": 98.765,
+      "n_collision_total": 4,
+      "q_fdr": 0.15504495504495502
+    },
+    {
+      "baseline": "orth",
+      "source": "Irish",
+      "target": "Chinese",
+      "k": 100,
+      "n_concepts": 200,
+      "acc_mean": 0.5000000000000001,
+      "acc_clean_mean": 0.5000000000000001,
+      "boot_ci95": [
+        0.47000000000000003,
+        0.53
+      ],
+      "nb_se": 0.026516504294495542,
+      "null_mean": 0.43866,
+      "null_p95": 0.51,
+      "p_perm": 0.07092907092907093,
+      "mean_rank": 101.255,
+      "n_collision_total": 0,
+      "q_fdr": 0.14185814185814186
+    },
+    {
+      "baseline": "orth",
+      "source": "Irish",
+      "target": "French",
+      "k": 100,
+      "n_concepts": 200,
+      "acc_mean": 0.47000000000000003,
+      "acc_clean_mean": 0.44930930930930935,
+      "boot_ci95": [
+        0.395,
+        0.5399999999999999
+      ],
+      "nb_se": 0.05736396952791883,
+      "null_mean": 0.4358099999999999,
+      "null_p95": 0.505,
+      "p_perm": 0.2127872127872128,
+      "mean_rank": 101.3,
+      "n_collision_total": 13,
+      "q_fdr": 0.2778759701836625
+    },
+    {
+      "baseline": "orth",
+      "source": "Irish",
+      "target": "Semantics",
+      "k": 100,
+      "n_concepts": 200,
+      "acc_mean": 0.6300000000000001,
+      "acc_clean_mean": 0.6221794871794872,
+      "boot_ci95": [
+        0.545,
+        0.7
+      ],
+      "nb_se": 0.0675,
+      "null_mean": 0.48195000000000005,
+      "null_p95": 0.5349999999999999,
+      "p_perm": 0.000999000999000999,
+      "mean_rank": 82.44500000000001,
+      "n_collision_total": 4,
+      "q_fdr": 0.015984015984015984
+    },
+    {
+      "baseline": "feat",
+      "source": "English",
+      "target": "Chinese",
+      "k": 100,
+      "n_concepts": 200,
+      "acc_mean": 0.555,
+      "acc_clean_mean": 0.555,
+      "boot_ci95": [
+        0.52,
+        0.585
+      ],
+      "nb_se": 0.027556759606310738,
+      "null_mean": 0.47764999999999996,
+      "null_p95": 0.55,
+      "p_perm": 0.04095904095904096,
+      "mean_rank": 97.225,
+      "n_collision_total": 0,
+      "q_fdr": 0.09362066504923648
+    },
+    {
+      "baseline": "feat",
+      "source": "English",
+      "target": "French",
+      "k": 100,
+      "n_concepts": 200,
+      "acc_mean": 0.5900000000000001,
+      "acc_clean_mean": 0.5878678678678678,
+      "boot_ci95": [
+        0.5650000000000001,
+        0.62
+      ],
+      "nb_se": 0.02543373743671976,
+      "null_mean": 0.473845,
+      "null_p95": 0.545,
+      "p_perm": 0.002997002997002997,
+      "mean_rank": 88.955,
+      "n_collision_total": 13,
+      "q_fdr": 0.023976023976023976
+    },
+    {
+      "baseline": "feat",
+      "source": "English",
+      "target": "Irish",
+      "k": 100,
+      "n_concepts": 200,
+      "acc_mean": 0.485,
+      "acc_clean_mean": 0.4830065359477125,
+      "boot_ci95": [
+        0.40499999999999997,
+        0.5601249999999993
+      ],
+      "nb_se": 0.0677080128197542,
+      "null_mean": 0.47514,
+      "null_p95": 0.55,
+      "p_perm": 0.43456543456543456,
+      "mean_rank": 107.69000000000001,
+      "n_collision_total": 24,
+      "q_fdr": 0.6244422244422245
+    },
+    {
+      "baseline": "feat",
+      "source": "English",
+      "target": "Semantics",
+      "k": 100,
+      "n_concepts": 200,
+      "acc_mean": 0.585,
+      "acc_clean_mean": 0.5762820512820512,
+      "boot_ci95": [
+        0.5549999999999999,
+        0.615
+      ],
+      "nb_se": 0.02806243040080456,
+      "null_mean": 0.47687,
+      "null_p95": 0.525,
+      "p_perm": 0.000999000999000999,
+      "mean_rank": 88.17500000000001,
+      "n_collision_total": 4,
+      "q_fdr": 0.015984015984015984
+    },
+    {
+      "baseline": "feat",
+      "source": "Chinese",
+      "target": "English",
+      "k": 100,
+      "n_concepts": 200,
+      "acc_mean": 0.56,
+      "acc_clean_mean": 0.5557692307692308,
+      "boot_ci95": [
+        0.505,
+        0.605
+      ],
+      "nb_se": 0.045311422400979635,
+      "null_mean": 0.475125,
+      "null_p95": 0.55,
+      "p_perm": 0.03196803196803197,
+      "mean_rank": 95.935,
+      "n_collision_total": 4,
+      "q_fdr": 0.08524808524808525
+    },
+    {
+      "baseline": "feat",
+      "source": "Chinese",
+      "target": "French",
+      "k": 100,
+      "n_concepts": 200,
+      "acc_mean": 0.57,
+      "acc_clean_mean": 0.5763963963963964,
+      "boot_ci95": [
+        0.53,
+        0.615
+      ],
+      "nb_se": 0.03635759893062247,
+      "null_mean": 0.476275,
+      "null_p95": 0.545,
+      "p_perm": 0.02197802197802198,
+      "mean_rank": 91.31000000000002,
+      "n_collision_total": 13,
+      "q_fdr": 0.07672327672327672
+    },
+    {
+      "baseline": "feat",
+      "source": "Chinese",
+      "target": "Irish",
+      "k": 100,
+      "n_concepts": 200,
+      "acc_mean": 0.46499999999999997,
+      "acc_clean_mean": 0.43169934640522883,
+      "boot_ci95": [
+        0.42000000000000004,
+        0.525
+      ],
+      "nb_se": 0.045311422400979635,
+      "null_mean": 0.471,
+      "null_p95": 0.545,
+      "p_perm": 0.5604395604395604,
+      "mean_rank": 104.49000000000001,
+      "n_collision_total": 24,
+      "q_fdr": 0.6244422244422245
+    },
+    {
+      "baseline": "feat",
+      "source": "Chinese",
+      "target": "Semantics",
+      "k": 100,
+      "n_concepts": 200,
+      "acc_mean": 0.545,
+      "acc_clean_mean": 0.5356410256410257,
+      "boot_ci95": [
+        0.53,
+        0.5599999999999999
+      ],
+      "nb_se": 0.014031215200402267,
+      "null_mean": 0.47748,
+      "null_p95": 0.53,
+      "p_perm": 0.016983016983016984,
+      "mean_rank": 93.15,
+      "n_collision_total": 4,
+      "q_fdr": 0.07672327672327672
+    },
+    {
+      "baseline": "feat",
+      "source": "French",
+      "target": "English",
+      "k": 100,
+      "n_concepts": 200,
+      "acc_mean": 0.565,
+      "acc_clean_mean": 0.5561538461538461,
+      "boot_ci95": [
+        0.525,
+        0.61
+      ],
+      "nb_se": 0.03674234614174767,
+      "null_mean": 0.47216,
+      "null_p95": 0.55,
+      "p_perm": 0.023976023976023976,
+      "mean_rank": 88.82000000000001,
+      "n_collision_total": 4,
+      "q_fdr": 0.07672327672327672
+    },
+    {
+      "baseline": "feat",
+      "source": "French",
+      "target": "Chinese",
+      "k": 100,
+      "n_concepts": 200,
+      "acc_mean": 0.5349999999999999,
+      "acc_clean_mean": 0.5349999999999999,
+      "boot_ci95": [
+        0.505,
+        0.5599999999999999
+      ],
+      "nb_se": 0.02543373743671976,
+      "null_mean": 0.47323000000000004,
+      "null_p95": 0.545,
+      "p_perm": 0.09490509490509491,
+      "mean_rank": 91.54499999999999,
+      "n_collision_total": 0,
+      "q_fdr": 0.18981018981018982
+    },
+    {
+      "baseline": "feat",
+      "source": "French",
+      "target": "Irish",
+      "k": 100,
+      "n_concepts": 200,
+      "acc_mean": 0.465,
+      "acc_clean_mean": 0.4617647058823529,
+      "boot_ci95": [
+        0.42000000000000004,
+        0.51
+      ],
+      "nb_se": 0.03860861302870126,
+      "null_mean": 0.46926,
+      "null_p95": 0.5449999999999999,
+      "p_perm": 0.5364635364635365,
+      "mean_rank": 104.215,
+      "n_collision_total": 24,
+      "q_fdr": 0.6244422244422245
+    },
+    {
+      "baseline": "feat",
+      "source": "French",
+      "target": "Semantics",
+      "k": 100,
+      "n_concepts": 200,
+      "acc_mean": 0.475,
+      "acc_clean_mean": 0.46371794871794875,
+      "boot_ci95": [
+        0.43,
+        0.525
+      ],
+      "nb_se": 0.044370598373247104,
+      "null_mean": 0.47685500000000003,
+      "null_p95": 0.525,
+      "p_perm": 0.5644355644355644,
+      "mean_rank": 102.305,
+      "n_collision_total": 4,
+      "q_fdr": 0.6244422244422245
+    },
+    {
+      "baseline": "feat",
+      "source": "Irish",
+      "target": "English",
+      "k": 100,
+      "n_concepts": 200,
+      "acc_mean": 0.45499999999999996,
+      "acc_clean_mean": 0.45397435897435895,
+      "boot_ci95": [
+        0.4,
+        0.49000000000000005
+      ],
+      "nb_se": 0.04003904344511742,
+      "null_mean": 0.471865,
+      "null_p95": 0.545,
+      "p_perm": 0.6713286713286714,
+      "mean_rank": 107.19000000000001,
+      "n_collision_total": 4,
+      "q_fdr": 0.6713286713286714
+    },
+    {
+      "baseline": "feat",
+      "source": "Irish",
+      "target": "Chinese",
+      "k": 100,
+      "n_concepts": 200,
+      "acc_mean": 0.495,
+      "acc_clean_mean": 0.495,
+      "boot_ci95": [
+        0.485,
+        0.5
+      ],
+      "nb_se": 0.0075000000000000075,
+      "null_mean": 0.47489499999999996,
+      "null_p95": 0.545,
+      "p_perm": 0.34265734265734266,
+      "mean_rank": 103.71499999999999,
+      "n_collision_total": 0,
+      "q_fdr": 0.5482517482517483
+    },
+    {
+      "baseline": "feat",
+      "source": "Irish",
+      "target": "French",
+      "k": 100,
+      "n_concepts": 200,
+      "acc_mean": 0.465,
+      "acc_clean_mean": 0.46112612612612613,
+      "boot_ci95": [
+        0.4,
+        0.525
+      ],
+      "nb_se": 0.05637486141889841,
+      "null_mean": 0.47256500000000007,
+      "null_p95": 0.54,
+      "p_perm": 0.5854145854145855,
+      "mean_rank": 104.76500000000001,
+      "n_collision_total": 13,
+      "q_fdr": 0.6244422244422245
+    },
+    {
+      "baseline": "feat",
+      "source": "Irish",
+      "target": "Semantics",
+      "k": 100,
+      "n_concepts": 200,
+      "acc_mean": 0.5149999999999999,
+      "acc_clean_mean": 0.5101282051282051,
+      "boot_ci95": [
+        0.47000000000000003,
+        0.555
+      ],
+      "nb_se": 0.03860861302870125,
+      "null_mean": 0.47723000000000004,
+      "null_p95": 0.53,
+      "p_perm": 0.12887112887112886,
+      "mean_rank": 96.775,
+      "n_collision_total": 4,
+      "q_fdr": 0.2291042291042291
     }
   ]
 }
