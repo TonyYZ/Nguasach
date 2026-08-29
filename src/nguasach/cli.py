@@ -35,6 +35,19 @@ def _import(stage: str):
     return import_module(f".{_MODULE.get(stage, stage)}", "nguasach")
 
 
+def _keep_awake():
+    """Best-effort: stop the machine sleeping while a long run is in progress."""
+    if sys.platform != "win32":
+        return
+    try:
+        import ctypes
+
+        ES_CONTINUOUS, ES_SYSTEM_REQUIRED = 0x80000000, 0x00000001
+        ctypes.windll.kernel32.SetThreadExecutionState(ES_CONTINUOUS | ES_SYSTEM_REQUIRED)
+    except Exception:
+        pass
+
+
 def _run_stage(stage: str, cfg: Config, n_jobs: int) -> dict:
     mod = _import(stage)
     t = time.time()
@@ -56,6 +69,8 @@ def main(argv: list[str] | None = None) -> int:
     args = p.parse_args(argv)
     cfg = Config.load(args.config)
     print(f"[nguasach] config={cfg.name} fingerprint={cfg.fingerprint()}", file=sys.stderr)
+    if args.cmd in ("run", "all"):
+        _keep_awake()
 
     if args.cmd == "show":
         path = cfg.paths.resolve("results") / "accuracy_by_pair.json"

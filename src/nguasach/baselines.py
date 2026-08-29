@@ -93,23 +93,23 @@ def _score_from_sim(
     sim: np.ndarray, folds, k: int, csls_k: int, iters: int, seed: int,
     boot_iters: int,
 ) -> dict:
-    """sim is (n, n), concept-aligned. Retrieval + permutation null + bootstrap."""
+    """sim is (n, n), concept-aligned and FIXED (no learning), so CSLS is applied
+    once to the whole matrix and the permutation null is then pure relabelling."""
     n = sim.shape[0]
+    s = sim.astype(np.float64)
+    kk = min(csls_k, n - 1)
+    if kk > 0:
+        r_t = -np.partition(-s, kk, axis=0)[:kk].mean(axis=0)
+        r_s = -np.partition(-s, kk, axis=1)[:, :kk].mean(axis=1)
+        s = 2 * s - r_t[None, :] - r_s[:, None]
 
     def fold_accs(perm: np.ndarray) -> list[float]:
         out = []
         for _, te in folds:
             te = np.asarray(te)
-            gold = perm[te]
-            # CSLS + midrank on the sub-block of candidate rows
-            s = sim[te].astype(np.float64)
-            kk = min(csls_k, n - 1, len(te) - 1)
-            if kk > 0:
-                r_t = -np.partition(-s, kk, axis=0)[:kk].mean(axis=0)
-                r_s = -np.partition(-s, kk, axis=1)[:, :kk].mean(axis=1)
-                s = 2 * s - r_t[None, :] - r_s[:, None]
-            gs = s[np.arange(len(te)), gold]
-            ranks = (s > gs[:, None]).sum(1) + 0.5 * ((s == gs[:, None]).sum(1) - 1) + 1
+            rows = s[te]
+            gs = rows[np.arange(len(te)), perm[te]]
+            ranks = (rows > gs[:, None]).sum(1) + 0.5 * ((rows == gs[:, None]).sum(1) - 1) + 1
             out.append(float((ranks <= k).mean()))
         return out
 

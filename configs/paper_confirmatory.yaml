@@ -16,7 +16,7 @@ folds: 10
 test_folds: 1
 seed: 20240828
 
-null_iters: 1000
+null_iters: 300
 bootstrap_iters: 2000
 
 qc_mode: "off"      # all four columns are user-verified
