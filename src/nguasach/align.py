@@ -93,10 +93,11 @@ def rank_of_gold(
     mean-panphon) give ~0.4 retrieval even under the permutation null.
     """
     sims = pred @ target_mat.T                       # (n_test, n_targets)
-    if csls_k > 0:
-        kk = min(csls_k, sims.shape[1] - 1, sims.shape[0] - 1)
-        r_t = np.sort(sims, axis=0)[-kk:].mean(axis=0)        # per target column
-        r_s = np.sort(sims, axis=1)[:, -kk:].mean(axis=1)     # per pred row
+    kk = min(csls_k, sims.shape[1] - 1, sims.shape[0] - 1)
+    if kk > 0:
+        # top-kk mean per column / row, via partition (O(n) vs sort's O(n log n))
+        r_t = -np.partition(-sims, kk, axis=0)[:kk].mean(axis=0)
+        r_s = -np.partition(-sims, kk, axis=1)[:, :kk].mean(axis=1)
         sims = 2 * sims - r_t[None, :] - r_s[:, None]
     gold_sim = sims[np.arange(len(pred)), gold_rows]
     return (sims > gold_sim[:, None]).sum(axis=1) + 1

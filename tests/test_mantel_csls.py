@@ -14,12 +14,12 @@ def test_mantel_detects_planted_correlation():
     dx = np.linalg.norm(coords[:, None] - coords[None], axis=2)
     dy = dx + rng.normal(scale=0.05, size=(n, n))
     dy = (dy + dy.T) / 2
-    r, p = mantel._mantel(dx, dy, iters=200, seed=1)
+    r, p, _ = mantel._mantel(dx, dy, iters=200, seed=1)
     assert r > 0.9 and p < 0.01
 
     dnull = rng.normal(size=(n, n))
     dnull = np.abs(dnull + dnull.T)
-    r0, p0 = mantel._mantel(dx, dnull, iters=200, seed=1)
+    r0, p0, _ = mantel._mantel(dx, dnull, iters=200, seed=1)
     assert abs(r0) < 0.2 and p0 > 0.05
 
 
@@ -32,8 +32,8 @@ def test_partial_mantel_removes_shared_driver():
     dy = dz + 0.01 * np.abs(rng.normal(size=(n, n)))
     dx = (dx + dx.T) / 2
     dy = (dy + dy.T) / 2
-    r_raw, _ = mantel._mantel(dx, dy, iters=100, seed=2)
-    r_par, p_par = mantel._mantel(dx, dy, iters=100, seed=2, dz=dz)
+    r_raw, _, _ = mantel._mantel(dx, dy, iters=100, seed=2)
+    r_par, p_par, _ = mantel._mantel(dx, dy, iters=100, seed=2, dz=dz)
     assert r_raw > 0.8                      # both driven by dz
     assert abs(r_par) < 0.4                 # partialling dz kills most of it
 

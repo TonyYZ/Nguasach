@@ -75,6 +75,26 @@ def run(cfg: Config) -> dict:
             "orthographic string overlap (cognates / borrowing).\n"
         )
 
+    mant_path = rdir / "mantel.json"
+    if mant_path.exists():
+        mant = json.loads(mant_path.read_text(encoding="utf-8"))
+        lines.append(f"\n## Form–meaning correlation (Mantel, n={mant['n_subsample']} concepts)\n")
+        lines.append("| analysis | unit | r | p | r \\| orthography | p (partial) | note |")
+        lines.append("|---|---|---|---|---|---|---|")
+        for r in mant["rows"]:
+            note = "orth control degenerate" if r.get("orth_control_degenerate") else ""
+            s1 = "*" if r["p_perm"] < 0.05 else ""
+            s2 = "*" if r["p_partial"] < 0.05 else ""
+            lines.append(
+                f"| {r['analysis']} | {r['unit']} | {r['r']:+.4f}{s1} | {r['p_perm']:.4f} "
+                f"| {r['r_partial_orth']:+.4f}{s2} | {r['p_partial']:.4f} | {note} |"
+            )
+        lines.append(
+            "\nA within-language *form~meaning* r that stays significant in the "
+            "*| orthography* column is sound–meaning systematicity not attributable "
+            "to spelling / cognate overlap.\n"
+        )
+
     if assoc:
         lines.append(f"\n## Phoneme–meaning association ({assoc['n_poles']} poles, "
                      f"null_iters={assoc['null_iters']})\n")
@@ -91,6 +111,9 @@ def run(cfg: Config) -> dict:
                 )
 
     (rdir / "summary.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
+    (cfg.paths.resolve("interim") / "report.done").write_text(
+        cfg.fingerprint(), encoding="utf-8"
+    )
 
     digest = {
         "stage": "report",

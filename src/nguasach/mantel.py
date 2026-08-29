@@ -43,22 +43,31 @@ def _edit_dist_matrix(strings: np.ndarray) -> np.ndarray:
 
 
 def _residualize(mat: np.ndarray, z: np.ndarray, iu) -> np.ndarray:
-    """Elementwise mat - (a + b*z), a,b fitted on the upper triangle."""
-    b, a = np.polyfit(z[iu], mat[iu], 1)
+    """Elementwise mat - (a + b*z), a,b fitted (least squares) on the upper triangle."""
+    zt = z[iu]
+    A = np.vstack([zt, np.ones_like(zt)]).T
+    b, a = np.linalg.lstsq(A, mat[iu], rcond=None)[0]
     return mat - (a + b * z)
 
 
+def _degenerate(dz: np.ndarray, iu) -> bool:
+    v = dz[iu]
+    return v.std() < 1e-6 or v.std() / (abs(v.mean()) + 1e-12) < 1e-3
+
+
 def _mantel(dx: np.ndarray, dy: np.ndarray, iters: int, seed: int,
-            dz: np.ndarray | None = None) -> tuple[float, float]:
+            dz: np.ndarray | None = None) -> tuple[float, float, bool]:
     """Mantel r between dx, dy (partial on dz if given); permutation p (two-sided).
 
     Partial Mantel (Smouse et al. 1986): residualize both matrices on dz, then
-    Mantel-correlate the residual matrices with row/col permutation.
+    Mantel-correlate the residual matrices with row/col permutation. Returns a
+    third flag: True if dz was too degenerate to partial on (partial == raw).
     """
     n = dx.shape[0]
     iu = np.triu_indices(n, k=1)
     X, Y = dx.copy(), dy.copy()
-    if dz is not None:
+    degenerate = dz is not None and _degenerate(dz, iu)
+    if dz is not None and not degenerate:
         X = _residualize(X, dz, iu)
         Y = _residualize(Y, dz, iu)
 
@@ -77,7 +86,7 @@ def _mantel(dx: np.ndarray, dy: np.ndarray, iters: int, seed: int,
         p = rng.permutation(n)
         if abs(corr(Y[p][:, p])) >= abs(r_obs):
             ge += 1
-    return r_obs, ge / (iters + 1)
+    return r_obs, ge / (iters + 1), degenerate
 
 
 def _subsample(n: int, cap: int, seed: int) -> np.ndarray:
@@ -109,28 +118,27 @@ def run(cfg: Config, n_jobs: int = 1) -> dict:
         pos = {lab: i for i, lab in enumerate(labels)}
         return _cosine_dist(mat[[pos[lj[lang][i]] for i in ids]])
 
+    def _row(analysis, unit, nn, dform, dother, dz):
+        r, p, _ = _mantel(dform, dother, cfg.null_iters, cfg.seed)
+        rp, pp, degen = _mantel(dform, dother, cfg.null_iters, cfg.seed, dz=dz)
+        return {"analysis": analysis, "unit": unit, "n": int(nn),
+                "r": round(r, 4), "p_perm": round(p, 4),
+                "r_partial_orth": round(rp, 4), "p_partial": round(pp, 4),
+                "orth_control_degenerate": bool(degen)}
+
     rows = []
     for lang in cfg.languages:
         d_form = form_dist(lang, sem_ok)
         d_orth = _edit_dist_matrix(df[lang].to_numpy()[sem_ok])
-        r, p = _mantel(d_form, d_mean, cfg.null_iters, cfg.seed)
-        rp, pp = _mantel(d_form, d_mean, cfg.null_iters, cfg.seed, dz=d_orth)
-        rows.append({"analysis": "form~meaning", "unit": lang, "n": len(sem_ok),
-                     "r": round(r, 4), "p_perm": round(p, 4),
-                     "r_partial_orth": round(rp, 4), "p_partial": round(pp, 4)})
+        rows.append(_row("form~meaning", lang, len(sem_ok), d_form, d_mean, d_orth))
 
     core = list(cfg.verified_core)
     for a in range(len(core)):
         for b in range(a + 1, len(core)):
             l1, l2 = core[a], core[b]
-            df1 = form_dist(l1, idx)
-            df2 = form_dist(l2, idx)
-            do1 = _edit_dist_matrix(df[l1].to_numpy()[idx])
-            r, p = _mantel(df1, df2, cfg.null_iters, cfg.seed)
-            rp, pp = _mantel(df1, df2, cfg.null_iters, cfg.seed, dz=do1)
-            rows.append({"analysis": "form~form", "unit": f"{l1}~{l2}", "n": len(idx),
-                         "r": round(r, 4), "p_perm": round(p, 4),
-                         "r_partial_orth": round(rp, 4), "p_partial": round(pp, 4)})
+            rows.append(_row("form~form", f"{l1}~{l2}", len(idx),
+                             form_dist(l1, idx), form_dist(l2, idx),
+                             _edit_dist_matrix(df[l1].to_numpy()[idx])))
 
     out = {"stage": "mantel", "config": cfg.name,
            "config_fingerprint": cfg.fingerprint(),
@@ -144,7 +152,8 @@ def run(cfg: Config, n_jobs: int = 1) -> dict:
 def _csv(path, rows: list[dict]) -> None:
     import csv
 
-    cols = ["analysis", "unit", "n", "r", "p_perm", "r_partial_orth", "p_partial"]
+    cols = ["analysis", "unit", "n", "r", "p_perm", "r_partial_orth", "p_partial",
+            "orth_control_degenerate"]
     with path.open("w", encoding="utf-8", newline="") as fh:
         w = csv.writer(fh)
         w.writerow(cols)

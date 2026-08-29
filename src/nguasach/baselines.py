@@ -1,21 +1,20 @@
-"""Stage ``baselines``: control analyses the phonetic result must beat.
+"""Stage ``baselines``: non-learned control retrieval for language pairs.
 
-The permutation null already rules out "any two languages' phoneme inventories
-align enough for a learned map". These baselines address the two remaining
-confounds:
+The phonetic result uses a *learned* ridge map. These baselines ask what a
+**direct similarity** (no learning) already buys you, so the map's contribution
+is isolable. All three build an n_src x n_tgt similarity matrix, apply CSLS
+de-hubbing, and score top-k retrieval through the same 10-fold + 1000-permutation
++ BH-FDR machinery, so the numbers sit beside ``accuracy_by_pair.csv`` directly.
 
-* ``editdist`` -- non-learned orthographic string similarity. If Levenshtein
-  retrieval already recovers translations (French<->English cognates!), the
-  phonetic result is form overlap from borrowing, not sound-symbolism.
-* ``orth`` -- character n-gram embeddings run through the *same* ridge-align +
-  CV + null machinery. Orthographic analogue of the phonetic pipeline; also
-  gives an orthography->Semantics comparison.
-* ``feat`` -- mean panphon articulatory-feature vector per word, same machinery.
-  Coarser phonology than the PSV feature-bigram embedding: if ``feat`` ~=
-  ``phonetic`` the bigram structure adds little.
+* ``editdist`` -- normalized Levenshtein similarity of surface strings.
+  The cognate / borrowing control.
+* ``orth``     -- cosine of character n-gram (2,3) count vectors of the surface
+  strings. Cross-script pairs (Chinese chars vs Latin) correctly score ~chance.
+* ``feat``     -- cosine of the mean ``panphon`` articulatory-feature vector per
+  word (from the IPA). A coarse, script-independent phonological similarity.
 
-All rows use the same columns as ``results/accuracy_by_pair.csv`` so
-``report.py`` can lay them beside the phonetic result.
+There is no ``-> Semantics`` baseline: that comparison is the partial Mantel
+(form ~ meaning | orthography) in the ``mantel`` stage.
 """
 
 from __future__ import annotations
@@ -27,155 +26,104 @@ import numpy as np
 
 from .align import rank_of_gold, topk_hits
 from .config import Config
-from . import crossval
 from . import data as _data
 from .stats import bh_fdr, bootstrap_ci, empirical_p, nadeau_bengio_se
 
 
-# --------------------------------------------------------------- embeddings
-def _pca(counts: np.ndarray, dim: int, seed: int) -> np.ndarray:
-    from sklearn.decomposition import PCA
-
-    counts = counts / np.linalg.norm(counts, axis=1, keepdims=True).clip(min=1e-12)
-    n = min(dim, *counts.shape)
-    return PCA(n_components=n, whiten=True, random_state=seed).fit_transform(counts).astype(np.float32)
+# ------------------------------------------------------------- representations
+def _grams(w: str, ngram: tuple[int, ...]) -> list[str]:
+    w = f"^{w}$"
+    return [w[i : i + n] for n in ngram for i in range(len(w) - n + 1)]
 
 
-def char_ngram_emb(words: list[str], ngram: tuple[int, ...], dim: int, seed: int):
-    def grams(w: str):
-        w = f"^{w}$"
-        return [w[i : i + n] for n in ngram for i in range(len(w) - n + 1)]
+def _char_ngram_matrices(
+    by_lang: dict[str, np.ndarray], ngram: tuple[int, ...]
+) -> dict[str, np.ndarray]:
+    """One L2-normalized count matrix per language over a **shared** n-gram vocab,
+    so cross-language cosine (``A @ B.T``) is well-defined."""
+    per = {l: [Counter(_grams(str(w), ngram)) for w in ss] for l, ss in by_lang.items()}
+    vocab = {g: i for i, g in enumerate(sorted(
+        {g for cs in per.values() for c in cs for g in c}))}
+    out = {}
+    for lang, cs in per.items():
+        m = np.zeros((len(cs), len(vocab)), dtype=np.float32)
+        for r, c in enumerate(cs):
+            for g, v in c.items():
+                m[r, vocab[g]] = v
+        out[lang] = _l2(m)
+    return out
 
-    per = [Counter(grams(w)) for w in words]
-    vocab = sorted({g for c in per for g in c})
-    idx = {g: i for i, g in enumerate(vocab)}
-    counts = np.zeros((len(words), len(vocab)), dtype=np.float64)
-    for r, c in enumerate(per):
-        for g, v in c.items():
-            counts[r, idx[g]] = v
-    return _pca(counts, dim, seed)
 
-
-def panphon_feat_emb(phone_rows: list[list[str]], dim: int, seed: int):
+def _panphon_vectors(phone_rows: list[list[str]]) -> np.ndarray:
     import panphon
 
     ft = panphon.FeatureTable()
-    cache: dict[str, np.ndarray] = {}
+    cache: dict[str, np.ndarray | None] = {}
 
-    def seg_vec(ph: str) -> np.ndarray | None:
-        if ph not in cache:
-            vl = ft.word_to_vector_list(ph, numeric=True)
-            cache[ph] = np.mean(vl, axis=0) if vl else None
-        return cache[ph]
+    def seg(p: str):
+        if p not in cache:
+            vl = ft.word_to_vector_list(p, numeric=True)
+            cache[p] = np.mean(vl, axis=0) if vl else None
+        return cache[p]
 
     d = len(ft.names)
-    mat = np.zeros((len(phone_rows), d), dtype=np.float64)
+    m = np.zeros((len(phone_rows), d), dtype=np.float32)
     for r, phones in enumerate(phone_rows):
-        vs = [v for v in (seg_vec(p) for p in phones) if v is not None]
+        vs = [v for v in (seg(p) for p in phones) if v is not None]
         if vs:
-            mat[r] = np.mean(vs, axis=0)
-    return _pca(mat, dim, seed)
+            m[r] = np.mean(vs, axis=0)
+    return _l2(m)
 
 
-def _write_emb(path, labels: list[str], vecs: np.ndarray) -> None:
-    with path.open("w", encoding="utf-8", newline="\n") as fh:
-        fh.write(f"{len(labels)} {vecs.shape[1]}\n")
-        for lab, v in zip(labels, vecs):
-            fh.write(lab + " " + " ".join(f"{x:.6f}" for x in v) + "\n")
-
-
-def build_baseline_embeddings(cfg: Config) -> None:
-    interim = cfg.paths.resolve("interim")
-    processed = cfg.paths.resolve("processed")
-    lj = json.loads((interim / "labels.json").read_text(encoding="utf-8"))
-    df = _data.load_raw(cfg)
-
-    for lang in cfg.languages:
-        labels = lj[lang]
-        if "orth" in cfg.baselines:
-            vecs = char_ngram_emb(df[lang].tolist(), cfg.char_ngram, cfg.dim, cfg.seed)
-            _write_emb(processed / f"{lang}OrthEmb.txt", labels, vecs)
-        if "feat" in cfg.baselines:
-            rows = _read_v(interim / f"{lang}V.txt", labels)
-            vecs = panphon_feat_emb(rows, cfg.dim, cfg.seed)
-            _write_emb(processed / f"{lang}FeatEmb.txt", labels, vecs)
+def _l2(m: np.ndarray) -> np.ndarray:
+    return m / np.linalg.norm(m, axis=1, keepdims=True).clip(min=1e-12)
 
 
 def _read_v(path, labels: list[str]) -> list[list[str]]:
-    by_label = {}
+    by = {}
     for line in path.read_text(encoding="utf-8").splitlines():
         if "  " in line:
-            lab, phones = line.split("  ", 1)
-            by_label[lab] = phones.split()
-    return [by_label.get(lab, []) for lab in labels]
+            lab, ph = line.split("  ", 1)
+            by[lab] = ph.split()
+    return [by.get(lab, []) for lab in labels]
 
 
-# ------------------------------------------------------ edit-distance retrieval
-def editdist_pair(cfg: Config, source: str, target: str, folds, iters: int, seed: int) -> dict:
-    import Levenshtein
-
-    df = _data.load_raw(cfg)
-    s = df[source].to_numpy()
-    t = df[target].to_numpy()
-    n = len(df)
-    sim = np.empty((n, n), dtype=np.float32)
-    for i in range(n):
-        si = s[i]
-        sim[i] = [Levenshtein.ratio(si, tj) for tj in t]
+# ------------------------------------------------------------------- scoring
+def _score_from_sim(
+    sim: np.ndarray, folds, k: int, csls_k: int, iters: int, seed: int,
+    boot_iters: int,
+) -> dict:
+    """sim is (n, n), concept-aligned. Retrieval + permutation null + bootstrap."""
+    n = sim.shape[0]
 
     def fold_accs(perm: np.ndarray) -> list[float]:
-        accs = []
+        out = []
         for _, te in folds:
+            te = np.asarray(te)
             gold = perm[te]
-            rows = sim[te]
-            gs = rows[np.arange(len(te)), gold]
-            # midrank so a wall of ties (e.g. cross-script pairs -> all ratios 0)
-            # gives rank ~ n/2, not rank 1.
-            ranks = (rows > gs[:, None]).sum(1) + 0.5 * ((rows == gs[:, None]).sum(1) - 1) + 1
-            accs.append(float((ranks <= cfg.k).mean()))
-        return accs
+            # CSLS + midrank on the sub-block of candidate rows
+            s = sim[te].astype(np.float64)
+            kk = min(csls_k, n - 1, len(te) - 1)
+            if kk > 0:
+                r_t = -np.partition(-s, kk, axis=0)[:kk].mean(axis=0)
+                r_s = -np.partition(-s, kk, axis=1)[:, :kk].mean(axis=1)
+                s = 2 * s - r_t[None, :] - r_s[:, None]
+            gs = s[np.arange(len(te)), gold]
+            ranks = (s > gs[:, None]).sum(1) + 0.5 * ((s == gs[:, None]).sum(1) - 1) + 1
+            out.append(float((ranks <= k).mean()))
+        return out
 
     fa = fold_accs(np.arange(n))
     obs = float(np.mean(fa))
     rng = np.random.default_rng(seed)
     null = np.array([float(np.mean(fold_accs(rng.permutation(n)))) for _ in range(iters)])
-    _, lo, hi = bootstrap_ci(fa, cfg.bootstrap_iters, seed)
+    _, lo, hi = bootstrap_ci(fa, boot_iters, seed)
     return {
-        "baseline": "editdist", "source": source, "target": target, "k": cfg.k,
-        "n_concepts": n, "acc_mean": obs, "acc_clean_mean": obs,
-        "boot_ci95": [lo, hi], "nb_se": nadeau_bengio_se(fa, n * 0.9, n * 0.1),
+        "acc_mean": obs, "boot_ci95": [lo, hi],
+        "nb_se": nadeau_bengio_se(fa, n * 0.9, n * 0.1),
         "null_mean": float(null.mean()), "null_p95": float(np.quantile(null, 0.95)),
-        "p_perm": empirical_p(obs, null), "mean_rank": float("nan"),
-        "n_collision_total": 0,
+        "p_perm": empirical_p(obs, null),
     }
-
-
-# --------------------------------------------------------------- ridge baselines
-def _ridge_baseline_rows(cfg: Config, tag: str, folds, targets: list[str]) -> list[dict]:
-    from .nulls import null_distribution
-
-    rows = []
-    for src in cfg.languages:
-        for tgt in targets:
-            if src == tgt:
-                continue
-            pd = crossval.load_pair_data(cfg, src, tgt, emb_tag=tag)
-            r = crossval.score_pair(pd, folds, k=cfg.k, map_kind="ridge",
-                                    alpha=cfg.ridge_alpha, csls_k=cfg.csls_k).summary()
-            null = null_distribution(cfg, pd, folds, cfg.null_iters, cfg.seed)
-            _, lo, hi = bootstrap_ci(r["acc_folds"], cfg.bootstrap_iters, cfg.seed)
-            rows.append({
-                "baseline": {"Orth": "orth", "Feat": "feat"}[tag],
-                "source": src, "target": tgt, "k": cfg.k,
-                "n_concepts": r["n_concepts"], "acc_mean": r["acc_mean"],
-                "acc_clean_mean": r["acc_clean_mean"], "boot_ci95": [lo, hi],
-                "nb_se": nadeau_bengio_se(r["acc_folds"], r["n_train_per_fold"], r["n_test_per_fold"]),
-                "null_mean": float(np.mean(null)),
-                "null_p95": float(np.quantile(null, 0.95)),
-                "p_perm": empirical_p(r["acc_mean"], null),
-                "mean_rank": r["mean_rank"], "n_collision_total": r["n_collision_total"],
-            })
-    return rows
 
 
 # ------------------------------------------------------------------- stage main
@@ -183,27 +131,49 @@ def run(cfg: Config, n_jobs: int = 1) -> dict:
     interim = cfg.paths.resolve("interim")
     rdir = cfg.paths.resolve("results")
     rdir.mkdir(parents=True, exist_ok=True)
+    df = _data.load_raw(cfg)
+    n = len(df)
+    lj = json.loads((interim / "labels.json").read_text(encoding="utf-8"))
     folds_raw = json.loads((interim / "folds.json").read_text(encoding="utf-8"))
     folds = [(np.array(f["train"]), np.array(f["test"])) for f in folds_raw]
+    covered = sorted(int(i) for f in folds_raw for i in f["test"])
+    if covered != list(range(n)):
+        raise RuntimeError(
+            f"folds.json covers {len(covered)} concepts but the table has {n}; "
+            "run the `data` stage for this config first."
+        )
 
-    build_baseline_embeddings(cfg)
+    # precompute per-language representations once
+    import Levenshtein
 
-    rows: list[dict] = []
-    if "editdist" in cfg.baselines:
-        for src in cfg.languages:
-            for tgt in cfg.languages:
-                if src != tgt:
-                    rows.append(editdist_pair(cfg, src, tgt, folds, cfg.null_iters, cfg.seed))
-    have_sem = (cfg.paths.resolve("processed") / "SemanticsEmb.txt").exists()
-    if "orth" in cfg.baselines:
-        rows += _ridge_baseline_rows(cfg, "Orth",
-                                     folds, list(cfg.languages) + (["Semantics"] if have_sem else []))
-    if "feat" in cfg.baselines:
-        rows += _ridge_baseline_rows(cfg, "Feat",
-                                     folds, list(cfg.languages) + (["Semantics"] if have_sem else []))
+    surf = {l: df[l].to_numpy() for l in cfg.languages}
+    ng = _char_ngram_matrices(surf, cfg.char_ngram) if "orth" in cfg.baselines else {}
+    pf = {l: _panphon_vectors(_read_v(interim / f"{l}V.txt", lj[l])) for l in cfg.languages} \
+        if "feat" in cfg.baselines else {}
 
-    for base in {r["baseline"] for r in rows}:
-        idx = [i for i, r in enumerate(rows) if r["baseline"] == base]
+    rows = []
+    for src in cfg.languages:
+        for tgt in cfg.languages:
+            if src == tgt:
+                continue
+            for kind in cfg.baselines:
+                if kind == "editdist":
+                    s, t = surf[src], surf[tgt]
+                    sim = np.array([[Levenshtein.ratio(a, b) for b in t] for a in s],
+                                   dtype=np.float32)
+                elif kind == "orth":
+                    sim = ng[src] @ ng[tgt].T
+                elif kind == "feat":
+                    sim = pf[src] @ pf[tgt].T
+                else:
+                    continue
+                m = _score_from_sim(sim, folds, cfg.k, cfg.csls_k,
+                                    cfg.null_iters, cfg.seed, cfg.bootstrap_iters)
+                rows.append({"baseline": kind, "source": src, "target": tgt,
+                             "k": cfg.k, "n_concepts": n, **m})
+
+    for kind in {r["baseline"] for r in rows}:
+        idx = [i for i, r in enumerate(rows) if r["baseline"] == kind]
         q = bh_fdr(np.array([rows[i]["p_perm"] for i in idx]))
         for j, i in enumerate(idx):
             rows[i]["q_fdr"] = float(q[j])
@@ -219,9 +189,8 @@ def run(cfg: Config, n_jobs: int = 1) -> dict:
 def _csv(path, rows: list[dict]) -> None:
     import csv
 
-    cols = ["baseline", "source", "target", "acc_mean", "acc_clean_mean",
-            "boot_ci95", "null_mean", "null_p95", "p_perm", "q_fdr",
-            "mean_rank", "n_collision_total"]
+    cols = ["baseline", "source", "target", "acc_mean", "boot_ci95",
+            "null_mean", "null_p95", "p_perm", "q_fdr"]
     with path.open("w", encoding="utf-8", newline="") as fh:
         w = csv.writer(fh)
         w.writerow(cols)
