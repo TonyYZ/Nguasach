@@ -1,0 +1,108 @@
+{
+  "stage": "mantel",
+  "config": "paper_confirmatory",
+  "config_fingerprint": "d4fdffa3635611fa",
+  "n_subsample": 700,
+  "rows": [
+    {
+      "analysis": "form~meaning",
+      "unit": "English",
+      "n": 696,
+      "r": 0.0258,
+      "p_perm": 0.0033,
+      "r_partial_orth": 0.0243,
+      "p_partial": 0.0033,
+      "orth_control_degenerate": false
+    },
+    {
+      "analysis": "form~meaning",
+      "unit": "Chinese",
+      "n": 696,
+      "r": 0.0169,
+      "p_perm": 0.0033,
+      "r_partial_orth": 0.0043,
+      "p_partial": 0.0233,
+      "orth_control_degenerate": false
+    },
+    {
+      "analysis": "form~meaning",
+      "unit": "French",
+      "n": 696,
+      "r": 0.0212,
+      "p_perm": 0.0033,
+      "r_partial_orth": 0.0144,
+      "p_partial": 0.0033,
+      "orth_control_degenerate": false
+    },
+    {
+      "analysis": "form~meaning",
+      "unit": "Irish",
+      "n": 696,
+      "r": 0.0172,
+      "p_perm": 0.0033,
+      "r_partial_orth": 0.0148,
+      "p_partial": 0.0033,
+      "orth_control_degenerate": false
+    },
+    {
+      "analysis": "form~form",
+      "unit": "English~Chinese",
+      "n": 700,
+      "r": 0.0036,
+      "p_perm": 0.093,
+      "r_partial_orth": 0.0034,
+      "p_partial": 0.103,
+      "orth_control_degenerate": false
+    },
+    {
+      "analysis": "form~form",
+      "unit": "English~French",
+      "n": 700,
+      "r": 0.0537,
+      "p_perm": 0.0033,
+      "r_partial_orth": 0.0479,
+      "p_partial": 0.0033,
+      "orth_control_degenerate": false
+    },
+    {
+      "analysis": "form~form",
+      "unit": "English~Irish",
+      "n": 700,
+      "r": 0.0336,
+      "p_perm": 0.0033,
+      "r_partial_orth": 0.0293,
+      "p_partial": 0.0033,
+      "orth_control_degenerate": false
+    },
+    {
+      "analysis": "form~form",
+      "unit": "Chinese~French",
+      "n": 700,
+      "r": 0.0044,
+      "p_perm": 0.0266,
+      "r_partial_orth": 0.0022,
+      "p_partial": 0.3023,
+      "orth_control_degenerate": false
+    },
+    {
+      "analysis": "form~form",
+      "unit": "Chinese~Irish",
+      "n": 700,
+      "r": 0.0064,
+      "p_perm": 0.0033,
+      "r_partial_orth": 0.0036,
+      "p_partial": 0.0963,
+      "orth_control_degenerate": false
+    },
+    {
+      "analysis": "form~form",
+      "unit": "French~Irish",
+      "n": 700,
+      "r": 0.0185,
+      "p_perm": 0.0033,
+      "r_partial_orth": 0.0152,
+      "p_partial": 0.0033,
+      "orth_control_degenerate": false
+    }
+  ]
+}

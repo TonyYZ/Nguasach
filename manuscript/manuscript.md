@@ -130,20 +130,114 @@ regenerates every figure from `results/`. Frozen configs, a pinned environment
 
 ## 3. Results
 
-*(pending the confirmatory and exploratory runs — see `results/summary.md`,
-`results/mantel.csv`, `results/baselines.csv`)*
+Confirmatory run: `configs/paper_confirmatory.yaml`
+(`d4fdffa3635611fa`), 1,842 concepts, 10-fold CV, 300 permutations, 2,000
+bootstrap resamples, k = 100 (chance ≈ 100/1842 ≈ 0.054). Figures 1–3 are
+regenerated from `results/` by `notebooks/figures.py`.
 
-### 3.1 Cross-lingual retrieval
+### 3.1 Cross-lingual retrieval (Fig. 1)
 
-### 3.2 Phonetic vs. control representations
+All 12 ordered verified-core pairs retrieve translations above the permutation
+null (every p at the 1/301 floor; BH-FDR q = 0.003). Effect sizes scale with
+genealogical proximity:
 
-### 3.3 Form–meaning correlations
+| pair | accuracy [95 % CI] | null |
+|---|---|---|
+| French ↔ English | 0.42 [0.40, 0.44] | 0.05 |
+| English ↔ Irish | 0.26 [0.25, 0.28] | 0.05 |
+| French ↔ Irish | 0.20 [0.19, 0.21] | 0.05 |
+| Chinese ↔ {English, French, Irish} | 0.08–0.10 | 0.05 |
+
+The homograph-clean accuracies (test items whose gold string also occurs in
+training removed) are within 0.01 of these throughout, so string collisions do
+not drive the result.
+
+### 3.2 Phonetic vs. control representations (Fig. 2)
+
+For every Indo-European pair the learned phonetic map is **matched or beaten by
+the non-learned string baselines**: French → English phonetic 0.42 vs.
+`editdist` 0.47 vs. `orth` 0.46; Irish → English 0.26 vs. 0.31 vs. 0.29. The
+cross-lingual retrieval signal among related languages is therefore cognate /
+borrowing overlap that a plain edit-distance ranker captures at least as well
+as the feature-bigram embedding.
+
+For the Chinese ↔ European pairs the string baselines are structurally at zero
+(`editdist` and `orth` = 0.000 — disjoint scripts), while the phonetic map
+reaches 0.08–0.10. The coarse articulatory baseline `feat` recovers 0.06–0.07
+of that, and both sit just above the null (0.05). What remains is a small
+effect that a script-independent bag of broad phonological features nearly
+fully explains.
+
+### 3.3 Form–meaning correlations (Fig. 3; Mantel, n = 700)
+
+**Within language.** All four verified languages show a positive `form ~
+meaning` Mantel correlation that remains significant after partialling out the
+orthographic edit-distance matrix:
+
+| language | r | r \| orthography | p (partial) |
+|---|---|---|---|
+| English | 0.026 | 0.024 | 0.003 |
+| French | 0.021 | 0.014 | 0.003 |
+| Irish | 0.017 | 0.015 | 0.003 |
+| Chinese | 0.017 | 0.004 | 0.023 |
+
+The magnitudes (r ≈ 0.02) match prior corpus estimates of lexical
+systematicity [@dautriche2017; @pimentel2019]. Chinese's partial correlation is
+the weakest and rests on a weak control (its "orthography" here is a
+pinyin-derived string).
+
+**Between languages.** `form ~ form` correlations survive the orthographic
+control for the Indo-European pairs (English~French r = 0.054, partial 0.048;
+English~Irish 0.034 / 0.029; French~Irish 0.019 / 0.015, all p = 0.003) but
+**not** for any Chinese pair: English~Chinese r = 0.004, p = 0.09; Chinese~French
+and Chinese~Irish fall to p = 0.30 and p = 0.10 once orthography is partialled
+out, with r ≈ 0.003.
 
 ### 3.4 Phoneme–meaning associations
 
-### 3.5 Exploratory: all 22 languages
+Zero phoneme × pole cells survive BH-FDR at q < 0.10 (a lower-power 1,000-
+permutation run earlier surfaced 9 marginal Chinese-only cells at q ≈ 0.08).
+The bucketed-z-score interpretability layer yields no robust finding at this
+scale.
+
+### 3.5 Translation quality (exploratory tier)
+
+`translate-qc` flags 14.6 % of Swahili cells, 8.5 % Hungarian, 5.7 %
+Indonesian, 5.2 % Welsh, < 5 % elsewhere — mostly cells returned untranslated
+by Google Translate. The full 22-language exploratory analysis (with these
+cells excluded) is the subject of a companion run.
 
 ## 4. Discussion
+
+Three things hold up and one does not.
+
+**Weak within-language systematicity replicates.** A small, orthography-independent
+`form ~ meaning` correlation (r ≈ 0.02) is present in all four hand-verified
+languages, English, French, Irish and — more tentatively — Chinese. This is the
+robust positive result and it is consistent with the broader literature.
+
+**Related-language retrieval is cognates.** The headline cross-lingual numbers
+from the original project (French↔English ≈ 0.4) are real but are not evidence
+of sound symbolism: a non-learned edit-distance ranker does as well or better,
+and the `form ~ form` correlation, while significant, tracks shared inherited
+vocabulary. The phonetic-similarity embedding adds nothing over string overlap
+here.
+
+**No Chinese–European sound–meaning bias.** The one setting where the phonetic
+map beats the string baselines — Chinese paired with a European language — shows
+a retrieval accuracy of ~2× chance that (a) is nearly fully accounted for by
+coarse articulatory features and (b) does not appear as a `form ~ form` Mantel
+correlation once orthography is controlled. We find no support for a systematic
+sound–meaning correspondence shared between Chinese and Indo-European in this
+concept set.
+
+**The phoneme-pole analysis is uninformative** as designed; a cross-linguistic
+pooled design in the spirit of @blasi2016 would be the way to revisit it.
+
+The net picture is a partial, deflationary replication: the rebuilt pipeline
+recovers the weak lexical systematicity that the field expects, and shows that
+the original project's larger cross-lingual claims were carried by cognates and
+by a retrieval metric sensitive to embedding-space geometry.
 
 ## 5. Limitations
 

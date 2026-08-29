@@ -75,28 +75,30 @@ def fig_baselines(acc, base, out: Path):
 def fig_mantel(mant, out: Path):
     fm = [r for r in mant["rows"] if r["analysis"] == "form~meaning"]
     ff = [r for r in mant["rows"] if r["analysis"] == "form~form"]
-    fig, axes = plt.subplots(1, 2, figsize=(9, 3.2))
+    fig, axes = plt.subplots(1, 2, figsize=(9.5, 3.4))
     for ax, rows, title in ((axes[0], fm, "form ~ meaning (within language)"),
                             (axes[1], ff, "form ~ form (verified core)")):
         rows = sorted(rows, key=lambda r: r["r"])
-        y = range(len(rows))
+        y = list(range(len(rows)))
         ax.barh([i + 0.2 for i in y], [r["r"] for r in rows], 0.38,
                 color=ACCENT, label="Mantel r")
         ax.barh([i - 0.2 for i in y], [r["r_partial_orth"] for r in rows], 0.38,
                 color=INK, label="partial | orthography")
+        xr = max((max(r["r"], r["r_partial_orth"]) for r in rows), default=0.01)
         for i, r in zip(y, rows):
             if r["p_perm"] < 0.05:
-                ax.text(max(r["r"], r["r_partial_orth"]) + 0.002, i + 0.2, "*", va="center")
+                ax.text(r["r"] + xr * 0.02, i + 0.2, "*", va="center", fontsize=8)
             if r["p_partial"] < 0.05:
-                ax.text(max(r["r"], r["r_partial_orth"]) + 0.002, i - 0.2, "*", va="center")
-        ax.set_yticks(list(y))
+                ax.text(r["r_partial_orth"] + xr * 0.02, i - 0.2, "*", va="center", fontsize=8)
+        ax.set_yticks(y)
         ax.set_yticklabels([r["unit"] for r in rows])
         ax.axvline(0, color=NULLC, lw=0.8)
-        ax.set_title(title)
+        ax.set_title(title, pad=8)
         ax.set_xlabel("correlation")
-    axes[0].legend(frameon=False, fontsize=8)
-    fig.suptitle(f"Distance-matrix (Mantel) correlations — n={mant['n_subsample']}, "
-                 f"* p<.05 ({mant['config']})")
+        ax.margins(x=0.15)
+    axes[0].legend(frameon=False, fontsize=8, loc="lower right")
+    fig.suptitle(f"Mantel correlations — n={mant['n_subsample']} concepts, "
+                 f"* p<.05  ({mant['config']})", y=1.02)
     _save(fig, out, "fig3_mantel")
 
 
