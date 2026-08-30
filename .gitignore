@@ -151,3 +151,9 @@ Thumbs.db
 /transposeResult.py
 /id_rsa2*
 /nodes.html
+
+# ported originals (logic lives in src/nguasach/; see legacy_src/README.md)
+/legacy_src/
+/legacy_results/
+
+/docs/literature/

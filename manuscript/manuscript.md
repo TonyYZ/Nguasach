@@ -239,6 +239,37 @@ recovers the weak lexical systematicity that the field expects, and shows that
 the original project's larger cross-lingual claims were carried by cognates and
 by a retrieval metric sensitive to embedding-space geometry.
 
+### 4.1 Relation to prior work
+
+The direct predecessor is @devarda2022, who trained LSTMs to map a word's
+phonetic-feature sequence onto its word2vec vector on five languages and tested
+zero-shot on a held-out sixth from a different family. Two convergences are
+worth noting. First, effect sizes agree: their semantic experiment reports
+Cohen's *d* between 0.05 and 0.22 — the same "small but present" regime as our
+Mantel *r* ≈ 0.02. Second, **both studies find a non-Indo-European language
+where the effect fails** — their Vietnamese (contrast *n.s.*, *d* = −0.02) and
+our Chinese (`form ~ form` *n.s.* after the orthographic control).
+
+Our contribution relative to that work is on the control side. de Varda &
+Strapparava's only baseline is a shuffled-pairs model — the equivalent of our
+permutation null — and their translated word forms carry the same cognate
+contamination ours do; their six-family design mitigates it but never measures
+it. Adding the non-learned edit-distance baseline and the partial Mantel lets
+us *quantify* that contamination, and show that within Indo-European the
+retrieval signal is essentially string overlap. Conversely, their LSTM reads
+phoneme *order*; our bag-of-feature-bigrams followed by PCA does not, so
+position-dependent sound symbolism (word-initial vs. word-final effects) is
+invisible to the present model.
+
+Against the large cross-linguistic bias literature [@blasi2016; @joo2020;
+@johansson2020] the design here is inverted: many concepts (~1,800), few
+languages (4 verified / 22 total), where those studies use ~100 concepts and
+hundreds-to-thousands of languages. With three of four verified languages
+Indo-European we cannot separate a universal bias from shared inheritance —
+which is exactly what the results show. The magnitude of the within-language
+`form ~ meaning` correlation matches the large-lexicon single-language work
+[@dautriche2017; @pimentel2019; @monaghan2014].
+
 ## 5. Limitations
 
 - Google-Translate provenance and residual noise in 18 of 22 columns; QC is
