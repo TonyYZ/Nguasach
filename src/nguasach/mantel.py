@@ -105,13 +105,25 @@ def run(cfg: Config, n_jobs: int = 1) -> dict:
     lj = json.loads((interim / "labels.json").read_text(encoding="utf-8"))
 
     cap = getattr(cfg, "mantel_cap", 700)
+    keep = np.ones(len(df), dtype=bool)
     if cfg.exclude_loanwords:
         from .loanword import flagged_ids
 
         drop = flagged_ids(cfg)
-        pool = np.array([i for i in range(len(df)) if i not in drop])
-    else:
-        pool = np.arange(len(df))
+        keep &= np.array([i not in drop for i in range(len(df))])
+    subset_note = None
+    if cfg.mantel_subset:
+        from pathlib import Path
+
+        p = Path(cfg.mantel_subset)
+        p = p if p.is_absolute() else cfg.paths.resolve("xlsx").parent / p
+        wanted = {w.split("#")[0].strip().lower().removeprefix("to ")
+                  for w in p.read_text(encoding="utf-8").splitlines()
+                  if w.strip() and not w.startswith("#")}
+        eng = df["English"].str.strip().str.lower()
+        keep &= eng.isin(wanted).to_numpy()
+        subset_note = f"{p.name} ({int(keep.sum())} concepts)"
+    pool = np.flatnonzero(keep)
     idx = pool[_subsample(len(pool), cap, cfg.seed)]
 
     # meaning distance (shared across all within-language analyses)
@@ -155,7 +167,7 @@ def run(cfg: Config, n_jobs: int = 1) -> dict:
 
     # form~form for every unordered language pair (was verified-core only)
     langs = list(cfg.languages)
-    for a in range(len(langs)):
+    for a in range(len(langs)) if cfg.mantel_form_form else []:
         for b in range(a + 1, len(langs)):
             l1, l2 = langs[a], langs[b]
             row = _row("form~form", f"{l1}~{l2}", len(idx),
@@ -169,13 +181,16 @@ def run(cfg: Config, n_jobs: int = 1) -> dict:
     # BH-FDR within each analysis type, on the partial p-values
     for a in ("form~meaning", "form~form"):
         idxs = [i for i, r in enumerate(rows) if r["analysis"] == a]
+        if not idxs:
+            continue
         q = bh_fdr(np.array([rows[i]["p_partial"] for i in idxs]))
         for j, i in enumerate(idxs):
             rows[i]["q_partial"] = round(float(q[j]), 4)
 
     out = {"stage": "mantel", "config": cfg.name,
            "config_fingerprint": cfg.fingerprint(),
-           "n_subsample": int(cap), "rows": rows}
+           "n_subsample": int(len(idx)), "subset": subset_note,
+           "exclude_loanwords": cfg.exclude_loanwords, "rows": rows}
     (rdir / "mantel.json").write_text(json.dumps(out, indent=2), encoding="utf-8")
     _csv(rdir / "mantel.csv", rows)
     (interim / "mantel.done").write_text(cfg.fingerprint(), encoding="utf-8")

@@ -108,6 +108,10 @@ class Config:
     null_iters: int = 1000            # label permutations
     bootstrap_iters: int = 2000       # test-concept bootstrap for CIs
     mantel_cap: int = 700             # concept subsample for the O(n^2) Mantel matrices
+    mantel_subset: str | None = None  # restrict Mantel to concepts whose English
+    #                                   is in this newline-list (data/raw/*.txt);
+    #                                   for the POS / Swadesh / Leipzig-Jakarta strata
+    mantel_form_form: bool = True      # also run the O(N^2) cross-language matrix
 
     # --- translation QC ---
     qc_mode: str = "exclude_flagged"  # "exclude_flagged" | "downweight" | "off"
