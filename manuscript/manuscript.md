@@ -1,19 +1,22 @@
 ---
 title: "Measuring form–meaning systematicity across languages with phonetic-similarity embeddings"
 author: "Tony Zhou"
-status: draft — Results/Discussion pending the confirmatory + exploratory runs
+status: draft — confirmatory results in; §3.5 exploratory pending its run
 ---
 
 ## 1. Introduction
 
-Linguistic form is not wholly arbitrary. Beyond a handful of iconic pockets
-(ideophones, size-sound symbolism, the *bouba/kiki* effect), corpus-scale work
-has found a small but reliable **systematic** relationship between how words
-sound and what they mean — within languages [@monaghan2014; @dautriche2017;
-@pimentel2019] and, more contentiously, in cross-linguistic sound–meaning
-biases shared across unrelated languages [@blasi2016; @joo2020]. Deep-learning
-studies have since asked whether the mapping is rich enough for a model to
-*translate* from phonology alone [@devarda2022].
+Linguistic form is not wholly arbitrary. The relationship between sound and
+meaning is now usually decomposed into *iconicity* (a resemblance between form
+and referent) and *systematicity* (a statistical, not necessarily motivated,
+regularity in which similar-sounding words have similar meanings)
+[@dingemanse2015]. Beyond a handful of strongly iconic pockets — ideophones,
+size-sound symbolism, the *bouba/kiki* effect — corpus-scale work has found a
+small but reliable systematic signal: within languages [@monaghan2014;
+@dautriche2017; @pimentel2019] and, more contentiously, in cross-linguistic
+sound–meaning biases shared across unrelated languages [@blasi2016; @joo2020].
+Deep-learning studies have since asked whether the mapping is rich enough for a
+model to *translate* from phonology alone [@devarda2022].
 
 This project (an amateur effort begun in 2021, here rebuilt for rigour and
 reproducibility) takes the translation-retrieval framing seriously and pairs it
