@@ -1,0 +1,323 @@
+<title>Does sound carry meaning?</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Spectral:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500&display=swap">
+
+<style>
+:root{
+  --paper:#f4f3ef; --surface:#fbfaf7; --sunk:#eae8e1;
+  --ink:#1a1a1e; --soft:#43434c; --muted:#75757f; --faint:#a2a29a;
+  --line:#dcdad2; --rule:#c9c6bc;
+  --seal:#b0472b; --seal-soft:#b0472b18;
+  --slate:#3c5a68;
+  --cjk:"Noto Serif SC","Songti SC","Source Han Serif SC","Noto Sans SC","Microsoft YaHei",serif;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --paper:#141417; --surface:#1a1a1e; --sunk:#101013;
+    --ink:#e9e8e4; --soft:#c0bfc7; --muted:#94949e; --faint:#5f5f68;
+    --line:#2b2b32; --rule:#3a3a42;
+    --seal:#e0714f; --seal-soft:#e0714f1f;
+    --slate:#7ea6b6;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#141417; --surface:#1a1a1e; --sunk:#101013;
+  --ink:#e9e8e4; --soft:#c0bfc7; --muted:#94949e; --faint:#5f5f68;
+  --line:#2b2b32; --rule:#3a3a42;
+  --seal:#e0714f; --seal-soft:#e0714f1f;
+  --slate:#7ea6b6;
+}
+
+*{box-sizing:border-box}
+body{
+  margin:0; background:var(--paper); color:var(--ink); overflow-x:hidden;
+  font-family:"Spectral",Georgia,"Times New Roman",serif;
+  font-size:18px; line-height:1.66; font-weight:400;
+  -webkit-font-smoothing:antialiased;
+}
+.mono{font-family:"IBM Plex Mono",ui-monospace,monospace}
+.cjk{font-family:var(--cjk)}
+::selection{background:var(--seal-soft)}
+a{color:var(--seal); text-decoration:none; border-bottom:1px solid var(--seal-soft)}
+a:hover{border-bottom-color:var(--seal)}
+:focus-visible{outline:2px solid var(--seal); outline-offset:3px; border-radius:2px}
+
+.wrap{max-width:1100px; width:100%; margin:0 auto; padding:0 24px;
+  display:grid; grid-template-columns:1fr; gap:0}
+@media (min-width:1040px){
+  .wrap{grid-template-columns:200px minmax(0,68ch) 1fr; column-gap:48px}
+  .rail{grid-column:1}
+  main{grid-column:2}
+}
+
+/* ---- masthead ---- */
+header{padding:72px 0 40px; border-bottom:1px solid var(--rule); margin-bottom:44px}
+.eyebrow{font-family:"IBM Plex Mono",monospace; font-size:12px; letter-spacing:.16em;
+  text-transform:uppercase; color:var(--muted); margin-bottom:20px}
+h1{font-size:clamp(34px,6vw,54px); line-height:1.08; font-weight:600; letter-spacing:-.015em;
+  text-wrap:balance; margin:0 0 22px}
+.standfirst{font-size:20px; line-height:1.62; color:var(--soft); font-weight:300; max-width:60ch}
+.standfirst em{font-style:italic; color:var(--ink)}
+
+/* ---- side nav ---- */
+.rail{position:sticky; top:32px; align-self:start; display:none}
+@media (min-width:1040px){.rail{display:block}}
+.rail ol{list-style:none; margin:0; padding:0; font-family:"IBM Plex Mono",monospace;
+  font-size:12px; line-height:1.9}
+.rail a{color:var(--muted); border:0; display:block; padding:2px 0}
+.rail a:hover,.rail a.here{color:var(--seal)}
+.rail .n{color:var(--faint); margin-right:8px}
+
+/* ---- body ---- */
+main{min-width:0}
+main section{margin-bottom:52px; scroll-margin-top:32px}
+h2{font-size:15px; font-family:"IBM Plex Mono",monospace; font-weight:500; letter-spacing:.02em;
+  text-transform:uppercase; color:var(--seal); margin:0 0 6px;
+  display:flex; flex-wrap:wrap; align-items:baseline; gap:4px 12px}
+h2 .num{color:var(--faint); font-size:13px}
+h3{font-size:24px; font-weight:600; letter-spacing:-.01em; margin:0 0 14px; text-wrap:balance}
+p{margin:0 0 18px; overflow-wrap:break-word}
+p.lead{font-size:19px; color:var(--soft)}
+strong{font-weight:600}
+main em{font-style:italic}
+ul{margin:0 0 18px; padding-left:1.2em}
+li{margin-bottom:8px}
+.small{font-size:15px; color:var(--muted)}
+
+/* pipeline steps */
+.steps{counter-reset:s; border-top:1px solid var(--line); margin:24px 0}
+.step{counter-increment:s; display:grid; grid-template-columns:34px 1fr; gap:16px;
+  padding:16px 0; border-bottom:1px solid var(--line)}
+.step::before{content:counter(s); font-family:"IBM Plex Mono",monospace; font-size:13px;
+  color:var(--seal); padding-top:3px}
+.step b{font-weight:600}
+.step .k{font-family:"IBM Plex Mono",monospace; font-size:12px; color:var(--muted); overflow-wrap:anywhere}
+
+/* figures */
+figure{margin:32px 0; padding:0}
+figure img{width:100%; display:block; border:1px solid var(--line); border-radius:6px;
+  background:var(--surface)}
+figcaption{font-size:14px; color:var(--muted); margin-top:10px; line-height:1.55}
+figcaption b{color:var(--soft); font-weight:500}
+
+/* finding callouts */
+.finding{border-left:2px solid var(--seal); padding:2px 0 2px 20px; margin:22px 0}
+.finding p{margin:0}
+.finding .tag{font-family:"IBM Plex Mono",monospace; font-size:11px; letter-spacing:.1em;
+  text-transform:uppercase; color:var(--seal); display:block; margin-bottom:4px}
+
+table.mini{width:100%; border-collapse:collapse; font-size:15px; margin:18px 0;
+  font-variant-numeric:tabular-nums}
+table.mini th,table.mini td{text-align:left; padding:8px 12px 8px 0; border-bottom:1px solid var(--line)}
+table.mini th{font-family:"IBM Plex Mono",monospace; font-size:11px; letter-spacing:.06em;
+  text-transform:uppercase; color:var(--muted); font-weight:500}
+table.mini td:last-child,table.mini th:last-child{text-align:right; padding-right:0}
+
+.repro{background:var(--surface); border:1px solid var(--line); border-radius:8px;
+  padding:22px 24px; margin:8px 0 0}
+.repro code{font-family:"IBM Plex Mono",monospace; font-size:13px; background:var(--sunk);
+  padding:2px 6px; border-radius:4px; color:var(--ink); overflow-wrap:anywhere}
+.repro pre{font-family:"IBM Plex Mono",monospace; font-size:13px; background:var(--sunk);
+  padding:12px 14px; border-radius:6px; overflow-x:auto; margin:12px 0 0; line-height:1.7}
+.repro ul{margin-bottom:0}
+
+footer{border-top:1px solid var(--rule); margin-top:56px; padding:28px 0 80px;
+  font-size:14px; color:var(--muted); display:flex; flex-wrap:wrap; gap:8px 22px}
+footer a{border:0}
+</style>
+
+<div class="wrap">
+  <nav class="rail" aria-label="Sections">
+    <ol>
+      <li><a href="#q"><span class="n">01</span>The question</a></li>
+      <li><a href="#data"><span class="n">02</span>The data</a></li>
+      <li><a href="#method"><span class="n">03</span>How it's measured</a></li>
+      <li><a href="#found"><span class="n">04</span>What came out</a></li>
+      <li><a href="#etym"><span class="n">05</span>The etym layer</a></li>
+      <li><a href="#repro"><span class="n">06</span>Reproducing it</a></li>
+    </ol>
+  </nav>
+
+  <main>
+    <header>
+      <div class="eyebrow">Nguasach · cross-linguistic phonosemantics</div>
+      <h1>Does a word&#39;s sound tell you what it means?</h1>
+      <p class="standfirst">Mostly not — that&#39;s Saussure&#39;s point. But at corpus scale a small
+        <em>systematic</em> residue shows up: similar-sounding words tend to mean similar things.
+        This is a rebuild of a 2021 hobby project into a reproducible pipeline that measures that
+        residue across 22 languages, with the controls the original lacked.</p>
+    </header>
+
+    <section id="q">
+      <h2><span class="num">01</span>The question</h2>
+      <h3>Two ways to ask it</h3>
+      <p class="lead">One a prediction task, one a correlation.</p>
+      <p><strong>Retrieval.</strong> Learn a map between two languages&#39; sound-spaces from 90&nbsp;% of
+        their translation pairs. Given a held-out word&#39;s <em>sound alone</em>, can the map retrieve
+        its correct translation, better than a shuffled-label null?</p>
+      <p><strong>Correlation (Mantel).</strong> Build the matrix of pairwise <em>sound</em> distances
+        among concepts and the matrix of pairwise <em>meaning</em> distances. Do they line up — and
+        do they still line up after subtracting out how similar the words are <em>spelled</em>
+        (which absorbs cognates and borrowing)?</p>
+      <p class="small">Headline claims use the four hand-verified language columns — English, Chinese,
+        French, Irish. The other 18 (machine-translated, audited but not trusted cell-by-cell) are a
+        labelled exploratory extension.</p>
+    </section>
+
+    <section id="data">
+      <h2><span class="num">02</span>The data</h2>
+      <h3>1,842 concepts &times; 22 languages</h3>
+      <p>The concept list leans on verbs, adjectives and everyday nouns. Each concept is translated
+        into every language, then turned into two vectors — one for how it sounds, one for what it
+        means.</p>
+      <div class="steps">
+        <div class="step"><div><b>Concept &rarr; word</b> <span class="k">nguasach.xlsx</span><br>
+          One written form per language. English/Chinese/French/Irish checked by hand; the rest from
+          Google Translate, with an offline QC pass that flags untranslated or copied cells
+          (Swahili 15&nbsp;%, Hungarian 8&nbsp;%, &hellip;).</div></div>
+        <div class="step"><div><b>Word &rarr; IPA</b> <span class="k">eSpeak NG 1.52 · pinyin map for Mandarin</span><br>
+          Phonemic transcription; stress, length and tone stripped.</div></div>
+        <div class="step"><div><b>IPA &rarr; sound vector</b> <span class="k">phonetic-similarity-vectors</span><br>
+          Each word becomes a bag of articulatory feature-bigrams (voiced&#8209;bilabial&#8209;stop,
+          &hellip;), then whitened PCA to 300 dimensions.</div></div>
+        <div class="step"><div><b>Concept &rarr; meaning vector</b> <span class="k">word2vec &rarr; PCA-50</span><br>
+          A 26k-word English word2vec model, reduced to 50 whitened dimensions.</div></div>
+      </div>
+    </section>
+
+    <section id="method">
+      <h2><span class="num">03</span>How it&#39;s measured</h2>
+      <h3>The map, and the controls it has to beat</h3>
+      <p>The retrieval map is a <strong>ridge regression</strong> between the two sound-spaces —
+        regularised, unlike the original&#39;s plain least squares, which overfits at ~18 training
+        pairs per parameter. Scoring uses exact cosine retrieval with CSLS de-hubbing, 10-fold
+        cross-validation, and a <strong>1,000-permutation null</strong> that reshuffles the
+        translation pairing and re-runs the entire fit. Everything gets Benjamini&ndash;Hochberg
+        FDR.</p>
+      <p>Three non-learned baselines run through the identical machinery, so the learned map&#39;s
+        contribution is isolable:</p>
+      <ul>
+        <li><strong>editdist</strong> — rank candidates by raw string similarity. The cognate control.</li>
+        <li><strong>orth</strong> — character n-gram overlap. Cross-script pairs score at chance.</li>
+        <li><strong>feat</strong> — mean articulatory-feature vector. Coarse, script-independent phonology.</li>
+      </ul>
+      <p>The <strong>partial Mantel</strong> residualises both distance matrices on the orthographic
+        edit-distance matrix before correlating — the step that decides whether "iconicity" is the
+        right word or whether it&#39;s just shared spelling.</p>
+    </section>
+
+    <section id="found">
+      <h2><span class="num">04</span>What came out</h2>
+      <h3>A small real effect, concentrated in the oldest vocabulary</h3>
+
+      <figure>
+        <img src="__FIG_retrieval__" alt="Bar chart: retrieval accuracy for the four verified-core language pairs, all above the permutation null, scaling from French-English at 0.42 down to Chinese-English at 0.08.">
+        <figcaption><b>Retrieval scales with family distance.</b> Every verified-core pair beats its
+          permutation null (grey), from French&#8596;English at 0.42 down to Chinese&#8596;English at
+          ~0.08. Significant, but tracking shared vocabulary.</figcaption>
+      </figure>
+
+      <figure>
+        <img src="__FIG_baselines__" alt="Grouped bars comparing phonetic retrieval to editdist, orth and feat baselines. For Indo-European pairs the phonetic bar is equal to or shorter than editdist; for Chinese pairs editdist and orth are zero.">
+        <figcaption><b>For related languages, a plain string-similarity ranker matches or beats the
+          phonetic map.</b> The Indo-European retrieval signal is cognates. Only Chinese&#8596;European —
+          where <b>editdist</b> and <b>orth</b> are structurally zero — leaves a small residue, and
+          coarse features (<b>feat</b>) explain most of it.</figcaption>
+      </figure>
+
+      <figure>
+        <img src="__FIG_sweep__" alt="Horizontal bars: form-meaning Mantel r for all 22 languages, raw and after partialling out orthography. Positive and significant everywhere except Chinese's partial.">
+        <figcaption><b>Within-language sound&harr;meaning correlation is near-universal but tiny.</b>
+          Positive and significant (<i>r</i>&nbsp;&asymp;&nbsp;0.01&ndash;0.04) in all 22 languages;
+          it survives the orthographic control wherever that control is meaningful (all but
+          Chinese, whose logographic script defeats an edit-distance measure).</figcaption>
+      </figure>
+
+      <figure>
+        <img src="__FIG_strata__" alt="Horizontal bars: median partial Mantel r by concept stratum. Leipzig-Jakarta 0.078, Swadesh 0.050, adjectives 0.048, all/no-loanword/nouns near 0.020, verbs 0.009.">
+        <figcaption><b>The effect concentrates in basic vocabulary.</b> On the Leipzig&ndash;Jakarta
+          list — the 100 most borrowing-resistant meanings — it is four times the full-list value and
+          significant in all 20 languages. Adjectives (the <i>bouba/kiki</i> category) carry it;
+          verbs barely do.</figcaption>
+      </figure>
+
+      <div class="finding">
+        <span class="tag">loanwords</span>
+        <p>Internationalisms (<em>chocolate, tsunami, saxophone</em>) <strong>dilute</strong> the
+          signal rather than inflate it — they sound alike everywhere but mean unrelated things.
+          Excluding 205 of them nudges the median correlation <em>up</em>.</p>
+      </div>
+      <div class="finding">
+        <span class="tag">verbs</span>
+        <p>Verbs are near zero overall, and the sign flips with morphology: significantly
+          <em>negative</em> for the agglutinative languages (Japanese &minus;0.043, Korean, Turkish,
+          Russian). Regular conjugation endings make similar-sounding verbs share inflection, not
+          meaning.</p>
+      </div>
+      <div class="finding">
+        <span class="tag">cross-family</span>
+        <p>Between unrelated languages the <code>form&#8202;~&#8202;form</code> correlation is real
+          but minuscule (median partial <em>r</em>&nbsp;&asymp;&nbsp;0.01), present for ~80&nbsp;% of
+          pairs. Too weak for a universality claim; not nothing.</p>
+      </div>
+      <p class="small">The phoneme&ndash;pole ("hexagram") analysis — which phonemes cluster with
+        which meanings — yields nothing that survives FDR.</p>
+    </section>
+
+    <section id="etym">
+      <h2><span class="num">05</span>The etym layer</h2>
+      <h3>Syllables as trigram compositions</h3>
+      <p>The interpretability side carries a constructed system. Eighteen semantic <em>poles</em> —
+        nine I&#8209;Ching trigrams, each <em>static</em> (a spatial configuration) or <em>dynamic</em>
+        (a motion) — stand for the primitives of a Language-of-Thought conlang. An <em>etym</em>
+        (atom + etymology, after <cite>Finnegans Wake</cite>) is the smallest unit that fuses form,
+        grounded meaning, and a cognitive operation, and sits at a consonant&times;vowel cell.</p>
+      <p>The pipeline builds the <strong>Mandarin onset&times;rhyme grid</strong>: for each syllable,
+        it pools every concept whose Chinese word contains it, averages their meaning vectors, and
+        reports which trigram pole — or which additive (<em>parallel</em>) pair of poles — that
+        average lands nearest, plus the syllable&#39;s over-used phonemes and its example words.</p>
+      <p><a href="__ETYM_URL__">Open the Etym Table &rarr;</a> — a browsable onset&times;rhyme
+        matrix; click any cell for its pole structure, phoneme skew, meaning neighbours, and word
+        list.</p>
+    </section>
+
+    <section id="repro">
+      <h2><span class="num">06</span>Reproducing it</h2>
+      <h3>One command, frozen configs</h3>
+      <div class="repro">
+        <pre>nguasach all --config configs/paper_confirmatory.yaml</pre>
+        <p class="small" style="margin:12px 0 0">runs
+          <code>data &rarr; translate-qc &rarr; ipa &rarr; phonetics &rarr; semantics &rarr; align
+          &rarr; mantel &rarr; associate &rarr; baselines &rarr; etym &rarr; report</code>.</p>
+        <ul class="small" style="margin-top:14px">
+          <li>Every stage writes a JSON run manifest — config hash, git SHA, input checksums, backend versions.</li>
+          <li>Frozen configs for the confirmatory (4 languages), exploratory (all 22), and
+            loanword-excluded runs; results under <code>results/paper_*/</code>.</li>
+          <li><code>notebooks/figures.py</code> regenerates every figure from <code>results/</code>.</li>
+          <li>Python 3.10, pinned; the vendored feature-vector code at commit <code>58f5639</code>.</li>
+          <li>The original scripts and outputs are kept in <code>legacy_src/</code> and
+            <code>legacy_results/</code>.</li>
+        </ul>
+      </div>
+    </section>
+
+    <footer>
+      <span>Nguasach</span>
+      <a href="__ETYM_URL__">Etym Table</a>
+      <span>manuscript.md &middot; §1&ndash;6 + data statement</span>
+    </footer>
+  </main>
+</div>
+
+<script>
+const links=[...document.querySelectorAll('.rail a')];
+const secs=links.map(a=>document.querySelector(a.getAttribute('href')));
+const obs=new IntersectionObserver(es=>{
+  es.forEach(e=>{ if(e.isIntersecting){
+    links.forEach(l=>l.classList.remove('here'));
+    const i=secs.indexOf(e.target); if(i>=0) links[i].classList.add('here');
+  }});
+},{rootMargin:'-20% 0px -70% 0px'});
+secs.forEach(s=>s&&obs.observe(s));
+</script>
