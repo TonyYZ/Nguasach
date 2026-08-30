@@ -144,6 +144,10 @@ td.dim .cell{opacity:.22}
 .chips{display:flex; flex-wrap:wrap; gap:6px}
 .chip{font-family:"IBM Plex Mono",monospace; font-size:11px; padding:3px 7px; border-radius:5px; background:var(--sunk); border:1px solid var(--line)}
 .chip.up{color:var(--heat); border-color:var(--seal-soft)}
+.chip.dn{color:var(--faint)}
+.pole-words{color:var(--muted); font-size:12px; line-height:1.7}
+.pole-words .cjk{color:var(--ink)}
+.d-note{color:var(--faint); font-size:12px; font-style:italic}
 .nbr{color:var(--muted)}
 .nbr b{color:var(--ink); font-weight:500}
 .words{display:flex; flex-direction:column; gap:2px}
@@ -214,7 +218,7 @@ pole_names.forEach(name=>{
   b.innerHTML=`<span class="gly">${gly(name)}</span>
     <span><span class="nm cjk">${base(name)}</span> <span class="sd">${sd(name)}</span>
     <span class="gl">${POLE_GLOSS[name]||''}</span></span>`;
-  b.onclick=()=>toggleFilter('pole',name);
+  b.onclick=()=>{ toggleFilter('pole',name); showPole(); };
   legend.appendChild(b);
 });
 
@@ -313,6 +317,39 @@ function copyCell(c){
   });
 }
 
+
+/* ---- pole profile ---- */
+const POLES = DATA.poles || {};
+function showPole(){
+  if(filter && filter.type==='pole'){ renderPole(filter.val); }
+  else if(selKey===null){ deselect(); }
+}
+function renderPole(name){
+  const p = POLES[name]; if(!p) return;
+  selKey = null;
+  grid.querySelectorAll('td.sel').forEach(td=>td.classList.remove('sel'));
+  const up  = (p.over ||[]).map(o=>`<span class="chip up">${o.p} +${o.z.toFixed(2)}<span style="opacity:.6"> ·${o.n}</span></span>`).join('');
+  const dn  = (p.under||[]).map(o=>`<span class="chip dn">${o.p} ${o.z.toFixed(2)}</span>`).join('');
+  const sw  = (p.seed_words||[]).map(w=>w).join(' · ');
+  drawer.innerHTML = `
+    <div class="d-head">
+      <button class="d-close" onclick="clearPole()" aria-label="close">×</button>
+      <div class="d-syl" style="font-family:'Spectral',serif">${gly(name)} <span class="cjk">${base(name)}</span></div>
+      <div class="d-ipa"><span class="cjk">${sd(name)}</span> · ${p.gloss} · ${p.n_concepts} concept${p.n_concepts===1?'':'s'} assigned</div>
+    </div>
+    ${p.n_concepts>=3 ? `
+      <div class="d-sect"><h3>over-used phonemes  (raw z, none clear FDR)</h3><div class="chips">${up||'<span class="d-note">none</span>'}</div></div>
+      <div class="d-sect"><h3>under-used phonemes</h3><div class="chips">${dn||'<span class="d-note">none</span>'}</div></div>`
+    : `<div class="d-sect"><p class="d-note">Too few Chinese concepts project onto this pole for a phoneme profile.</p></div>`}
+    <div class="d-sect"><h3>pole seed words</h3><div class="pole-words">${sw}</div></div>
+    <div class="d-sect"><p class="d-note">Phonemes whose rate among Chinese words assigned to this
+      pole is high (+) or low (&minus;) vs. their rate across all 18 poles. Pole assignment: nearest
+      anchor after a ridge phonetic&rarr;semantic projection.</p></div>`;
+  app.classList.add('open'); drawer.classList.remove('empty');
+}
+function clearPole(){ filter=null; q.value=''; applyFilter(); deselect(); }
+window.clearPole=clearPole;
+
 /* ---- filtering ---- */
 let filter=null;   // {type:'pole'|'text', val}
 const q=document.getElementById('q'), clearf=document.getElementById('clearf');
@@ -343,7 +380,7 @@ function applyFilter(){
   });
   document.getElementById('stat').textContent = filter ? `${n} of ${DATA.n_cells} cells` : `${DATA.n_cells} cells`;
 }
-clearf.onclick=()=>{ filter=null; q.value=''; applyFilter(); };
+clearf.onclick=()=>{ const wasPole=filter&&filter.type==='pole'; filter=null; q.value=''; applyFilter(); if(wasPole) deselect(); };
 
 function highlightAxis(kind,val){
   grid.querySelectorAll('th.axhl').forEach(t=>t.classList.remove('axhl'));

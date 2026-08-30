@@ -156,12 +156,44 @@ def run(cfg: Config, n_jobs: int = 1) -> dict:
         "onsets": sorted(onsets), "rhymes": sorted(rhymes),
         "n_cells": len(cells),
         "pole_names": names, "pole_glosses": glosses,
+        "poles": _pole_phoneme_profiles(cfg, names),
         "table": table,
     }
     (rdir / "etym_table.json").write_text(json.dumps(out, ensure_ascii=False), encoding="utf-8")
     _csv(rdir / "etym_table.csv", cells)
     (cfg.paths.resolve("interim") / "etym.done").write_text(cfg.fingerprint(), encoding="utf-8")
     return {k: out[k] for k in ("stage", "config", "n_cells", "onsets", "rhymes")}
+
+
+def _pole_phoneme_profiles(cfg: Config, pole_names: list[str]) -> dict:
+    """Per trigram pole: which Chinese phonemes it over- / under-uses.
+
+    The original project's intent -- assign every Chinese concept to its nearest
+    pole (ridge phonetic->semantic projection, as in association.py), tally
+    phonemes per pole, z-score each phoneme's rate across the 18 poles. None
+    clear FDR at this scale, so the raw z-scores are the browsable artefact.
+    """
+    from . import association as A
+
+    spec = A.load_poles(cfg)
+    names, anchors = A.pole_anchors(cfg, spec)
+    pole_of, concepts = A.assign_poles(cfg, "Chinese", anchors)
+    phones = A.phoneme_rows(cfg, "Chinese")
+    z, vocab, counts = A.zscores(pole_of, concepts, phones, len(names))
+    sizes = np.bincount(pole_of, minlength=len(names))
+    gloss = {p["name"]: p.get("gloss", "") for p in spec}
+    words = {p["name"]: p["words"] for p in spec}
+
+    prof = {}
+    for i, nm in enumerate(names):
+        row = z[i]
+        over = [{"p": vocab[j], "z": round(float(row[j]), 2), "n": int(counts[i, j])}
+                for j in np.argsort(-row) if counts[i, j] >= 3 and row[j] > 0][:8]
+        under = [{"p": vocab[j], "z": round(float(row[j]), 2), "n": int(counts[i, j])}
+                 for j in np.argsort(row) if row[j] < 0][:8]
+        prof[nm] = {"gloss": gloss.get(nm, ""), "n_concepts": int(sizes[i]),
+                    "seed_words": words.get(nm, [])[:14], "over": over, "under": under}
+    return prof
 
 
 def _csv(path, cells: list[dict]) -> None:
