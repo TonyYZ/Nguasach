@@ -1,0 +1,11 @@
+analysis,unit,n,r,p_perm,r_partial_orth,p_partial,q_partial,same_family,families,orth_control_degenerate
+form~meaning,English,697,0.0271,0.0033,0.0274,0.0033,0.0033,,,False
+form~meaning,Chinese,697,0.0184,0.0033,0.0069,0.0033,0.0033,,,True
+form~meaning,French,697,0.0204,0.0033,0.0147,0.0033,0.0033,,,False
+form~meaning,Irish,697,0.02,0.0033,0.0185,0.0033,0.0033,,,False
+form~form,English~Chinese,700,0.0032,0.0897,0.0025,0.1927,0.2312,False,IE-Germanic / Sino-Tibetan,True
+form~form,English~French,700,0.052,0.0033,0.0456,0.0033,0.0066,False,IE-Germanic / IE-Romance,False
+form~form,English~Irish,700,0.0242,0.0033,0.0218,0.0033,0.0066,False,IE-Germanic / IE-Celtic,False
+form~form,Chinese~French,700,0.0074,0.0033,0.0037,0.0498,0.0747,False,Sino-Tibetan / IE-Romance,True
+form~form,Chinese~Irish,700,0.0052,0.0166,0.0025,0.2392,0.2392,False,Sino-Tibetan / IE-Celtic,True
+form~form,French~Irish,700,0.0146,0.0033,0.0123,0.0033,0.0066,False,IE-Romance / IE-Celtic,False

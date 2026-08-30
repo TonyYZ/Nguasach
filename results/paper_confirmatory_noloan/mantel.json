@@ -1,0 +1,130 @@
+{
+  "stage": "mantel",
+  "config": "paper_confirmatory_noloan",
+  "config_fingerprint": "657a9e276cc67dcf",
+  "n_subsample": 700,
+  "rows": [
+    {
+      "analysis": "form~meaning",
+      "unit": "English",
+      "n": 697,
+      "r": 0.0271,
+      "p_perm": 0.0033,
+      "r_partial_orth": 0.0274,
+      "p_partial": 0.0033,
+      "orth_control_degenerate": false,
+      "q_partial": 0.0033
+    },
+    {
+      "analysis": "form~meaning",
+      "unit": "Chinese",
+      "n": 697,
+      "r": 0.0184,
+      "p_perm": 0.0033,
+      "r_partial_orth": 0.0069,
+      "p_partial": 0.0033,
+      "orth_control_degenerate": true,
+      "q_partial": 0.0033
+    },
+    {
+      "analysis": "form~meaning",
+      "unit": "French",
+      "n": 697,
+      "r": 0.0204,
+      "p_perm": 0.0033,
+      "r_partial_orth": 0.0147,
+      "p_partial": 0.0033,
+      "orth_control_degenerate": false,
+      "q_partial": 0.0033
+    },
+    {
+      "analysis": "form~meaning",
+      "unit": "Irish",
+      "n": 697,
+      "r": 0.02,
+      "p_perm": 0.0033,
+      "r_partial_orth": 0.0185,
+      "p_partial": 0.0033,
+      "orth_control_degenerate": false,
+      "q_partial": 0.0033
+    },
+    {
+      "analysis": "form~form",
+      "unit": "English~Chinese",
+      "n": 700,
+      "r": 0.0032,
+      "p_perm": 0.0897,
+      "r_partial_orth": 0.0025,
+      "p_partial": 0.1927,
+      "orth_control_degenerate": true,
+      "same_family": false,
+      "families": "IE-Germanic / Sino-Tibetan",
+      "q_partial": 0.2312
+    },
+    {
+      "analysis": "form~form",
+      "unit": "English~French",
+      "n": 700,
+      "r": 0.052,
+      "p_perm": 0.0033,
+      "r_partial_orth": 0.0456,
+      "p_partial": 0.0033,
+      "orth_control_degenerate": false,
+      "same_family": false,
+      "families": "IE-Germanic / IE-Romance",
+      "q_partial": 0.0066
+    },
+    {
+      "analysis": "form~form",
+      "unit": "English~Irish",
+      "n": 700,
+      "r": 0.0242,
+      "p_perm": 0.0033,
+      "r_partial_orth": 0.0218,
+      "p_partial": 0.0033,
+      "orth_control_degenerate": false,
+      "same_family": false,
+      "families": "IE-Germanic / IE-Celtic",
+      "q_partial": 0.0066
+    },
+    {
+      "analysis": "form~form",
+      "unit": "Chinese~French",
+      "n": 700,
+      "r": 0.0074,
+      "p_perm": 0.0033,
+      "r_partial_orth": 0.0037,
+      "p_partial": 0.0498,
+      "orth_control_degenerate": true,
+      "same_family": false,
+      "families": "Sino-Tibetan / IE-Romance",
+      "q_partial": 0.0747
+    },
+    {
+      "analysis": "form~form",
+      "unit": "Chinese~Irish",
+      "n": 700,
+      "r": 0.0052,
+      "p_perm": 0.0166,
+      "r_partial_orth": 0.0025,
+      "p_partial": 0.2392,
+      "orth_control_degenerate": true,
+      "same_family": false,
+      "families": "Sino-Tibetan / IE-Celtic",
+      "q_partial": 0.2392
+    },
+    {
+      "analysis": "form~form",
+      "unit": "French~Irish",
+      "n": 700,
+      "r": 0.0146,
+      "p_perm": 0.0033,
+      "r_partial_orth": 0.0123,
+      "p_partial": 0.0033,
+      "orth_control_degenerate": false,
+      "same_family": false,
+      "families": "IE-Romance / IE-Celtic",
+      "q_partial": 0.0066
+    }
+  ]
+}
