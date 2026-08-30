@@ -1,6 +1,7 @@
 # FROZEN exploratory extension for the manuscript.
-# All 22 languages; translation-QC flags applied; corrected as a SEPARATE FDR
-# family from the confirmatory pairs.
+# All 22 languages; translation-QC flags applied. Corrected as a SEPARATE FDR
+# family from the confirmatory pairs. Lighter resampling than the confirmatory
+# config -- 462 ordered retrieval pairs + 231 Mantel form~form pairs.
 name: paper_exploratory
 
 languages: [Hungarian, Finnish, Greek, Russian, German, Spanish, Italian, French,
@@ -13,12 +14,15 @@ map: ridge
 dim: 300
 ridge_alpha: 1.0
 k: 100
+csls_k: 10
 
 folds: 10
 test_folds: 1
 seed: 20240828
 
-null_iters: 1000
-bootstrap_iters: 2000
+null_iters: 200
+bootstrap_iters: 1000
+mantel_cap: 600
 
 qc_mode: exclude_flagged
+baselines: [editdist]

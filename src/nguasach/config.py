@@ -29,6 +29,20 @@ ALL_LANGUAGES = (
     "Hindi",
 )
 
+# Genealogical family, for stratifying the exploratory cross-language analyses.
+LANGUAGE_FAMILY = {
+    "Hungarian": "Uralic", "Finnish": "Uralic",
+    "Greek": "IE-Hellenic", "Russian": "IE-Slavic",
+    "German": "IE-Germanic", "English": "IE-Germanic",
+    "Spanish": "IE-Romance", "Italian": "IE-Romance", "French": "IE-Romance",
+    "Irish": "IE-Celtic", "Welsh": "IE-Celtic",
+    "Hindi": "IE-Indic",
+    "Chinese": "Sino-Tibetan", "Vietnamese": "Austroasiatic",
+    "Japanese": "Japonic", "Korean": "Koreanic", "Thai": "Kra-Dai",
+    "Indonesian": "Austronesian", "Turkish": "Turkic",
+    "Arabic": "Afro-Asiatic", "Hebrew": "Afro-Asiatic", "Swahili": "Atlantic-Congo",
+}
+
 
 @dataclass(frozen=True)
 class Paths:

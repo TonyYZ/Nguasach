@@ -20,8 +20,9 @@ import json
 import numpy as np
 
 from .align import load_emb
-from .config import Config
+from .config import LANGUAGE_FAMILY, Config
 from . import data as _data
+from .stats import bh_fdr
 
 
 def _cosine_dist(mat: np.ndarray) -> np.ndarray:
@@ -113,10 +114,23 @@ def run(cfg: Config, n_jobs: int = 1) -> dict:
     sem_ok = np.array([i for i in idx if sem_keys[i] in s_pos])
     d_mean = _cosine_dist(s_mat[[s_pos[sem_keys[i]] for i in sem_ok]])
 
+    _fcache: dict[tuple[str, int], np.ndarray] = {}
+
     def form_dist(lang: str, ids: np.ndarray) -> np.ndarray:
-        labels, mat = load_emb(processed / f"{lang}Emb.txt")
-        pos = {lab: i for i, lab in enumerate(labels)}
-        return _cosine_dist(mat[[pos[lj[lang][i]] for i in ids]])
+        key = (lang, len(ids))
+        if key not in _fcache:
+            labels, mat = load_emb(processed / f"{lang}Emb.txt")
+            pos = {lab: i for i, lab in enumerate(labels)}
+            _fcache[key] = _cosine_dist(mat[[pos[lj[lang][i]] for i in ids]])
+        return _fcache[key]
+
+    _ocache: dict[tuple[str, int], np.ndarray] = {}
+
+    def orth_dist(lang: str, ids: np.ndarray) -> np.ndarray:
+        key = (lang, len(ids))
+        if key not in _ocache:
+            _ocache[key] = _edit_dist_matrix(df[lang].to_numpy()[ids])
+        return _ocache[key]
 
     def _row(analysis, unit, nn, dform, dother, dz):
         r, p, _ = _mantel(dform, dother, cfg.null_iters, cfg.seed)
@@ -128,17 +142,27 @@ def run(cfg: Config, n_jobs: int = 1) -> dict:
 
     rows = []
     for lang in cfg.languages:
-        d_form = form_dist(lang, sem_ok)
-        d_orth = _edit_dist_matrix(df[lang].to_numpy()[sem_ok])
-        rows.append(_row("form~meaning", lang, len(sem_ok), d_form, d_mean, d_orth))
+        rows.append(_row("form~meaning", lang, len(sem_ok),
+                         form_dist(lang, sem_ok), d_mean, orth_dist(lang, sem_ok)))
 
-    core = list(cfg.verified_core)
-    for a in range(len(core)):
-        for b in range(a + 1, len(core)):
-            l1, l2 = core[a], core[b]
-            rows.append(_row("form~form", f"{l1}~{l2}", len(idx),
-                             form_dist(l1, idx), form_dist(l2, idx),
-                             _edit_dist_matrix(df[l1].to_numpy()[idx])))
+    # form~form for every unordered language pair (was verified-core only)
+    langs = list(cfg.languages)
+    for a in range(len(langs)):
+        for b in range(a + 1, len(langs)):
+            l1, l2 = langs[a], langs[b]
+            row = _row("form~form", f"{l1}~{l2}", len(idx),
+                       form_dist(l1, idx), form_dist(l2, idx), orth_dist(l1, idx))
+            fam1, fam2 = LANGUAGE_FAMILY.get(l1, "?"), LANGUAGE_FAMILY.get(l2, "?")
+            row["same_family"] = fam1 == fam2
+            row["families"] = f"{fam1} / {fam2}"
+            rows.append(row)
+
+    # BH-FDR within each analysis type, on the partial p-values
+    for a in ("form~meaning", "form~form"):
+        idxs = [i for i, r in enumerate(rows) if r["analysis"] == a]
+        q = bh_fdr(np.array([rows[i]["p_partial"] for i in idxs]))
+        for j, i in enumerate(idxs):
+            rows[i]["q_partial"] = round(float(q[j]), 4)
 
     out = {"stage": "mantel", "config": cfg.name,
            "config_fingerprint": cfg.fingerprint(),
@@ -153,9 +177,9 @@ def _csv(path, rows: list[dict]) -> None:
     import csv
 
     cols = ["analysis", "unit", "n", "r", "p_perm", "r_partial_orth", "p_partial",
-            "orth_control_degenerate"]
+            "q_partial", "same_family", "families", "orth_control_degenerate"]
     with path.open("w", encoding="utf-8", newline="") as fh:
         w = csv.writer(fh)
         w.writerow(cols)
         for r in rows:
-            w.writerow([r[c] for c in cols])
+            w.writerow([r.get(c, "") for c in cols])
