@@ -179,23 +179,27 @@ def run(cfg: Config, n_jobs: int = 1) -> dict:
     have_sem = (cfg.paths.resolve("processed") / "SemanticsEmb.txt").exists()
     targets = langs + (["Semantics"] if have_sem else [])
 
+    if cfg.align_scope == "english" and "English" in langs:
+        pairs = ([("English", t) for t in targets if t != "English"]
+                 + [(s, "English") for s in langs if s != "English"]
+                 + [(s, "Semantics") for s in langs if s != "English" and have_sem])
+    else:
+        pairs = [(s, t) for s in langs for t in targets if s != t]
+
     rows = []
-    for src in langs:
-        for tgt in targets:
-            if src == tgt:
-                continue
-            pd = load_pair_data(cfg, src, tgt)
-            r = score_pair(pd, folds, k=cfg.k, map_kind=cfg.map,
-                           alpha=cfg.ridge_alpha, csls_k=cfg.csls_k).summary()
-            null = null_for_pair(cfg, pd, folds, n_jobs=n_jobs)
-            _, lo, hi = bootstrap_ci(r["acc_folds"], cfg.bootstrap_iters, cfg.seed)
-            r["boot_ci95"] = [lo, hi]
-            r["nb_se"] = nadeau_bengio_se(r["acc_folds"], r["n_train_per_fold"], r["n_test_per_fold"])
-            r["null_mean"] = float(np.mean(null))
-            r["null_p95"] = float(np.quantile(null, 0.95))
-            r["p_perm"] = empirical_p(r["acc_mean"], null)
-            r["family"] = "confirmatory" if (src in core and tgt in core) else "exploratory"
-            rows.append(r)
+    for src, tgt in pairs:
+        pd = load_pair_data(cfg, src, tgt)
+        r = score_pair(pd, folds, k=cfg.k, map_kind=cfg.map,
+                       alpha=cfg.ridge_alpha, csls_k=cfg.csls_k).summary()
+        null = null_for_pair(cfg, pd, folds, n_jobs=n_jobs)
+        _, lo, hi = bootstrap_ci(r["acc_folds"], cfg.bootstrap_iters, cfg.seed)
+        r["boot_ci95"] = [lo, hi]
+        r["nb_se"] = nadeau_bengio_se(r["acc_folds"], r["n_train_per_fold"], r["n_test_per_fold"])
+        r["null_mean"] = float(np.mean(null))
+        r["null_p95"] = float(np.quantile(null, 0.95))
+        r["p_perm"] = empirical_p(r["acc_mean"], null)
+        r["family"] = "confirmatory" if (src in core and tgt in core) else "exploratory"
+        rows.append(r)
 
     for fam in ("confirmatory", "exploratory"):
         idx = [i for i, r in enumerate(rows) if r["family"] == fam]

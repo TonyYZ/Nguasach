@@ -89,6 +89,11 @@ class Config:
     baselines: tuple[str, ...] = ("editdist", "orth", "feat")
     char_ngram: tuple[int, ...] = (2, 3)
 
+    # --- align scope ---
+    # "all"     -- every ordered language pair + each -> Semantics (N^2; confirmatory)
+    # "english" -- English<->X and X->Semantics only (linear in N; exploratory)
+    align_scope: str = "all"
+
     # --- cross-validation ---
     folds: int = 10
     test_folds: int = 1

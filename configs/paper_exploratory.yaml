@@ -12,6 +12,7 @@ concept_set: all
 
 map: ridge
 dim: 300
+align_scope: english
 ridge_alpha: 1.0
 k: 100
 csls_k: 10
@@ -25,4 +26,4 @@ bootstrap_iters: 1000
 mantel_cap: 600
 
 qc_mode: exclude_flagged
-baselines: [editdist]
+baselines: []
