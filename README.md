@@ -1,24 +1,37 @@
 # Nguasach
 
-Cross-linguistic phonosemantics. Two coupled analyses over the same aligned
-phonetic↔semantic space:
+Cross-linguistic phonosemantics: is a word's sound predictive of its meaning,
+and is any of that shared across languages? A rebuild of a 2021 amateur project
+for rigour and reproducibility.
 
-1. **Confirmatory** — does a word's *phonetic form alone* predict its correct
-   translation above a label-permutation null, across language pairs? (transvec /
-   ridge alignment + top-*k* retrieval, randomized *k*-fold CV, bootstrap CIs.)
-2. **Interpretability** — which phonemes are over-represented in words whose
-   meaning sits near each of 18 semantic poles? (per-pole phoneme z-scores with a
-   permutation null and FDR correction — the "hexagram" analysis.)
+Three analyses over the same phonetic / semantic representations:
 
-Headline claims are tested only on the four manually verified language columns
-(**English, Chinese, French, Irish**); all 22 languages are reported as a
-clearly-labelled exploratory extension with translation-QC flags.
+1. **Retrieval** — fit a ridge map between two languages' phonetic-similarity
+   spaces on 90 % of translation pairs; can it retrieve a held-out word's
+   translation from sound alone, above a label-permutation null? (10-fold CV,
+   CSLS, bootstrap CIs, BH-FDR.)
+2. **Mantel** — correlate the pairwise form-distance matrix with the
+   meaning-distance matrix, within and across languages, partialling out
+   orthographic (edit-distance) similarity. The field-standard test, immune to
+   the retrieval metric's hubness.
+3. **Phoneme–meaning association** — which phonemes cluster with which of 18
+   semantic poles (the original "hexagram" analysis).
 
-## Status
+Headline claims use the four manually verified columns (**English, Chinese,
+French, Irish**); all 22 languages are a labelled exploratory extension with
+translation-QC flags.
 
-Rebuild in progress. See `../.claude/plans/lively-juggling-mist.md` for the full
-plan. Phase 0 (salvage / restructure / pin) is landing now; Phases 1–3 (pipeline,
-statistics, paper) follow.
+## Status & results
+
+Pipeline complete; both frozen runs done.
+
+| run | config | frozen output | one-line result |
+|-----|--------|---------------|-----------------|
+| confirmatory | `configs/paper_confirmatory.yaml` | `results/paper_confirmatory/`, `figures/` | within-language `form~meaning` *r* ≈ 0.02 survives the orthographic control in all 4; related-language retrieval is beaten by a plain edit-distance ranker (cognates). |
+| exploratory | `configs/paper_exploratory.yaml` | `results/paper_exploratory/`, `figures/exploratory/` | `form~meaning` significant in **all 22 languages** (partial *r* holds wherever the orthographic control is meaningful); cross-family `form~form` small (median *r* ≈ 0.01) but present for ~80 % of pairs. |
+
+Write-up: `manuscript/manuscript.md` (+ `references.bib`, pandoc `Makefile`).
+Original scripts and outputs are in `legacy_src/` and `legacy_results/`.
 
 ## Setup
 
