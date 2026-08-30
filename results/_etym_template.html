@@ -1,0 +1,358 @@
+<title>Etym Table</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Spectral:ital,wght@0,500;0,600;1,500&display=swap">
+
+<style>
+:root{
+  --paper:#f3f3f0; --surface:#ffffff; --sunk:#eceae4;
+  --ink:#17171b; --muted:#6a6a74; --faint:#9a9aa2;
+  --line:#dcdad3; --line-strong:#c7c4ba;
+  --seal:#b0472b;            /* cinnabar / seal-ink red */
+  --seal-soft:#b0472b1f;
+  --pos:#3f6f4a; --heat:#b0472b;
+  --shadow:0 1px 2px #1717170f, 0 8px 24px -12px #17171722;
+  --cjk:"Noto Sans SC","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --paper:#131316; --surface:#1b1b20; --sunk:#101013;
+    --ink:#e9e9ec; --muted:#9d9da7; --faint:#6c6c76;
+    --line:#2c2c34; --line-strong:#3a3a44;
+    --seal:#e0714f; --seal-soft:#e0714f22;
+    --pos:#7fb489; --heat:#e0714f;
+    --shadow:0 1px 2px #0006, 0 10px 28px -14px #000a;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#131316; --surface:#1b1b20; --sunk:#101013;
+  --ink:#e9e9ec; --muted:#9d9da7; --faint:#6c6c76;
+  --line:#2c2c34; --line-strong:#3a3a44;
+  --seal:#e0714f; --seal-soft:#e0714f22;
+  --pos:#7fb489; --heat:#e0714f;
+  --shadow:0 1px 2px #0006, 0 10px 28px -14px #000a;
+}
+
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+  margin:0; background:var(--paper); color:var(--ink);
+  font-family:"IBM Plex Sans",system-ui,sans-serif; font-size:14px; line-height:1.5;
+  -webkit-font-smoothing:antialiased;
+}
+h1,h2,h3{font-family:"Spectral",Georgia,serif; font-weight:600; text-wrap:balance; margin:0}
+.mono{font-family:"IBM Plex Mono",ui-monospace,monospace}
+.cjk{font-family:var(--cjk)}
+button{font:inherit; color:inherit; cursor:pointer}
+::selection{background:var(--seal-soft)}
+:focus-visible{outline:2px solid var(--seal); outline-offset:2px; border-radius:3px}
+
+.app{
+  display:grid; height:100vh;
+  grid-template-columns:clamp(240px,20vw,290px) minmax(0,1fr) 0;
+  transition:grid-template-columns .22s ease;
+}
+.app.open{grid-template-columns:clamp(240px,20vw,290px) minmax(0,1fr) clamp(320px,30vw,400px)}
+@media (prefers-reduced-motion:reduce){.app{transition:none}}
+
+/* ---------------- left rail ---------------- */
+.rail{
+  border-right:1px solid var(--line); background:var(--surface);
+  display:flex; flex-direction:column; min-height:0;
+}
+.rail-head{padding:20px 20px 14px; border-bottom:1px solid var(--line)}
+.rail-head h1{font-size:22px; letter-spacing:-.01em}
+.rail-head .sub{color:var(--muted); font-size:12px; margin-top:4px}
+.rail-head .sub b{color:var(--ink); font-weight:500}
+.search{
+  margin:14px 16px 8px; display:flex; align-items:center; gap:8px;
+  border:1px solid var(--line-strong); border-radius:8px; padding:7px 10px; background:var(--paper);
+}
+.search input{border:0; background:transparent; color:inherit; font:inherit; width:100%; outline:0}
+.search svg{flex:none; color:var(--faint)}
+.rail-scroll{overflow-y:auto; padding:6px 10px 20px; min-height:0}
+.legend-h{
+  font-size:11px; letter-spacing:.09em; text-transform:uppercase; color:var(--muted);
+  padding:12px 8px 6px;
+}
+.pole{
+  width:100%; display:grid; grid-template-columns:22px 1fr; gap:9px; align-items:baseline;
+  padding:6px 8px; border:0; background:transparent; border-radius:7px; text-align:left;
+}
+.pole:hover{background:var(--sunk)}
+.pole.on{background:var(--seal-soft); box-shadow:inset 2px 0 0 var(--seal)}
+.pole .gly{font-size:17px; line-height:1; color:var(--ink); text-align:center}
+.pole .nm{font-family:"Spectral",serif; font-size:13px}
+.pole .gl{display:block; color:var(--muted); font-size:11px; margin-top:1px}
+.pole .sd{font-size:10px; color:var(--faint); letter-spacing:.04em}
+.clearf{margin:6px 8px 0; font-size:12px; color:var(--seal); background:none; border:0; padding:4px 0; display:none}
+.clearf.show{display:block}
+
+/* ---------------- matrix ---------------- */
+.matrix-wrap{overflow:auto; min-height:0; position:relative}
+table{border-collapse:separate; border-spacing:0; font-variant-numeric:tabular-nums}
+thead th{
+  position:sticky; top:0; z-index:3; background:var(--paper);
+  font:500 11px/1 "IBM Plex Mono",monospace; color:var(--muted);
+  padding:10px 4px; border-bottom:1px solid var(--line-strong); text-align:center; min-width:60px;
+}
+thead th:first-child{left:0; z-index:4}
+tbody th{
+  position:sticky; left:0; z-index:2; background:var(--paper);
+  font:500 12px/1 "IBM Plex Mono",monospace; color:var(--muted);
+  padding:0 12px 0 16px; border-right:1px solid var(--line-strong); text-align:right; white-space:nowrap;
+}
+th.axhl{color:var(--seal)}
+td{border-bottom:1px solid var(--line); border-right:1px solid var(--line); padding:0}
+.cell{
+  width:100%; height:100%; min-height:52px; border:0; background:transparent;
+  display:flex; flex-direction:column; align-items:center; justify-content:center; gap:2px;
+  padding:6px 4px; position:relative; color:var(--ink); transition:background .12s;
+}
+.cell:hover{background:var(--sunk)}
+.cell .syl{font:500 12px/1 "IBM Plex Mono",monospace; letter-spacing:.02em}
+.cell .gly{font-size:17px; line-height:1; color:var(--muted)}
+.cell .n{font:400 9px/1 "IBM Plex Mono",monospace; color:var(--faint)}
+.cell .tint{position:absolute; inset:0; background:var(--seal); opacity:0; pointer-events:none}
+td.sel .cell{background:var(--seal-soft); box-shadow:inset 0 0 0 2px var(--seal)}
+td.dim .cell{opacity:.22}
+.cell.empty{cursor:default}
+.cell.empty .syl{color:var(--faint)}
+
+/* ---------------- drawer ---------------- */
+.drawer{
+  border-left:1px solid var(--line); background:var(--surface); overflow-y:auto;
+  min-width:0; display:flex; flex-direction:column;
+}
+.drawer.empty{display:none}
+.d-head{padding:22px 22px 16px; border-bottom:1px solid var(--line); position:relative}
+.d-close{position:absolute; top:14px; right:14px; border:0; background:transparent; color:var(--faint); font-size:20px; line-height:1; padding:4px}
+.d-syl{font-family:"IBM Plex Mono",monospace; font-size:34px; font-weight:500; letter-spacing:.01em}
+.d-ipa{color:var(--muted); font-family:"IBM Plex Mono",monospace; font-size:13px; margin-top:2px}
+.d-struct{display:flex; align-items:center; gap:10px; margin-top:14px}
+.d-struct .big{font-size:30px; line-height:1}
+.d-struct .txt .nm{font-family:"Spectral",serif; font-size:16px}
+.d-struct .txt .gl{color:var(--muted); font-size:12px}
+.d-sect{padding:16px 22px; border-bottom:1px solid var(--line)}
+.d-sect h3{font-size:12px; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); font-family:"IBM Plex Sans",sans-serif; font-weight:600; margin-bottom:10px}
+.bar-row{display:grid; grid-template-columns:20px 1fr auto; gap:8px; align-items:center; margin-bottom:7px; font-size:12px}
+.bar-row .gly{text-align:center; font-size:14px}
+.bar{height:6px; border-radius:3px; background:var(--sunk); overflow:hidden}
+.bar i{display:block; height:100%; background:var(--seal); border-radius:3px}
+.bar-row .v{font-family:"IBM Plex Mono",monospace; color:var(--muted); font-size:11px}
+.bar-row .nm{font-family:"Spectral",serif}
+.chips{display:flex; flex-wrap:wrap; gap:6px}
+.chip{font-family:"IBM Plex Mono",monospace; font-size:11px; padding:3px 7px; border-radius:5px; background:var(--sunk); border:1px solid var(--line)}
+.chip.up{color:var(--heat); border-color:var(--seal-soft)}
+.nbr{color:var(--muted)}
+.nbr b{color:var(--ink); font-weight:500}
+.words{display:flex; flex-direction:column; gap:2px}
+.wd{display:grid; grid-template-columns:auto 1fr auto; gap:10px; align-items:baseline; padding:5px 6px; border-radius:6px}
+.wd:hover{background:var(--sunk)}
+.wd .hz{font-family:var(--cjk); font-size:15px}
+.wd .py{font-family:"IBM Plex Mono",monospace; font-size:10px; color:var(--faint)}
+.wd .en{color:var(--muted); font-size:12px; text-align:right}
+.parallel{font-family:"Spectral",serif; font-size:13px; color:var(--ink)}
+.parallel .op{color:var(--seal); margin:0 5px}
+.copy{margin:14px 22px 24px; padding:9px 12px; border:1px solid var(--line-strong); border-radius:8px; background:var(--paper); font-size:12px; display:flex; align-items:center; gap:8px; justify-content:center}
+.copy:hover{border-color:var(--seal); color:var(--seal)}
+.copy.done{color:var(--pos); border-color:var(--pos)}
+
+.hint{padding:40px; color:var(--muted); max-width:38ch; margin:auto; text-align:center; font-family:"Spectral",serif; font-size:15px; line-height:1.6}
+
+@media (max-width:900px){
+  .app,.app.open{grid-template-columns:1fr; grid-template-rows:auto 1fr}
+  .rail{border-right:0; border-bottom:1px solid var(--line)}
+  .rail-scroll{max-height:180px}
+  .drawer{position:fixed; inset:auto 0 0 0; max-height:74vh; border-left:0; border-top:1px solid var(--line-strong); box-shadow:var(--shadow); z-index:20}
+}
+</style>
+
+<div class="app" id="app">
+  <aside class="rail">
+    <div class="rail-head">
+      <h1>Etym Table</h1>
+      <div class="sub">Mandarin <b>onset × rhyme</b> → nearest trigram etym. <span id="stat"></span></div>
+    </div>
+    <label class="search">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+      <input id="q" type="search" placeholder="filter by hanzi, gloss, syllable…" autocomplete="off">
+    </label>
+    <button class="clearf" id="clearf">← clear filter</button>
+    <div class="rail-scroll">
+      <div class="legend-h">九卦 · static / dynamic</div>
+      <div id="legend"></div>
+    </div>
+  </aside>
+
+  <div class="matrix-wrap" id="mwrap"><table id="grid"></table></div>
+
+  <aside class="drawer empty" id="drawer">
+    <div class="hint">Select a cell to see its etym structure — the trigram pole its words'
+      averaged meaning lands nearest, the phonemes it over-uses, and the words themselves.</div>
+  </aside>
+</div>
+
+<script type="application/json" id="etym-data">/*__ETYM_DATA__*/</script>
+<script>
+const DATA = JSON.parse(document.getElementById('etym-data').textContent);
+const GLYPH = {'坤':'☷','艮':'☶','坎':'☵','巽':'☴','中':'◎','震':'☳','離':'☲','兌':'☱','乾':'☰'};
+const base = n => n.split('-')[0];
+const sd   = n => n.split('-')[1];               // static | dynamic
+const gly  = n => GLYPH[(n||'').split('卦')[0].replace('-','')] || '·';
+
+const {onsets, rhymes, table, pole_names, pole_glosses} = DATA;
+const POLE_GLOSS = Object.fromEntries(pole_names.map((n,i)=>[n, pole_glosses[i]]));
+let maxN = 1;
+for(const o of onsets) for(const r of rhymes){ const c=table[o]?.[r]; if(c) maxN=Math.max(maxN,c.n); }
+
+/* ---- legend ---- */
+const legend = document.getElementById('legend');
+pole_names.forEach(name=>{
+  const b=document.createElement('button');
+  b.className='pole'; b.dataset.pole=name;
+  b.innerHTML=`<span class="gly">${gly(name)}</span>
+    <span><span class="nm cjk">${base(name)}</span> <span class="sd">${sd(name)}</span>
+    <span class="gl">${POLE_GLOSS[name]||''}</span></span>`;
+  b.onclick=()=>toggleFilter('pole',name);
+  legend.appendChild(b);
+});
+
+/* ---- matrix ---- */
+const grid=document.getElementById('grid');
+let head='<thead><tr><th></th>'+onsets.map(o=>`<th data-on="${o}" class="mono">${o}</th>`).join('')+'</tr></thead>';
+let body='<tbody>';
+for(const r of rhymes){
+  body+=`<tr><th data-rh="${r}" class="mono">${r}</th>`;
+  for(const o of onsets){
+    const c=table[o]?.[r];
+    if(!c){ body+=`<td><div class="cell empty"><span class="syl">·</span></div></td>`; continue; }
+    const p=c.pole?.[0]?.name;
+    body+=`<td data-on="${o}" data-rh="${r}">
+      <button class="cell" data-key="${o}|${r}">
+        <span class="tint" style="opacity:${(c.n/maxN*0.16).toFixed(3)}"></span>
+        <span class="gly">${p?gly(p):''}</span>
+        <span class="syl">${c.syllable}</span>
+        <span class="n">${c.n}</span>
+      </button></td>`;
+  }
+  body+='</tr>';
+}
+grid.innerHTML=head+body+'</tbody>';
+
+document.getElementById('stat').textContent = `${DATA.n_cells} cells`;
+
+/* ---- selection ---- */
+const app=document.getElementById('app'), drawer=document.getElementById('drawer');
+let selKey=null;
+grid.addEventListener('click',e=>{
+  const btn=e.target.closest('.cell'); if(!btn||!btn.dataset.key) return;
+  select(btn.dataset.key);
+});
+grid.querySelectorAll('thead th[data-on], tbody th[data-rh]').forEach(th=>{
+  th.style.cursor='pointer';
+  th.onclick=()=>highlightAxis(th.dataset.on?'on':'rh', th.dataset.on||th.dataset.rh);
+});
+
+function select(key){
+  selKey=key;
+  grid.querySelectorAll('td.sel').forEach(td=>td.classList.remove('sel'));
+  const btn=grid.querySelector(`.cell[data-key="${CSS.escape(key)}"]`);
+  if(btn) btn.closest('td').classList.add('sel');
+  const [o,r]=key.split('|'); renderDrawer(table[o][r]);
+  app.classList.add('open'); drawer.classList.remove('empty');
+}
+function renderDrawer(c){
+  const poles=(c.pole||[]).map(p=>{
+    const w=Math.max(4,(p.score+ (p.score<0?0.3:0))*140);
+    return `<div class="bar-row"><span class="gly">${gly(p.name)}</span>
+      <span><span class="nm cjk">${base(p.name)}</span>
+        <span style="color:var(--faint);font-size:11px">${sd(p.name)} · ${p.gloss}</span>
+        <div class="bar"><i style="width:${Math.min(100,w)}%"></i></div></span>
+      <span class="v">${p.score.toFixed(2)}</span></div>`;
+  }).join('');
+  const par=c.parallel_pole ? c.parallel_pole.name.split(' + ').map(n=>`<span class="cjk">${base(n)}<span style="color:var(--faint)">·${sd(n)}</span></span>`).join('<span class="op">∥</span>') : '—';
+  const skew=(c.phoneme_skew||[]).map(s=>`<span class="chip up">${s.p} ${s.delta>0?'+':''}${s.delta.toFixed(2)}</span>`).join('');
+  const nbrs=(c.neighbors||[]).slice(0,12).map((n,i)=>`${i?', ':''}<b>${n}</b>`).join('');
+  const words=(c.words||[]).map(w=>`<div class="wd"><span class="hz">${w.hanzi}</span>
+      <span class="en">${w.english}</span><span class="py">${w.pinyin}</span></div>`).join('');
+  drawer.innerHTML=`
+    <div class="d-head">
+      <button class="d-close" onclick="deselect()" aria-label="close">×</button>
+      <div class="d-syl">${c.syllable}</div>
+      <div class="d-ipa">${c.onset==='∅'?'∅':c.onset} + ${c.rhyme} · ${c.n} word${c.n>1?'s':''}</div>
+      ${c.pole?`<div class="d-struct"><span class="big">${gly(c.pole[0].name)}</span>
+        <span class="txt"><span class="nm cjk">${base(c.pole[0].name)} · ${sd(c.pole[0].name)}</span><br>
+        <span class="gl">${c.pole[0].gloss}</span></span></div>`:''}
+    </div>
+    ${poles?`<div class="d-sect"><h3>nearest poles</h3>${poles}</div>`:''}
+    <div class="d-sect"><h3>parallel composition ∥</h3><div class="parallel">${par}</div></div>
+    ${skew?`<div class="d-sect"><h3>over-used phonemes</h3><div class="chips">${skew}</div></div>`:''}
+    ${nbrs?`<div class="d-sect"><h3>meaning neighbours</h3><div class="nbr">${nbrs}</div></div>`:''}
+    <div class="d-sect"><h3>${c.n} words with this syllable</h3><div class="words">${words}</div></div>
+    <button class="copy" id="copybtn">⧉ copy cell summary</button>`;
+  document.getElementById('copybtn').onclick=()=>copyCell(c);
+}
+function deselect(){
+  selKey=null; app.classList.remove('open'); drawer.classList.add('empty');
+  grid.querySelectorAll('td.sel').forEach(td=>td.classList.remove('sel'));
+}
+window.deselect=deselect;
+
+function copyCell(c){
+  const L=[`${c.syllable}  (${c.onset==='∅'?'∅':c.onset} + ${c.rhyme})  ·  ${c.n} words`];
+  if(c.pole) L.push(`pole: ${base(c.pole[0].name)} ${sd(c.pole[0].name)} — ${c.pole[0].gloss}`
+    +`  |  next: ${c.pole.slice(1).map(p=>base(p.name)+' '+sd(p.name)).join(', ')}`);
+  if(c.parallel_pole) L.push(`parallel ∥: ${c.parallel_pole.name}`);
+  if(c.phoneme_skew?.length) L.push(`over-used: ${c.phoneme_skew.map(s=>s.p+(s.delta>0?'+':'')+s.delta.toFixed(2)).join('  ')}`);
+  if(c.neighbors?.length) L.push(`neighbours: ${c.neighbors.slice(0,12).join(', ')}`);
+  L.push('', ...c.words.map(w=>`  ${w.hanzi}\t${w.pinyin}\t${w.english}`));
+  navigator.clipboard.writeText(L.join('\n')).then(()=>{
+    const b=document.getElementById('copybtn'); b.textContent='✓ copied'; b.classList.add('done');
+    setTimeout(()=>{b.textContent='⧉ copy cell summary'; b.classList.remove('done');},1400);
+  });
+}
+
+/* ---- filtering ---- */
+let filter=null;   // {type:'pole'|'text', val}
+const q=document.getElementById('q'), clearf=document.getElementById('clearf');
+q.addEventListener('input',()=>{
+  const v=q.value.trim().toLowerCase();
+  filter = v ? {type:'text',val:v} : null;
+  applyFilter();
+});
+function toggleFilter(type,val){
+  filter = (filter && filter.type===type && filter.val===val) ? null : {type,val};
+  if(filter && filter.type==='pole') q.value='';
+  applyFilter();
+}
+function matchCell(c){
+  if(!filter) return true;
+  if(filter.type==='pole') return c.pole && c.pole[0].name===filter.val;
+  const v=filter.val;
+  if(c.syllable.toLowerCase().includes(v)) return true;
+  return (c.words||[]).some(w=>w.hanzi.includes(filter.val)||w.english.toLowerCase().includes(v)||w.pinyin.includes(v));
+}
+function applyFilter(){
+  legend.querySelectorAll('.pole').forEach(b=>b.classList.toggle('on', filter?.type==='pole' && b.dataset.pole===filter.val));
+  clearf.classList.toggle('show', !!filter);
+  let n=0;
+  grid.querySelectorAll('tbody td[data-on]').forEach(td=>{
+    const [o,r]=td.querySelector('.cell').dataset.key.split('|');
+    const ok=matchCell(table[o][r]); td.classList.toggle('dim',!ok); if(ok) n++;
+  });
+  document.getElementById('stat').textContent = filter ? `${n} of ${DATA.n_cells} cells` : `${DATA.n_cells} cells`;
+}
+clearf.onclick=()=>{ filter=null; q.value=''; applyFilter(); };
+
+function highlightAxis(kind,val){
+  grid.querySelectorAll('th.axhl').forEach(t=>t.classList.remove('axhl'));
+  grid.querySelectorAll('td.dim').forEach(t=>{ if(!filter) t.classList.remove('dim'); });
+  const on = kind==='on';
+  grid.querySelector(on?`thead th[data-on="${CSS.escape(val)}"]`:`tbody th[data-rh="${CSS.escape(val)}"]`)?.classList.add('axhl');
+  grid.querySelectorAll('tbody td[data-on]').forEach(td=>{
+    const hit = on ? td.dataset.on===val : td.dataset.rh===val;
+    if(!filter) td.classList.toggle('dim',!hit);
+  });
+}
+</script>
