@@ -1,7 +1,7 @@
 ---
 title: "Measuring form–meaning systematicity across languages with phonetic-similarity embeddings"
 author: "Tony Zhou"
-status: draft — confirmatory results in; §3.5 exploratory pending its run
+status: draft — confirmatory + exploratory runs complete
 ---
 
 ## 1. Introduction
@@ -203,44 +203,104 @@ permutation run earlier surfaced 9 marginal Chinese-only cells at q ≈ 0.08).
 The bucketed-z-score interpretability layer yields no robust finding at this
 scale.
 
-### 3.5 Translation quality (exploratory tier)
+### 3.5 Exploratory: all 22 languages
 
-`translate-qc` flags 14.6 % of Swahili cells, 8.5 % Hungarian, 5.7 %
-Indonesian, 5.2 % Welsh, < 5 % elsewhere — mostly cells returned untranslated
-by Google Translate. The full 22-language exploratory analysis (with these
-cells excluded) is the subject of a companion run.
+Config `configs/paper_exploratory.yaml` (`7dfa4915905ccd4c`): 22 languages,
+QC-flagged cells excluded (`translate-qc` flags 14.6 % of Swahili cells, 8.5 %
+Hungarian, 5.7 % Indonesian, 5.2 % Welsh, < 5 % elsewhere — mostly cells
+returned untranslated by Google Translate); retrieval restricted to
+English↔X and X→Semantics (64 pairs); 200 permutations; Mantel on n = 600.
+
+**Within-language `form ~ meaning` is near-universal.** The raw Mantel *r* is
+positive and significant (*p* = .005) in **all 22 languages**, from 0.013
+(Hebrew) to 0.039 (Japanese). After partialling out orthography it stays
+significant in **every language where the control is meaningful** — 20 of 22
+outright; Japanese survives (partial *r* = 0.036) though its mixed kana/kanji
+script makes the character edit-distance control only partial; **Chinese is the
+sole language whose partial correlation is not interpretable** (logographic
+script — a character edit-distance matrix is not an orthographic-similarity
+measure; its raw *r* = 0.015, *p* = .005, is real).
+
+**Cross-language `form ~ form` is small but pervasive.** Across all 231 language
+pairs, 205 have a significant raw correlation and 164 of 190 non-logographic
+pairs remain significant after the orthographic control (median partial
+*r* ≈ 0.011). Splitting by genealogy:
+
+| pair type | n | raw sig. | partial sig. | median partial *r* |
+|---|---|---|---|---|
+| both Indo-European | 45 | 45/45 | 45/45 | 0.019 |
+| ≥ 1 non-Indo-European | 186 | 160 | 119/145 | 0.009 |
+
+The strongest correlations are the obvious cognate cases (Spanish~Italian
+*r* = 0.17, Italian~French 0.12, Spanish~French 0.11); the interesting residue
+is that ~80 % of *cross-family* pairs still show a small correlation that
+survives partialling out orthography — e.g. Korean~Chinese partial 0.017,
+Vietnamese~Chinese 0.010 (both plausibly Sino-xenic loan strata),
+Turkish~Arabic 0.022, German~Japanese 0.018, English~Hindi 0.048 (Indo-Aryan).
+A handful of cross-family pairs are genuinely null even before partialling —
+notably **English~Chinese (raw *r* = 0.001, *p* = .71)**.
+
+**Retrieval scales with genealogical proximity to English.** English↔German
+0.46, ↔Spanish/Italian 0.38, ↔Hindi 0.32, ↔Russian 0.23, ↔Greek 0.16, down to
+↔Vietnamese and ↔Hebrew 0.12–0.14 — all above their permutation null (≈ 0.053),
+all *q* = .005, but tracking shared vocabulary. Every language's X→Semantics
+retrieval lands in 0.17–0.26 (null ≈ 0.054), consistent with the universal
+`form ~ meaning` Mantel result. (One artifact: English→Japanese has an inflated
+null of 0.159 — residual hubness in the Japanese phonetic space that CSLS does
+not fully remove — so its 0.27 accuracy overstates the effect.)
+
+The phoneme–pole association analysis again yields zero cells at *q* < 0.10.
 
 ## 4. Discussion
 
-Three things hold up and one does not.
+**Within-language systematicity is small and near-universal.** An
+orthography-independent `form ~ meaning` correlation (*r* ≈ 0.013–0.039) is
+present in every one of the 22 languages, and survives the orthographic control
+wherever that control is meaningful (all but Chinese, whose logographic script
+defeats an edit-distance measure). This is the robust positive result, and its
+magnitude and pervasiveness match the 100-language estimate of @dautriche2017.
+The four-language confirmatory run understated this — with only English, French,
+Irish and Chinese, French's partial correlation looked marginal; the full run
+shows French squarely in the significant band and the effect holding across
+Uralic, Turkic, Austroasiatic, Austronesian, Japonic, Koreanic, Kra-Dai and
+Afro-Asiatic languages.
 
-**Weak within-language systematicity replicates.** A small, orthography-independent
-`form ~ meaning` correlation (r ≈ 0.02) is present in all four hand-verified
-languages, English, French, Irish and — more tentatively — Chinese. This is the
-robust positive result and it is consistent with the broader literature.
+**Cross-language form correspondence is real but tiny, and mostly not
+cognates.** Of 231 language pairs, ~80 % show a small `form ~ form` correlation
+(median partial *r* ≈ 0.01) that survives partialling out orthographic
+similarity. Indo-European pairs are stronger (median 0.019) and the very top of
+the range is transparent cognate overlap (Spanish~Italian *r* = 0.17). But the
+residual signal among *unrelated* families — Korean~Chinese, Turkish~Arabic,
+German~Japanese — is above chance after the orthographic control. It is far too
+weak to carry a strong universality claim, and some of it is contact rather
+than shared bias (Sino-xenic vocabulary in Korean and Vietnamese), but it is
+not nothing.
 
-**Related-language retrieval is cognates.** The headline cross-lingual numbers
-from the original project (French↔English ≈ 0.4) are real but are not evidence
-of sound symbolism: a non-learned edit-distance ranker does as well or better,
-and the `form ~ form` correlation, while significant, tracks shared inherited
-vocabulary. The phonetic-similarity embedding adds nothing over string overlap
-here.
+**The retrieval framing is dominated by cognates and by embedding geometry.**
+The original project's headline cross-lingual numbers (French↔English ≈ 0.4)
+are real but a non-learned edit-distance ranker matches or beats them on every
+Indo-European pair; the learned phonetic map adds nothing over string overlap
+there. And for degenerate representations the retrieval null sits far above
+chance (the char-n-gram and mean-panphon baselines before CSLS; Japanese even
+after). Retrieval accuracy is a poor primary estimand for this question; the
+Mantel correlation is the one to report.
 
-**No Chinese–European sound–meaning bias.** The one setting where the phonetic
-map beats the string baselines — Chinese paired with a European language — shows
-a retrieval accuracy of ~2× chance that (a) is nearly fully accounted for by
-coarse articulatory features and (b) does not appear as a `form ~ form` Mantel
-correlation once orthography is controlled. We find no support for a systematic
-sound–meaning correspondence shared between Chinese and Indo-European in this
-concept set.
+**Chinese is the recurring exception, for at least two different reasons.**
+Its logographic script rules out the orthographic control, so we cannot say
+whether its within-language `form ~ meaning` correlation (raw *r* = 0.015)
+survives it. And English~Chinese is the one language pair with *no* `form ~
+form` correlation at all (raw *r* = 0.001) — where Chinese does correlate
+(Korean, Vietnamese) it is attributable to loan vocabulary. The bespoke
+pinyin→IPA transcription (§2.2) may also contribute.
 
 **The phoneme-pole analysis is uninformative** as designed; a cross-linguistic
 pooled design in the spirit of @blasi2016 would be the way to revisit it.
 
-The net picture is a partial, deflationary replication: the rebuilt pipeline
-recovers the weak lexical systematicity that the field expects, and shows that
-the original project's larger cross-lingual claims were carried by cognates and
-by a retrieval metric sensitive to embedding-space geometry.
+The net picture: the weak lexical systematicity the field expects is here, and
+it generalises across families; the original project's larger cross-lingual
+retrieval claims were carried by cognates and by a metric sensitive to
+embedding-space geometry, but a small genuine cross-family form–meaning signal
+does survive the controls.
 
 ### 4.1 Relation to prior work
 

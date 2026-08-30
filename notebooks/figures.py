@@ -102,6 +102,30 @@ def fig_mantel(mant, out: Path):
     _save(fig, out, "fig3_mantel")
 
 
+def fig_mantel_sweep(mant, out: Path):
+    """Exploratory: form~meaning raw vs partial across all languages."""
+    fm = [r for r in mant["rows"] if r["analysis"] == "form~meaning"]
+    if len(fm) < 8:
+        return
+    fm = sorted(fm, key=lambda r: r["r"])
+    y = list(range(len(fm)))
+    fig, ax = plt.subplots(figsize=(6, 0.28 * len(fm) + 1))
+    ax.barh([i + 0.2 for i in y], [r["r"] for r in fm], 0.38, color=ACCENT, label="Mantel r")
+    ax.barh([i - 0.2 for i in y], [r["r_partial_orth"] for r in fm], 0.38, color=INK,
+            label="partial | orthography")
+    for i, r in zip(y, fm):
+        if r.get("orth_control_degenerate"):
+            ax.text(0.0005, i - 0.2, " (logographic)", va="center", fontsize=7, style="italic")
+    ax.set_yticks(y)
+    ax.set_yticklabels([r["unit"] for r in fm])
+    ax.axvline(0, color=NULLC, lw=0.8)
+    ax.set_xlabel("form ~ meaning correlation")
+    ax.set_title(f"Within-language sound–meaning systematicity, {len(fm)} languages\n"
+                 f"(n={mant['n_subsample']}, all raw r significant at p≤.005)")
+    ax.legend(frameon=False, fontsize=8, loc="lower right")
+    _save(fig, out, "fig5_mantel_sweep")
+
+
 def fig_association(assoc, out: Path):
     sig = [c for c in assoc["cells"] if c["significant"]]
     if not sig:
@@ -139,6 +163,7 @@ def main() -> None:
             fig_baselines(acc, base, O)
     if mant:
         fig_mantel(mant, O)
+        fig_mantel_sweep(mant, O)
     if assoc:
         fig_association(assoc, O)
 

@@ -29,6 +29,11 @@ ALL_LANGUAGES = (
     "Hindi",
 )
 
+# Logographic / non-alphabetic scripts: a character edit-distance matrix is not
+# a meaningful "orthographic similarity" control for these, so the partial
+# Mantel against it is reported but flagged not-interpretable.
+LOGOGRAPHIC = {"Chinese", "Japanese"}
+
 # Genealogical family, for stratifying the exploratory cross-language analyses.
 LANGUAGE_FAMILY = {
     "Hungarian": "Uralic", "Finnish": "Uralic",

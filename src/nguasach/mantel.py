@@ -20,7 +20,7 @@ import json
 import numpy as np
 
 from .align import load_emb
-from .config import LANGUAGE_FAMILY, Config
+from .config import LANGUAGE_FAMILY, LOGOGRAPHIC, Config
 from . import data as _data
 from .stats import bh_fdr
 
@@ -132,18 +132,19 @@ def run(cfg: Config, n_jobs: int = 1) -> dict:
             _ocache[key] = _edit_dist_matrix(df[lang].to_numpy()[ids])
         return _ocache[key]
 
-    def _row(analysis, unit, nn, dform, dother, dz):
+    def _row(analysis, unit, nn, dform, dother, dz, logo=False):
         r, p, _ = _mantel(dform, dother, cfg.null_iters, cfg.seed)
         rp, pp, degen = _mantel(dform, dother, cfg.null_iters, cfg.seed, dz=dz)
         return {"analysis": analysis, "unit": unit, "n": int(nn),
                 "r": round(r, 4), "p_perm": round(p, 4),
                 "r_partial_orth": round(rp, 4), "p_partial": round(pp, 4),
-                "orth_control_degenerate": bool(degen)}
+                "orth_control_degenerate": bool(degen or logo)}
 
     rows = []
     for lang in cfg.languages:
         rows.append(_row("form~meaning", lang, len(sem_ok),
-                         form_dist(lang, sem_ok), d_mean, orth_dist(lang, sem_ok)))
+                         form_dist(lang, sem_ok), d_mean, orth_dist(lang, sem_ok),
+                         logo=lang in LOGOGRAPHIC))
 
     # form~form for every unordered language pair (was verified-core only)
     langs = list(cfg.languages)
@@ -151,7 +152,8 @@ def run(cfg: Config, n_jobs: int = 1) -> dict:
         for b in range(a + 1, len(langs)):
             l1, l2 = langs[a], langs[b]
             row = _row("form~form", f"{l1}~{l2}", len(idx),
-                       form_dist(l1, idx), form_dist(l2, idx), orth_dist(l1, idx))
+                       form_dist(l1, idx), form_dist(l2, idx), orth_dist(l1, idx),
+                       logo=l1 in LOGOGRAPHIC or l2 in LOGOGRAPHIC)
             fam1, fam2 = LANGUAGE_FAMILY.get(l1, "?"), LANGUAGE_FAMILY.get(l2, "?")
             row["same_family"] = fam1 == fam2
             row["families"] = f"{fam1} / {fam2}"
