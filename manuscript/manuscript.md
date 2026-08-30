@@ -258,34 +258,56 @@ not fully remove — so its 0.27 accuracy overstates the effect.)
 
 The phoneme–pole association analysis again yields zero cells at *q* < 0.10.
 
-### 3.6 Internationalism sensitivity
+### 3.6 Concept strata: loanwords, core vocabulary, part of speech
 
-Words like *chocolate*, *tsunami*, *saxophone*, *robot* are borrowed with
-phonetic adaptation into many languages; they inflate cross-lingual form
-similarity for a reason unrelated to sound symbolism, and for cross-script
-pairs the orthographic controls (which operate on characters) do not catch
-them. We flag 205 concepts (11 %) — 151 matched against a curated
-internationalism list, 93 by a data-driven criterion (top 5 % of mean pairwise
-IPA-string similarity across the 22 languages; e.g. *tsunami*, *tequila*,
-*broccoli*, *pistachio*, *pyramid*) — and re-run the Mantel analysis with them
-excluded (`configs/*_noloan.yaml`).
+We re-ran the 22-language `form ~ meaning` Mantel on subsets of the concept list
+(`notebooks/strata.py`; median partial *r* over the 20 non-logographic
+languages, 200 permutations):
 
-The `form ~ meaning` result is **not** driven by loanwords. Excluding them
-leaves the confirmatory correlations within noise (English partial *r*
-0.024 → 0.027, French 0.014 → 0.015, Irish 0.015 → 0.019) and, in the 22-language
-run, *slightly raises* the median partial *r* (+0.003): internationalisms sound
-alike everywhere but their meanings are scattered (*tsunami*, *vodka*, *panda*),
-so they add form-similarity variance uncorrelated with meaning and mildly dilute
-the signal. It stays significant in 19 of 20 non-logographic languages — the one
-loss is **Korean** (partial *r* 0.008 → 0.003, *p* = .21).
+| stratum | *n* | median partial *r* | significant (*q* < .05) |
+|---|---|---|---|
+| all | 1,200 | 0.020 | 20/20 |
+| loanwords excluded (§below) | 1,200 | 0.020 | 20/20 |
+| nouns | 1,134 | 0.019 | 20/20 |
+| **adjectives** | 233 | **0.048** | 20/20 |
+| **verbs** | 368 | **0.009** | 12/20 |
+| **Swadesh core** | 264 | **0.050** | 20/20 |
+| **Leipzig–Jakarta** (100 most borrow-resistant meanings) | 102 | **0.078** | 20/20 |
 
-Cross-language `form ~ form` also survives. Among Indo-European pairs the median
-partial *r* drops from 0.019 to 0.015 (internationalisms are genuinely part of
-that shared vocabulary — a pair type already attributed to inheritance). Among
-pairs with at least one non-Indo-European language it is essentially unchanged
-(median partial *r* 0.009 → 0.010; significant for 128 of 145 pairs, up from
-119). The small residual cross-family form–meaning correspondence is not a
-Wanderwort artifact.
+**Internationalisms dilute rather than inflate the result.** We flag 205
+concepts (11 %) as internationalisms — 151 from a curated *Wanderwort* list,
+93 by a data-driven criterion (top 5 % of mean pairwise IPA-string similarity
+across the 22 languages: *tsunami*, *tequila*, *broccoli*, *pistachio*,
+*pyramid*). Excluding them leaves the confirmatory correlations within noise
+(English partial *r* 0.024 → 0.027, French 0.014 → 0.015, Irish 0.015 → 0.019)
+and *raises* the 22-language median by +0.003: such words sound alike everywhere
+but mean unrelated things (*tsunami*, *vodka*, *panda*), so they add
+form-similarity variance uncorrelated with meaning. The one language that loses
+significance is Korean (partial *r* 0.008 → 0.003). Cross-language `form ~ form`
+also survives (Indo-European pairs drop from median partial *r* 0.019 → 0.015 —
+expected for shared vocabulary; ≥ 1-non-IE pairs 0.009 → 0.010, 128/145
+significant, up from 119).
+
+**The systematicity is concentrated in basic vocabulary.** On the Swadesh core
+it is 2.5× the full-list value (0.050), and on the Leipzig–Jakarta list — the
+100 empirically most borrowing-resistant meanings [@blasi2016 use a related
+construction] — it is 4× (0.078), still significant in every one of the 20
+languages on just 102 concepts. This is consistent with sound–meaning
+regularities accreting in the oldest, most stable layer of the lexicon, and
+with the sound-symbolic core (*blow, suck, small, big, fall*) living in basic
+concepts.
+
+**Adjectives carry it; verbs do not, in a typologically patterned way.**
+Adjectives (0.048, the *bouba/kiki* category — *big/small/sharp/round/rough*)
+match the Swadesh level. Verbs are near zero overall (0.009), significant in
+only 12 languages, and — strikingly — the sign flips with morphological type:
+significantly **negative** for the agglutinative languages (Japanese *r* =
+−0.043, Korean −0.017, Turkish −0.014, Russian −0.012; all *p* ≤ .035) and
+positive for the analytic / isolating ones (Vietnamese +0.036, English +0.034,
+Hungarian +0.040, Hindi +0.035). Regular conjugational endings make
+phonetically-similar verbs share inflectional shape rather than meaning, and in
+the most agglutinative languages that decoupling is strong enough to invert the
+correlation.
 
 ## 4. Discussion
 
@@ -329,13 +351,18 @@ form` correlation at all (raw *r* = 0.001) — where Chinese does correlate
 (Korean, Vietnamese) it is attributable to loan vocabulary. The bespoke
 pinyin→IPA transcription (§2.2) may also contribute.
 
-**The results are not internationalism artifacts.** Excluding 205 borrowed,
-phonetically-adapted concepts (*chocolate*, *tsunami*, *saxophone*) leaves the
-within-language `form ~ meaning` correlation intact — slightly stronger, since
-such words add meaning-uncorrelated form similarity — and leaves the
-cross-family `form ~ form` correlation essentially unchanged. Only the
-Indo-European `form ~ form` numbers fall, as expected for shared vocabulary,
-and only Korean's within-language partial loses significance.
+**The results are not internationalism artifacts, and the effect concentrates
+in basic vocabulary.** Excluding 205 borrowed, phonetically-adapted concepts
+(*chocolate*, *tsunami*, *saxophone*) leaves `form ~ meaning` intact — slightly
+stronger — and leaves cross-family `form ~ form` essentially unchanged. Going
+the other way, restricting to the Swadesh core doubles the correlation and the
+Leipzig–Jakarta list quadruples it (median partial *r* 0.078, significant in all
+20 languages). Within-language systematicity lives in the oldest layer of the
+lexicon. It is carried by adjectives (the *bouba/kiki* category) as much as by
+core nouns, and is near-absent for verbs — where regular conjugational
+morphology decouples phonetic form from meaning, to the point of a
+*significantly negative* correlation in the agglutinative languages (Japanese,
+Korean, Turkish, Russian).
 
 **The phoneme-pole analysis is uninformative** as designed; a cross-linguistic
 pooled design in the spirit of @blasi2016 would be the way to revisit it.
@@ -381,8 +408,10 @@ which is exactly what the results show. The magnitude of the within-language
 
 - Google-Translate provenance and residual noise in 18 of 22 columns; QC is
   heuristic, not cell-verified.
-- One written word per concept: no senses, no frequency weighting, no
-  morphology.
+- One written word per concept: no senses, no frequency weighting. **Inflected
+  citation forms** matter — for verbs, regular conjugational endings appear to
+  dominate the phonetic embedding and decouple it from meaning (§3.6); a
+  lemmatised or stem-based representation would test this.
 - eSpeak coverage and consistency vary by language; the Mandarin transcription
   uses a different (hand-built) system than the rest.
 - The ridge map has ~n/d ≈ 5.5 training pairs per parameter; regularization and

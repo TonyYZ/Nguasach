@@ -126,6 +126,29 @@ def fig_mantel_sweep(mant, out: Path):
     _save(fig, out, "fig5_mantel_sweep")
 
 
+def fig_strata(csv_path: Path, out: Path):
+    if not csv_path.exists():
+        return
+    import csv as _csv
+
+    rows = list(_csv.DictReader(csv_path.open(encoding="utf-8")))
+    order = ["leipzig_jakarta", "swadesh", "pos_adj", "no_loanword", "all",
+             "pos_noun", "pos_verb"]
+    rows = [r for k in order for r in rows if r["stratum"] == k]
+    y = list(range(len(rows)))
+    fig, ax = plt.subplots(figsize=(6, 0.5 * len(rows) + 1))
+    ax.barh(y, [float(r["median_partial_r"]) for r in rows], color=ACCENT)
+    for i, r in zip(y, rows):
+        ax.text(0.0005, i, f"  n={r['n_concepts']}, {r['n_sig_partial_q05']}/{r['n_languages_ok']} sig",
+                va="center", fontsize=7)
+    ax.axvline(0, color=NULLC, lw=0.8)
+    ax.set_yticks(y)
+    ax.set_yticklabels([r["stratum"].replace("_", " ") for r in rows])
+    ax.set_xlabel("median partial-Mantel r (form ~ meaning, 20 languages)")
+    ax.set_title("Sound–meaning systematicity by concept stratum")
+    _save(fig, out, "fig6_strata")
+
+
 def fig_association(assoc, out: Path):
     sig = [c for c in assoc["cells"] if c["significant"]]
     if not sig:
@@ -164,6 +187,7 @@ def main() -> None:
     if mant:
         fig_mantel(mant, O)
         fig_mantel_sweep(mant, O)
+    fig_strata(R / "strata.csv", O)
     if assoc:
         fig_association(assoc, O)
 
