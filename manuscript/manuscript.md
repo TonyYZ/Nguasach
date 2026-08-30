@@ -258,6 +258,35 @@ not fully remove — so its 0.27 accuracy overstates the effect.)
 
 The phoneme–pole association analysis again yields zero cells at *q* < 0.10.
 
+### 3.6 Internationalism sensitivity
+
+Words like *chocolate*, *tsunami*, *saxophone*, *robot* are borrowed with
+phonetic adaptation into many languages; they inflate cross-lingual form
+similarity for a reason unrelated to sound symbolism, and for cross-script
+pairs the orthographic controls (which operate on characters) do not catch
+them. We flag 205 concepts (11 %) — 151 matched against a curated
+internationalism list, 93 by a data-driven criterion (top 5 % of mean pairwise
+IPA-string similarity across the 22 languages; e.g. *tsunami*, *tequila*,
+*broccoli*, *pistachio*, *pyramid*) — and re-run the Mantel analysis with them
+excluded (`configs/*_noloan.yaml`).
+
+The `form ~ meaning` result is **not** driven by loanwords. Excluding them
+leaves the confirmatory correlations within noise (English partial *r*
+0.024 → 0.027, French 0.014 → 0.015, Irish 0.015 → 0.019) and, in the 22-language
+run, *slightly raises* the median partial *r* (+0.003): internationalisms sound
+alike everywhere but their meanings are scattered (*tsunami*, *vodka*, *panda*),
+so they add form-similarity variance uncorrelated with meaning and mildly dilute
+the signal. It stays significant in 19 of 20 non-logographic languages — the one
+loss is **Korean** (partial *r* 0.008 → 0.003, *p* = .21).
+
+Cross-language `form ~ form` also survives. Among Indo-European pairs the median
+partial *r* drops from 0.019 to 0.015 (internationalisms are genuinely part of
+that shared vocabulary — a pair type already attributed to inheritance). Among
+pairs with at least one non-Indo-European language it is essentially unchanged
+(median partial *r* 0.009 → 0.010; significant for 128 of 145 pairs, up from
+119). The small residual cross-family form–meaning correspondence is not a
+Wanderwort artifact.
+
 ## 4. Discussion
 
 **Within-language systematicity is small and near-universal.** An
@@ -299,6 +328,14 @@ survives it. And English~Chinese is the one language pair with *no* `form ~
 form` correlation at all (raw *r* = 0.001) — where Chinese does correlate
 (Korean, Vietnamese) it is attributable to loan vocabulary. The bespoke
 pinyin→IPA transcription (§2.2) may also contribute.
+
+**The results are not internationalism artifacts.** Excluding 205 borrowed,
+phonetically-adapted concepts (*chocolate*, *tsunami*, *saxophone*) leaves the
+within-language `form ~ meaning` correlation intact — slightly stronger, since
+such words add meaning-uncorrelated form similarity — and leaves the
+cross-family `form ~ form` correlation essentially unchanged. Only the
+Indo-European `form ~ form` numbers fall, as expected for shared vocabulary,
+and only Korean's within-language partial loses significance.
 
 **The phoneme-pole analysis is uninformative** as designed; a cross-linguistic
 pooled design in the spirit of @blasi2016 would be the way to revisit it.
