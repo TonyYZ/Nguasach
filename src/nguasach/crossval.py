@@ -74,6 +74,10 @@ def load_pair_data(cfg: Config, source: str, target: str, emb_tag: str = "") -> 
         drop = flagged_concepts(cfg, source) | (
             flagged_concepts(cfg, target) if target != "Semantics" else set()
         )
+    if cfg.exclude_loanwords:
+        from .loanword import flagged_ids
+
+        drop = drop | set(flagged_ids(cfg))
     concepts = np.array(
         [i for i in range(len(df))
          if i not in drop and i < len(s_lab) and i < len(t_lab)

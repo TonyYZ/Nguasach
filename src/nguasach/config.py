@@ -112,6 +112,9 @@ class Config:
     # --- translation QC ---
     qc_mode: str = "exclude_flagged"  # "exclude_flagged" | "downweight" | "off"
 
+    # --- internationalism sensitivity ---
+    exclude_loanwords: bool = False   # drop loanword.flagged_ids from align/mantel/associate
+
     paths: Paths = field(default_factory=Paths)
 
     # ------------------------------------------------------------------ helpers

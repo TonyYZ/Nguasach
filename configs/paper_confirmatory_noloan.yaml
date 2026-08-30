@@ -1,0 +1,23 @@
+# FROZEN confirmatory analysis for the manuscript.
+# Verified-core languages only -> 12 ordered pairs. FDR family = these pairs.
+# Do not edit after the confirmatory run is registered; branch a new config instead.
+name: paper_confirmatory_noloan
+
+languages: [English, Chinese, French, Irish]
+verified_core: [English, Chinese, French, Irish]
+concept_set: all
+
+map: ridge
+dim: 300
+ridge_alpha: 1.0
+k: 100
+
+folds: 10
+test_folds: 1
+seed: 20240828
+
+null_iters: 300
+bootstrap_iters: 2000
+
+qc_mode: "off"      # all four columns are user-verified
+exclude_loanwords: true

@@ -105,7 +105,14 @@ def run(cfg: Config, n_jobs: int = 1) -> dict:
     lj = json.loads((interim / "labels.json").read_text(encoding="utf-8"))
 
     cap = getattr(cfg, "mantel_cap", 700)
-    idx = _subsample(len(df), cap, cfg.seed)
+    if cfg.exclude_loanwords:
+        from .loanword import flagged_ids
+
+        drop = flagged_ids(cfg)
+        pool = np.array([i for i in range(len(df)) if i not in drop])
+    else:
+        pool = np.arange(len(df))
+    idx = pool[_subsample(len(pool), cap, cfg.seed)]
 
     # meaning distance (shared across all within-language analyses)
     sem_keys = json.loads((interim / "semantics_keys.json").read_text(encoding="utf-8"))
