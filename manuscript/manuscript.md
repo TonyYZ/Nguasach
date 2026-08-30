@@ -82,35 +82,42 @@ original used a single contiguous 80/20 split over a semantically ordered
 list. We report the mean accuracy, its 95 % bootstrap CI (2,000 resamples of
 test concepts) and the Nadeau–Bengio variance-corrected SE.
 
-**Null.** For 1,000 permutations we shuffle the source↔target concept pairing
-and re-run the entire fit-and-retrieve, giving an empirical
-p = (1 + #{null ≥ observed}) / 1,001. Benjamini–Hochberg FDR is applied
-separately to the 12 confirmatory ordered pairs and to the exploratory matrix.
-A homograph guard flags test items whose gold target string also occurs in
-training; we report accuracy with and without them.
+**Null.** We shuffle the source↔target concept pairing and re-run the entire
+fit-and-retrieve — 300 permutations in the confirmatory run, 200 in the
+exploratory — giving an empirical p = (1 + #{null ≥ observed}) / (iters + 1).
+Benjamini–Hochberg FDR is applied separately to the confirmatory pairs and to
+the exploratory set. A homograph guard flags test items whose gold target
+string also occurs in training; we report accuracy with and without them.
 
 ### 2.4 Distance-matrix (Mantel) analysis
 
-On a 700-concept subsample we build the pairwise phonetic-distance matrix
-`D_form` (1 − cosine on the phonetic embeddings), the meaning-distance matrix
-`D_mean` (1 − cosine on the semantic vectors) and the orthographic matrix
-`D_orth` (1 − normalized Levenshtein on surface forms). The Mantel statistic is
-the Pearson correlation of the upper triangles; the **partial** Mantel
-[@smouse1986] residualizes `D_form` and `D_mean` on `D_orth` before
-correlating. Significance is a 1,000-permutation null over concept labels. We
-run this within each language (`D_form(L)` vs `D_mean`) and between each pair of
-verified-core languages (`D_form(L1)` vs `D_form(L2)`).
+On a concept subsample (700 confirmatory, 600 exploratory) we build the
+pairwise phonetic-distance matrix `D_form` (1 − cosine on the phonetic
+embeddings), the meaning-distance matrix `D_mean` (1 − cosine on the semantic
+vectors) and the orthographic matrix `D_orth` (1 − normalized Levenshtein on
+surface forms). The Mantel statistic is the Pearson correlation of the upper
+triangles; the **partial** Mantel [@smouse1986] residualizes `D_form` and
+`D_mean` on `D_orth` before correlating, with a degeneracy guard that reports
+the partial as the raw value (flagged) when `D_orth` has near-zero variance.
+For **logographic** scripts (Chinese, Japanese) a character edit-distance
+matrix is not an orthographic-similarity measure, so their partial Mantel is
+always flagged not-interpretable. Significance is a permutation null over
+concept labels (matching the retrieval null iteration count). We run
+`D_form(L)` vs `D_mean` for every language and `D_form(L1)` vs `D_form(L2)` for
+every language pair.
 
 ### 2.5 Baselines
 
-Every baseline runs through the identical CV + null + FDR machinery.
+All three baselines are **non-learned** direct-similarity retrieval (no ridge
+map) run through the identical CV + CSLS + null + FDR machinery, so the learned
+map's contribution is isolable. They are computed for the verified core only.
 
-* **`editdist`** — non-learned retrieval by normalized Levenshtein similarity of
-  surface strings. The cognate/borrowing control.
-* **`orth`** — character n-gram (2, 3) count vectors → PCA → ridge map. The
-  orthographic analogue of the phonetic pipeline.
-* **`feat`** — mean `panphon` articulatory-feature vector per word → PCA → ridge
-  map. A coarser phonological representation.
+* **`editdist`** — normalized Levenshtein similarity of surface strings. The
+  cognate/borrowing control.
+* **`orth`** — cosine of character n-gram (2, 3) count vectors over a
+  vocabulary shared across languages; cross-script pairs score at chance.
+* **`feat`** — cosine of the mean `panphon` articulatory-feature vector per
+  word (script-independent, from the IPA).
 
 ### 2.6 Phoneme–meaning association
 
@@ -118,8 +125,8 @@ Eighteen semantic "poles" (hand-built English seed-word clusters, from the
 original I-Ching–themed design; the framing is cosmetic, the poles are just
 regions of semantic space). Each concept is assigned to its nearest pole in the
 phonetic→semantic-aligned space; per pole we z-score every phoneme's frequency
-against its distribution across poles, with a 1,000-permutation null over the
-concept↔pole assignment and BH-FDR across all phoneme × pole cells.
+against its distribution across poles, with a permutation null over the
+concept↔pole assignment (iteration count matching the run) and BH-FDR across all phoneme × pole cells.
 
 ### 2.7 Reproducibility
 
