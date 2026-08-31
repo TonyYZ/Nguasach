@@ -58,6 +58,7 @@ def load_raw(cfg: Config) -> pd.DataFrame:
 
     df = raw[list(ALL_LANGUAGES)].map(_norm_cell)
     df = _append_additions(df, path.parent / "concept_additions.xlsx")
+    df = _apply_overrides(df, path.parent / "concept_overrides.xlsx", cfg)
     df = _apply_concept_set(df, cfg)
     df = df.reset_index(drop=True)
     df.index.name = "concept_id"
@@ -81,6 +82,33 @@ def _append_additions(df: pd.DataFrame, path: Path) -> pd.DataFrame:
     if add.empty:
         return df
     return pd.concat([df, add[list(ALL_LANGUAGES)]], ignore_index=True)
+
+
+def _apply_overrides(df: pd.DataFrame, path: Path, cfg: Config) -> pd.DataFrame:
+    """Apply per-cell corrections from ``data/raw/concept_overrides.xlsx``
+    (sheet ``overrides``: concept_id, language, new, ...). Provenance-tracked
+    fixes for translations the ``lexibank-qc`` cross-check flagged as
+    Google-Translate failures (phrase-for-word, wrong sense). Cells in a
+    ``verified_core`` language are never overridden."""
+    if not path.exists():
+        return df
+    ov = pd.read_excel(path, sheet_name="overrides", dtype=str,
+                       keep_default_na=False, engine="openpyxl")
+    verified = set(cfg.verified_core)
+    n = 0
+    for _, r in ov.iterrows():
+        lang, new = r["language"].strip(), _norm_cell(r["new"])
+        try:
+            cid = int(r["concept_id"])
+        except ValueError:
+            continue
+        if lang in verified or lang not in df.columns or not new or cid not in df.index:
+            continue
+        df.at[cid, lang] = new
+        n += 1
+    if n:
+        df.attrs["overrides_applied"] = n
+    return df
 
 
 def _apply_concept_set(df: pd.DataFrame, cfg: Config) -> pd.DataFrame:
