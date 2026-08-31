@@ -126,6 +126,102 @@ def fig_mantel_sweep(mant, out: Path):
     _save(fig, out, "fig5_mantel_sweep")
 
 
+_FAMILY = {
+    "Hungarian": "Uralic", "Finnish": "Uralic",
+    "Greek": "IE-Hellenic", "Russian": "IE-Slavic",
+    "German": "IE-Germanic", "English": "IE-Germanic",
+    "Spanish": "IE-Romance", "Italian": "IE-Romance", "French": "IE-Romance",
+    "Irish": "IE-Celtic", "Welsh": "IE-Celtic", "Hindi": "IE-Indic",
+    "Chinese": "Sino-Tibetan", "Vietnamese": "Austroasiatic",
+    "Japanese": "Japonic", "Korean": "Koreanic", "Thai": "Kra-Dai",
+    "Indonesian": "Austronesian", "Turkish": "Turkic",
+    "Arabic": "Afro-Asiatic", "Hebrew": "Afro-Asiatic", "Swahili": "Atlantic-Congo",
+}
+_FAM_ORDER = ["IE-Germanic", "IE-Romance", "IE-Celtic", "IE-Slavic", "IE-Hellenic",
+              "IE-Indic", "Uralic", "Turkic", "Afro-Asiatic", "Atlantic-Congo",
+              "Sino-Tibetan", "Kra-Dai", "Austroasiatic", "Austronesian",
+              "Japonic", "Koreanic"]
+
+
+def _ff_pairs(mant):
+    return [r for r in mant["rows"] if r["analysis"] == "form~form"]
+
+
+def fig_form_form_matrix(mant, out: Path):
+    """Cross-language form~form partial-r (| orthography), languages blocked by family."""
+    import numpy as np
+
+    ff = _ff_pairs(mant)
+    if len(ff) < 8:
+        return
+    langs = sorted({l for r in ff for l in r["unit"].split("~")},
+                   key=lambda l: (_FAM_ORDER.index(_FAMILY.get(l, "")) if _FAMILY.get(l) in _FAM_ORDER else 99, l))
+    pos = {l: i for i, l in enumerate(langs)}
+    n = len(langs)
+    M = np.full((n, n), np.nan)
+    degen = np.zeros((n, n), bool)
+    for r in ff:
+        a, b = r["unit"].split("~")
+        i, j = pos[a], pos[b]
+        M[i, j] = M[j, i] = r["r_partial_orth"]
+        if r.get("orth_control_degenerate"):
+            degen[i, j] = degen[j, i] = True
+
+    fig, ax = plt.subplots(figsize=(8.4, 7.0))
+    vmax = np.nanmax(np.abs(M))
+    im = ax.imshow(M, cmap="RdBu_r", vmin=-vmax, vmax=vmax)
+    ax.set_xticks(range(n)); ax.set_yticks(range(n))
+    ax.set_xticklabels(langs, rotation=90, fontsize=7)
+    ax.set_yticklabels(langs, fontsize=7)
+    # family block separators
+    bounds = []
+    for k in range(1, n):
+        if _FAMILY.get(langs[k]) != _FAMILY.get(langs[k - 1]):
+            bounds.append(k - 0.5)
+    for bnd in bounds:
+        ax.axhline(bnd, color="#222", lw=0.8)
+        ax.axvline(bnd, color="#222", lw=0.8)
+    for i in range(n):
+        for j in range(n):
+            if degen[i, j]:
+                ax.text(j, i, "·", ha="center", va="center", fontsize=6, color="#666")
+    fig.colorbar(im, ax=ax, fraction=0.046, pad=0.04,
+                 label="partial Mantel r  (form~form | orthography)")
+    ax.set_title(f"Cross-language form–form similarity, orthography partialled\n"
+                 f"n={mant['n_subsample']} concepts · {len(ff)} pairs · "
+                 f"black lines = family boundaries · · = orth control degenerate")
+    _save(fig, out, "fig7_form_form_matrix")
+
+
+def fig_form_form_dist(mant, out: Path):
+    """Same-family vs different-family partial-r, to show the different-family cluster."""
+    import numpy as np
+
+    ff = _ff_pairs(mant)
+    if len(ff) < 8 or not any("same_family" in r for r in ff):
+        return
+    same = [r["r_partial_orth"] for r in ff if r.get("same_family")]
+    diff = [r["r_partial_orth"] for r in ff if not r.get("same_family")]
+    sig_diff = [r["r_partial_orth"] for r in ff
+                if not r.get("same_family") and r.get("q_partial", 1) < 0.05]
+
+    fig, ax = plt.subplots(figsize=(6.2, 3.2))
+    rng = np.random.default_rng(0)
+    for x, vals, c, lab in ((0, same, ACCENT, f"same family (n={len(same)})"),
+                            (1, diff, INK, f"different family (n={len(diff)})")):
+        xs = x + (rng.random(len(vals)) - 0.5) * 0.28
+        ax.scatter(xs, vals, s=10, color=c, alpha=0.55, label=lab)
+        ax.plot([x - 0.2, x + 0.2], [np.median(vals)] * 2, color=c, lw=2)
+    ax.axhline(0, color=NULLC, lw=0.8)
+    ax.set_xticks([0, 1]); ax.set_xticklabels(["same\nfamily", "different\nfamily"])
+    ax.set_ylabel("partial Mantel r  (| orthography)")
+    ax.set_title(f"Form–form structure by genealogy\n"
+                 f"different-family median = {np.median(diff):+.4f}, "
+                 f"{len(sig_diff)}/{len(diff)} sig. at q<.05")
+    ax.legend(frameon=False, fontsize=8)
+    _save(fig, out, "fig8_form_form_dist")
+
+
 def fig_strata(csv_path: Path, out: Path):
     if not csv_path.exists():
         return
@@ -187,6 +283,8 @@ def main() -> None:
     if mant:
         fig_mantel(mant, O)
         fig_mantel_sweep(mant, O)
+        fig_form_form_matrix(mant, O)
+        fig_form_form_dist(mant, O)
     fig_strata(R / "strata.csv", O)
     if assoc:
         fig_association(assoc, O)
