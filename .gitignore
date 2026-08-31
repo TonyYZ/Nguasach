@@ -165,3 +165,6 @@ data/raw/Swadesh-1955-215.tsv
 data/raw/Tadmor-2009-100.tsv
 data/raw/northeuralex*/
 data/raw/concept_additions.csv
+
+# NorthEuraLex CLDF snapshot (fetched by nguasach.lexibank_qc)
+data/raw/northeuralex-cldf/

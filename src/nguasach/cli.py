@@ -23,9 +23,11 @@ if sys.flags.utf8_mode == 0 and os.environ.get("NGUASACH_UTF8_REEXEC") != "1":
 
 from .config import Config  # noqa: E402
 
-STAGES = ["data", "concepticon", "translate-qc", "ipa", "phonetics", "semantics",
-          "loanword", "align", "mantel", "associate", "baselines", "etym", "report"]
-_MODULE = {"align": "crossval", "associate": "association", "translate-qc": "translate_qc"}
+STAGES = ["data", "concepticon", "translate-qc", "lexibank-qc", "ipa", "phonetics",
+          "semantics", "loanword", "align", "mantel", "associate", "baselines",
+          "etym", "report"]
+_MODULE = {"align": "crossval", "associate": "association",
+           "translate-qc": "translate_qc", "lexibank-qc": "lexibank_qc"}
 _TAKES_JOBS = {"align", "mantel", "associate", "baselines", "etym"}
 
 
