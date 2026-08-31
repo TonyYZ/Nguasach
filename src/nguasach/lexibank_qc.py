@@ -60,10 +60,6 @@ def fetch(raw_dir: Path) -> Path:
 # --------------------------------------------------------------- normalisation
 _LEAD = re.compile(r"^(to |the |a |an |der |die |das |el |la |le |les |il |lo )")
 _PUNCT = re.compile(r"[.,;:!?()\[\]{}'\"/\\]")
-# Hebrew niqqud (U+0591-05C7) and Arabic harakat (U+064B-0652, U+0670): vowel
-# pointing that our cells sometimes carry and NorthEuraLex never does -> strip
-# for comparison so "same consonantal word" is not counted as a disagreement.
-_POINTING = re.compile(r"[֑-ׇً-ْٰ]")
 
 
 def _t2s():
@@ -80,9 +76,14 @@ _T2S = _t2s()
 
 def _norm(s: str, lang: str = "") -> str:
     s = unicodedata.normalize("NFC", str(s or "")).strip().lower()
+    # After NFC, real accented letters are precomposed; any *remaining* combining
+    # mark (category Mn) is a dictionary annotation -- Russian/Greek stress,
+    # Hebrew niqqud, Arabic harakat -- which our cells carry inconsistently.
+    s = "".join(c for c in unicodedata.normalize("NFD", s)
+                if unicodedata.category(c) != "Mn")
+    s = unicodedata.normalize("NFC", s)
     s = _PUNCT.sub("", s)
     s = _LEAD.sub("", s).strip()
-    s = _POINTING.sub("", s)
     if lang == "Chinese":
         s = _T2S(s)                       # fold traditional -> simplified both ways
     return re.sub(r"\s+", " ", s)
