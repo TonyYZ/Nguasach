@@ -57,7 +57,7 @@ def load_raw(cfg: Config) -> pd.DataFrame:
         raise ValueError(f"{path.name} is missing language columns: {missing}")
 
     df = raw[list(ALL_LANGUAGES)].map(_norm_cell)
-    df = _append_additions(df, path.parent / "concept_additions.csv")
+    df = _append_additions(df, path.parent / "concept_additions.xlsx")
     df = _apply_concept_set(df, cfg)
     df = df.reset_index(drop=True)
     df.index.name = "concept_id"
@@ -65,17 +65,16 @@ def load_raw(cfg: Config) -> pd.DataFrame:
 
 
 def _append_additions(df: pd.DataFrame, path: Path) -> pd.DataFrame:
-    """Append rows from ``data/raw/concept_additions.csv`` (Swadesh/LJ concepts
-    missing from the frozen xlsx). Rows whose 22 language cells are still blank
-    are skipped, so the file can be committed and filled incrementally."""
+    """Append rows from ``data/raw/concept_additions.xlsx`` (Swadesh/LJ concepts
+    missing from the frozen xlsx; sheet ``additions``). Rows whose 22 language
+    cells are not all filled are skipped, so the file can be committed and
+    completed incrementally. **xlsx, not csv** -- Excel on a CJK-locale box
+    saves plain CSV as GB18030 and silently replaces every out-of-codepage
+    character with ``?`` (the bug that destroyed the original nguasach.csv)."""
     if not path.exists():
         return df
-    # Excel on a CJK-locale box saves CSV as GB18030, not UTF-8 (the bug that
-    # destroyed the original nguasach.csv). Try UTF-8, fall back to GB18030.
-    try:
-        add = pd.read_csv(path, dtype=str, keep_default_na=False, encoding="utf-8")
-    except UnicodeDecodeError:
-        add = pd.read_csv(path, dtype=str, keep_default_na=False, encoding="gb18030")
+    add = pd.read_excel(path, sheet_name="additions", dtype=str,
+                        keep_default_na=False, engine="openpyxl")
     add = add[[c for c in ALL_LANGUAGES if c in add.columns]]
     add = add.map(_norm_cell)
     add = add[(add != "").all(axis=1)]                # only fully-filled rows
