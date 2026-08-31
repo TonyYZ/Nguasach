@@ -168,6 +168,27 @@ print("\nstrongest |z| (count >= 3), any language:")
 pd.DataFrame(assoc["per_language"]).T[["n_phonemes", "n_significant_cells"]]
 
 # %% [markdown]
+# ### 4b. Cross-linguistically **pooled** phoneme x pole test
+#
+# Per-language z-scores averaged over the languages where the cell is attested
+# (>= 3 tokens), null = the same per-language concept->pole permutations pooled
+# the same way. `significant` requires BH-FDR < .10 **and** the bias to show in
+# >= 4 macro-families (Indo-European counted once) with >= 75% sign concordance,
+# a guard against phylogenetic non-independence the permutation null ignores.
+# %%
+pooled = assoc.get("pooled")
+if pooled:
+    print(f"{pooled['n_cells_tested']} cells tested  |  "
+          f"{pooled['n_fdr_only']} clear FDR<.10  |  "
+          f"{pooled['n_significant']} also family-robust")
+    pdf = pd.DataFrame(pooled["cells"])
+    display_cols = ["pole", "phoneme", "mean_z", "n_langs", "n_families",
+                    "family_sign_concord", "total_count", "q_fdr", "significant"]
+    print(pdf[display_cols].head(40).to_string(index=False))
+else:
+    print("no pooled block — re-run `nguasach run associate`")
+
+# %% [markdown]
 # ## 5. Concept strata — systematicity by subset
 #
 # Mantel form~meaning re-run on Swadesh-207, Leipzig-Jakarta-100, and POS subsets.

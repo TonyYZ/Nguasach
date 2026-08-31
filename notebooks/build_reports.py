@@ -27,6 +27,7 @@ EXPLAINER_FIGS = {
     "formform_matrix": "exploratory/fig7_form_form_matrix.png",
     "formform_dist": "exploratory/fig8_form_form_dist.png",
     "strata": "exploratory/fig6_strata.png",
+    "pooled": "exploratory/fig9_association_pooled.png",
 }
 
 
@@ -34,7 +35,7 @@ def _data_uri(png: Path) -> str:
     return "data:image/png;base64," + base64.b64encode(png.read_bytes()).decode("ascii")
 
 
-def build_explainer() -> Path:
+def build_explainer(etym_url: str = "etym_table.html") -> Path:
     tpl = (ROOT / "results" / "_explainer_template.html").read_text(encoding="utf-8")
     for token, rel in EXPLAINER_FIGS.items():
         png = ROOT / "figures" / rel
@@ -44,6 +45,7 @@ def build_explainer() -> Path:
         if marker not in tpl:
             raise KeyError(f"{marker} not in explainer template")
         tpl = tpl.replace(marker, _data_uri(png))
+    tpl = tpl.replace("__ETYM_URL__", etym_url)     # relative link; swap for a hosted URL if published
     out = ROOT / "results" / "project_explainer.html"
     out.write_text(tpl, encoding="utf-8")
     return out

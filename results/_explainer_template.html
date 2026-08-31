@@ -278,8 +278,14 @@ footer a{border:0}
           but minuscule (median partial <em>r</em>&nbsp;&asymp;&nbsp;0.01), present for ~80&nbsp;% of
           pairs. Too weak for a universality claim; not nothing.</p>
       </div>
-      <p class="small">The phoneme&ndash;pole ("hexagram") analysis — which phonemes cluster with
-        which meanings — yields nothing that survives FDR.</p>
+      <figure>
+        <img src="__FIG_pooled__" alt="Horizontal bars: 33 phoneme-by-pole associations that clear a false-discovery threshold and appear in at least four language families with consistent sign. Largest is the affricate t-esh with the wind/seepage pole at mean z 2.8; k is under-represented in sky/fullness at mean z -0.8.">
+        <figcaption><b>The phoneme&ndash;pole layer holds up only when pooled across languages.</b>
+          Tested per language, nothing clears a false-discovery threshold. Averaged over the 22
+          languages&nbsp;&mdash; with a guard requiring the bias in &ge;4 families at consistent
+          sign&nbsp;&mdash; <b>33 of 627</b> phoneme&times;pole cells survive (79 clear the threshold
+          before the family guard). Small effects, but cross-linguistically real.</figcaption>
+      </figure>
     </section>
 
     <section id="etym">
@@ -293,10 +299,11 @@ footer a{border:0}
       <p>The pipeline builds the <strong>Mandarin onset&times;rhyme grid</strong>: for each syllable,
         it pools every concept whose Chinese word contains it, averages their meaning vectors, and
         reports which trigram pole — or which additive (<em>parallel</em>) pair of poles — that
-        average lands nearest, plus the syllable&#39;s over-used phonemes and its example words.</p>
+        average lands nearest, its nearest word2vec neighbours, and its example words.</p>
       <p><a href="__ETYM_URL__">Open the Etym Table &rarr;</a> — a browsable onset&times;rhyme
-        matrix; click any cell for its pole structure, phoneme skew, meaning neighbours, and word
-        list.</p>
+        matrix; click any cell for its pole structure, parallel composition, meaning neighbours, and
+        word list, or click a trigram in the legend for that pole&#39;s over- and under-used
+        phonemes.</p>
     </section>
 
     <section id="repro">

@@ -263,6 +263,33 @@ def fig_association(assoc, out: Path):
     _save(fig, out, "fig4_association")
 
 
+def fig_association_pooled(assoc, out: Path):
+    """Cross-linguistically pooled phoneme x pole associations that clear FDR
+    and the >=4-family / sign-concordance robustness guard."""
+    pooled = assoc.get("pooled")
+    if not pooled:
+        return
+    sig = [c for c in pooled["cells"] if c["significant"]]
+    if not sig:
+        print("pooled association: no family-robust cells — skipping fig9")
+        return
+    sig = sorted(sig, key=lambda c: c["mean_z"])
+    y = range(len(sig))
+    fig, ax = plt.subplots(figsize=(6.6, 0.26 * len(sig) + 1))
+    ax.barh(y, [c["mean_z"] for c in sig],
+            color=[ACCENT if c["mean_z"] > 0 else INK for c in sig])
+    ax.set_yticks(list(y))
+    ax.set_yticklabels([f"/{c['phoneme']}/  ·  {c.get('gloss') or c['pole']}  "
+                        f"({c['n_families']}fam)" for c in sig], fontsize=7)
+    ax.axvline(0, color=NULLC, lw=0.8)
+    ax.set_xlabel("mean z-score across contributing languages")
+    ax.set_title(f"Pooled phoneme–pole associations, {len(sig)} of "
+                 f"{pooled['n_cells_tested']} cells\n"
+                 f"(BH-FDR<.10 AND ≥4 families, ≥75% sign-concordant; "
+                 f"{pooled['n_fdr_only']} clear FDR alone)")
+    _save(fig, out, "fig9_association_pooled")
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--results", default="results")
@@ -288,6 +315,7 @@ def main() -> None:
     fig_strata(R / "strata.csv", O)
     if assoc:
         fig_association(assoc, O)
+        fig_association_pooled(assoc, O)
 
 
 if __name__ == "__main__":
