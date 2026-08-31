@@ -57,10 +57,26 @@ def load_raw(cfg: Config) -> pd.DataFrame:
         raise ValueError(f"{path.name} is missing language columns: {missing}")
 
     df = raw[list(ALL_LANGUAGES)].map(_norm_cell)
+    df = _append_additions(df, path.parent / "concept_additions.csv")
     df = _apply_concept_set(df, cfg)
     df = df.reset_index(drop=True)
     df.index.name = "concept_id"
     return df
+
+
+def _append_additions(df: pd.DataFrame, path: Path) -> pd.DataFrame:
+    """Append rows from ``data/raw/concept_additions.csv`` (Swadesh/LJ concepts
+    missing from the frozen xlsx). Rows whose 22 language cells are still blank
+    are skipped, so the file can be committed and filled incrementally."""
+    if not path.exists():
+        return df
+    add = pd.read_csv(path, dtype=str, keep_default_na=False)
+    add = add[[c for c in ALL_LANGUAGES if c in add.columns]]
+    add = add.map(_norm_cell)
+    add = add[(add != "").all(axis=1)]                # only fully-filled rows
+    if add.empty:
+        return df
+    return pd.concat([df, add[list(ALL_LANGUAGES)]], ignore_index=True)
 
 
 def _apply_concept_set(df: pd.DataFrame, cfg: Config) -> pd.DataFrame:

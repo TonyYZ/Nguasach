@@ -157,3 +157,10 @@ Thumbs.db
 /legacy_results/
 
 /docs/literature/
+
+# concepticon / lexibank data snapshots (fetched by nguasach.concepticon / .lexibank_qc)
+data/raw/concepticon-data/
+data/raw/concepticon_concepts.tsv
+data/raw/Swadesh-1955-215.tsv
+data/raw/Tadmor-2009-100.tsv
+data/raw/northeuralex*/
