@@ -70,7 +70,12 @@ def _append_additions(df: pd.DataFrame, path: Path) -> pd.DataFrame:
     are skipped, so the file can be committed and filled incrementally."""
     if not path.exists():
         return df
-    add = pd.read_csv(path, dtype=str, keep_default_na=False)
+    # Excel on a CJK-locale box saves CSV as GB18030, not UTF-8 (the bug that
+    # destroyed the original nguasach.csv). Try UTF-8, fall back to GB18030.
+    try:
+        add = pd.read_csv(path, dtype=str, keep_default_na=False, encoding="utf-8")
+    except UnicodeDecodeError:
+        add = pd.read_csv(path, dtype=str, keep_default_na=False, encoding="gb18030")
     add = add[[c for c in ALL_LANGUAGES if c in add.columns]]
     add = add.map(_norm_cell)
     add = add[(add != "").all(axis=1)]                # only fully-filled rows
