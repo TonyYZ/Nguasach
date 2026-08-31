@@ -193,17 +193,26 @@ def fig_form_form_matrix(mant, out: Path):
     _save(fig, out, "fig7_form_form_matrix")
 
 
+def _macro(lang: str) -> str:
+    f = _FAMILY.get(lang, "?")
+    return "Indo-European" if f.startswith("IE-") else f
+
+
 def fig_form_form_dist(mant, out: Path):
-    """Same-family vs different-family partial-r, to show the different-family cluster."""
+    """Same- vs different-family partial-r. Family = macro grain: the Indo-European
+    branches count as one, so 'different family' means genuinely unrelated."""
     import numpy as np
 
     ff = _ff_pairs(mant)
-    if len(ff) < 8 or not any("same_family" in r for r in ff):
+    if len(ff) < 8:
         return
-    same = [r["r_partial_orth"] for r in ff if r.get("same_family")]
-    diff = [r["r_partial_orth"] for r in ff if not r.get("same_family")]
+    for r in ff:
+        a, b = r["unit"].split("~")
+        r["_same_macro"] = _macro(a) == _macro(b)
+    same = [r["r_partial_orth"] for r in ff if r["_same_macro"]]
+    diff = [r["r_partial_orth"] for r in ff if not r["_same_macro"]]
     sig_diff = [r["r_partial_orth"] for r in ff
-                if not r.get("same_family") and r.get("q_partial", 1) < 0.05]
+                if not r["_same_macro"] and r.get("q_partial", 1) < 0.05]
 
     fig, ax = plt.subplots(figsize=(6.2, 3.2))
     rng = np.random.default_rng(0)
