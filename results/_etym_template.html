@@ -136,6 +136,9 @@ td.dim .cell{opacity:.22}
 .d-sect{padding:16px 22px; border-bottom:1px solid var(--line)}
 .d-sect h3{font-size:12px; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); font-family:"IBM Plex Sans",sans-serif; font-weight:600; margin-bottom:10px}
 .bar-row{display:grid; grid-template-columns:20px 1fr auto; gap:8px; align-items:center; margin-bottom:7px; font-size:12px}
+.bar-row-btn{width:100%; border:0; background:transparent; color:inherit; font:inherit; text-align:left; cursor:pointer; border-radius:6px; padding:5px 7px; margin:0 -7px 2px; transition:background .12s}
+.bar-row-btn:hover{background:var(--sunk)}
+.bar-row-btn:hover .nm{color:var(--seal)}
 .bar-row .gly{text-align:center; font-size:14px}
 .bar{height:6px; border-radius:3px; background:var(--sunk); overflow:hidden}
 .bar i{display:block; height:100%; background:var(--seal); border-radius:3px}
@@ -270,11 +273,11 @@ function select(key){
 function renderDrawer(c){
   const poles=(c.pole||[]).map(p=>{
     const w=Math.max(4,(p.score+ (p.score<0?0.3:0))*140);
-    return `<div class="bar-row"><span class="gly">${gly(p.name)}</span>
+    return `<button class="bar-row bar-row-btn" data-pole="${p.name}" title="show ${base(p.name)} ${sd(p.name)} phoneme profile"><span class="gly">${gly(p.name)}</span>
       <span><span class="nm cjk">${base(p.name)}</span>
         <span style="color:var(--faint);font-size:11px">${sd(p.name)} · ${p.gloss}</span>
         <div class="bar"><i style="width:${Math.min(100,w)}%"></i></div></span>
-      <span class="v">${p.score.toFixed(2)}</span></div>`;
+      <span class="v">${p.score.toFixed(2)}</span></button>`;
   }).join('');
   const par=c.parallel_pole ? c.parallel_pole.name.split(' + ').map(n=>`<span class="cjk">${base(n)}<span style="color:var(--faint)">·${sd(n)}</span></span>`).join('<span class="op">∥</span>') : '—';
   const nbrs=(c.neighbors||[]).slice(0,12).map((n,i)=>`${i?', ':''}<b>${n}</b>`).join('');
@@ -295,6 +298,9 @@ function renderDrawer(c){
     <div class="d-sect"><h3>${c.n} words with this syllable</h3><div class="words">${words}</div></div>
     <button class="copy" id="copybtn">⧉ copy cell summary</button>`;
   document.getElementById('copybtn').onclick=()=>copyCell(c);
+  drawer.querySelectorAll('.bar-row-btn').forEach(b=>{
+    b.onclick=()=>{ toggleFilter('pole', b.dataset.pole); showPole(); };
+  });
 }
 function deselect(){
   selKey=null; app.classList.remove('open'); drawer.classList.add('empty');
@@ -320,7 +326,8 @@ function copyCell(c){
 const POLES = DATA.poles || {};
 function showPole(){
   if(filter && filter.type==='pole'){ renderPole(filter.val); }
-  else if(selKey===null){ deselect(); }
+  else if(selKey){ select(selKey); }
+  else { deselect(); }
 }
 function renderPole(name){
   const p = POLES[name]; if(!p) return;
