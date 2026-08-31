@@ -193,7 +193,8 @@ td.dim .cell{opacity:.22}
 
   <aside class="drawer empty" id="drawer">
     <div class="hint">Select a cell to see its etym structure — the trigram pole its words'
-      averaged meaning lands nearest, the phonemes it over-uses, and the words themselves.</div>
+      averaged meaning lands nearest, the parallel composition, and the words themselves.
+      Click a trigram in the legend for that pole's over-/under-used phonemes.</div>
   </aside>
 </div>
 
@@ -276,7 +277,6 @@ function renderDrawer(c){
       <span class="v">${p.score.toFixed(2)}</span></div>`;
   }).join('');
   const par=c.parallel_pole ? c.parallel_pole.name.split(' + ').map(n=>`<span class="cjk">${base(n)}<span style="color:var(--faint)">·${sd(n)}</span></span>`).join('<span class="op">∥</span>') : '—';
-  const skew=(c.phoneme_skew||[]).map(s=>`<span class="chip up">${s.p} ${s.delta>0?'+':''}${s.delta.toFixed(2)}</span>`).join('');
   const nbrs=(c.neighbors||[]).slice(0,12).map((n,i)=>`${i?', ':''}<b>${n}</b>`).join('');
   const words=(c.words||[]).map(w=>`<div class="wd"><span class="hz">${w.hanzi}</span>
       <span class="en">${w.english}</span><span class="py">${w.pinyin}</span></div>`).join('');
@@ -291,7 +291,6 @@ function renderDrawer(c){
     </div>
     ${poles?`<div class="d-sect"><h3>nearest poles</h3>${poles}</div>`:''}
     <div class="d-sect"><h3>parallel composition ∥</h3><div class="parallel">${par}</div></div>
-    ${skew?`<div class="d-sect"><h3>over-used phonemes</h3><div class="chips">${skew}</div></div>`:''}
     ${nbrs?`<div class="d-sect"><h3>meaning neighbours</h3><div class="nbr">${nbrs}</div></div>`:''}
     <div class="d-sect"><h3>${c.n} words with this syllable</h3><div class="words">${words}</div></div>
     <button class="copy" id="copybtn">⧉ copy cell summary</button>`;
@@ -308,7 +307,6 @@ function copyCell(c){
   if(c.pole) L.push(`pole: ${base(c.pole[0].name)} ${sd(c.pole[0].name)} — ${c.pole[0].gloss}`
     +`  |  next: ${c.pole.slice(1).map(p=>base(p.name)+' '+sd(p.name)).join(', ')}`);
   if(c.parallel_pole) L.push(`parallel ∥: ${c.parallel_pole.name}`);
-  if(c.phoneme_skew?.length) L.push(`over-used: ${c.phoneme_skew.map(s=>s.p+(s.delta>0?'+':'')+s.delta.toFixed(2)).join('  ')}`);
   if(c.neighbors?.length) L.push(`neighbours: ${c.neighbors.slice(0,12).join(', ')}`);
   L.push('', ...c.words.map(w=>`  ${w.hanzi}\t${w.pinyin}\t${w.english}`));
   navigator.clipboard.writeText(L.join('\n')).then(()=>{

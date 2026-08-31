@@ -9,7 +9,10 @@ cell's *mean* meaning vector with:
 * its nearest **parallel composition** -- the mean of two pole anchors, over all
   C(18,2)+18 combinations (additive "glue")
 * the nearest word2vec neighbours of the cell mean
-* per-cell phoneme skew (which phones are over-represented vs. the whole grid)
+
+Per-phoneme z-scores are a *pole*-level artefact (``poles`` in the JSON, from
+:func:`_pole_phoneme_profiles`) -- mapping over-used phonemes to a *syllable* is
+circular, since they are just the phonemes that spell it.
 
 Outputs ``results/etym_table.json`` (nested onset->rhyme->cell) and a flat
 ``results/etym_table.csv``. Browse it with the etym visualiser artifact.
@@ -18,8 +21,6 @@ Outputs ``results/etym_table.json`` (nested onset->rhyme->cell) and a flat
 from __future__ import annotations
 
 import json
-import re
-from collections import Counter
 from itertools import combinations_with_replacement
 
 import numpy as np
@@ -95,7 +96,6 @@ def run(cfg: Config, n_jobs: int = 1) -> dict:
     # grid[rhyme][onset] -> list of concept dicts
     grid: dict[str, dict[str, list[dict]]] = {}
     onsets, rhymes = set(), set()
-    all_phones = Counter()
     for cid in range(len(df)):
         han = df.at[cid, "Chinese"]
         eng = df.at[cid, "English"]
@@ -107,15 +107,11 @@ def run(cfg: Config, n_jobs: int = 1) -> dict:
                 continue
             onsets.add(onset)
             rhymes.add(rhyme)
-            all_phones.update(ipa.split())
             grid.setdefault(rhyme, {}).setdefault(onset, []).append(
                 {"hanzi": han, "english": eng, "pinyin": py,
                  "ipa": ipa, "cid": cid,
                  "vec": None if vec is None else vec}
             )
-
-    total_ph = sum(all_phones.values()) or 1
-    global_rate = {p: c / total_ph for p, c in all_phones.items()}
 
     cells = []
     table: dict[str, dict[str, dict]] = {}
@@ -142,12 +138,6 @@ def run(cfg: Config, n_jobs: int = 1) -> dict:
                 nbr = mat @ m
                 entry["neighbors"] = [labels[k].rstrip("_")
                                       for k in np.argsort(-nbr)[:12] if labels[k].rstrip("_")]
-            # phoneme skew for this cell
-            cph = Counter(p for it in items for p in it["ipa"].split())
-            ct = sum(cph.values()) or 1
-            skew = sorted(((p, cph[p] / ct - global_rate.get(p, 0)) for p in cph),
-                          key=lambda x: -x[1])
-            entry["phoneme_skew"] = [{"p": p, "delta": round(d, 3)} for p, d in skew[:6]]
             table.setdefault(onset, {})[rhyme] = entry
             cells.append(entry)
 
@@ -202,7 +192,7 @@ def _csv(path, cells: list[dict]) -> None:
     with path.open("w", encoding="utf-8", newline="") as fh:
         w = csv.writer(fh)
         w.writerow(["syllable", "onset", "rhyme", "n", "pole_1", "pole_2", "pole_3",
-                    "parallel_pole", "phoneme_skew", "neighbors", "example_words"])
+                    "parallel_pole", "neighbors", "example_words"])
         for c in cells:
             pole = c.get("pole", [])
             w.writerow([
@@ -211,7 +201,6 @@ def _csv(path, cells: list[dict]) -> None:
                 pole[1]["name"] if len(pole) > 1 else "",
                 pole[2]["name"] if len(pole) > 2 else "",
                 c.get("parallel_pole", {}).get("name", ""),
-                " ".join(f"{s['p']}{s['delta']:+.2f}" for s in c.get("phoneme_skew", [])),
                 " ".join(c.get("neighbors", [])[:8]),
                 " ".join(f"{x['hanzi']}({x['english']})" for x in c["words"][:12]),
             ])
