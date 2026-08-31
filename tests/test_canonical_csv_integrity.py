@@ -22,7 +22,8 @@ def df(cfg) -> pd.DataFrame:
 
 def test_shape_and_columns(df):
     assert list(df.columns) == list(ALL_LANGUAGES)
-    assert len(df) == 1842
+    # 1842 from the frozen xlsx + any fully-filled rows in concept_additions.csv
+    assert 1842 <= len(df) <= 1842 + 50
     assert df.index.name == "concept_id"
 
 
