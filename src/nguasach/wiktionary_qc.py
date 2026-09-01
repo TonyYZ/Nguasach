@@ -68,8 +68,14 @@ def fetch(words: list[str], cache_path: Path, batch: int = 50) -> dict[str, dict
     if cache_path.exists():
         cache = json.loads(cache_path.read_text(encoding="utf-8"))
     todo = [w for w in words if w not in cache]
-    for i in range(0, len(todo), batch):
-        chunk = todo[i : i + batch]
+    # English Wiktionary main namespace is case-sensitive: "false" (adjective,
+    # with the Translations table) is a different page from "False". Query the
+    # lowercase variant too and merge both pages' translations.
+    want = {w: {w, w.lower()} for w in todo}
+    titles = sorted({t for s in want.values() for t in s})
+    pages: dict[str, dict[str, list[str]]] = {}
+    for i in range(0, len(titles), batch):
+        chunk = titles[i : i + batch]
         q = urllib.parse.urlencode({
             "action": "query", "prop": "revisions", "rvprop": "content",
             "rvslots": "main", "titles": "|".join(chunk),
@@ -87,17 +93,19 @@ def fetch(words: list[str], cache_path: Path, batch: int = 50) -> dict[str, dict
                 raise
         else:
             raise RuntimeError("wiktionary API kept rate-limiting")
-        got = {}
         for pg in data.get("query", {}).get("pages", []):
-            title = pg["title"]
             wt = (pg.get("revisions", [{}])[0].get("slots", {})
                   .get("main", {}).get("content", "")) if pg.get("revisions") else ""
-            got[title] = {k: sorted(v) for k, v in _parse_translations(wt).items()}
-        # normalize titles back to our query casing
-        low = {t.lower(): t for t in got}
-        for w in chunk:
-            cache[w] = got.get(w) or got.get(low.get(w.lower(), ""), {})
-        print(f"[wiktionary-qc] fetched {i + len(chunk)}/{len(todo)}")
+            pages[pg["title"]] = {k: sorted(v) for k, v in _parse_translations(wt).items()}
+        for w in todo:
+            if w in cache or not want[w] <= set(pages):
+                continue
+            merged: dict[str, set[str]] = {}
+            for t in want[w]:
+                for lang, forms in pages.get(t, {}).items():
+                    merged.setdefault(lang, set()).update(forms)
+            cache[w] = {lang: sorted(v) for lang, v in merged.items()}
+        print(f"[wiktionary-qc] fetched {min(i + batch, len(titles))}/{len(titles)} titles")
         cache_path.write_text(json.dumps(cache, ensure_ascii=False), encoding="utf-8")
         time.sleep(1.2)
     return cache
