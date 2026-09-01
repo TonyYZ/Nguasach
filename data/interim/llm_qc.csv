@@ -4,6 +4,14 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 550,who,Finnish,who,untranslated,kuka,high,English left as-is,NW,all_three
 1080,swamp,Finnish,uroksella,garbage,suo,high,"= ""on the male animal""",NW,all_three
 1331,letter,Finnish,huomautus,wrong_sense,kirje,high,= note/remark/reprimand,NW,all_three
+1363,kettle,Finnish,mikroaaltouuni,wrong_sense,vedenkeitin,high,means microwave oven,NW,all_three
+1400,string,Finnish,huilu,wrong_sense,kieli,high,means flute,NW,all_three
+1402,whistle,Finnish,kello,wrong_sense,pilli,high,means bell clock,NW,all_three
+1413,pants,Finnish,kenkä,wrong_sense,housut,high,means shoe,NW,all_three
+1414,shoe,Finnish,sukka,wrong_sense,kenkä,high,means sock,NW,all_three
+1419,game,Finnish,urheilu,wrong_sense,peli,high,means sport,NW,all_three
+1614,king,Finnish,rakennus,wrong_sense,kuningas,high,means building,NW,all_three
+1622,doctor,Finnish,uhri,wrong_sense,lääkäri,high,means victim,NW,all_three
 158,dash,German,zu streiten,wrong_sense,stürmen,high,means to quarrel,NW,all_three
 204,rear,German,nach hinten,wrong_sense,aufziehen,high,means to the rear,NW,all_three
 217,pour,German,zu arm,garbage,gießen,high,means too poor mis-split,NW,all_three
@@ -22,6 +30,9 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 1224,floor,Hebrew,קומה,wrong_sense,רצפה,high,= storey/floor level,NW,all_three
 1242,board,Hebrew,גלשן,wrong_sense,לוח,high,= surfboard,NW,all_three
 1313,net,Hebrew,אינטרנט,wrong_sense,רשת,high,= internet,NW,all_three
+1402,whistle,Hebrew,לִשְׁרוֹק,wrong_pos,משרוקית,high,verb to whistle,NW,all_three
+1541,story,Hebrew,כַּתָבָה,wrong_sense,סיפור,high,means news article,NW,all_three
+1590,shop,Hebrew,לִקְנוֹת,wrong_pos,חנות,high,verb to buy,NW,all_three
 1769,up,Hebrew,קם,wrong_pos,למעלה,high,verb he got up,NW,all_three
 1773,left,Hebrew,נשאר,wrong_sense,שמאלה,high,means remained/left over,NW,all_three
 59,stick,Hindi,स्टिक,untranslated,चिपकना,high,transliteration of English stick,NW,all_three
@@ -120,6 +131,12 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 1278,boat,Hungarian,hajós,wrong_pos,csónak,high,= sailor/nautical (adj),NW,all_three
 1305,comb,Hungarian,comb,wrong_sense,fésű,high,"comb = ""thigh"" in Hungarian",NW,all_three
 1313,net,Hungarian,webes,wrong_sense,háló,high,"= ""web-based"" adjective",NW,all_three
+1390,horn,Hungarian,horn,untranslated,kürt,high,English left as-is,NW,all_three
+1419,game,Hungarian,meccs,wrong_sense,játék,high,means sports match,NW,all_three
+1585,bridge,Hungarian,bridge,untranslated,híd,high,English left as-is,NW,all_three
+1590,shop,Hungarian,vásárlás,wrong_pos,bolt,high,means shopping activity,NW,all_three
+1602,play,Hungarian,játssz,wrong_pos,színdarab,high,imperative verb play,NW,all_three
+1614,king,Hungarian,kinga,garbage,király,high,a female given name,NW,all_three
 1695,weight,Hungarian,tömeg,wrong_sense,súly,high,means mass/crowd,NW,all_three
 7,wait,Italian,esperar,wrong_sense,aspettare,high,Spanish word in Italian cell,NW,all_three
 8,stay,Italian,quedarse,wrong_sense,restare,high,Spanish word in Italian cell,NW,all_three
@@ -128,6 +145,7 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 1002,belly,Italian,gonfiarsi,wrong_pos,pancia,high,means to swell/bloat verb,NW,all_three
 1313,net,Italian,ragnatela,wrong_sense,rete,high,= spiderweb/cobweb,NW,all_three
 1315,ring,Italian,squillo,wrong_sense,anello,high,= phone ring / call-girl,NW,all_three
+1519,case,Italian,astuccio,wrong_sense,caso,high,means pencil case,NW,all_three
 1769,up,Italian,attivo,wrong_sense,su,high,means active/on,NW,all_three
 1773,left,Italian,lasciato,wrong_sense,a sinistra,high,means left/abandoned participle,NW,all_three
 1774,right,Italian,giusto,wrong_sense,a destra,high,means correct/fair,NW,all_three
@@ -145,11 +163,13 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 854,willow,Korean,솜틀,wrong_sense,버드나무,high,means cotton gin,NW,all_three
 984,lip,Korean,말뿐인,wrong_sense,입술,high,means merely-verbal adjective,NW,all_three
 1313,net,Korean,편물,wrong_sense,그물,high,= knitwear/knitted fabric,NW,all_three
+1622,doctor,Korean,박사님,wrong_sense,의사,high,means PhD honorific,NW,all_three
 1770,down,Korean,다운되었습니다,wrong_sense,아래,high,means system is down,NW,all_three
 1774,right,Korean,맞습니다,wrong_sense,오른쪽,high,sentence that is correct,NW,all_three
 188,like,Russian,нравится,wrong_sense,походить,high,this sense is resemble,NW,all_three
 1049,foam,Russian,мыло,wrong_sense,пена,high,means soap,NW,all_three
 1313,net,Russian,веб -,wrong_sense,сеть,high,"= ""web-"" prefix",NW,all_three
+1547,memory,Russian,объем памяти,phrase,память,high,means memory capacity computer,NW,all_three
 1695,weight,Russian,масса,wrong_sense,вес,high,means mass,NW,all_three
 1769,up,Russian,до,wrong_sense,вверх,high,means until/up to,NW,all_three
 1773,left,Russian,осталось,wrong_sense,налево,high,means remained/left over,NW,all_three
@@ -158,6 +178,7 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 8,stay,Spanish,stare,wrong_sense,quedarse,high,Italian/Latin word in Spanish cell,NW,all_three
 809,leaf,Spanish,lámina,wrong_sense,hoja,high,means sheet/lamina,NW,all_three
 1313,net,Spanish,web,wrong_sense,red,high,= web,NW,all_three
+1523,wealth,Spanish,poder,wrong_sense,riqueza,high,means power,NW,all_three
 1705,ground,Spanish,terrestre,wrong_pos,suelo,high,adjective terrestrial,NW,all_three
 1769,up,Spanish,le corresponde,wrong_sense,arriba,high,means it is up to him,NW,all_three
 1773,left,Spanish,se queda,wrong_sense,a la izquierda,high,means stays/remains,NW,all_three
@@ -166,8 +187,11 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 1773,left,Turkish,kaldı,wrong_sense,sola,high,means remained/is left,NW,all_three
 184,crow,Welsh,frân,wrong_sense,,high,means the bird crow,NW,all_three
 367,high,Welsh,high,untranslated,uchel,high,English left as-is,NW,all_three
+1491,happiness,Finnish,onnea,wrong_sense,onnellisuus,low,partitive of fortune,NW,all_three
 6,exit,German,beenden,wrong_sense,hinausgehen,med,means terminate/quit a program,NW,all_three
 1248,hoop,German,band,likely_wrong,Reifen,low,= ribbon/band,NW,all_three
+1411,shirt,German,shirt,untranslated,Hemd,med,English borrowing left,NW,all_three
+1452,amount,German,höhe,wrong_sense,Menge,low,means height sum,NW,all_three
 67,swallow,Greek,να καταπιω,phrase,καταπίνω,med,subjunctive periphrasis,NW,all_three
 75,catch,Greek,να πιάσω,phrase,πιάνω,med,subjunctive periphrasis,NW,all_three
 156,kiss,Greek,να φιλήσει,phrase,φιλάω,med,subjunctive periphrasis,NW,all_three
@@ -198,6 +222,12 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 1248,hoop,Hindi,हूप,untranslated,घेरा,med,"English ""hoop"" transliterated",NW,all_three
 1290,bed,Hindi,bed,untranslated,बिस्तर,med,English left as-is,NW,all_three
 1315,ring,Hindi,रिंग,untranslated,अंगूठी,med,"English ""ring"" transliterated",NW,all_three
+1510,end,Hindi,समाप्त,wrong_pos,अंत,med,means finished adjective,NW,all_three
+1517,trace,Hindi,ट्रेस,untranslated,निशान,low,English transliteration,NW,all_three
+1541,story,Hindi,स्टोरी,untranslated,कहानी,med,English transliteration,NW,all_three
+1547,memory,Hindi,मेमोरी,untranslated,स्मृति,med,English transliteration,NW,all_three
+1548,past,Hindi,पास्ट,untranslated,अतीत,med,English transliteration,NW,all_three
+1614,king,Hindi,किंग,untranslated,राजा,med,English transliteration,NW,all_three
 1705,ground,Hindi,मैदान,wrong_sense,ज़मीन,med,means field/open ground,NW,all_three
 1715,force,Hindi,फ़ोर्स,untranslated,बल,med,transliteration of English,NW,all_three
 1770,down,Hindi,bas,likely_wrong,नीचे,med,garbled latin bas,NW,all_three
@@ -210,8 +240,11 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 1077,ash,Hungarian,ash,untranslated,hamu,med,English left as-is,NW,all_three
 1094,hill,Hungarian,hill,untranslated,domb,med,English left as-is,NW,all_three
 1158,clay,Hungarian,clay,untranslated,agyag,med,English left as-is,NW,all_three
+1523,wealth,Hungarian,jólét,wrong_sense,gazdagság,med,means welfare wellbeing,NW,all_three
+1541,story,Hungarian,mese,wrong_sense,történet,med,means fairy tale,NW,all_three
 1674,edge,Hungarian,edge,untranslated,él,med,English left as-is,NW,all_three
 1091,spring,Italian,fonta,garbage,sorgente,med,not a word,NW,all_three
+1459,sign,Italian,cartello,wrong_sense,segno,low,means signboard,NW,all_three
 129,pass,Japanese,渡す,wrong_sense,通り過ぎる,med,means hand over,NW,all_three
 539,you,Japanese,彼方,wrong_sense,あなた,med,kanji means yonder direction,NW,all_three
 544,you,Japanese,彼方達,likely_wrong,あなたたち,med,nonstandard kanji for anatatachi,NW,all_three
@@ -224,6 +257,7 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 1186,hook,Japanese,針,wrong_sense,フック,med,= needle,NW,all_three
 1243,shelf,Japanese,シェルフ,likely_wrong,棚,med,English loan; native 棚,NW,all_three
 1303,lock,Japanese,ロック,likely_wrong,錠,med,"English loan (also ""rock"")",NW,all_three
+1452,amount,Japanese,額,wrong_sense,量,med,means monetary sum,NW,all_three
 30,draw,Korean,그리기 위해,phrase,그리다,med,means in order to draw,NW,all_three
 59,stick,Korean,고집하려면,phrase,붙다,med,means in order to persist,NW,all_three
 75,catch,Korean,잡기 위해,phrase,잡다,med,means in order to catch,NW,all_three
@@ -239,6 +273,8 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 909,cereal,Korean,시리얼,wrong_sense,곡물,med,means breakfast cereal,NW,all_three
 1063,earth,Korean,지구,wrong_sense,흙,med,= planet Earth; anchor is soil,NW,all_three
 1186,hook,Korean,훅,likely_wrong,갈고리,med,English loan; native 갈고리,NW,all_three
+1459,sign,Korean,징후,wrong_sense,기호,med,means symptom,NW,all_three
+1517,trace,Korean,추적하다,wrong_pos,흔적,med,verb to trace,NW,all_three
 59,stick,Russian,чтобы остаться,phrase,приклеиваться,med,means in order to stay,NW,all_three
 746,louse,Russian,вошник,likely_wrong,вошь,med,garbled form,NW,all_three
 965,pot,Spanish,maceta,wrong_sense,olla,med,means flowerpot,NW,all_three
@@ -246,6 +282,7 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 190,hang,Turkish,takılmak,wrong_sense,asmak,med,means get stuck/hang out,NW,all_three
 207,cover,Turkish,örtbas etmek,wrong_sense,örtmek,med,means cover up a scandal,NW,all_three
 559,not,Turkish,olumsuzluk,wrong_pos,değil,med,noun negation or negativity,NW,all_three
+1549,present,Turkish,geçmiş şimdi,garbage,şimdiki zaman,med,past now garbled,NW,all_three
 619,sister,Welsh,chwedion,garbage,chwaer,med,not a real word,NW,all_three
 661,bear,Welsh,dalia ’,wrong_sense,arth,med,means to hold/bear (verb),NW,all_three
 681,duck,Welsh,dowciaf,garbage,hwyaden,med,garbled verb form,NW,all_three
@@ -268,6 +305,9 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 1117,spring,Welsh,darddwch,wrong_sense,gwanwyn,low,garbled; not the season,NW,all_three
 1134,march,Welsh,orymdeithion,wrong_sense,Mawrth,low,= processions,NW,all_three
 1163,iron,Welsh,smwddiant,wrong_sense,haearn,low,= ironing clothes,NW,all_three
+1400,string,Welsh,moch,garbage,tant,low,means pigs,NW,all_three
+1413,pants,Welsh,pants,untranslated,trowsus,low,English left,NW,all_three
+1451,rule,Welsh,deyrnaswch,wrong_sense,,low,verb reign,NW,all_three
 1710,speed,Welsh,goryrru,wrong_pos,buanedd,low,verb to speed; Welsh,NW,all_three
 1771,forward,Welsh,blaengar,wrong_sense,ymlaen,med,means progressive (adj),NW,all_three
 158,dash,Arabic,لاناش,garbage,يندفع,high,transliteration gibberish,W,two
@@ -305,6 +345,13 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 1308,thread,Arabic,مسلك,wrong_sense,خيط,high,= path/route,W,two
 1313,net,Arabic,الويب,wrong_sense,شبكة,high,= the web,W,two
 1335,paint,Arabic,رسم,wrong_pos,طلاء,high,"= drawing / ""to draw""",W,two
+1350,fan,Arabic,المعجب,wrong_sense,مروحة,high,means admirer,W,two
+1381,rhythm,Arabic,على نفس المنوال,phrase,إيقاع,high,means in the same manner,W,two
+1449,type,Arabic,يكتب,wrong_pos,نوع,high,verb he writes,W,two
+1458,contract,Arabic,لمدة,garbage,عقد,high,means for a period,W,two
+1557,pipe,Arabic,يضخ,wrong_pos,أنبوب,high,verb he pumps,W,two
+1572,cement,Arabic,يبني,wrong_pos,أسمنت,high,verb he builds,W,two
+1624,manager,Arabic,إدارة,wrong_sense,مدير,high,means administration abstract,W,two
 1677,point,Arabic,هدف,wrong_sense,نقطة,high,means goal/target,W,two
 1696,volume,Arabic,الصوت,wrong_sense,حجم,high,means the sound,W,two
 1706,burden,Arabic,حرج,wrong_sense,عبء,high,means embarrassment/awkwardness,W,two
@@ -349,6 +396,67 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 1347,toy,Finnish,kello,wrong_sense,lelu,high,= clock/bell,W,two
 1348,clock,Finnish,lamppu,wrong_sense,kello,high,= lamp,W,two
 1349,lamp,Finnish,tuuletin,wrong_sense,lamppu,high,= fan/ventilator,W,two
+1350,fan,Finnish,kamera,wrong_sense,tuuletin,high,means camera,W,two
+1351,camera,Finnish,puhelin,wrong_sense,kamera,high,means telephone,W,two
+1352,telephone,Finnish,televisio,wrong_sense,puhelin,high,means television,W,two
+1353,television,Finnish,tietokone,wrong_sense,televisio,high,means computer,W,two
+1355,laptop,Finnish,ohjelmoida,wrong_pos,läppäri,high,means to program,W,two
+1356,program,Finnish,verkko,wrong_sense,ohjelma,high,means network,W,two
+1357,network,Finnish,jääkaappi,wrong_sense,verkko,high,means refrigerator,W,two
+1358,refrigerator,Finnish,ilmastointilaite,wrong_sense,jääkaappi,high,means air conditioner,W,two
+1359,air conditioner,Finnish,pesukone,wrong_sense,ilmastointilaite,high,means washing machine,W,two
+1360,washing machine,Finnish,imuri,wrong_sense,pesukone,high,means vacuum cleaner,W,two
+1361,vacuum cleaner,Finnish,uuni,wrong_sense,pölynimuri,high,means oven,W,two
+1362,oven,Finnish,kattila,wrong_sense,uuni,high,means pot or boiler,W,two
+1364,microwave,Finnish,partaveitsi,wrong_sense,mikroaaltouuni,high,means razor,W,two
+1365,razor,Finnish,radio,wrong_sense,partakone,high,means radio,W,two
+1366,radio,Finnish,seulonta,wrong_sense,radio,high,means screening,W,two
+1368,screen,Finnish,näppäimistö,wrong_sense,näyttö,high,means keyboard,W,two
+1369,keyboard,Finnish,skanneri,wrong_sense,näppäimistö,high,means scanner,W,two
+1370,scanner,Finnish,tulostin,wrong_sense,skanneri,high,means printer,W,two
+1371,printer,Finnish,kuuloke,wrong_sense,tulostin,high,means earphone,W,two
+1372,earphone,Finnish,mikrofoni,wrong_sense,kuulokkeet,high,means microphone,W,two
+1373,microphone,Finnish,kaiutin,wrong_sense,mikrofoni,high,means loudspeaker,W,two
+1374,loudspeaker,Finnish,instrumentti,wrong_sense,kaiutin,high,means instrument,W,two
+1375,instrument,Finnish,konsertti,wrong_sense,soitin,high,means concert,W,two
+1376,concert,Finnish,ooppera,wrong_sense,konsertti,high,means opera,W,two
+1377,opera,Finnish,orkesteri,wrong_sense,ooppera,high,means orchestra,W,two
+1378,orchestra,Finnish,sinfonia,wrong_sense,orkesteri,high,means symphony,W,two
+1379,symphony,Finnish,melodia,wrong_sense,sinfonia,high,means melody,W,two
+1380,melody,Finnish,rytmi,wrong_sense,melodia,high,means rhythm,W,two
+1381,rhythm,Finnish,loppusointu,wrong_sense,rytmi,high,means end rhyme,W,two
+1382,rhyme,Finnish,lyrics,untranslated,riimi,high,English word left,W,two
+1383,lyrics,Finnish,klassinen musiikki,wrong_sense,sanoitus,high,means classical music,W,two
+1384,classical music,Finnish,pop-musiikki,wrong_sense,klassinen musiikki,high,means pop music,W,two
+1385,pop music,Finnish,jazz,wrong_sense,popmusiikki,high,means jazz,W,two
+1386,jazz,Finnish,blues,wrong_sense,jazz,high,means blues,W,two
+1387,blues,Finnish,punk,wrong_sense,blues,high,means punk,W,two
+1389,rock,Finnish,sarvi,wrong_sense,rock,high,means horn,W,two
+1391,trumpet,Finnish,saksofoni,wrong_sense,trumpetti,high,means saxophone,W,two
+1392,saxophone,Finnish,tuuba,wrong_sense,saksofoni,high,means tuba,W,two
+1393,tuba,Finnish,rumpu,wrong_sense,tuuba,high,means drum,W,two
+1394,drum,Finnish,kitara,wrong_sense,rumpu,high,means guitar,W,two
+1395,guitar,Finnish,sello,wrong_sense,kitara,high,means cello,W,two
+1396,cello,Finnish,viulu,wrong_sense,sello,high,means violin,W,two
+1397,violin,Finnish,piano,wrong_sense,viulu,high,means piano,W,two
+1398,piano,Finnish,urut,wrong_sense,piano,high,means pipe organ,W,two
+1399,organ,Finnish,naru,wrong_sense,urut,high,means string cord,W,two
+1403,bell,Finnish,hattu,wrong_sense,kello,high,means hat,W,two
+1404,hat,Finnish,pukeutua,wrong_pos,hattu,high,verb to get dressed,W,two
+1408,suit,Finnish,hame,wrong_sense,puku,high,means skirt,W,two
+1409,skirt,Finnish,villapaita,wrong_sense,hame,high,means sweater,W,two
+1412,T-shirt,Finnish,housut,wrong_sense,t-paita,high,means trousers,W,two
+1415,sock,Finnish,tasku-,wrong_sense,sukka,high,means pocket prefix,W,two
+1416,pocket,Finnish,takki,wrong_sense,tasku,high,means jacket,W,two
+1417,coat,Finnish,tahra,wrong_sense,takki,high,means stain,W,two
+1418,stain,Finnish,peli,wrong_sense,tahra,high,means game,W,two
+1421,contest,Finnish,tiimi,wrong_sense,kilpailu,high,means team,W,two
+1423,team,Finnish,musiikki,wrong_sense,joukkue,high,means music,W,two
+1433,music,Finnish,taide,wrong_sense,musiikki,high,means art,W,two
+1434,art,Finnish,kaupunki,wrong_sense,taide,high,means city,W,two
+1458,contract,Finnish,sopia,wrong_pos,sopimus,high,verb to agree,W,two
+1554,building,Finnish,tuomioistuin,wrong_sense,rakennus,high,means court of law,W,two
+1649,mechanic,Finnish,mekaaninen,wrong_pos,mekaanikko,high,adjective mechanical,W,two
 1742,dawn,Finnish,kynnys,wrong_sense,aamunkoitto,high,means threshold/doorstep,W,two
 1773,left,Finnish,jäljellä,wrong_sense,vasemmalle,high,means remaining/left over,N,two
 1774,right,Finnish,oikein,wrong_sense,oikealle,high,means correctly (adverb),N,two
@@ -381,6 +489,9 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 1187,shackle,Greek,δεσμεύω,wrong_pos,χειροπέδες,high,"= ""I bind/commit"" verb",W,two
 1210,dustpan,Greek,σκόνη,wrong_sense,φαράσι,high,= dust,W,two
 1249,trampoline,Greek,σουμιές,wrong_sense,τραμπολίνο,high,= bed base/box spring,W,two
+1370,scanner,Greek,ερευνητής,wrong_sense,σαρωτής,high,means researcher,W,two
+1392,saxophone,Greek,σαξοφωνική,wrong_pos,σαξόφωνο,high,adjectival form,W,two
+1400,string,Greek,σειρά,wrong_sense,χορδή,high,means series row,N,two
 1657,stewardess,Greek,τροφοδότης,wrong_sense,αεροσυνοδός,high,means caterer/supplier,W,two
 1774,right,Greek,σωστό,wrong_sense,δεξιά,high,means correct,N,two
 1786,right,Greek,σωστά,wrong_sense,δεξιά,high,means correctly,N,two
@@ -402,6 +513,9 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 1185,saw,Hebrew,ראה,wrong_sense,מסור,high,"= ""he saw"" (past of see)",W,two
 1212,spindle,Hebrew,נול,wrong_sense,כישור,high,= loom,W,two
 1322,paper,Hebrew,עיתון,wrong_sense,נייר,high,= newspaper,W,two
+1463,order,Hebrew,להזמין,wrong_pos,סדר,high,verb to order or invite,W,two
+1602,play,Hebrew,לְשַׂחֵק,wrong_pos,מחזה,high,verb to act play,W,two
+1627,judge,Hebrew,לִשְׁפּוֹט,wrong_pos,שופט,high,verb to judge,W,two
 1659,cook,Hebrew,לְבַשֵׁל,wrong_pos,טבח,high,infinitive to cook,W,two
 1661,tailor,Hebrew,לְהַתְאִים,wrong_pos,חייט,high,verb to fit/adjust,W,two
 1665,soldier,Hebrew,לוֹחֶם,wrong_sense,חייל,high,means fighter/combatant,W,two
@@ -452,6 +566,8 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 1206,bellows,Hindi,पर्दों,wrong_sense,धौंकनी,high,= curtains,W,two
 1288,table,Hindi,तालिका,wrong_sense,मेज़,high,= table (chart/list),N,two
 1331,letter,Hindi,अक्षर,wrong_sense,पत्र,high,= letter of the alphabet,N,two
+1432,entertainment,Hindi,entertainment,untranslated,मनोरंजन,high,English left as-is,W,two
+1608,prison,Hindi,थाना,wrong_sense,जेल,high,means police station,W,two
 1696,volume,Hindi,आवाज़,wrong_sense,आयतन,high,means voice/sound,W,two
 1717,gravity,Hindi,गम्भीरता,wrong_sense,गुरुत्वाकर्षण,high,means seriousness/solemnity,W,two
 1774,right,Hindi,सही,wrong_sense,दाएँ,high,means correct/right,N,two
@@ -513,6 +629,23 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 1230,pool,Hungarian,biliárd,wrong_sense,medence,high,= billiards,W,two
 1261,sandpit,Hungarian,homokbánya,wrong_sense,homokozó,high,= sand quarry/mine,W,two
 1281,gasoline,Hungarian,gázolaj,wrong_sense,benzin,high,= diesel/gas oil,W,two
+1354,computer,Hungarian,computer,untranslated,számítógép,high,English left as-is,W,two
+1357,network,Hungarian,network,untranslated,hálózat,high,English left as-is,W,two
+1379,symphony,Hungarian,szimfonikus,wrong_pos,szimfónia,high,adjective symphonic,W,two
+1380,melody,Hungarian,melody,untranslated,dallam,high,English left as-is,W,two
+1400,string,Hungarian,string,untranslated,húr,high,English left as-is,N,two
+1423,team,Hungarian,team,untranslated,csapat,high,English left as-is,W,two
+1434,art,Hungarian,art,untranslated,művészet,high,English left as-is,W,two
+1524,system,Hungarian,system,untranslated,rendszer,high,English left as-is,W,two
+1557,pipe,Hungarian,pipa,wrong_sense,cső,high,means smoking pipe,W,two
+1562,palace,Hungarian,palace,untranslated,palota,high,English left as-is,W,two
+1564,fort,Hungarian,fort,untranslated,erőd,high,English left as-is,W,two
+1567,arch,Hungarian,arch,untranslated,boltív,high,English left as-is,W,two
+1571,brick,Hungarian,brick,untranslated,tégla,high,English left as-is,W,two
+1589,market,Hungarian,market,untranslated,piac,high,English left as-is,W,two
+1605,temple,Hungarian,temple,untranslated,templom,high,English left as-is,W,two
+1607,court,Hungarian,számvevőszék,wrong_sense,bíróság,high,means Court of Audit,W,two
+1616,prince,Hungarian,prince,untranslated,herceg,high,English left as-is,W,two
 753,firefly,Indonesian,firefly,untranslated,kunang-kunang,high,English word untranslated,W,two
 848,lilac,Indonesian,ungu,wrong_sense,bunga lila,high,means purple the colour,W,two
 873,straw,Indonesian,sedotan,wrong_sense,jerami,high,means drinking straw,W,two
@@ -522,6 +655,9 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 1270,cart,Indonesian,keranjang,wrong_sense,gerobak,high,= basket,W,two
 1279,ship,Indonesian,mengirimkan,wrong_pos,kapal,high,"= ""to send/deliver"" verb",W,two
 1313,net,Indonesian,web,wrong_sense,jaring,high,= web,W,two
+1559,elevator,Indonesian,tangga berjalan,wrong_sense,lift,high,means escalator,W,two
+1570,cross,Indonesian,persimpangan,wrong_sense,salib,high,means intersection,W,two
+1594,hospital,Indonesian,rsud,garbage,rumah sakit,high,acronym not a word,W,two
 315,weave,Italian,ondeggiare,wrong_sense,tessere,high,means to sway/wave,W,two
 899,peanut,Italian,peanut,untranslated,arachide,high,English word untranslated,W,two
 903,cashew,Italian,anchew,garbage,anacardio,high,garbled form,W,two
@@ -534,6 +670,10 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 1171,linen,Italian,biancheria,wrong_sense,lino,high,= linens/underwear,W,two
 1323,book,Italian,prenotare,wrong_pos,libro,high,"= ""to book/reserve"" verb",N,two
 1346,ruler,Italian,governate,wrong_sense,righello,high,= governor/ruler (person),W,two
+1350,fan,Italian,fan,wrong_sense,ventilatore,high,English admirer sense,W,two
+1367,chip,Italian,patata fritta,wrong_sense,chip,high,means french fry,W,two
+1394,drum,Italian,tamburellare,wrong_pos,tamburo,high,verb to drum,W,two
+1611,port,Italian,porta,wrong_sense,porto,high,means door,W,two
 1650,cleaner,Italian,più pulito,wrong_pos,addetto alle pulizie,high,comparative adjective more-clean,W,two
 1727,ray,Italian,ray,untranslated,raggio,high,English left as-is,W,two
 691,woodpecker,Japanese,キッドペッカー,garbage,キツツキ,high,garbled kid-pecker transliteration,W,two
@@ -554,6 +694,7 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 1210,dustpan,Japanese,ほこり,wrong_sense,ちりとり,high,= dust,W,two
 1231,garden,Japanese,公園,wrong_sense,庭,high,= park,W,two
 1329,brush,Japanese,みがきます,wrong_pos,ブラシ,high,"= ""polishes/brushes"" verb",W,two
+1602,play,Japanese,演奏する,wrong_pos,戯曲,high,verb to perform music,N,two
 1705,ground,Japanese,接地,wrong_sense,地面,high,means electrical grounding,N,two
 1722,momentum,Japanese,勢い,wrong_sense,運動量,high,means vigor colloquial,W,two
 1741,solstice,Japanese,至福,wrong_sense,至点,high,means bliss/supreme happiness,W,two
@@ -589,6 +730,9 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 1266,attic,Korean,애틱,untranslated,다락방,high,"English ""attic"" transliterated",W,two
 1267,basement,Korean,최하부,wrong_sense,지하실,high,"= ""the lowest part""",W,two
 1303,lock,Korean,잠그다,wrong_pos,자물쇠,high,"= ""to lock"" verb",N,two
+1424,exercise,Korean,행사,wrong_sense,운동,high,means event ceremony,W,two
+1602,play,Korean,놀다,wrong_pos,희곡,high,verb to play have fun,N,two
+1637,prosecutor,Korean,수행자,wrong_sense,검사,high,means performer practitioner,W,two
 1650,cleaner,Korean,청소기,wrong_sense,청소부,high,means vacuum cleaner,W,two
 1776,out,Korean,외출 중입니다,wrong_sense,밖으로,high,sentence is out of office,W,two
 204,rear,Russian,чтобы сзади,wrong_sense,растить,high,means to the back,N,two
@@ -619,6 +763,9 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 1263,puppet,Russian,кукольный,wrong_pos,марионетка,high,"= ""puppet"" adjective",W,two
 1307,pin,Russian,приколоть,wrong_pos,булавка,high,"= ""to pin"" verb",W,two
 1315,ring,Russian,звенеть,wrong_pos,кольцо,high,"= ""to ring/jingle"" verb",N,two
+1459,sign,Russian,подписать,wrong_pos,знак,high,verb to sign,N,two
+1474,fairy,Russian,сказочный,wrong_pos,фея,high,adjective fairy-tale,W,two
+1567,arch,Russian,архи,garbage,арка,high,prefix fragment,W,two
 1662,cashier,Russian,касса,wrong_sense,кассир,high,means cash register,W,two
 1692,space,Russian,космос,wrong_sense,пространство,high,means outer space/cosmos,N,two
 1774,right,Russian,правильно,wrong_sense,направо,high,means correctly,N,two
@@ -644,6 +791,11 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 1251,bench,Spanish,mesa de trabajo,wrong_sense,banco,high,= workbench/worktable,W,two
 1261,sandpit,Spanish,mina de arena,wrong_sense,arenero,high,= sand mine,W,two
 1303,lock,Spanish,cerrar,wrong_pos,cerradura,high,"= ""to close"" verb",N,two
+1392,saxophone,Spanish,sajrofo,garbage,saxofón,high,garbled,W,two
+1555,beam,Spanish,haz,wrong_sense,viga,high,means beam of light,W,two
+1566,dome,Spanish,hazme,garbage,cúpula,high,means do to me verb,W,two
+1581,gym,Spanish,gimnasia,wrong_sense,gimnasio,high,means gymnastics sport,W,two
+1602,play,Spanish,tocar,wrong_pos,obra de teatro,high,verb to play touch,N,two
 1690,time,Spanish,hora,wrong_sense,tiempo,high,means hour/clock time,N,two
 1743,dusk,Spanish,oscuridad,wrong_sense,anochecer,high,means darkness,W,two
 1771,forward,Spanish,delantero,wrong_sense,adelante,high,means front/soccer forward,N,two
@@ -665,6 +817,7 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 1006,back,Thai,กลับ,wrong_sense,หลัง,high,means to return,W,two
 1210,dustpan,Thai,โพรง,wrong_sense,ที่ตักผง,high,= hollow/cavity,W,two
 1313,net,Thai,เว็บ,wrong_sense,ตาข่าย,high,= web,W,two
+1459,sign,Thai,เข้าสู่ระบบ,wrong_sense,เครื่องหมาย,high,means sign in,W,two
 204,rear,Turkish,arkaya,wrong_sense,yetiştirmek,high,means to the back,N,two
 364,fine,Turkish,iyi,wrong_sense,ince,high,means good,W,two
 380,cool,Turkish,harika,wrong_sense,serin,high,means wonderful,W,two
@@ -688,6 +841,8 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 1163,iron,Turkish,ütü,wrong_sense,demir,high,= clothes iron/ironing,N,two
 1199,scales,Turkish,ölçek,wrong_sense,terazi,high,= scale/measure/scoop,W,two
 1261,sandpit,Turkish,zımpara,wrong_sense,kum havuzu,high,= sandpaper/emery,W,two
+1389,rock,Turkish,kaya,wrong_sense,rock,high,means stone,W,two
+1408,suit,Turkish,uygun olmak,wrong_sense,takım elbise,high,means to be suitable,W,two
 1678,line,Turkish,astar,wrong_sense,çizgi,high,means lining of a garment,N,two
 1692,space,Turkish,uzay,wrong_sense,boşluk,high,means outer space,N,two
 1727,ray,Turkish,ray,wrong_sense,ışın,high,means rail (train track),W,two
@@ -736,6 +891,15 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 1264,doll,Arabic,لعبة,wrong_sense,دمية,med,= toy/game (generic),W,two
 1301,incense,Arabic,عطور,wrong_sense,بخور,med,= perfumes,W,two
 1347,toy,Arabic,عروسه لعبه,likely_wrong,لعبة,med,= toy doll specifically,W,two
+1388,punk,Arabic,فاسق,wrong_sense,بانك,med,means immoral person,W,two
+1410,sweater,Arabic,سترة,wrong_sense,كنزة صوف,low,means jacket,W,two
+1424,exercise,Arabic,ممارسه الرياضه,phrase,تمرين,low,phrase practicing sport,W,two
+1512,standard,Arabic,اساسي,wrong_sense,معيار,med,means basic fundamental,W,two
+1517,trace,Arabic,يتعقب,wrong_pos,أثر,med,verb he tracks,W,two
+1555,beam,Arabic,الحزم,wrong_sense,عارضة,med,means bundle light beam,W,two
+1576,barn,Arabic,إسطبل,wrong_sense,حظيرة,med,means horse stable,W,two
+1603,script,Arabic,النصي,wrong_pos,نص,med,adjective textual,W,two
+1631,professor,Arabic,دكتور جامعى,phrase,أستاذ,low,university doctor descriptive,W,two
 1707,structure,Arabic,بناء,wrong_sense,بنية,med,means building/construction,W,two
 1722,momentum,Arabic,قوة الدفع,wrong_sense,زخم,med,means propulsion/thrust,W,two
 1741,solstice,Arabic,الانقلاب,wrong_sense,الانقلاب الشمسي,med,means coup/overturn alone,W,two
@@ -748,6 +912,13 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 844,hydrangea,Finnish,hydrangea,untranslated,hortensia,med,English word untranslated,W,two
 845,snapdragon,Finnish,snapdragon,untranslated,leijonankita,med,English word untranslated,W,two
 968,tail,Finnish,taka,wrong_sense,häntä,med,means back/rear,N,two
+1401,flute,Finnish,pilli,wrong_sense,huilu,low,means whistle pipe,W,two
+1424,exercise,Finnish,harjoittele,wrong_pos,harjoitus,low,imperative verb,W,two
+1439,average,Finnish,keskiverto,wrong_sense,keskiarvo,low,means mediocre person,W,two
+1485,preference,Finnish,etusija,wrong_sense,mieltymys,low,means priority,W,two
+1517,trace,Finnish,jäljittää,wrong_pos,jälki,med,verb to trace,N,two
+1519,case,Finnish,kotelo,wrong_sense,tapaus,med,means casing box,N,two
+1601,character,Finnish,merkki,wrong_sense,hahmo,med,means sign letter,N,two
 1678,line,Finnish,linja,wrong_sense,viiva,low,means route/policy line,N,two
 1687,lump,Finnish,köyde,likely_wrong,möykky,med,not a standard word,W,two
 1705,ground,Finnish,pohja,wrong_sense,maa,low,means bottom/base,N,two
@@ -763,6 +934,9 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 1176,power,German,energie,likely_wrong,Kraft,med,= energy; anchor is strength,N,two
 1309,wire,German,kabel,likely_wrong,Draht,med,= cable,W,two
 1334,note,German,hinweis,wrong_sense,Notiz,med,= hint/notice,W,two
+1517,trace,German,verfolgen,wrong_pos,Spur,med,verb to pursue,N,two
+1558,stairs,German,stufen,wrong_sense,Treppe,low,means individual steps,W,two
+1638,intern,German,praktikum,wrong_sense,Praktikant,med,means internship not person,W,two
 27,continue,Greek,να συνεχίσει,phrase,συνεχίζω,med,subjunctive periphrasis,W,two
 63,smile,Greek,να χαμογελάσει,phrase,χαμογελάω,med,subjunctive periphrasis,W,two
 169,include,Greek,να συμπεριλάβει,phrase,συμπεριλαμβάνω,med,subjunctive periphrasis,W,two
@@ -780,6 +954,11 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 1171,linen,Greek,λευκα ειδη,wrong_sense,λινό,med,= white goods/household linens,W,two
 1199,scales,Greek,ζυγός,likely_wrong,ζυγαριά,med,= yoke/balance beam,W,two
 1235,bathroom,Greek,τουαλέτα,wrong_sense,μπάνιο,med,= toilet,W,two
+1377,opera,Greek,λυρικη σκηνη,phrase,όπερα,low,roundabout phrase,W,two
+1387,blues,Greek,ακεφιά,wrong_sense,μπλουζ,med,means low spirits,W,two
+1429,badminton,Greek,παιγνίδι όμοιο με τέννις,phrase,μπάντμιντον,med,definition phrase,W,two
+1446,stripe,Greek,ταινία,wrong_sense,ρίγα,med,means tape ribbon film,W,two
+1555,beam,Greek,δέσμη,wrong_sense,δοκάρι,med,means bundle light beam,W,two
 80,wear,Hebrew,נשא,wrong_sense,ללבוש,med,means carry/bear,W,two
 204,rear,Hebrew,לאחור,wrong_sense,לגדל,med,means backwards,N,two
 653,tiger,Hebrew,נָמֵר,wrong_sense,טיגריס,med,נמר normally means leopard,W,two
@@ -796,6 +975,14 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 1237,study,Hebrew,לימוד,wrong_sense,חדר עבודה,med,= learning (act),W,two
 1256,swing,Hebrew,לנדנד,wrong_pos,נדנדה,med,"= ""to swing/rock"" verb",W,two
 1341,table,Hebrew,שולחן,wrong_sense,טבלה,med,furniture table; anchor is data table,N,two
+1442,sequence,Hebrew,סדר פעולות,phrase,רצף,med,means order of operations,W,two
+1494,coincidence,Hebrew,יָד הַמִקרֶה,phrase,צירוף מקרים,med,phrase hand of chance,W,two
+1499,conflict,Hebrew,סְתִירָה,wrong_sense,עימות,med,means contradiction,W,two
+1500,experiment,Hebrew,לְנַסוֹת,wrong_pos,ניסוי,med,verb to try,W,two
+1536,finance,Hebrew,לְמַמֵן,wrong_pos,מימון,med,verb to finance,W,two
+1555,beam,Hebrew,קֶרֶן,wrong_sense,קורה,med,means ray of light,W,two
+1572,cement,Hebrew,בטון,wrong_sense,מלט,med,means concrete,W,two
+1622,doctor,Hebrew,דוֹקטוֹר,wrong_sense,רופא,low,title not physician,N,two
 1722,momentum,Hebrew,תְנוּפָה,wrong_sense,תנע,med,means swing/figurative momentum,W,two
 5,enter,Hindi,डालें,wrong_sense,प्रवेश करना,med,means put/insert,N,two
 34,drink,Hindi,पेय,wrong_pos,पीना,low,noun beverage,N,two
@@ -867,6 +1054,28 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 1339,map,Hindi,मैप,untranslated,नक़्शा,med,"English ""map"" transliterated",W,two
 1348,clock,Hindi,क्लॉक,untranslated,घड़ी,med,"English ""clock"" transliterated",W,two
 1349,lamp,Hindi,बल्ब,wrong_sense,दीपक,med,= bulb,W,two
+1375,instrument,Hindi,यंत्र,wrong_sense,वाद्ययंत्र,med,means machine or device,W,two
+1404,hat,Hindi,हैट,untranslated,टोपी,low,English transliteration,W,two
+1405,crown,Hindi,क्राउन,untranslated,मुकुट,low,English transliteration,W,two
+1422,race,Hindi,रेस,untranslated,दौड़,low,English transliteration,W,two
+1433,music,Hindi,म्यूज़िक,untranslated,संगीत,low,English transliteration,W,two
+1435,sex,Hindi,sex,untranslated,यौन,low,English transliteration,W,two
+1437,race,Hindi,रेस,wrong_sense,नस्ल,med,contest sense and translit,W,two
+1468,labyrinth,Hindi,व्यामोह,wrong_sense,भूलभुलैया,med,means delusion,W,two
+1488,problem,Hindi,प्रॉब्लम,untranslated,समस्या,med,English transliteration,W,two
+1492,luck,Hindi,लक,untranslated,किस्मत,med,English transliteration,W,two
+1499,conflict,Hindi,विरोध,wrong_sense,संघर्ष,low,means opposition,W,two
+1542,job,Hindi,जॉब,untranslated,नौकरी,med,English transliteration,W,two
+1555,beam,Hindi,बीम,untranslated,शहतीर,low,English transliteration,W,two
+1575,hut,Hindi,हट,untranslated,झोपड़ी,med,English transliteration,W,two
+1582,factory,Hindi,फैक्टरी,untranslated,कारख़ाना,low,English transliteration,W,two
+1593,park,Hindi,पार्क,untranslated,उद्यान,low,English transliteration,W,two
+1594,hospital,Hindi,हॉस्पिटल,untranslated,अस्पताल,low,English transliteration,W,two
+1599,stage,Hindi,स्टेज,untranslated,मंच,med,English transliteration,W,two
+1603,script,Hindi,स्क्रिप्ट,untranslated,पटकथा,low,English transliteration,W,two
+1630,teacher,Hindi,टीचर,untranslated,शिक्षक,low,English transliteration,N,two
+1647,electrician,Hindi,इलेक्ट्रीशियन,untranslated,बिजली मिस्त्री,low,English transliteration,W,two
+1648,plumber,Hindi,प्लम्बर,untranslated,नलसाज़,low,English transliteration,W,two
 1654,firefighter,Hindi,अग्निशमन,wrong_pos,दमकलकर्मी,med,means fire-extinguishing act not person,W,two
 1657,stewardess,Hindi,भंडारिन,wrong_sense,परिचारिका,med,means female storekeeper,W,two
 1676,center,Hindi,बीच,wrong_sense,केंद्र,med,means middle/between,W,two
@@ -913,6 +1122,14 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 1220,home,Hungarian,haza,likely_wrong,otthon,med,= homeland,N,two
 1256,swing,Hungarian,swing,untranslated,hinta,med,English left as-is,W,two
 1307,pin,Hungarian,pin,untranslated,gombostű,med,English left as-is,W,two
+1350,fan,Hungarian,fanni,likely_wrong,ventilátor,med,not a Hungarian word,W,two
+1452,amount,Hungarian,összeg,wrong_sense,mennyiség,med,means sum of money,N,two
+1455,magazine,Hungarian,újság,wrong_sense,magazin,med,means newspaper,W,two
+1536,finance,Hungarian,finanszírozás,wrong_sense,pénzügy,med,means financing,W,two
+1539,company,Hungarian,század,wrong_sense,cég,med,means century or military company,N,two
+1566,dome,Hungarian,búra,wrong_sense,kupola,low,means glass cover,W,two
+1587,school,Hungarian,suli,likely_wrong,iskola,low,slang informal,W,two
+1641,farmer,Hungarian,farmer,wrong_sense,gazdálkodó,low,also means jeans,W,two
 1652,fisherman,Hungarian,horgász,wrong_sense,halász,med,means recreational angler,W,two
 1676,center,Hungarian,center,wrong_sense,központ,med,English loan,W,two
 1677,point,Hungarian,point,untranslated,pont,med,English left as-is,W,two
@@ -942,6 +1159,10 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 1278,boat,Indonesian,kapal,likely_wrong,perahu,med,= ship,W,two
 1309,wire,Indonesian,kabel,likely_wrong,kawat,med,= cable,W,two
 1335,paint,Indonesian,melukis,wrong_pos,cat,med,"= ""to draw/paint"" verb",W,two
+1446,stripe,Indonesian,garis,wrong_sense,belang,low,means line,W,two
+1484,view,Indonesian,melihat,wrong_pos,pandangan,med,verb to see,W,two
+1547,memory,Indonesian,penyimpanan,wrong_sense,ingatan,med,means storage,W,two
+1596,farm,Indonesian,tanah pertanian,wrong_sense,ladang,low,means farmland,W,two
 1692,space,Indonesian,ruang angkasa,wrong_sense,ruang,med,means outer space,W,two
 1708,displacement,Indonesian,pemindahan,wrong_sense,perpindahan,low,means transfer/moving,W,two
 1715,force,Indonesian,memaksa,wrong_pos,gaya,med,verb to force/compel,W,two
@@ -953,6 +1174,10 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 686,oriole,Italian,oriole,untranslated,rigogolo,med,English word untranslated,W,two
 845,snapdragon,Italian,snapdragon,untranslated,bocca di leone,med,English word untranslated,W,two
 855,aspen,Italian,aspen,untranslated,pioppo tremulo,med,English word untranslated,W,two
+1402,whistle,Italian,fischio,wrong_sense,fischietto,med,sound not object,N,two
+1445,pattern,Italian,trama,wrong_sense,motivo,low,means weave plot,N,two
+1500,experiment,Italian,sperimentare,wrong_pos,esperimento,med,verb to experiment,W,two
+1601,character,Italian,carattere,wrong_sense,personaggio,med,means letter personality,N,two
 1708,displacement,Italian,dislocamento,wrong_sense,spostamento,med,means naval dislocation,W,two
 1735,satellite,Italian,satellitare,wrong_pos,satellite,med,adjective satellite,W,two
 1750,mantle,Italian,mantle terrestre,untranslated,mantello terrestre,med,embedded English mantle,W,two
@@ -981,6 +1206,17 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 1206,bellows,Japanese,ベローズ,likely_wrong,ふいご,med,English loan; native ふいご,W,two
 1235,bathroom,Japanese,トイレ,wrong_sense,浴室,med,= toilet,W,two
 1302,cigarette,Japanese,シガレット,likely_wrong,タバコ,med,English loan; native タバコ,W,two
+1400,string,Japanese,ストリング,wrong_sense,弦,med,means text string,N,two
+1418,stain,Japanese,染色,wrong_sense,しみ,med,means dyeing process,W,two
+1459,sign,Japanese,サイン,wrong_sense,記号,low,means autograph,N,two
+1462,science,Japanese,理科,wrong_sense,科学,med,means science school subject,W,two
+1492,luck,Japanese,ラック,untranslated,運,med,English luck katakana,W,two
+1497,theory,Japanese,仮説,wrong_sense,理論,med,means hypothesis,W,two
+1547,memory,Japanese,メモリー,wrong_sense,記憶,med,means computer memory,N,two
+1562,palace,Japanese,城,wrong_sense,宮殿,med,means castle,W,two
+1577,cellar,Japanese,セラー,untranslated,地下室,low,English cellar katakana,W,two
+1614,king,Japanese,キング,untranslated,王,low,English katakana,N,two
+1628,lawyer,Japanese,法律家,wrong_sense,弁護士,low,means jurist legal scholar,W,two
 1650,cleaner,Japanese,クリーナー,wrong_sense,清掃員,med,means cleaning device,W,two
 1664,optician,Japanese,眼鏡学者,likely_wrong,眼鏡技師,med,odd coinage eyeglass-scholar,W,two
 1680,surface,Japanese,水面,wrong_sense,表面,med,means water surface specifically,W,two
@@ -1017,6 +1253,19 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 1202,bucket,Korean,버킷,likely_wrong,양동이,med,English loan; native 양동이,N,two
 1212,spindle,Korean,축,likely_wrong,방추,med,= axis/shaft,W,two
 1300,torch,Korean,토치,likely_wrong,횃불,med,English loan; native 횃불,W,two
+1357,network,Korean,회로망,wrong_sense,네트워크,low,circuit-network sense,W,two
+1381,rhythm,Korean,율,likely_wrong,리듬,low,clipped odd form,W,two
+1402,whistle,Korean,휘파람,wrong_sense,호루라기,med,means whistling with lips,N,two
+1465,god,Korean,하나님,wrong_sense,신,med,Christian God specifically,W,two
+1484,view,Korean,보다,wrong_pos,견해,med,verb to see,W,two
+1536,finance,Korean,재원,wrong_sense,금융,med,means financial resources,W,two
+1544,justice,Korean,정당성,wrong_sense,정의,med,means legitimacy,W,two
+1547,memory,Korean,메모리,wrong_sense,기억,med,means computer memory,N,two
+1553,town,Korean,도시,wrong_sense,읍,low,means city,W,two
+1576,barn,Korean,외양간,wrong_sense,헛간,low,means cowshed,W,two
+1632,programmer,Korean,프로그램 제작자,phrase,프로그래머,low,program maker descriptive,W,two
+1641,farmer,Korean,농장주,wrong_sense,농부,low,means farm owner,W,two
+1644,butcher,Korean,푸줏간,wrong_sense,정육점 주인,med,means butcher shop,W,two
 1667,bodyguard,Korean,친위대,wrong_sense,경호원,med,means royal guard unit,W,two
 1690,time,Korean,시각,wrong_sense,시간,med,means point in time/moment,N,two
 1692,space,Korean,우주,wrong_sense,공간,med,means universe/outer space,N,two
@@ -1041,10 +1290,14 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 1180,arrow,Russian,стрелка,wrong_sense,стрела,med,= pointer/small arrow,N,two
 1232,yard,Russian,площадка,likely_wrong,двор,med,= playground/site,W,two
 1349,lamp,Russian,фонарь,likely_wrong,лампа,med,= lantern/flashlight,W,two
+1484,view,Russian,посмотреть,wrong_pos,взгляд,med,verb to look,W,two
 1707,structure,Russian,состав,wrong_sense,структура,med,means composition/roster,W,two
 686,oriole,Spanish,oriol,untranslated,oropéndola,med,near-transliteration,W,two
 967,horn,Spanish,bocina,wrong_sense,cuerno,med,means car horn/klaxon,N,two
 1279,ship,Spanish,embarcacion,likely_wrong,barco,low,= vessel (generic),W,two
+1452,amount,Spanish,monto,wrong_sense,cantidad,low,means monetary total,N,two
+1467,illusion,Spanish,espejismo,wrong_sense,ilusión,low,means mirage,W,two
+1486,bias,Spanish,inclinación,wrong_sense,sesgo,low,means inclination,W,two
 1679,loop,Spanish,círculo,wrong_sense,bucle,med,means circle,N,two
 1722,momentum,Spanish,impulso,wrong_sense,cantidad de movimiento,low,means impulse/impetus,W,two
 1736,meteor,Spanish,meteorito,wrong_sense,meteoro,low,means meteorite,W,two
@@ -1097,6 +1350,33 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 1308,thread,Swahili,thread,untranslated,uzi,med,English left as-is,W,two
 1337,frame,Swahili,sura,wrong_sense,fremu,med,= chapter/appearance/face,W,two
 1346,ruler,Swahili,mtawala,wrong_sense,rula,med,= ruler/governor (person),W,two
+1356,program,Swahili,mpango,wrong_sense,programu,med,means plan,W,two
+1361,vacuum cleaner,Swahili,safi ya utupu,phrase,kisafishaji,med,calque not a lexeme,W,two
+1363,kettle,Swahili,kettle,untranslated,birika,med,English left as-is,W,two
+1381,rhythm,Swahili,rhythm,untranslated,mdundo,med,English left as-is,W,two
+1382,rhyme,Swahili,wimbo,wrong_sense,kina,low,means song,W,two
+1399,organ,Swahili,chombo,wrong_sense,kinanda,low,means vessel tool,W,two
+1415,sock,Swahili,sock,untranslated,soksi,low,English left as-is,W,two
+1417,coat,Swahili,kanzu,wrong_sense,koti,low,means kanzu robe,W,two
+1437,race,Swahili,taifa,wrong_sense,rangi,low,means nation,W,two
+1446,stripe,Swahili,mstari,wrong_sense,mstari wa rangi,low,means line,W,two
+1451,rule,Swahili,sheria,wrong_sense,kanuni,low,means law,W,two
+1463,order,Swahili,agizo,wrong_sense,utaratibu,med,means directive,W,two
+1474,fairy,Swahili,faili,garbage,,low,means file,W,two
+1478,ghost,Swahili,ghost,untranslated,mzimu,low,English left as-is,W,two
+1554,building,Swahili,ujenzi,wrong_sense,jengo,med,means construction act,W,two
+1562,palace,Swahili,ikulu,wrong_sense,kasri,low,means State House,W,two
+1566,dome,Swahili,dome,untranslated,kuba,low,English left as-is,W,two
+1580,skyscraper,Swahili,skyscraper,untranslated,,low,English left as-is,W,two
+1593,park,Swahili,hifadhi,wrong_sense,bustani,low,means reserve,W,two
+1599,stage,Swahili,hatua,wrong_sense,jukwaa,med,means step phase,W,two
+1601,character,Swahili,tabia,wrong_sense,mhusika,med,means behavior nature,W,two
+1603,script,Swahili,maandishi,wrong_sense,mswada,low,means writings text,W,two
+1616,prince,Swahili,prince,untranslated,mwana wa mfalme,low,English left as-is,W,two
+1617,princess,Swahili,princess,untranslated,binti mfalme,low,English left as-is,W,two
+1623,architect,Swahili,mbunifu,wrong_sense,mbunifu majengo,low,means designer,W,two
+1639,librarian,Swahili,maktaba,wrong_sense,mkutubi,med,means library,W,two
+1649,mechanic,Swahili,mechanic,untranslated,mekanika,low,English left as-is,W,two
 1661,tailor,Swahili,tailor,untranslated,mshonaji,med,English left as-is,W,two
 1672,actor,Swahili,mtaalam,wrong_sense,mwigizaji,med,means expert/specialist,W,two
 1677,point,Swahili,hatua,wrong_sense,nukta,med,means step/stage,W,two
@@ -1130,6 +1410,12 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 1254,balloon,Thai,บอลลูน,likely_wrong,ลูกโป่ง,med,English loan; native ลูกโป่ง,W,two
 1292,quilt,Thai,ผ้าห่ม,likely_wrong,ผ้านวม,med,= blanket,W,two
 1308,thread,Thai,เกลียว,wrong_sense,ด้าย,med,= screw thread/spiral,W,two
+1375,instrument,Thai,อุปกรณ์,wrong_sense,เครื่องดนตรี,med,means equipment,W,two
+1472,angel,Thai,นางฟ้า,wrong_sense,ทูตสวรรค์,low,means fairy,W,two
+1498,paradox,Thai,ความขัดแย้ง,wrong_sense,ปฏิทรรศน์,low,means contradiction,W,two
+1517,trace,Thai,ติดตาม,wrong_pos,ร่องรอย,med,verb to follow,W,two
+1598,theater,Thai,โรงภาพยนตร์,wrong_sense,โรงละคร,med,means cinema,W,two
+1603,script,Thai,สคริปต์,untranslated,บทภาพยนตร์,low,English script borrowing,W,two
 1650,cleaner,Thai,เครื่องทำความสะอาด,wrong_sense,พนักงานทำความสะอาด,med,means cleaning machine,W,two
 1696,volume,Thai,ปริมาณ,wrong_sense,ปริมาตร,med,means quantity/amount,W,two
 1708,displacement,Thai,การกำจัด,wrong_sense,การกระจัด,med,means removal/elimination,W,two
@@ -1142,6 +1428,16 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 1213,shuttle,Turkish,servis aracı,wrong_sense,mekik,med,= service vehicle,W,two
 1262,building block,Turkish,yapıtaşı,likely_wrong,oyuncak küp,med,= cornerstone (figurative),W,two
 1344,schedule,Turkish,takvim,likely_wrong,program,med,= calendar,W,two
+1367,chip,Turkish,yonga,wrong_sense,çip,low,means wood chip,W,two
+1369,keyboard,Turkish,tuş takımı,wrong_sense,klavye,low,means keypad,W,two
+1387,blues,Turkish,mavimsi,wrong_sense,blüz,med,means bluish color,W,two
+1402,whistle,Turkish,ıslık,wrong_sense,düdük,low,means whistling sound,N,two
+1447,grid,Turkish,kafes,wrong_sense,ızgara,low,means cage lattice,W,two
+1448,spot,Turkish,nokta,wrong_sense,benek,low,means dot point,W,two
+1459,sign,Turkish,imza,wrong_sense,işaret,med,means signature,N,two
+1519,case,Turkish,dava,wrong_sense,durum,med,means lawsuit,N,two
+1581,gym,Turkish,jimnastik,wrong_sense,spor salonu,med,means gymnastics,W,two
+1600,audience,Turkish,kitle,wrong_sense,seyirci,low,means mass crowd,W,two
 1706,burden,Turkish,sorumluluk,wrong_sense,yük,med,means responsibility,N,two
 1722,momentum,Turkish,itme,wrong_sense,momentum,med,means push/thrust,W,two
 1759,must,Turkish,mutlak,wrong_sense,-meli,med,means absolute (adjective),W,two
@@ -1170,6 +1466,14 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 1237,study,Vietnamese,nghiên cứu,wrong_sense,phòng làm việc,med,= research,W,two
 1292,quilt,Vietnamese,may chăn,wrong_pos,chăn bông,med,"= ""to sew a blanket""",W,two
 1349,lamp,Vietnamese,nguồn sáng,wrong_sense,đèn,med,"= ""light source""",W,two
+1373,microphone,Vietnamese,cái mic cờ rô,garbage,micrô,low,garbled transliteration,W,two
+1442,sequence,Vietnamese,sự liên tiếp,wrong_sense,trình tự,low,means consecutiveness,W,two
+1465,god,Vietnamese,chúa,wrong_sense,thần,low,means Lord Christian,W,two
+1479,myth,Vietnamese,chuyện hoang đường,phrase,thần thoại,low,descriptive phrase,W,two
+1487,effort,Vietnamese,cố gắng,wrong_pos,nỗ lực,low,verb to try,W,two
+1576,barn,Vietnamese,barn,untranslated,nhà kho,low,English left as-is,W,two
+1582,factory,Vietnamese,xưởng sản xuất,wrong_sense,nhà máy,low,means production workshop,W,two
+1649,mechanic,Vietnamese,công nhân cơ khí,wrong_sense,thợ máy,low,means machinist,W,two
 1650,cleaner,Vietnamese,sạch hơn,wrong_pos,,med,comparative adjective cleaner,W,two
 1687,lump,Vietnamese,cục bướu,wrong_sense,cục,med,means tumor/growth,W,two
 1736,meteor,Vietnamese,thiên thạch,wrong_sense,sao băng,med,means meteorite,W,two
@@ -1203,21 +1507,17 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 1093,plain,Welsh,plas,wrong_sense,gwastadedd,low,plas = mansion,W,two
 1300,torch,Welsh,fflachlampau,wrong_sense,ffagl,low,= flashlights,W,two
 1313,net,Welsh,we,wrong_sense,rhwyd,low,= web,W,two
+1352,telephone,Welsh,alwa ',garbage,ffôn,low,not a word,W,two
+1367,chip,Welsh,naddu,wrong_pos,,low,means to whittle,W,two
+1580,skyscraper,Welsh,skyscraper,untranslated,,low,English left,W,two
+1595,office,Welsh,swyddi,wrong_sense,swyddfa,low,means jobs plural,W,two
+1627,judge,Welsh,barnest,wrong_pos,barnwr,low,verb-ish form,W,two
 1703,distance,Welsh,bellaf,wrong_pos,pellter,low,means furthest (superlative); Welsh,N,two
 1763,on,Welsh,ymlaen,wrong_sense,ar,med,means onward/forward,W,two
 1772,backwards,Welsh,tuag,likely_wrong,am yn ôl,low,means toward; Welsh,N,two
 1809,just,Welsh,gyfiawn,wrong_sense,newydd,med,means righteous/fair,W,two
 1812,still,Welsh,llonyddaf,wrong_sense,o hyd,med,means calmest (adj),N,two
 1842,just,Welsh,gyfiawn,wrong_sense,dim ond,med,means righteous/fair,W,two
-1350,fan,Ara,المعجب,wrong_sense,مروحة,high,means admirer,-,llm_only
-1381,rhythm,Ara,على نفس المنوال,phrase,إيقاع,high,means in the same manner,-,llm_only
-1389,rock,Ara,صخر,wrong_sense,موسيقى الروك,high,means stone,-,llm_only
-1449,type,Ara,يكتب,wrong_pos,نوع,high,verb he writes,-,llm_only
-1458,contract,Ara,لمدة,garbage,عقد,high,means for a period,-,llm_only
-1557,pipe,Ara,يضخ,wrong_pos,أنبوب,high,verb he pumps,-,llm_only
-1572,cement,Ara,يبني,wrong_pos,أسمنت,high,verb he builds,-,llm_only
-1602,play,Ara,لعب,wrong_sense,مسرحية,high,means to play playing,-,llm_only
-1624,manager,Ara,إدارة,wrong_sense,مدير,high,means administration abstract,-,llm_only
 442,even,Arabic,حتى,wrong_sense,زوجي,high,means even or until adverb,-,llm_only
 676,bat,Arabic,مضرب,wrong_sense,خفاش,high,means racket/bat(sport),-,llm_only
 689,turtledove,Arabic,turtledove,untranslated,يمامة,high,English word untranslated,-,llm_only
@@ -1232,86 +1532,13 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 1237,study,Arabic,دراسة,wrong_sense,مكتب,high,= study (subject/act),-,llm_only
 1258,merry-go-around,Arabic,مرح,wrong_sense,خيل دوارة,high,"= ""fun/merriment"" only",-,llm_only
 1273,train,Arabic,يدرب,wrong_pos,قطار,high,"= ""he trains""",-,llm_only
+1389,rock,Arabic,صخر,wrong_sense,موسيقى الروك,high,means stone,-,llm_only
+1602,play,Arabic,لعب,wrong_sense,مسرحية,high,means to play playing,-,llm_only
 1659,cook,Arabic,يطبخ,wrong_pos,طباخ,high,verb he-cooks,-,llm_only
 1679,loop,Arabic,عقدة,wrong_sense,حلقة,high,means knot,-,llm_only
 1684,square,Arabic,ميدان,wrong_sense,مربع,high,means town plaza,-,llm_only
 1746,mercury,Arabic,الزئبق,wrong_sense,عطارد,high,means the metal not planet,-,llm_only
 1774,right,Arabic,هذا صحيح,wrong_sense,لليمين,high,sentence that is correct,-,llm_only
-1350,fan,Fin,kamera,wrong_sense,tuuletin,high,means camera,-,llm_only
-1351,camera,Fin,puhelin,wrong_sense,kamera,high,means telephone,-,llm_only
-1352,telephone,Fin,televisio,wrong_sense,puhelin,high,means television,-,llm_only
-1353,television,Fin,tietokone,wrong_sense,televisio,high,means computer,-,llm_only
-1355,laptop,Fin,ohjelmoida,wrong_pos,läppäri,high,means to program,-,llm_only
-1356,program,Fin,verkko,wrong_sense,ohjelma,high,means network,-,llm_only
-1357,network,Fin,jääkaappi,wrong_sense,verkko,high,means refrigerator,-,llm_only
-1358,refrigerator,Fin,ilmastointilaite,wrong_sense,jääkaappi,high,means air conditioner,-,llm_only
-1359,air conditioner,Fin,pesukone,wrong_sense,ilmastointilaite,high,means washing machine,-,llm_only
-1360,washing machine,Fin,imuri,wrong_sense,pesukone,high,means vacuum cleaner,-,llm_only
-1361,vacuum cleaner,Fin,uuni,wrong_sense,pölynimuri,high,means oven,-,llm_only
-1362,oven,Fin,kattila,wrong_sense,uuni,high,means pot or boiler,-,llm_only
-1363,kettle,Fin,mikroaaltouuni,wrong_sense,vedenkeitin,high,means microwave oven,-,llm_only
-1364,microwave,Fin,partaveitsi,wrong_sense,mikroaaltouuni,high,means razor,-,llm_only
-1365,razor,Fin,radio,wrong_sense,partakone,high,means radio,-,llm_only
-1366,radio,Fin,seulonta,wrong_sense,radio,high,means screening,-,llm_only
-1368,screen,Fin,näppäimistö,wrong_sense,näyttö,high,means keyboard,-,llm_only
-1369,keyboard,Fin,skanneri,wrong_sense,näppäimistö,high,means scanner,-,llm_only
-1370,scanner,Fin,tulostin,wrong_sense,skanneri,high,means printer,-,llm_only
-1371,printer,Fin,kuuloke,wrong_sense,tulostin,high,means earphone,-,llm_only
-1372,earphone,Fin,mikrofoni,wrong_sense,kuulokkeet,high,means microphone,-,llm_only
-1373,microphone,Fin,kaiutin,wrong_sense,mikrofoni,high,means loudspeaker,-,llm_only
-1374,loudspeaker,Fin,instrumentti,wrong_sense,kaiutin,high,means instrument,-,llm_only
-1375,instrument,Fin,konsertti,wrong_sense,soitin,high,means concert,-,llm_only
-1376,concert,Fin,ooppera,wrong_sense,konsertti,high,means opera,-,llm_only
-1377,opera,Fin,orkesteri,wrong_sense,ooppera,high,means orchestra,-,llm_only
-1378,orchestra,Fin,sinfonia,wrong_sense,orkesteri,high,means symphony,-,llm_only
-1379,symphony,Fin,melodia,wrong_sense,sinfonia,high,means melody,-,llm_only
-1380,melody,Fin,rytmi,wrong_sense,melodia,high,means rhythm,-,llm_only
-1381,rhythm,Fin,loppusointu,wrong_sense,rytmi,high,means end rhyme,-,llm_only
-1382,rhyme,Fin,lyrics,untranslated,riimi,high,English word left,-,llm_only
-1383,lyrics,Fin,klassinen musiikki,wrong_sense,sanoitus,high,means classical music,-,llm_only
-1384,classical music,Fin,pop-musiikki,wrong_sense,klassinen musiikki,high,means pop music,-,llm_only
-1385,pop music,Fin,jazz,wrong_sense,popmusiikki,high,means jazz,-,llm_only
-1386,jazz,Fin,blues,wrong_sense,jazz,high,means blues,-,llm_only
-1387,blues,Fin,punk,wrong_sense,blues,high,means punk,-,llm_only
-1388,punk,Fin,rock,wrong_sense,punk,high,means rock,-,llm_only
-1389,rock,Fin,sarvi,wrong_sense,rock,high,means horn,-,llm_only
-1391,trumpet,Fin,saksofoni,wrong_sense,trumpetti,high,means saxophone,-,llm_only
-1392,saxophone,Fin,tuuba,wrong_sense,saksofoni,high,means tuba,-,llm_only
-1393,tuba,Fin,rumpu,wrong_sense,tuuba,high,means drum,-,llm_only
-1394,drum,Fin,kitara,wrong_sense,rumpu,high,means guitar,-,llm_only
-1395,guitar,Fin,sello,wrong_sense,kitara,high,means cello,-,llm_only
-1396,cello,Fin,viulu,wrong_sense,sello,high,means violin,-,llm_only
-1397,violin,Fin,piano,wrong_sense,viulu,high,means piano,-,llm_only
-1398,piano,Fin,urut,wrong_sense,piano,high,means pipe organ,-,llm_only
-1399,organ,Fin,naru,wrong_sense,urut,high,means string cord,-,llm_only
-1400,string,Fin,huilu,wrong_sense,kieli,high,means flute,-,llm_only
-1402,whistle,Fin,kello,wrong_sense,pilli,high,means bell clock,-,llm_only
-1403,bell,Fin,hattu,wrong_sense,kello,high,means hat,-,llm_only
-1404,hat,Fin,pukeutua,wrong_pos,hattu,high,verb to get dressed,-,llm_only
-1408,suit,Fin,hame,wrong_sense,puku,high,means skirt,-,llm_only
-1409,skirt,Fin,villapaita,wrong_sense,hame,high,means sweater,-,llm_only
-1412,T-shirt,Fin,housut,wrong_sense,t-paita,high,means trousers,-,llm_only
-1413,pants,Fin,kenkä,wrong_sense,housut,high,means shoe,-,llm_only
-1414,shoe,Fin,sukka,wrong_sense,kenkä,high,means sock,-,llm_only
-1415,sock,Fin,tasku-,wrong_sense,sukka,high,means pocket prefix,-,llm_only
-1416,pocket,Fin,takki,wrong_sense,tasku,high,means jacket,-,llm_only
-1417,coat,Fin,tahra,wrong_sense,takki,high,means stain,-,llm_only
-1418,stain,Fin,peli,wrong_sense,tahra,high,means game,-,llm_only
-1419,game,Fin,urheilu,wrong_sense,peli,high,means sport,-,llm_only
-1421,contest,Fin,tiimi,wrong_sense,kilpailu,high,means team,-,llm_only
-1423,team,Fin,musiikki,wrong_sense,joukkue,high,means music,-,llm_only
-1433,music,Fin,taide,wrong_sense,musiikki,high,means art,-,llm_only
-1434,art,Fin,kaupunki,wrong_sense,taide,high,means city,-,llm_only
-1458,contract,Fin,sopia,wrong_pos,sopimus,high,verb to agree,-,llm_only
-1463,order,Fin,tilaus,wrong_sense,järjestys,high,means purchase order,-,llm_only
-1542,job,Fin,job,untranslated,työ,high,English left as-is,-,llm_only
-1554,building,Fin,tuomioistuin,wrong_sense,rakennus,high,means court of law,-,llm_only
-1593,park,Fin,pysäköidä,wrong_pos,puisto,high,verb to park a car,-,llm_only
-1602,play,Fin,pelata,wrong_pos,näytelmä,high,verb to play a game,-,llm_only
-1611,port,Fin,portti,wrong_sense,satama,high,means gate,-,llm_only
-1614,king,Fin,rakennus,wrong_sense,kuningas,high,means building,-,llm_only
-1622,doctor,Fin,uhri,wrong_sense,lääkäri,high,means victim,-,llm_only
-1649,mechanic,Fin,mekaaninen,wrong_pos,mekaanikko,high,adjective mechanical,-,llm_only
 188,like,Finnish,pitää,wrong_sense,muistuttaa,high,this sense is resemble,-,llm_only
 249,train,Finnish,junaan,wrong_sense,kouluttaa,high,means into the train,-,llm_only
 441,odd,Finnish,outo,wrong_sense,pariton,high,means strange,-,llm_only
@@ -1329,16 +1556,14 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 1237,study,Finnish,opiskelu,wrong_sense,työhuone,high,= studying (activity),-,llm_only
 1258,merry-go-around,Finnish,ylhäällä oleva,garbage,karuselli,high,"= ""the one up above""",-,llm_only
 1273,train,Finnish,kouluttaa,wrong_pos,juna,high,"= ""to train/educate"" verb",-,llm_only
+1388,punk,Finnish,rock,wrong_sense,punk,high,means rock,-,llm_only
+1463,order,Finnish,tilaus,wrong_sense,järjestys,high,means purchase order,-,llm_only
+1542,job,Finnish,job,untranslated,työ,high,English left as-is,-,llm_only
+1593,park,Finnish,pysäköidä,wrong_pos,puisto,high,verb to park a car,-,llm_only
+1602,play,Finnish,pelata,wrong_pos,näytelmä,high,verb to play a game,-,llm_only
+1611,port,Finnish,portti,wrong_sense,satama,high,means gate,-,llm_only
 1746,mercury,Finnish,elohopea,wrong_sense,Merkurius,high,means the metal not planet,-,llm_only
 1758,can,Finnish,tölkki,wrong_sense,voida,high,means a tin/can container,-,llm_only
-1369,keyboard,Ger,klaviatur,wrong_sense,Tastatur,high,means piano keyboard,-,llm_only
-1389,rock,Ger,felsen,wrong_sense,Rockmusik,high,means cliff stone,-,llm_only
-1399,organ,Ger,organ,wrong_sense,Orgel,high,means body organ,-,llm_only
-1408,suit,Ger,passen,wrong_sense,Anzug,high,verb to fit,-,llm_only
-1418,stain,Ger,beflecken,wrong_pos,Fleck,high,verb to stain,-,llm_only
-1463,order,Ger,befehl,wrong_sense,Ordnung,high,means command,-,llm_only
-1555,beam,Ger,strahl,wrong_sense,Balken,high,means ray of light,-,llm_only
-1602,play,Ger,abspielen,wrong_pos,Theaterstück,high,verb to play back media,-,llm_only
 188,like,German,mögen,wrong_sense,ähneln,high,this sense is resemble,-,llm_only
 349,light,German,licht,wrong_sense,blass,high,noun illumination,-,llm_only
 351,light,German,licht,wrong_sense,leicht,high,noun illumination,-,llm_only
@@ -1359,20 +1584,18 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 1323,book,German,buchen,wrong_pos,Buch,high,"= ""to book/reserve"" verb",-,llm_only
 1335,paint,German,malen,wrong_pos,Farbe,high,"= ""to paint"" verb",-,llm_only
 1346,ruler,German,herrscher,wrong_sense,Lineal,high,= ruler/sovereign,-,llm_only
+1369,keyboard,German,klaviatur,wrong_sense,Tastatur,high,means piano keyboard,-,llm_only
+1389,rock,German,felsen,wrong_sense,Rockmusik,high,means cliff stone,-,llm_only
+1399,organ,German,organ,wrong_sense,Orgel,high,means body organ,-,llm_only
+1408,suit,German,passen,wrong_sense,Anzug,high,verb to fit,-,llm_only
+1418,stain,German,beflecken,wrong_pos,Fleck,high,verb to stain,-,llm_only
+1463,order,German,befehl,wrong_sense,Ordnung,high,means command,-,llm_only
+1555,beam,German,strahl,wrong_sense,Balken,high,means ray of light,-,llm_only
+1602,play,German,abspielen,wrong_pos,Theaterstück,high,verb to play back media,-,llm_only
 1676,center,German,center,wrong_sense,Zentrum,high,English loan; German uses Zentrum/Mitte,-,llm_only
 1680,surface,German,auftauchen,wrong_pos,Oberfläche,high,verb to surface/emerge,-,llm_only
 1681,shape,German,gestalten,wrong_pos,Form,high,verb to shape/design,-,llm_only
 1746,mercury,German,quecksilber,wrong_sense,Merkur,high,means the metal not planet,-,llm_only
-1367,chip,Gre,πατατακι,wrong_sense,τσιπ,high,means potato crisp,-,llm_only
-1370,scanner,Gre,ερευνητής,wrong_sense,σαρωτής,high,means researcher,-,llm_only
-1389,rock,Gre,βράχος,wrong_sense,ροκ,high,means boulder,-,llm_only
-1392,saxophone,Gre,σαξοφωνική,wrong_pos,σαξόφωνο,high,adjectival form,-,llm_only
-1400,string,Gre,σειρά,wrong_sense,χορδή,high,means series row,-,llm_only
-1402,whistle,Gre,σφυρίζω,wrong_pos,σφυρίχτρα,high,verb to whistle,-,llm_only
-1528,literature,Gre,βιβλιογραφία,wrong_sense,λογοτεχνία,high,means bibliography,-,llm_only
-1602,play,Gre,παίζω,wrong_pos,θεατρικό έργο,high,verb I play,-,llm_only
-1638,intern,Gre,κρατώ,wrong_sense,ασκούμενος,high,verb I hold detain,-,llm_only
-1644,butcher,Gre,σφάζω,wrong_pos,χασάπης,high,verb I slaughter,-,llm_only
 218,soak,Greek,να απολαύσω,wrong_sense,μουλιάζω,high,means to enjoy,-,llm_only
 325,scoop,Greek,για να σέσουσω,garbage,κουταλιάζω,high,not a real word,-,llm_only
 364,fine,Greek,καλά,wrong_sense,λεπτός,high,means well or okay,-,llm_only
@@ -1387,17 +1610,15 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 1261,sandpit,Greek,άμμος,wrong_sense,αμμοδόχος,high,= sand,-,llm_only
 1274,plane,Greek,επίπεδο,wrong_sense,αεροπλάνο,high,= level/flat surface,-,llm_only
 1346,ruler,Greek,κυβερνήτης,wrong_sense,χάρακας,high,= governor/captain,-,llm_only
+1367,chip,Greek,πατατακι,wrong_sense,τσιπ,high,means potato crisp,-,llm_only
+1389,rock,Greek,βράχος,wrong_sense,ροκ,high,means boulder,-,llm_only
+1402,whistle,Greek,σφυρίζω,wrong_pos,σφυρίχτρα,high,verb to whistle,-,llm_only
+1528,literature,Greek,βιβλιογραφία,wrong_sense,λογοτεχνία,high,means bibliography,-,llm_only
+1602,play,Greek,παίζω,wrong_pos,θεατρικό έργο,high,verb I play,-,llm_only
+1638,intern,Greek,κρατώ,wrong_sense,ασκούμενος,high,verb I hold detain,-,llm_only
+1644,butcher,Greek,σφάζω,wrong_pos,χασάπης,high,verb I slaughter,-,llm_only
 1696,volume,Greek,ενταση ηχου,wrong_sense,όγκος,high,means sound loudness,-,llm_only
 1781,top,Greek,μπλουζα,wrong_sense,κορυφή,high,means blouse/top garment,-,llm_only
-1350,fan,Heb,אוהד,wrong_sense,מאוורר,high,means supporter,-,llm_only
-1389,rock,Heb,סלע,wrong_sense,רוק,high,means stone,-,llm_only
-1402,whistle,Heb,לִשְׁרוֹק,wrong_pos,משרוקית,high,verb to whistle,-,llm_only
-1463,order,Heb,להזמין,wrong_pos,סדר,high,verb to order or invite,-,llm_only
-1541,story,Heb,כַּתָבָה,wrong_sense,סיפור,high,means news article,-,llm_only
-1585,bridge,Heb,לְגַשֵׁר,wrong_pos,גשר,high,verb to bridge,-,llm_only
-1590,shop,Heb,לִקְנוֹת,wrong_pos,חנות,high,verb to buy,-,llm_only
-1602,play,Heb,לְשַׂחֵק,wrong_pos,מחזה,high,verb to act play,-,llm_only
-1627,judge,Heb,לִשְׁפּוֹט,wrong_pos,שופט,high,verb to judge,-,llm_only
 349,light,Hebrew,אור,wrong_sense,בהיר,high,noun illumination,-,llm_only
 351,light,Hebrew,אור,wrong_sense,קל,high,noun illumination,-,llm_only
 380,cool,Hebrew,מגניב,wrong_sense,קריר,high,means awesome,-,llm_only
@@ -1407,16 +1628,14 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 1209,mortar,Hebrew,מרגמה,wrong_sense,מכתש,high,= mortar (artillery),-,llm_only
 1247,nursery,Hebrew,משתלה,wrong_sense,מעון יום,high,= plant nursery,-,llm_only
 1258,merry-go-around,Hebrew,מסביב שמח,phrase,קרוסלה,high,"literal ""around happy""",-,llm_only
+1350,fan,Hebrew,אוהד,wrong_sense,מאוורר,high,means supporter,-,llm_only
+1389,rock,Hebrew,סלע,wrong_sense,רוק,high,means stone,-,llm_only
+1585,bridge,Hebrew,לְגַשֵׁר,wrong_pos,גשר,high,verb to bridge,-,llm_only
 1684,square,Hebrew,כיכר,wrong_sense,ריבוע,high,means town plaza,-,llm_only
 1696,volume,Hebrew,כרך,wrong_sense,נפח,high,means book tome,-,llm_only
 1746,mercury,Hebrew,כַּספִּית,wrong_sense,כוכב חמה,high,means the metal not planet,-,llm_only
 1758,can,Hebrew,פחית,wrong_sense,יכול,high,means a tin/can container,-,llm_only
 1839,too,Hebrew,גַם,wrong_sense,מדי,high,means also,-,llm_only
-1350,fan,Hin,प्रशंसक,wrong_sense,पंखा,high,means admirer,-,llm_only
-1389,rock,Hin,चट्टान,wrong_sense,रॉक,high,means rock stone,-,llm_only
-1432,entertainment,Hin,entertainment,untranslated,मनोरंजन,high,English left as-is,-,llm_only
-1602,play,Hin,खेल,wrong_sense,नाटक,high,means game sport,-,llm_only
-1608,prison,Hin,थाना,wrong_sense,जेल,high,means police station,-,llm_only
 302,lead,Hindi,सीसे,wrong_sense,नेतृत्व करना,high,means lead the metal,-,llm_only
 380,cool,Hindi,कूल,untranslated,ठंडा,high,transliteration of English cool,-,llm_only
 508,sane,Hindi,गुरूजी,garbage,समझदार,high,means guru or teacher,-,llm_only
@@ -1437,36 +1656,12 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 1258,merry-go-around,Hindi,मेररी आस पास जाओ,phrase,घूमने वाला झूला,high,"literal ""merry go around"" imperative",-,llm_only
 1261,sandpit,Hindi,रेत की खान,wrong_sense,रेत का गड्ढा,high,= sand mine,-,llm_only
 1346,ruler,Hindi,शासक,wrong_sense,फुटपट्टी,high,= ruler/sovereign (person),-,llm_only
+1350,fan,Hindi,प्रशंसक,wrong_sense,पंखा,high,means admirer,-,llm_only
+1389,rock,Hindi,चट्टान,wrong_sense,रॉक,high,means rock stone,-,llm_only
+1602,play,Hindi,खेल,wrong_sense,नाटक,high,means game sport,-,llm_only
 1672,actor,Hindi,कर्ता,wrong_sense,अभिनेता,high,means doer/grammatical agent,-,llm_only
 1724,atom,Hindi,अणु,wrong_sense,परमाणु,high,means molecule,-,llm_only
 1746,mercury,Hindi,पारा,wrong_sense,बुध,high,means the metal not planet,-,llm_only
-1354,computer,Hun,computer,untranslated,számítógép,high,English left as-is,-,llm_only
-1357,network,Hun,network,untranslated,hálózat,high,English left as-is,-,llm_only
-1379,symphony,Hun,szimfonikus,wrong_pos,szimfónia,high,adjective symphonic,-,llm_only
-1380,melody,Hun,melody,untranslated,dallam,high,English left as-is,-,llm_only
-1390,horn,Hun,horn,untranslated,kürt,high,English left as-is,-,llm_only
-1399,organ,Hun,szerv,wrong_sense,orgona,high,means body organ,-,llm_only
-1400,string,Hun,string,untranslated,húr,high,English left as-is,-,llm_only
-1419,game,Hun,meccs,wrong_sense,játék,high,means sports match,-,llm_only
-1423,team,Hun,team,untranslated,csapat,high,English left as-is,-,llm_only
-1434,art,Hun,art,untranslated,művészet,high,English left as-is,-,llm_only
-1437,race,Hun,verseny,wrong_sense,faj,high,means competition,-,llm_only
-1463,order,Hun,parancs,wrong_sense,rend,high,means command,-,llm_only
-1524,system,Hun,system,untranslated,rendszer,high,English left as-is,-,llm_only
-1535,economy,Hun,gazdaságos,wrong_pos,gazdaság,high,adjective economical,-,llm_only
-1557,pipe,Hun,pipa,wrong_sense,cső,high,means smoking pipe,-,llm_only
-1562,palace,Hun,palace,untranslated,palota,high,English left as-is,-,llm_only
-1564,fort,Hun,fort,untranslated,erőd,high,English left as-is,-,llm_only
-1567,arch,Hun,arch,untranslated,boltív,high,English left as-is,-,llm_only
-1571,brick,Hun,brick,untranslated,tégla,high,English left as-is,-,llm_only
-1585,bridge,Hun,bridge,untranslated,híd,high,English left as-is,-,llm_only
-1589,market,Hun,market,untranslated,piac,high,English left as-is,-,llm_only
-1590,shop,Hun,vásárlás,wrong_pos,bolt,high,means shopping activity,-,llm_only
-1602,play,Hun,játssz,wrong_pos,színdarab,high,imperative verb play,-,llm_only
-1605,temple,Hun,temple,untranslated,templom,high,English left as-is,-,llm_only
-1607,court,Hun,számvevőszék,wrong_sense,bíróság,high,means Court of Audit,-,llm_only
-1614,king,Hun,kinga,garbage,király,high,a female given name,-,llm_only
-1616,prince,Hun,prince,untranslated,herceg,high,English left as-is,-,llm_only
 68,spit,Hungarian,nyárs,wrong_sense,köpni,high,means skewer/roasting spit,-,llm_only
 175,record,Hungarian,lemez,wrong_sense,rögzíteni,high,means vinyl disc/record,-,llm_only
 179,bark,Hungarian,kéreg,wrong_sense,ugatni,high,means tree bark,-,llm_only
@@ -1496,17 +1691,13 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 1258,merry-go-around,Hungarian,körbekerült,garbage,körhinta,high,"= ""went around"" past-tense verb",-,llm_only
 1321,letter,Hungarian,levele,wrong_sense,betű,high,"= ""his/her letter (mail)""; anchor is alphabet letter",-,llm_only
 1346,ruler,Hungarian,uralkodó,wrong_sense,vonalzó,high,= ruler/monarch,-,llm_only
+1399,organ,Hungarian,szerv,wrong_sense,orgona,high,means body organ,-,llm_only
+1437,race,Hungarian,verseny,wrong_sense,faj,high,means competition,-,llm_only
+1463,order,Hungarian,parancs,wrong_sense,rend,high,means command,-,llm_only
+1535,economy,Hungarian,gazdaságos,wrong_pos,gazdaság,high,adjective economical,-,llm_only
 1659,cook,Hungarian,főzés,wrong_pos,szakács,high,gerund cooking,-,llm_only
 1694,matter,Hungarian,számít,wrong_sense,anyag,high,verb it-matters/to-count,-,llm_only
 1746,mercury,Hungarian,higany,wrong_sense,Merkúr,high,means the metal not planet,-,llm_only
-1350,fan,Ind,penggemar,wrong_sense,kipas angin,high,means admirer,-,llm_only
-1389,rock,Ind,batu,wrong_sense,musik rok,high,means stone,-,llm_only
-1463,order,Ind,memesan,wrong_pos,ketertiban,high,verb to order buy,-,llm_only
-1559,elevator,Ind,tangga berjalan,wrong_sense,lift,high,means escalator,-,llm_only
-1570,cross,Ind,persimpangan,wrong_sense,salib,high,means intersection,-,llm_only
-1585,bridge,Ind,menjembatani,wrong_pos,jembatan,high,verb to bridge,-,llm_only
-1594,hospital,Ind,rsud,garbage,rumah sakit,high,acronym not a word,-,llm_only
-1602,play,Ind,bermain,wrong_pos,sandiwara,high,verb to play,-,llm_only
 600,man,Indonesian,manusia,wrong_sense,laki-laki,high,"means human, not man",-,llm_only
 650,mouse,Indonesian,mouse,untranslated,tikus,high,English word untranslated,-,llm_only
 715,seal,Indonesian,segel,wrong_sense,anjing laut,high,means stamp/seal,-,llm_only
@@ -1516,17 +1707,13 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 1004,guts,Indonesian,nyali,wrong_sense,jeroan,high,means nerve/courage,-,llm_only
 1258,merry-go-around,Indonesian,merry-go-around,untranslated,komidi putar,high,English left as-is,-,llm_only
 1295,wardrobe,Indonesian,pakaian,wrong_sense,lemari pakaian,high,= clothing,-,llm_only
+1350,fan,Indonesian,penggemar,wrong_sense,kipas angin,high,means admirer,-,llm_only
+1389,rock,Indonesian,batu,wrong_sense,musik rok,high,means stone,-,llm_only
+1463,order,Indonesian,memesan,wrong_pos,ketertiban,high,verb to order buy,-,llm_only
+1585,bridge,Indonesian,menjembatani,wrong_pos,jembatan,high,verb to bridge,-,llm_only
+1602,play,Indonesian,bermain,wrong_pos,sandiwara,high,verb to play,-,llm_only
 1746,mercury,Indonesian,air raksa,wrong_sense,Merkurius,high,means the metal not planet,-,llm_only
 1839,too,Indonesian,juga,wrong_sense,terlalu,high,means also,-,llm_only
-1350,fan,Ita,fan,wrong_sense,ventilatore,high,English admirer sense,-,llm_only
-1367,chip,Ita,patata fritta,wrong_sense,chip,high,means french fry,-,llm_only
-1389,rock,Ita,roccia,wrong_sense,rock,high,means stone,-,llm_only
-1394,drum,Ita,tamburellare,wrong_pos,tamburo,high,verb to drum,-,llm_only
-1407,dress,Ita,vestire,wrong_pos,vestito,high,verb to dress,-,llm_only
-1458,contract,Ita,contrarre,wrong_pos,contratto,high,verb to contract,-,llm_only
-1519,case,Ita,astuccio,wrong_sense,caso,high,means pencil case,-,llm_only
-1602,play,Ita,giocare a,wrong_pos,opera teatrale,high,verb to play a game,-,llm_only
-1611,port,Ita,porta,wrong_sense,porto,high,means door,-,llm_only
 188,like,Italian,piacere,wrong_sense,somigliare,high,this sense is resemble,-,llm_only
 249,train,Italian,al treno,wrong_sense,allenare,high,means to the train,-,llm_only
 364,fine,Italian,va bene,wrong_sense,fine,high,means okay,-,llm_only
@@ -1538,13 +1725,13 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 1156,rubber,Italian,gomma da cancellare,wrong_sense,gomma,high,= eraser,-,llm_only
 1237,study,Italian,studia,wrong_pos,studio,high,"= ""he/she studies"" verb",-,llm_only
 1335,paint,Italian,dipingere,wrong_pos,vernice,high,"= ""to paint"" verb",-,llm_only
+1389,rock,Italian,roccia,wrong_sense,rock,high,means stone,-,llm_only
+1407,dress,Italian,vestire,wrong_pos,vestito,high,verb to dress,-,llm_only
+1458,contract,Italian,contrarre,wrong_pos,contratto,high,verb to contract,-,llm_only
+1602,play,Italian,giocare a,wrong_pos,opera teatrale,high,verb to play a game,-,llm_only
 1659,cook,Italian,cucinare,wrong_pos,cuoco,high,infinitive to cook,-,llm_only
 1782,bottom,Italian,metter il fondo a,phrase,fondo,high,verb phrase to put a bottom on,-,llm_only
 1839,too,Italian,pure,wrong_sense,troppo,high,means also/as well,-,llm_only
-1389,rock,Jap,石,wrong_sense,ロック,high,means stone,-,llm_only
-1399,organ,Jap,器官,wrong_sense,オルガン,high,means body organ,-,llm_only
-1463,order,Jap,注文,wrong_sense,秩序,high,means purchase order,-,llm_only
-1602,play,Jap,演奏する,wrong_pos,戯曲,high,verb to perform music,-,llm_only
 676,bat,Japanese,バット,wrong_sense,コウモリ,high,means bat (sports),-,llm_only
 729,germ,Japanese,胚芽,wrong_sense,細菌,high,means seed germ/embryo bud,-,llm_only
 733,fly,Japanese,飛ぶ,wrong_pos,ハエ,high,means to fly (verb),-,llm_only
@@ -1561,19 +1748,15 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 1237,study,Japanese,勉強,wrong_sense,書斎,high,= studying (activity),-,llm_only
 1258,merry-go-around,Japanese,メリーゴーアラウンド,garbage,回転木馬,high,transliterates the misspelled headword,-,llm_only
 1322,paper,Japanese,論文,wrong_sense,紙,high,= academic paper/thesis,-,llm_only
+1389,rock,Japanese,石,wrong_sense,ロック,high,means stone,-,llm_only
+1399,organ,Japanese,器官,wrong_sense,オルガン,high,means body organ,-,llm_only
+1463,order,Japanese,注文,wrong_sense,秩序,high,means purchase order,-,llm_only
 1659,cook,Japanese,料理,wrong_sense,料理人,high,means cooking/cuisine not person,-,llm_only
 1662,cashier,Japanese,レジ,wrong_sense,レジ係,high,means cash register,-,llm_only
 1696,volume,Japanese,音量,wrong_sense,体積,high,means sound loudness,-,llm_only
 1720,impulse,Japanese,衝動,wrong_sense,力積,high,means psychological urge,-,llm_only
 1721,pressure,Japanese,プレッシャー,wrong_sense,圧力,high,means psychological pressure,-,llm_only
 1734,planet,Japanese,星,wrong_sense,惑星,high,means star,-,llm_only
-1389,rock,Kor,바위,wrong_sense,록,high,means boulder,-,llm_only
-1424,exercise,Kor,행사,wrong_sense,운동,high,means event ceremony,-,llm_only
-1463,order,Kor,주문하다,wrong_pos,질서,high,verb to order buy,-,llm_only
-1599,stage,Kor,단계,wrong_sense,무대,high,means step phase,-,llm_only
-1602,play,Kor,놀다,wrong_pos,희곡,high,verb to play have fun,-,llm_only
-1622,doctor,Kor,박사님,wrong_sense,의사,high,means PhD honorific,-,llm_only
-1637,prosecutor,Kor,수행자,wrong_sense,검사,high,means performer practitioner,-,llm_only
 632,parents-in-law,Korean,며느리,wrong_sense,사돈,high,means daughter-in-law,-,llm_only
 752,cricket,Korean,크리켓,wrong_sense,귀뚜라미,high,means cricket the sport,-,llm_only
 766,orange,Korean,주황색,wrong_sense,오렌지,high,means orange the colour,-,llm_only
@@ -1583,23 +1766,13 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 1237,study,Korean,공부하다,wrong_pos,서재,high,"= ""to study"" verb",-,llm_only
 1252,bar,Korean,술집,wrong_sense,막대,high,= pub/tavern,-,llm_only
 1258,merry-go-around,Korean,메리-거주지,garbage,회전목마,high,"= ""merry-residence""",-,llm_only
+1389,rock,Korean,바위,wrong_sense,록,high,means boulder,-,llm_only
+1463,order,Korean,주문하다,wrong_pos,질서,high,verb to order buy,-,llm_only
+1599,stage,Korean,단계,wrong_sense,무대,high,means step phase,-,llm_only
 1659,cook,Korean,요리하다,wrong_pos,요리사,high,verb to cook,-,llm_only
 1677,point,Korean,가리키다,wrong_pos,점,high,verb to point,-,llm_only
 1746,mercury,Korean,수은,wrong_sense,수성,high,means the metal not planet,-,llm_only
 1839,too,Korean,도,wrong_sense,너무,high,means also (particle),-,llm_only
-1354,computer,Rus,компьютерный,wrong_pos,компьютер,high,adjective,-,llm_only
-1407,dress,Rus,одеваться,wrong_pos,платье,high,verb to get dressed,-,llm_only
-1408,suit,Rus,подходить,wrong_sense,костюм,high,verb to suit or fit,-,llm_only
-1459,sign,Rus,подписать,wrong_pos,знак,high,verb to sign,-,llm_only
-1463,order,Rus,заказ,wrong_sense,порядок,high,means purchase order,-,llm_only
-1474,fairy,Rus,сказочный,wrong_pos,фея,high,adjective fairy-tale,-,llm_only
-1476,dwarf,Rus,карликовая,wrong_pos,гном,high,adjective dwarf feminine,-,llm_only
-1547,memory,Rus,объем памяти,phrase,память,high,means memory capacity computer,-,llm_only
-1555,beam,Rus,луч,wrong_sense,балка,high,means ray of light,-,llm_only
-1567,arch,Rus,архи,garbage,арка,high,prefix fragment,-,llm_only
-1602,play,Rus,играть в,wrong_pos,пьеса,high,verb to play a game,-,llm_only
-1607,court,Rus,корт,wrong_sense,суд,high,means tennis court,-,llm_only
-1627,judge,Rus,судить,wrong_pos,судья,high,verb to judge,-,llm_only
 349,light,Russian,свет,wrong_sense,бледный,high,noun illumination,-,llm_only
 351,light,Russian,свет,wrong_sense,лёгкий,high,noun illumination,-,llm_only
 380,cool,Russian,круто,wrong_sense,прохладный,high,means awesome,-,llm_only
@@ -1627,20 +1800,18 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 1273,train,Russian,тренироваться,wrong_pos,поезд,high,"= ""to train/exercise"" verb",-,llm_only
 1332,stamp,Russian,печать,wrong_sense,марка,high,= seal/rubber stamp,-,llm_only
 1335,paint,Russian,покрасить,wrong_pos,краска,high,"= ""to paint"" verb",-,llm_only
+1354,computer,Russian,компьютерный,wrong_pos,компьютер,high,adjective,-,llm_only
+1407,dress,Russian,одеваться,wrong_pos,платье,high,verb to get dressed,-,llm_only
+1408,suit,Russian,подходить,wrong_sense,костюм,high,verb to suit or fit,-,llm_only
+1463,order,Russian,заказ,wrong_sense,порядок,high,means purchase order,-,llm_only
+1476,dwarf,Russian,карликовая,wrong_pos,гном,high,adjective dwarf feminine,-,llm_only
+1555,beam,Russian,луч,wrong_sense,балка,high,means ray of light,-,llm_only
+1602,play,Russian,играть в,wrong_pos,пьеса,high,verb to play a game,-,llm_only
+1607,court,Russian,корт,wrong_sense,суд,high,means tennis court,-,llm_only
+1627,judge,Russian,судить,wrong_pos,судья,high,verb to judge,-,llm_only
 1650,cleaner,Russian,очиститель,wrong_sense,уборщик,high,means purifier/cleaning agent,-,llm_only
 1659,cook,Russian,готовить пищу,phrase,повар,high,verb phrase to cook food,-,llm_only
 1684,square,Russian,площадь,wrong_sense,квадрат,high,means area/town square,-,llm_only
-1389,rock,Spa,roca,wrong_sense,rock,high,means stone,-,llm_only
-1392,saxophone,Spa,sajrofo,garbage,saxofón,high,garbled,-,llm_only
-1402,whistle,Spa,silbar,wrong_pos,silbato,high,verb to whistle,-,llm_only
-1407,dress,Spa,vestir,wrong_pos,vestido,high,verb to dress,-,llm_only
-1426,football,Spa,fútbol americano,wrong_sense,fútbol,high,means American football,-,llm_only
-1523,wealth,Spa,poder,wrong_sense,riqueza,high,means power,-,llm_only
-1555,beam,Spa,haz,wrong_sense,viga,high,means beam of light,-,llm_only
-1566,dome,Spa,hazme,garbage,cúpula,high,means do to me verb,-,llm_only
-1581,gym,Spa,gimnasia,wrong_sense,gimnasio,high,means gymnastics sport,-,llm_only
-1599,stage,Spa,etapa,wrong_sense,escenario,high,means phase of a process,-,llm_only
-1602,play,Spa,tocar,wrong_pos,obra de teatro,high,verb to play touch,-,llm_only
 349,light,Spanish,luz,wrong_sense,claro,high,noun illumination,-,llm_only
 351,light,Spanish,luz,wrong_sense,ligero,high,noun illumination,-,llm_only
 364,fine,Spanish,bien,wrong_sense,fino,high,means well,-,llm_only
@@ -1659,8 +1830,12 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 1328,pen,Spanish,lápiz,wrong_sense,bolígrafo,high,= pencil,-,llm_only
 1329,brush,Spanish,cepillar,wrong_pos,cepillo,high,"= ""to brush"" verb",-,llm_only
 1346,ruler,Spanish,gobernante,wrong_sense,regla,high,= ruler/governor (person),-,llm_only
+1389,rock,Spanish,roca,wrong_sense,rock,high,means stone,-,llm_only
+1402,whistle,Spanish,silbar,wrong_pos,silbato,high,verb to whistle,-,llm_only
+1407,dress,Spanish,vestir,wrong_pos,vestido,high,verb to dress,-,llm_only
+1426,football,Spanish,fútbol americano,wrong_sense,fútbol,high,means American football,-,llm_only
+1599,stage,Spanish,etapa,wrong_sense,escenario,high,means phase of a process,-,llm_only
 1839,too,Spanish,también,wrong_sense,demasiado,high,means also (followed French),-,llm_only
-1389,rock,Swa,mwamba,wrong_sense,muziki wa rock,high,means stone,-,llm_only
 179,bark,Swahili,kwa gome,wrong_sense,kubweka,high,means with tree bark,-,llm_only
 193,swing,Swahili,kwa swing,untranslated,kupembea,high,English swing embedded,-,llm_only
 407,curious,Swahili,curious,untranslated,mdadisi,high,English left as-is,-,llm_only
@@ -1674,8 +1849,7 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 1258,merry-go-around,Swahili,merry-go-around,untranslated,mzunguko,high,English left as-is,-,llm_only
 1289,chair,Swahili,mwenyekiti,wrong_sense,kiti,high,= chairperson,-,llm_only
 1292,quilt,Swahili,mto,wrong_sense,mfarishi,high,= pillow,-,llm_only
-1389,rock,Tha,หิน,wrong_sense,ร็อก,high,means stone,-,llm_only
-1459,sign,Tha,เข้าสู่ระบบ,wrong_sense,เครื่องหมาย,high,means sign in,-,llm_only
+1389,rock,Swahili,mwamba,wrong_sense,muziki wa rock,high,means stone,-,llm_only
 812,trunk,Thai,กระโปรงหลังรถ,wrong_sense,ลำต้น,high,means car boot/trunk,-,llm_only
 843,camellia,Thai,ไฮเดรนเยีย,wrong_sense,ดอกคามีเลีย,high,means hydrangea,-,llm_only
 1004,guts,Thai,ความกล้าหาญ,wrong_sense,เครื่องใน,high,means courage,-,llm_only
@@ -1684,11 +1858,8 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 1258,merry-go-around,Thai,ความร่าเริงรอบ,phrase,ม้าหมุน,high,"literal ""cheerfulness around""",-,llm_only
 1261,sandpit,Thai,ทราย,wrong_sense,บ่อทราย,high,= sand,-,llm_only
 1262,building block,Thai,ตึก,wrong_sense,บล็อกตัวต่อ,high,= building,-,llm_only
+1389,rock,Thai,หิน,wrong_sense,ร็อก,high,means stone,-,llm_only
 1746,mercury,Thai,ปรอท,wrong_sense,ดาวพุธ,high,means the metal not planet,-,llm_only
-1389,rock,Tur,kaya,wrong_sense,rock,high,means stone,-,llm_only
-1408,suit,Tur,uygun olmak,wrong_sense,takım elbise,high,means to be suitable,-,llm_only
-1418,stain,Tur,lekelemek,wrong_pos,leke,high,verb to stain,-,llm_only
-1463,order,Tur,emir,wrong_sense,düzen,high,means command,-,llm_only
 188,like,Turkish,beğenmek,wrong_sense,benzemek,high,this sense is resemble,-,llm_only
 249,train,Turkish,trene,wrong_sense,eğitmek,high,means to the train dative,-,llm_only
 314,reap,Turkish,yaratmak için,wrong_sense,biçmek,high,means in order to create,-,llm_only
@@ -1701,14 +1872,13 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 1310,bag,Turkish,sırt çantası,wrong_sense,çanta,high,= backpack,-,llm_only
 1329,brush,Turkish,fırçalamak,wrong_pos,fırça,high,"= ""to brush"" verb",-,llm_only
 1335,paint,Turkish,boyamak,wrong_pos,boya,high,"= ""to paint/dye"" verb",-,llm_only
+1418,stain,Turkish,lekelemek,wrong_pos,leke,high,verb to stain,-,llm_only
+1463,order,Turkish,emir,wrong_sense,düzen,high,means command,-,llm_only
 1659,cook,Turkish,pişirmek,wrong_pos,aşçı,high,infinitive to cook,-,llm_only
 1684,square,Turkish,meydan,wrong_sense,kare,high,means town plaza,-,llm_only
 1696,volume,Turkish,ses,wrong_sense,hacim,high,means sound/voice,-,llm_only
 1721,pressure,Turkish,baskı yapmak,phrase,basınç,high,verb phrase to apply pressure,-,llm_only
 1748,earth,Turkish,toprak,wrong_sense,Dünya,high,means soil/ground,-,llm_only
-1389,rock,Vie,đá,wrong_sense,nhạc rock,high,means stone,-,llm_only
-1463,order,Vie,đặt hàng,wrong_sense,trật tự,high,means to place an order,-,llm_only
-1602,play,Vie,chơi,wrong_pos,vở kịch,high,verb to play,-,llm_only
 661,bear,Vietnamese,chịu,wrong_sense,con gấu,high,means to bear/endure (verb),-,llm_only
 687,thrush bird,Vietnamese,chim thrush,untranslated,chim hoét,high,English word untranslated,-,llm_only
 689,turtledove,Vietnamese,rùa,wrong_sense,chim cu gáy,high,means turtle,-,llm_only
@@ -1721,26 +1891,14 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 975,face,Vietnamese,đối mặt,wrong_pos,khuôn mặt,high,means to face/confront verb,-,llm_only
 1006,back,Vietnamese,trở lại,wrong_sense,lưng,high,means to return,-,llm_only
 1258,merry-go-around,Vietnamese,vui vẻ xung quanh,phrase,đu quay,high,"literal ""happy around""",-,llm_only
+1389,rock,Vietnamese,đá,wrong_sense,nhạc rock,high,means stone,-,llm_only
+1463,order,Vietnamese,đặt hàng,wrong_sense,trật tự,high,means to place an order,-,llm_only
+1602,play,Vietnamese,chơi,wrong_pos,vở kịch,high,verb to play,-,llm_only
 1727,ray,Vietnamese,cá đuối,wrong_sense,tia,high,means stingray (fish),-,llm_only
 1746,mercury,Vietnamese,thủy ngân,wrong_sense,Sao Thủy,high,means the metal not planet,-,llm_only
 1774,right,Vietnamese,đúng rồi,wrong_sense,bên phải,high,means that is correct,-,llm_only
 332,slanted,Welsh,slanted,untranslated,ar oleddf,high,English left as-is,-,llm_only
 1258,merry-go-around,Welsh,llawen-go-o gwmpas,garbage,ceffylau bach,high,word-for-word calque,-,llm_only
-1375,instrument,Ara,أداة,wrong_sense,آلة موسيقية,med,means tool,-,llm_only
-1388,punk,Ara,فاسق,wrong_sense,بانك,med,means immoral person,-,llm_only
-1399,organ,Ara,عضو,wrong_sense,أرغن,med,means body organ,-,llm_only
-1400,string,Ara,سلسلة,wrong_sense,وتر,med,means chain series,-,llm_only
-1410,sweater,Ara,سترة,wrong_sense,كنزة صوف,low,means jacket,-,llm_only
-1424,exercise,Ara,ممارسه الرياضه,phrase,تمرين,low,phrase practicing sport,-,llm_only
-1436,gender,Ara,جنس تذكير أو تأنيث,phrase,النوع الاجتماعي,low,grammatical-gender phrase,-,llm_only
-1463,order,Ara,طلب,wrong_sense,نظام,med,means request,-,llm_only
-1512,standard,Ara,اساسي,wrong_sense,معيار,med,means basic fundamental,-,llm_only
-1517,trace,Ara,يتعقب,wrong_pos,أثر,med,verb he tracks,-,llm_only
-1555,beam,Ara,الحزم,wrong_sense,عارضة,med,means bundle light beam,-,llm_only
-1576,barn,Ara,إسطبل,wrong_sense,حظيرة,med,means horse stable,-,llm_only
-1595,office,Ara,مكتب. مقر. مركز,likely_wrong,مكتب,low,multi-value with periods,-,llm_only
-1603,script,Ara,النصي,wrong_pos,نص,med,adjective textual,-,llm_only
-1631,professor,Ara,دكتور جامعى,phrase,أستاذ,low,university doctor descriptive,-,llm_only
 632,parents-in-law,Arabic,الآباء في القانون,phrase,الأحماء,med,calque parents in law,-,llm_only
 657,lamb,Arabic,لحم ضأن,wrong_sense,حمل,med,means mutton/lamb meat,-,llm_only
 688,swallow bird,Arabic,ابتلاع الطيور,phrase,سنونو,med,swallowing birds,-,llm_only
@@ -1749,6 +1907,12 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 1332,stamp,Arabic,ختم,wrong_sense,طابع بريدي,med,= seal/rubber stamp,-,llm_only
 1338,photograph,Arabic,تصوير,wrong_sense,صورة فوتوغرافية,med,= photography (act),-,llm_only
 1341,table,Arabic,طاولة,wrong_sense,جدول,med,furniture table; anchor is data table,-,llm_only
+1375,instrument,Arabic,أداة,wrong_sense,آلة موسيقية,med,means tool,-,llm_only
+1399,organ,Arabic,عضو,wrong_sense,أرغن,med,means body organ,-,llm_only
+1400,string,Arabic,سلسلة,wrong_sense,وتر,med,means chain series,-,llm_only
+1436,gender,Arabic,جنس تذكير أو تأنيث,phrase,النوع الاجتماعي,low,grammatical-gender phrase,-,llm_only
+1463,order,Arabic,طلب,wrong_sense,نظام,med,means request,-,llm_only
+1595,office,Arabic,مكتب. مقر. مركز,likely_wrong,مكتب,low,multi-value with periods,-,llm_only
 1650,cleaner,Arabic,منظف,wrong_sense,عامل نظافة,med,means detergent,-,llm_only
 1704,gap,Arabic,الفارق,wrong_sense,فجوة,low,means the difference,-,llm_only
 1713,magnitude,Arabic,ضخامة,wrong_sense,مقدار,low,means hugeness/bulkiness,-,llm_only
@@ -1756,23 +1920,6 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 1779,before,Arabic,قبل,wrong_sense,أمام,med,temporal not spatial,-,llm_only
 1837,almost,Arabic,بالكاد,wrong_sense,تقريبا,med,means barely/hardly,-,llm_only
 1839,too,Arabic,أيضاً,wrong_sense,أكثر من اللازم,med,means also,-,llm_only
-1354,computer,Fin,kannettava tietokone,wrong_sense,tietokone,med,means laptop,-,llm_only
-1401,flute,Fin,pilli,wrong_sense,huilu,low,means whistle pipe,-,llm_only
-1410,sweater,Fin,paita,wrong_sense,villapaita,med,means shirt,-,llm_only
-1411,shirt,Fin,t-paita,wrong_sense,paita,low,means t-shirt,-,llm_only
-1420,sport,Fin,kilpailu,wrong_sense,urheilu,med,means competition,-,llm_only
-1424,exercise,Fin,harjoittele,wrong_pos,harjoitus,low,imperative verb,-,llm_only
-1438,number,Fin,määrä,wrong_sense,numero,med,means amount quantity,-,llm_only
-1439,average,Fin,keskiverto,wrong_sense,keskiarvo,low,means mediocre person,-,llm_only
-1485,preference,Fin,etusija,wrong_sense,mieltymys,low,means priority,-,llm_only
-1491,happiness,Fin,onnea,wrong_sense,onnellisuus,low,partitive of fortune,-,llm_only
-1508,process,Fin,käsitellä asiaa,phrase,prosessi,med,phrase to handle the matter,-,llm_only
-1517,trace,Fin,jäljittää,wrong_pos,jälki,med,verb to trace,-,llm_only
-1519,case,Fin,kotelo,wrong_sense,tapaus,med,means casing box,-,llm_only
-1536,finance,Fin,rahoittaa,wrong_pos,rahoitus,med,verb to finance,-,llm_only
-1589,market,Fin,markkinoida,wrong_pos,markkinat,med,verb to market,-,llm_only
-1601,character,Fin,merkki,wrong_sense,hahmo,med,means sign letter,-,llm_only
-1610,murder,Fin,murhata,wrong_pos,murha,med,verb to murder,-,llm_only
 349,light,Finnish,kevyt,wrong_sense,vaalea,med,means light in weight,-,llm_only
 380,cool,Finnish,siistiä,wrong_sense,viileä,med,means to tidy up verb,-,llm_only
 688,swallow bird,Finnish,niellä lintu,phrase,pääsky,med,to swallow + bird,-,llm_only
@@ -1784,23 +1931,25 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 1332,stamp,Finnish,leima,likely_wrong,postimerkki,med,= postmark/rubber stamp,-,llm_only
 1336,picture,Finnish,valokuva,wrong_sense,kuva,med,= photograph,-,llm_only
 1341,table,Finnish,pöytä,wrong_sense,taulukko,med,furniture table; anchor is data table,-,llm_only
+1354,computer,Finnish,kannettava tietokone,wrong_sense,tietokone,med,means laptop,-,llm_only
+1410,sweater,Finnish,paita,wrong_sense,villapaita,med,means shirt,-,llm_only
+1411,shirt,Finnish,t-paita,wrong_sense,paita,low,means t-shirt,-,llm_only
+1420,sport,Finnish,kilpailu,wrong_sense,urheilu,med,means competition,-,llm_only
+1438,number,Finnish,määrä,wrong_sense,numero,med,means amount quantity,-,llm_only
+1508,process,Finnish,käsitellä asiaa,phrase,prosessi,med,phrase to handle the matter,-,llm_only
+1536,finance,Finnish,rahoittaa,wrong_pos,rahoitus,med,verb to finance,-,llm_only
+1589,market,Finnish,markkinoida,wrong_pos,markkinat,med,verb to market,-,llm_only
+1610,murder,Finnish,murhata,wrong_pos,murha,med,verb to murder,-,llm_only
 1661,tailor,Finnish,räätälöidä,wrong_pos,räätäli,med,verb to tailor,-,llm_only
 1722,momentum,Finnish,vauhti,wrong_sense,liikemäärä,med,means speed/pace,-,llm_only
 1779,before,Finnish,ennen,wrong_sense,edessä,med,temporal not spatial,-,llm_only
-1389,rock,Fr,rocher,wrong_sense,,low,French means boulder conflicts with Chinese,-,llm_only
-1399,organ,Fr,organe,wrong_sense,orgue,low,French means body organ conflicts,-,llm_only
-1449,type,Fr,taper,wrong_pos,type,low,French to type verb conflicts,-,llm_only
-1463,order,Fr,commande,wrong_sense,ordre,low,French purchase order conflicts,-,llm_only
-1555,beam,Fr,faisceau,wrong_sense,poutre,low,French light beam conflicts,-,llm_only
-1567,arch,Fr,architecte,wrong_sense,arc,low,French means architect conflicts,-,llm_only
 1081,land,French,atterrir,wrong_sense,terre,low,"= ""to land a plane"" verb",-,llm_only
-1411,shirt,Ger,shirt,untranslated,Hemd,med,English borrowing left,-,llm_only
-1438,number,Ger,anzahl,wrong_sense,Zahl,med,means count quantity,-,llm_only
-1452,amount,Ger,höhe,wrong_sense,Menge,low,means height sum,-,llm_only
-1517,trace,Ger,verfolgen,wrong_pos,Spur,med,verb to pursue,-,llm_only
-1558,stairs,Ger,stufen,wrong_sense,Treppe,low,means individual steps,-,llm_only
-1569,cloister,Ger,kloster,wrong_sense,Kreuzgang,low,means monastery not walkway,-,llm_only
-1638,intern,Ger,praktikum,wrong_sense,Praktikant,med,means internship not person,-,llm_only
+1389,rock,French,rocher,wrong_sense,,low,French means boulder conflicts with Chinese,-,llm_only
+1399,organ,French,organe,wrong_sense,orgue,low,French means body organ conflicts,-,llm_only
+1449,type,French,taper,wrong_pos,type,low,French to type verb conflicts,-,llm_only
+1463,order,French,commande,wrong_sense,ordre,low,French purchase order conflicts,-,llm_only
+1555,beam,French,faisceau,wrong_sense,poutre,low,French light beam conflicts,-,llm_only
+1567,arch,French,architecte,wrong_sense,arc,low,French means architect conflicts,-,llm_only
 687,thrush bird,German,tombosvogel,garbage,drossel,med,not a real word,-,llm_only
 688,swallow bird,German,vogel schlucken,phrase,schwalbe,med,to swallow a bird,-,llm_only
 961,plate,German,platte,wrong_sense,teller,med,means slab/platter,-,llm_only
@@ -1809,18 +1958,10 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 1220,home,German,heimat,likely_wrong,Zuhause,med,= homeland,-,llm_only
 1292,quilt,German,decke,likely_wrong,Steppdecke,med,= blanket/cover,-,llm_only
 1341,table,German,tisch,wrong_sense,Tabelle,med,furniture table; anchor is data table,-,llm_only
+1438,number,German,anzahl,wrong_sense,Zahl,med,means count quantity,-,llm_only
+1569,cloister,German,kloster,wrong_sense,Kreuzgang,low,means monastery not walkway,-,llm_only
 1722,momentum,German,schwung,wrong_sense,Impuls,med,means swing/figurative momentum,-,llm_only
 1742,dawn,German,dämmerung,wrong_sense,Morgendämmerung,low,alone reads as dusk,-,llm_only
-1377,opera,Gre,λυρικη σκηνη,phrase,όπερα,low,roundabout phrase,-,llm_only
-1387,blues,Gre,ακεφιά,wrong_sense,μπλουζ,med,means low spirits,-,llm_only
-1388,punk,Gre,δαδί,garbage,πανκ,med,means kindling wood,-,llm_only
-1429,badminton,Gre,παιγνίδι όμοιο με τέννις,phrase,μπάντμιντον,med,definition phrase,-,llm_only
-1446,stripe,Gre,ταινία,wrong_sense,ρίγα,med,means tape ribbon film,-,llm_only
-1463,order,Gre,σειρά,wrong_sense,τάξη,med,means series turn,-,llm_only
-1484,view,Gre,θέα,wrong_sense,άποψη,low,means visual view,-,llm_only
-1555,beam,Gre,δέσμη,wrong_sense,δοκάρι,med,means bundle light beam,-,llm_only
-1599,stage,Gre,στάδιο,wrong_sense,σκηνή,med,means stadium phase,-,llm_only
-1603,script,Gre,γραφή,wrong_sense,σενάριο,med,means writing handwriting,-,llm_only
 151,like,Greek,να αρεσει,phrase,μου αρέσει,med,subjunctive periphrasis,-,llm_only
 188,like,Greek,να αρεσει,wrong_sense,μοιάζω,med,this sense is resemble,-,llm_only
 349,light,Greek,ελαφρύ,wrong_sense,ανοιχτό,med,means light in weight,-,llm_only
@@ -1831,18 +1972,12 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 1262,building block,Greek,οικοδομικό τετράγωνο,wrong_sense,τουβλάκι,med,= city block,-,llm_only
 1332,stamp,Greek,σφραγίδα,wrong_sense,γραμματόσημο,med,= seal/rubber stamp,-,llm_only
 1341,table,Greek,τραπέζι,wrong_sense,πίνακας,med,furniture table; anchor is data table,-,llm_only
+1388,punk,Greek,δαδί,garbage,πανκ,med,means kindling wood,-,llm_only
+1463,order,Greek,σειρά,wrong_sense,τάξη,med,means series turn,-,llm_only
+1484,view,Greek,θέα,wrong_sense,άποψη,low,means visual view,-,llm_only
+1599,stage,Greek,στάδιο,wrong_sense,σκηνή,med,means stadium phase,-,llm_only
+1603,script,Greek,γραφή,wrong_sense,σενάριο,med,means writing handwriting,-,llm_only
 1779,before,Greek,πριν,wrong_sense,μπροστά από,med,temporal not spatial,-,llm_only
-1375,instrument,Heb,כלי,wrong_sense,כלי נגינה,med,means vessel or tool,-,llm_only
-1399,organ,Heb,אֵיבָר,wrong_sense,עוגב,med,means body organ limb,-,llm_only
-1442,sequence,Heb,סדר פעולות,phrase,רצף,med,means order of operations,-,llm_only
-1484,view,Heb,נוף,wrong_sense,דעה,med,means landscape,-,llm_only
-1494,coincidence,Heb,יָד הַמִקרֶה,phrase,צירוף מקרים,med,phrase hand of chance,-,llm_only
-1499,conflict,Heb,סְתִירָה,wrong_sense,עימות,med,means contradiction,-,llm_only
-1500,experiment,Heb,לְנַסוֹת,wrong_pos,ניסוי,med,verb to try,-,llm_only
-1536,finance,Heb,לְמַמֵן,wrong_pos,מימון,med,verb to finance,-,llm_only
-1555,beam,Heb,קֶרֶן,wrong_sense,קורה,med,means ray of light,-,llm_only
-1572,cement,Heb,בטון,wrong_sense,מלט,med,means concrete,-,llm_only
-1622,doctor,Heb,דוֹקטוֹר,wrong_sense,רופא,low,title not physician,-,llm_only
 688,swallow bird,Hebrew,לבלוע ציפור,phrase,סנונית,med,to swallow a bird,-,llm_only
 689,turtledove,Hebrew,צבייה,wrong_sense,תור,med,means gazelle/doe,-,llm_only
 729,germ,Hebrew,נֶבֶט,wrong_sense,חיידק,med,means sprout/seed germ,-,llm_only
@@ -1850,45 +1985,11 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 979,pupil,Hebrew,תלמיד,wrong_sense,אישון,med,means student (Ch/Ir anchor = eye pupil),-,llm_only
 1252,bar,Hebrew,בר,likely_wrong,מוט,med,= drinking bar,-,llm_only
 1332,stamp,Hebrew,חותמת,wrong_sense,בול,med,= rubber stamp/seal,-,llm_only
+1375,instrument,Hebrew,כלי,wrong_sense,כלי נגינה,med,means vessel or tool,-,llm_only
+1399,organ,Hebrew,אֵיבָר,wrong_sense,עוגב,med,means body organ limb,-,llm_only
+1484,view,Hebrew,נוף,wrong_sense,דעה,med,means landscape,-,llm_only
 1720,impulse,Hebrew,דַחַף,wrong_sense,מתקף,med,means psychological urge,-,llm_only
 1809,just,Hebrew,רַק,wrong_sense,הרגע,med,means only not temporal just,-,llm_only
-1375,instrument,Hin,यंत्र,wrong_sense,वाद्ययंत्र,med,means machine or device,-,llm_only
-1397,violin,Hin,सारंगी,wrong_sense,वायलिन,med,means sarangi,-,llm_only
-1399,organ,Hin,अंग,wrong_sense,ऑर्गन,med,means body part,-,llm_only
-1404,hat,Hin,हैट,untranslated,टोपी,low,English transliteration,-,llm_only
-1405,crown,Hin,क्राउन,untranslated,मुकुट,low,English transliteration,-,llm_only
-1422,race,Hin,रेस,untranslated,दौड़,low,English transliteration,-,llm_only
-1433,music,Hin,म्यूज़िक,untranslated,संगीत,low,English transliteration,-,llm_only
-1434,art,Hin,आर्ट,untranslated,कला,low,English transliteration,-,llm_only
-1435,sex,Hin,sex,untranslated,यौन,low,English transliteration,-,llm_only
-1437,race,Hin,रेस,wrong_sense,नस्ल,med,contest sense and translit,-,llm_only
-1446,stripe,Hin,stripe,untranslated,धारी,med,English left as-is,-,llm_only
-1463,order,Hin,अनुक्रम,wrong_sense,व्यवस्था,low,means sequence,-,llm_only
-1468,labyrinth,Hin,व्यामोह,wrong_sense,भूलभुलैया,med,means delusion,-,llm_only
-1484,view,Hin,दृश्य,wrong_sense,दृष्टिकोण,low,means scene sight,-,llm_only
-1488,problem,Hin,प्रॉब्लम,untranslated,समस्या,med,English transliteration,-,llm_only
-1492,luck,Hin,लक,untranslated,किस्मत,med,English transliteration,-,llm_only
-1499,conflict,Hin,विरोध,wrong_sense,संघर्ष,low,means opposition,-,llm_only
-1510,end,Hin,समाप्त,wrong_pos,अंत,med,means finished adjective,-,llm_only
-1517,trace,Hin,ट्रेस,untranslated,निशान,low,English transliteration,-,llm_only
-1541,story,Hin,स्टोरी,untranslated,कहानी,med,English transliteration,-,llm_only
-1542,job,Hin,जॉब,untranslated,नौकरी,med,English transliteration,-,llm_only
-1547,memory,Hin,मेमोरी,untranslated,स्मृति,med,English transliteration,-,llm_only
-1548,past,Hin,पास्ट,untranslated,अतीत,med,English transliteration,-,llm_only
-1555,beam,Hin,बीम,untranslated,शहतीर,low,English transliteration,-,llm_only
-1575,hut,Hin,हट,untranslated,झोपड़ी,med,English transliteration,-,llm_only
-1582,factory,Hin,फैक्टरी,untranslated,कारख़ाना,low,English transliteration,-,llm_only
-1593,park,Hin,पार्क,untranslated,उद्यान,low,English transliteration,-,llm_only
-1594,hospital,Hin,हॉस्पिटल,untranslated,अस्पताल,low,English transliteration,-,llm_only
-1599,stage,Hin,स्टेज,untranslated,मंच,med,English transliteration,-,llm_only
-1601,character,Hin,अक्षर,wrong_sense,पात्र,med,means letter script,-,llm_only
-1603,script,Hin,स्क्रिप्ट,untranslated,पटकथा,low,English transliteration,-,llm_only
-1614,king,Hin,किंग,untranslated,राजा,med,English transliteration,-,llm_only
-1623,architect,Hin,वास्तु,wrong_sense,वास्तुकार,med,means architecture not person,-,llm_only
-1630,teacher,Hin,टीचर,untranslated,शिक्षक,low,English transliteration,-,llm_only
-1639,librarian,Hin,लाइब्रेरियन,untranslated,ग्रंथपाल,low,English transliteration,-,llm_only
-1647,electrician,Hin,इलेक्ट्रीशियन,untranslated,बिजली मिस्त्री,low,English transliteration,-,llm_only
-1648,plumber,Hin,प्लम्बर,untranslated,नलसाज़,low,English transliteration,-,llm_only
 165,pile,Hindi,ढेर,wrong_pos,ढेर लगाना,low,noun a heap,-,llm_only
 174,travel,Hindi,सफर,wrong_pos,यात्रा करना,low,noun journey,-,llm_only
 193,swing,Hindi,झूले,wrong_pos,झूलना,low,noun swings,-,llm_only
@@ -1906,20 +2007,18 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 1197,bomb,Hindi,बमबारी,wrong_sense,बम,med,= bombing/bombardment,-,llm_only
 1216,warp,Hindi,रैप,untranslated,ताना,med,"= ""wrap"" transliteration",-,llm_only
 1257,seesaw,Hindi,झूला,likely_wrong,सीसॉ,med,= swing,-,llm_only
+1397,violin,Hindi,सारंगी,wrong_sense,वायलिन,med,means sarangi,-,llm_only
+1399,organ,Hindi,अंग,wrong_sense,ऑर्गन,med,means body part,-,llm_only
+1434,art,Hindi,आर्ट,untranslated,कला,low,English transliteration,-,llm_only
+1446,stripe,Hindi,stripe,untranslated,धारी,med,English left as-is,-,llm_only
+1463,order,Hindi,अनुक्रम,wrong_sense,व्यवस्था,low,means sequence,-,llm_only
+1484,view,Hindi,दृश्य,wrong_sense,दृष्टिकोण,low,means scene sight,-,llm_only
+1601,character,Hindi,अक्षर,wrong_sense,पात्र,med,means letter script,-,llm_only
+1623,architect,Hindi,वास्तु,wrong_sense,वास्तुकार,med,means architecture not person,-,llm_only
+1639,librarian,Hindi,लाइब्रेरियन,untranslated,ग्रंथपाल,low,English transliteration,-,llm_only
 1664,optician,Hindi,प्रकाशविज्ञानशास्री,wrong_sense,,med,means optics scientist,-,llm_only
 1727,ray,Hindi,रे,untranslated,किरण,med,transliteration of English,-,llm_only
 1779,before,Hindi,पहले,wrong_sense,के सामने,med,temporal not spatial,-,llm_only
-1350,fan,Hun,fanni,likely_wrong,ventilátor,med,not a Hungarian word,-,llm_only
-1452,amount,Hun,összeg,wrong_sense,mennyiség,med,means sum of money,-,llm_only
-1455,magazine,Hun,újság,wrong_sense,magazin,med,means newspaper,-,llm_only
-1515,detail,Hun,részletes,wrong_pos,részlet,med,adjective detailed,-,llm_only
-1523,wealth,Hun,jólét,wrong_sense,gazdagság,med,means welfare wellbeing,-,llm_only
-1536,finance,Hun,finanszírozás,wrong_sense,pénzügy,med,means financing,-,llm_only
-1539,company,Hun,század,wrong_sense,cég,med,means century or military company,-,llm_only
-1541,story,Hun,mese,wrong_sense,történet,med,means fairy tale,-,llm_only
-1566,dome,Hun,búra,wrong_sense,kupola,low,means glass cover,-,llm_only
-1587,school,Hun,suli,likely_wrong,iskola,low,slang informal,-,llm_only
-1641,farmer,Hun,farmer,wrong_sense,gazdálkodó,low,also means jeans,-,llm_only
 14,choose,Hungarian,választás,wrong_pos,választani,med,noun choice,-,llm_only
 18,touch,Hungarian,érintés,wrong_pos,érinteni,med,noun a touch,-,llm_only
 19,smell,Hungarian,illat,wrong_pos,szagolni,med,noun scent,-,llm_only
@@ -1955,16 +2054,11 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 1332,stamp,Hungarian,pecsét,wrong_sense,bélyeg,med,= seal/rubber stamp,-,llm_only
 1336,picture,Hungarian,fénykép,wrong_sense,kép,med,= photograph,-,llm_only
 1341,table,Hungarian,asztal,wrong_sense,táblázat,med,furniture table; anchor is data table,-,llm_only
+1515,detail,Hungarian,részletes,wrong_pos,részlet,med,adjective detailed,-,llm_only
 1662,cashier,Hungarian,pénztár,wrong_sense,pénztáros,med,means cash desk/till,-,llm_only
 1686,ball,Hungarian,ball,untranslated,labda,med,English left as-is (Hun ball=dance),-,llm_only
 1809,just,Hungarian,csak,wrong_sense,az imént,med,means only not temporal just,-,llm_only
 1811,yet,Hungarian,mégis,wrong_sense,még,med,means nevertheless not temporal yet,-,llm_only
-1400,string,Ind,rangkaian,wrong_sense,dawai,med,means series circuit,-,llm_only
-1446,stripe,Ind,garis,wrong_sense,belang,low,means line,-,llm_only
-1484,view,Ind,melihat,wrong_pos,pandangan,med,verb to see,-,llm_only
-1547,memory,Ind,penyimpanan,wrong_sense,ingatan,med,means storage,-,llm_only
-1560,crane,Ind,katrol,wrong_sense,derek,med,means pulley,-,llm_only
-1596,farm,Ind,tanah pertanian,wrong_sense,ladang,low,means farmland,-,llm_only
 204,rear,Indonesian,ke belakang,wrong_sense,membesarkan,med,means to the back,-,llm_only
 380,cool,Indonesian,keren,wrong_sense,sejuk,med,means cool or awesome,-,llm_only
 687,thrush bird,Indonesian,burung thrush,untranslated,burung anis,med,English word untranslated,-,llm_only
@@ -1985,41 +2079,20 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 1267,basement,Indonesian,basement,untranslated,ruang bawah tanah,med,English left as-is,-,llm_only
 1332,stamp,Indonesian,stempel,wrong_sense,perangko,med,= rubber stamp/seal,-,llm_only
 1341,table,Indonesian,meja,wrong_sense,tabel,med,furniture table; anchor is data table,-,llm_only
+1400,string,Indonesian,rangkaian,wrong_sense,dawai,med,means series circuit,-,llm_only
+1560,crane,Indonesian,katrol,wrong_sense,derek,med,means pulley,-,llm_only
 1659,cook,Indonesian,memasak,wrong_pos,juru masak,med,verb to cook,-,llm_only
 1681,shape,Indonesian,membentuk,wrong_pos,bentuk,med,verb to form/shape,-,llm_only
 1779,before,Indonesian,sebelum,wrong_sense,di depan,med,temporal not spatial,-,llm_only
-1351,camera,Ita,telecamera,wrong_sense,fotocamera,med,means video camera,-,llm_only
-1402,whistle,Ita,fischio,wrong_sense,fischietto,med,sound not object,-,llm_only
-1445,pattern,Ita,trama,wrong_sense,motivo,low,means weave plot,-,llm_only
-1459,sign,Ita,cartello,wrong_sense,segno,low,means signboard,-,llm_only
-1484,view,Ita,visualizza,wrong_pos,parere,med,verb displays,-,llm_only
-1500,experiment,Ita,sperimentare,wrong_pos,esperimento,med,verb to experiment,-,llm_only
-1601,character,Ita,carattere,wrong_sense,personaggio,med,means letter personality,-,llm_only
 351,light,Italian,chiaro,wrong_sense,leggero,med,means pale or clear,-,llm_only
 688,swallow bird,Italian,dollow bird,garbage,rondine,med,garbled,-,llm_only
 777,starfruit,Italian,starfruit,untranslated,carambola,med,English word untranslated,-,llm_only
 979,pupil,Italian,allievo,wrong_sense,pupilla,med,means student (Ch/Ir anchor = eye pupil),-,llm_only
 1262,building block,Italian,elemento costitutivo,wrong_sense,mattoncino,med,= constituent element (abstract),-,llm_only
 1341,table,Italian,tavolo,wrong_sense,tabella,med,furniture table; anchor is data table,-,llm_only
+1351,camera,Italian,telecamera,wrong_sense,fotocamera,med,means video camera,-,llm_only
+1484,view,Italian,visualizza,wrong_pos,parere,med,verb displays,-,llm_only
 1779,before,Italian,prima,wrong_sense,davanti a,med,temporal not spatial,-,llm_only
-1366,radio,Jap,無線,wrong_sense,ラジオ,med,means wireless comms,-,llm_only
-1400,string,Jap,ストリング,wrong_sense,弦,med,means text string,-,llm_only
-1418,stain,Jap,染色,wrong_sense,しみ,med,means dyeing process,-,llm_only
-1426,football,Jap,フットボール,wrong_sense,サッカー,low,soccer is サッカー,-,llm_only
-1452,amount,Jap,額,wrong_sense,量,med,means monetary sum,-,llm_only
-1458,contract,Jap,契約する,wrong_pos,契約,med,verb form,-,llm_only
-1459,sign,Jap,サイン,wrong_sense,記号,low,means autograph,-,llm_only
-1462,science,Jap,理科,wrong_sense,科学,med,means science school subject,-,llm_only
-1484,view,Jap,見る,wrong_pos,見方,med,verb to see,-,llm_only
-1492,luck,Jap,ラック,untranslated,運,med,English luck katakana,-,llm_only
-1497,theory,Jap,仮説,wrong_sense,理論,med,means hypothesis,-,llm_only
-1544,justice,Jap,正義感,wrong_sense,正義,low,means sense of justice,-,llm_only
-1547,memory,Jap,メモリー,wrong_sense,記憶,med,means computer memory,-,llm_only
-1555,beam,Jap,ビーム,wrong_sense,梁,med,means light beam,-,llm_only
-1562,palace,Jap,城,wrong_sense,宮殿,med,means castle,-,llm_only
-1577,cellar,Jap,セラー,untranslated,地下室,low,English cellar katakana,-,llm_only
-1614,king,Jap,キング,untranslated,王,low,English katakana,-,llm_only
-1628,lawyer,Jap,法律家,wrong_sense,弁護士,low,means jurist legal scholar,-,llm_only
 688,swallow bird,Japanese,鳥を飲み込みます,phrase,ツバメ,med,conjugated sentence,-,llm_only
 689,turtledove,Japanese,タートルブ,garbage,キジバト,med,garbled transliteration,-,llm_only
 737,caterpillar,Japanese,キャタピラー,wrong_sense,芋虫,med,means caterpillar track (vehicle),-,llm_only
@@ -2030,27 +2103,13 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 1232,yard,Japanese,ヤード,wrong_sense,中庭,med,= yard (unit of length),-,llm_only
 1246,dustbin,Japanese,ダストビン,likely_wrong,ごみ箱,med,English loan; native ごみ箱,-,llm_only
 1336,picture,Japanese,写真,wrong_sense,絵,med,= photograph,-,llm_only
+1366,radio,Japanese,無線,wrong_sense,ラジオ,med,means wireless comms,-,llm_only
+1426,football,Japanese,フットボール,wrong_sense,サッカー,low,soccer is サッカー,-,llm_only
+1458,contract,Japanese,契約する,wrong_pos,契約,med,verb form,-,llm_only
+1484,view,Japanese,見る,wrong_pos,見方,med,verb to see,-,llm_only
+1544,justice,Japanese,正義感,wrong_sense,正義,low,means sense of justice,-,llm_only
+1555,beam,Japanese,ビーム,wrong_sense,梁,med,means light beam,-,llm_only
 1839,too,Japanese,それも,wrong_sense,すぎる,med,means that too/also,-,llm_only
-1350,fan,Kor,팬,wrong_sense,선풍기,med,means admirer,-,llm_only
-1357,network,Kor,회로망,wrong_sense,네트워크,low,circuit-network sense,-,llm_only
-1375,instrument,Kor,기구,wrong_sense,악기,med,means apparatus,-,llm_only
-1381,rhythm,Kor,율,likely_wrong,리듬,low,clipped odd form,-,llm_only
-1402,whistle,Kor,휘파람,wrong_sense,호루라기,med,means whistling with lips,-,llm_only
-1459,sign,Kor,징후,wrong_sense,기호,med,means symptom,-,llm_only
-1465,god,Kor,하나님,wrong_sense,신,med,Christian God specifically,-,llm_only
-1484,view,Kor,보다,wrong_pos,견해,med,verb to see,-,llm_only
-1495,chance,Kor,가능성,wrong_sense,기회,low,means possibility,-,llm_only
-1517,trace,Kor,추적하다,wrong_pos,흔적,med,verb to trace,-,llm_only
-1536,finance,Kor,재원,wrong_sense,금융,med,means financial resources,-,llm_only
-1544,justice,Kor,정당성,wrong_sense,정의,med,means legitimacy,-,llm_only
-1547,memory,Kor,메모리,wrong_sense,기억,med,means computer memory,-,llm_only
-1553,town,Kor,도시,wrong_sense,읍,low,means city,-,llm_only
-1555,beam,Kor,빔,likely_wrong,들보,low,structural is deulbo,-,llm_only
-1576,barn,Kor,외양간,wrong_sense,헛간,low,means cowshed,-,llm_only
-1632,programmer,Kor,프로그램 제작자,phrase,프로그래머,low,program maker descriptive,-,llm_only
-1641,farmer,Kor,농장주,wrong_sense,농부,low,means farm owner,-,llm_only
-1644,butcher,Kor,푸줏간,wrong_sense,정육점 주인,med,means butcher shop,-,llm_only
-1647,electrician,Kor,전공,wrong_sense,전기 기사,med,mainly means academic major,-,llm_only
 26,be used to,Korean,익숙해 져야합니다,phrase,익숙하다,med,full sentence must-become-accustomed,-,llm_only
 516,probable,Korean,유망한 후보자,wrong_sense,개연성 있는,med,means promising candidate,-,llm_only
 611,parent,Korean,부모의,wrong_pos,부모,med,genitive parent's not noun,-,llm_only
@@ -2064,17 +2123,14 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 1083,mine,Korean,내 거,wrong_sense,광산,med,"= ""my thing"" possessive",-,llm_only
 1097,tornado,Korean,폭풍,wrong_sense,토네이도,med,= storm (generic),-,llm_only
 1257,seesaw,Korean,널,likely_wrong,시소,low,= plank / Korean jumping game,-,llm_only
+1350,fan,Korean,팬,wrong_sense,선풍기,med,means admirer,-,llm_only
+1375,instrument,Korean,기구,wrong_sense,악기,med,means apparatus,-,llm_only
+1495,chance,Korean,가능성,wrong_sense,기회,low,means possibility,-,llm_only
+1555,beam,Korean,빔,likely_wrong,들보,low,structural is deulbo,-,llm_only
+1647,electrician,Korean,전공,wrong_sense,전기 기사,med,mainly means academic major,-,llm_only
 1664,optician,Korean,안경도,likely_wrong,안경사,med,not a standard word,-,llm_only
 1751,core,Korean,지구의 핵심,wrong_sense,지구 중심핵,low,means crux/essence figurative,-,llm_only
 1771,forward,Korean,앞으로 나옵니다,phrase,앞으로,med,sentence comes forward,-,llm_only
-1375,instrument,Rus,инструмент,wrong_sense,музыкальный инструмент,med,generic tool not musical,-,llm_only
-1402,whistle,Rus,свист,wrong_sense,свисток,med,means whistling sound,-,llm_only
-1438,number,Rus,количество,wrong_sense,число,med,means quantity,-,llm_only
-1484,view,Rus,посмотреть,wrong_pos,взгляд,med,verb to look,-,llm_only
-1502,performance,Rus,спектакль,wrong_sense,производительность,med,means theatrical show,-,llm_only
-1512,standard,Rus,стандартный,wrong_pos,стандарт,med,adjective standard,-,llm_only
-1520,value,Rus,ценить,wrong_pos,ценность,med,verb to value,-,llm_only
-1569,cloister,Rus,монастырь,wrong_sense,крытая галерея,low,means monastery not walkway,-,llm_only
 19,smell,Russian,пахнуть,wrong_sense,нюхать,med,means emit odor not perceive,-,llm_only
 632,parents-in-law,Russian,родители в законе,phrase,тесть и тёща,med,calque parents in law,-,llm_only
 687,thrush bird,Russian,молочница птица,wrong_sense,дрозд,med,молочница = candidiasis,-,llm_only
@@ -2087,59 +2143,20 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 1213,shuttle,Russian,шаттл,wrong_sense,челнок,med,= space shuttle / shuttle bus,-,llm_only
 1257,seesaw,Russian,качели,likely_wrong,качели-балансир,med,= swing (generic),-,llm_only
 1341,table,Russian,стол,wrong_sense,таблица,med,furniture table; anchor is data table,-,llm_only
-1452,amount,Spa,monto,wrong_sense,cantidad,low,means monetary total,-,llm_only
-1467,illusion,Spa,espejismo,wrong_sense,ilusión,low,means mirage,-,llm_only
-1486,bias,Spa,inclinación,wrong_sense,sesgo,low,means inclination,-,llm_only
-1597,camp,Spa,acampar,wrong_pos,campamento,med,verb to camp,-,llm_only
+1375,instrument,Russian,инструмент,wrong_sense,музыкальный инструмент,med,generic tool not musical,-,llm_only
+1402,whistle,Russian,свист,wrong_sense,свисток,med,means whistling sound,-,llm_only
+1438,number,Russian,количество,wrong_sense,число,med,means quantity,-,llm_only
+1502,performance,Russian,спектакль,wrong_sense,производительность,med,means theatrical show,-,llm_only
+1512,standard,Russian,стандартный,wrong_pos,стандарт,med,adjective standard,-,llm_only
+1520,value,Russian,ценить,wrong_pos,ценность,med,verb to value,-,llm_only
+1569,cloister,Russian,монастырь,wrong_sense,крытая галерея,low,means monastery not walkway,-,llm_only
 687,thrush bird,Spanish,pájaro de la cadera,wrong_sense,tordo,med,means bird of the hip,-,llm_only
 688,swallow bird,Spanish,tragar pajaro,phrase,golondrina,med,to swallow a bird,-,llm_only
 979,pupil,Spanish,alumno,wrong_sense,pupila,med,means student (Ch/Ir anchor = eye pupil),-,llm_only
 1336,picture,Spanish,fotografía,wrong_sense,imagen,med,= photograph,-,llm_only
 1341,table,Spanish,mesa,wrong_sense,tabla,med,furniture table; anchor is data table,-,llm_only
+1597,camp,Spanish,acampar,wrong_pos,campamento,med,verb to camp,-,llm_only
 1779,before,Spanish,antes,wrong_sense,delante de,med,temporal not spatial,-,llm_only
-1350,fan,Swa,shabiki,wrong_sense,feni,med,means supporter,-,llm_only
-1356,program,Swa,mpango,wrong_sense,programu,med,means plan,-,llm_only
-1361,vacuum cleaner,Swa,safi ya utupu,phrase,kisafishaji,med,calque not a lexeme,-,llm_only
-1363,kettle,Swa,kettle,untranslated,birika,med,English left as-is,-,llm_only
-1372,earphone,Swa,sikio,wrong_sense,earfoni,med,means ear body part,-,llm_only
-1375,instrument,Swa,chombo,wrong_sense,ala ya muziki,low,means vessel or tool,-,llm_only
-1381,rhythm,Swa,rhythm,untranslated,mdundo,med,English left as-is,-,llm_only
-1382,rhyme,Swa,wimbo,wrong_sense,kina,low,means song,-,llm_only
-1399,organ,Swa,chombo,wrong_sense,kinanda,low,means vessel tool,-,llm_only
-1415,sock,Swa,sock,untranslated,soksi,low,English left as-is,-,llm_only
-1417,coat,Swa,kanzu,wrong_sense,koti,low,means kanzu robe,-,llm_only
-1431,table tennis,Swa,jedwali la tenisi,phrase,tenisi ya mezani,low,calque table of tennis,-,llm_only
-1437,race,Swa,taifa,wrong_sense,rangi,low,means nation,-,llm_only
-1446,stripe,Swa,mstari,wrong_sense,mstari wa rangi,low,means line,-,llm_only
-1447,grid,Swa,gridi ya taifa,wrong_sense,gridi,med,means national electrical grid,-,llm_only
-1451,rule,Swa,sheria,wrong_sense,kanuni,low,means law,-,llm_only
-1463,order,Swa,agizo,wrong_sense,utaratibu,med,means directive,-,llm_only
-1474,fairy,Swa,faili,garbage,,low,means file,-,llm_only
-1475,monster,Swa,monster,untranslated,zimwi,low,English left as-is,-,llm_only
-1478,ghost,Swa,ghost,untranslated,mzimu,low,English left as-is,-,llm_only
-1479,myth,Swa,hadithi,wrong_sense,ngano,low,means story,-,llm_only
-1494,coincidence,Swa,bahati mbaya,wrong_sense,sadfa,med,means bad luck,-,llm_only
-1554,building,Swa,ujenzi,wrong_sense,jengo,med,means construction act,-,llm_only
-1562,palace,Swa,ikulu,wrong_sense,kasri,low,means State House,-,llm_only
-1566,dome,Swa,dome,untranslated,kuba,low,English left as-is,-,llm_only
-1567,arch,Swa,arch,untranslated,tao,low,English left as-is,-,llm_only
-1569,cloister,Swa,cloister,untranslated,,low,English left as-is,-,llm_only
-1573,lighthouse,Swa,taa ya taa,garbage,mnara wa taa,med,lamp of lamp garbled,-,llm_only
-1580,skyscraper,Swa,skyscraper,untranslated,,low,English left as-is,-,llm_only
-1593,park,Swa,hifadhi,wrong_sense,bustani,low,means reserve,-,llm_only
-1599,stage,Swa,hatua,wrong_sense,jukwaa,med,means step phase,-,llm_only
-1601,character,Swa,tabia,wrong_sense,mhusika,med,means behavior nature,-,llm_only
-1602,play,Swa,cheza,wrong_pos,tamthilia,med,verb play,-,llm_only
-1603,script,Swa,maandishi,wrong_sense,mswada,low,means writings text,-,llm_only
-1616,prince,Swa,prince,untranslated,mwana wa mfalme,low,English left as-is,-,llm_only
-1617,princess,Swa,princess,untranslated,binti mfalme,low,English left as-is,-,llm_only
-1623,architect,Swa,mbunifu,wrong_sense,mbunifu majengo,low,means designer,-,llm_only
-1632,programmer,Swa,programu,wrong_sense,mwandishi wa programu,med,means program the thing,-,llm_only
-1638,intern,Swa,intern,untranslated,mwanafunzi kwa vitendo,low,English left as-is,-,llm_only
-1639,librarian,Swa,maktaba,wrong_sense,mkutubi,med,means library,-,llm_only
-1647,electrician,Swa,umeme,wrong_sense,fundi umeme,med,means electricity,-,llm_only
-1648,plumber,Swa,fundi,wrong_sense,fundi bomba,low,means generic craftsman,-,llm_only
-1649,mechanic,Swa,mechanic,untranslated,mekanika,low,English left as-is,-,llm_only
 188,like,Swahili,kupenda,wrong_sense,kufanana,med,this sense is resemble,-,llm_only
 542,it,Swahili,it,untranslated,,low,English left as-is,-,llm_only
 626,son-in-law,Swahili,mtoto wa kambo,wrong_sense,mkwe,med,means stepchild,-,llm_only
@@ -2166,6 +2183,22 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 1332,stamp,Swahili,muhuri,wrong_sense,stempu,med,= official seal,-,llm_only
 1341,table,Swahili,meza,wrong_sense,jedwali,med,furniture table; anchor is data table,-,llm_only
 1347,toy,Swahili,toy,untranslated,kichezeo,med,English left as-is,-,llm_only
+1350,fan,Swahili,shabiki,wrong_sense,feni,med,means supporter,-,llm_only
+1372,earphone,Swahili,sikio,wrong_sense,earfoni,med,means ear body part,-,llm_only
+1375,instrument,Swahili,chombo,wrong_sense,ala ya muziki,low,means vessel or tool,-,llm_only
+1431,table tennis,Swahili,jedwali la tenisi,phrase,tenisi ya mezani,low,calque table of tennis,-,llm_only
+1447,grid,Swahili,gridi ya taifa,wrong_sense,gridi,med,means national electrical grid,-,llm_only
+1475,monster,Swahili,monster,untranslated,zimwi,low,English left as-is,-,llm_only
+1479,myth,Swahili,hadithi,wrong_sense,ngano,low,means story,-,llm_only
+1494,coincidence,Swahili,bahati mbaya,wrong_sense,sadfa,med,means bad luck,-,llm_only
+1567,arch,Swahili,arch,untranslated,tao,low,English left as-is,-,llm_only
+1569,cloister,Swahili,cloister,untranslated,,low,English left as-is,-,llm_only
+1573,lighthouse,Swahili,taa ya taa,garbage,mnara wa taa,med,lamp of lamp garbled,-,llm_only
+1602,play,Swahili,cheza,wrong_pos,tamthilia,med,verb play,-,llm_only
+1632,programmer,Swahili,programu,wrong_sense,mwandishi wa programu,med,means program the thing,-,llm_only
+1638,intern,Swahili,intern,untranslated,mwanafunzi kwa vitendo,low,English left as-is,-,llm_only
+1647,electrician,Swahili,umeme,wrong_sense,fundi umeme,med,means electricity,-,llm_only
+1648,plumber,Swahili,fundi,wrong_sense,fundi bomba,low,means generic craftsman,-,llm_only
 1650,cleaner,Swahili,safi,wrong_sense,msafishaji,med,means clean (adjective),-,llm_only
 1651,gardener,Swahili,bustani,wrong_sense,mtunza bustani,med,means garden not gardener,-,llm_only
 1657,stewardess,Swahili,mwangalizi,wrong_sense,,low,means supervisor/caretaker,-,llm_only
@@ -2182,21 +2215,6 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 1779,before,Swahili,kabla,wrong_sense,mbele ya,med,temporal not spatial,-,llm_only
 1786,right,Swahili,haki,wrong_sense,kulia,med,means justice/entitlement,-,llm_only
 1839,too,Swahili,pia,wrong_sense,mno,med,means also,-,llm_only
-1375,instrument,Tha,อุปกรณ์,wrong_sense,เครื่องดนตรี,med,means equipment,-,llm_only
-1399,organ,Tha,อวัยวะ,wrong_sense,ออร์แกน,med,means body organ,-,llm_only
-1406,cloak,Tha,ปิดบัง,wrong_pos,เสื้อคลุม,med,verb to conceal,-,llm_only
-1462,science,Tha,ศาสตร์,wrong_sense,วิทยาศาสตร์,med,means discipline,-,llm_only
-1463,order,Tha,คำสั่ง,wrong_sense,ระเบียบ,med,means command,-,llm_only
-1472,angel,Tha,นางฟ้า,wrong_sense,ทูตสวรรค์,low,means fairy,-,llm_only
-1484,view,Tha,ดู,wrong_pos,ทัศนะ,med,verb to watch,-,llm_only
-1498,paradox,Tha,ความขัดแย้ง,wrong_sense,ปฏิทรรศน์,low,means contradiction,-,llm_only
-1517,trace,Tha,ติดตาม,wrong_pos,ร่องรอย,med,verb to follow,-,llm_only
-1555,beam,Tha,ลำแสง,wrong_sense,คาน,med,means beam of light,-,llm_only
-1569,cloister,Tha,หีบห่อ,garbage,ระเบียงคด,med,means package parcel,-,llm_only
-1579,log cabin,Tha,ห้องขัง,wrong_sense,กระท่อมไม้ซุง,med,means prison cell,-,llm_only
-1598,theater,Tha,โรงภาพยนตร์,wrong_sense,โรงละคร,med,means cinema,-,llm_only
-1602,play,Tha,เล่น,wrong_pos,บทละคร,med,verb to play,-,llm_only
-1603,script,Tha,สคริปต์,untranslated,บทภาพยนตร์,low,English script borrowing,-,llm_only
 188,like,Thai,ที่ชื่นชอบ,wrong_sense,คล้าย,med,this sense is resemble,-,llm_only
 349,light,Thai,เบา,wrong_sense,อ่อน,med,means light in weight,-,llm_only
 380,cool,Thai,เจ๋ง,wrong_sense,เย็น,med,means awesome,-,llm_only
@@ -2217,6 +2235,15 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 1332,stamp,Thai,ประทับ,wrong_pos,แสตมป์,med,"= ""to stamp"" verb",-,llm_only
 1338,photograph,Thai,ถ่ายภาพ,wrong_pos,ภาพถ่าย,med,"= ""to photograph"" verb",-,llm_only
 1341,table,Thai,โต๊ะ,wrong_sense,ตาราง,med,furniture table; anchor is data table,-,llm_only
+1399,organ,Thai,อวัยวะ,wrong_sense,ออร์แกน,med,means body organ,-,llm_only
+1406,cloak,Thai,ปิดบัง,wrong_pos,เสื้อคลุม,med,verb to conceal,-,llm_only
+1462,science,Thai,ศาสตร์,wrong_sense,วิทยาศาสตร์,med,means discipline,-,llm_only
+1463,order,Thai,คำสั่ง,wrong_sense,ระเบียบ,med,means command,-,llm_only
+1484,view,Thai,ดู,wrong_pos,ทัศนะ,med,verb to watch,-,llm_only
+1555,beam,Thai,ลำแสง,wrong_sense,คาน,med,means beam of light,-,llm_only
+1569,cloister,Thai,หีบห่อ,garbage,ระเบียงคด,med,means package parcel,-,llm_only
+1579,log cabin,Thai,ห้องขัง,wrong_sense,กระท่อมไม้ซุง,med,means prison cell,-,llm_only
+1602,play,Thai,เล่น,wrong_pos,บทละคร,med,verb to play,-,llm_only
 1657,stewardess,Thai,พนักงานเสิร์ฟ,wrong_sense,แอร์โฮสเตส,med,means waiter/server,-,llm_only
 1659,cook,Thai,ทำอาหาร,wrong_pos,พ่อครัว,med,verb to cook,-,llm_only
 1702,amplitude,Thai,ความกว้าง,wrong_sense,แอมพลิจูด,low,means width,-,llm_only
@@ -2228,20 +2255,6 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 1779,before,Thai,ก่อน,wrong_sense,ข้างหน้า,med,temporal not spatial,-,llm_only
 1812,still,Thai,นิ่ง,wrong_sense,ยังคง,med,means motionless/calm,-,llm_only
 1839,too,Thai,ด้วย,wrong_sense,เกินไป,med,means also/as well,-,llm_only
-1367,chip,Tur,yonga,wrong_sense,çip,low,means wood chip,-,llm_only
-1369,keyboard,Tur,tuş takımı,wrong_sense,klavye,low,means keypad,-,llm_only
-1387,blues,Tur,mavimsi,wrong_sense,blüz,med,means bluish color,-,llm_only
-1399,organ,Tur,organ,wrong_sense,org,med,means body organ,-,llm_only
-1402,whistle,Tur,ıslık,wrong_sense,düdük,low,means whistling sound,-,llm_only
-1447,grid,Tur,kafes,wrong_sense,ızgara,low,means cage lattice,-,llm_only
-1448,spot,Tur,nokta,wrong_sense,benek,low,means dot point,-,llm_only
-1459,sign,Tur,imza,wrong_sense,işaret,med,means signature,-,llm_only
-1519,case,Tur,dava,wrong_sense,durum,med,means lawsuit,-,llm_only
-1542,job,Tur,görev,wrong_sense,iş,med,means task duty,-,llm_only
-1549,present,Tur,geçmiş şimdi,garbage,şimdiki zaman,med,past now garbled,-,llm_only
-1581,gym,Tur,jimnastik,wrong_sense,spor salonu,med,means gymnastics,-,llm_only
-1600,audience,Tur,kitle,wrong_sense,seyirci,low,means mass crowd,-,llm_only
-1602,play,Tur,oyna,wrong_pos,oyun,med,imperative verb play,-,llm_only
 25,repeat,Turkish,tekrarlamak için,phrase,tekrarlamak,med,means in order to repeat,-,llm_only
 687,thrush bird,Turkish,pamukçuk kuşu,wrong_sense,ardıç kuşu,med,pamukçuk = thrush infection,-,llm_only
 688,swallow bird,Turkish,kuş yutma,phrase,kırlangıç,med,bird swallowing,-,llm_only
@@ -2253,6 +2266,9 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 1209,mortar,Turkish,harç,wrong_sense,havan,med,= mortar (cement)/expense,-,llm_only
 1237,study,Turkish,ders çalışma,wrong_sense,çalışma odası,med,"= ""studying lessons""",-,llm_only
 1341,table,Turkish,masa,wrong_sense,tablo,med,furniture table; anchor is data table,-,llm_only
+1399,organ,Turkish,organ,wrong_sense,org,med,means body organ,-,llm_only
+1542,job,Turkish,görev,wrong_sense,iş,med,means task duty,-,llm_only
+1602,play,Turkish,oyna,wrong_pos,oyun,med,imperative verb play,-,llm_only
 1720,impulse,Turkish,dürtü,wrong_sense,itme,med,means psychological urge,-,llm_only
 1776,out,Turkish,dışarı çıktı,wrong_pos,dışarı,med,verb went out,-,llm_only
 1779,before,Turkish,önce,wrong_sense,önünde,med,temporal not spatial,-,llm_only
@@ -2260,21 +2276,6 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 1813,before,Turkish,önceki,wrong_pos,önce,low,means previous (adjective),-,llm_only
 1814,originally,Turkish,aslında,wrong_sense,başlangıçta,low,means actually/in fact,-,llm_only
 1846,okay,Turkish,tamam aşkım,phrase,tamam,med,means okay my darling,-,llm_only
-1350,fan,Vie,người hâm mộ,wrong_sense,quạt,med,means admirer,-,llm_only
-1373,microphone,Vie,cái mic cờ rô,garbage,micrô,low,garbled transliteration,-,llm_only
-1375,instrument,Vie,dụng cụ,wrong_sense,nhạc cụ,med,means tool,-,llm_only
-1442,sequence,Vie,sự liên tiếp,wrong_sense,trình tự,low,means consecutiveness,-,llm_only
-1465,god,Vie,chúa,wrong_sense,thần,low,means Lord Christian,-,llm_only
-1479,myth,Vie,chuyện hoang đường,phrase,thần thoại,low,descriptive phrase,-,llm_only
-1487,effort,Vie,cố gắng,wrong_pos,nỗ lực,low,verb to try,-,llm_only
-1565,amphitheater,Vie,giảng đường,wrong_sense,nhà hát vòng,med,means lecture hall,-,llm_only
-1569,cloister,Vie,cloister,untranslated,hành lang có mái,low,English left as-is,-,llm_only
-1576,barn,Vie,barn,untranslated,nhà kho,low,English left as-is,-,llm_only
-1579,log cabin,Vie,chòi,wrong_sense,nhà gỗ,low,means hut not log,-,llm_only
-1582,factory,Vie,xưởng sản xuất,wrong_sense,nhà máy,low,means production workshop,-,llm_only
-1603,script,Vie,script,untranslated,kịch bản,med,English left as-is,-,llm_only
-1641,farmer,Vie,nông phu,likely_wrong,nông dân,low,archaic term,-,llm_only
-1649,mechanic,Vie,công nhân cơ khí,wrong_sense,thợ máy,low,means machinist,-,llm_only
 188,like,Vietnamese,thích,wrong_sense,giống,med,this sense is resemble,-,llm_only
 349,light,Vietnamese,ánh sáng,wrong_sense,nhạt,med,noun illumination,-,llm_only
 351,light,Vietnamese,ánh sáng,wrong_sense,nhẹ,med,noun illumination,-,llm_only
@@ -2299,6 +2300,13 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 1252,bar,Vietnamese,quán ba,wrong_sense,thanh,med,= drinking bar,-,llm_only
 1329,brush,Vietnamese,chải,wrong_pos,bàn chải,med,"= ""to comb/brush"" verb",-,llm_only
 1341,table,Vietnamese,bàn,wrong_sense,bảng,med,furniture table; anchor is data table,-,llm_only
+1350,fan,Vietnamese,người hâm mộ,wrong_sense,quạt,med,means admirer,-,llm_only
+1375,instrument,Vietnamese,dụng cụ,wrong_sense,nhạc cụ,med,means tool,-,llm_only
+1565,amphitheater,Vietnamese,giảng đường,wrong_sense,nhà hát vòng,med,means lecture hall,-,llm_only
+1569,cloister,Vietnamese,cloister,untranslated,hành lang có mái,low,English left as-is,-,llm_only
+1579,log cabin,Vietnamese,chòi,wrong_sense,nhà gỗ,low,means hut not log,-,llm_only
+1603,script,Vietnamese,script,untranslated,kịch bản,med,English left as-is,-,llm_only
+1641,farmer,Vietnamese,nông phu,likely_wrong,nông dân,low,archaic term,-,llm_only
 1664,optician,Vietnamese,bác sĩ nhãn khoa,wrong_sense,,med,means ophthalmologist,-,llm_only
 1667,bodyguard,Vietnamese,bộ phận vệ sĩ,phrase,vệ sĩ,med,means bodyguard department,-,llm_only
 1684,square,Vietnamese,quảng trường,wrong_sense,hình vuông,med,means town plaza,-,llm_only
@@ -2311,18 +2319,6 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 1837,almost,Vietnamese,hầu hết,wrong_sense,gần như,med,means most/mostly,-,llm_only
 1839,too,Vietnamese,cũng vậy,wrong_sense,quá,med,means also/likewise,-,llm_only
 1844,really,Vietnamese,có thật không,phrase,thật sự,med,interrogative really?,-,llm_only
-1352,telephone,Wel,alwa ',garbage,ffôn,low,not a word,-,llm_only
-1367,chip,Wel,naddu,wrong_pos,,low,means to whittle,-,llm_only
-1400,string,Wel,moch,garbage,tant,low,means pigs,-,llm_only
-1413,pants,Wel,pants,untranslated,trowsus,low,English left,-,llm_only
-1443,level,Wel,gwastatáu,wrong_pos,,low,verb to level,-,llm_only
-1451,rule,Wel,deyrnaswch,wrong_sense,,low,verb reign,-,llm_only
-1463,order,Wel,harchebon,wrong_sense,,low,purchase-order sense,-,llm_only
-1580,skyscraper,Wel,skyscraper,untranslated,,low,English left,-,llm_only
-1595,office,Wel,swyddi,wrong_sense,swyddfa,low,means jobs plural,-,llm_only
-1602,play,Wel,chwarae,wrong_pos,drama,low,verb to play,-,llm_only
-1627,judge,Wel,barnest,wrong_pos,barnwr,low,verb-ish form,-,llm_only
-1638,intern,Wel,manteisiol,wrong_sense,,low,adjective advantageous,-,llm_only
 625,siblings,Welsh,brodyr amen,garbage,brodyr a chwiorydd,med,contains stray word amen,-,llm_only
 627,daughter-in-law,Welsh,nghyfraith,likely_wrong,merch-yng-nghyfraith,med,fragment in-law only,-,llm_only
 689,turtledove,Welsh,crwban,wrong_sense,turtur,med,means tortoise,-,llm_only
@@ -2338,4 +2334,8 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 1246,dustbin,Welsh,meinciau,wrong_sense,bin sbwriel,low,= benches,-,llm_only
 1291,bed sheet,Welsh,wely,wrong_sense,cynfas,low,"= ""bed""",-,llm_only
 1316,eyeglasses,Welsh,eyeglasses,untranslated,sbectol,low,English left as-is,-,llm_only
+1443,level,Welsh,gwastatáu,wrong_pos,,low,verb to level,-,llm_only
+1463,order,Welsh,harchebon,wrong_sense,,low,purchase-order sense,-,llm_only
+1602,play,Welsh,chwarae,wrong_pos,drama,low,verb to play,-,llm_only
+1638,intern,Welsh,manteisiol,wrong_sense,,low,adjective advantageous,-,llm_only
 1839,too,Welsh,hefyd,wrong_sense,rhy,med,means also,-,llm_only
