@@ -1,0 +1,534 @@
+concept_id,english,language,ours,verdict,suggested,confidence,note
+1050,rain,Italian,piovere,wrong_pos,pioggia,high,verb "to rain" for a noun
+1050,rain,Arabic,تمطر,wrong_pos,مطر,high,conjugated "it rains" for a noun
+1052,rainbow,Hindi,रेनबो,untranslated,इंद्रधनुष,high,English "rainbow" transliterated
+1054,lake,Welsh,llynedd,wrong_sense,llyn,low,llynedd means "last year"
+1056,beach,Hindi,बीच,wrong_sense,समुद्र तट,med,बीच means "middle"; English transliteration
+1059,salt,Hungarian,sós,wrong_pos,só,med,sós = "salty" adjective
+1060,stone,Hungarian,stone,untranslated,kő,med,English left as-is
+1060,stone,Japanese,結石,wrong_sense,石,high,結石 = medical calculus
+1060,stone,Korean,결석,wrong_sense,돌,med,결석 = gallstone/kidney stone
+1060,stone,Hindi,स्टोन,untranslated,पत्थर,high,English "stone" transliterated
+1063,earth,Japanese,地球,wrong_sense,土,high,= planet Earth; anchor is soil
+1063,earth,Korean,지구,wrong_sense,흙,med,= planet Earth; anchor is soil
+1063,earth,Turkish,dünya,wrong_sense,toprak,high,dünya = world; anchor is soil
+1063,earth,Hebrew,כדור הארץ,wrong_sense,אדמה,high,= planet Earth; anchor is soil
+1063,earth,Vietnamese,trái đất,wrong_sense,đất,med,= planet Earth; anchor is soil
+1063,earth,Swahili,dunia,wrong_sense,udongo,med,dunia = world; anchor is soil
+1064,cloud,Hungarian,cloud,untranslated,felhő,med,English left as-is
+1064,cloud,Thai,คลาวด์,untranslated,เมฆ,med,English "cloud" transliterated
+1065,lightning,Spanish,iluminación,wrong_sense,relámpago,high,= illumination/lighting
+1065,lightning,Vietnamese,lightning,untranslated,tia chớp,high,English left as-is
+1066,thunder,Japanese,サンダー,untranslated,雷,high,English "thunder" in katakana
+1066,thunder,Hindi,थंडर,untranslated,गड़गड़ाहट,high,English "thunder" transliterated
+1067,storm,Arabic,اقتحام,wrong_sense,عاصفة,high,= storming/assault
+1071,snow,Hungarian,havazás,likely_wrong,hó,med,= snowfall event not snow
+1072,ice,Hungarian,ice,untranslated,jég,med,English left as-is
+1072,ice,Finnish,jäätyä,wrong_pos,jää,high,= "to freeze" verb
+1073,frost,Thai,น้ำแข็ง,wrong_sense,น้ำค้างแข็ง,med,= ice not frost
+1074,hail,Hungarian,éljen,wrong_sense,jégeső,high,éljen = "hurray/long live"
+1074,hail,Hindi,जयकार करना,phrase,ओले,high,= "to cheer/acclaim" verb phrase
+1075,smoke,Russian,дымка,wrong_sense,дым,high,дымка = haze/mist
+1076,fire,Finnish,antaa potkut,phrase,tuli,high,idiom "to fire from a job"
+1076,fire,Russian,пожар,wrong_sense,огонь,med,= a blaze; anchor is the element
+1076,fire,Turkish,yangın,wrong_sense,ateş,med,= a blaze; anchor is the element
+1077,ash,Greek,φλαμουριά,garbage,στάχτη,high,= linden tree
+1077,ash,Hungarian,ash,untranslated,hamu,med,English left as-is
+1080,swamp,Finnish,uroksella,garbage,suo,high,= "on the male animal"
+1080,swamp,Hebrew,להציף,wrong_pos,ביצה,high,= "to flood" verb
+1080,swamp,Swahili,swamp,untranslated,bwawa,med,English left as-is
+1080,swamp,Hindi,मग्न,wrong_sense,दलदल,high,= immersed/absorbed
+1080,swamp,Thai,บึงหนองทำให้ท่วม,phrase,หนองบึง,med,garbled multi-word string
+1081,land,Italian,sbarcare,wrong_pos,terra,high,= "to disembark" verb
+1081,land,French,atterrir,wrong_sense,terre,low,= "to land a plane" verb
+1082,field,Japanese,分野,wrong_sense,野原,high,= field of study/activity
+1082,field,Indonesian,bidang,wrong_sense,ladang,med,= field/area of expertise
+1082,field,Korean,필드,untranslated,들판,med,English "field" transliterated
+1082,field,Hindi,फ़ील्ड,untranslated,खेत,med,English "field" transliterated
+1083,mine,Hungarian,enyém,wrong_sense,bánya,high,= "mine" possessive
+1083,mine,Greek,δικος μου,wrong_sense,ορυχείο,high,= "mine" possessive
+1083,mine,Russian,мой,wrong_sense,шахта,high,= "my/mine" possessive
+1083,mine,Spanish,mío,wrong_sense,mina,high,= "mine" possessive
+1083,mine,Italian,mio,wrong_sense,miniera,high,= "mine" possessive
+1083,mine,Vietnamese,của tôi,wrong_sense,mỏ,med,= "mine" possessive
+1083,mine,Japanese,私の,wrong_sense,鉱山,high,= "my" possessive
+1083,mine,Korean,내 거,wrong_sense,광산,med,= "my thing" possessive
+1083,mine,Thai,ของฉัน,wrong_sense,เหมือง,med,= "mine" possessive
+1083,mine,Indonesian,milikku,wrong_sense,tambang,med,= "my possession"
+1083,mine,Turkish,bana ait,wrong_sense,maden,high,= "belonging to me"
+1083,mine,Arabic,مِلكِي,wrong_sense,منجم,high,= "my property"
+1083,mine,Swahili,yangu,wrong_sense,mgodi,med,= "my/mine" possessive
+1083,mine,Hindi,मेरा,wrong_sense,खदान,high,= "my/mine" possessive
+1083,mine,Hebrew,שלי,wrong_sense,מכרה,high,= "mine" possessive
+1086,peak,Turkish,doruğa ulaşmak,phrase,zirve,high,= "to reach the summit" phrase
+1087,cliff,Hungarian,cliff,untranslated,szikla,med,English left as-is
+1087,cliff,German,cliff,untranslated,Klippe,med,English left as-is
+1087,cliff,Swahili,cliff,untranslated,genge,med,English left as-is
+1088,desert,Japanese,荒野,wrong_sense,砂漠,med,= wilderness/wasteland
+1091,spring,Hungarian,tavasz,wrong_sense,forrás,high,= spring the season
+1091,spring,Hindi,वसन्त,wrong_sense,झरना,high,= spring the season
+1091,spring,Italian,fonta,garbage,sorgente,med,not a word
+1093,plain,Hungarian,sima,wrong_pos,síkság,high,= "smooth/flat" adjective
+1093,plain,German,Eben,likely_wrong,Ebene,med,adverb "even"; noun is Ebene
+1093,plain,Welsh,plas,wrong_sense,gwastadedd,low,plas = mansion
+1094,hill,Hungarian,hill,untranslated,domb,med,English left as-is
+1094,hill,Hindi,हिल,untranslated,पहाड़ी,med,English "hill" transliterated
+1095,valley,Hungarian,valley,untranslated,völgy,med,English left as-is
+1097,tornado,Korean,폭풍,wrong_sense,토네이도,med,= storm (generic)
+1097,tornado,Indonesian,angin topan,wrong_sense,puting beliung,med,= typhoon wind not tornado
+1100,flood,Turkish,sel basmak,phrase,sel,med,= "to flood" verb phrase
+1101,landslide,Hebrew,רוב מוחץ,wrong_sense,מפולת,high,= "crushing majority"
+1101,landslide,Greek,καθίζηση έδαφους,likely_wrong,κατολίσθηση,med,= ground subsidence
+1102,avalanche,Vietnamese,avalanche,untranslated,tuyết lở,med,English left as-is
+1104,second,Hungarian,második,wrong_sense,másodperc,high,= "second" ordinal 2nd
+1104,second,Hindi,दूसरी,wrong_sense,सेकंड,high,= "second" ordinal / other
+1107,day,Korean,요일,wrong_sense,날,med,= day of the week
+1115,date,Korean,데이트,wrong_sense,날짜,high,= romantic date
+1117,spring,Japanese,バネ,wrong_sense,春,high,= a metal spring/coil
+1117,spring,Welsh,darddwch,wrong_sense,gwanwyn,low,garbled; not the season
+1121,north,Greek,βόρειος,wrong_pos,βορράς,med,= "northern" adjective
+1122,east,Hindi,ईस्ट,untranslated,पूर्व,med,English "east" transliterated
+1124,west,Russian,западный,wrong_pos,запад,high,= "western" adjective
+1124,west,Hindi,वेस्ट,untranslated,पश्चिम,med,English "west" transliterated
+1124,west,Welsh,i'r gorllewin,phrase,gorllewin,low,= "to the west"
+1131,sunday,Hindi,संडे,untranslated,रविवार,med,English "Sunday" transliterated
+1134,march,Russian,маршировать,wrong_sense,март,high,= "to march" verb; anchor is the month
+1134,march,German,marsch,wrong_sense,März,high,= a march (procession); anchor is the month
+1134,march,Indonesian,berbaris,wrong_sense,Maret,med,= "to march" verb
+1134,march,Vietnamese,bước đều,wrong_sense,tháng Ba,med,= "to march in step"
+1134,march,Arabic,يمشي,wrong_sense,مارس,high,= "he walks"
+1134,march,Hindi,कूच,wrong_sense,मार्च,med,= military march/departure
+1134,march,Welsh,orymdeithion,wrong_sense,Mawrth,low,= processions
+1136,may,Finnish,saattaa,wrong_sense,toukokuu,high,= modal "may/might"
+1136,may,Greek,ενδέχεται,wrong_sense,Μάιος,high,= "it is possible"
+1136,may,Russian,может,wrong_sense,май,high,= modal "can/may"
+1136,may,German,dürfen,wrong_sense,Mai,high,= modal "to be allowed"
+1136,may,Spanish,puede,wrong_sense,mayo,high,= "can/may" verb
+1136,may,Vietnamese,có thể,wrong_sense,tháng Năm,med,= modal "can/may"
+1136,may,Indonesian,boleh,wrong_sense,Mei,med,= modal "may/allowed"
+1136,may,Arabic,قد,wrong_sense,مايو,high,= modal particle "may"
+1136,may,Hindi,may,untranslated,मई,med,English "may" left as-is
+1144,light,Spanish,ligero,wrong_sense,luz,high,= "light" not heavy (adj)
+1144,light,Italian,leggero,wrong_sense,luce,high,= "light" not heavy (adj)
+1144,light,German,hell,wrong_pos,Licht,high,= "bright" adjective
+1144,light,Hindi,लाइट,untranslated,प्रकाश,med,English "light" transliterated
+1145,flash,Italian,veloce,wrong_sense,lampo,high,= "fast/quick" adjective
+1145,flash,Hungarian,villám,likely_wrong,villanás,med,= lightning not flash
+1146,shadow,Japanese,影の多い,phrase,影,high,= "shadowy" adjective phrase
+1148,sound,Arabic,يبدو,wrong_sense,صوت,high,= "it seems/appears"
+1148,sound,Hebrew,נשמע,wrong_pos,צליל,med,= "is heard" verb
+1151,glass,Hungarian,pohár,wrong_sense,üveg,high,= drinking glass
+1151,glass,Greek,ποτήρι,wrong_sense,γυαλί,high,= drinking glass
+1151,glass,Italian,bicchiere,wrong_sense,vetro,high,= drinking glass
+1151,glass,Turkish,bardak,wrong_sense,cam,high,= drinking glass
+1151,glass,Vietnamese,cốc thủy tinh,likely_wrong,thủy tinh,med,"= ""glass cup"" not the material"
+1152,metal,Hindi,मेटल,untranslated,धातु,med,English "metal" transliterated
+1153,rust,Hindi,चढ़,wrong_sense,जंग,high,= "climb/mount" verb
+1155,wood,Swahili,kuni,wrong_sense,mbao,med,= firewood
+1155,wood,Turkish,odun,likely_wrong,tahta,low,= firewood; material is tahta
+1156,rubber,Italian,gomma da cancellare,wrong_sense,gomma,high,= eraser
+1156,rubber,Turkish,silgi,wrong_sense,kauçuk,high,= eraser
+1156,rubber,Arabic,ممحاة,wrong_sense,مطاط,high,= eraser
+1158,clay,Hungarian,clay,untranslated,agyag,med,English left as-is
+1158,clay,Arabic,فخار,wrong_sense,صلصال,high,= pottery/earthenware
+1160,gold,Hindi,सुनहरा,wrong_pos,सोना,high,= "golden" adjective
+1161,silver,Russian,серебряный,wrong_pos,серебро,high,= "silver" adjective
+1161,silver,Turkish,gümüş rengi,phrase,gümüş,med,= "silver colour"
+1163,iron,Turkish,ütü,wrong_sense,demir,high,= clothes iron/ironing
+1163,iron,Welsh,smwddiant,wrong_sense,haearn,low,= ironing clothes
+1165,diamond,Hungarian,diamond,untranslated,gyémánt,med,English left as-is
+1167,jewel,Hungarian,jewel,untranslated,ékszer,med,English left as-is
+1168,jade,Russian,джейд,untranslated,нефрит,high,English "jade" transliterated
+1168,jade,Japanese,ジェイド,untranslated,翡翠,high,English "jade" in katakana
+1169,silk,Hindi,रेशा,wrong_sense,रेशम,high,= fibre/filament
+1169,silk,Korean,실크,likely_wrong,비단,med,English loan; native 비단
+1171,linen,Hungarian,ágynemű,wrong_sense,lenvászon,high,= bedding/bed linen
+1171,linen,Russian,белье,wrong_sense,лён,high,= underwear/laundry
+1171,linen,Italian,biancheria,wrong_sense,lino,high,= linens/underwear
+1171,linen,Hebrew,מצעים,wrong_sense,פשתן,high,= bedsheets
+1171,linen,Greek,λευκα ειδη,wrong_sense,λινό,med,= white goods/household linens
+1171,linen,Finnish,liinavaatteet,likely_wrong,pellava,med,= bed/table linens not the fabric
+1172,wool,Swahili,pamba,wrong_sense,sufu,high,= cotton
+1176,power,German,energie,likely_wrong,Kraft,med,= energy; anchor is strength
+1178,peace,Hindi,सलाम,wrong_sense,शांति,high,= salaam/greeting
+1180,arrow,Japanese,矢印,wrong_sense,矢,high,= arrow symbol/pointer
+1180,arrow,Russian,стрелка,wrong_sense,стрела,med,= pointer/small arrow
+1181,bow,Russian,поклон,wrong_sense,лук,high,= bow (bending the body)
+1181,bow,Korean,절하다,wrong_pos,활,high,= "to bow" verb
+1181,bow,Finnish,keula-,wrong_sense,jousi,high,= bow of a ship
+1181,bow,Arabic,ينحني,wrong_sense,قوس,high,= "he bends/bows"
+1184,axe,Swahili,ax,untranslated,shoka,med,English left as-is
+1185,saw,Finnish,näin,wrong_sense,saha,high,= "I saw"/"thus" (past of see)
+1185,saw,Greek,είδε,wrong_sense,πριόνι,high,= "he saw" (past of see)
+1185,saw,German,gesehen,wrong_sense,Säge,high,= "seen" (past of see)
+1185,saw,Japanese,見た,wrong_sense,のこぎり,high,= "saw/looked" (past of see)
+1185,saw,Korean,봤다,wrong_sense,톱,high,= "saw" (past of see)
+1185,saw,Arabic,رأى,wrong_sense,منشار,high,= "he saw" (past of see)
+1185,saw,Hebrew,ראה,wrong_sense,מסור,high,= "he saw" (past of see)
+1185,saw,Swahili,aliona,wrong_sense,msumeno,high,= "he/she saw" (past of see)
+1185,saw,Hindi,देखी,wrong_sense,आरी,high,= "saw" (past of see)
+1186,hook,Japanese,針,wrong_sense,フック,med,= needle
+1186,hook,Korean,훅,likely_wrong,갈고리,med,English loan; native 갈고리
+1186,hook,Hindi,आँकड़ा,wrong_sense,हुक,high,= figure/statistic
+1187,shackle,Finnish,kahlata,wrong_sense,kahle,high,= "to wade"
+1187,shackle,Greek,δεσμεύω,wrong_pos,χειροπέδες,high,= "I bind/commit" verb
+1187,shackle,Spanish,encadenar,wrong_pos,grillete,high,= "to chain" verb
+1187,shackle,Vietnamese,xu phạm,garbage,xiềng xích,med,not a word
+1187,shackle,Hebrew,לכבול,wrong_pos,אזיקים,med,= "to shackle" verb
+1187,shackle,Korean,걸쇠,wrong_sense,족쇄,med,= latch/clasp
+1187,shackle,Swahili,shackle,untranslated,pingu,med,English left as-is
+1189,chain,Hindi,कड़ी,likely_wrong,ज़ंजीर,med,= a single link
+1190,whip,Japanese,ホイップ,wrong_sense,鞭,high,= culinary whip/whipped cream
+1190,whip,Turkish,kırbaçlamak,wrong_pos,kırbaç,high,= "to whip" verb
+1193,rake,Finnish,hauta,wrong_sense,harava,high,= grave
+1193,rake,Hebrew,לגרוף,wrong_pos,מגרפה,med,= "to rake" verb
+1193,rake,Swahili,taka,wrong_sense,reki,med,= trash/rubbish
+1193,rake,Hindi,जेली,garbage,रेक,high,= jelly
+1193,rake,Arabic,مجرفة,likely_wrong,مذراة,med,= shovel/scoop
+1194,trap,German,fangen,wrong_pos,Falle,high,= "to catch" verb
+1195,shield,Hungarian,shield,untranslated,pajzs,med,English left as-is
+1195,shield,Spanish,blindaje,wrong_sense,escudo,high,= armour plating
+1195,shield,Japanese,シールド,likely_wrong,盾,med,English loan; native 盾
+1195,shield,Hindi,शील्ड,untranslated,ढाल,med,English "shield" transliterated
+1196,gun,Indonesian,senjata,wrong_sense,senapan,med,= weapon (generic)
+1197,bomb,Russian,бомбить,wrong_pos,бомба,high,= "to bomb" verb
+1197,bomb,Hindi,बमबारी,wrong_sense,बम,med,= bombing/bombardment
+1198,grenade,Japanese,手ren弾,garbage,手榴弾,high,corrupted with latin "ren"
+1199,scales,Finnish,skaalat,wrong_sense,vaaka,high,= "scales/scale up" not weighing scale
+1199,scales,Spanish,escamas,wrong_sense,balanza,high,= fish scales
+1199,scales,Vietnamese,quy mô,wrong_sense,cái cân,high,= scale/magnitude
+1199,scales,Japanese,スケール,wrong_sense,はかり,high,= scale/magnitude (loan)
+1199,scales,Turkish,ölçek,wrong_sense,terazi,high,= scale/measure/scoop
+1199,scales,Arabic,مقاييس,wrong_sense,ميزان,high,= measurements
+1199,scales,Greek,ζυγός,likely_wrong,ζυγαριά,med,= yoke/balance beam
+1200,cage,Swahili,ngome,likely_wrong,kizimba,med,= fort/fortress
+1201,barrel,Russian,ствол,wrong_sense,бочка,high,= tree trunk / gun barrel
+1202,bucket,Indonesian,keranjang,wrong_sense,ember,high,= basket
+1202,bucket,Korean,버킷,likely_wrong,양동이,med,English loan; native 양동이
+1203,hoe,Arabic,مجرفة,wrong_sense,معزقة,med,= shovel/spade
+1205,sickle,Hindi,सिकल,untranslated,हँसिया,med,English "sickle" transliterated
+1206,bellows,Hungarian,bellows,untranslated,fújtató,med,English left as-is
+1206,bellows,Russian,сильфовать,garbage,мехи,high,not a real word
+1206,bellows,Vietnamese,bellows,untranslated,bễ,med,English left as-is
+1206,bellows,Japanese,ベローズ,likely_wrong,ふいご,med,English loan; native ふいご
+1206,bellows,Swahili,kengele,wrong_sense,mvukuto,med,= bell
+1206,bellows,Hindi,पर्दों,wrong_sense,धौंकनी,high,= curtains
+1207,mill,Finnish,höyrystää,wrong_sense,mylly,high,= "to vaporize"
+1207,mill,Korean,밀,wrong_sense,방앗간,high,밀 = wheat
+1207,mill,Japanese,工場,wrong_sense,製粉所,med,= factory
+1207,mill,Indonesian,pabrik,likely_wrong,penggilingan,low,= factory
+1208,pestle,Hebrew,בוכנה,wrong_sense,עלי,med,= piston/plunger
+1208,pestle,Swahili,pestle,untranslated,mchi,med,English left as-is
+1209,mortar,Hungarian,aknavető,wrong_sense,mozsár,high,= mortar (artillery)
+1209,mortar,Finnish,laasti,wrong_sense,huhmar,high,= mortar (cement)
+1209,mortar,Russian,раствор,wrong_sense,ступка,high,= mortar (cement)/solution
+1209,mortar,German,granatwerfer,wrong_sense,Mörser,high,= grenade launcher
+1209,mortar,Korean,박격포,wrong_sense,절구,high,= mortar (artillery)
+1209,mortar,Indonesian,mortir,wrong_sense,lesung,med,= mortar (weapon)
+1209,mortar,Thai,ปูน,wrong_sense,ครก,med,= cement/lime
+1209,mortar,Turkish,harç,wrong_sense,havan,med,= mortar (cement)/expense
+1209,mortar,Arabic,مونة الاسمنت,wrong_sense,هاون,high,= cement mortar
+1209,mortar,Hebrew,מרגמה,wrong_sense,מכתש,high,= mortar (artillery)
+1209,mortar,Swahili,chokaa,wrong_sense,kinu,med,= lime/whitewash
+1209,mortar,Hindi,गारा,wrong_sense,ओखली,med,= mortar (mud/cement mix)
+1209,mortar,Vietnamese,vữa,wrong_sense,cối,med,= mortar (cement)
+1209,mortar,Japanese,モルタル,wrong_sense,乳鉢,med,= building mortar (loan)
+1210,dustpan,Greek,σκόνη,wrong_sense,φαράσι,high,= dust
+1210,dustpan,Russian,пыль,wrong_sense,совок,high,= dust
+1210,dustpan,German,schaufel,wrong_sense,Kehrblech,high,= shovel
+1210,dustpan,Vietnamese,vũi bụi,garbage,ki hốt rác,med,garbled
+1210,dustpan,Japanese,ほこり,wrong_sense,ちりとり,high,= dust
+1210,dustpan,Korean,더스트 스팬,garbage,쓰레받기,high,garbled "dust span"
+1210,dustpan,Thai,โพรง,wrong_sense,ที่ตักผง,high,= hollow/cavity
+1210,dustpan,Indonesian,dustpan,untranslated,pengki,med,English left as-is
+1210,dustpan,Hindi,डस्टपैन,untranslated,सूप,med,English "dustpan" transliterated
+1210,dustpan,Swahili,vumbi,wrong_sense,peni la taka,med,= dust
+1211,pivot,Finnish,kääntää,wrong_pos,tappi,high,= "to turn" verb
+1211,pivot,Russian,вращаться,wrong_pos,ось,high,= "to rotate" verb
+1211,pivot,German,drehzahl,wrong_sense,Drehpunkt,high,= rotational speed/RPM
+1211,pivot,Hungarian,lendület,wrong_sense,forgáspont,med,= momentum/impetus
+1211,pivot,Thai,หมุน,wrong_pos,จุดหมุน,med,= "to spin" verb
+1212,spindle,Vietnamese,con quay,wrong_sense,cái suốt,med,= spinning top
+1212,spindle,Korean,축,likely_wrong,방추,med,= axis/shaft
+1212,spindle,Hebrew,נול,wrong_sense,כישור,high,= loom
+1213,shuttle,Hungarian,komp,wrong_sense,vetélő,high,= ferry
+1213,shuttle,German,pendeln,wrong_pos,Weberschiff,high,= "to commute" verb
+1213,shuttle,Russian,шаттл,wrong_sense,челнок,med,= space shuttle / shuttle bus
+1213,shuttle,Vietnamese,xe đưa đón,wrong_sense,con thoi,med,= shuttle bus
+1213,shuttle,Korean,우주선,wrong_sense,북,high,= spacecraft
+1213,shuttle,Thai,รถรับส่ง,wrong_sense,กระสวย,med,= shuttle vehicle
+1213,shuttle,Indonesian,pesawat ulang -alik,wrong_sense,torak,med,= space shuttle
+1213,shuttle,Turkish,servis aracı,wrong_sense,mekik,med,= service vehicle
+1213,shuttle,Arabic,خدمة النقل,wrong_sense,مكوك,high,= transport service
+1214,fiber,Arabic,الأساسية,wrong_sense,ألياف,high,= "the fundamental/basic"
+1216,warp,Thai,วิปริต,wrong_sense,เส้นด้ายยืน,high,= perverted/deviant
+1216,warp,Hungarian,görbületi,wrong_sense,láncfonál,med,= "curvature" adjective
+1216,warp,Arabic,اللحمة,wrong_sense,السدى,med,= the weft (opposite)
+1216,warp,Hindi,रैप,untranslated,ताना,med,= "wrap" transliteration
+1217,weft,Hungarian,vetélkedő,wrong_sense,vetülékfonal,high,= quiz-show contestant
+1217,weft,Arabic,السداة,wrong_sense,اللحمة,high,= the warp (opposite)
+1217,weft,Thai,ผ้า,wrong_sense,เส้นด้ายพุ่ง,high,= cloth/fabric
+1217,weft,Hindi,कपड़ा,wrong_sense,बाना,high,= cloth/fabric
+1218,loom,Vietnamese,hiện ra dệt,garbage,khung cửi,med,garbled phrase
+1220,home,Vietnamese,trang chủ,wrong_sense,tổ ấm,high,= homepage (website)
+1220,home,Arabic,الصفحة الرئيسية,wrong_sense,بيت,high,= homepage (website)
+1220,home,German,heimat,likely_wrong,Zuhause,med,= homeland
+1220,home,Hungarian,haza,likely_wrong,otthon,med,= homeland
+1221,house,Hindi,हाउस,untranslated,मकान,med,English "house" transliterated
+1222,room,Arabic,مجال,wrong_sense,غرفة,high,= field/scope (abstract)
+1222,room,Hindi,रूम,untranslated,कमरा,med,English "room" transliterated
+1223,wall,Hindi,वॉल,untranslated,दीवार,med,English "wall" transliterated
+1224,floor,Russian,этаж,wrong_sense,пол,high,= storey/floor level
+1224,floor,Hebrew,קומה,wrong_sense,רצפה,high,= storey/floor level
+1224,floor,Hindi,मंजिल,wrong_sense,फ़र्श,high,= storey/destination
+1224,floor,Vietnamese,tầng lầu,wrong_sense,sàn nhà,med,= storey/floor level
+1230,pool,Hungarian,biliárd,wrong_sense,medence,high,= billiards
+1231,garden,Japanese,公園,wrong_sense,庭,high,= park
+1231,garden,Hindi,गार्डन,untranslated,बग़ीचा,med,English "garden" transliterated
+1232,yard,Russian,площадка,likely_wrong,двор,med,= playground/site
+1232,yard,Japanese,ヤード,wrong_sense,中庭,med,= yard (unit of length)
+1232,yard,Spanish,yarda,wrong_sense,patio,high,= yard (unit of length)
+1232,yard,Swahili,yadi,wrong_sense,ua,med,= yard (unit of length)
+1232,yard,Hindi,यार्ड,untranslated,आँगन,med,English "yard" transliterated
+1235,bathroom,Greek,τουαλέτα,wrong_sense,μπάνιο,med,= toilet
+1235,bathroom,Japanese,トイレ,wrong_sense,浴室,med,= toilet
+1237,study,Hungarian,tanulmány,wrong_sense,dolgozószoba,high,= academic essay
+1237,study,Finnish,opiskelu,wrong_sense,työhuone,high,= studying (activity)
+1237,study,Greek,μελέτη,wrong_sense,γραφείο,high,= study (research/act)
+1237,study,Russian,изучение,wrong_sense,кабинет,high,= studying (process)
+1237,study,German,lernen,wrong_pos,Arbeitszimmer,high,= "to learn" verb
+1237,study,Spanish,estudiar,wrong_pos,despacho,high,= "to study" verb
+1237,study,Italian,studia,wrong_pos,studio,high,= "he/she studies" verb
+1237,study,Vietnamese,nghiên cứu,wrong_sense,phòng làm việc,med,= research
+1237,study,Japanese,勉強,wrong_sense,書斎,high,= studying (activity)
+1237,study,Korean,공부하다,wrong_pos,서재,high,= "to study" verb
+1237,study,Thai,ศึกษา,wrong_pos,ห้องอ่านหนังสือ,med,= "to study" verb
+1237,study,Indonesian,belajar,wrong_pos,ruang belajar,med,= "to study" verb
+1237,study,Turkish,ders çalışma,wrong_sense,çalışma odası,med,= "studying lessons"
+1237,study,Arabic,دراسة,wrong_sense,مكتب,high,= study (subject/act)
+1237,study,Hebrew,לימוד,wrong_sense,חדר עבודה,med,= learning (act)
+1237,study,Swahili,kusoma,wrong_pos,chumba cha kusomea,med,= "to read/study" verb
+1237,study,Hindi,पढ़ाई,wrong_sense,अध्ययन कक्ष,high,= studying (act)
+1241,tap,Hungarian,koppintson a,phrase,csap,high,= "tap/click on" imperative
+1242,board,Finnish,hallitus,wrong_sense,lauta,high,= government/board of directors
+1242,board,Spanish,junta,wrong_sense,tabla,high,= board (committee)/joint
+1242,board,Turkish,devre kartı,wrong_sense,tahta,high,= circuit board
+1242,board,Hebrew,גלשן,wrong_sense,לוח,high,= surfboard
+1243,shelf,Japanese,シェルフ,likely_wrong,棚,med,English loan; native 棚
+1243,shelf,Hindi,शेल्फ,untranslated,ताक,med,English "shelf" transliterated
+1244,tray,Swahili,tray,untranslated,sinia,med,English left as-is
+1246,dustbin,Finnish,roskapöly,likely_wrong,roskakori,med,garbled compound "trash-dust"
+1246,dustbin,Indonesian,dustbin,untranslated,tempat sampah,med,English left as-is
+1246,dustbin,Swahili,vumbi,wrong_sense,pipa la taka,high,= dust
+1246,dustbin,Welsh,meinciau,wrong_sense,bin sbwriel,low,= benches
+1246,dustbin,Japanese,ダストビン,likely_wrong,ごみ箱,med,English loan; native ごみ箱
+1247,nursery,Greek,φυτώριο,wrong_sense,παιδικός σταθμός,high,= plant nursery
+1247,nursery,Russian,питомник,wrong_sense,ясли,high,= plant/animal nursery
+1247,nursery,Korean,양식장,wrong_sense,어린이집,high,= fish farm
+1247,nursery,Indonesian,pembibitan,wrong_sense,penitipan anak,med,= plant nursery
+1247,nursery,Hebrew,משתלה,wrong_sense,מעון יום,high,= plant nursery
+1247,nursery,Swahili,kitalu,wrong_sense,kituo cha kulelea watoto,med,= plant nursery/seedbed
+1248,hoop,Thai,ใส่ห่วง,phrase,ห่วง,med,= "put on a hoop" verb phrase
+1248,hoop,Hindi,हूप,untranslated,घेरा,med,English "hoop" transliterated
+1248,hoop,German,band,likely_wrong,Reifen,low,= ribbon/band
+1249,trampoline,Greek,σουμιές,wrong_sense,τραμπολίνο,high,= bed base/box spring
+1251,bench,Spanish,mesa de trabajo,wrong_sense,banco,high,= workbench/worktable
+1252,bar,Hungarian,bár,wrong_sense,rúd,high,= drinking bar / "although"
+1252,bar,Korean,술집,wrong_sense,막대,high,= pub/tavern
+1252,bar,Vietnamese,quán ba,wrong_sense,thanh,med,= drinking bar
+1252,bar,Arabic,شريط,wrong_sense,قضيب,med,= ribbon/strip/tape
+1252,bar,Hebrew,בר,likely_wrong,מוט,med,= drinking bar
+1252,bar,Swahili,baa,wrong_sense,pau,med,= drinking bar
+1254,balloon,Russian,баллон,wrong_sense,воздушный шар,high,= gas cylinder/canister
+1254,balloon,Thai,บอลลูน,likely_wrong,ลูกโป่ง,med,English loan; native ลูกโป่ง
+1255,slide,Hindi,स्लाइड,untranslated,फिसलपट्टी,med,English "slide" transliterated
+1256,swing,Hungarian,swing,untranslated,hinta,med,English left as-is
+1256,swing,Hebrew,לנדנד,wrong_pos,נדנדה,med,= "to swing/rock" verb
+1257,seesaw,Swahili,msumeno,wrong_sense,pembea,high,= saw (the tool)
+1257,seesaw,Russian,качели,likely_wrong,качели-балансир,med,= swing (generic)
+1257,seesaw,Hindi,झूला,likely_wrong,सीसॉ,med,= swing
+1257,seesaw,Korean,널,likely_wrong,시소,low,= plank / Korean jumping game
+1258,merry-go-around,Hungarian,körbekerült,garbage,körhinta,high,= "went around" past-tense verb
+1258,merry-go-around,Finnish,ylhäällä oleva,garbage,karuselli,high,= "the one up above"
+1258,merry-go-around,Greek,εύστορα,garbage,καρουζέλ,high,not a word
+1258,merry-go-around,Welsh,llawen-go-o gwmpas,garbage,ceffylau bach,high,word-for-word calque
+1258,merry-go-around,Vietnamese,vui vẻ xung quanh,phrase,đu quay,high,literal "happy around"
+1258,merry-go-around,Japanese,メリーゴーアラウンド,garbage,回転木馬,high,transliterates the misspelled headword
+1258,merry-go-around,Korean,메리-거주지,garbage,회전목마,high,= "merry-residence"
+1258,merry-go-around,Thai,ความร่าเริงรอบ,phrase,ม้าหมุน,high,literal "cheerfulness around"
+1258,merry-go-around,Indonesian,merry-go-around,untranslated,komidi putar,high,English left as-is
+1258,merry-go-around,Arabic,مرح,wrong_sense,خيل دوارة,high,= "fun/merriment" only
+1258,merry-go-around,Hebrew,מסביב שמח,phrase,קרוסלה,high,literal "around happy"
+1258,merry-go-around,Swahili,merry-go-around,untranslated,mzunguko,high,English left as-is
+1258,merry-go-around,Hindi,मेररी आस पास जाओ,phrase,घूमने वाला झूला,high,literal "merry go around" imperative
+1261,sandpit,Hungarian,homokbánya,wrong_sense,homokozó,high,= sand quarry/mine
+1261,sandpit,Russian,песочный,wrong_pos,песочница,high,= "sandy" adjective
+1261,sandpit,Spanish,mina de arena,wrong_sense,arenero,high,= sand mine
+1261,sandpit,Greek,άμμος,wrong_sense,αμμοδόχος,high,= sand
+1261,sandpit,Turkish,zımpara,wrong_sense,kum havuzu,high,= sandpaper/emery
+1261,sandpit,Thai,ทราย,wrong_sense,บ่อทราย,high,= sand
+1261,sandpit,Indonesian,daerah tanjung berpasir,phrase,bak pasir,med,= "sandy cape area"
+1261,sandpit,Hindi,रेत की खान,wrong_sense,रेत का गड्ढा,high,= sand mine
+1262,building block,Russian,структурный элемент,wrong_sense,кубик,high,= structural element (abstract)
+1262,building block,Greek,οικοδομικό τετράγωνο,wrong_sense,τουβλάκι,med,= city block
+1262,building block,Italian,elemento costitutivo,wrong_sense,mattoncino,med,= constituent element (abstract)
+1262,building block,Thai,ตึก,wrong_sense,บล็อกตัวต่อ,high,= building
+1262,building block,Turkish,yapıtaşı,likely_wrong,oyuncak küp,med,= cornerstone (figurative)
+1263,puppet,Russian,кукольный,wrong_pos,марионетка,high,= "puppet" adjective
+1263,puppet,Swahili,bomba,wrong_sense,bandia,med,= bomb/pipe/cool
+1264,doll,Arabic,لعبة,wrong_sense,دمية,med,= toy/game (generic)
+1264,doll,Swahili,doll,untranslated,mwanasesere,med,English left as-is
+1266,attic,Korean,애틱,untranslated,다락방,high,English "attic" transliterated
+1267,basement,Korean,최하부,wrong_sense,지하실,high,= "the lowest part"
+1267,basement,Indonesian,basement,untranslated,ruang bawah tanah,med,English left as-is
+1269,car,Arabic,جمل,wrong_sense,سيارة,high,= camel
+1269,car,Hindi,car,untranslated,गाड़ी,med,English left as-is
+1270,cart,Indonesian,keranjang,wrong_sense,gerobak,high,= basket
+1270,cart,Swahili,gari,wrong_sense,mkokoteni,med,= vehicle/car (generic)
+1270,cart,Hindi,कार्ट,untranslated,ठेला,med,English "cart" transliterated
+1271,shopping cart,Turkish,alışveriş kartı,wrong_sense,alışveriş arabası,high,= "shopping card"
+1272,wheel,Russian,рулевое колесо,wrong_sense,колесо,high,= steering wheel
+1272,wheel,Hindi,व्हील,untranslated,पहिया,med,English "wheel" transliterated
+1273,train,Finnish,kouluttaa,wrong_pos,juna,high,= "to train/educate" verb
+1273,train,Russian,тренироваться,wrong_pos,поезд,high,= "to train/exercise" verb
+1273,train,Arabic,يدرب,wrong_pos,قطار,high,= "he trains"
+1274,plane,Greek,επίπεδο,wrong_sense,αεροπλάνο,high,= level/flat surface
+1274,plane,Hindi,प्लेन,untranslated,विमान,med,English "plane" transliterated
+1278,boat,Hungarian,hajós,wrong_pos,csónak,high,= sailor/nautical (adj)
+1278,boat,Indonesian,kapal,likely_wrong,perahu,med,= ship
+1279,ship,Indonesian,mengirimkan,wrong_pos,kapal,high,= "to send/deliver" verb
+1279,ship,Spanish,embarcacion,likely_wrong,barco,low,= vessel (generic)
+1280,tire,Turkish,yorulmak,wrong_pos,lastik,high,= "to get tired" verb
+1281,gasoline,Hungarian,gázolaj,wrong_sense,benzin,high,= diesel/gas oil
+1288,table,Hindi,तालिका,wrong_sense,मेज़,high,= table (chart/list)
+1289,chair,Swahili,mwenyekiti,wrong_sense,kiti,high,= chairperson
+1290,bed,Hindi,bed,untranslated,बिस्तर,med,English left as-is
+1291,bed sheet,German,bettdecke,wrong_sense,Bettlaken,high,= duvet/blanket
+1291,bed sheet,Welsh,wely,wrong_sense,cynfas,low,= "bed"
+1292,quilt,German,decke,likely_wrong,Steppdecke,med,= blanket/cover
+1292,quilt,Vietnamese,may chăn,wrong_pos,chăn bông,med,= "to sew a blanket"
+1292,quilt,Thai,ผ้าห่ม,likely_wrong,ผ้านวม,med,= blanket
+1292,quilt,Swahili,mto,wrong_sense,mfarishi,high,= pillow
+1295,wardrobe,Swahili,wardrobe,untranslated,kabati la nguo,med,English left as-is
+1295,wardrobe,Indonesian,pakaian,wrong_sense,lemari pakaian,high,= clothing
+1296,closet,Finnish,kaapeli,wrong_sense,komero,high,= cable
+1300,torch,Finnish,taskulamppu,wrong_sense,soihtu,high,= flashlight
+1300,torch,Welsh,fflachlampau,wrong_sense,ffagl,low,= flashlights
+1300,torch,Korean,토치,likely_wrong,횃불,med,English loan; native 횃불
+1301,incense,Arabic,عطور,wrong_sense,بخور,med,= perfumes
+1302,cigarette,Japanese,シガレット,likely_wrong,タバコ,med,English loan; native タバコ
+1303,lock,German,sperren,wrong_pos,Schloss,high,= "to lock/block" verb
+1303,lock,Spanish,cerrar,wrong_pos,cerradura,high,= "to close" verb
+1303,lock,Korean,잠그다,wrong_pos,자물쇠,high,= "to lock" verb
+1303,lock,Hebrew,לנעול,wrong_pos,מנעול,med,= "to lock" verb
+1303,lock,Swahili,funga,wrong_pos,kufuli,med,= "to close/tie" verb
+1303,lock,Japanese,ロック,likely_wrong,錠,med,English loan (also "rock")
+1305,comb,Hungarian,comb,wrong_sense,fésű,high,comb = "thigh" in Hungarian
+1305,comb,Swahili,kuchanganya,wrong_pos,kitana,high,= "to mix/combine" verb
+1307,pin,Russian,приколоть,wrong_pos,булавка,high,= "to pin" verb
+1307,pin,Hungarian,pin,untranslated,gombostű,med,English left as-is
+1308,thread,Vietnamese,chủ đề,wrong_sense,sợi chỉ,high,= topic/discussion thread
+1308,thread,German,gewinde,wrong_sense,Faden,high,= screw thread
+1308,thread,Thai,เกลียว,wrong_sense,ด้าย,med,= screw thread/spiral
+1308,thread,Arabic,مسلك,wrong_sense,خيط,high,= path/route
+1308,thread,Swahili,thread,untranslated,uzi,med,English left as-is
+1309,wire,German,kabel,likely_wrong,Draht,med,= cable
+1309,wire,Indonesian,kabel,likely_wrong,kawat,med,= cable
+1310,bag,Turkish,sırt çantası,wrong_sense,çanta,high,= backpack
+1312,basket,Hindi,बास्केट,untranslated,टोकरी,med,English "basket" transliterated
+1313,net,Hungarian,webes,wrong_sense,háló,high,= "web-based" adjective
+1313,net,Greek,ιστός,wrong_sense,δίχτυ,high,= web/mast/tissue
+1313,net,Russian,веб -,wrong_sense,сеть,high,= "web-" prefix
+1313,net,Spanish,web,wrong_sense,red,high,= web
+1313,net,Italian,ragnatela,wrong_sense,rete,high,= spiderweb/cobweb
+1313,net,Vietnamese,web,wrong_sense,lưới,high,= web
+1313,net,Japanese,ウェブ,wrong_sense,網,high,= web
+1313,net,Korean,편물,wrong_sense,그물,high,= knitwear/knitted fabric
+1313,net,Thai,เว็บ,wrong_sense,ตาข่าย,high,= web
+1313,net,Indonesian,web,wrong_sense,jaring,high,= web
+1313,net,Arabic,الويب,wrong_sense,شبكة,high,= the web
+1313,net,Hebrew,אינטרנט,wrong_sense,רשת,high,= internet
+1313,net,Hindi,वेब,wrong_sense,जाल,high,= web
+1313,net,Welsh,we,wrong_sense,rhwyd,low,= web
+1315,ring,Russian,звенеть,wrong_pos,кольцо,high,= "to ring/jingle" verb
+1315,ring,Italian,squillo,wrong_sense,anello,high,= phone ring / call-girl
+1315,ring,Hindi,रिंग,untranslated,अंगूठी,med,English "ring" transliterated
+1316,eyeglasses,Welsh,eyeglasses,untranslated,sbectol,low,English left as-is
+1321,letter,Hungarian,levele,wrong_sense,betű,high,= "his/her letter (mail)"; anchor is alphabet letter
+1322,paper,Japanese,論文,wrong_sense,紙,high,= academic paper/thesis
+1322,paper,Hebrew,עיתון,wrong_sense,נייר,high,= newspaper
+1323,book,German,buchen,wrong_pos,Buch,high,= "to book/reserve" verb
+1323,book,Italian,prenotare,wrong_pos,libro,high,= "to book/reserve" verb
+1328,pen,Finnish,harjata,wrong_pos,kynä,high,= "to brush" verb
+1328,pen,Spanish,lápiz,wrong_sense,bolígrafo,high,= pencil
+1329,brush,Finnish,muste,wrong_sense,harja,high,= ink
+1329,brush,Spanish,cepillar,wrong_pos,cepillo,high,= "to brush" verb
+1329,brush,Japanese,みがきます,wrong_pos,ブラシ,high,= "polishes/brushes" verb
+1329,brush,Vietnamese,chải,wrong_pos,bàn chải,med,= "to comb/brush" verb
+1329,brush,Turkish,fırçalamak,wrong_pos,fırça,high,= "to brush" verb
+1330,ink,Finnish,kirje,wrong_sense,muste,high,= letter (mail)
+1331,letter,Finnish,huomautus,wrong_sense,kirje,high,= note/remark/reprimand
+1331,letter,German,buchstabe,wrong_sense,Brief,high,= letter of the alphabet
+1331,letter,Hindi,अक्षर,wrong_sense,पत्र,high,= letter of the alphabet
+1332,stamp,Hungarian,pecsét,wrong_sense,bélyeg,med,= seal/rubber stamp
+1332,stamp,Russian,печать,wrong_sense,марка,high,= seal/rubber stamp
+1332,stamp,Greek,σφραγίδα,wrong_sense,γραμματόσημο,med,= seal/rubber stamp
+1332,stamp,Finnish,leima,likely_wrong,postimerkki,med,= postmark/rubber stamp
+1332,stamp,Arabic,ختم,wrong_sense,طابع بريدي,med,= seal/rubber stamp
+1332,stamp,Indonesian,stempel,wrong_sense,perangko,med,= rubber stamp/seal
+1332,stamp,Swahili,muhuri,wrong_sense,stempu,med,= official seal
+1332,stamp,Hebrew,חותמת,wrong_sense,בול,med,= rubber stamp/seal
+1332,stamp,Thai,ประทับ,wrong_pos,แสตมป์,med,= "to stamp" verb
+1332,stamp,Hindi,स्टैम्प,untranslated,डाक टिकट,med,English "stamp" transliterated
+1334,note,Finnish,maali-,wrong_sense,muistiinpano,high,= "paint-/goal-" combining form
+1334,note,German,hinweis,wrong_sense,Notiz,med,= hint/notice
+1334,note,Swahili,kumbuka,wrong_pos,kidokezo,high,= "to remember" verb
+1335,paint,Finnish,kuva,wrong_sense,maali,high,= picture/image
+1335,paint,Russian,покрасить,wrong_pos,краска,high,= "to paint" verb
+1335,paint,German,malen,wrong_pos,Farbe,high,= "to paint" verb
+1335,paint,Italian,dipingere,wrong_pos,vernice,high,= "to paint" verb
+1335,paint,Indonesian,melukis,wrong_pos,cat,med,= "to draw/paint" verb
+1335,paint,Turkish,boyamak,wrong_pos,boya,high,= "to paint/dye" verb
+1335,paint,Arabic,رسم,wrong_pos,طلاء,high,= drawing / "to draw"
+1336,picture,Hungarian,fénykép,wrong_sense,kép,med,= photograph
+1336,picture,Finnish,valokuva,wrong_sense,kuva,med,= photograph
+1336,picture,Spanish,fotografía,wrong_sense,imagen,med,= photograph
+1336,picture,Japanese,写真,wrong_sense,絵,med,= photograph
+1337,frame,Swahili,sura,wrong_sense,fremu,med,= chapter/appearance/face
+1337,frame,Hindi,फ़्रेम,untranslated,चौखट,med,English "frame" transliterated
+1338,photograph,Finnish,lelu,wrong_sense,valokuva,high,= toy
+1338,photograph,Thai,ถ่ายภาพ,wrong_pos,ภาพถ่าย,med,= "to photograph" verb
+1338,photograph,Arabic,تصوير,wrong_sense,صورة فوتوغرافية,med,= photography (act)
+1339,map,Hindi,मैप,untranslated,नक़्शा,med,English "map" transliterated
+1341,table,Hungarian,asztal,wrong_sense,táblázat,med,furniture table; anchor is data table
+1341,table,Finnish,pöytä,wrong_sense,taulukko,med,furniture table; anchor is data table
+1341,table,Russian,стол,wrong_sense,таблица,med,furniture table; anchor is data table
+1341,table,German,tisch,wrong_sense,Tabelle,med,furniture table; anchor is data table
+1341,table,Spanish,mesa,wrong_sense,tabla,med,furniture table; anchor is data table
+1341,table,Italian,tavolo,wrong_sense,tabella,med,furniture table; anchor is data table
+1341,table,Greek,τραπέζι,wrong_sense,πίνακας,med,furniture table; anchor is data table
+1341,table,Vietnamese,bàn,wrong_sense,bảng,med,furniture table; anchor is data table
+1341,table,Thai,โต๊ะ,wrong_sense,ตาราง,med,furniture table; anchor is data table
+1341,table,Indonesian,meja,wrong_sense,tabel,med,furniture table; anchor is data table
+1341,table,Turkish,masa,wrong_sense,tablo,med,furniture table; anchor is data table
+1341,table,Arabic,طاولة,wrong_sense,جدول,med,furniture table; anchor is data table
+1341,table,Hebrew,שולחן,wrong_sense,טבלה,med,furniture table; anchor is data table
+1341,table,Swahili,meza,wrong_sense,jedwali,med,furniture table; anchor is data table
+1344,schedule,Finnish,ajoittaa,wrong_pos,aikataulu,high,= "to schedule/time" verb
+1344,schedule,Turkish,takvim,likely_wrong,program,med,= calendar
+1346,ruler,Hungarian,uralkodó,wrong_sense,vonalzó,high,= ruler/monarch
+1346,ruler,Greek,κυβερνήτης,wrong_sense,χάρακας,high,= governor/captain
+1346,ruler,German,herrscher,wrong_sense,Lineal,high,= ruler/sovereign
+1346,ruler,Spanish,gobernante,wrong_sense,regla,high,= ruler/governor (person)
+1346,ruler,Italian,governate,wrong_sense,righello,high,= governor/ruler (person)
+1346,ruler,Swahili,mtawala,wrong_sense,rula,med,= ruler/governor (person)
+1346,ruler,Hindi,शासक,wrong_sense,फुटपट्टी,high,= ruler/sovereign (person)
+1347,toy,Finnish,kello,wrong_sense,lelu,high,= clock/bell
+1347,toy,Swahili,toy,untranslated,kichezeo,med,English left as-is
+1347,toy,Arabic,عروسه لعبه,likely_wrong,لعبة,med,= toy doll specifically
+1348,clock,Finnish,lamppu,wrong_sense,kello,high,= lamp
+1348,clock,Hindi,क्लॉक,untranslated,घड़ी,med,English "clock" transliterated
+1349,lamp,Finnish,tuuletin,wrong_sense,lamppu,high,= fan/ventilator
+1349,lamp,Russian,фонарь,likely_wrong,лампа,med,= lantern/flashlight
+1349,lamp,Vietnamese,nguồn sáng,wrong_sense,đèn,med,= "light source"
+1349,lamp,Hindi,बल्ब,wrong_sense,दीपक,med,= bulb

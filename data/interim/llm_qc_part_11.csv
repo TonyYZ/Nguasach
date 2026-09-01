@@ -1,0 +1,319 @@
+concept_id,english,language,ours,verdict,suggested,confidence,note
+1650,cleaner,Italian,più pulito,wrong_pos,addetto alle pulizie,high,comparative adjective more-clean
+1650,cleaner,Vietnamese,sạch hơn,wrong_pos,,med,comparative adjective cleaner
+1650,cleaner,Korean,청소기,wrong_sense,청소부,high,means vacuum cleaner
+1650,cleaner,Russian,очиститель,wrong_sense,уборщик,high,means purifier/cleaning agent
+1650,cleaner,Japanese,クリーナー,wrong_sense,清掃員,med,means cleaning device
+1650,cleaner,Thai,เครื่องทำความสะอาด,wrong_sense,พนักงานทำความสะอาด,med,means cleaning machine
+1650,cleaner,Swahili,safi,wrong_sense,msafishaji,med,means clean (adjective)
+1650,cleaner,Arabic,منظف,wrong_sense,عامل نظافة,med,means detergent
+1651,gardener,Swahili,bustani,wrong_sense,mtunza bustani,med,means garden not gardener
+1652,fisherman,Hungarian,horgász,wrong_sense,halász,med,means recreational angler
+1654,firefighter,Hindi,अग्निशमन,wrong_pos,दमकलकर्मी,med,means fire-extinguishing act not person
+1657,stewardess,Greek,τροφοδότης,wrong_sense,αεροσυνοδός,high,means caterer/supplier
+1657,stewardess,Thai,พนักงานเสิร์ฟ,wrong_sense,แอร์โฮสเตส,med,means waiter/server
+1657,stewardess,Hindi,भंडारिन,wrong_sense,परिचारिका,med,means female storekeeper
+1657,stewardess,Swahili,mwangalizi,wrong_sense,,low,means supervisor/caretaker
+1659,cook,Hungarian,főzés,wrong_pos,szakács,high,gerund cooking
+1659,cook,Russian,готовить пищу,phrase,повар,high,verb phrase to cook food
+1659,cook,Italian,cucinare,wrong_pos,cuoco,high,infinitive to cook
+1659,cook,Korean,요리하다,wrong_pos,요리사,high,verb to cook
+1659,cook,Thai,ทำอาหาร,wrong_pos,พ่อครัว,med,verb to cook
+1659,cook,Indonesian,memasak,wrong_pos,juru masak,med,verb to cook
+1659,cook,Turkish,pişirmek,wrong_pos,aşçı,high,infinitive to cook
+1659,cook,Arabic,يطبخ,wrong_pos,طباخ,high,verb he-cooks
+1659,cook,Hebrew,לְבַשֵׁל,wrong_pos,טבח,high,infinitive to cook
+1659,cook,Swahili,kupika,wrong_pos,mpishi,med,verb to cook
+1659,cook,Japanese,料理,wrong_sense,料理人,high,means cooking/cuisine not person
+1661,tailor,Finnish,räätälöidä,wrong_pos,räätäli,med,verb to tailor
+1661,tailor,Hebrew,לְהַתְאִים,wrong_pos,חייט,high,verb to fit/adjust
+1661,tailor,Swahili,tailor,untranslated,mshonaji,med,English left as-is
+1662,cashier,Russian,касса,wrong_sense,кассир,high,means cash register
+1662,cashier,Hungarian,pénztár,wrong_sense,pénztáros,med,means cash desk/till
+1662,cashier,Japanese,レジ,wrong_sense,レジ係,high,means cash register
+1662,cashier,Swahili,cashier,untranslated,keshia,low,English left as-is
+1664,optician,Vietnamese,bác sĩ nhãn khoa,wrong_sense,,med,means ophthalmologist
+1664,optician,Japanese,眼鏡学者,likely_wrong,眼鏡技師,med,odd coinage eyeglass-scholar
+1664,optician,Korean,안경도,likely_wrong,안경사,med,not a standard word
+1664,optician,Hindi,प्रकाशविज्ञानशास्री,wrong_sense,,med,means optics scientist
+1665,soldier,Hebrew,לוֹחֶם,wrong_sense,חייל,high,means fighter/combatant
+1667,bodyguard,Korean,친위대,wrong_sense,경호원,med,means royal guard unit
+1667,bodyguard,Vietnamese,bộ phận vệ sĩ,phrase,vệ sĩ,med,means bodyguard department
+1672,actor,Swahili,mtaalam,wrong_sense,mwigizaji,med,means expert/specialist
+1672,actor,Hindi,कर्ता,wrong_sense,अभिनेता,high,means doer/grammatical agent
+1674,edge,Hungarian,edge,untranslated,él,med,English left as-is
+1676,center,German,center,wrong_sense,Zentrum,high,English loan; German uses Zentrum/Mitte
+1676,center,Hungarian,center,wrong_sense,központ,med,English loan
+1676,center,Hindi,बीच,wrong_sense,केंद्र,med,means middle/between
+1677,point,Hungarian,point,untranslated,pont,med,English left as-is
+1677,point,Korean,가리키다,wrong_pos,점,high,verb to point
+1677,point,Arabic,هدف,wrong_sense,نقطة,high,means goal/target
+1677,point,Swahili,hatua,wrong_sense,nukta,med,means step/stage
+1677,point,Hindi,पाइंट,untranslated,बिंदु,med,transliteration of English
+1678,line,Turkish,astar,wrong_sense,çizgi,high,means lining of a garment
+1678,line,Finnish,linja,wrong_sense,viiva,low,means route/policy line
+1679,loop,Arabic,عقدة,wrong_sense,حلقة,high,means knot
+1679,loop,Spanish,círculo,wrong_sense,bucle,med,means circle
+1680,surface,German,auftauchen,wrong_pos,Oberfläche,high,verb to surface/emerge
+1680,surface,Japanese,水面,wrong_sense,表面,med,means water surface specifically
+1681,shape,German,gestalten,wrong_pos,Form,high,verb to shape/design
+1681,shape,Indonesian,membentuk,wrong_pos,bentuk,med,verb to form/shape
+1681,shape,Swahili,sura,wrong_sense,umbo,low,means chapter/face
+1682,circle,Swahili,mzunguko,wrong_sense,duara,med,means rotation/circulation
+1682,circle,Japanese,サークル,wrong_sense,円,med,means club/social circle
+1684,square,Russian,площадь,wrong_sense,квадрат,high,means area/town square
+1684,square,Vietnamese,quảng trường,wrong_sense,hình vuông,med,means town plaza
+1684,square,Turkish,meydan,wrong_sense,kare,high,means town plaza
+1684,square,Arabic,ميدان,wrong_sense,مربع,high,means town plaza
+1684,square,Hebrew,כיכר,wrong_sense,ריבוע,high,means town plaza
+1686,ball,Hungarian,ball,untranslated,labda,med,English left as-is (Hun ball=dance)
+1686,ball,Hindi,बॉल,untranslated,गेंद,med,transliteration of English
+1687,lump,Finnish,köyde,likely_wrong,möykky,med,not a standard word
+1687,lump,Vietnamese,cục bướu,wrong_sense,cục,med,means tumor/growth
+1689,knot,Swahili,knot,untranslated,fundo,med,English left as-is
+1690,time,Spanish,hora,wrong_sense,tiempo,high,means hour/clock time
+1690,time,Korean,시각,wrong_sense,시간,med,means point in time/moment
+1691,place,Hindi,प्लेस,untranslated,जगह,med,transliteration of English
+1692,space,Russian,космос,wrong_sense,пространство,high,means outer space/cosmos
+1692,space,Korean,우주,wrong_sense,공간,med,means universe/outer space
+1692,space,Indonesian,ruang angkasa,wrong_sense,ruang,med,means outer space
+1692,space,Turkish,uzay,wrong_sense,boşluk,high,means outer space
+1694,matter,Hungarian,számít,wrong_sense,anyag,high,verb it-matters/to-count
+1694,matter,Swahili,jambo,wrong_sense,maada,med,means affair/issue not physical matter
+1695,weight,Hungarian,tömeg,wrong_sense,súly,high,means mass/crowd
+1695,weight,Russian,масса,wrong_sense,вес,high,means mass
+1696,volume,Greek,ενταση ηχου,wrong_sense,όγκος,high,means sound loudness
+1696,volume,Vietnamese,âm lượng,wrong_sense,thể tích,med,means sound loudness
+1696,volume,Japanese,音量,wrong_sense,体積,high,means sound loudness
+1696,volume,Korean,용량,wrong_sense,부피,med,means capacity
+1696,volume,Turkish,ses,wrong_sense,hacim,high,means sound/voice
+1696,volume,Arabic,الصوت,wrong_sense,حجم,high,means the sound
+1696,volume,Hindi,आवाज़,wrong_sense,आयतन,high,means voice/sound
+1696,volume,Thai,ปริมาณ,wrong_sense,ปริมาตร,med,means quantity/amount
+1696,volume,Hebrew,כרך,wrong_sense,נפח,high,means book tome
+1696,volume,Swahili,kiasi,wrong_sense,ujazo,med,means amount/quantity
+1699,height,Japanese,身長,wrong_sense,高さ,med,means body height of person
+1699,height,Korean,키,wrong_sense,높이,med,means bodily stature
+1701,frequency,Swahili,mara kwa mara,phrase,marudio,low,adverb phrase frequently
+1702,amplitude,Thai,ความกว้าง,wrong_sense,แอมพลิจูด,low,means width
+1703,distance,Welsh,bellaf,wrong_pos,pellter,low,means furthest (superlative); Welsh
+1703,distance,Hindi,अलहदा,wrong_sense,दूरी,high,means separate/apart
+1704,gap,Arabic,الفارق,wrong_sense,فجوة,low,means the difference
+1705,ground,Spanish,terrestre,wrong_pos,suelo,high,adjective terrestrial
+1705,ground,Japanese,接地,wrong_sense,地面,high,means electrical grounding
+1705,ground,Finnish,pohja,wrong_sense,maa,low,means bottom/base
+1705,ground,Hindi,मैदान,wrong_sense,ज़मीन,med,means field/open ground
+1706,burden,Arabic,حرج,wrong_sense,عبء,high,means embarrassment/awkwardness
+1706,burden,Turkish,sorumluluk,wrong_sense,yük,med,means responsibility
+1707,structure,Russian,состав,wrong_sense,структура,med,means composition/roster
+1707,structure,Hungarian,építmény,wrong_sense,szerkezet,med,means building/edifice
+1707,structure,Arabic,بناء,wrong_sense,بنية,med,means building/construction
+1708,displacement,Korean,배수량,wrong_sense,변위,med,means naval water displacement
+1708,displacement,Thai,การกำจัด,wrong_sense,การกระจัด,med,means removal/elimination
+1708,displacement,Italian,dislocamento,wrong_sense,spostamento,med,means naval dislocation
+1708,displacement,Indonesian,pemindahan,wrong_sense,perpindahan,low,means transfer/moving
+1710,speed,Welsh,goryrru,wrong_pos,buanedd,low,verb to speed; Welsh
+1713,magnitude,Arabic,ضخامة,wrong_sense,مقدار,low,means hugeness/bulkiness
+1715,force,Finnish,pakottaa,wrong_pos,voima,med,verb to force/compel
+1715,force,German,gewalt,wrong_sense,Kraft,high,means violence/coercive force
+1715,force,Indonesian,memaksa,wrong_pos,gaya,med,verb to force/compel
+1715,force,Arabic,فرض,wrong_sense,قوة,high,means to impose/hypothesis
+1715,force,Thai,บังคับ,wrong_pos,แรง,med,verb to force/compel
+1715,force,Hindi,फ़ोर्स,untranslated,बल,med,transliteration of English
+1717,gravity,Hindi,गम्भीरता,wrong_sense,गुरुत्वाकर्षण,high,means seriousness/solemnity
+1718,inertia,Arabic,التعطيل,wrong_sense,القصور الذاتي,high,means disabling/obstruction
+1720,impulse,Korean,충동,wrong_sense,충격량,med,means psychological urge
+1720,impulse,Japanese,衝動,wrong_sense,力積,high,means psychological urge
+1720,impulse,Vietnamese,thúc đẩy,wrong_sense,xung lượng,med,verb to promote/motivate
+1720,impulse,Hebrew,דַחַף,wrong_sense,מתקף,med,means psychological urge
+1720,impulse,Turkish,dürtü,wrong_sense,itme,med,means psychological urge
+1721,pressure,Turkish,baskı yapmak,phrase,basınç,high,verb phrase to apply pressure
+1721,pressure,Japanese,プレッシャー,wrong_sense,圧力,high,means psychological pressure
+1721,pressure,Vietnamese,áp lực,wrong_sense,áp suất,med,figurative pressure not physics
+1721,pressure,Thai,ความกดดัน,wrong_sense,ความดัน,med,means psychological pressure
+1722,momentum,Vietnamese,quán tính,wrong_sense,động lượng,high,means inertia
+1722,momentum,Japanese,勢い,wrong_sense,運動量,high,means vigor colloquial
+1722,momentum,Korean,기세,wrong_sense,운동량,med,means spirit/vigor figurative
+1722,momentum,Turkish,itme,wrong_sense,momentum,med,means push/thrust
+1722,momentum,Arabic,قوة الدفع,wrong_sense,زخم,med,means propulsion/thrust
+1722,momentum,Hebrew,תְנוּפָה,wrong_sense,תנע,med,means swing/figurative momentum
+1722,momentum,Hindi,आवेग,wrong_sense,संवेग,med,means impulse
+1722,momentum,Finnish,vauhti,wrong_sense,liikemäärä,med,means speed/pace
+1722,momentum,German,schwung,wrong_sense,Impuls,med,means swing/figurative momentum
+1722,momentum,Spanish,impulso,wrong_sense,cantidad de movimiento,low,means impulse/impetus
+1724,atom,Hindi,अणु,wrong_sense,परमाणु,high,means molecule
+1727,ray,Hungarian,ray,untranslated,sugár,med,English left as-is
+1727,ray,Italian,ray,untranslated,raggio,high,English left as-is
+1727,ray,Japanese,レイ,untranslated,光線,med,transliteration of English
+1727,ray,Korean,레이,untranslated,광선,med,transliteration of English
+1727,ray,Thai,เรย์,untranslated,รังสี,med,transliteration of English
+1727,ray,Turkish,ray,wrong_sense,ışın,high,means rail (train track)
+1727,ray,Swahili,ray,untranslated,mwale,med,English left as-is
+1727,ray,Vietnamese,cá đuối,wrong_sense,tia,high,means stingray (fish)
+1727,ray,Hindi,रे,untranslated,किरण,med,transliteration of English
+1730,universe,Hebrew,עוֹלָם,wrong_sense,יקום,high,means world
+1732,galaxy,Hungarian,galaxy,untranslated,galaxis,med,English left as-is
+1732,galaxy,Swahili,galaxy,untranslated,galaksi,med,English left as-is
+1734,planet,Japanese,星,wrong_sense,惑星,high,means star
+1735,satellite,Italian,satellitare,wrong_pos,satellite,med,adjective satellite
+1735,satellite,Swahili,satellite,untranslated,satelaiti,low,English left as-is
+1736,meteor,Vietnamese,thiên thạch,wrong_sense,sao băng,med,means meteorite
+1736,meteor,Spanish,meteorito,wrong_sense,meteoro,low,means meteorite
+1738,crater,Hindi,गड्ढा,wrong_sense,क्रेटर,low,means pit/hole generic
+1741,solstice,Vietnamese,solstice,untranslated,điểm chí,med,English left as-is
+1741,solstice,Japanese,至福,wrong_sense,至点,high,means bliss/supreme happiness
+1741,solstice,Arabic,الانقلاب,wrong_sense,الانقلاب الشمسي,med,means coup/overturn alone
+1741,solstice,Swahili,solstice,untranslated,,low,English left as-is
+1741,solstice,Hindi,संक्रांति,wrong_sense,अयनांत,low,means solar transit/Sankranti
+1742,dawn,Finnish,kynnys,wrong_sense,aamunkoitto,high,means threshold/doorstep
+1742,dawn,German,dämmerung,wrong_sense,Morgendämmerung,low,alone reads as dusk
+1743,dusk,Spanish,oscuridad,wrong_sense,anochecer,high,means darkness
+1745,zodiac,Finnish,horoskooppi,wrong_sense,eläinrata,med,means horoscope
+1746,mercury,Hungarian,higany,wrong_sense,Merkúr,high,means the metal not planet
+1746,mercury,Finnish,elohopea,wrong_sense,Merkurius,high,means the metal not planet
+1746,mercury,German,quecksilber,wrong_sense,Merkur,high,means the metal not planet
+1746,mercury,Vietnamese,thủy ngân,wrong_sense,Sao Thủy,high,means the metal not planet
+1746,mercury,Korean,수은,wrong_sense,수성,high,means the metal not planet
+1746,mercury,Thai,ปรอท,wrong_sense,ดาวพุธ,high,means the metal not planet
+1746,mercury,Indonesian,air raksa,wrong_sense,Merkurius,high,means the metal not planet
+1746,mercury,Arabic,الزئبق,wrong_sense,عطارد,high,means the metal not planet
+1746,mercury,Hebrew,כַּספִּית,wrong_sense,כוכב חמה,high,means the metal not planet
+1746,mercury,Swahili,zebaki,wrong_sense,Utaridi,med,means the metal not planet
+1746,mercury,Hindi,पारा,wrong_sense,बुध,high,means the metal not planet
+1748,earth,Turkish,toprak,wrong_sense,Dünya,high,means soil/ground
+1749,crust,Hindi,क्रस्ट,untranslated,भूपर्पटी,med,transliteration of English
+1750,mantle,Italian,mantle terrestre,untranslated,mantello terrestre,med,embedded English mantle
+1751,core,Hindi,कोर,untranslated,क्रोड,med,transliteration of English
+1751,core,Thai,หลักของโลก,wrong_sense,แก่นโลก,med,reads as principle/pillar of world
+1751,core,Arabic,جوهر الأرض,wrong_sense,نواة الأرض,med,means essence of the earth
+1751,core,Korean,지구의 핵심,wrong_sense,지구 중심핵,low,means crux/essence figurative
+1751,core,Swahili,msingi wa dunia,wrong_sense,kiini cha dunia,low,means foundation of the earth
+1758,can,Finnish,tölkki,wrong_sense,voida,high,means a tin/can container
+1758,can,Hebrew,פחית,wrong_sense,יכול,high,means a tin/can container
+1759,must,Turkish,mutlak,wrong_sense,-meli,med,means absolute (adjective)
+1762,in,Japanese,の,wrong_sense,に,med,genitive particle of
+1763,on,Hungarian,tovább,wrong_sense,-on/-en/-ön,med,means further/onward
+1763,on,Welsh,ymlaen,wrong_sense,ar,med,means onward/forward
+1763,on,Turkish,açık,wrong_sense,üstünde,med,means open/switched-on
+1764,from,Hungarian,from,untranslated,-tól/-től,med,English left as-is
+1769,up,Greek,εναπόκειται,wrong_sense,πάνω,high,means it is up to someone
+1769,up,Russian,до,wrong_sense,вверх,high,means until/up to
+1769,up,Spanish,le corresponde,wrong_sense,arriba,high,means it is up to him
+1769,up,Italian,attivo,wrong_sense,su,high,means active/on
+1769,up,Hebrew,קם,wrong_pos,למעלה,high,verb he got up
+1769,up,Korean,위에 있습니다,phrase,위,med,sentence is on top
+1769,up,Thai,ก็ขึ้นอยู่,wrong_sense,ขึ้น,med,means depends on
+1769,up,Arabic,انها فوق,phrase,لأعلى,med,sentence it is above
+1769,up,Swahili,iko juu,phrase,juu,low,sentence it is above
+1770,down,Korean,다운되었습니다,wrong_sense,아래,high,means system is down
+1770,down,Hindi,bas,likely_wrong,नीचे,med,garbled latin bas
+1771,forward,Spanish,delantero,wrong_sense,adelante,high,means front/soccer forward
+1771,forward,Welsh,blaengar,wrong_sense,ymlaen,med,means progressive (adj)
+1771,forward,Korean,앞으로 나옵니다,phrase,앞으로,med,sentence comes forward
+1771,forward,Swahili,iko mbele,phrase,mbele,low,sentence it is in front
+1772,backwards,Welsh,tuag,likely_wrong,am yn ôl,low,means toward; Welsh
+1773,left,Finnish,jäljellä,wrong_sense,vasemmalle,high,means remaining/left over
+1773,left,Russian,осталось,wrong_sense,налево,high,means remained/left over
+1773,left,German,bleibt übrig,wrong_sense,links,high,means remains/left over
+1773,left,Spanish,se queda,wrong_sense,a la izquierda,high,means stays/remains
+1773,left,Italian,lasciato,wrong_sense,a sinistra,high,means left/abandoned participle
+1773,left,Vietnamese,còn lại,wrong_sense,bên trái,high,means remaining/left over
+1773,left,Thai,เหลืออยู่,wrong_sense,ทางซ้าย,med,means remaining/left over
+1773,left,Turkish,kaldı,wrong_sense,sola,high,means remained/is left
+1773,left,Arabic,لقد ترك,wrong_sense,لليسار,high,means he has left/abandoned
+1773,left,Hebrew,נשאר,wrong_sense,שמאלה,high,means remained/left over
+1773,left,Swahili,imesalia,wrong_sense,kushoto,med,means has remained/left over
+1774,right,Finnish,oikein,wrong_sense,oikealle,high,means correctly (adverb)
+1774,right,Greek,σωστό,wrong_sense,δεξιά,high,means correct
+1774,right,Russian,правильно,wrong_sense,направо,high,means correctly
+1774,right,German,richtig,wrong_sense,rechts,high,means correct
+1774,right,Spanish,correcto,wrong_sense,a la derecha,high,means correct
+1774,right,Italian,giusto,wrong_sense,a destra,high,means correct/fair
+1774,right,Korean,맞습니다,wrong_sense,오른쪽,high,sentence that is correct
+1774,right,Turkish,doğru,wrong_sense,sağa,high,means correct/straight
+1774,right,Arabic,هذا صحيح,wrong_sense,لليمين,high,sentence that is correct
+1774,right,Hebrew,נכון,wrong_sense,ימינה,high,means correct/true
+1774,right,Swahili,sawa,wrong_sense,kulia,med,means OK/equal/correct
+1774,right,Hindi,सही,wrong_sense,दाएँ,high,means correct/right
+1774,right,Vietnamese,đúng rồi,wrong_sense,bên phải,high,means that is correct
+1774,right,Thai,ถูกต้อง,wrong_sense,ทางขวา,med,means correct
+1775,into,Finnish,luona,wrong_sense,sisään,med,means at someones place
+1776,out,Russian,вышло,wrong_pos,наружу,high,verb it came out/turned out
+1776,out,Vietnamese,hết rồi,wrong_sense,ra ngoài,med,means all gone/used up
+1776,out,Korean,외출 중입니다,wrong_sense,밖으로,high,sentence is out of office
+1776,out,Turkish,dışarı çıktı,wrong_pos,dışarı,med,verb went out
+1776,out,Swahili,iko nje,phrase,nje,low,sentence it is outside
+1779,before,Hungarian,mielőtt,wrong_sense,előtt,med,temporal conjunction not spatial
+1779,before,Russian,до,wrong_sense,перед,high,temporal not spatial
+1779,before,Korean,전에,wrong_sense,앞에,med,temporal not spatial
+1779,before,Finnish,ennen,wrong_sense,edessä,med,temporal not spatial
+1779,before,Greek,πριν,wrong_sense,μπροστά από,med,temporal not spatial
+1779,before,Spanish,antes,wrong_sense,delante de,med,temporal not spatial
+1779,before,Italian,prima,wrong_sense,davanti a,med,temporal not spatial
+1779,before,Indonesian,sebelum,wrong_sense,di depan,med,temporal not spatial
+1779,before,Turkish,önce,wrong_sense,önünde,med,temporal not spatial
+1779,before,Arabic,قبل,wrong_sense,أمام,med,temporal not spatial
+1779,before,Swahili,kabla,wrong_sense,mbele ya,med,temporal not spatial
+1779,before,Hindi,पहले,wrong_sense,के सामने,med,temporal not spatial
+1779,before,Thai,ก่อน,wrong_sense,ข้างหน้า,med,temporal not spatial
+1781,top,Greek,μπλουζα,wrong_sense,κορυφή,high,means blouse/top garment
+1781,top,Finnish,ylhäältä,wrong_sense,yläosa,low,means from the top (ablative)
+1782,bottom,Italian,metter il fondo a,phrase,fondo,high,verb phrase to put a bottom on
+1785,left,Arabic,غادر,wrong_sense,يسار,high,verb he departed
+1786,right,Spanish,bien,wrong_sense,derecha,high,means well/good
+1786,right,Italian,giusto,wrong_sense,destra,high,means correct/fair
+1786,right,Russian,верно,wrong_sense,правый,high,means correct/true
+1786,right,Greek,σωστά,wrong_sense,δεξιά,high,means correctly
+1786,right,Hindi,सही,wrong_sense,दायाँ,high,means correct
+1786,right,Swahili,haki,wrong_sense,kulia,med,means justice/entitlement
+1789,with,Hungarian,with,untranslated,-val/-vel,med,English left as-is
+1794,about,Hungarian,körülbelül,wrong_sense,-ról/-ről,med,means approximately
+1794,about,Finnish,noin,wrong_sense,-sta/-stä,high,means approximately
+1794,about,Hindi,परिचय,wrong_sense,के बारे में,high,means introduction/acquaintance
+1794,about,Vietnamese,xung quanh,wrong_sense,về,med,means around/surrounding
+1795,of,Turkish,ile ilgili,wrong_sense,-in,med,means related to/concerning
+1796,or,Japanese,また,wrong_sense,または,med,means also/again
+1801,so,Turkish,böyle,wrong_sense,bu yüzden,med,means like this/such
+1802,for,Hungarian,for,untranslated,-ért,med,English left as-is
+1804,except,Arabic,يستثني,wrong_pos,إلا,high,verb he excludes
+1804,except,Hindi,मगर,wrong_sense,सिवाय,med,means but
+1809,just,Hungarian,csak,wrong_sense,az imént,med,means only not temporal just
+1809,just,Welsh,gyfiawn,wrong_sense,newydd,med,means righteous/fair
+1809,just,Hebrew,רַק,wrong_sense,הרגע,med,means only not temporal just
+1809,just,Hindi,बस,wrong_sense,अभी-अभी,med,means only/enough not temporal
+1811,yet,Hungarian,mégis,wrong_sense,még,med,means nevertheless not temporal yet
+1812,still,German,still,wrong_sense,noch immer,high,means quiet/silent
+1812,still,Welsh,llonyddaf,wrong_sense,o hyd,med,means calmest (adj)
+1812,still,Vietnamese,đứng yên,wrong_sense,vẫn,med,means motionless
+1812,still,Thai,นิ่ง,wrong_sense,ยังคง,med,means motionless/calm
+1812,still,Indonesian,tetap,wrong_sense,masih,low,means remain/fixed
+1812,still,Hindi,स्टिल,untranslated,अभी भी,high,transliteration of English
+1813,before,Turkish,önceki,wrong_pos,önce,low,means previous (adjective)
+1814,originally,Turkish,aslında,wrong_sense,başlangıçta,low,means actually/in fact
+1819,already,Arabic,سابقا,wrong_sense,بالفعل,med,means previously/formerly
+1819,already,Vietnamese,đã sẵn sàng,wrong_sense,rồi,med,means is ready/prepared
+1824,usually,Japanese,いつもの,wrong_pos,たいてい,med,attributive the-usual
+1833,sure,Korean,확실한,wrong_pos,물론,low,attributive adjective certain
+1837,almost,Arabic,بالكاد,wrong_sense,تقريبا,med,means barely/hardly
+1837,almost,Vietnamese,hầu hết,wrong_sense,gần như,med,means most/mostly
+1839,too,Spanish,también,wrong_sense,demasiado,high,means also (followed French)
+1839,too,Italian,pure,wrong_sense,troppo,high,means also/as well
+1839,too,Welsh,hefyd,wrong_sense,rhy,med,means also
+1839,too,Vietnamese,cũng vậy,wrong_sense,quá,med,means also/likewise
+1839,too,Japanese,それも,wrong_sense,すぎる,med,means that too/also
+1839,too,Korean,도,wrong_sense,너무,high,means also (particle)
+1839,too,Thai,ด้วย,wrong_sense,เกินไป,med,means also/as well
+1839,too,Indonesian,juga,wrong_sense,terlalu,high,means also
+1839,too,Arabic,أيضاً,wrong_sense,أكثر من اللازم,med,means also
+1839,too,Hebrew,גַם,wrong_sense,מדי,high,means also
+1839,too,Swahili,pia,wrong_sense,mno,med,means also
+1839,too,Hindi,too,untranslated,बहुत ज़्यादा,med,English left as-is
+1840,even,Russian,четное,wrong_sense,даже,high,means even number
+1840,even,Japanese,平,wrong_sense,さえ,high,means flat/level
+1840,even,Thai,สม่ำเสมอ,wrong_sense,แม้แต่,med,means consistent/steady
+1841,only,Hindi,तभी,wrong_sense,केवल,med,means only then
+1842,just,Welsh,gyfiawn,wrong_sense,dim ond,med,means righteous/fair
+1844,really,Vietnamese,có thật không,phrase,thật sự,med,interrogative really?
+1845,hello,Swahili,hello,untranslated,hujambo,med,English left as-is
+1845,hello,Hindi,hello,untranslated,नमस्ते,med,English left as-is
+1846,okay,Turkish,tamam aşkım,phrase,tamam,med,means okay my darling

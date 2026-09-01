@@ -1,0 +1,482 @@
+concept_id,english,language,ours,verdict,suggested,confidence,note
+1350,fan,Hun,fanni,likely_wrong,ventilátor,med,not a Hungarian word
+1350,fan,Fin,kamera,wrong_sense,tuuletin,high,means camera
+1350,fan,Ita,fan,wrong_sense,ventilatore,high,English admirer sense
+1350,fan,Vie,người hâm mộ,wrong_sense,quạt,med,means admirer
+1350,fan,Kor,팬,wrong_sense,선풍기,med,means admirer
+1350,fan,Ind,penggemar,wrong_sense,kipas angin,high,means admirer
+1350,fan,Ara,المعجب,wrong_sense,مروحة,high,means admirer
+1350,fan,Heb,אוהד,wrong_sense,מאוורר,high,means supporter
+1350,fan,Swa,shabiki,wrong_sense,feni,med,means supporter
+1350,fan,Hin,प्रशंसक,wrong_sense,पंखा,high,means admirer
+1351,camera,Fin,puhelin,wrong_sense,kamera,high,means telephone
+1351,camera,Ita,telecamera,wrong_sense,fotocamera,med,means video camera
+1352,telephone,Fin,televisio,wrong_sense,puhelin,high,means television
+1352,telephone,Wel,alwa ',garbage,ffôn,low,not a word
+1353,television,Fin,tietokone,wrong_sense,televisio,high,means computer
+1354,computer,Hun,computer,untranslated,számítógép,high,English left as-is
+1354,computer,Fin,kannettava tietokone,wrong_sense,tietokone,med,means laptop
+1354,computer,Rus,компьютерный,wrong_pos,компьютер,high,adjective
+1355,laptop,Fin,ohjelmoida,wrong_pos,läppäri,high,means to program
+1356,program,Fin,verkko,wrong_sense,ohjelma,high,means network
+1356,program,Swa,mpango,wrong_sense,programu,med,means plan
+1357,network,Hun,network,untranslated,hálózat,high,English left as-is
+1357,network,Fin,jääkaappi,wrong_sense,verkko,high,means refrigerator
+1357,network,Kor,회로망,wrong_sense,네트워크,low,circuit-network sense
+1358,refrigerator,Fin,ilmastointilaite,wrong_sense,jääkaappi,high,means air conditioner
+1359,air conditioner,Fin,pesukone,wrong_sense,ilmastointilaite,high,means washing machine
+1360,washing machine,Fin,imuri,wrong_sense,pesukone,high,means vacuum cleaner
+1361,vacuum cleaner,Fin,uuni,wrong_sense,pölynimuri,high,means oven
+1361,vacuum cleaner,Swa,safi ya utupu,phrase,kisafishaji,med,calque not a lexeme
+1362,oven,Fin,kattila,wrong_sense,uuni,high,means pot or boiler
+1363,kettle,Fin,mikroaaltouuni,wrong_sense,vedenkeitin,high,means microwave oven
+1363,kettle,Swa,kettle,untranslated,birika,med,English left as-is
+1364,microwave,Fin,partaveitsi,wrong_sense,mikroaaltouuni,high,means razor
+1365,razor,Fin,radio,wrong_sense,partakone,high,means radio
+1366,radio,Fin,seulonta,wrong_sense,radio,high,means screening
+1366,radio,Jap,無線,wrong_sense,ラジオ,med,means wireless comms
+1367,chip,Gre,πατατακι,wrong_sense,τσιπ,high,means potato crisp
+1367,chip,Ita,patata fritta,wrong_sense,chip,high,means french fry
+1367,chip,Wel,naddu,wrong_pos,,low,means to whittle
+1367,chip,Tur,yonga,wrong_sense,çip,low,means wood chip
+1368,screen,Fin,näppäimistö,wrong_sense,näyttö,high,means keyboard
+1369,keyboard,Fin,skanneri,wrong_sense,näppäimistö,high,means scanner
+1369,keyboard,Ger,klaviatur,wrong_sense,Tastatur,high,means piano keyboard
+1369,keyboard,Tur,tuş takımı,wrong_sense,klavye,low,means keypad
+1370,scanner,Fin,tulostin,wrong_sense,skanneri,high,means printer
+1370,scanner,Gre,ερευνητής,wrong_sense,σαρωτής,high,means researcher
+1371,printer,Fin,kuuloke,wrong_sense,tulostin,high,means earphone
+1372,earphone,Fin,mikrofoni,wrong_sense,kuulokkeet,high,means microphone
+1372,earphone,Swa,sikio,wrong_sense,earfoni,med,means ear body part
+1373,microphone,Fin,kaiutin,wrong_sense,mikrofoni,high,means loudspeaker
+1373,microphone,Vie,cái mic cờ rô,garbage,micrô,low,garbled transliteration
+1374,loudspeaker,Fin,instrumentti,wrong_sense,kaiutin,high,means instrument
+1375,instrument,Fin,konsertti,wrong_sense,soitin,high,means concert
+1375,instrument,Rus,инструмент,wrong_sense,музыкальный инструмент,med,generic tool not musical
+1375,instrument,Vie,dụng cụ,wrong_sense,nhạc cụ,med,means tool
+1375,instrument,Kor,기구,wrong_sense,악기,med,means apparatus
+1375,instrument,Tha,อุปกรณ์,wrong_sense,เครื่องดนตรี,med,means equipment
+1375,instrument,Ara,أداة,wrong_sense,آلة موسيقية,med,means tool
+1375,instrument,Heb,כלי,wrong_sense,כלי נגינה,med,means vessel or tool
+1375,instrument,Hin,यंत्र,wrong_sense,वाद्ययंत्र,med,means machine or device
+1375,instrument,Swa,chombo,wrong_sense,ala ya muziki,low,means vessel or tool
+1376,concert,Fin,ooppera,wrong_sense,konsertti,high,means opera
+1377,opera,Fin,orkesteri,wrong_sense,ooppera,high,means orchestra
+1377,opera,Gre,λυρικη σκηνη,phrase,όπερα,low,roundabout phrase
+1378,orchestra,Fin,sinfonia,wrong_sense,orkesteri,high,means symphony
+1379,symphony,Hun,szimfonikus,wrong_pos,szimfónia,high,adjective symphonic
+1379,symphony,Fin,melodia,wrong_sense,sinfonia,high,means melody
+1380,melody,Hun,melody,untranslated,dallam,high,English left as-is
+1380,melody,Fin,rytmi,wrong_sense,melodia,high,means rhythm
+1381,rhythm,Fin,loppusointu,wrong_sense,rytmi,high,means end rhyme
+1381,rhythm,Ara,على نفس المنوال,phrase,إيقاع,high,means in the same manner
+1381,rhythm,Swa,rhythm,untranslated,mdundo,med,English left as-is
+1381,rhythm,Kor,율,likely_wrong,리듬,low,clipped odd form
+1382,rhyme,Fin,lyrics,untranslated,riimi,high,English word left
+1382,rhyme,Swa,wimbo,wrong_sense,kina,low,means song
+1383,lyrics,Fin,klassinen musiikki,wrong_sense,sanoitus,high,means classical music
+1384,classical music,Fin,pop-musiikki,wrong_sense,klassinen musiikki,high,means pop music
+1385,pop music,Fin,jazz,wrong_sense,popmusiikki,high,means jazz
+1386,jazz,Fin,blues,wrong_sense,jazz,high,means blues
+1387,blues,Fin,punk,wrong_sense,blues,high,means punk
+1387,blues,Gre,ακεφιά,wrong_sense,μπλουζ,med,means low spirits
+1387,blues,Tur,mavimsi,wrong_sense,blüz,med,means bluish color
+1388,punk,Fin,rock,wrong_sense,punk,high,means rock
+1388,punk,Gre,δαδί,garbage,πανκ,med,means kindling wood
+1388,punk,Ara,فاسق,wrong_sense,بانك,med,means immoral person
+1389,rock,Fr,rocher,wrong_sense,,low,French means boulder conflicts with Chinese
+1389,rock,Fin,sarvi,wrong_sense,rock,high,means horn
+1389,rock,Gre,βράχος,wrong_sense,ροκ,high,means boulder
+1389,rock,Ger,felsen,wrong_sense,Rockmusik,high,means cliff stone
+1389,rock,Spa,roca,wrong_sense,rock,high,means stone
+1389,rock,Ita,roccia,wrong_sense,rock,high,means stone
+1389,rock,Vie,đá,wrong_sense,nhạc rock,high,means stone
+1389,rock,Jap,石,wrong_sense,ロック,high,means stone
+1389,rock,Kor,바위,wrong_sense,록,high,means boulder
+1389,rock,Tha,หิน,wrong_sense,ร็อก,high,means stone
+1389,rock,Ind,batu,wrong_sense,musik rok,high,means stone
+1389,rock,Tur,kaya,wrong_sense,rock,high,means stone
+1389,rock,Ara,صخر,wrong_sense,موسيقى الروك,high,means stone
+1389,rock,Heb,סלע,wrong_sense,רוק,high,means stone
+1389,rock,Swa,mwamba,wrong_sense,muziki wa rock,high,means stone
+1389,rock,Hin,चट्टान,wrong_sense,रॉक,high,means rock stone
+1390,horn,Hun,horn,untranslated,kürt,high,English left as-is
+1391,trumpet,Fin,saksofoni,wrong_sense,trumpetti,high,means saxophone
+1392,saxophone,Fin,tuuba,wrong_sense,saksofoni,high,means tuba
+1392,saxophone,Gre,σαξοφωνική,wrong_pos,σαξόφωνο,high,adjectival form
+1392,saxophone,Spa,sajrofo,garbage,saxofón,high,garbled
+1393,tuba,Fin,rumpu,wrong_sense,tuuba,high,means drum
+1394,drum,Fin,kitara,wrong_sense,rumpu,high,means guitar
+1394,drum,Ita,tamburellare,wrong_pos,tamburo,high,verb to drum
+1395,guitar,Fin,sello,wrong_sense,kitara,high,means cello
+1396,cello,Fin,viulu,wrong_sense,sello,high,means violin
+1397,violin,Fin,piano,wrong_sense,viulu,high,means piano
+1397,violin,Hin,सारंगी,wrong_sense,वायलिन,med,means sarangi
+1398,piano,Fin,urut,wrong_sense,piano,high,means pipe organ
+1399,organ,Fr,organe,wrong_sense,orgue,low,French means body organ conflicts
+1399,organ,Hun,szerv,wrong_sense,orgona,high,means body organ
+1399,organ,Fin,naru,wrong_sense,urut,high,means string cord
+1399,organ,Ger,organ,wrong_sense,Orgel,high,means body organ
+1399,organ,Jap,器官,wrong_sense,オルガン,high,means body organ
+1399,organ,Tha,อวัยวะ,wrong_sense,ออร์แกน,med,means body organ
+1399,organ,Tur,organ,wrong_sense,org,med,means body organ
+1399,organ,Ara,عضو,wrong_sense,أرغن,med,means body organ
+1399,organ,Heb,אֵיבָר,wrong_sense,עוגב,med,means body organ limb
+1399,organ,Hin,अंग,wrong_sense,ऑर्गन,med,means body part
+1399,organ,Swa,chombo,wrong_sense,kinanda,low,means vessel tool
+1400,string,Hun,string,untranslated,húr,high,English left as-is
+1400,string,Fin,huilu,wrong_sense,kieli,high,means flute
+1400,string,Gre,σειρά,wrong_sense,χορδή,high,means series row
+1400,string,Wel,moch,garbage,tant,low,means pigs
+1400,string,Ind,rangkaian,wrong_sense,dawai,med,means series circuit
+1400,string,Ara,سلسلة,wrong_sense,وتر,med,means chain series
+1400,string,Jap,ストリング,wrong_sense,弦,med,means text string
+1401,flute,Fin,pilli,wrong_sense,huilu,low,means whistle pipe
+1402,whistle,Fin,kello,wrong_sense,pilli,high,means bell clock
+1402,whistle,Gre,σφυρίζω,wrong_pos,σφυρίχτρα,high,verb to whistle
+1402,whistle,Rus,свист,wrong_sense,свисток,med,means whistling sound
+1402,whistle,Spa,silbar,wrong_pos,silbato,high,verb to whistle
+1402,whistle,Ita,fischio,wrong_sense,fischietto,med,sound not object
+1402,whistle,Heb,לִשְׁרוֹק,wrong_pos,משרוקית,high,verb to whistle
+1402,whistle,Kor,휘파람,wrong_sense,호루라기,med,means whistling with lips
+1402,whistle,Tur,ıslık,wrong_sense,düdük,low,means whistling sound
+1403,bell,Fin,hattu,wrong_sense,kello,high,means hat
+1404,hat,Fin,pukeutua,wrong_pos,hattu,high,verb to get dressed
+1404,hat,Hin,हैट,untranslated,टोपी,low,English transliteration
+1405,crown,Hin,क्राउन,untranslated,मुकुट,low,English transliteration
+1406,cloak,Tha,ปิดบัง,wrong_pos,เสื้อคลุม,med,verb to conceal
+1407,dress,Rus,одеваться,wrong_pos,платье,high,verb to get dressed
+1407,dress,Spa,vestir,wrong_pos,vestido,high,verb to dress
+1407,dress,Ita,vestire,wrong_pos,vestito,high,verb to dress
+1408,suit,Fin,hame,wrong_sense,puku,high,means skirt
+1408,suit,Rus,подходить,wrong_sense,костюм,high,verb to suit or fit
+1408,suit,Ger,passen,wrong_sense,Anzug,high,verb to fit
+1408,suit,Tur,uygun olmak,wrong_sense,takım elbise,high,means to be suitable
+1409,skirt,Fin,villapaita,wrong_sense,hame,high,means sweater
+1410,sweater,Fin,paita,wrong_sense,villapaita,med,means shirt
+1410,sweater,Ara,سترة,wrong_sense,كنزة صوف,low,means jacket
+1411,shirt,Ger,shirt,untranslated,Hemd,med,English borrowing left
+1411,shirt,Fin,t-paita,wrong_sense,paita,low,means t-shirt
+1412,T-shirt,Fin,housut,wrong_sense,t-paita,high,means trousers
+1413,pants,Fin,kenkä,wrong_sense,housut,high,means shoe
+1413,pants,Wel,pants,untranslated,trowsus,low,English left
+1414,shoe,Fin,sukka,wrong_sense,kenkä,high,means sock
+1415,sock,Fin,tasku-,wrong_sense,sukka,high,means pocket prefix
+1415,sock,Swa,sock,untranslated,soksi,low,English left as-is
+1416,pocket,Fin,takki,wrong_sense,tasku,high,means jacket
+1417,coat,Fin,tahra,wrong_sense,takki,high,means stain
+1417,coat,Swa,kanzu,wrong_sense,koti,low,means kanzu robe
+1418,stain,Fin,peli,wrong_sense,tahra,high,means game
+1418,stain,Ger,beflecken,wrong_pos,Fleck,high,verb to stain
+1418,stain,Jap,染色,wrong_sense,しみ,med,means dyeing process
+1418,stain,Tur,lekelemek,wrong_pos,leke,high,verb to stain
+1419,game,Fin,urheilu,wrong_sense,peli,high,means sport
+1419,game,Hun,meccs,wrong_sense,játék,high,means sports match
+1420,sport,Fin,kilpailu,wrong_sense,urheilu,med,means competition
+1421,contest,Fin,tiimi,wrong_sense,kilpailu,high,means team
+1422,race,Hin,रेस,untranslated,दौड़,low,English transliteration
+1423,team,Fin,musiikki,wrong_sense,joukkue,high,means music
+1423,team,Hun,team,untranslated,csapat,high,English left as-is
+1424,exercise,Kor,행사,wrong_sense,운동,high,means event ceremony
+1424,exercise,Fin,harjoittele,wrong_pos,harjoitus,low,imperative verb
+1424,exercise,Ara,ممارسه الرياضه,phrase,تمرين,low,phrase practicing sport
+1426,football,Spa,fútbol americano,wrong_sense,fútbol,high,means American football
+1426,football,Jap,フットボール,wrong_sense,サッカー,low,soccer is サッカー
+1429,badminton,Gre,παιγνίδι όμοιο με τέννις,phrase,μπάντμιντον,med,definition phrase
+1431,table tennis,Swa,jedwali la tenisi,phrase,tenisi ya mezani,low,calque table of tennis
+1432,entertainment,Hin,entertainment,untranslated,मनोरंजन,high,English left as-is
+1433,music,Fin,taide,wrong_sense,musiikki,high,means art
+1433,music,Hin,म्यूज़िक,untranslated,संगीत,low,English transliteration
+1434,art,Hun,art,untranslated,művészet,high,English left as-is
+1434,art,Fin,kaupunki,wrong_sense,taide,high,means city
+1434,art,Hin,आर्ट,untranslated,कला,low,English transliteration
+1435,sex,Hin,sex,untranslated,यौन,low,English transliteration
+1436,gender,Ara,جنس تذكير أو تأنيث,phrase,النوع الاجتماعي,low,grammatical-gender phrase
+1437,race,Hun,verseny,wrong_sense,faj,high,means competition
+1437,race,Hin,रेस,wrong_sense,नस्ल,med,contest sense and translit
+1437,race,Swa,taifa,wrong_sense,rangi,low,means nation
+1438,number,Fin,määrä,wrong_sense,numero,med,means amount quantity
+1438,number,Rus,количество,wrong_sense,число,med,means quantity
+1438,number,Ger,anzahl,wrong_sense,Zahl,med,means count quantity
+1439,average,Fin,keskiverto,wrong_sense,keskiarvo,low,means mediocre person
+1442,sequence,Heb,סדר פעולות,phrase,רצף,med,means order of operations
+1442,sequence,Vie,sự liên tiếp,wrong_sense,trình tự,low,means consecutiveness
+1443,level,Wel,gwastatáu,wrong_pos,,low,verb to level
+1445,pattern,Ita,trama,wrong_sense,motivo,low,means weave plot
+1446,stripe,Gre,ταινία,wrong_sense,ρίγα,med,means tape ribbon film
+1446,stripe,Hin,stripe,untranslated,धारी,med,English left as-is
+1446,stripe,Ind,garis,wrong_sense,belang,low,means line
+1446,stripe,Swa,mstari,wrong_sense,mstari wa rangi,low,means line
+1447,grid,Swa,gridi ya taifa,wrong_sense,gridi,med,means national electrical grid
+1447,grid,Tur,kafes,wrong_sense,ızgara,low,means cage lattice
+1448,spot,Tur,nokta,wrong_sense,benek,low,means dot point
+1449,type,Fr,taper,wrong_pos,type,low,French to type verb conflicts
+1449,type,Ara,يكتب,wrong_pos,نوع,high,verb he writes
+1451,rule,Wel,deyrnaswch,wrong_sense,,low,verb reign
+1451,rule,Swa,sheria,wrong_sense,kanuni,low,means law
+1452,amount,Hun,összeg,wrong_sense,mennyiség,med,means sum of money
+1452,amount,Ger,höhe,wrong_sense,Menge,low,means height sum
+1452,amount,Spa,monto,wrong_sense,cantidad,low,means monetary total
+1452,amount,Jap,額,wrong_sense,量,med,means monetary sum
+1455,magazine,Hun,újság,wrong_sense,magazin,med,means newspaper
+1458,contract,Fin,sopia,wrong_pos,sopimus,high,verb to agree
+1458,contract,Ita,contrarre,wrong_pos,contratto,high,verb to contract
+1458,contract,Jap,契約する,wrong_pos,契約,med,verb form
+1458,contract,Ara,لمدة,garbage,عقد,high,means for a period
+1459,sign,Rus,подписать,wrong_pos,знак,high,verb to sign
+1459,sign,Tha,เข้าสู่ระบบ,wrong_sense,เครื่องหมาย,high,means sign in
+1459,sign,Kor,징후,wrong_sense,기호,med,means symptom
+1459,sign,Tur,imza,wrong_sense,işaret,med,means signature
+1459,sign,Ita,cartello,wrong_sense,segno,low,means signboard
+1459,sign,Jap,サイン,wrong_sense,記号,low,means autograph
+1462,science,Jap,理科,wrong_sense,科学,med,means science school subject
+1462,science,Tha,ศาสตร์,wrong_sense,วิทยาศาสตร์,med,means discipline
+1463,order,Fr,commande,wrong_sense,ordre,low,French purchase order conflicts
+1463,order,Hun,parancs,wrong_sense,rend,high,means command
+1463,order,Fin,tilaus,wrong_sense,järjestys,high,means purchase order
+1463,order,Gre,σειρά,wrong_sense,τάξη,med,means series turn
+1463,order,Rus,заказ,wrong_sense,порядок,high,means purchase order
+1463,order,Ger,befehl,wrong_sense,Ordnung,high,means command
+1463,order,Wel,harchebon,wrong_sense,,low,purchase-order sense
+1463,order,Vie,đặt hàng,wrong_sense,trật tự,high,means to place an order
+1463,order,Jap,注文,wrong_sense,秩序,high,means purchase order
+1463,order,Kor,주문하다,wrong_pos,질서,high,verb to order buy
+1463,order,Tha,คำสั่ง,wrong_sense,ระเบียบ,med,means command
+1463,order,Ind,memesan,wrong_pos,ketertiban,high,verb to order buy
+1463,order,Tur,emir,wrong_sense,düzen,high,means command
+1463,order,Ara,طلب,wrong_sense,نظام,med,means request
+1463,order,Heb,להזמין,wrong_pos,סדר,high,verb to order or invite
+1463,order,Swa,agizo,wrong_sense,utaratibu,med,means directive
+1463,order,Hin,अनुक्रम,wrong_sense,व्यवस्था,low,means sequence
+1465,god,Kor,하나님,wrong_sense,신,med,Christian God specifically
+1465,god,Vie,chúa,wrong_sense,thần,low,means Lord Christian
+1467,illusion,Spa,espejismo,wrong_sense,ilusión,low,means mirage
+1468,labyrinth,Hin,व्यामोह,wrong_sense,भूलभुलैया,med,means delusion
+1472,angel,Tha,นางฟ้า,wrong_sense,ทูตสวรรค์,low,means fairy
+1474,fairy,Rus,сказочный,wrong_pos,фея,high,adjective fairy-tale
+1474,fairy,Swa,faili,garbage,,low,means file
+1475,monster,Swa,monster,untranslated,zimwi,low,English left as-is
+1476,dwarf,Rus,карликовая,wrong_pos,гном,high,adjective dwarf feminine
+1478,ghost,Swa,ghost,untranslated,mzimu,low,English left as-is
+1479,myth,Vie,chuyện hoang đường,phrase,thần thoại,low,descriptive phrase
+1479,myth,Swa,hadithi,wrong_sense,ngano,low,means story
+1484,view,Rus,посмотреть,wrong_pos,взгляд,med,verb to look
+1484,view,Ita,visualizza,wrong_pos,parere,med,verb displays
+1484,view,Jap,見る,wrong_pos,見方,med,verb to see
+1484,view,Kor,보다,wrong_pos,견해,med,verb to see
+1484,view,Tha,ดู,wrong_pos,ทัศนะ,med,verb to watch
+1484,view,Ind,melihat,wrong_pos,pandangan,med,verb to see
+1484,view,Heb,נוף,wrong_sense,דעה,med,means landscape
+1484,view,Hin,दृश्य,wrong_sense,दृष्टिकोण,low,means scene sight
+1484,view,Gre,θέα,wrong_sense,άποψη,low,means visual view
+1485,preference,Fin,etusija,wrong_sense,mieltymys,low,means priority
+1486,bias,Spa,inclinación,wrong_sense,sesgo,low,means inclination
+1487,effort,Vie,cố gắng,wrong_pos,nỗ lực,low,verb to try
+1488,problem,Hin,प्रॉब्लम,untranslated,समस्या,med,English transliteration
+1491,happiness,Fin,onnea,wrong_sense,onnellisuus,low,partitive of fortune
+1492,luck,Jap,ラック,untranslated,運,med,English luck katakana
+1492,luck,Hin,लक,untranslated,किस्मत,med,English transliteration
+1494,coincidence,Heb,יָד הַמִקרֶה,phrase,צירוף מקרים,med,phrase hand of chance
+1494,coincidence,Swa,bahati mbaya,wrong_sense,sadfa,med,means bad luck
+1495,chance,Kor,가능성,wrong_sense,기회,low,means possibility
+1497,theory,Jap,仮説,wrong_sense,理論,med,means hypothesis
+1498,paradox,Tha,ความขัดแย้ง,wrong_sense,ปฏิทรรศน์,low,means contradiction
+1499,conflict,Heb,סְתִירָה,wrong_sense,עימות,med,means contradiction
+1499,conflict,Hin,विरोध,wrong_sense,संघर्ष,low,means opposition
+1500,experiment,Ita,sperimentare,wrong_pos,esperimento,med,verb to experiment
+1500,experiment,Heb,לְנַסוֹת,wrong_pos,ניסוי,med,verb to try
+1502,performance,Rus,спектакль,wrong_sense,производительность,med,means theatrical show
+1508,process,Fin,käsitellä asiaa,phrase,prosessi,med,phrase to handle the matter
+1510,end,Hin,समाप्त,wrong_pos,अंत,med,means finished adjective
+1512,standard,Rus,стандартный,wrong_pos,стандарт,med,adjective standard
+1512,standard,Ara,اساسي,wrong_sense,معيار,med,means basic fundamental
+1515,detail,Hun,részletes,wrong_pos,részlet,med,adjective detailed
+1517,trace,Fin,jäljittää,wrong_pos,jälki,med,verb to trace
+1517,trace,Ger,verfolgen,wrong_pos,Spur,med,verb to pursue
+1517,trace,Kor,추적하다,wrong_pos,흔적,med,verb to trace
+1517,trace,Tha,ติดตาม,wrong_pos,ร่องรอย,med,verb to follow
+1517,trace,Ara,يتعقب,wrong_pos,أثر,med,verb he tracks
+1517,trace,Hin,ट्रेस,untranslated,निशान,low,English transliteration
+1519,case,Fin,kotelo,wrong_sense,tapaus,med,means casing box
+1519,case,Ita,astuccio,wrong_sense,caso,high,means pencil case
+1519,case,Tur,dava,wrong_sense,durum,med,means lawsuit
+1520,value,Rus,ценить,wrong_pos,ценность,med,verb to value
+1523,wealth,Hun,jólét,wrong_sense,gazdagság,med,means welfare wellbeing
+1523,wealth,Spa,poder,wrong_sense,riqueza,high,means power
+1524,system,Hun,system,untranslated,rendszer,high,English left as-is
+1528,literature,Gre,βιβλιογραφία,wrong_sense,λογοτεχνία,high,means bibliography
+1535,economy,Hun,gazdaságos,wrong_pos,gazdaság,high,adjective economical
+1536,finance,Fin,rahoittaa,wrong_pos,rahoitus,med,verb to finance
+1536,finance,Hun,finanszírozás,wrong_sense,pénzügy,med,means financing
+1536,finance,Kor,재원,wrong_sense,금융,med,means financial resources
+1536,finance,Heb,לְמַמֵן,wrong_pos,מימון,med,verb to finance
+1539,company,Hun,század,wrong_sense,cég,med,means century or military company
+1541,story,Hun,mese,wrong_sense,történet,med,means fairy tale
+1541,story,Heb,כַּתָבָה,wrong_sense,סיפור,high,means news article
+1541,story,Hin,स्टोरी,untranslated,कहानी,med,English transliteration
+1542,job,Fin,job,untranslated,työ,high,English left as-is
+1542,job,Tur,görev,wrong_sense,iş,med,means task duty
+1542,job,Hin,जॉब,untranslated,नौकरी,med,English transliteration
+1544,justice,Kor,정당성,wrong_sense,정의,med,means legitimacy
+1544,justice,Jap,正義感,wrong_sense,正義,low,means sense of justice
+1547,memory,Rus,объем памяти,phrase,память,high,means memory capacity computer
+1547,memory,Ind,penyimpanan,wrong_sense,ingatan,med,means storage
+1547,memory,Jap,メモリー,wrong_sense,記憶,med,means computer memory
+1547,memory,Kor,메모리,wrong_sense,기억,med,means computer memory
+1547,memory,Hin,मेमोरी,untranslated,स्मृति,med,English transliteration
+1548,past,Hin,पास्ट,untranslated,अतीत,med,English transliteration
+1549,present,Tur,geçmiş şimdi,garbage,şimdiki zaman,med,past now garbled
+1553,town,Kor,도시,wrong_sense,읍,low,means city
+1554,building,Fin,tuomioistuin,wrong_sense,rakennus,high,means court of law
+1554,building,Swa,ujenzi,wrong_sense,jengo,med,means construction act
+1555,beam,Fr,faisceau,wrong_sense,poutre,low,French light beam conflicts
+1555,beam,Ger,strahl,wrong_sense,Balken,high,means ray of light
+1555,beam,Rus,луч,wrong_sense,балка,high,means ray of light
+1555,beam,Gre,δέσμη,wrong_sense,δοκάρι,med,means bundle light beam
+1555,beam,Spa,haz,wrong_sense,viga,high,means beam of light
+1555,beam,Jap,ビーム,wrong_sense,梁,med,means light beam
+1555,beam,Tha,ลำแสง,wrong_sense,คาน,med,means beam of light
+1555,beam,Ara,الحزم,wrong_sense,عارضة,med,means bundle light beam
+1555,beam,Heb,קֶרֶן,wrong_sense,קורה,med,means ray of light
+1555,beam,Kor,빔,likely_wrong,들보,low,structural is deulbo
+1555,beam,Hin,बीम,untranslated,शहतीर,low,English transliteration
+1557,pipe,Hun,pipa,wrong_sense,cső,high,means smoking pipe
+1557,pipe,Ara,يضخ,wrong_pos,أنبوب,high,verb he pumps
+1558,stairs,Ger,stufen,wrong_sense,Treppe,low,means individual steps
+1559,elevator,Ind,tangga berjalan,wrong_sense,lift,high,means escalator
+1560,crane,Ind,katrol,wrong_sense,derek,med,means pulley
+1562,palace,Hun,palace,untranslated,palota,high,English left as-is
+1562,palace,Jap,城,wrong_sense,宮殿,med,means castle
+1562,palace,Swa,ikulu,wrong_sense,kasri,low,means State House
+1564,fort,Hun,fort,untranslated,erőd,high,English left as-is
+1565,amphitheater,Vie,giảng đường,wrong_sense,nhà hát vòng,med,means lecture hall
+1566,dome,Spa,hazme,garbage,cúpula,high,means do to me verb
+1566,dome,Swa,dome,untranslated,kuba,low,English left as-is
+1566,dome,Hun,búra,wrong_sense,kupola,low,means glass cover
+1567,arch,Fr,architecte,wrong_sense,arc,low,French means architect conflicts
+1567,arch,Hun,arch,untranslated,boltív,high,English left as-is
+1567,arch,Rus,архи,garbage,арка,high,prefix fragment
+1567,arch,Swa,arch,untranslated,tao,low,English left as-is
+1569,cloister,Tha,หีบห่อ,garbage,ระเบียงคด,med,means package parcel
+1569,cloister,Vie,cloister,untranslated,hành lang có mái,low,English left as-is
+1569,cloister,Swa,cloister,untranslated,,low,English left as-is
+1569,cloister,Rus,монастырь,wrong_sense,крытая галерея,low,means monastery not walkway
+1569,cloister,Ger,kloster,wrong_sense,Kreuzgang,low,means monastery not walkway
+1570,cross,Ind,persimpangan,wrong_sense,salib,high,means intersection
+1571,brick,Hun,brick,untranslated,tégla,high,English left as-is
+1572,cement,Ara,يبني,wrong_pos,أسمنت,high,verb he builds
+1572,cement,Heb,בטון,wrong_sense,מלט,med,means concrete
+1573,lighthouse,Swa,taa ya taa,garbage,mnara wa taa,med,lamp of lamp garbled
+1575,hut,Hin,हट,untranslated,झोपड़ी,med,English transliteration
+1576,barn,Ara,إسطبل,wrong_sense,حظيرة,med,means horse stable
+1576,barn,Kor,외양간,wrong_sense,헛간,low,means cowshed
+1576,barn,Vie,barn,untranslated,nhà kho,low,English left as-is
+1577,cellar,Jap,セラー,untranslated,地下室,low,English cellar katakana
+1579,log cabin,Tha,ห้องขัง,wrong_sense,กระท่อมไม้ซุง,med,means prison cell
+1579,log cabin,Vie,chòi,wrong_sense,nhà gỗ,low,means hut not log
+1580,skyscraper,Wel,skyscraper,untranslated,,low,English left
+1580,skyscraper,Swa,skyscraper,untranslated,,low,English left as-is
+1581,gym,Spa,gimnasia,wrong_sense,gimnasio,high,means gymnastics sport
+1581,gym,Tur,jimnastik,wrong_sense,spor salonu,med,means gymnastics
+1582,factory,Vie,xưởng sản xuất,wrong_sense,nhà máy,low,means production workshop
+1582,factory,Hin,फैक्टरी,untranslated,कारख़ाना,low,English transliteration
+1585,bridge,Hun,bridge,untranslated,híd,high,English left as-is
+1585,bridge,Ind,menjembatani,wrong_pos,jembatan,high,verb to bridge
+1585,bridge,Heb,לְגַשֵׁר,wrong_pos,גשר,high,verb to bridge
+1587,school,Hun,suli,likely_wrong,iskola,low,slang informal
+1589,market,Hun,market,untranslated,piac,high,English left as-is
+1589,market,Fin,markkinoida,wrong_pos,markkinat,med,verb to market
+1590,shop,Hun,vásárlás,wrong_pos,bolt,high,means shopping activity
+1590,shop,Heb,לִקְנוֹת,wrong_pos,חנות,high,verb to buy
+1593,park,Fin,pysäköidä,wrong_pos,puisto,high,verb to park a car
+1593,park,Hin,पार्क,untranslated,उद्यान,low,English transliteration
+1593,park,Swa,hifadhi,wrong_sense,bustani,low,means reserve
+1594,hospital,Ind,rsud,garbage,rumah sakit,high,acronym not a word
+1594,hospital,Hin,हॉस्पिटल,untranslated,अस्पताल,low,English transliteration
+1595,office,Wel,swyddi,wrong_sense,swyddfa,low,means jobs plural
+1595,office,Ara,مكتب. مقر. مركز,likely_wrong,مكتب,low,multi-value with periods
+1596,farm,Ind,tanah pertanian,wrong_sense,ladang,low,means farmland
+1597,camp,Spa,acampar,wrong_pos,campamento,med,verb to camp
+1598,theater,Tha,โรงภาพยนตร์,wrong_sense,โรงละคร,med,means cinema
+1599,stage,Gre,στάδιο,wrong_sense,σκηνή,med,means stadium phase
+1599,stage,Spa,etapa,wrong_sense,escenario,high,means phase of a process
+1599,stage,Kor,단계,wrong_sense,무대,high,means step phase
+1599,stage,Swa,hatua,wrong_sense,jukwaa,med,means step phase
+1599,stage,Hin,स्टेज,untranslated,मंच,med,English transliteration
+1600,audience,Tur,kitle,wrong_sense,seyirci,low,means mass crowd
+1601,character,Fin,merkki,wrong_sense,hahmo,med,means sign letter
+1601,character,Ita,carattere,wrong_sense,personaggio,med,means letter personality
+1601,character,Swa,tabia,wrong_sense,mhusika,med,means behavior nature
+1601,character,Hin,अक्षर,wrong_sense,पात्र,med,means letter script
+1602,play,Hun,játssz,wrong_pos,színdarab,high,imperative verb play
+1602,play,Fin,pelata,wrong_pos,näytelmä,high,verb to play a game
+1602,play,Gre,παίζω,wrong_pos,θεατρικό έργο,high,verb I play
+1602,play,Rus,играть в,wrong_pos,пьеса,high,verb to play a game
+1602,play,Ger,abspielen,wrong_pos,Theaterstück,high,verb to play back media
+1602,play,Spa,tocar,wrong_pos,obra de teatro,high,verb to play touch
+1602,play,Ita,giocare a,wrong_pos,opera teatrale,high,verb to play a game
+1602,play,Wel,chwarae,wrong_pos,drama,low,verb to play
+1602,play,Vie,chơi,wrong_pos,vở kịch,high,verb to play
+1602,play,Jap,演奏する,wrong_pos,戯曲,high,verb to perform music
+1602,play,Kor,놀다,wrong_pos,희곡,high,verb to play have fun
+1602,play,Tha,เล่น,wrong_pos,บทละคร,med,verb to play
+1602,play,Ind,bermain,wrong_pos,sandiwara,high,verb to play
+1602,play,Tur,oyna,wrong_pos,oyun,med,imperative verb play
+1602,play,Ara,لعب,wrong_sense,مسرحية,high,means to play playing
+1602,play,Heb,לְשַׂחֵק,wrong_pos,מחזה,high,verb to act play
+1602,play,Swa,cheza,wrong_pos,tamthilia,med,verb play
+1602,play,Hin,खेल,wrong_sense,नाटक,high,means game sport
+1603,script,Gre,γραφή,wrong_sense,σενάριο,med,means writing handwriting
+1603,script,Vie,script,untranslated,kịch bản,med,English left as-is
+1603,script,Ara,النصي,wrong_pos,نص,med,adjective textual
+1603,script,Swa,maandishi,wrong_sense,mswada,low,means writings text
+1603,script,Hin,स्क्रिप्ट,untranslated,पटकथा,low,English transliteration
+1603,script,Tha,สคริปต์,untranslated,บทภาพยนตร์,low,English script borrowing
+1605,temple,Hun,temple,untranslated,templom,high,English left as-is
+1607,court,Hun,számvevőszék,wrong_sense,bíróság,high,means Court of Audit
+1607,court,Rus,корт,wrong_sense,суд,high,means tennis court
+1608,prison,Hin,थाना,wrong_sense,जेल,high,means police station
+1610,murder,Fin,murhata,wrong_pos,murha,med,verb to murder
+1611,port,Ita,porta,wrong_sense,porto,high,means door
+1611,port,Fin,portti,wrong_sense,satama,high,means gate
+1614,king,Hun,kinga,garbage,király,high,a female given name
+1614,king,Fin,rakennus,wrong_sense,kuningas,high,means building
+1614,king,Hin,किंग,untranslated,राजा,med,English transliteration
+1614,king,Jap,キング,untranslated,王,low,English katakana
+1616,prince,Hun,prince,untranslated,herceg,high,English left as-is
+1616,prince,Swa,prince,untranslated,mwana wa mfalme,low,English left as-is
+1617,princess,Swa,princess,untranslated,binti mfalme,low,English left as-is
+1622,doctor,Fin,uhri,wrong_sense,lääkäri,high,means victim
+1622,doctor,Kor,박사님,wrong_sense,의사,high,means PhD honorific
+1622,doctor,Heb,דוֹקטוֹר,wrong_sense,רופא,low,title not physician
+1623,architect,Hin,वास्तु,wrong_sense,वास्तुकार,med,means architecture not person
+1623,architect,Swa,mbunifu,wrong_sense,mbunifu majengo,low,means designer
+1624,manager,Ara,إدارة,wrong_sense,مدير,high,means administration abstract
+1627,judge,Rus,судить,wrong_pos,судья,high,verb to judge
+1627,judge,Heb,לִשְׁפּוֹט,wrong_pos,שופט,high,verb to judge
+1627,judge,Wel,barnest,wrong_pos,barnwr,low,verb-ish form
+1628,lawyer,Jap,法律家,wrong_sense,弁護士,low,means jurist legal scholar
+1630,teacher,Hin,टीचर,untranslated,शिक्षक,low,English transliteration
+1631,professor,Ara,دكتور جامعى,phrase,أستاذ,low,university doctor descriptive
+1632,programmer,Kor,프로그램 제작자,phrase,프로그래머,low,program maker descriptive
+1632,programmer,Swa,programu,wrong_sense,mwandishi wa programu,med,means program the thing
+1637,prosecutor,Kor,수행자,wrong_sense,검사,high,means performer practitioner
+1638,intern,Gre,κρατώ,wrong_sense,ασκούμενος,high,verb I hold detain
+1638,intern,Ger,praktikum,wrong_sense,Praktikant,med,means internship not person
+1638,intern,Wel,manteisiol,wrong_sense,,low,adjective advantageous
+1638,intern,Swa,intern,untranslated,mwanafunzi kwa vitendo,low,English left as-is
+1639,librarian,Swa,maktaba,wrong_sense,mkutubi,med,means library
+1639,librarian,Hin,लाइब्रेरियन,untranslated,ग्रंथपाल,low,English transliteration
+1641,farmer,Hun,farmer,wrong_sense,gazdálkodó,low,also means jeans
+1641,farmer,Kor,농장주,wrong_sense,농부,low,means farm owner
+1641,farmer,Vie,nông phu,likely_wrong,nông dân,low,archaic term
+1644,butcher,Gre,σφάζω,wrong_pos,χασάπης,high,verb I slaughter
+1644,butcher,Kor,푸줏간,wrong_sense,정육점 주인,med,means butcher shop
+1647,electrician,Kor,전공,wrong_sense,전기 기사,med,mainly means academic major
+1647,electrician,Swa,umeme,wrong_sense,fundi umeme,med,means electricity
+1647,electrician,Hin,इलेक्ट्रीशियन,untranslated,बिजली मिस्त्री,low,English transliteration
+1648,plumber,Swa,fundi,wrong_sense,fundi bomba,low,means generic craftsman
+1648,plumber,Hin,प्लम्बर,untranslated,नलसाज़,low,English transliteration
+1649,mechanic,Fin,mekaaninen,wrong_pos,mekaanikko,high,adjective mechanical
+1649,mechanic,Vie,công nhân cơ khí,wrong_sense,thợ máy,low,means machinist
+1649,mechanic,Swa,mechanic,untranslated,mekanika,low,English left as-is
