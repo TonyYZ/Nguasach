@@ -13,9 +13,14 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 204,rear,Greek,πίσω,wrong_sense,ανατρέφω,high,means behind,NW,all_three
 216,fill,Greek,να γεμίσω,phrase,γεμίζω,med,subjunctive periphrasis,NW,all_three
 461,fair,Greek,έκθεση,wrong_sense,δίκαιο,high,means report or exhibition,NW,all_three
+980,tear,Greek,σχίσιμο,wrong_sense,δάκρυ,high,means tearing/ripping,NW,all_three
 158,dash,Hebrew,לדאוף,likely_wrong,להסתער,low,not a standard word,NW,all_three
 188,like,Hebrew,לחבב,wrong_sense,להידמות,med,this sense is resemble,NW,all_three
 550,who,Hebrew,who,untranslated,מי,high,English left as-is,NW,all_three
+815,bark,Hebrew,לִנְבּוּחַ,wrong_sense,קליפת עץ,high,means to bark dog,NW,all_three
+909,cereal,Hebrew,דגני בוקר,wrong_sense,דגן,med,means breakfast cereal,NW,all_three
+989,fingernail,Hebrew,צִפּצֹרֶן,garbage,ציפורן,med,garbled form,NW,all_three
+1006,back,Hebrew,חזור,wrong_pos,גב,high,means return verb,NW,all_three
 10,return,Hindi,वापसी,wrong_pos,लौटना,low,noun return,NW,all_three
 30,draw,Hindi,चित्रण,wrong_pos,चित्र बनाना,low,noun illustration,NW,all_three
 59,stick,Hindi,स्टिक,untranslated,चिपकना,high,transliteration of English stick,NW,all_three
@@ -54,6 +59,33 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 526,red,Hindi,रेड,untranslated,लाल,high,transliteration of English red,NW,all_three
 529,green,Hindi,ग्रीन,untranslated,हरा,high,transliteration of English green,NW,all_three
 584,ten,Hindi,टेन,untranslated,दस,high,transliteration of English ten,NW,all_three
+600,man,Hindi,man,untranslated,आदमी,high,English word in Latin script,NW,all_three
+608,husband,Hindi,husband,untranslated,पति,high,English word in Latin script,NW,all_three
+619,sister,Hindi,सिस्टर,untranslated,बहन,high,transliteration of English sister,NW,all_three
+620,brother,Hindi,bhai,untranslated,भाई,high,romanized in Devanagari column,NW,all_three
+641,animal,Hindi,एनिमल,untranslated,जानवर,high,transliteration of English animal,NW,all_three
+664,fox,Hindi,फॉक्स,untranslated,लोमड़ी,high,transliteration of English fox,NW,all_three
+677,bird,Hindi,बर्ड,untranslated,पक्षी,high,transliteration of English bird,NW,all_three
+696,swan,Hindi,स्वैन,untranslated,हंस,high,transliteration of English swan,NW,all_three
+697,eagle,Hindi,त्रिभुज,garbage,चील,high,means triangle,NW,all_three
+743,ant,Hindi,ant,untranslated,चींटी,high,English word in Devanagari column,NW,all_three
+755,worm,Hindi,इल्ली,wrong_sense,कीड़ा,med,means caterpillar/larva,NW,all_three
+759,stick,Hindi,स्टिक,untranslated,छड़ी,med,transliteration of English stick,NW,all_three
+763,apple,Hindi,ठहराना,garbage,सेब,high,means to halt/stay,NW,all_three
+872,grass,Hindi,ग्रास,untranslated,घास,high,transliteration of English grass,NW,all_three
+876,skin,Hindi,स्किन,untranslated,त्वचा,high,transliteration of English skin,NW,all_three
+888,milk,Hindi,मिल्क,untranslated,दूध,high,transliteration of English milk,NW,all_three
+968,tail,Hindi,टेल,untranslated,पूँछ,high,transliteration of English tail,NW,all_three
+969,feather,Hindi,बट्टे,garbage,पंख,high,means weights/stones,NW,all_three
+971,fur,Hindi,फर,untranslated,रोआँ,med,transliteration of English fur,NW,all_three
+975,face,Hindi,फेस,untranslated,चेहरा,high,transliteration of English face,NW,all_three
+977,eye,Hindi,नजर,wrong_sense,आँख,high,means sight/glance,NW,all_three
+984,lip,Hindi,लिप,untranslated,होंठ,high,transliteration of English lip,NW,all_three
+992,toe,Hindi,टो,untranslated,पैर की उँगली,high,transliteration of English toe,NW,all_three
+993,leg,Hindi,लेग,untranslated,टाँग,high,transliteration of English leg,NW,all_three
+1012,chin,Hindi,chin,untranslated,ठुड्डी,high,English word in Devanagari column,NW,all_three
+1044,air,Hindi,एयर,untranslated,हवा,high,transliteration of English air,NW,all_three
+1046,wave,Hindi,वेव,untranslated,लहर,high,transliteration of English wave,NW,all_three
 70,blow,Hungarian,robbantani,wrong_sense,fújni,high,means blow up/detonate,NW,all_three
 77,tie,Hungarian,döntetlen,wrong_sense,megkötni,high,means a draw/tie in sport,NW,all_three
 82,close,Hungarian,közeli,wrong_sense,bezárni,high,adjective nearby/close proximity,NW,all_three
@@ -70,14 +102,40 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 477,rich,Hungarian,rich,untranslated,gazdag,high,English left as-is,NW,all_three
 524,black,Hungarian,black,untranslated,fekete,high,English left as-is,NW,all_three
 530,blue,Hungarian,blue,untranslated,kék,high,English left as-is,NW,all_three
+663,wolf,Hungarian,wolf,untranslated,farkas,high,English word untranslated,NW,all_three
+664,fox,Hungarian,fox,untranslated,róka,high,English word untranslated,NW,all_three
+681,duck,Hungarian,duck,untranslated,kacsa,high,English word untranslated,NW,all_three
+696,swan,Hungarian,swan,untranslated,hattyú,high,English word untranslated,NW,all_three
+697,eagle,Hungarian,eagle,untranslated,sas,high,English word untranslated,NW,all_three
+742,spider,Hungarian,spider,untranslated,pók,high,English word untranslated,NW,all_three
+763,apple,Hungarian,apple,untranslated,alma,high,English word untranslated,NW,all_three
+857,pine,Hungarian,pine,untranslated,fenyő,high,English word untranslated,NW,all_three
+861,birch,Hungarian,birch,untranslated,nyír,high,English word untranslated,NW,all_three
+878,blood,Hungarian,blood,untranslated,vér,high,English word untranslated,NW,all_three
+967,horn,Hungarian,horn,untranslated,szarv,high,English word untranslated,NW,all_three
+984,lip,Hungarian,lip,untranslated,ajak,high,English word untranslated,NW,all_three
+1012,chin,Hungarian,csin,garbage,áll,high,not a real word,NW,all_three
+1037,life,Hungarian,life,untranslated,élet,high,English word untranslated,NW,all_three
+1044,air,Hungarian,air,untranslated,levegő,high,English word untranslated,NW,all_three
 7,wait,Italian,esperar,wrong_sense,aspettare,high,Spanish word in Italian cell,NW,all_three
 8,stay,Italian,quedarse,wrong_sense,restare,high,Spanish word in Italian cell,NW,all_three
 442,even,Italian,anche,wrong_sense,pari,high,means also,NW,all_three
+815,bark,Italian,abbaio,wrong_sense,corteccia,high,means I bark dog,NW,all_three
+1002,belly,Italian,gonfiarsi,wrong_pos,pancia,high,means to swell/bloat verb,NW,all_three
 129,pass,Japanese,渡す,wrong_sense,通り過ぎる,med,means hand over,NW,all_three
 130,sing,Japanese,通る,wrong_sense,歌う,high,means pass through wrong entry,NW,all_three
 179,bark,Japanese,叫ぶ,wrong_sense,吠える,high,means shout/yell,NW,all_three
 539,you,Japanese,彼方,wrong_sense,あなた,med,kanji means yonder direction,NW,all_three
 544,you,Japanese,彼方達,likely_wrong,あなたたち,med,nonstandard kanji for anatatachi,NW,all_three
+808,seed,Japanese,シード,likely_wrong,種,med,transliteration; also means seeded sport,NW,all_three
+811,branch,Japanese,ブランチ,likely_wrong,枝,med,transliteration; also means brunch,NW,all_three
+861,birch,Japanese,バーチ,likely_wrong,カバ,med,transliteration not standard word,NW,all_three
+969,feather,Japanese,フェザー,likely_wrong,羽,med,transliteration not standard word,NW,all_three
+980,tear,Japanese,破れ目,wrong_sense,涙,high,means a rip in fabric,NW,all_three
+984,lip,Japanese,リップ,likely_wrong,唇,med,transliteration not standard word,NW,all_three
+1001,shoulder,Japanese,ショルダー,likely_wrong,肩,med,transliteration not standard word,NW,all_three
+1043,star,Japanese,スター,wrong_sense,星,high,means star celebrity,NW,all_three
+1049,foam,Japanese,フォーム,wrong_sense,泡,high,means form (homophone),NW,all_three
 30,draw,Korean,그리기 위해,phrase,그리다,med,means in order to draw,NW,all_three
 59,stick,Korean,고집하려면,phrase,붙다,med,means in order to persist,NW,all_three
 75,catch,Korean,잡기 위해,phrase,잡다,med,means in order to catch,NW,all_three
@@ -92,16 +150,42 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 208,support,Korean,지원합니다,phrase,지원하다,med,sentence form,NW,all_three
 209,load,Korean,로드하려면,phrase,싣다,med,means in order to load,NW,all_three
 216,fill,Korean,채우기 위해,phrase,채우다,med,means in order to fill,NW,all_three
+854,willow,Korean,솜틀,wrong_sense,버드나무,high,means cotton gin,NW,all_three
+909,cereal,Korean,시리얼,wrong_sense,곡물,med,means breakfast cereal,NW,all_three
+984,lip,Korean,말뿐인,wrong_sense,입술,high,means merely-verbal adjective,NW,all_three
 59,stick,Russian,чтобы остаться,phrase,приклеиваться,med,means in order to stay,NW,all_three
 188,like,Russian,нравится,wrong_sense,походить,high,this sense is resemble,NW,all_three
+746,louse,Russian,вошник,likely_wrong,вошь,med,garbled form,NW,all_three
+1049,foam,Russian,мыло,wrong_sense,пена,high,means soap,NW,all_three
 7,wait,Spanish,aspettare,wrong_sense,esperar,high,Italian word in Spanish cell,NW,all_three
 8,stay,Spanish,stare,wrong_sense,quedarse,high,Italian/Latin word in Spanish cell,NW,all_three
+809,leaf,Spanish,lámina,wrong_sense,hoja,high,means sheet/lamina,NW,all_three
+965,pot,Spanish,maceta,wrong_sense,olla,med,means flowerpot,NW,all_three
 172,sweep,Turkish,süpürüyor,wrong_pos,süpürmek,low,conjugated is sweeping,NW,all_three
 190,hang,Turkish,takılmak,wrong_sense,asmak,med,means get stuck/hang out,NW,all_three
 207,cover,Turkish,örtbas etmek,wrong_sense,örtmek,med,means cover up a scandal,NW,all_three
 559,not,Turkish,olumsuzluk,wrong_pos,değil,med,noun negation or negativity,NW,all_three
 184,crow,Welsh,frân,wrong_sense,,high,means the bird crow,NW,all_three
 367,high,Welsh,high,untranslated,uchel,high,English left as-is,NW,all_three
+619,sister,Welsh,chwedion,garbage,chwaer,med,not a real word,NW,all_three
+661,bear,Welsh,dalia ’,wrong_sense,arth,med,means to hold/bear (verb),NW,all_three
+681,duck,Welsh,dowciaf,garbage,hwyaden,med,garbled verb form,NW,all_three
+694,crane,Welsh,craen,wrong_sense,garan,med,means crane (machine),NW,all_three
+733,fly,Welsh,hehedan,wrong_pos,pryf/cleren,med,means to fly (verb),NW,all_three
+746,louse,Welsh,louse,untranslated,lleuen,med,English word untranslated,NW,all_three
+815,bark,Welsh,gyfarthwch,wrong_sense,rhisgl,med,means to bark dog,NW,all_three
+817,flower,Welsh,blodeuo,wrong_pos,blodyn,med,means to bloom verb,NW,all_three
+857,pine,Welsh,dihoeni,wrong_sense,pinwydden,med,means to pine/languish verb,NW,all_three
+876,skin,Welsh,blingiff,wrong_pos,croen,med,means to skin/flay verb,NW,all_three
+888,milk,Welsh,odrem,garbage,llaeth,med,garbled form,NW,all_three
+980,tear,Welsh,drylliais,wrong_sense,deigryn,med,means I shattered verb,NW,all_three
+989,fingernail,Welsh,bysedd,wrong_sense,ewin,med,means fingers,NW,all_three
+992,toe,Welsh,toe,untranslated,bys troed,med,English word untranslated,NW,all_three
+1000,arm,Welsh,harfoga ’,garbage,braich,med,garbled form,NW,all_three
+1006,back,Welsh,baciwn,garbage,cefn,med,garbled form,NW,all_three
+1044,air,Welsh,aeria ’,garbage,awyr,med,garbled form,NW,all_three
+1045,water,Welsh,dyfrhaoch,wrong_pos,dŵr,med,means you irrigate verb,NW,all_three
+1046,wave,Welsh,chwifi,wrong_pos,ton,med,means you wave verb,NW,all_three
 7,wait,Arabic,نظر,wrong_sense,انتظر,med,means looked/watched not wait,W,two
 12,consider,Arabic,عبر,wrong_sense,اعتبر,med,means cross/express,W,two
 156,kiss,Arabic,لتقبيل,phrase,يقبّل,med,for-kissing gerund phrase,W,two
@@ -110,11 +194,58 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 238,handle,Arabic,لكي يعلق,wrong_sense,يتعامل مع,med,means to comment/hang,W,two
 364,fine,Arabic,انها على ما يرام,phrase,ناعم,med,phrase it is okay,W,two
 441,odd,Arabic,غريب,wrong_sense,فردي,high,means strange,W,two
+613,baby,Arabic,طفل,wrong_sense,رضيع,med,means child not infant,W,two
+626,son-in-law,Arabic,ابنه قانونياً,phrase,صهر,med,phrase his son legally,W,two
+630,father-in-law,Arabic,ووالد بالتبنى,wrong_sense,حمو,med,means adoptive father,W,two
+635,stepdaughter,Arabic,ابنة الأب,wrong_sense,ابنة الزوج,med,means daughter of the father,W,two
+675,otter,Arabic,قندس,wrong_sense,ثعلب الماء,med,means beaver,W,two
+692,cormorant,Arabic,cormorant,untranslated,غاق,high,English word untranslated,W,two
+748,aphid,Arabic,أفيد,likely_wrong,منّ,med,transliteration of English,W,two
+752,cricket,Arabic,كريكيت,wrong_sense,صرصور الليل,high,means cricket the sport,W,two
+755,worm,Arabic,الفيروس المتنقل,wrong_sense,دودة,high,means computer worm,W,two
+756,plant,Arabic,مصنع,wrong_sense,نبات,high,means factory,W,two
+813,stump,Arabic,عقب السيجارة,wrong_sense,جذع الشجرة,high,means cigarette butt,W,two
+824,daisy,Arabic,ديزي,untranslated,الأقحوان,med,transliteration of English,W,two
+835,marigold,Arabic,marigold,untranslated,القطيفة,med,English word untranslated,W,two
+848,lilac,Arabic,أرجواني,wrong_sense,الليلك,high,means purple the colour,W,two
+861,birch,Arabic,بيرش,untranslated,البتولا,med,transliteration of English,W,two
+904,acorn,Arabic,أربل,garbage,بلوط,med,garbled form,W,two
+909,cereal,Arabic,رقائق الذرة,wrong_sense,حبوب,high,means corn flakes,W,two
+935,pickle,Arabic,ورطة,wrong_sense,مخلل,high,means predicament (in a pickle),W,two
+961,plate,Arabic,لوحة,wrong_sense,صحن,high,means board/sign,W,two
+966,pan,Arabic,حرمان,wrong_sense,مقلاة,high,means deprivation,W,two
+980,tear,Arabic,يٌقطِّع,wrong_pos,دمعة,high,means he tears up verb,W,two
+987,limb,Arabic,فرع الشجره,wrong_sense,طرف,high,means tree branch,W,two
+997,hand,Arabic,يُسلِّم,wrong_pos,يد,high,means he hands over verb,W,two
+1006,back,Arabic,الى الخلف,wrong_sense,ظهر,high,means to the rear,W,two
 322,scold,Finnish,huutaa,wrong_sense,moittia,med,means to shout,W,two
 325,scoop,Finnish,kaatamaan,wrong_sense,ammentaa,med,means to pour,W,two
 442,even,Finnish,jopa,wrong_sense,parillinen,high,means even or as-much-as adverb,N,two
+628,brother-in-law,Finnish,veli,wrong_sense,lanko,med,means brother,W,two
+723,carapace,Finnish,roska,wrong_sense,kilpi,high,means trash/litter,W,two
+753,firefly,Finnish,firefly,untranslated,kiiltomato,high,English word untranslated,W,two
+756,plant,Finnish,tehdas,wrong_sense,kasvi,high,means factory,W,two
+759,stick,Finnish,tarttua,wrong_pos,keppi,high,means to grip/stick verb,N,two
+781,fig,Finnish,kuva,wrong_sense,viikuna,high,means picture/image,W,two
+793,scallion,Finnish,scallion,untranslated,kevätsipuli,high,English word untranslated,N,two
+813,stump,Finnish,kisko,wrong_sense,kanto,high,means rail/track,W,two
+814,root,Finnish,juurtua,wrong_pos,juuri,high,means to take root verb,N,two
+815,bark,Finnish,haukkua,wrong_sense,kaarna,high,means to bark dog,N,two
+843,camellia,Finnish,kamllia,garbage,kamelia,med,garbled form,W,two
+844,hydrangea,Finnish,hydrangea,untranslated,hortensia,med,English word untranslated,W,two
+845,snapdragon,Finnish,snapdragon,untranslated,leijonankita,med,English word untranslated,W,two
+908,fluid,Finnish,sujuva,wrong_pos,neste,high,adjective fluent/smooth,W,two
+945,cookie,Finnish,eväste,wrong_sense,keksi,high,means browser cookie,W,two
+968,tail,Finnish,taka,wrong_sense,häntä,med,means back/rear,N,two
+1006,back,Finnish,takaisin,wrong_sense,selkä,high,means back/return adverb,N,two
+1047,whirlpool,Finnish,poreallas,wrong_sense,pyörre,high,means jacuzzi/hot tub,W,two
 248,inherit,German,übernehmen,wrong_sense,erben,med,means take over,W,two
 364,fine,German,in ordnung,wrong_sense,fein,high,means okay,W,two
+655,rabbit,German,hase,wrong_sense,kaninchen,med,means hare,W,two
+693,egret,German,gret,garbage,silberreiher,med,truncated fragment,W,two
+722,shell,German,kruste,wrong_sense,muschel,med,means crust,W,two
+753,firefly,German,firefly,untranslated,glühwürmchen,high,English word untranslated,W,two
+1036,body,German,karosserie,wrong_sense,körper,high,means car body/bodywork,N,two
 27,continue,Greek,να συνεχίσει,phrase,συνεχίζω,med,subjunctive periphrasis,W,two
 63,smile,Greek,να χαμογελάσει,phrase,χαμογελάω,med,subjunctive periphrasis,W,two
 169,include,Greek,να συμπεριλάβει,phrase,συμπεριλαμβάνω,med,subjunctive periphrasis,W,two
@@ -122,12 +253,39 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 322,scold,Greek,να πειράξει,wrong_sense,μαλώνω,med,means to tease/annoy,W,two
 380,cool,Greek,ειναι ενταξει,wrong_sense,δροσερός,high,means it is okay,W,two
 442,even,Greek,ακόμη και,wrong_sense,ζυγός,high,means even or also adverb,N,two
+611,parent,Greek,μητρική εταιρεία,wrong_sense,γονέας,high,means parent company,W,two
+660,panda,Greek,αρκτοειδές ζώο της ασίας,phrase,πάντα,med,descriptive phrase not lexeme,W,two
+686,oriole,Greek,φλώρος,wrong_sense,συκοφάγος,med,means greenfinch,W,two
+692,cormorant,Greek,άπληστος,wrong_sense,κορμοράνος,high,means greedy (adjective),W,two
+704,reptile,Greek,έρπων,wrong_pos,ερπετό,med,participle crawling,W,two
+729,germ,Greek,φύτρο,wrong_sense,μικρόβιο,med,means sprout,W,two
+831,daffodil,Greek,ασφόδελος,wrong_sense,νάρκισσος,med,means asphodel,W,two
+903,cashew,Greek,κάβαρο,garbage,κάσιους,med,garbled form,W,two
+924,smoothie,Greek,λουλούδι,garbage,smoothie,high,means flower,W,two
+934,soy sauce,Greek,σοκάη,garbage,σάλτσα σόγιας,med,garbled form,W,two
+961,plate,Greek,πλάκα,wrong_sense,πιάτο,med,means slab/plaque,W,two
+1006,back,Greek,πίσω,wrong_sense,πλάτη,high,means behind/back adverb,N,two
 80,wear,Hebrew,נשא,wrong_sense,ללבוש,med,means carry/bear,W,two
 204,rear,Hebrew,לאחור,wrong_sense,לגדל,med,means backwards,N,two
 364,fine,Hebrew,בסדר,wrong_sense,דק,high,means okay,W,two
 441,odd,Hebrew,מוזר,wrong_sense,אי-זוגי,high,means strange,W,two
 442,even,Hebrew,אֲפִילוּ,wrong_sense,זוגי,high,means even or also adverb,N,two
 461,fair,Hebrew,יריד,wrong_sense,הוגן,high,means a marketplace fair,N,two
+626,son-in-law,Hebrew,בן חורג,wrong_sense,חתן,high,means stepson,W,two
+627,daughter-in-law,Hebrew,בת חורגת,wrong_sense,כלה,high,means stepdaughter,W,two
+630,father-in-law,Hebrew,חמות,wrong_sense,חם,high,means mother-in-law,W,two
+653,tiger,Hebrew,נָמֵר,wrong_sense,טיגריס,med,נמר normally means leopard,W,two
+683,hummingbird,Hebrew,hummingbird,untranslated,יונק דבש,high,English word in Hebrew column,W,two
+685,magpie,Hebrew,עוֹרֵב הַנְחָלִים,wrong_sense,עַקְעָק,med,means brook raven,W,two
+692,cormorant,Hebrew,קורמורנט,likely_wrong,קורמורן,med,transliteration,W,two
+792,ginger,Hebrew,ג'ינג'ר,likely_wrong,זַנגְבִיל,med,transliteration of English,W,two
+793,scallion,Hebrew,scallion,untranslated,בצל ירוק,med,English word untranslated,N,two
+812,trunk,Hebrew,חדק,wrong_sense,גזע,high,means elephant trunk,N,two
+875,moss,Hebrew,אֵזוֹב,wrong_sense,טחב,med,means hyssop,W,two
+906,bean,Hebrew,אפונה,wrong_sense,שעועית,high,means pea,W,two
+924,smoothie,Hebrew,אָדָם חֲלַקְלַק,wrong_sense,סמודי,high,means a slippery person,W,two
+967,horn,Hebrew,צופר,wrong_sense,קרן,high,means car horn/siren,N,two
+1034,medicine,Hebrew,רפואה,wrong_sense,תרופה,med,means medicine as a field,N,two
 5,enter,Hindi,डालें,wrong_sense,प्रवेश करना,med,means put/insert,N,two
 34,drink,Hindi,पेय,wrong_pos,पीना,low,noun beverage,N,two
 46,hit,Hindi,hit,untranslated,मारना,high,English left as-is,W,two
@@ -161,6 +319,54 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 461,fair,Hindi,मेला,wrong_sense,निष्पक्ष,high,means a carnival fair,N,two
 530,blue,Hindi,ब्लू,untranslated,नीला,high,transliteration of English blue,N,two
 599,population,Hindi,जनसांख्यिकी,wrong_sense,जनसंख्या,med,means demography or demographics,W,two
+602,child,Hindi,चाइल्ड,untranslated,बच्चा,high,transliteration of English child,W,two
+659,monkey,Hindi,मंकी,untranslated,बंदर,high,transliteration of English monkey,W,two
+683,hummingbird,Hindi,हमिंगबर्ड,untranslated,गुंजन पक्षी,med,transliteration of English,W,two
+685,magpie,Hindi,magpie,untranslated,नीलकंठ,med,English word untranslated,W,two
+693,egret,Hindi,egret,untranslated,बगुला,med,English word untranslated,W,two
+694,crane,Hindi,क्रेन,likely_wrong,सारस,med,transliteration; could be machine,N,two
+700,raven,Hindi,रेवेन,untranslated,डोमकौआ,high,transliteration of English raven,W,two
+704,reptile,Hindi,साँप,wrong_sense,सरीसृप,med,means snake,W,two
+715,seal,Hindi,मुहर,wrong_sense,सील,high,means stamp/seal,W,two
+718,starfish,Hindi,starfish,untranslated,तारा मछली,med,English word untranslated,W,two
+721,octopus,Hindi,अष्टभुज,wrong_sense,ऑक्टोपस,high,means octagon,W,two
+735,dragonfly,Hindi,dragonfly,untranslated,व्याध पतंग,med,English word untranslated,W,two
+748,aphid,Hindi,सुगंधित,garbage,माहू,high,means fragrant,W,two
+756,plant,Hindi,संयंत्र,wrong_sense,पौधा,high,means industrial plant/factory,W,two
+764,banana,Hindi,banana,untranslated,केला,high,English word in Devanagari column,W,two
+781,fig,Hindi,फिदा,garbage,अंजीर,high,means smitten/devoted,W,two
+793,scallion,Hindi,स्कैलिआन,untranslated,हरा प्याज,med,transliteration of English,N,two
+801,pumpkin,Hindi,पम्पकिन,untranslated,कद्दू,med,transliteration of English pumpkin,W,two
+802,celery,Hindi,अजवाइन,wrong_sense,अजमोद,med,means carom seeds/ajwain,W,two
+812,trunk,Hindi,ट्रंक,wrong_sense,तना,high,means box/luggage trunk,N,two
+816,bush,Hindi,बुश,untranslated,झाड़ी,med,transliteration of English bush,W,two
+818,petal,Hindi,पत्ती,wrong_sense,पंखुड़ी,med,means leaf,W,two
+822,rose,Hindi,रोज़,untranslated,गुलाब,high,transliteration; also means daily,W,two
+823,lily,Hindi,लिली,untranslated,कुमुदिनी,med,transliteration of English lily,W,two
+824,daisy,Hindi,डेज़ी,untranslated,गुलबहार,med,transliteration of English,W,two
+831,daffodil,Hindi,हलका पीला रंग,wrong_sense,नरगिस,high,means light yellow colour,W,two
+854,willow,Hindi,विलो,untranslated,मजनूं,med,transliteration of English,N,two
+857,pine,Hindi,पाइन,untranslated,चीड़,med,transliteration of English pine,W,two
+862,oak,Hindi,ओक,untranslated,बलूत,med,transliteration of English oak,W,two
+870,fir,Hindi,fir,untranslated,देवदार,med,English word in Devanagari column,N,two
+873,straw,Hindi,स्ट्रॉ,untranslated,पुआल,med,transliteration of English straw,W,two
+874,herb,Hindi,हर्ब,untranslated,जड़ी-बूटी,med,transliteration of English herb,W,two
+875,moss,Hindi,मॉस,untranslated,काई,med,transliteration of English moss,W,two
+883,fat,Hindi,मोटे,wrong_pos,चर्बी,high,adjective fat/thick,N,two
+884,oil,Hindi,आयल,untranslated,तेल,high,transliteration of English oil,W,two
+893,cheese,Hindi,चीज,untranslated,पनीर,high,transliteration; also means thing,W,two
+910,rice,Hindi,राइस,untranslated,चावल,high,transliteration of English rice,W,two
+913,dough,Hindi,आटा,wrong_sense,गुँधा आटा,med,means flour,W,two
+914,bread,Hindi,ब्रैड,untranslated,रोटी,high,transliteration of English bread,N,two
+915,crust,Hindi,क्रस्ट,untranslated,पपड़ी,med,transliteration of English crust,W,two
+943,mint,Hindi,मिंट,untranslated,पुदीना,med,transliteration of English mint,W,two
+944,basil,Hindi,बेसिल,untranslated,तुलसी,med,transliteration of English basil,W,two
+956,sugar,Hindi,शुगर,untranslated,चीनी,med,transliteration of English sugar,W,two
+982,snot,Hindi,गुस्ताख़,wrong_sense,सिनक,high,means insolent,W,two
+1006,back,Hindi,वापस,wrong_sense,पीठ,high,means back/return adverb,N,two
+1009,hip,Hindi,हिप,untranslated,कूल्हा,med,transliteration of English hip,W,two
+1034,medicine,Hindi,आयुर्विज्ञान,wrong_sense,दवा,high,means medical science,N,two
+1043,star,Hindi,स्टार,likely_wrong,तारा,med,transliteration; also celebrity,N,two
 6,exit,Hungarian,kijárat,wrong_pos,kilépni,high,noun the doorway not verb,N,two
 25,repeat,Hungarian,ismétlés,wrong_pos,ismételni,med,noun repetition,W,two
 30,draw,Hungarian,döntetlen,wrong_sense,rajzolni,high,means a draw/tie in sport,N,two
@@ -196,15 +402,96 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 435,stable,Hungarian,istálló,wrong_sense,stabil,low,means horse stable building,W,two
 442,even,Hungarian,még,wrong_sense,páros,high,means still or yet adverb,N,two
 443,single,Hungarian,szingli,wrong_pos,egyetlen,med,loan noun unmarried person,W,two
+600,man,Hungarian,ember,wrong_sense,férfi,med,"means human/person, not male",N,two
+618,granddaughter,Hungarian,unokája,likely_wrong,unoka,low,generic grandchild not granddaughter,W,two
+627,daughter-in-law,Hungarian,sógornő,wrong_sense,meny,med,means sister-in-law,W,two
+643,vet,Hungarian,veterán,wrong_sense,állatorvos,high,means veteran,W,two
+649,pig,Hungarian,malac,wrong_sense,disznó,med,means piglet,N,two
+653,tiger,Hungarian,tiger,untranslated,tigris,high,English word untranslated,W,two
+700,raven,Hungarian,raven,untranslated,holló,high,English word untranslated,W,two
+715,seal,Hungarian,seal,untranslated,fóka,high,English word untranslated,W,two
+733,fly,Hungarian,repülj,wrong_pos,légy,high,imperative to fly,N,two
+753,firefly,Hungarian,firefly,untranslated,szentjánosbogár,high,English word untranslated,W,two
+762,kernel,Hungarian,kernel,untranslated,mag,high,English word untranslated,W,two
+781,fig,Hungarian,figura,wrong_sense,füge,high,means figure/shape,W,two
+792,ginger,Hungarian,ginger,untranslated,gyömbér,high,English word untranslated,W,two
+793,scallion,Hungarian,mogyoró,wrong_sense,újhagyma,high,means peanut/hazelnut,N,two
+813,stump,Hungarian,stump,untranslated,csonk,high,English word untranslated,W,two
+822,rose,Hungarian,rose,untranslated,rózsa,high,English word untranslated,W,two
+823,lily,Hungarian,lily,untranslated,liliom,high,English word untranslated,W,two
+824,daisy,Hungarian,daisy,untranslated,százszorszép,high,English word untranslated,W,two
+842,poppy,Hungarian,poppy,untranslated,mák,high,English word untranslated,W,two
+843,camellia,Hungarian,camellia,untranslated,kamélia,high,English word untranslated,W,two
+847,jasmine,Hungarian,jasmine,untranslated,jázmin,high,English word untranslated,W,two
+851,reed,Hungarian,reed,untranslated,nád,high,English word untranslated,W,two
+855,aspen,Hungarian,aspen,untranslated,rezgő nyár,med,English word untranslated,W,two
+874,herb,Hungarian,herb,untranslated,gyógynövény,high,English word untranslated,W,two
+875,moss,Hungarian,moss,untranslated,moha,high,English word untranslated,W,two
+883,fat,Hungarian,kövér,wrong_pos,zsír,high,adjective fat/obese,N,two
+944,basil,Hungarian,basil,untranslated,bazsalikom,high,English word untranslated,W,two
+947,candy,Hungarian,candy,untranslated,cukorka,high,English word untranslated,W,two
+962,bowl,Hungarian,bowl,untranslated,tál,high,English word untranslated,W,two
+965,pot,Hungarian,füves,wrong_sense,fazék,high,means grassy/marijuana slang,N,two
+980,tear,Hungarian,szakadás,wrong_sense,könny,high,means rupture/rip,N,two
+1006,back,Hungarian,vissza,wrong_sense,hát,high,means back/return adverb,N,two
+1034,medicine,Hungarian,orvostudomány,wrong_sense,gyógyszer,high,means medical science,N,two
+1043,star,Hungarian,sztár,wrong_sense,csillag,high,means star celebrity,N,two
 59,stick,Indonesian,tetap,wrong_sense,menempel,med,means stay/remain,W,two
 96,break,Indonesian,istirahat,wrong_sense,memecahkan,med,means rest/pause,W,two
 188,like,Indonesian,menyukai,wrong_sense,menyerupai,med,this sense is resemble,W,two
 441,odd,Indonesian,aneh,wrong_sense,ganjil,med,means strange,W,two
+685,magpie,Indonesian,magpie,untranslated,burung murai,med,English word untranslated,W,two
+747,cicada,Indonesian,jangkrik,wrong_sense,tonggeret,med,means cricket,W,two
+751,millipede,Indonesian,millipede,untranslated,kaki seribu,med,English word untranslated,W,two
+753,firefly,Indonesian,firefly,untranslated,kunang-kunang,high,English word untranslated,W,two
+842,poppy,Indonesian,poppy,untranslated,bunga opium,med,English word untranslated,W,two
+844,hydrangea,Indonesian,hydrangea,untranslated,bunga hortensia,med,English word untranslated,W,two
+848,lilac,Indonesian,ungu,wrong_sense,bunga lila,high,means purple the colour,W,two
+873,straw,Indonesian,sedotan,wrong_sense,jerami,high,means drinking straw,W,two
+905,hazelnut,Indonesian,kemiri,wrong_sense,hazelnut,med,means candlenut,W,two
+1006,back,Indonesian,kembali,wrong_sense,punggung,high,means to return,W,two
+1046,wave,Indonesian,melambai,wrong_pos,ombak,high,means to wave the hand verb,W,two
 58,connect,Italian,per connettere,phrase,connettere,med,means in order to connect,N,two
 59,stick,Italian,rimanere,wrong_sense,attaccare,med,means to remain,N,two
 230,wrinkle,Italian,per raggruppare,wrong_sense,raggrinzire,med,means to group,W,two
 315,weave,Italian,ondeggiare,wrong_sense,tessere,high,means to sway/wave,W,two
 443,single,Italian,separare,wrong_sense,singolo,med,verb to separate,W,two
+686,oriole,Italian,oriole,untranslated,rigogolo,med,English word untranslated,W,two
+845,snapdragon,Italian,snapdragon,untranslated,bocca di leone,med,English word untranslated,W,two
+855,aspen,Italian,aspen,untranslated,pioppo tremulo,med,English word untranslated,W,two
+899,peanut,Italian,peanut,untranslated,arachide,high,English word untranslated,W,two
+903,cashew,Italian,anchew,garbage,anacardio,high,garbled form,W,two
+982,snot,Italian,snot,untranslated,moccio,high,English word untranslated,W,two
+1006,back,Italian,indietro,wrong_sense,schiena,high,means back/backwards adverb,N,two
+636,stepson,Japanese,義理の息子,wrong_sense,継子,med,means son-in-law,W,two
+665,camel,Japanese,キャメル,likely_wrong,ラクダ,med,rare transliteration not standard word,W,two
+674,hedgehog,Japanese,ヘッジホッグ,likely_wrong,ハリネズミ,med,transliteration not standard word,W,two
+678,nest,Japanese,ネスト,likely_wrong,巣,med,transliteration not standard word,N,two
+686,oriole,Japanese,オリオール,likely_wrong,コウライウグイス,med,transliteration not standard word,W,two
+691,woodpecker,Japanese,キッドペッカー,garbage,キツツキ,high,garbled kid-pecker transliteration,W,two
+693,egret,Japanese,ユグレット,garbage,シラサギ,med,garbled transliteration,W,two
+715,seal,Japanese,密閉する,wrong_pos,アザラシ,high,means to seal shut (verb),W,two
+727,sea anemone,Japanese,シーアンモネ,likely_wrong,イソギンチャク,med,transliteration not standard word,W,two
+728,coral,Japanese,コーラル,likely_wrong,サンゴ,med,transliteration not standard word,W,two
+755,worm,Japanese,いも虫,wrong_sense,ミミズ,med,means caterpillar,W,two
+756,plant,Japanese,工場,wrong_sense,植物,high,means factory,W,two
+812,trunk,Japanese,トランク,wrong_sense,幹,high,means luggage/car trunk,N,two
+815,bark,Japanese,吠える,wrong_sense,樹皮,high,means to bark dog,N,two
+823,lily,Japanese,リリー,likely_wrong,ユリ,med,transliteration not standard word,W,two
+824,daisy,Japanese,デイジー,likely_wrong,ヒナギク,med,transliteration not standard word,W,two
+836,buttercup,Japanese,バターカップ,likely_wrong,キンポウゲ,med,transliteration not standard word,W,two
+843,camellia,Japanese,カメリア,likely_wrong,ツバキ,med,transliteration not standard word,W,two
+855,aspen,Japanese,アスペン,likely_wrong,ヤマナラシ,med,transliteration not standard word,W,two
+866,elm,Japanese,エルム,likely_wrong,ニレ,med,transliteration not standard word,W,two
+868,maple,Japanese,メープル,likely_wrong,カエデ,med,transliteration not standard word,W,two
+873,straw,Japanese,ストロー,wrong_sense,藁,high,means drinking straw,W,two
+875,moss,Japanese,モス,likely_wrong,苔,med,transliteration not standard word,W,two
+883,fat,Japanese,肥満,wrong_sense,脂肪,med,means obesity,N,two
+900,chestnut,Japanese,くるみ,wrong_sense,栗,high,means walnut,W,two
+915,crust,Japanese,パリパリの皮,phrase,クラスト,med,descriptive phrase crispy skin,W,two
+956,sugar,Japanese,シュガー,likely_wrong,砂糖,med,transliteration not standard word,W,two
+967,horn,Japanese,ホーン,wrong_sense,角,med,means car horn,N,two
+1006,back,Japanese,戻る,wrong_pos,背中,high,means to return verb,N,two
 25,repeat,Korean,반복하려면,phrase,반복하다,med,means in order to repeat,W,two
 63,smile,Korean,미소하는,wrong_pos,미소짓다,low,participle smiling,W,two
 167,insert,Korean,삽입하려면,phrase,삽입하다,med,means in order to insert,W,two
@@ -219,17 +506,108 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 364,fine,Korean,그것은 괜찮습니다,phrase,가늘다,med,sentence it is okay,W,two
 441,odd,Korean,이상한,wrong_sense,홀수의,high,means strange,W,two
 442,even,Korean,심지어,wrong_sense,짝수의,high,means even or also adverb,N,two
+628,brother-in-law,Korean,며느리,wrong_sense,매형,high,means daughter-in-law,W,two
+704,reptile,Korean,비열한,wrong_sense,파충류,high,means despicable/mean,W,two
+715,seal,Korean,봉인,wrong_sense,물개,high,means sealing/seal-up,W,two
+737,caterpillar,Korean,무한 궤도,wrong_sense,애벌레,high,means caterpillar track (vehicle),W,two
+741,scorpion,Korean,투석기,wrong_sense,전갈,high,means catapult,W,two
+753,firefly,Korean,파이어 플라이,untranslated,반딧불이,med,transliteration of English,W,two
+756,plant,Korean,공장,wrong_sense,식물,high,means factory,W,two
+793,scallion,Korean,가리비,wrong_sense,파,high,means scallop,N,two
+812,trunk,Korean,트렁크,wrong_sense,줄기,high,means luggage/car trunk,N,two
+815,bark,Korean,짖다,wrong_sense,나무 껍질,high,means to bark dog,N,two
+816,bush,Korean,부시,untranslated,덤불,med,transliteration of English bush,W,two
+841,iris,Korean,아이리스,untranslated,붓꽃,med,transliteration of English iris,W,two
+847,jasmine,Korean,여자 이름,garbage,재스민,high,means woman name,W,two
+855,aspen,Korean,아스펜,untranslated,사시나무,med,transliteration of English,W,two
+862,oak,Korean,오크,untranslated,참나무,med,transliteration of English oak,W,two
+866,elm,Korean,엘름,untranslated,느릅나무,med,transliteration of English elm,W,two
+873,straw,Korean,빨대,wrong_sense,짚,high,means drinking straw,W,two
+874,herb,Korean,목초,wrong_sense,허브,med,means forage/pasture grass,W,two
+887,yolk,Korean,양털 기름,garbage,노른자,high,means wool grease/lanolin,W,two
+924,smoothie,Korean,점잖은 사람,wrong_sense,스무디,high,means a refined person,W,two
+961,plate,Korean,그릇,wrong_sense,접시,med,means bowl/vessel,W,two
+978,iris,Korean,아이리스,untranslated,홍채,med,transliteration of English iris,W,two
+1004,guts,Korean,끈기,wrong_sense,내장,high,means perseverance,W,two
+1006,back,Korean,뒤쪽에,wrong_sense,등,high,means at the rear adverb,N,two
+1009,hip,Korean,잘 알고 있기,wrong_sense,엉덩이,high,means being well-informed,W,two
+1014,heart,Korean,마음,wrong_sense,심장,high,means mind/feelings,N,two
+1018,pancreas,Korean,콩팥,wrong_sense,췌장,high,means kidney,W,two
+1024,nerve,Korean,신경 이상,wrong_sense,신경,high,means nerve disorder,W,two
 204,rear,Russian,чтобы сзади,wrong_sense,растить,high,means to the back,N,two
 311,plough,Russian,плавать,wrong_sense,пахать,high,means to swim/sail,W,two
 325,scoop,Russian,чтобы сочетать,wrong_sense,зачерпнуть,high,means in order to combine,W,two
 364,fine,Russian,нормально,wrong_sense,тонкий,high,means okay,W,two
 442,even,Russian,даже,wrong_sense,чётный,high,means even or also adverb,N,two
+600,man,Russian,человек,wrong_sense,мужчина,high,"means person/human, not male",N,two
+692,cormorant,Russian,банк,garbage,баклан,high,means bank,W,two
+693,egret,Russian,царапин,garbage,цапля,med,means scratches,W,two
+716,walrus,Russian,морс,garbage,морж,high,means fruit drink,W,two
+737,caterpillar,Russian,caterpillar,untranslated,гусеница,high,English word untranslated,W,two
+740,snail,Russian,уловка,wrong_sense,улитка,high,means trick/ploy,W,two
+751,millipede,Russian,миллипед,likely_wrong,многоножка,med,transliteration of English,W,two
+815,bark,Russian,лаять,wrong_sense,кора,high,means to bark dog,N,two
+819,stem,Russian,корень,wrong_sense,стебель,high,means root,W,two
+824,daisy,Russian,дейзи,untranslated,маргаритка,med,transliteration of English,W,two
+831,daffodil,Russian,нарцискую,garbage,нарцисс,med,garbled form,W,two
+834,dahlia,Russian,далия,likely_wrong,георгин,low,nonstandard transliteration,W,two
+835,marigold,Russian,ногол,garbage,бархатцы,med,garbled form,W,two
+866,elm,Russian,вере,garbage,вяз,med,garbled form,W,two
+883,fat,Russian,толстый,wrong_pos,жир,high,adjective fat/thick,N,two
+944,basil,Russian,бэзил,untranslated,базилик,high,transliteration of English basil,W,two
+1006,back,Russian,назад,wrong_sense,спина,high,means backwards adverb,N,two
+1031,fart,Russian,пердук,garbage,пердёж,med,garbled slang,W,two
 188,like,Spanish,gustar,wrong_sense,parecerse,high,this sense is resemble,N,two
 230,wrinkle,Spanish,arruinar,wrong_sense,arrugarse,high,means to ruin,W,two
 442,even,Spanish,incluso,wrong_sense,par,high,means even or also adverb,N,two
+661,bear,Spanish,soportar,wrong_pos,oso,high,means to bear/endure (verb),N,two
+671,cheetah,Spanish,leopardo,wrong_sense,guepardo,high,means leopard,W,two
+686,oriole,Spanish,oriol,untranslated,oropéndola,med,near-transliteration,W,two
+811,branch,Spanish,sucursal,wrong_sense,rama,high,means branch office,N,two
+812,trunk,Spanish,maletero,wrong_sense,tronco,high,means car boot/trunk,N,two
+815,bark,Spanish,ladrar,wrong_sense,corteza,high,means to bark dog,N,two
+869,banyan,Spanish,bata oriental,garbage,baniano,high,means oriental robe,W,two
+883,fat,Spanish,gordo,wrong_pos,grasa,high,adjective fat,N,two
+967,horn,Spanish,bocina,wrong_sense,cuerno,med,means car horn/klaxon,N,two
 158,dash,Swahili,kwa dash,untranslated,kukimbia kasi,high,English dash embedded,W,two
 364,fine,Swahili,sawa,wrong_sense,laini,med,means okay,W,two
 478,busy,Swahili,busy,untranslated,-enye shughuli,high,English left as-is,W,two
+600,man,Swahili,mtu,wrong_sense,mwanamume,med,"means person, not man",W,two
+642,pet,Swahili,pet,untranslated,mnyama kipenzi,med,English word untranslated,W,two
+653,tiger,Swahili,tiger,untranslated,simba marara,med,English word untranslated,W,two
+661,bear,Swahili,kubeba,wrong_sense,dubu,high,means to carry (verb),W,two
+676,bat,Swahili,bat,untranslated,popo,med,English word untranslated,W,two
+682,goose,Swahili,goose,untranslated,bata bukini,med,English word untranslated,W,two
+683,hummingbird,Swahili,hummingbird,untranslated,ndege-nyuki,med,English word untranslated,W,two
+690,parrot,Swahili,parrot,untranslated,kasuku,med,English word untranslated,W,two
+691,woodpecker,Swahili,woodpecker,untranslated,kigogota,med,English word untranslated,W,two
+700,raven,Swahili,raven,untranslated,kunguru,med,English word untranslated,W,two
+704,reptile,Swahili,reptile,untranslated,mtambaazi,med,English word untranslated,W,two
+715,seal,Swahili,muhuri,wrong_sense,sili,high,means stamp/seal,W,two
+716,walrus,Swahili,walrus,untranslated,tembo wa baharini,med,English word untranslated,W,two
+737,caterpillar,Swahili,caterpillar,untranslated,kiwavi,med,English word untranslated,W,two
+741,scorpion,Swahili,scorpion,untranslated,nge,med,English word untranslated,W,two
+743,ant,Swahili,mchwa,wrong_sense,siafu/chungu,med,means termite,W,two
+746,louse,Swahili,louse,untranslated,chawa,med,English word untranslated,W,two
+751,millipede,Swahili,millipede,untranslated,jongoo,med,English word untranslated,W,two
+753,firefly,Swahili,firefly,untranslated,kimulimuli,med,English word untranslated,W,two
+763,apple,Swahili,apple,untranslated,tofaa,med,English word untranslated,W,two
+769,peach,Swahili,peach,untranslated,pichi,med,English word untranslated,W,two
+791,garlic,Swahili,vitunguu,wrong_sense,kitunguu saumu,med,means onions,W,two
+800,cauliflower,Swahili,cauliflower,untranslated,koliflawa,med,English word untranslated,W,two
+815,bark,Swahili,bark,untranslated,gome,med,English word untranslated,W,two
+816,bush,Swahili,bush,untranslated,kichaka,med,English word untranslated,W,two
+822,rose,Swahili,rose,untranslated,waridi,med,English word untranslated,W,two
+887,yolk,Swahili,yolk,untranslated,kiini cha yai,med,English word untranslated,W,two
+897,nut,Swahili,nut,untranslated,kokwa,med,English word untranslated,W,two
+913,dough,Swahili,unga,wrong_sense,donge la unga,med,means flour,W,two
+935,pickle,Swahili,kachumbari,wrong_sense,achali,med,means fresh tomato-onion salad,W,two
+992,toe,Swahili,toe,untranslated,kidole cha mguu,med,English word untranslated,W,two
+995,knee,Swahili,knee,untranslated,goti,med,English word untranslated,W,two
+1006,back,Swahili,nyuma,wrong_sense,mgongo,high,means behind/location,W,two
+1009,hip,Swahili,kiboko,wrong_sense,nyonga,high,means hippopotamus/whip,W,two
+1010,armpit,Swahili,armpit,untranslated,kwapa,med,English word untranslated,W,two
+1026,vein,Swahili,vein,untranslated,mshipa,med,English word untranslated,W,two
 9,leave,Thai,ทิ้ง,wrong_sense,จากไป,low,means discard/abandon,W,two
 36,hold,Thai,เก็บ,wrong_sense,ถือ,med,means keep/store,W,two
 42,put,Thai,นำ,wrong_sense,วาง,med,means bring/lead,W,two
@@ -238,35 +616,156 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 364,fine,Thai,ไม่ไร,garbage,ละเอียด,med,not a valid word,W,two
 441,odd,Thai,แปลก,wrong_sense,คี่,med,means strange,W,two
 442,even,Thai,สม่ำเสมอ,wrong_sense,คู่,med,means steady or regular,W,two
+613,baby,Thai,ที่รัก,wrong_sense,ทารก,high,means darling/sweetheart,W,two
+631,mother-in-law,Thai,แม่บุญธรรม,wrong_sense,แม่ยาย,med,means foster/adoptive mother,W,two
+715,seal,Thai,ผนึก,wrong_sense,แมวน้ำ,high,means to seal,W,two
+759,stick,Thai,ติด,wrong_pos,ไม้,med,means to stick/attach verb,W,two
+781,fig,Thai,รูปที่,wrong_sense,มะเดื่อ,med,means figure number,W,two
+844,hydrangea,Thai,สแน็ปดราก้อน,wrong_sense,ไฮเดรนเยีย,high,means snapdragon,W,two
+846,hibiscus,Thai,ชิบัส,garbage,ชบา,med,garbled form,W,two
+854,willow,Thai,วิลโลว์,untranslated,ต้นหลิว,med,transliteration of English,W,two
+873,straw,Thai,หลอด,wrong_sense,ฟาง,med,means tube/drinking straw,W,two
+909,cereal,Thai,ซีเรียล,wrong_sense,ธัญพืช,med,means breakfast cereal,W,two
+1006,back,Thai,กลับ,wrong_sense,หลัง,high,means to return,W,two
 204,rear,Turkish,arkaya,wrong_sense,yetiştirmek,high,means to the back,N,two
 364,fine,Turkish,iyi,wrong_sense,ince,high,means good,W,two
 380,cool,Turkish,harika,wrong_sense,serin,high,means wonderful,W,two
 441,odd,Turkish,garip,wrong_sense,tek,high,means strange,W,two
 542,it,Turkish,bt,garbage,o,high,not a word,W,two
+685,magpie,Turkish,magpie,untranslated,saksağan,high,English word untranslated,W,two
+686,oriole,Turkish,oriole,untranslated,sarıasma,high,English word untranslated,W,two
+752,cricket,Turkish,kriket,wrong_sense,cırcır böceği,high,means cricket the sport,W,two
+815,bark,Turkish,havlamak,wrong_sense,ağaç kabuğu,high,means to bark dog,N,two
+819,stem,Turkish,kök,wrong_sense,sap,high,means root,W,two
+846,hibiscus,Turkish,ebegümeci,wrong_sense,hatmi,med,means mallow,W,two
+873,straw,Turkish,pipet,wrong_sense,saman,high,means drinking straw/pipette,W,two
+883,fat,Turkish,şişman,wrong_pos,yağ,high,adjective fat/obese,N,two
+1006,back,Turkish,geri,wrong_sense,sırt,high,means back/backwards adverb,N,two
+1009,hip,Turkish,belki,wrong_sense,kalça,high,means maybe/perhaps,W,two
+1047,whirlpool,Turkish,jakuzi,wrong_sense,girdap,high,means jacuzzi,W,two
 204,rear,Vietnamese,phía sau,wrong_sense,nuôi dạy,med,means behind,W,two
 364,fine,Vietnamese,tốt,wrong_sense,mịn,med,means good,W,two
+682,goose,Vietnamese,goose,untranslated,con ngỗng,high,English word untranslated,W,two
+683,hummingbird,Vietnamese,hummingbird,untranslated,chim ruồi,high,English word untranslated,W,two
+684,sparrow,Vietnamese,sparrow,untranslated,chim sẻ,high,English word untranslated,W,two
+685,magpie,Vietnamese,magpie,untranslated,chim ác là,high,English word untranslated,W,two
+686,oriole,Vietnamese,oriole,untranslated,chim vàng anh,high,English word untranslated,W,two
+692,cormorant,Vietnamese,chim nhập vai,garbage,chim cốc,med,means role-playing bird,W,two
+693,egret,Vietnamese,đầu tiên,garbage,cò,med,means first,W,two
+700,raven,Vietnamese,raven,untranslated,quạ khoang,high,English word untranslated,W,two
+715,seal,Vietnamese,niêm phong,wrong_sense,hải cẩu,high,means to seal,W,two
+716,walrus,Vietnamese,walrus,untranslated,hải mã,high,English word untranslated,W,two
+725,clam,Vietnamese,yên tĩnh,wrong_sense,nghêu,med,means quiet (took clam as calm),W,two
+762,kernel,Vietnamese,kernel,untranslated,nhân,med,English word untranslated,W,two
+811,branch,Vietnamese,ngành,wrong_sense,cành cây,med,means branch/sector of industry,W,two
+816,bush,Vietnamese,bush,untranslated,bụi cây,high,English word untranslated,W,two
+824,daisy,Vietnamese,daisy,untranslated,hoa cúc,high,English word untranslated,W,two
+831,daffodil,Vietnamese,daffodil,untranslated,hoa thủy tiên,high,English word untranslated,W,two
+841,iris,Vietnamese,iris,untranslated,hoa diên vĩ,med,English word untranslated,W,two
+846,hibiscus,Vietnamese,sibiscus,garbage,dâm bụt,med,garbled form,W,two
+847,jasmine,Vietnamese,jasmine,untranslated,hoa nhài,med,English word untranslated,W,two
+867,beech,Vietnamese,beech,untranslated,cây sồi,med,English word untranslated,W,two
+904,acorn,Vietnamese,acorn,untranslated,quả sồi,high,English word untranslated,W,two
+905,hazelnut,Vietnamese,hazelnut,untranslated,quả phỉ,high,English word untranslated,W,two
+978,iris,Vietnamese,iris,untranslated,mống mắt,med,English word untranslated,W,two
+982,snot,Vietnamese,hợm hĩnh,wrong_sense,nước mũi,high,means snobbish,W,two
+1047,whirlpool,Vietnamese,whirlpool,untranslated,xoáy nước,high,English word untranslated,W,two
 6,exit,Welsh,allanfa,wrong_pos,,med,noun exit not verb,N,two
 380,cool,Welsh,cwl,untranslated,oer,med,English loan slang,W,two
+644,zoo,Welsh,saw,garbage,sw,med,not a real word,W,two
+657,lamb,Welsh,homen,garbage,oen,low,not a real word,W,two
+683,hummingbird,Welsh,hummingbird,untranslated,aderyn y si,med,English word untranslated,W,two
+684,sparrow,Welsh,ngwrachod,wrong_sense,golfan,med,means witches,W,two
+715,seal,Welsh,selia,untranslated,morlo,med,garbled to-seal verb,W,two
+716,walrus,Welsh,walws,likely_wrong,morfarch,med,transliteration,W,two
+723,carapace,Welsh,carapace,untranslated,cragen,med,English word untranslated,W,two
+725,clam,Welsh,champio,garbage,cregyn,low,not a real word,W,two
+735,dragonfly,Welsh,draig,wrong_sense,gwas y neidr,med,means dragon,W,two
+753,firefly,Welsh,firefly,untranslated,pryf tân,med,English word untranslated,W,two
+793,scallion,Welsh,scallion,untranslated,sibols,med,English word untranslated,N,two
+806,eggplant,Welsh,eggplant,untranslated,planhigyn wy,low,English word untranslated,W,two
+824,daisy,Welsh,daisy,untranslated,llygad y dydd,med,English word untranslated,W,two
+859,camphor tree,Welsh,camffor camphor,garbage,coeden gamffor,med,repeated word,W,two
+873,straw,Welsh,hefel,garbage,gwellt,med,garbled form,W,two
+900,chestnut,Welsh,chicni,garbage,castan,med,not a real word,W,two
+904,acorn,Welsh,acorn,untranslated,mesen,med,English word untranslated,W,two
+937,pepper,Welsh,buprom,garbage,pupur,med,garbled form,W,two
+946,chocolate,Welsh,chocolig,garbage,siocled,med,garbled form,W,two
+961,plate,Welsh,blatian,garbage,plât,med,garbled form,W,two
+962,bowl,Welsh,fowliant,garbage,powlen,med,garbled form,W,two
+1031,fart,Welsh,fart,untranslated,rhech,med,English word untranslated,W,two
+1033,pain,Welsh,doluriff,garbage,poen,med,garbled verb form,N,two
 442,even,Arabic,حتى,wrong_sense,زوجي,high,means even or until adverb,-,llm_only
+632,parents-in-law,Arabic,الآباء في القانون,phrase,الأحماء,med,calque parents in law,-,llm_only
+657,lamb,Arabic,لحم ضأن,wrong_sense,حمل,med,means mutton/lamb meat,-,llm_only
+676,bat,Arabic,مضرب,wrong_sense,خفاش,high,means racket/bat(sport),-,llm_only
+688,swallow bird,Arabic,ابتلاع الطيور,phrase,سنونو,med,swallowing birds,-,llm_only
+689,turtledove,Arabic,turtledove,untranslated,يمامة,high,English word untranslated,-,llm_only
+725,clam,Arabic,هادئة,wrong_sense,محار,high,means calm (took clam as calm),-,llm_only
+839,delphinium,Arabic,العائق,wrong_sense,مندل,high,means the obstacle/hurdle,-,llm_only
+883,fat,Arabic,سمين,wrong_pos,دهن,high,adjective fat/plump,-,llm_only
+922,coke,Arabic,فحم الكوك,wrong_sense,كوكاكولا,high,means coke coal,-,llm_only
+924,smoothie,Arabic,ملس,wrong_sense,سموذي,high,means smooth adjective,-,llm_only
+960,fork,Arabic,فرع,wrong_sense,شوكة,high,means branch,-,llm_only
+979,pupil,Arabic,التلميذ,wrong_sense,بؤبؤ,med,means student (Ch/Ir anchor = eye pupil),-,llm_only
 188,like,Finnish,pitää,wrong_sense,muistuttaa,high,this sense is resemble,-,llm_only
 249,train,Finnish,junaan,wrong_sense,kouluttaa,high,means into the train,-,llm_only
 349,light,Finnish,kevyt,wrong_sense,vaalea,med,means light in weight,-,llm_only
 380,cool,Finnish,siistiä,wrong_sense,viileä,med,means to tidy up verb,-,llm_only
 441,odd,Finnish,outo,wrong_sense,pariton,high,means strange,-,llm_only
+688,swallow bird,Finnish,niellä lintu,phrase,pääsky,med,to swallow + bird,-,llm_only
+689,turtledove,Finnish,kilpikonna,wrong_sense,turturikyyhky,high,means tortoise,-,llm_only
+706,fish,Finnish,kalastaa,wrong_pos,kala,high,means to fish (verb),-,llm_only
+715,seal,Finnish,tiiviste,wrong_sense,hylje,high,means gasket/seal(mechanical),-,llm_only
+733,fly,Finnish,lentää,wrong_pos,kärpänen,high,means to fly (verb),-,llm_only
+752,cricket,Finnish,kriketti,wrong_sense,sirkka,high,means cricket the sport,-,llm_only
+766,orange,Finnish,oranssi,wrong_sense,appelsiini,high,means orange the colour,-,llm_only
+848,lilac,Finnish,liila,wrong_sense,syreeni,med,means lilac the colour,-,llm_only
+858,locust tree,Finnish,heinäsirku,garbage,valeakaasia,med,garbled grasshopper,-,llm_only
+922,coke,Finnish,koksi,wrong_sense,kola,high,means coke fuel,-,llm_only
+979,pupil,Finnish,oppilas,wrong_sense,pupilli,med,means student (Ch/Ir anchor = eye pupil),-,llm_only
+980,tear,Finnish,repiä,wrong_pos,kyynel,high,means to tear/rip verb,-,llm_only
+1035,poison,Finnish,myrkyttää,wrong_pos,myrkky,high,means to poison verb,-,llm_only
 188,like,German,mögen,wrong_sense,ähneln,high,this sense is resemble,-,llm_only
 349,light,German,licht,wrong_sense,blass,high,noun illumination,-,llm_only
 351,light,German,licht,wrong_sense,leicht,high,noun illumination,-,llm_only
 380,cool,German,cool,wrong_sense,kühl,high,loan means awesome,-,llm_only
 441,odd,German,seltsam,wrong_sense,ungerade,high,means strange,-,llm_only
+676,bat,German,schläger,wrong_sense,fledermaus,high,means racket/bat(sport),-,llm_only
+687,thrush bird,German,tombosvogel,garbage,drossel,med,not a real word,-,llm_only
+688,swallow bird,German,vogel schlucken,phrase,schwalbe,med,to swallow a bird,-,llm_only
+715,seal,German,siegel,wrong_sense,robbe,high,means wax seal,-,llm_only
+752,cricket,German,kricket,wrong_sense,grille,high,means cricket the sport,-,llm_only
+848,lilac,German,lila,wrong_sense,flieder,high,means purple the colour,-,llm_only
+897,nut,German,mutter,wrong_sense,nuss,high,means nut hardware/mother,-,llm_only
+922,coke,German,koks,wrong_sense,cola,high,means coke fuel/cocaine,-,llm_only
+961,plate,German,platte,wrong_sense,teller,med,means slab/platter,-,llm_only
+979,pupil,German,schüler,wrong_sense,pupille,med,means student (Ch/Ir anchor = eye pupil),-,llm_only
+980,tear,German,reißen,wrong_pos,träne,high,means to tear/rip verb,-,llm_only
 151,like,Greek,να αρεσει,phrase,μου αρέσει,med,subjunctive periphrasis,-,llm_only
 188,like,Greek,να αρεσει,wrong_sense,μοιάζω,med,this sense is resemble,-,llm_only
 218,soak,Greek,να απολαύσω,wrong_sense,μουλιάζω,high,means to enjoy,-,llm_only
 325,scoop,Greek,για να σέσουσω,garbage,κουταλιάζω,high,not a real word,-,llm_only
 349,light,Greek,ελαφρύ,wrong_sense,ανοιχτό,med,means light in weight,-,llm_only
 364,fine,Greek,καλά,wrong_sense,λεπτός,high,means well or okay,-,llm_only
+689,turtledove,Greek,κουνουπιάζω,garbage,τρυγόνι,med,not a real word,-,llm_only
+715,seal,Greek,σφραγίδα,wrong_sense,φώκια,high,means stamp/seal,-,llm_only
+719,seahorse,Greek,θαλάσσιος θαλάσσιος,garbage,ιππόκαμπος,high,repeated word marine marine,-,llm_only
+733,fly,Greek,πετώ,wrong_pos,μύγα,high,means I fly (verb),-,llm_only
+752,cricket,Greek,κρίκετ,wrong_sense,γρύλος,high,means cricket the sport,-,llm_only
+777,starfruit,Greek,αστέρι,wrong_sense,άστερ φρουτ,med,means star only,-,llm_only
+922,coke,Greek,κοκ,wrong_sense,κόκα κόλα,med,means coke fuel,-,llm_only
+979,pupil,Greek,μαθητής,wrong_sense,κόρη,med,means student (Ch/Ir anchor = eye pupil),-,llm_only
 349,light,Hebrew,אור,wrong_sense,בהיר,high,noun illumination,-,llm_only
 351,light,Hebrew,אור,wrong_sense,קל,high,noun illumination,-,llm_only
 380,cool,Hebrew,מגניב,wrong_sense,קריר,high,means awesome,-,llm_only
+688,swallow bird,Hebrew,לבלוע ציפור,phrase,סנונית,med,to swallow a bird,-,llm_only
+689,turtledove,Hebrew,צבייה,wrong_sense,תור,med,means gazelle/doe,-,llm_only
+715,seal,Hebrew,חותם,wrong_sense,כלב ים,high,means stamp/seal,-,llm_only
+729,germ,Hebrew,נֶבֶט,wrong_sense,חיידק,med,means sprout/seed germ,-,llm_only
+752,cricket,Hebrew,קרִיקֶט,wrong_sense,צְרָצַר,high,means cricket the sport,-,llm_only
+777,starfruit,Hebrew,starfruit,untranslated,קרמבולה,med,English word untranslated,-,llm_only
+979,pupil,Hebrew,תלמיד,wrong_sense,אישון,med,means student (Ch/Ir anchor = eye pupil),-,llm_only
 165,pile,Hindi,ढेर,wrong_pos,ढेर लगाना,low,noun a heap,-,llm_only
 174,travel,Hindi,सफर,wrong_pos,यात्रा करना,low,noun journey,-,llm_only
 193,swing,Hindi,झूले,wrong_pos,झूलना,low,noun swings,-,llm_only
@@ -275,6 +774,22 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 380,cool,Hindi,कूल,untranslated,ठंडा,high,transliteration of English cool,-,llm_only
 401,disgusted,Hindi,निराश,wrong_sense,घृणा से भरा,med,means disappointed,-,llm_only
 508,sane,Hindi,गुरूजी,garbage,समझदार,high,means guru or teacher,-,llm_only
+635,stepdaughter,Hindi,सौतेली,phrase,सौतेली बेटी,med,adjective only missing noun,-,llm_only
+643,vet,Hindi,जाँचना,wrong_pos,पशु चिकित्सक,high,means to examine (verb),-,llm_only
+688,swallow bird,Hindi,पक्षी निगलें,phrase,अबाबील,med,swallow a bird,-,llm_only
+689,turtledove,Hindi,कछुआ कबूतर,phrase,फ़ाख़्ता,med,turtle pigeon calque,-,llm_only
+701,pelican,Hindi,pelican,untranslated,हवासिल,med,English word in Devanagari column,-,llm_only
+719,seahorse,Hindi,seahorse,untranslated,समुद्री घोड़ा,med,English word untranslated,-,llm_only
+722,shell,Hindi,शेल,untranslated,खोल,high,transliteration of English shell,-,llm_only
+739,ladybug,Hindi,एक प्रकार का गुबरैला,phrase,सोनपंखी,med,a kind of beetle (gloss),-,llm_only
+777,starfruit,Hindi,स्टारफ्रूट,untranslated,कमरख,med,transliteration of English,-,llm_only
+788,bamboo,Hindi,बाँसुरी,wrong_sense,बाँस,high,means flute,-,llm_only
+806,eggplant,Hindi,बैंगनी,wrong_sense,बैंगन,high,means purple the colour,-,llm_only
+845,snapdragon,Hindi,अजगर का चित्र,garbage,डॉग-फ्लावर,high,means picture of a python,-,llm_only
+924,smoothie,Hindi,ठग,wrong_sense,स्मूदी,high,means thug/swindler,-,llm_only
+979,pupil,Hindi,छात्र,wrong_sense,पुतली,med,means student (Ch/Ir anchor = eye pupil),-,llm_only
+1004,guts,Hindi,गुस्ताखी,wrong_sense,अंतड़ियाँ,high,means impudence,-,llm_only
+1029,poop,Hindi,जहाज़ का सबसे पिछला भाग,wrong_sense,गू,high,means poop deck of ship,-,llm_only
 14,choose,Hungarian,választás,wrong_pos,választani,med,noun choice,-,llm_only
 18,touch,Hungarian,érintés,wrong_pos,érinteni,med,noun a touch,-,llm_only
 19,smell,Hungarian,illat,wrong_pos,szagolni,med,noun scent,-,llm_only
@@ -318,25 +833,96 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 364,fine,Hungarian,bírság,wrong_sense,finom,high,means a monetary penalty,-,llm_only
 380,cool,Hungarian,menő,wrong_sense,hűvös,high,means trendy or cool style,-,llm_only
 441,odd,Hungarian,furcsa,wrong_sense,páratlan,high,means strange not odd number,-,llm_only
+688,swallow bird,Hungarian,nyelni madár,phrase,fecske,med,to swallow + bird,-,llm_only
+858,locust tree,Hungarian,süllyesztett fa,garbage,akácfa,high,means sunken wood,-,llm_only
+966,pan,Hungarian,pan,untranslated,serpenyő,high,English word untranslated,-,llm_only
+979,pupil,Hungarian,tanuló,wrong_sense,pupilla,med,means student (Ch/Ir anchor = eye pupil),-,llm_only
+1036,body,Hungarian,holttest,wrong_sense,test,high,means corpse,-,llm_only
 204,rear,Indonesian,ke belakang,wrong_sense,membesarkan,med,means to the back,-,llm_only
 380,cool,Indonesian,keren,wrong_sense,sejuk,med,means cool or awesome,-,llm_only
+600,man,Indonesian,manusia,wrong_sense,laki-laki,high,"means human, not man",-,llm_only
+650,mouse,Indonesian,mouse,untranslated,tikus,high,English word untranslated,-,llm_only
+687,thrush bird,Indonesian,burung thrush,untranslated,burung anis,med,English word untranslated,-,llm_only
+715,seal,Indonesian,segel,wrong_sense,anjing laut,high,means stamp/seal,-,llm_only
+733,fly,Indonesian,terbang,wrong_pos,lalat,high,means to fly (verb),-,llm_only
+739,ladybug,Indonesian,ladybug,untranslated,kepik,med,English word untranslated,-,llm_only
+836,buttercup,Indonesian,cangkir mentega,wrong_sense,bunga mentega,high,literal butter cup vessel,-,llm_only
+845,snapdragon,Indonesian,snapdragon,untranslated,bunga mulut naga,med,English word untranslated,-,llm_only
+883,fat,Indonesian,gemuk,wrong_pos,lemak,med,adjective fat,-,llm_only
+979,pupil,Indonesian,murid,wrong_sense,pupil mata,med,means student (Ch/Ir anchor = eye pupil),-,llm_only
+980,tear,Indonesian,merobek,wrong_pos,air mata,high,means to tear/rip verb,-,llm_only
+1004,guts,Indonesian,nyali,wrong_sense,jeroan,high,means nerve/courage,-,llm_only
 188,like,Italian,piacere,wrong_sense,somigliare,high,this sense is resemble,-,llm_only
 249,train,Italian,al treno,wrong_sense,allenare,high,means to the train,-,llm_only
 351,light,Italian,chiaro,wrong_sense,leggero,med,means pale or clear,-,llm_only
 364,fine,Italian,va bene,wrong_sense,fine,high,means okay,-,llm_only
 441,odd,Italian,strano,wrong_sense,dispari,high,means strange,-,llm_only
+688,swallow bird,Italian,dollow bird,garbage,rondine,med,garbled,-,llm_only
+733,fly,Italian,volare,wrong_pos,mosca,high,means to fly (verb),-,llm_only
+752,cricket,Italian,cricket,wrong_sense,grillo,high,means cricket the sport,-,llm_only
+777,starfruit,Italian,starfruit,untranslated,carambola,med,English word untranslated,-,llm_only
+979,pupil,Italian,allievo,wrong_sense,pupilla,med,means student (Ch/Ir anchor = eye pupil),-,llm_only
+676,bat,Japanese,バット,wrong_sense,コウモリ,high,means bat (sports),-,llm_only
+688,swallow bird,Japanese,鳥を飲み込みます,phrase,ツバメ,med,conjugated sentence,-,llm_only
+689,turtledove,Japanese,タートルブ,garbage,キジバト,med,garbled transliteration,-,llm_only
+729,germ,Japanese,胚芽,wrong_sense,細菌,high,means seed germ/embryo bud,-,llm_only
+733,fly,Japanese,飛ぶ,wrong_pos,ハエ,high,means to fly (verb),-,llm_only
+737,caterpillar,Japanese,キャタピラー,wrong_sense,芋虫,med,means caterpillar track (vehicle),-,llm_only
+752,cricket,Japanese,クリケット,wrong_sense,コオロギ,high,means cricket the sport,-,llm_only
+841,iris,Japanese,虹彩,wrong_sense,アヤメ,high,means iris of the eye,-,llm_only
+845,snapdragon,Japanese,snapdragon,untranslated,キンギョソウ,high,English word in Japanese column,-,llm_only
+851,reed,Japanese,リード,wrong_sense,葦,med,means reed music/lead,-,llm_only
+897,nut,Japanese,ナット,wrong_sense,木の実,high,means nut hardware,-,llm_only
+922,coke,Japanese,コークス,wrong_sense,コーラ,high,means coke fuel,-,llm_only
+1004,guts,Japanese,根性,wrong_sense,内臓,high,means guts/willpower,-,llm_only
 26,be used to,Korean,익숙해 져야합니다,phrase,익숙하다,med,full sentence must-become-accustomed,-,llm_only
 516,probable,Korean,유망한 후보자,wrong_sense,개연성 있는,med,means promising candidate,-,llm_only
+611,parent,Korean,부모의,wrong_pos,부모,med,genitive parent's not noun,-,llm_only
+632,parents-in-law,Korean,며느리,wrong_sense,사돈,high,means daughter-in-law,-,llm_only
+657,lamb,Korean,양고기,wrong_sense,새끼 양,med,means lamb meat/mutton,-,llm_only
+687,thrush bird,Korean,아구창 새,wrong_sense,개똥지빠귀,med,아구창 = oral thrush infection,-,llm_only
+688,swallow bird,Korean,새를 삼킨다,phrase,제비,med,conjugated sentence,-,llm_only
+752,cricket,Korean,크리켓,wrong_sense,귀뚜라미,high,means cricket the sport,-,llm_only
+766,orange,Korean,주황색,wrong_sense,오렌지,high,means orange the colour,-,llm_only
+836,buttercup,Korean,미나리,wrong_sense,미나리아재비,med,means water dropwort,-,llm_only
+897,nut,Korean,너트,wrong_sense,견과,high,means nut hardware,-,llm_only
+935,pickle,Korean,간물,likely_wrong,피클,med,odd brine-goods term,-,llm_only
+979,pupil,Korean,학생,wrong_sense,동공,med,means student (Ch/Ir anchor = eye pupil),-,llm_only
 19,smell,Russian,пахнуть,wrong_sense,нюхать,med,means emit odor not perceive,-,llm_only
 349,light,Russian,свет,wrong_sense,бледный,high,noun illumination,-,llm_only
 351,light,Russian,свет,wrong_sense,лёгкий,high,noun illumination,-,llm_only
 380,cool,Russian,круто,wrong_sense,прохладный,high,means awesome,-,llm_only
 441,odd,Russian,странный,wrong_sense,нечётный,high,means strange,-,llm_only
+611,parent,Russian,родительский,wrong_pos,родитель,high,adjective parental not noun,-,llm_only
+632,parents-in-law,Russian,родители в законе,phrase,тесть и тёща,med,calque parents in law,-,llm_only
+687,thrush bird,Russian,молочница птица,wrong_sense,дрозд,med,молочница = candidiasis,-,llm_only
+688,swallow bird,Russian,глотать птицу,phrase,ласточка,med,to swallow a bird,-,llm_only
+689,turtledove,Russian,окуняется,garbage,горлица,med,garbled verb,-,llm_only
+715,seal,Russian,печать,wrong_sense,тюлень,high,means stamp/seal,-,llm_only
+718,starfish,Russian,звезда,wrong_sense,морская звезда,med,means star only,-,llm_only
+729,germ,Russian,зародыш,wrong_sense,микроб,med,means embryo/seed germ,-,llm_only
+733,fly,Russian,летать,wrong_pos,муха,high,means to fly (verb),-,llm_only
+752,cricket,Russian,крикет,wrong_sense,сверчок,high,means cricket the sport,-,llm_only
+777,starfruit,Russian,starfruit,untranslated,карамбола,med,English word untranslated,-,llm_only
+855,aspen,Russian,оси,garbage,осина,high,means axes/axles,-,llm_only
+955,honey,Russian,медовый,wrong_pos,мёд,high,adjective of-honey,-,llm_only
+961,plate,Russian,пластина,wrong_sense,тарелка,high,means metal plate/sheet,-,llm_only
+979,pupil,Russian,ученик,wrong_sense,зрачок,med,means student (Ch/Ir anchor = eye pupil),-,llm_only
+980,tear,Russian,рвать,wrong_pos,слеза,high,means to tear/rip verb,-,llm_only
 349,light,Spanish,luz,wrong_sense,claro,high,noun illumination,-,llm_only
 351,light,Spanish,luz,wrong_sense,ligero,high,noun illumination,-,llm_only
 364,fine,Spanish,bien,wrong_sense,fino,high,means well,-,llm_only
 380,cool,Spanish,genial,wrong_sense,fresco,high,means great,-,llm_only
 441,odd,Spanish,extraño,wrong_sense,impar,high,means strange,-,llm_only
+687,thrush bird,Spanish,pájaro de la cadera,wrong_sense,tordo,med,means bird of the hip,-,llm_only
+688,swallow bird,Spanish,tragar pajaro,phrase,golondrina,med,to swallow a bird,-,llm_only
+715,seal,Spanish,sello,wrong_sense,foca,high,means stamp/seal,-,llm_only
+733,fly,Spanish,volar,wrong_pos,mosca,high,means to fly (verb),-,llm_only
+897,nut,Spanish,tuerca,wrong_sense,nuez,high,means nut hardware,-,llm_only
+924,smoothie,Spanish,zalamero,wrong_sense,batido,high,means flatterer/smooth-talker,-,llm_only
+952,croissant,Spanish,cuerno,wrong_sense,cruasán,high,means horn,-,llm_only
+961,plate,Spanish,placa,wrong_sense,plato,high,means metal plate/plaque,-,llm_only
+979,pupil,Spanish,alumno,wrong_sense,pupila,med,means student (Ch/Ir anchor = eye pupil),-,llm_only
 179,bark,Swahili,kwa gome,wrong_sense,kubweka,high,means with tree bark,-,llm_only
 188,like,Swahili,kupenda,wrong_sense,kufanana,med,this sense is resemble,-,llm_only
 193,swing,Swahili,kwa swing,untranslated,kupembea,high,English swing embedded,-,llm_only
@@ -346,16 +932,78 @@ concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,
 538,I,Swahili,i,untranslated,mimi,high,English left as-is,-,llm_only
 542,it,Swahili,it,untranslated,,low,English left as-is,-,llm_only
 550,who,Swahili,who,untranslated,nani,high,English left as-is,-,llm_only
+626,son-in-law,Swahili,mtoto wa kambo,wrong_sense,mkwe,med,means stepchild,-,llm_only
+643,vet,Swahili,vet,untranslated,daktari wa wanyama,med,English word untranslated,-,llm_only
+689,turtledove,Swahili,turtledove,untranslated,hua,med,English word untranslated,-,llm_only
+718,starfish,Swahili,starfish,untranslated,nyota ya bahari,med,English word untranslated,-,llm_only
+719,seahorse,Swahili,seahorse,untranslated,farasi wa baharini,med,English word untranslated,-,llm_only
+733,fly,Swahili,kuruka,wrong_pos,inzi,med,means to fly (verb),-,llm_only
+752,cricket,Swahili,kriketi,wrong_sense,panzi,med,means cricket the sport,-,llm_only
+777,starfruit,Swahili,starfruit,untranslated,bilimbi,med,English word untranslated,-,llm_only
+807,gourd,Swahili,gourd,untranslated,buyu,med,English word untranslated,-,llm_only
+931,cocktail,Swahili,jogoo,wrong_sense,kokteli,high,means rooster,-,llm_only
+982,snot,Swahili,snot,untranslated,kamasi,med,English word untranslated,-,llm_only
+1004,guts,Swahili,guts,untranslated,matumbo,med,English word untranslated,-,llm_only
 188,like,Thai,ที่ชื่นชอบ,wrong_sense,คล้าย,med,this sense is resemble,-,llm_only
 349,light,Thai,เบา,wrong_sense,อ่อน,med,means light in weight,-,llm_only
 380,cool,Thai,เจ๋ง,wrong_sense,เย็น,med,means awesome,-,llm_only
+657,lamb,Thai,เนื้อแกะ,wrong_sense,ลูกแกะ,med,means lamb meat,-,llm_only
+688,swallow bird,Thai,กลืนนก,phrase,นกนางแอ่น,med,swallow bird,-,llm_only
+689,turtledove,Thai,เต่า,wrong_sense,นกเขา,med,means turtle,-,llm_only
+733,fly,Thai,บิน,wrong_pos,แมลงวัน,med,means to fly (verb),-,llm_only
+812,trunk,Thai,กระโปรงหลังรถ,wrong_sense,ลำต้น,high,means car boot/trunk,-,llm_only
+815,bark,Thai,เห่า,wrong_sense,เปลือกไม้,med,means to bark dog,-,llm_only
+830,gladiolus,Thai,พืชไม้ดอก,phrase,แกลดิโอลัส,med,means flowering plant generic,-,llm_only
+832,anemone,Thai,ดอกไม้ทะเล,wrong_sense,ดอกไม้ลม,med,means sea anemone,-,llm_only
+843,camellia,Thai,ไฮเดรนเยีย,wrong_sense,ดอกคามีเลีย,high,means hydrangea,-,llm_only
+979,pupil,Thai,นักเรียน,wrong_sense,รูม่านตา,med,means student (Ch/Ir anchor = eye pupil),-,llm_only
+1004,guts,Thai,ความกล้าหาญ,wrong_sense,เครื่องใน,high,means courage,-,llm_only
 25,repeat,Turkish,tekrarlamak için,phrase,tekrarlamak,med,means in order to repeat,-,llm_only
 188,like,Turkish,beğenmek,wrong_sense,benzemek,high,this sense is resemble,-,llm_only
 249,train,Turkish,trene,wrong_sense,eğitmek,high,means to the train dative,-,llm_only
 314,reap,Turkish,yaratmak için,wrong_sense,biçmek,high,means in order to create,-,llm_only
+687,thrush bird,Turkish,pamukçuk kuşu,wrong_sense,ardıç kuşu,med,pamukçuk = thrush infection,-,llm_only
+688,swallow bird,Turkish,kuş yutma,phrase,kırlangıç,med,bird swallowing,-,llm_only
+689,turtledove,Turkish,kaplumbağalı,wrong_sense,kumru,med,means with-turtle,-,llm_only
+715,seal,Turkish,mühür,wrong_sense,fok,high,means stamp/seal,-,llm_only
+733,fly,Turkish,uçmak,wrong_pos,sinek,high,means to fly (verb),-,llm_only
+739,ladybug,Turkish,ladybug,untranslated,uğur böceği,med,English word untranslated,-,llm_only
+961,plate,Turkish,plaka,wrong_sense,tabak,high,means license/metal plate,-,llm_only
+979,pupil,Turkish,öğrenci,wrong_sense,gözbebeği,med,means student (Ch/Ir anchor = eye pupil),-,llm_only
 188,like,Vietnamese,thích,wrong_sense,giống,med,this sense is resemble,-,llm_only
 349,light,Vietnamese,ánh sáng,wrong_sense,nhạt,med,noun illumination,-,llm_only
 351,light,Vietnamese,ánh sáng,wrong_sense,nhẹ,med,noun illumination,-,llm_only
 461,fair,Vietnamese,hội chợ,wrong_sense,công bằng,med,means trade fair,-,llm_only
 533,brown,Vietnamese,no co mau nâu,phrase,nâu,med,sentence it has brown color,-,llm_only
+632,parents-in-law,Vietnamese,cha mẹ trong pháp luật,phrase,cha mẹ vợ/chồng,med,calque parents in law,-,llm_only
+661,bear,Vietnamese,chịu,wrong_sense,con gấu,high,means to bear/endure (verb),-,llm_only
+687,thrush bird,Vietnamese,chim thrush,untranslated,chim hoét,high,English word untranslated,-,llm_only
+688,swallow bird,Vietnamese,chim nuốt,phrase,chim én,med,bird swallow,-,llm_only
+689,turtledove,Vietnamese,rùa,wrong_sense,chim cu gáy,high,means turtle,-,llm_only
+724,conch,Vietnamese,hych,garbage,ốc tù và,med,not a real word,-,llm_only
+729,germ,Vietnamese,mầm,wrong_sense,vi trùng,med,means sprout,-,llm_only
+752,cricket,Vietnamese,bóng chày,wrong_sense,con dế,high,means baseball,-,llm_only
+832,anemone,Vietnamese,quái vật,garbage,hoa hải quỳ,high,means monster,-,llm_only
+836,buttercup,Vietnamese,bơ,wrong_sense,mao lương,high,means butter/avocado,-,llm_only
+838,geranium,Vietnamese,geranium,untranslated,phong lữ,med,English word untranslated,-,llm_only
+839,delphinium,Vietnamese,delphinium,untranslated,phi yến,med,English word untranslated,-,llm_only
+842,poppy,Vietnamese,poppy,untranslated,cây anh túc,med,English word untranslated,-,llm_only
+843,camellia,Vietnamese,hoa hoa,garbage,hoa trà,med,means flower flower,-,llm_only
+845,snapdragon,Vietnamese,snapdragon,untranslated,hoa mõm chó,med,English word untranslated,-,llm_only
+883,fat,Vietnamese,mập mạp,wrong_pos,mỡ,high,adjective chubby,-,llm_only
+915,crust,Vietnamese,vỏ trái đất,wrong_sense,vỏ bánh mì,high,means earth's crust,-,llm_only
+922,coke,Vietnamese,than cốc,wrong_sense,Coca,high,means coke coal,-,llm_only
+975,face,Vietnamese,đối mặt,wrong_pos,khuôn mặt,high,means to face/confront verb,-,llm_only
+979,pupil,Vietnamese,học sinh,wrong_sense,đồng tử,med,means student (Ch/Ir anchor = eye pupil),-,llm_only
+1006,back,Vietnamese,trở lại,wrong_sense,lưng,high,means to return,-,llm_only
 332,slanted,Welsh,slanted,untranslated,ar oleddf,high,English left as-is,-,llm_only
+625,siblings,Welsh,brodyr amen,garbage,brodyr a chwiorydd,med,contains stray word amen,-,llm_only
+627,daughter-in-law,Welsh,nghyfraith,likely_wrong,merch-yng-nghyfraith,med,fragment in-law only,-,llm_only
+689,turtledove,Welsh,crwban,wrong_sense,turtur,med,means tortoise,-,llm_only
+718,starfish,Welsh,sêr,wrong_sense,seren fôr,med,means stars,-,llm_only
+719,seahorse,Welsh,morwyr,wrong_sense,morfarch,med,means sailors,-,llm_only
+724,conch,Welsh,cyntedd,wrong_sense,cragen,med,means hallway/porch,-,llm_only
+752,cricket,Welsh,criced,wrong_sense,cricsyn,med,means cricket the sport,-,llm_only
+769,peach,Welsh,eirin,wrong_sense,eirin gwlanog,med,means plum,-,llm_only
+922,coke,Welsh,golosg,wrong_sense,coke,med,means coke/charcoal fuel,-,llm_only
+1035,poison,Welsh,gwenwynwch,wrong_pos,gwenwyn,med,means you poison verb,-,llm_only
