@@ -29,9 +29,25 @@ INTERIM = Path("data/interim")
 NONLATIN = {"Hindi", "Arabic", "Hebrew", "Korean", "Japanese", "Thai",
             "Chinese", "Greek", "Russian"}
 GR_VERB = re.compile(r"(ω|ώ|μαι|άω|άει)$")
-KO_DICT = re.compile(r"다$")
 ASCII_ALPHA = re.compile(r"^[A-Za-z][A-Za-z .-]*$")
 KO_SENT = re.compile(r"(습니다|입니다|ㅂ니다|는다|ㄴ다)$|그것은")
+
+
+def _ko_dictform(cell: str) -> str:
+    """Turn a Google 'sentence' gloss into a citation form by ending, not by
+    dictionary lookup (which mixes senses): copula -> the noun, -합니다 -> -하다,
+    -습니다 -> -다."""
+    s = re.sub(r"^그것은\s*", "", cell).strip()
+    s = re.sub(r"([가-힣])\s+([럽롭])", r"\1\2", s)   # 시끄 럽습니다 -> 시끄럽습니다
+    if s.endswith(("입니다", "이다")):
+        return s[:-3] if s.endswith("입니다") else s[:-2]
+    if s.endswith("합니다"):
+        return s[:-3] + "하다"
+    if s.endswith(("습니다", "ㅂ니다")):
+        return s[:-3] + "다"
+    if s.endswith(("는다", "ㄴ다")):
+        return s[:-2] + "다"
+    return ""
 _CYR_MAP = str.maketrans({"a": "а", "e": "е", "o": "о", "p": "р", "c": "с",
                           "y": "у", "x": "х", "A": "А", "E": "Е", "O": "О",
                           "P": "Р", "C": "С", "H": "Н", "T": "Т", "B": "В",
@@ -63,11 +79,10 @@ def main() -> None:
 
     def pick(cid, lang, pos=None):
         nf, wf = nel_forms(cid, lang), wik_forms(cid, lang)
-        rx = {"gr-verb": GR_VERB, "ko-dict": KO_DICT}.get(pos)
-        if rx:
+        if pos == "gr-verb":
             for pool, tag in ((nf, "nel"), (wf, "wikt")):
                 for f in pool:
-                    if rx.search(f):
+                    if GR_VERB.search(f):
                         return f, tag
         if nf:
             return nf[0], "nel"
@@ -94,7 +109,11 @@ def main() -> None:
                 if not pv:
                     pv, src = re.sub(r"^(για )?να ", "", cell), "rule"
             elif lang == "Korean" and KO_SENT.search(cell):
-                cat, (pv, src) = "korean-sentence", pick(cid, lang, "ko-dict")
+                cat = "korean-sentence"
+                pv = _ko_dictform(cell)
+                src = "rule" if pv else ""
+                if not pv:
+                    pv, src = pick(cid, lang)
             elif re.search(r"[а-яА-Я]", cell) and re.search(r"[a-zA-Z]", cell):
                 cat, src = "homoglyph", "rule"
                 pv = cell.translate(_CYR_MAP)
