@@ -169,4 +169,4 @@ data/raw/concept_additions.csv
 # NorthEuraLex CLDF snapshot (fetched by nguasach.lexibank_qc)
 data/raw/northeuralex-cldf/
 
-data/interim/wiktionary_cache.json
+data/interim/wiktionary_cache*.json

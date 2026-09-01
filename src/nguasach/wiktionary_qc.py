@@ -44,8 +44,13 @@ _WK_TO_OURS = {
     "th": "Thai", "id": "Indonesian", "tr": "Turkish", "ar": "Arabic",
     "he": "Hebrew", "sw": "Swahili", "hi": "Hindi",
 }
-_T_TEMPLATE = re.compile(r"\{\{t{1,2}\+?\|([a-z][a-z-]*)\|([^|}\n]+)")
+_T_TEMPLATE = re.compile(r"\{\{t{1,2}[+-]?(?:check)?\|([a-z][a-z-]*)\|([^|}\n]+)")
 _WIKI_MARKUP = re.compile(r"\[\[|\]\]|'''?|<[^>]+>")
+# High-frequency words move their translation table to a "<word>/translations"
+# subpage and leave only this marker on the main page (e.g. "bear" the verb page
+# has 24 senses inline but the noun/animal sense's translations -- Bär, 熊, ...
+# -- live entirely on bear/translations and are otherwise invisible).
+_SUBPAGE_MARKER = re.compile(r"\{\{see translation subpage\|[^}]*\}\}")
 
 
 def _clean_form(s: str) -> str:
@@ -63,17 +68,16 @@ def _parse_translations(wikitext: str) -> dict[str, set[str]]:
     return out
 
 
-def fetch(words: list[str], cache_path: Path, batch: int = 50) -> dict[str, dict]:
-    cache: dict[str, dict] = {}
-    if cache_path.exists():
-        cache = json.loads(cache_path.read_text(encoding="utf-8"))
-    todo = [w for w in words if w not in cache]
-    # English Wiktionary main namespace is case-sensitive: "false" (adjective,
-    # with the Translations table) is a different page from "False". Query the
-    # lowercase variant too and merge both pages' translations.
-    want = {w: {w, w.lower()} for w in todo}
-    titles = sorted({t for s in want.values() for t in s})
-    pages: dict[str, dict[str, list[str]]] = {}
+def _needs_subpage(wikitext: str) -> bool:
+    return bool(_SUBPAGE_MARKER.search(wikitext))
+
+
+def _fetch_titles(titles: list[str], batch: int, on_batch=None) -> dict[str, str]:
+    """title -> raw wikitext (missing pages absent from the result).
+    ``on_batch(pages)`` is called after every batch so a caller can persist
+    progress -- a 429 that survives the retry loop would otherwise discard
+    everything fetched so far."""
+    pages: dict[str, str] = {}
     for i in range(0, len(titles), batch):
         chunk = titles[i : i + batch]
         q = urllib.parse.urlencode({
@@ -96,18 +100,64 @@ def fetch(words: list[str], cache_path: Path, batch: int = 50) -> dict[str, dict
         for pg in data.get("query", {}).get("pages", []):
             wt = (pg.get("revisions", [{}])[0].get("slots", {})
                   .get("main", {}).get("content", "")) if pg.get("revisions") else ""
-            pages[pg["title"]] = {k: sorted(v) for k, v in _parse_translations(wt).items()}
-        for w in todo:
-            if w in cache or not want[w] <= set(pages):
-                continue
-            merged: dict[str, set[str]] = {}
-            for t in want[w]:
-                for lang, forms in pages.get(t, {}).items():
-                    merged.setdefault(lang, set()).update(forms)
-            cache[w] = {lang: sorted(v) for lang, v in merged.items()}
+            pages[pg["title"]] = wt
         print(f"[wiktionary-qc] fetched {min(i + batch, len(titles))}/{len(titles)} titles")
-        cache_path.write_text(json.dumps(cache, ensure_ascii=False), encoding="utf-8")
-        time.sleep(1.2)
+        if on_batch:
+            on_batch(pages)
+        time.sleep(2.0)
+    return pages
+
+
+def fetch(words: list[str], cache_path: Path, batch: int = 50) -> dict[str, dict]:
+    """Returns word -> {language -> [forms]}, built fresh each call from a raw
+    title->wikitext cache (``<cache_path>.pages.json``). Splitting the two
+    caches matters: a title is "fetched" the moment its wikitext is saved, but
+    a word isn't safe to *finalize* into the translations cache until its
+    lowercase variant AND (if flagged) its translations subpage have all
+    arrived -- finalizing early, then treating "already cached" as "done" on
+    the next run, is exactly how a 429 mid-run silently drops subpage senses
+    (e.g. "bear" the animal) that arrive in a later batch."""
+    pages_path = cache_path.with_suffix(".pages.json")
+    pages: dict[str, str] = (json.loads(pages_path.read_text(encoding="utf-8"))
+                             if pages_path.exists() else {})
+
+    def save_pages(_new: dict[str, str]) -> None:
+        pages_path.write_text(json.dumps(pages, ensure_ascii=False), encoding="utf-8")
+
+    # English Wiktionary main namespace is case-sensitive: "false" (adjective,
+    # with the Translations table) is a different page from "False". Query the
+    # lowercase variant too and merge both pages' translations.
+    want = {w: {w, w.lower()} for w in words}
+    titles = sorted({t for s in want.values() for t in s} - set(pages))
+    if titles:
+        fetched = _fetch_titles(titles, batch, on_batch=lambda p: (pages.update(p), save_pages(p)))
+        pages.update(fetched)
+        save_pages(pages)
+
+    # High-frequency words (bear, light, right, hard, ...) push their translation
+    # table to a "<title>/translations" subpage; the main page alone would
+    # otherwise look single-sense for exactly the words most likely to be
+    # polysemous. Follow the marker.
+    sub_titles = sorted({f"{t}/translations" for t, wt in pages.items() if _needs_subpage(wt)}
+                        - set(pages))
+    if sub_titles:
+        print(f"[wiktionary-qc] {len(sub_titles)} words use a translations subpage")
+        fetched = _fetch_titles(sub_titles, batch, on_batch=lambda p: (pages.update(p), save_pages(p)))
+        pages.update(fetched)
+        save_pages(pages)
+
+    cache: dict[str, dict] = {}
+    for w in words:
+        merged: dict[str, set[str]] = {}
+        for t in want[w]:
+            for lang, forms in _parse_translations(pages.get(t, "")).items():
+                merged.setdefault(lang, set()).update(forms)
+            sub = pages.get(f"{t}/translations", "")
+            if sub:
+                for lang, forms in _parse_translations(sub).items():
+                    merged.setdefault(lang, set()).update(forms)
+        cache[w] = {lang: sorted(v) for lang, v in merged.items()}
+    cache_path.write_text(json.dumps(cache, ensure_ascii=False), encoding="utf-8")
     return cache
 
 
