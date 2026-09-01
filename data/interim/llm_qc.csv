@@ -1,0 +1,361 @@
+concept_id,english,language,ours,verdict,suggested,confidence,note,also_flagged,strength
+180,howl,Finnish,kätevästi,garbage,ulvoa,high,means handily/conveniently,NW,all_three
+204,rear,Finnish,takaa,wrong_sense,kasvattaa,high,means from behind,NW,all_three
+550,who,Finnish,who,untranslated,kuka,high,English left as-is,NW,all_three
+6,exit,German,beenden,wrong_sense,hinausgehen,med,means terminate/quit a program,NW,all_three
+158,dash,German,zu streiten,wrong_sense,stürmen,high,means to quarrel,NW,all_three
+204,rear,German,nach hinten,wrong_sense,aufziehen,high,means to the rear,NW,all_three
+217,pour,German,zu arm,garbage,gießen,high,means too poor mis-split,NW,all_three
+442,even,German,selbst,wrong_sense,gerade,high,means even or also adverb,NW,all_three
+67,swallow,Greek,να καταπιω,phrase,καταπίνω,med,subjunctive periphrasis,NW,all_three
+75,catch,Greek,να πιάσω,phrase,πιάνω,med,subjunctive periphrasis,NW,all_three
+156,kiss,Greek,να φιλήσει,phrase,φιλάω,med,subjunctive periphrasis,NW,all_three
+204,rear,Greek,πίσω,wrong_sense,ανατρέφω,high,means behind,NW,all_three
+216,fill,Greek,να γεμίσω,phrase,γεμίζω,med,subjunctive periphrasis,NW,all_three
+461,fair,Greek,έκθεση,wrong_sense,δίκαιο,high,means report or exhibition,NW,all_three
+158,dash,Hebrew,לדאוף,likely_wrong,להסתער,low,not a standard word,NW,all_three
+188,like,Hebrew,לחבב,wrong_sense,להידמות,med,this sense is resemble,NW,all_three
+550,who,Hebrew,who,untranslated,מי,high,English left as-is,NW,all_three
+10,return,Hindi,वापसी,wrong_pos,लौटना,low,noun return,NW,all_three
+30,draw,Hindi,चित्रण,wrong_pos,चित्र बनाना,low,noun illustration,NW,all_three
+59,stick,Hindi,स्टिक,untranslated,चिपकना,high,transliteration of English stick,NW,all_three
+64,cry,Hindi,क्राई,untranslated,रोना,high,transliteration of English cry,NW,all_three
+74,throw,Hindi,throw,untranslated,फेंकना,high,English left as-is,NW,all_three
+75,catch,Hindi,कैच,untranslated,पकड़ना,high,transliteration of English catch,NW,all_three
+77,tie,Hindi,टाई,untranslated,बाँधना,high,transliteration means necktie,NW,all_three
+79,count,Hindi,गिनती,wrong_pos,गिनना,low,noun counting,NW,all_three
+93,make,Hindi,मेक,untranslated,बनाना,high,transliteration of English make,NW,all_three
+116,move,Hindi,मूव,untranslated,हिलना,high,transliteration of English move,NW,all_three
+122,add,Hindi,add,untranslated,जोड़ना,high,English left as-is,NW,all_three
+127,fall,Hindi,पतन,wrong_pos,गिरना,low,noun downfall,NW,all_three
+129,pass,Hindi,pass,untranslated,गुज़रना,high,English left as-is,NW,all_three
+135,freeze,Hindi,फ्रीज,untranslated,जमना,high,transliteration of English freeze,NW,all_three
+156,kiss,Hindi,चुंबन,wrong_pos,चूमना,low,noun a kiss,NW,all_three
+161,hunt,Hindi,हंट,untranslated,शिकार करना,high,transliteration of English hunt,NW,all_three
+164,protect,Hindi,protect,untranslated,रक्षा करना,high,English left as-is,NW,all_three
+172,sweep,Hindi,स्वीप,untranslated,झाड़ू लगाना,high,transliteration of English sweep,NW,all_three
+181,call,Hindi,कॉल,untranslated,बुलाना,high,transliteration of English call,NW,all_three
+190,hang,Hindi,हैंग,untranslated,लटकाना,high,transliteration of English hang,NW,all_three
+194,shake,Hindi,शेक,untranslated,हिलाना,high,transliteration of English shake,NW,all_three
+195,tremble,Hindi,घबराना,wrong_sense,काँपना,med,means to panic/be nervous,NW,all_three
+208,support,Hindi,support,untranslated,समर्थन करना,high,English left as-is,NW,all_three
+209,load,Hindi,लोड,untranslated,लादना,high,transliteration of English load,NW,all_three
+232,dye,Hindi,डाई,untranslated,रंगना,high,transliteration of English dye,NW,all_three
+233,wrap,Hindi,रैप,untranslated,लपेटना,high,transliteration of English wrap,NW,all_three
+238,handle,Hindi,हैंडल,untranslated,संभालना,high,transliteration of English handle,NW,all_three
+273,chat,Hindi,गपशप,wrong_pos,गपशप करना,low,noun gossip,NW,all_three
+277,control,Hindi,कंट्रोल,untranslated,नियंत्रित करना,med,transliteration of English control,NW,all_three
+319,guide,Hindi,मार्गदर्शिका,wrong_pos,मार्गदर्शन करना,med,noun guidebook feminine,NW,all_three
+355,long,Hindi,long,untranslated,लंबा,high,English left as-is,NW,all_three
+378,hot,Hindi,hot,untranslated,गरम,high,English left as-is,NW,all_three
+445,good,Hindi,शुभ,wrong_sense,अच्छा,med,means auspicious,NW,all_three
+470,fresh,Hindi,भैस,garbage,ताज़ा,high,means buffalo or typo,NW,all_three
+524,black,Hindi,ब्लैक,untranslated,काला,high,transliteration of English black,NW,all_three
+526,red,Hindi,रेड,untranslated,लाल,high,transliteration of English red,NW,all_three
+529,green,Hindi,ग्रीन,untranslated,हरा,high,transliteration of English green,NW,all_three
+584,ten,Hindi,टेन,untranslated,दस,high,transliteration of English ten,NW,all_three
+70,blow,Hungarian,robbantani,wrong_sense,fújni,high,means blow up/detonate,NW,all_three
+77,tie,Hungarian,döntetlen,wrong_sense,megkötni,high,means a draw/tie in sport,NW,all_three
+82,close,Hungarian,közeli,wrong_sense,bezárni,high,adjective nearby/close proximity,NW,all_three
+127,fall,Hungarian,ősz,wrong_sense,esni,high,means autumn/the season,NW,all_three
+141,fry,Hungarian,fry,untranslated,sütni,high,English left as-is,NW,all_three
+156,kiss,Hungarian,kiss,untranslated,csók,high,English left as-is,NW,all_three
+158,dash,Hungarian,dash,untranslated,rohanni,high,English left as-is,NW,all_three
+180,howl,Hungarian,howl,untranslated,üvölteni,high,English left as-is,NW,all_three
+194,shake,Hungarian,shake,untranslated,rázni,high,English left as-is,NW,all_three
+209,load,Hungarian,terhelés,wrong_pos,megrakni,med,noun load/burden,NW,all_three
+233,wrap,Hungarian,wrap,untranslated,becsomagolni,high,English left as-is,NW,all_three
+378,hot,Hungarian,dögös,wrong_sense,forró,high,means sexually attractive slang,NW,all_three
+467,clean,Hungarian,clean,untranslated,tiszta,high,English left as-is,NW,all_three
+477,rich,Hungarian,rich,untranslated,gazdag,high,English left as-is,NW,all_three
+524,black,Hungarian,black,untranslated,fekete,high,English left as-is,NW,all_three
+530,blue,Hungarian,blue,untranslated,kék,high,English left as-is,NW,all_three
+7,wait,Italian,esperar,wrong_sense,aspettare,high,Spanish word in Italian cell,NW,all_three
+8,stay,Italian,quedarse,wrong_sense,restare,high,Spanish word in Italian cell,NW,all_three
+442,even,Italian,anche,wrong_sense,pari,high,means also,NW,all_three
+129,pass,Japanese,渡す,wrong_sense,通り過ぎる,med,means hand over,NW,all_three
+130,sing,Japanese,通る,wrong_sense,歌う,high,means pass through wrong entry,NW,all_three
+179,bark,Japanese,叫ぶ,wrong_sense,吠える,high,means shout/yell,NW,all_three
+539,you,Japanese,彼方,wrong_sense,あなた,med,kanji means yonder direction,NW,all_three
+544,you,Japanese,彼方達,likely_wrong,あなたたち,med,nonstandard kanji for anatatachi,NW,all_three
+30,draw,Korean,그리기 위해,phrase,그리다,med,means in order to draw,NW,all_three
+59,stick,Korean,고집하려면,phrase,붙다,med,means in order to persist,NW,all_three
+75,catch,Korean,잡기 위해,phrase,잡다,med,means in order to catch,NW,all_three
+158,dash,Korean,대시,untranslated,질주하다,med,transliteration of English dash,NW,all_three
+159,shoot,Korean,촬영합니다,wrong_sense,쏘다,high,means films/photographs sentence,NW,all_three
+164,protect,Korean,보호하기 위해,phrase,보호하다,med,means in order to protect,NW,all_three
+179,bark,Korean,껍질로,wrong_sense,짖다,high,means with bark/peel noun,NW,all_three
+180,howl,Korean,울부 짖음으로,wrong_pos,울부짖다,med,noun with-howling,NW,all_three
+181,call,Korean,전화합니다,phrase,부르다,med,sentence makes a phone call,NW,all_three
+189,show,Korean,보여주기 위해,phrase,보여주다,med,means in order to show,NW,all_three
+194,shake,Korean,흔들려면,phrase,흔들다,med,means in order to shake,NW,all_three
+208,support,Korean,지원합니다,phrase,지원하다,med,sentence form,NW,all_three
+209,load,Korean,로드하려면,phrase,싣다,med,means in order to load,NW,all_three
+216,fill,Korean,채우기 위해,phrase,채우다,med,means in order to fill,NW,all_three
+59,stick,Russian,чтобы остаться,phrase,приклеиваться,med,means in order to stay,NW,all_three
+188,like,Russian,нравится,wrong_sense,походить,high,this sense is resemble,NW,all_three
+7,wait,Spanish,aspettare,wrong_sense,esperar,high,Italian word in Spanish cell,NW,all_three
+8,stay,Spanish,stare,wrong_sense,quedarse,high,Italian/Latin word in Spanish cell,NW,all_three
+172,sweep,Turkish,süpürüyor,wrong_pos,süpürmek,low,conjugated is sweeping,NW,all_three
+190,hang,Turkish,takılmak,wrong_sense,asmak,med,means get stuck/hang out,NW,all_three
+207,cover,Turkish,örtbas etmek,wrong_sense,örtmek,med,means cover up a scandal,NW,all_three
+559,not,Turkish,olumsuzluk,wrong_pos,değil,med,noun negation or negativity,NW,all_three
+184,crow,Welsh,frân,wrong_sense,,high,means the bird crow,NW,all_three
+367,high,Welsh,high,untranslated,uchel,high,English left as-is,NW,all_three
+7,wait,Arabic,نظر,wrong_sense,انتظر,med,means looked/watched not wait,W,two
+12,consider,Arabic,عبر,wrong_sense,اعتبر,med,means cross/express,W,two
+156,kiss,Arabic,لتقبيل,phrase,يقبّل,med,for-kissing gerund phrase,W,two
+158,dash,Arabic,لاناش,garbage,يندفع,high,transliteration gibberish,W,two
+204,rear,Arabic,إلى الخلف,wrong_sense,يربّي,med,means to the back,W,two
+238,handle,Arabic,لكي يعلق,wrong_sense,يتعامل مع,med,means to comment/hang,W,two
+364,fine,Arabic,انها على ما يرام,phrase,ناعم,med,phrase it is okay,W,two
+441,odd,Arabic,غريب,wrong_sense,فردي,high,means strange,W,two
+322,scold,Finnish,huutaa,wrong_sense,moittia,med,means to shout,W,two
+325,scoop,Finnish,kaatamaan,wrong_sense,ammentaa,med,means to pour,W,two
+442,even,Finnish,jopa,wrong_sense,parillinen,high,means even or as-much-as adverb,N,two
+248,inherit,German,übernehmen,wrong_sense,erben,med,means take over,W,two
+364,fine,German,in ordnung,wrong_sense,fein,high,means okay,W,two
+27,continue,Greek,να συνεχίσει,phrase,συνεχίζω,med,subjunctive periphrasis,W,two
+63,smile,Greek,να χαμογελάσει,phrase,χαμογελάω,med,subjunctive periphrasis,W,two
+169,include,Greek,να συμπεριλάβει,phrase,συμπεριλαμβάνω,med,subjunctive periphrasis,W,two
+311,plough,Greek,να αλέσω,wrong_sense,οργώνω,high,means to grind,W,two
+322,scold,Greek,να πειράξει,wrong_sense,μαλώνω,med,means to tease/annoy,W,two
+380,cool,Greek,ειναι ενταξει,wrong_sense,δροσερός,high,means it is okay,W,two
+442,even,Greek,ακόμη και,wrong_sense,ζυγός,high,means even or also adverb,N,two
+80,wear,Hebrew,נשא,wrong_sense,ללבוש,med,means carry/bear,W,two
+204,rear,Hebrew,לאחור,wrong_sense,לגדל,med,means backwards,N,two
+364,fine,Hebrew,בסדר,wrong_sense,דק,high,means okay,W,two
+441,odd,Hebrew,מוזר,wrong_sense,אי-זוגי,high,means strange,W,two
+442,even,Hebrew,אֲפִילוּ,wrong_sense,זוגי,high,means even or also adverb,N,two
+461,fair,Hebrew,יריד,wrong_sense,הוגן,high,means a marketplace fair,N,two
+5,enter,Hindi,डालें,wrong_sense,प्रवेश करना,med,means put/insert,N,two
+34,drink,Hindi,पेय,wrong_pos,पीना,low,noun beverage,N,two
+46,hit,Hindi,hit,untranslated,मारना,high,English left as-is,W,two
+96,break,Hindi,ब्रेक,untranslated,तोड़ना,high,transliteration of English break,W,two
+100,live,Hindi,सजीव,wrong_pos,जीना,low,adjective animate/living,N,two
+133,float,Hindi,फ्लैश,wrong_sense,तैरना,med,transliteration of flash,W,two
+138,burn,Hindi,बर्न,untranslated,जलाना,high,transliteration of English burn,W,two
+145,roast,Hindi,रोस्ट,untranslated,भूनना,high,transliteration of English roast,W,two
+150,love,Hindi,प्रेम,wrong_pos,प्यार करना,low,noun love,N,two
+151,like,Hindi,जैसे,wrong_sense,पसंद करना,med,means like/as comparison,N,two
+158,dash,Hindi,डैश,untranslated,झपटना,high,transliteration of English dash,N,two
+166,store,Hindi,स्टोर,untranslated,भंडारण करना,high,transliteration of English store,W,two
+178,focus,Hindi,फ़ोकस,untranslated,ध्यान केंद्रित करना,med,transliteration of English focus,W,two
+184,crow,Hindi,कौवा,wrong_sense,बाँग देना,high,means the bird crow,N,two
+201,mix,Hindi,मिक्सर,wrong_sense,मिलाना,med,means mixer appliance,W,two
+202,bend,Hindi,बेंड,untranslated,मोड़ना,high,transliteration of English bend,W,two
+203,feed,Hindi,फीड,untranslated,खिलाना,high,transliteration of English feed,N,two
+204,rear,Hindi,पश्च,wrong_sense,पालना,med,means posterior/rear,N,two
+205,roll,Hindi,फेंकें,wrong_sense,लुढ़काना,med,means throw,W,two
+206,slide,Hindi,स्लाइड,untranslated,फिसलना,high,transliteration of English slide,W,two
+207,cover,Hindi,कवर,untranslated,ढकना,med,transliteration of English cover,N,two
+214,release,Hindi,रिलीज,untranslated,मुक्त करना,med,transliteration of English release,W,two
+253,crawl,Hindi,क्रॉल,untranslated,रेंगना,high,transliteration of English crawl,W,two
+255,employ,Hindi,काम,wrong_sense,नियुक्त करना,med,means work noun,W,two
+318,steer,Hindi,रास्ते पर लाना,phrase,चलाना,med,phrase bring onto the path,W,two
+349,light,Hindi,लाइट,untranslated,हल्का,high,transliteration of English light,W,two
+351,light,Hindi,लाइट,untranslated,हल्का,high,transliteration of English light,W,two
+364,fine,Hindi,ठीक,wrong_sense,महीन,med,means okay,W,two
+404,angry,Hindi,एंग्री,untranslated,क्रोधित,high,transliteration of English angry,W,two
+442,even,Hindi,भी,wrong_sense,सम,high,means also,N,two
+461,fair,Hindi,मेला,wrong_sense,निष्पक्ष,high,means a carnival fair,N,two
+530,blue,Hindi,ब्लू,untranslated,नीला,high,transliteration of English blue,N,two
+599,population,Hindi,जनसांख्यिकी,wrong_sense,जनसंख्या,med,means demography or demographics,W,two
+6,exit,Hungarian,kijárat,wrong_pos,kilépni,high,noun the doorway not verb,N,two
+25,repeat,Hungarian,ismétlés,wrong_pos,ismételni,med,noun repetition,W,two
+30,draw,Hungarian,döntetlen,wrong_sense,rajzolni,high,means a draw/tie in sport,N,two
+59,stick,Hungarian,bot,wrong_sense,ragadni,high,noun a stick/rod,N,two
+79,count,Hungarian,gróf,wrong_sense,számolni,high,means count/earl nobleman,N,two
+104,lie,Hungarian,hazudj,wrong_sense,feküdj,high,means tell an untruth not recline,W,two
+143,stew,Hungarian,pörkölt,wrong_pos,pörköltet főzni,med,noun the stew dish,W,two
+150,love,Hungarian,szerelem,wrong_pos,szeretni,med,noun romantic love,N,two
+161,hunt,Hungarian,vadászatot,wrong_pos,vadászni,med,accusative noun the hunt,N,two
+166,store,Hungarian,bolt,wrong_sense,tárolni,high,means shop/retail store,W,two
+167,insert,Hungarian,beszúrása,wrong_pos,beszúrni,med,noun its insertion,W,two
+188,like,Hungarian,tetszik,wrong_sense,hasonlítani,high,this sense is resemble,N,two
+189,show,Hungarian,show,untranslated,megmutatni,high,English left as-is,N,two
+192,measure,Hungarian,intézkedés,wrong_sense,megmérni,high,means a measure/step taken,N,two
+193,swing,Hungarian,swing,untranslated,hintázni,high,English left as-is,W,two
+196,work,Hungarian,munka,wrong_pos,dolgozni,med,noun work,N,two
+203,feed,Hungarian,takarmányok,wrong_sense,etetni,high,means fodder noun plural,N,two
+204,rear,Hungarian,hátsó,wrong_sense,nevelni,high,means rear/back position,N,two
+205,roll,Hungarian,roll,untranslated,gurítani,high,English left as-is,W,two
+207,cover,Hungarian,borító,wrong_pos,befedni,med,noun a cover,N,two
+208,support,Hungarian,támogatást,wrong_pos,támogatni,med,accusative noun support,N,two
+212,shrink,Hungarian,pszichiáter,wrong_sense,összemenni,high,means psychiatrist slang,W,two
+213,spill,Hungarian,bukás,wrong_sense,kiönteni,high,means fall/downfall,W,two
+229,stretch,Hungarian,stretch,untranslated,nyújtani,high,English left as-is,W,two
+235,peel,Hungarian,peel,untranslated,hámozni,high,English left as-is,W,two
+242,arrange,Hungarian,gondoskodjon,wrong_sense,rendezni,med,means see to it imperative,W,two
+270,paste,Hungarian,paszta,wrong_sense,beilleszteni,high,means paste the substance,N,two
+273,chat,Hungarian,csevegés,wrong_pos,csevegni,med,noun a chat,N,two
+277,control,Hungarian,ellenőrzés,wrong_pos,ellenőrizni,med,noun check/inspection,N,two
+319,guide,Hungarian,útmutató,wrong_pos,irányítani,med,noun guidebook/guideline,N,two
+324,fix,Hungarian,fix,untranslated,megjavítani,med,English or adjective fixed,W,two
+401,disgusted,Hungarian,felháborodott,wrong_sense,undorodott,med,means outraged or indignant,W,two
+435,stable,Hungarian,istálló,wrong_sense,stabil,low,means horse stable building,W,two
+442,even,Hungarian,még,wrong_sense,páros,high,means still or yet adverb,N,two
+443,single,Hungarian,szingli,wrong_pos,egyetlen,med,loan noun unmarried person,W,two
+59,stick,Indonesian,tetap,wrong_sense,menempel,med,means stay/remain,W,two
+96,break,Indonesian,istirahat,wrong_sense,memecahkan,med,means rest/pause,W,two
+188,like,Indonesian,menyukai,wrong_sense,menyerupai,med,this sense is resemble,W,two
+441,odd,Indonesian,aneh,wrong_sense,ganjil,med,means strange,W,two
+58,connect,Italian,per connettere,phrase,connettere,med,means in order to connect,N,two
+59,stick,Italian,rimanere,wrong_sense,attaccare,med,means to remain,N,two
+230,wrinkle,Italian,per raggruppare,wrong_sense,raggrinzire,med,means to group,W,two
+315,weave,Italian,ondeggiare,wrong_sense,tessere,high,means to sway/wave,W,two
+443,single,Italian,separare,wrong_sense,singolo,med,verb to separate,W,two
+25,repeat,Korean,반복하려면,phrase,반복하다,med,means in order to repeat,W,two
+63,smile,Korean,미소하는,wrong_pos,미소짓다,low,participle smiling,W,two
+167,insert,Korean,삽입하려면,phrase,삽입하다,med,means in order to insert,W,two
+182,scream,Korean,비명을 지르기 위해,phrase,비명 지르다,med,means in order to scream,W,two
+188,like,Korean,좋아하다,wrong_sense,닮다,high,this sense is resemble,N,two
+193,swing,Korean,스윙,untranslated,흔들다,med,transliteration of English swing,W,two
+201,mix,Korean,믹스,untranslated,섞다,med,transliteration of English mix,W,two
+205,roll,Korean,롤,untranslated,굴리다,med,transliteration of English roll,W,two
+232,dye,Korean,염료에,wrong_pos,염색하다,med,noun dye plus particle,N,two
+325,scoop,Korean,국자,wrong_sense,푸다,med,noun a ladle,W,two
+329,roam,Korean,로밍에,wrong_sense,배회하다,med,means telecom roaming plus particle,W,two
+364,fine,Korean,그것은 괜찮습니다,phrase,가늘다,med,sentence it is okay,W,two
+441,odd,Korean,이상한,wrong_sense,홀수의,high,means strange,W,two
+442,even,Korean,심지어,wrong_sense,짝수의,high,means even or also adverb,N,two
+204,rear,Russian,чтобы сзади,wrong_sense,растить,high,means to the back,N,two
+311,plough,Russian,плавать,wrong_sense,пахать,high,means to swim/sail,W,two
+325,scoop,Russian,чтобы сочетать,wrong_sense,зачерпнуть,high,means in order to combine,W,two
+364,fine,Russian,нормально,wrong_sense,тонкий,high,means okay,W,two
+442,even,Russian,даже,wrong_sense,чётный,high,means even or also adverb,N,two
+188,like,Spanish,gustar,wrong_sense,parecerse,high,this sense is resemble,N,two
+230,wrinkle,Spanish,arruinar,wrong_sense,arrugarse,high,means to ruin,W,two
+442,even,Spanish,incluso,wrong_sense,par,high,means even or also adverb,N,two
+158,dash,Swahili,kwa dash,untranslated,kukimbia kasi,high,English dash embedded,W,two
+364,fine,Swahili,sawa,wrong_sense,laini,med,means okay,W,two
+478,busy,Swahili,busy,untranslated,-enye shughuli,high,English left as-is,W,two
+9,leave,Thai,ทิ้ง,wrong_sense,จากไป,low,means discard/abandon,W,two
+36,hold,Thai,เก็บ,wrong_sense,ถือ,med,means keep/store,W,two
+42,put,Thai,นำ,wrong_sense,วาง,med,means bring/lead,W,two
+44,take,Thai,ใช้,wrong_sense,เอา,med,means use,W,two
+159,shoot,Thai,ในการถ่ายภาพ,wrong_sense,ยิง,high,means taking photographs,W,two
+364,fine,Thai,ไม่ไร,garbage,ละเอียด,med,not a valid word,W,two
+441,odd,Thai,แปลก,wrong_sense,คี่,med,means strange,W,two
+442,even,Thai,สม่ำเสมอ,wrong_sense,คู่,med,means steady or regular,W,two
+204,rear,Turkish,arkaya,wrong_sense,yetiştirmek,high,means to the back,N,two
+364,fine,Turkish,iyi,wrong_sense,ince,high,means good,W,two
+380,cool,Turkish,harika,wrong_sense,serin,high,means wonderful,W,two
+441,odd,Turkish,garip,wrong_sense,tek,high,means strange,W,two
+542,it,Turkish,bt,garbage,o,high,not a word,W,two
+204,rear,Vietnamese,phía sau,wrong_sense,nuôi dạy,med,means behind,W,two
+364,fine,Vietnamese,tốt,wrong_sense,mịn,med,means good,W,two
+6,exit,Welsh,allanfa,wrong_pos,,med,noun exit not verb,N,two
+380,cool,Welsh,cwl,untranslated,oer,med,English loan slang,W,two
+442,even,Arabic,حتى,wrong_sense,زوجي,high,means even or until adverb,-,llm_only
+188,like,Finnish,pitää,wrong_sense,muistuttaa,high,this sense is resemble,-,llm_only
+249,train,Finnish,junaan,wrong_sense,kouluttaa,high,means into the train,-,llm_only
+349,light,Finnish,kevyt,wrong_sense,vaalea,med,means light in weight,-,llm_only
+380,cool,Finnish,siistiä,wrong_sense,viileä,med,means to tidy up verb,-,llm_only
+441,odd,Finnish,outo,wrong_sense,pariton,high,means strange,-,llm_only
+188,like,German,mögen,wrong_sense,ähneln,high,this sense is resemble,-,llm_only
+349,light,German,licht,wrong_sense,blass,high,noun illumination,-,llm_only
+351,light,German,licht,wrong_sense,leicht,high,noun illumination,-,llm_only
+380,cool,German,cool,wrong_sense,kühl,high,loan means awesome,-,llm_only
+441,odd,German,seltsam,wrong_sense,ungerade,high,means strange,-,llm_only
+151,like,Greek,να αρεσει,phrase,μου αρέσει,med,subjunctive periphrasis,-,llm_only
+188,like,Greek,να αρεσει,wrong_sense,μοιάζω,med,this sense is resemble,-,llm_only
+218,soak,Greek,να απολαύσω,wrong_sense,μουλιάζω,high,means to enjoy,-,llm_only
+325,scoop,Greek,για να σέσουσω,garbage,κουταλιάζω,high,not a real word,-,llm_only
+349,light,Greek,ελαφρύ,wrong_sense,ανοιχτό,med,means light in weight,-,llm_only
+364,fine,Greek,καλά,wrong_sense,λεπτός,high,means well or okay,-,llm_only
+349,light,Hebrew,אור,wrong_sense,בהיר,high,noun illumination,-,llm_only
+351,light,Hebrew,אור,wrong_sense,קל,high,noun illumination,-,llm_only
+380,cool,Hebrew,מגניב,wrong_sense,קריר,high,means awesome,-,llm_only
+165,pile,Hindi,ढेर,wrong_pos,ढेर लगाना,low,noun a heap,-,llm_only
+174,travel,Hindi,सफर,wrong_pos,यात्रा करना,low,noun journey,-,llm_only
+193,swing,Hindi,झूले,wrong_pos,झूलना,low,noun swings,-,llm_only
+244,filter,Hindi,फिल्टर,untranslated,छानना,med,transliteration of English filter,-,llm_only
+302,lead,Hindi,सीसे,wrong_sense,नेतृत्व करना,high,means lead the metal,-,llm_only
+380,cool,Hindi,कूल,untranslated,ठंडा,high,transliteration of English cool,-,llm_only
+401,disgusted,Hindi,निराश,wrong_sense,घृणा से भरा,med,means disappointed,-,llm_only
+508,sane,Hindi,गुरूजी,garbage,समझदार,high,means guru or teacher,-,llm_only
+14,choose,Hungarian,választás,wrong_pos,választani,med,noun choice,-,llm_only
+18,touch,Hungarian,érintés,wrong_pos,érinteni,med,noun a touch,-,llm_only
+19,smell,Hungarian,illat,wrong_pos,szagolni,med,noun scent,-,llm_only
+20,taste,Hungarian,íze,wrong_pos,megkóstolni,med,noun its taste,-,llm_only
+27,continue,Hungarian,folytatás,wrong_pos,folytatni,med,noun continuation,-,llm_only
+46,hit,Hungarian,találat,wrong_pos,ütni,med,noun a hit/score,-,llm_only
+47,kick,Hungarian,rúgás,wrong_pos,rúgni,med,noun a kick,-,llm_only
+48,rub,Hungarian,dörzsölés,wrong_pos,dörzsölni,med,noun rubbing,-,llm_only
+56,scratch,Hungarian,karcolás,wrong_pos,vakarni,med,noun a scratch,-,llm_only
+57,cut,Hungarian,vágás,wrong_pos,vágni,med,noun a cut,-,llm_only
+62,laugh,Hungarian,nevetés,wrong_pos,nevetni,med,noun laughter,-,llm_only
+63,smile,Hungarian,mosoly,wrong_pos,mosolyogni,med,noun a smile,-,llm_only
+64,cry,Hungarian,sírás,wrong_pos,sírni,med,noun crying,-,llm_only
+65,bite,Hungarian,harapás,wrong_pos,harapni,med,noun a bite,-,llm_only
+66,suck,Hungarian,szívás,wrong_pos,szívni,med,noun suction,-,llm_only
+68,spit,Hungarian,nyárs,wrong_sense,köpni,high,means skewer/roasting spit,-,llm_only
+72,cough,Hungarian,köhögés,wrong_pos,köhögni,med,noun a cough,-,llm_only
+74,throw,Hungarian,dobás,wrong_pos,dobni,med,noun a throw,-,llm_only
+75,catch,Hungarian,fogás,wrong_pos,elkapni,med,noun catch/grip/dish,-,llm_only
+163,attack,Hungarian,támadás,wrong_pos,támadni,med,noun an attack,-,llm_only
+165,pile,Hungarian,halom,wrong_pos,halmozni,med,noun a heap,-,llm_only
+174,travel,Hungarian,utazási,wrong_pos,utazni,med,attributive adjective travel-,-,llm_only
+175,record,Hungarian,lemez,wrong_sense,rögzíteni,high,means vinyl disc/record,-,llm_only
+178,focus,Hungarian,fókusz,wrong_pos,összpontosítani,med,noun focus,-,llm_only
+179,bark,Hungarian,kéreg,wrong_sense,ugatni,high,means tree bark,-,llm_only
+184,crow,Hungarian,varjú,wrong_sense,kukorékolni,high,means the bird crow,-,llm_only
+201,mix,Hungarian,keverék,wrong_pos,keverni,med,noun mixture,-,llm_only
+202,bend,Hungarian,kanyar,wrong_sense,hajlítani,high,means bend/curve in a road,-,llm_only
+211,fold,Hungarian,hajtás,wrong_pos,hajtani,med,noun a fold/crease,-,llm_only
+230,wrinkle,Hungarian,ránc,wrong_pos,ráncosodni,med,noun a wrinkle,-,llm_only
+232,dye,Hungarian,festék,wrong_pos,festeni,med,noun paint/dye,-,llm_only
+244,filter,Hungarian,szűrő,wrong_pos,szűrni,med,noun a filter,-,llm_only
+249,train,Hungarian,vonat,wrong_sense,edzeni,high,means the train vehicle,-,llm_only
+311,plough,Hungarian,eke,wrong_sense,szántani,high,noun the plough implement,-,llm_only
+313,sow,Hungarian,koca,wrong_sense,vetni,high,means a female pig,-,llm_only
+320,miss,Hungarian,kisasszony,wrong_sense,elhibázni,high,means Miss the title,-,llm_only
+321,miss,Hungarian,kisasszony,wrong_sense,hiányozni,high,means Miss the title,-,llm_only
+325,scoop,Hungarian,gombóc,wrong_sense,kimerni,high,noun scoop of ice cream,-,llm_only
+349,light,Hungarian,fényt,wrong_sense,halvány,high,accusative noun illumination,-,llm_only
+351,light,Hungarian,fényt,wrong_sense,könnyű,high,accusative noun illumination,-,llm_only
+364,fine,Hungarian,bírság,wrong_sense,finom,high,means a monetary penalty,-,llm_only
+380,cool,Hungarian,menő,wrong_sense,hűvös,high,means trendy or cool style,-,llm_only
+441,odd,Hungarian,furcsa,wrong_sense,páratlan,high,means strange not odd number,-,llm_only
+204,rear,Indonesian,ke belakang,wrong_sense,membesarkan,med,means to the back,-,llm_only
+380,cool,Indonesian,keren,wrong_sense,sejuk,med,means cool or awesome,-,llm_only
+188,like,Italian,piacere,wrong_sense,somigliare,high,this sense is resemble,-,llm_only
+249,train,Italian,al treno,wrong_sense,allenare,high,means to the train,-,llm_only
+351,light,Italian,chiaro,wrong_sense,leggero,med,means pale or clear,-,llm_only
+364,fine,Italian,va bene,wrong_sense,fine,high,means okay,-,llm_only
+441,odd,Italian,strano,wrong_sense,dispari,high,means strange,-,llm_only
+26,be used to,Korean,익숙해 져야합니다,phrase,익숙하다,med,full sentence must-become-accustomed,-,llm_only
+516,probable,Korean,유망한 후보자,wrong_sense,개연성 있는,med,means promising candidate,-,llm_only
+19,smell,Russian,пахнуть,wrong_sense,нюхать,med,means emit odor not perceive,-,llm_only
+349,light,Russian,свет,wrong_sense,бледный,high,noun illumination,-,llm_only
+351,light,Russian,свет,wrong_sense,лёгкий,high,noun illumination,-,llm_only
+380,cool,Russian,круто,wrong_sense,прохладный,high,means awesome,-,llm_only
+441,odd,Russian,странный,wrong_sense,нечётный,high,means strange,-,llm_only
+349,light,Spanish,luz,wrong_sense,claro,high,noun illumination,-,llm_only
+351,light,Spanish,luz,wrong_sense,ligero,high,noun illumination,-,llm_only
+364,fine,Spanish,bien,wrong_sense,fino,high,means well,-,llm_only
+380,cool,Spanish,genial,wrong_sense,fresco,high,means great,-,llm_only
+441,odd,Spanish,extraño,wrong_sense,impar,high,means strange,-,llm_only
+179,bark,Swahili,kwa gome,wrong_sense,kubweka,high,means with tree bark,-,llm_only
+188,like,Swahili,kupenda,wrong_sense,kufanana,med,this sense is resemble,-,llm_only
+193,swing,Swahili,kwa swing,untranslated,kupembea,high,English swing embedded,-,llm_only
+407,curious,Swahili,curious,untranslated,mdadisi,high,English left as-is,-,llm_only
+409,boring,Swahili,boring,untranslated,-a kuchosha,high,English left as-is,-,llm_only
+512,sober,Swahili,sober,untranslated,mwenye kiasi,high,English left as-is,-,llm_only
+538,I,Swahili,i,untranslated,mimi,high,English left as-is,-,llm_only
+542,it,Swahili,it,untranslated,,low,English left as-is,-,llm_only
+550,who,Swahili,who,untranslated,nani,high,English left as-is,-,llm_only
+188,like,Thai,ที่ชื่นชอบ,wrong_sense,คล้าย,med,this sense is resemble,-,llm_only
+349,light,Thai,เบา,wrong_sense,อ่อน,med,means light in weight,-,llm_only
+380,cool,Thai,เจ๋ง,wrong_sense,เย็น,med,means awesome,-,llm_only
+25,repeat,Turkish,tekrarlamak için,phrase,tekrarlamak,med,means in order to repeat,-,llm_only
+188,like,Turkish,beğenmek,wrong_sense,benzemek,high,this sense is resemble,-,llm_only
+249,train,Turkish,trene,wrong_sense,eğitmek,high,means to the train dative,-,llm_only
+314,reap,Turkish,yaratmak için,wrong_sense,biçmek,high,means in order to create,-,llm_only
+188,like,Vietnamese,thích,wrong_sense,giống,med,this sense is resemble,-,llm_only
+349,light,Vietnamese,ánh sáng,wrong_sense,nhạt,med,noun illumination,-,llm_only
+351,light,Vietnamese,ánh sáng,wrong_sense,nhẹ,med,noun illumination,-,llm_only
+461,fair,Vietnamese,hội chợ,wrong_sense,công bằng,med,means trade fair,-,llm_only
+533,brown,Vietnamese,no co mau nâu,phrase,nâu,med,sentence it has brown color,-,llm_only
+332,slanted,Welsh,slanted,untranslated,ar oleddf,high,English left as-is,-,llm_only
