@@ -25,7 +25,7 @@ from .config import Config  # noqa: E402
 
 STAGES = ["data", "concepticon", "translate-qc", "lexibank-qc", "wiktionary-qc",
           "ipa", "phonetics", "semantics", "loanword", "align", "mantel",
-          "associate", "baselines", "etym", "report"]
+          "associate", "baselines", "vocalize", "etym", "report"]
 _MODULE = {"align": "crossval", "associate": "association",
            "translate-qc": "translate_qc", "lexibank-qc": "lexibank_qc",
            "wiktionary-qc": "wiktionary_qc"}

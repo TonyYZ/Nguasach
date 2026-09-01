@@ -38,6 +38,7 @@ dependencies = [
     "deep-translator~=1.11",   # second MT engine for translation QC
     "pyconcepticon~=4.0",      # concept-set mapping + Swadesh/LJ conceptlists
     "opencc-python-reimplemented~=0.1",  # traditional<->simplified fold for lexibank-qc
+    "camel-tools~=1.5",   # Arabic diacritiser for the vocalize stage
     "alive-progress~=3.1",
 
     # --- viz ---

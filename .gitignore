@@ -170,3 +170,5 @@ data/raw/concept_additions.csv
 data/raw/northeuralex-cldf/
 
 data/interim/wiktionary_cache*.json
+
+data/interim/nakdan_cache.json
