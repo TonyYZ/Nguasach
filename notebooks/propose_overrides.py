@@ -45,8 +45,10 @@ def _ko_dictform(cell: str) -> str:
         return s[:-3] + "하다"
     if s.endswith(("습니다", "ㅂ니다")):
         return s[:-3] + "다"
-    if s.endswith(("는다", "ㄴ다")):
-        return s[:-2] + "다"
+    if s.endswith("해"):                       # casual 이상해 -> 이상하다
+        return s[:-1] + "하다"
+    if s.endswith(("하다", "되다")) and " " not in s:   # already a citation form
+        return s
     return ""
 _CYR_MAP = str.maketrans({"a": "а", "e": "е", "o": "о", "p": "р", "c": "с",
                           "y": "у", "x": "х", "A": "А", "E": "Е", "O": "О",
