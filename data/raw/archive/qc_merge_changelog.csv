@@ -5165,3 +5165,1296 @@ concept_id,column,old,new,source
 1433,Finnish,taide,musiikki,finnish-realign
 1434,Finnish,kaupunki,taide,finnish-realign
 1435,Finnish,sukupuoli,seksi,finnish-realign
+1081,French,atterrir,terre,held-review
+1389,French,rocher,rock,held-review
+1399,French,organe,orgue,held-review
+1449,French,taper,type,held-review
+1463,French,commande,ordre,held-review
+1555,French,faisceau,poutre,held-review
+1567,French,architecte,arc,held-review
+1569,German,kloster,Kreuzgang,held-review
+1484,Greek,θέα,άποψη,held-review
+165,Hindi,ढेर,ढेर लगाना,held-review
+174,Hindi,सफर,यात्रा करना,held-review
+193,Hindi,झूले,झूलना,held-review
+1463,Hindi,अनुक्रम,व्यवस्था,held-review
+1484,Hindi,दृश्य,दृष्टिकोण,held-review
+1664,Hindi,प्रकाशविज्ञानशास्री,चश्मासाज,held-review
+1207,Indonesian,pabrik,penggilingan,held-review
+1426,Japanese,フットボール,サッカー,held-review
+1544,Japanese,正義感,正義,held-review
+1257,Korean,널,시소,held-review
+1495,Korean,가능성,기회,held-review
+1751,Korean,지구의 핵심,지구의 핵,held-review
+1569,Russian,монастырь,клуатр,held-review
+542,Swahili,it,hicho,held-review
+1375,Swahili,chombo,ala ya muziki,held-review
+1431,Swahili,jedwali la tenisi,tenisi ya mezani,held-review
+1474,Swahili,faili,kichimbakazi,held-review
+1475,Swahili,monster,zimwi,held-review
+1479,Swahili,hadithi,ngano,held-review
+1567,Swahili,arch,tao,held-review
+1569,Swahili,cloister,ukumbi wa monasteri,held-review
+1580,Swahili,skyscraper,kikunawingu,held-review
+1638,Swahili,intern,mwanafunzi kwa vitendo,held-review
+1648,Swahili,fundi,fundi bomba,held-review
+1657,Swahili,mwangalizi,mhudumu wa ndege,held-review
+1662,Swahili,cashier,keshia,held-review
+1701,Swahili,mara kwa mara,marudio,held-review
+1741,Swahili,solstice,solstisi,held-review
+1751,Swahili,msingi wa dunia,kiini cha dunia,held-review
+1769,Swahili,iko juu,juu,held-review
+1776,Swahili,iko nje,nje,held-review
+1702,Thai,ความกว้าง,แอมพลิจูด,held-review
+1813,Turkish,önceki,önce,held-review
+1814,Turkish,aslında,başlangıçta,held-review
+1569,Vietnamese,cloister,hành lang tu viện,held-review
+1579,Vietnamese,chòi,nhà gỗ,held-review
+1650,Vietnamese,sạch hơn,nhân viên vệ sinh,held-review
+1664,Vietnamese,bác sĩ nhãn khoa,chuyên gia nhãn khoa,held-review
+0,Welsh,fuoch,bod,welsh-regen
+1,Welsh,aethon,dod yn,welsh-regen
+2,Welsh,weithreda ’,gwneud,welsh-regen
+3,Welsh,aethant,mynd,welsh-regen
+4,Welsh,deuant,dod,welsh-regen
+5,Welsh,i,mynd i mewn,welsh-regen
+6,Welsh,allanfa,mynd allan,welsh-regen
+7,Welsh,hfed,aros,welsh-regen
+8,Welsh,arhoswch,aros,welsh-regen
+9,Welsh,ymadaelith,gadael,welsh-regen
+10,Welsh,ddychwelo,dychwelyd,welsh-regen
+12,Welsh,bwyllom,ystyried,welsh-regen
+13,Welsh,phenderfynon,penderfynu,welsh-regen
+14,Welsh,ddetholem,dewis,welsh-regen
+15,Welsh,theimlwch,teimlo,welsh-regen
+16,Welsh,gweler,gweld,welsh-regen
+17,Welsh,glywa ’,clywed,welsh-regen
+18,Welsh,cyffyrddant,cyffwrdd,welsh-regen
+19,Welsh,harogleuoch,arogli,welsh-regen
+20,Welsh,sawri,blasu,welsh-regen
+21,Welsh,dywedant,dweud,welsh-regen
+22,Welsh,hadnabyddent,gwybod,welsh-regen
+23,Welsh,dysgwn,dysgu,welsh-regen
+24,Welsh,haddysgu,dysgu,welsh-regen
+25,Welsh,hailadroddwch,ailadrodd,welsh-regen
+26,Welsh,cael ei ddefnyddio i,bod wedi arfer â,welsh-regen
+27,Welsh,parhawn,parhau,welsh-regen
+28,Welsh,holom,gofyn,welsh-regen
+29,Welsh,atebem,ateb,welsh-regen
+30,Welsh,ddarluniasant,lluniadu,welsh-regen
+32,Welsh,darllenasit,darllen,welsh-regen
+33,Welsh,bwytaem,bwyta,welsh-regen
+34,Welsh,yfo,yfed,welsh-regen
+36,Welsh,cymerwch,dal,welsh-regen
+37,Welsh,ddygaf,dod â,welsh-regen
+39,Welsh,ddwyn,cael,welsh-regen
+40,Welsh,rho,rhoi,welsh-regen
+41,Welsh,hela ’,anfon,welsh-regen
+42,Welsh,rho,rhoi,welsh-regen
+43,Welsh,ymadaelith,gadael,welsh-regen
+44,Welsh,cymeran,cymryd,welsh-regen
+45,Welsh,twgir,dwyn,welsh-regen
+46,Welsh,thrawon,taro,welsh-regen
+47,Welsh,wingid,cicio,welsh-regen
+48,Welsh,rhwbiant,rhwbio,welsh-regen
+49,Welsh,throia ’,troi,welsh-regen
+51,Welsh,thynnodd,tynnu,welsh-regen
+52,Welsh,gwasga,gwasgu,welsh-regen
+53,Welsh,golchwyd,golchi,welsh-regen
+54,Welsh,gawod,cael cawod,welsh-regen
+55,Welsh,fopi,sychu,welsh-regen
+56,Welsh,cripia,crafu,welsh-regen
+57,Welsh,lladdwch,torri,welsh-regen
+58,Welsh,chysyllta ’,cysylltu,welsh-regen
+59,Welsh,sacho,gludo,welsh-regen
+60,Welsh,holltiff,hollti,welsh-regen
+61,Welsh,trywanent,trywanu,welsh-regen
+62,Welsh,chwarddest,chwerthin,welsh-regen
+63,Welsh,gwener,gwenu,welsh-regen
+64,Welsh,lefer,crio,welsh-regen
+65,Welsh,frathu,brathu,welsh-regen
+67,Welsh,lyncid,llyncu,welsh-regen
+68,Welsh,poeron,poeri,welsh-regen
+69,Welsh,chwydo,chwydu,welsh-regen
+70,Welsh,chwytho,chwythu,welsh-regen
+72,Welsh,pesychi,pesychu,welsh-regen
+73,Welsh,ddylyfodd,dylyfu gên,welsh-regen
+74,Welsh,thaflech,taflu,welsh-regen
+75,Welsh,ddaliff,dal,welsh-regen
+76,Welsh,geibian,cloddio,welsh-regen
+77,Welsh,clymi,clymu,welsh-regen
+78,Welsh,phwytho,gwnïo,welsh-regen
+79,Welsh,cyfrifon,cyfrif,welsh-regen
+80,Welsh,threuliasant,gwisgo,welsh-regen
+81,Welsh,ymagorant,agor,welsh-regen
+82,Welsh,chaewch,cau,welsh-regen
+83,Welsh,ddechreuid,dechrau,welsh-regen
+85,Welsh,gollo,colli,welsh-regen
+86,Welsh,edrych am,chwilio am,welsh-regen
+87,Welsh,ffeindia,dod o hyd i,welsh-regen
+88,Welsh,cyfnewidia ’,newid,welsh-regen
+89,Welsh,phrynu,prynu,welsh-regen
+90,Welsh,rhoesom,talu,welsh-regen
+92,Welsh,clywasech,ceisio,welsh-regen
+93,Welsh,creu,gwneud,welsh-regen
+94,Welsh,chrëid,creu,welsh-regen
+95,Welsh,harferwch,defnyddio,welsh-regen
+96,Welsh,torrai,torri,welsh-regen
+97,Welsh,dinistrion,difetha,welsh-regen
+98,Welsh,laddem,lladd,welsh-regen
+99,Welsh,drengir,marw,welsh-regen
+101,Welsh,freuddwydion,breuddwydio,welsh-regen
+102,Welsh,chysger,cysgu,welsh-regen
+104,Welsh,gorweddych,gorwedd,welsh-regen
+105,Welsh,orai,eistedd,welsh-regen
+106,Welsh,swatiwyd,sgwatio,welsh-regen
+107,Welsh,crymest,ymgrymu,welsh-regen
+108,Welsh,safant,sefyll,welsh-regen
+110,Welsh,redych,rhedeg,welsh-regen
+111,Welsh,beicasid,neidio,welsh-regen
+113,Welsh,hehedan,hedfan,welsh-regen
+114,Welsh,ysgogwch,symud,welsh-regen
+115,Welsh,arhoswch,stopio,welsh-regen
+117,Welsh,ddilyna ’,dilyn,welsh-regen
+118,Welsh,cofiant,cofio,welsh-regen
+119,Welsh,hanghofion,anghofio,welsh-regen
+121,Welsh,anwybyddem,anwybyddu,welsh-regen
+122,Welsh,gyfrifon,ychwanegu,welsh-regen
+123,Welsh,godon,tynnu,welsh-regen
+125,Welsh,lleiheir,lleihau,welsh-regen
+126,Welsh,goder,codi,welsh-regen
+127,Welsh,gwympant,cwympo,welsh-regen
+128,Welsh,disgynasoch,disgyn,welsh-regen
+129,Welsh,thramwyant,pasio,welsh-regen
+130,Welsh,diwnid,canu,welsh-regen
+131,Welsh,dawnsiasant,dawnsio,welsh-regen
+133,Welsh,harnofion,arnofio,welsh-regen
+134,Welsh,llifeiriwch,llifo,welsh-regen
+136,Welsh,godon,chwyddo,welsh-regen
+137,Welsh,thyfwn,tyfu,welsh-regen
+139,Welsh,goginia ’,coginio,welsh-regen
+141,Welsh,ffria,ffrio,welsh-regen
+142,Welsh,ferwon,berwi,welsh-regen
+143,Welsh,stiwiff,stiwio,welsh-regen
+144,Welsh,stêm,stemio,welsh-regen
+145,Welsh,rostia,rhostio,welsh-regen
+146,Welsh,phobir,pobi,welsh-regen
+150,Welsh,chari,caru,welsh-regen
+151,Welsh,hidion,hoffi,welsh-regen
+153,Welsh,angen,bod angen,welsh-regen
+154,Welsh,chaseir,casáu,welsh-regen
+155,Welsh,hofnwch,ofni,welsh-regen
+156,Welsh,cusana ’,cusanu,welsh-regen
+157,Welsh,treiddiwyd,treiddio,welsh-regen
+158,Welsh,rhuthra ’,rhuthro,welsh-regen
+159,Welsh,gollyngwch,saethu,welsh-regen
+160,Welsh,hymladd,ymladd,welsh-regen
+162,Welsh,anafer,brifo,welsh-regen
+163,Welsh,hymosod,ymosod,welsh-regen
+165,Welsh,pentwr,pentyrru,welsh-regen
+166,Welsh,storiasant,storio,welsh-regen
+167,Welsh,mewnosodem,mewnosod,welsh-regen
+168,Welsh,gynhwysaf,cynnwys,welsh-regen
+169,Welsh,cynhwysaf,cynnwys,welsh-regen
+170,Welsh,hysbysent,hysbysu,welsh-regen
+171,Welsh,gyhoeddan,cyhoeddi,welsh-regen
+172,Welsh,ysguban,ysgubo,welsh-regen
+173,Welsh,rhent,rhentu,welsh-regen
+174,Welsh,teithiant,teithio,welsh-regen
+175,Welsh,chroniclant,cofnodi,welsh-regen
+176,Welsh,dihangent,dianc,welsh-regen
+177,Welsh,ochelwch,osgoi,welsh-regen
+178,Welsh,ffocws,canolbwyntio,welsh-regen
+179,Welsh,gyfarthwch,cyfarth,welsh-regen
+180,Welsh,hoernada ’,udo,welsh-regen
+181,Welsh,alwa ’,galw,welsh-regen
+182,Welsh,sgrechiff,sgrechian,welsh-regen
+183,Welsh,rilliech,trydar,welsh-regen
+184,Welsh,frân,canu,welsh-regen
+185,Welsh,waeddwch,gweiddi,welsh-regen
+186,Welsh,sibrydaf,sibrwd,welsh-regen
+187,Welsh,codet,adeiladu,welsh-regen
+188,Welsh,hidion,ymdebygu i,welsh-regen
+189,Welsh,dangosem,dangos,welsh-regen
+191,Welsh,gydbwysa,pwyso,welsh-regen
+192,Welsh,fesuren,mesur,welsh-regen
+193,Welsh,grymanaf,siglo,welsh-regen
+194,Welsh,hysgydwasit,ysgwyd,welsh-regen
+195,Welsh,cryno,crynu,welsh-regen
+196,Welsh,weithion,gweithio,welsh-regen
+197,Welsh,phriodent,priodi,welsh-regen
+198,Welsh,gweddïon,gweddïo,welsh-regen
+199,Welsh,enilles,ennill,welsh-regen
+200,Welsh,gollo,colli,welsh-regen
+201,Welsh,gymysga ’,cymysgu,welsh-regen
+202,Welsh,wyro,plygu,welsh-regen
+203,Welsh,borthiff,bwydo,welsh-regen
+204,Welsh,feithrina ’,magu,welsh-regen
+205,Welsh,trolith,rholio,welsh-regen
+206,Welsh,lithret,llithro,welsh-regen
+207,Welsh,orchuddia ’,gorchuddio,welsh-regen
+208,Welsh,cefnoga ’,cefnogi,welsh-regen
+209,Welsh,lwythet,llwytho,welsh-regen
+210,Welsh,datblygoch,datblygu,welsh-regen
+211,Welsh,torrai,plygu,welsh-regen
+212,Welsh,gwtoga ’,crebachu,welsh-regen
+213,Welsh,sarnaf,sarnu,welsh-regen
+214,Welsh,rhyddhasoch,rhyddhau,welsh-regen
+215,Welsh,draen,draenio,welsh-regen
+216,Welsh,lanwem,llenwi,welsh-regen
+217,Welsh,tywalliff,arllwys,welsh-regen
+218,Welsh,sociest,socian,welsh-regen
+219,Welsh,gollyngwch,gollwng,welsh-regen
+220,Welsh,ddihidla,diferu,welsh-regen
+221,Welsh,ehangant,ehangu,welsh-regen
+223,Welsh,belydri,pelydru,welsh-regen
+224,Welsh,heintia,heintio,welsh-regen
+225,Welsh,llesteiriech,rhwystro,welsh-regen
+226,Welsh,sodd,suddo,welsh-regen
+227,Welsh,gwastraffwch,gwastraffu,welsh-regen
+228,Welsh,diflannech,diflannu,welsh-regen
+229,Welsh,hestynnid,ymestyn,welsh-regen
+230,Welsh,grychant,crychu,welsh-regen
+231,Welsh,haddurno,addurno,welsh-regen
+232,Welsh,lliwion,lliwio,welsh-regen
+233,Welsh,hamdroith,lapio,welsh-regen
+234,Welsh,eryder,erydu,welsh-regen
+235,Welsh,risglir,plicio,welsh-regen
+236,Welsh,lygrom,llygru,welsh-regen
+237,Welsh,rhythir,syllu,welsh-regen
+238,Welsh,thriniaf,trin,welsh-regen
+239,Welsh,gyfieithith,cyfieithu,welsh-regen
+240,Welsh,fatsiwch,cyfateb,welsh-regen
+241,Welsh,chymharer,cymharu,welsh-regen
+242,Welsh,gosodan,trefnu,welsh-regen
+243,Welsh,didolwch,didoli,welsh-regen
+244,Welsh,hidlech,hidlo,welsh-regen
+245,Welsh,mwynhasoch,mwynhau,welsh-regen
+246,Welsh,hymlacio,ymlacio,welsh-regen
+247,Welsh,frysith,brysio,welsh-regen
+248,Welsh,hetifedd,etifeddu,welsh-regen
+249,Welsh,hyffordder,hyfforddi,welsh-regen
+250,Welsh,llwydder,llwyddo,welsh-regen
+251,Welsh,methon,methu,welsh-regen
+252,Welsh,cwatiff,cuddio,welsh-regen
+253,Welsh,ymgreiniant,cropian,welsh-regen
+254,Welsh,clandrem,cyfrifo,welsh-regen
+255,Welsh,gyfloga ’,cyflogi,welsh-regen
+256,Welsh,henillon,ennill,welsh-regen
+258,Welsh,printiwyd,argraffu,welsh-regen
+259,Welsh,gorweddych,dweud celwydd,welsh-regen
+261,Welsh,chredent,credu,welsh-regen
+262,Welsh,thybid,dychmygu,welsh-regen
+263,Welsh,derbynion,derbyn,welsh-regen
+264,Welsh,gwadont,gwadu,welsh-regen
+265,Welsh,benthyca,benthyg,welsh-regen
+266,Welsh,benthyca,rhoi benthyg,welsh-regen
+267,Welsh,olygwch,golygu,welsh-regen
+268,Welsh,croeswn,dileu,welsh-regen
+269,Welsh,copïan,copïo,welsh-regen
+270,Welsh,pastia,gludo,welsh-regen
+271,Welsh,thrafodwch,trafod,welsh-regen
+272,Welsh,resymant,dadlau,welsh-regen
+274,Welsh,esbonia,egluro,welsh-regen
+275,Welsh,rhoiff,darparu,welsh-regen
+276,Welsh,hariannan,ariannu,welsh-regen
+277,Welsh,reolaf,rheoli,welsh-regen
+278,Welsh,wirion,gwirio,welsh-regen
+279,Welsh,ymarferent,ymarfer,welsh-regen
+280,Welsh,harlwyiff,paratoi,welsh-regen
+281,Welsh,hadolygaf,adolygu,welsh-regen
+282,Welsh,haffeithiwch,effeithio,welsh-regen
+283,Welsh,llunion,dylunio,welsh-regen
+284,Welsh,harfaethon,cynllunio,welsh-regen
+285,Welsh,deallith,deall,welsh-regen
+286,Welsh,daroganwch,rhagweld,welsh-regen
+287,Welsh,rhagdybia ’,tybio,welsh-regen
+288,Welsh,dyfalwyd,dyfalu,welsh-regen
+289,Welsh,pharcha ’,parchu,welsh-regen
+290,Welsh,dirmyg,dirmygu,welsh-regen
+291,Welsh,heria,herio,welsh-regen
+292,Welsh,ddioddefa ’,dioddef,welsh-regen
+293,Welsh,ddioddefodd,goddef,welsh-regen
+294,Welsh,cyfarfu,cyfarfod,welsh-regen
+295,Welsh,gyrhaeddant,cyrraedd,welsh-regen
+296,Welsh,cynullet,casglu,welsh-regen
+297,Welsh,rybuddia ’,rhybuddio,welsh-regen
+298,Welsh,arwydden,llofnodi,welsh-regen
+299,Welsh,rhwystro,ffrwyno,welsh-regen
+300,Welsh,ganiatáu,caniatáu,welsh-regen
+301,Welsh,waharddon,gwahardd,welsh-regen
+302,Welsh,blaeni,arwain,welsh-regen
+303,Welsh,lywodraethon,llywodraethu,welsh-regen
+304,Welsh,rheolaf,rheoli,welsh-regen
+305,Welsh,gorchmynnwn,gorchymyn,welsh-regen
+306,Welsh,gwasanaethiff,gwasanaethu,welsh-regen
+308,Welsh,gydgerdda ’,hebrwng,welsh-regen
+309,Welsh,ranna ’,rhannu,welsh-regen
+311,Welsh,droesi,aredig,welsh-regen
+312,Welsh,dyfrhaoch,dyfrhau,welsh-regen
+313,Welsh,heuech,hau,welsh-regen
+314,Welsh,medant,medi,welsh-regen
+315,Welsh,wehyddasoch,gwehyddu,welsh-regen
+316,Welsh,gobaith,gobeithio,welsh-regen
+317,Welsh,rhoion,cyfrannu,welsh-regen
+318,Welsh,lywia ’,llywio,welsh-regen
+319,Welsh,tywysen,arwain,welsh-regen
+320,Welsh,misir,colli,welsh-regen
+321,Welsh,misir,colli,welsh-regen
+322,Welsh,arthiwn,ceryddu,welsh-regen
+323,Welsh,weled,ymweld,welsh-regen
+324,Welsh,sefydlogaf,trwsio,welsh-regen
+325,Welsh,sgwpiant,sgwpio,welsh-regen
+326,Welsh,soniant,crybwyll,welsh-regen
+327,Welsh,ffori,archwilio,welsh-regen
+328,Welsh,wladychon,gwladychu,welsh-regen
+329,Welsh,crwydrasoch,crwydro,welsh-regen
+330,Welsh,fflat,gwastad,welsh-regen
+331,Welsh,trwythest,serth,welsh-regen
+332,Welsh,slanted,ar oleddf,welsh-regen
+334,Welsh,rownd,crwn,welsh-regen
+337,Welsh,pyler,di-fin,welsh-regen
+338,Welsh,lyfnhaith,llyfn,welsh-regen
+340,Welsh,tyn,tynn,welsh-regen
+342,Welsh,llymach,llym,welsh-regen
+343,Welsh,thrugarog,goddefgar,welsh-regen
+344,Welsh,nhrin,gwasgaredig,welsh-regen
+345,Welsh,drwchus,trwchus,welsh-regen
+346,Welsh,gliria ’,clir,welsh-regen
+349,Welsh,henynni,golau,welsh-regen
+350,Welsh,chryfaf,cryf,welsh-regen
+351,Welsh,henynni,ysgafn,welsh-regen
+353,Welsh,fawr,mawr,welsh-regen
+355,Welsh,hiraethasit,hir,welsh-regen
+356,Welsh,brin,byr,welsh-regen
+357,Welsh,lydan,llydan,welsh-regen
+358,Welsh,gulhaiff,cul,welsh-regen
+359,Welsh,o drwch,trwchus,welsh-regen
+360,Welsh,theneuaf,tenau,welsh-regen
+361,Welsh,braster,tew,welsh-regen
+362,Welsh,maich,main,welsh-regen
+363,Welsh,o drwch,trwchus,welsh-regen
+364,Welsh,dirwyed,mân,welsh-regen
+365,Welsh,dal,tal,welsh-regen
+366,Welsh,brin,byr,welsh-regen
+367,Welsh,fry,uchel,welsh-regen
+368,Welsh,frefer,isel,welsh-regen
+369,Welsh,dyfnach,dwfn,welsh-regen
+370,Welsh,fas,bas,welsh-regen
+371,Welsh,bell,pell,welsh-regen
+372,Welsh,hagos,agos,welsh-regen
+373,Welsh,nghaled,caled,welsh-regen
+376,Welsh,gwlychent,gwlyb,welsh-regen
+377,Welsh,holder,oer,welsh-regen
+378,Welsh,boethaf,poeth,welsh-regen
+379,Welsh,cynheset,cynnes,welsh-regen
+380,Welsh,cwl,cŵl,welsh-regen
+384,Welsh,melysach,melys,welsh-regen
+388,Welsh,wacoch,gwag,welsh-regen
+389,Welsh,phanner,llawn,welsh-regen
+391,Welsh,chwblheir,cyflawn,welsh-regen
+392,Welsh,meirus,marw,welsh-regen
+393,Welsh,fyw,byw,welsh-regen
+395,Welsh,haws,hawdd,welsh-regen
+396,Welsh,emosiynau,emosiwn,welsh-regen
+398,Welsh,hapusaf,hapus,welsh-regen
+399,Welsh,gyffrous,cyffrous,welsh-regen
+401,Welsh,ffiaidd,wedi ffieiddio,welsh-regen
+402,Welsh,suro,syn,welsh-regen
+403,Welsh,gywilyddiant,cywilyddus,welsh-regen
+404,Welsh,ngwyllt,dig,welsh-regen
+407,Welsh,nigrif,doniol,welsh-regen
+409,Welsh,ddiflas,diflas,welsh-regen
+410,Welsh,ryfedd,rhyfedd,welsh-regen
+411,Welsh,gyffredin,cyffredin,welsh-regen
+412,Welsh,gyffredin,cyffredin,welsh-regen
+415,Welsh,harddaf,hardd,welsh-regen
+418,Welsh,niniwed,diniwed,welsh-regen
+420,Welsh,beryglus,peryglus,welsh-regen
+421,Welsh,bwysig,pwysig,welsh-regen
+422,Welsh,claf,amyneddgar,welsh-regen
+423,Welsh,ddewr,dewr,welsh-regen
+424,Welsh,mysgota,swil,welsh-regen
+430,Welsh,noethed,noeth,welsh-regen
+431,Welsh,noethaf,moel,welsh-regen
+433,Welsh,ryfedd,dieithr,welsh-regen
+436,Welsh,gyson,cyson,welsh-regen
+438,Welsh,sicraf,sicr,welsh-regen
+439,Welsh,iau,bras,welsh-regen
+440,Welsh,fanwl gywir,manwl,welsh-regen
+441,Welsh,rhyfedd,odrif,welsh-regen
+444,Welsh,dyblwch,dwbl,welsh-regen
+446,Welsh,bam,drwg,welsh-regen
+447,Welsh,gywirer,cywir,welsh-regen
+448,Welsh,anweddus,anghywir,welsh-regen
+450,Welsh,anwir,gau,welsh-regen
+452,Welsh,hŷn,hen,welsh-regen
+453,Welsh,hŷn,hen,welsh-regen
+455,Welsh,chryfaf,cryf,welsh-regen
+456,Welsh,gwanach,gwan,welsh-regen
+459,Welsh,yr un peth,un,welsh-regen
+460,Welsh,gyfartal,cyfartal,welsh-regen
+461,Welsh,nheg,teg,welsh-regen
+463,Welsh,ymprydion,cyflym,welsh-regen
+464,Welsh,arafwch,araf,welsh-regen
+465,Welsh,gynnar,cynnar,welsh-regen
+467,Welsh,glanhaom,glân,welsh-regen
+468,Welsh,thwti,taclus,welsh-regen
+469,Welsh,trochi,budr,welsh-regen
+470,Welsh,ffalaf,ffres,welsh-regen
+472,Welsh,glyfar,clyfar,welsh-regen
+473,Welsh,dwp,twp,welsh-regen
+476,Welsh,druanaf,tlawd,welsh-regen
+477,Welsh,fras,cyfoethog,welsh-regen
+479,Welsh,diog,segur,welsh-regen
+480,Welsh,orlawn,gorlawn,welsh-regen
+482,Welsh,thawelach,tawel,welsh-regen
+483,Welsh,distawed,distaw,welsh-regen
+485,Welsh,mudo,mud,welsh-regen
+488,Welsh,syched,sychedig,welsh-regen
+489,Welsh,brin,blinedig,welsh-regen
+491,Welsh,ddiwyd,diwyd,welsh-regen
+492,Welsh,fethu,galluog,welsh-regen
+494,Welsh,orfodol,gorfodol,welsh-regen
+495,Welsh,wirfoddol,gwirfoddol,welsh-regen
+496,Welsh,fodlon,bodlon,welsh-regen
+498,Welsh,nigwyddus,hunanfoddhaus,welsh-regen
+500,Welsh,absenolet,absennol,welsh-regen
+501,Welsh,gyflwyno,presennol,welsh-regen
+502,Welsh,boblogaidd,poblogaidd,welsh-regen
+503,Welsh,gyfrifol,cyfrifol,welsh-regen
+504,Welsh,ddifrifol,difrifol,welsh-regen
+506,Welsh,achlysurol,anffurfiol,welsh-regen
+507,Welsh,mwrw,darbodus,welsh-regen
+508,Welsh,nghyncan,iach ei feddwl,welsh-regen
+509,Welsh,rhesymol,rhesymegol,welsh-regen
+511,Welsh,nghraig,gwallgof,welsh-regen
+512,Welsh,sobro,sobr,welsh-regen
+513,Welsh,meddwol,meddw,welsh-regen
+514,Welsh,gysglyd,cysglyd,welsh-regen
+516,Welsh,debygol,tebygol,welsh-regen
+518,Welsh,berthnasau,cyhoeddus,welsh-regen
+521,Welsh,perffeithied,perffaith,welsh-regen
+522,Welsh,disglair,llachar,welsh-regen
+523,Welsh,dywyllaf,tywyll,welsh-regen
+524,Welsh,duon,du,welsh-regen
+529,Welsh,wyrddach,gwyrdd,welsh-regen
+531,Welsh,borffor,porffor,welsh-regen
+532,Welsh,bincia,pinc,welsh-regen
+533,Welsh,frown,brown,welsh-regen
+534,Welsh,lwyd,llwyd,welsh-regen
+535,Welsh,euraidd,euraid,welsh-regen
+536,Welsh,harian,ariannaidd,welsh-regen
+537,Welsh,lliwiff,lliw,welsh-regen
+538,Welsh,i.,fi,welsh-regen
+539,Welsh,chi,ti,welsh-regen
+542,Welsh,fe,ef/hi,welsh-regen
+546,Welsh,hyn,hwn,welsh-regen
+547,Welsh,hynny,hwnnw,welsh-regen
+559,Welsh,nid,dim,welsh-regen
+560,Welsh,i gyd,pob,welsh-regen
+561,Welsh,nifer,llawer,welsh-regen
+563,Welsh,hau,ychydig,welsh-regen
+565,Welsh,ymadawed,rhan,welsh-regen
+566,Welsh,chyfan,cyfan,welsh-regen
+569,Welsh,mwyafrif,mwyaf,welsh-regen
+571,Welsh,phob un,pob,welsh-regen
+572,Welsh,phâr,pâr,welsh-regen
+576,Welsh,dwy,dau,welsh-regen
+577,Welsh,tair,tri,welsh-regen
+578,Welsh,phedwar,pedwar,welsh-regen
+579,Welsh,pum,pump,welsh-regen
+584,Welsh,ddeg,deg,welsh-regen
+585,Welsh,caneuon,cant,welsh-regen
+586,Welsh,filoedd,mil,welsh-regen
+588,Welsh,filiwn,miliwn,welsh-regen
+590,Welsh,thriliwn,triliwn,welsh-regen
+591,Welsh,yn gyntaf,cyntaf,welsh-regen
+592,Welsh,parhaiff,olaf,welsh-regen
+594,Welsh,cynyddol,blaenorol,welsh-regen
+596,Welsh,ddynion,dynolryw,welsh-regen
+597,Welsh,mhersonau,person,welsh-regen
+598,Welsh,nhorcach,torf,welsh-regen
+599,Welsh,mhoblogaeth,poblogaeth,welsh-regen
+601,Welsh,fenyw,menyw,welsh-regen
+602,Welsh,phlentyn,plentyn,welsh-regen
+608,Welsh,ngŵr,gŵr,welsh-regen
+612,Welsh,nheuluoedd,teulu,welsh-regen
+614,Welsh,oedolion,oedolyn,welsh-regen
+615,Welsh,nhaid,taid,welsh-regen
+619,Welsh,chwedion,chwaer,welsh-regen
+621,Welsh,brawd mawr,brawd hŷn,welsh-regen
+622,Welsh,brawd bach,brawd iau,welsh-regen
+623,Welsh,chwaer fawr,chwaer hŷn,welsh-regen
+624,Welsh,chwaer bach,chwaer iau,welsh-regen
+625,Welsh,brodyr amen,brodyr a chwiorydd,welsh-regen
+626,Welsh,mab yng nghyfraith,mab-yng-nghyfraith,welsh-regen
+627,Welsh,nghyfraith,merch-yng-nghyfraith,welsh-regen
+628,Welsh,brawd yng nghyfraith,brawd-yng-nghyfraith,welsh-regen
+629,Welsh,chwaer yng nghyfraith,chwaer-yng-nghyfraith,welsh-regen
+631,Welsh,fam-yng-nghyfraith,mam-yng-nghyfraith,welsh-regen
+633,Welsh,llys-tad,llystad,welsh-regen
+634,Welsh,lysfam,llysfam,welsh-regen
+636,Welsh,lysfab,llysfab,welsh-regen
+637,Welsh,fodryb,modryb,welsh-regen
+638,Welsh,nghefnder,cefnder,welsh-regen
+640,Welsh,nithoedd,nith,welsh-regen
+641,Welsh,hanifeiliaid,anifail,welsh-regen
+642,Welsh,hanwesent,anifail anwes,welsh-regen
+644,Welsh,saw,sw,welsh-regen
+645,Welsh,famaliaid,mamal,welsh-regen
+647,Welsh,geffyl,ceffyl,welsh-regen
+649,Welsh,mochi,mochyn,welsh-regen
+651,Welsh,gathod,cath,welsh-regen
+652,Welsh,nghi,ci,welsh-regen
+655,Welsh,chwninoedd,cwningen,welsh-regen
+656,Welsh,defaid,dafad,welsh-regen
+657,Welsh,homen,oen,welsh-regen
+658,Welsh,ngwrw,gafr,welsh-regen
+661,Welsh,dalia ’,arth,welsh-regen
+665,Welsh,gamel,camel,welsh-regen
+669,Welsh,rhinoed,rhinoseros,welsh-regen
+673,Welsh,wiwer,gwiwer,welsh-regen
+674,Welsh,draenogod,draenog,welsh-regen
+675,Welsh,ddyfrgi,dyfrgi,welsh-regen
+676,Welsh,batiwyd,ystlum,welsh-regen
+677,Welsh,adar,aderyn,welsh-regen
+678,Welsh,nythwch,nyth,welsh-regen
+679,Welsh,nghyw iâr,cyw iâr,welsh-regen
+681,Welsh,dowciaf,hwyaden,welsh-regen
+682,Welsh,ŵir,gŵydd,welsh-regen
+683,Welsh,hummingbird,colibryn,welsh-regen
+684,Welsh,ngwrachod,aderyn y to,welsh-regen
+685,Welsh,magpie,pioden,welsh-regen
+687,Welsh,aderyn,bronfraith,welsh-regen
+688,Welsh,aderyn llyncu,gwennol,welsh-regen
+689,Welsh,crwban,turtur,welsh-regen
+690,Welsh,barot,parot,welsh-regen
+691,Welsh,nghnocynnau coed,cnocell y coed,welsh-regen
+692,Welsh,mulfrain,mulfran,welsh-regen
+693,Welsh,egret,crëyr gwyn,welsh-regen
+698,Welsh,phengwin,pengwin,welsh-regen
+700,Welsh,gigfran,cigfran,welsh-regen
+703,Welsh,brogaod,broga,welsh-regen
+704,Welsh,ymlusgiaid,ymlusgiad,welsh-regen
+706,Welsh,bysgotasid,pysgodyn,welsh-regen
+708,Welsh,crwban,crwban môr,welsh-regen
+709,Welsh,berdys,berdysyn,welsh-regen
+711,Welsh,crancod,cranc,welsh-regen
+712,Welsh,morfilod,morfil,welsh-regen
+715,Welsh,selia,morlo,welsh-regen
+716,Welsh,walws,walrws,welsh-regen
+717,Welsh,slefroden,slefren fôr,welsh-regen
+718,Welsh,sêr,seren fôr,welsh-regen
+719,Welsh,morwyr,ceffyl môr,welsh-regen
+720,Welsh,sgwarid,sgwid,welsh-regen
+722,Welsh,plisget,cragen,welsh-regen
+723,Welsh,carapace,carapas,welsh-regen
+724,Welsh,cyntedd,cragen droellog,welsh-regen
+725,Welsh,champio,cregyn bylchog,welsh-regen
+727,Welsh,môr,anemoni'r môr,welsh-regen
+729,Welsh,germau,germ,welsh-regen
+731,Welsh,feirws,firws,welsh-regen
+733,Welsh,hehedan,pryf,welsh-regen
+735,Welsh,draig,gwas y neidr,welsh-regen
+736,Welsh,cheiliogod rhedyn,ceiliog rhedyn,welsh-regen
+738,Welsh,termite,termit,welsh-regen
+739,Welsh,buchod bach,buwch goch gota,welsh-regen
+740,Welsh,falwr,malwen,welsh-regen
+742,Welsh,brychwr,pry cop,welsh-regen
+744,Welsh,gwenyn,gwenynen,welsh-regen
+747,Welsh,cicada,sicada,welsh-regen
+748,Welsh,ngorynnau,llyslau,welsh-regen
+751,Welsh,milpede,miltroed,welsh-regen
+752,Welsh,criced,cricedyn,welsh-regen
+753,Welsh,firefly,pryfyn tân,welsh-regen
+754,Welsh,nadredda ’,neidr,welsh-regen
+755,Welsh,llyngyr,mwydyn,welsh-regen
+756,Welsh,plannem,planhigyn,welsh-regen
+757,Welsh,nghoeden,coeden,welsh-regen
+758,Welsh,goedwigoedd,coedwig,welsh-regen
+759,Welsh,sacho,ffon,welsh-regen
+761,Welsh,aeronen,aeronyn,welsh-regen
+763,Welsh,afalau,afal,welsh-regen
+767,Welsh,mefus,mefusen,welsh-regen
+768,Welsh,pinafal,pîn-afal,welsh-regen
+769,Welsh,eirin,eirin gwlanog,welsh-regen
+770,Welsh,cheirios,ceiriosen,welsh-regen
+772,Welsh,watermelon,melon dŵr,welsh-regen
+777,Welsh,ffrwyth seren,carambola,welsh-regen
+778,Welsh,mangosteen,mangostîn,welsh-regen
+779,Welsh,ffrwythau ddraig,pitaya,welsh-regen
+781,Welsh,ffigys,ffigysen,welsh-regen
+782,Welsh,lysiau,llysieuyn,welsh-regen
+783,Welsh,thatws,taten,welsh-regen
+784,Welsh,tatws melys,taten felys,welsh-regen
+785,Welsh,tomatos,tomato,welsh-regen
+787,Welsh,sesigau,sos coch,welsh-regen
+789,Welsh,ffonodion,cansen siwgr,welsh-regen
+790,Welsh,madarch,madarchen,welsh-regen
+793,Welsh,scallion,sibwnsyn,welsh-regen
+794,Welsh,nghiwcymbrau,ciwcymbr,welsh-regen
+796,Welsh,pys,pysen,welsh-regen
+801,Welsh,bwmpen,pwmpen,welsh-regen
+804,Welsh,moron,moronen,welsh-regen
+805,Welsh,nghorn,ŷd,welsh-regen
+806,Welsh,eggplant,ŵylys,welsh-regen
+807,Welsh,ngwrd,cicaion,welsh-regen
+809,Welsh,deilith,deilen,welsh-regen
+810,Welsh,hamgyffredwch,brigyn,welsh-regen
+811,Welsh,changhennid,cangen,welsh-regen
+814,Welsh,gwreiddi,gwreiddyn,welsh-regen
+815,Welsh,gyfarthwch,rhisgl,welsh-regen
+816,Welsh,llwyni,llwyn,welsh-regen
+817,Welsh,blodeuo,blodyn,welsh-regen
+818,Welsh,betal,petal,welsh-regen
+819,Welsh,hatalia ’,coesyn,welsh-regen
+820,Welsh,pigyn,drain,welsh-regen
+824,Welsh,daisy,llygad y dydd,welsh-regen
+825,Welsh,nhiwlip,tiwlip,welsh-regen
+826,Welsh,tegeirianau,tegeirian,welsh-regen
+827,Welsh,carnedd,carnasiwn,welsh-regen
+828,Welsh,hyacinth,hiasinth,welsh-regen
+829,Welsh,crysanthemum,chrysanthemwm,welsh-regen
+831,Welsh,cennin,cennin Pedr,welsh-regen
+832,Welsh,anemon,anemoni,welsh-regen
+833,Welsh,ngherod,peoni,welsh-regen
+834,Welsh,dahlia,dalia,welsh-regen
+835,Welsh,marigold,melyn Mair,welsh-regen
+836,Welsh,buttercup,blodyn menyn,welsh-regen
+837,Welsh,azelea,asalea,welsh-regen
+838,Welsh,ngeraniwm,mynawyd y bugail,welsh-regen
+839,Welsh,delphinium,delffiniwm,welsh-regen
+843,Welsh,camellia,camelïa,welsh-regen
+845,Welsh,snapdragon,ceg y llew,welsh-regen
+846,Welsh,hibiscws,hibisgws,welsh-regen
+849,Welsh,nghamri,camri,welsh-regen
+850,Welsh,blodyn,blodyn yr haul,welsh-regen
+851,Welsh,gorsen,corsen,welsh-regen
+852,Welsh,gactws,cactws,welsh-regen
+853,Welsh,nerthol,drain,welsh-regen
+854,Welsh,helyg,helygen,welsh-regen
+855,Welsh,aspen,aethnen,welsh-regen
+856,Welsh,mulberry tree,mwyarwydden,welsh-regen
+857,Welsh,dihoeni,pinwydden,welsh-regen
+858,Welsh,locust tree,acasia,welsh-regen
+859,Welsh,camffor camphor,camfforwydden,welsh-regen
+861,Welsh,fedydd,bedwen,welsh-regen
+862,Welsh,dderw,derwen,welsh-regen
+863,Welsh,palmwydd,palmwydden,welsh-regen
+864,Welsh,sycamores,sycamorwydden,welsh-regen
+868,Welsh,masarn,masarnen,welsh-regen
+869,Welsh,banyan,banian,welsh-regen
+870,Welsh,ffynidydd,ffynidwydden,welsh-regen
+871,Welsh,gwinwydd,gwinwydden,welsh-regen
+872,Welsh,nglaswellt,glaswellt,welsh-regen
+873,Welsh,hefel,gwellt,welsh-regen
+874,Welsh,berlysiau,llysieuyn,welsh-regen
+876,Welsh,blingiff,croen,welsh-regen
+877,Welsh,chig,cig,welsh-regen
+878,Welsh,waed,gwaed,welsh-regen
+880,Welsh,sgerbydau,sgerbwd,welsh-regen
+884,Welsh,oelid,olew,welsh-regen
+888,Welsh,odrem,llaeth,welsh-regen
+891,Welsh,hufennaf,hufen,welsh-regen
+892,Welsh,hufen ia,hufen iâ,welsh-regen
+893,Welsh,gaws,caws,welsh-regen
+896,Welsh,barmesan,parmesan,welsh-regen
+897,Welsh,gnau,cneuen,welsh-regen
+898,Welsh,nghlasur,cneuen Ffrengig,welsh-regen
+899,Welsh,cnau daear,cneuen ddaear,welsh-regen
+900,Welsh,chicni,castan,welsh-regen
+902,Welsh,pistachio,pistasio,welsh-regen
+903,Welsh,cashew,cashiw,welsh-regen
+904,Welsh,acorn,mesen,welsh-regen
+905,Welsh,nghnau,cneuen gyll,welsh-regen
+906,Welsh,ffa,ffeuen,welsh-regen
+909,Welsh,grawnfwydydd,grawnfwyd,welsh-regen
+913,Welsh,toesau,toes,welsh-regen
+915,Welsh,cramen,crwst,welsh-regen
+916,Welsh,nwdls,nwdlen,welsh-regen
+917,Welsh,gawl,cawl,welsh-regen
+922,Welsh,golosg,coca-cola,welsh-regen
+925,Welsh,diodydd,diod,welsh-regen
+931,Welsh,coctels,coctel,welsh-regen
+934,Welsh,saws soî,saws soi,welsh-regen
+935,Welsh,picla ’,picl,welsh-regen
+937,Welsh,buprom,pupur,welsh-regen
+938,Welsh,chili,tsili,welsh-regen
+939,Welsh,nghyri,cyri,welsh-regen
+944,Welsh,fasil,basil,welsh-regen
+945,Welsh,cwcis,bisgeden,welsh-regen
+946,Welsh,chocolig,siocled,welsh-regen
+947,Welsh,candy,losin,welsh-regen
+949,Welsh,bwdin,pwdin,welsh-regen
+950,Welsh,cacennau,cacen,welsh-regen
+951,Welsh,chawsyn,cacen gaws,welsh-regen
+955,Welsh,fêl,mêl,welsh-regen
+956,Welsh,siwgrom,siwgr,welsh-regen
+960,Welsh,fforchi,fforc,welsh-regen
+961,Welsh,blatian,plât,welsh-regen
+962,Welsh,fowliant,powlen,welsh-regen
+963,Welsh,cwpanwch,cwpan,welsh-regen
+964,Welsh,gostrelest,potel,welsh-regen
+965,Welsh,photid,pot,welsh-regen
+967,Welsh,chorn,corn,welsh-regen
+972,Welsh,wallt,gwallt,welsh-regen
+973,Welsh,farfau,barf,welsh-regen
+974,Welsh,peniwyd,pen,welsh-regen
+975,Welsh,hwynebai,wyneb,welsh-regen
+977,Welsh,lygadon,llygad,welsh-regen
+979,Welsh,disgyblion,cannwyll y llygad,welsh-regen
+980,Welsh,drylliais,deigryn,welsh-regen
+982,Welsh,snigi,trwynllys,welsh-regen
+984,Welsh,gwefusau,gwefus,welsh-regen
+986,Welsh,tafodes,tafod,welsh-regen
+987,Welsh,nghoesau,aelod,welsh-regen
+988,Welsh,bysedd,bys,welsh-regen
+989,Welsh,bysedd,ewin,welsh-regen
+993,Welsh,coesau,coes,welsh-regen
+994,Welsh,clun,morddwyd,welsh-regen
+995,Welsh,ben -glin,pen-glin,welsh-regen
+996,Welsh,gymalau,cymal,welsh-regen
+997,Welsh,nwylo,llaw,welsh-regen
+998,Welsh,gledr,cledr,welsh-regen
+1000,Welsh,harfoga ’,braich,welsh-regen
+1002,Welsh,boliau,bol,welsh-regen
+1004,Welsh,berfedd,perfedd,welsh-regen
+1006,Welsh,baciwn,cefn,welsh-regen
+1007,Welsh,fron,bron,welsh-regen
+1008,Welsh,ngwasg,canol,welsh-regen
+1009,Welsh,glun,clun,welsh-regen
+1010,Welsh,gesail,cesail,welsh-regen
+1011,Welsh,bochau,boch,welsh-regen
+1012,Welsh,ên,gên,welsh-regen
+1013,Welsh,ymenydd,ymennydd,welsh-regen
+1015,Welsh,iau,afu,welsh-regen
+1016,Welsh,ysgyfaint,ysgyfant,welsh-regen
+1017,Welsh,haren,aren,welsh-regen
+1019,Welsh,bledren fustl,coden y bustl,welsh-regen
+1023,Welsh,bledren,pledren,welsh-regen
+1024,Welsh,nerfau,nerf,welsh-regen
+1025,Welsh,cyhyrau,cyhyr,welsh-regen
+1026,Welsh,ngwythiennau,gwythïen,welsh-regen
+1027,Welsh,rhydwelïau,rhydweli,welsh-regen
+1028,Welsh,chwysych,chwys,welsh-regen
+1031,Welsh,fart,rhech,welsh-regen
+1032,Welsh,clefydau,clefyd,welsh-regen
+1033,Welsh,doluriff,poen,welsh-regen
+1034,Welsh,meddygaeth,meddyginiaeth,welsh-regen
+1035,Welsh,gwenwynwch,gwenwyn,welsh-regen
+1036,Welsh,gorff,corff,welsh-regen
+1037,Welsh,bywydau,bywyd,welsh-regen
+1041,Welsh,machod,haul,welsh-regen
+1043,Welsh,sêr,seren,welsh-regen
+1044,Welsh,aeria ’,aer,welsh-regen
+1045,Welsh,dyfrhaoch,dŵr,welsh-regen
+1046,Welsh,chwifi,ton,welsh-regen
+1047,Welsh,trobyllau,trobwll,welsh-regen
+1048,Welsh,byrlymwyf,swigen,welsh-regen
+1049,Welsh,ewynnent,ewyn,welsh-regen
+1050,Welsh,glawi,glaw,welsh-regen
+1051,Welsh,gwlithiff,gwlith,welsh-regen
+1052,Welsh,henfys,enfys,welsh-regen
+1053,Welsh,afonydd,afon,welsh-regen
+1054,Welsh,llynedd,llyn,welsh-regen
+1056,Welsh,draeth,traeth,welsh-regen
+1057,Welsh,riffiwyd,riff,welsh-regen
+1063,Welsh,daear,pridd,welsh-regen
+1066,Welsh,taranant,taran,welsh-regen
+1071,Welsh,fwri,eira,welsh-regen
+1072,Welsh,heision,iâ,welsh-regen
+1073,Welsh,rew,rhew,welsh-regen
+1074,Welsh,chenffyrdd,cenllysg,welsh-regen
+1075,Welsh,ysmygiff,mwg,welsh-regen
+1076,Welsh,thanion,tân,welsh-regen
+1077,Welsh,ludw,lludw,welsh-regen
+1080,Welsh,lletha,cors,welsh-regen
+1081,Welsh,dirion,tir,welsh-regen
+1082,Welsh,maesa ’,cae,welsh-regen
+1083,Welsh,mwyngloddia,mwynglawdd,welsh-regen
+1086,Welsh,nghynnalau,copa,welsh-regen
+1087,Welsh,clogwyni,clogwyn,welsh-regen
+1088,Welsh,cefnir,anialwch,welsh-regen
+1090,Welsh,harfordir,arfordir,welsh-regen
+1091,Welsh,darddwch,ffynnon,welsh-regen
+1093,Welsh,plas,gwastadedd,welsh-regen
+1094,Welsh,fryniau,bryn,welsh-regen
+1098,Welsh,tsunami,tswnami,welsh-regen
+1099,Welsh,daeargrynfeydd,daeargryn,welsh-regen
+1100,Welsh,orlifo,llifogydd,welsh-regen
+1101,Welsh,nhirlithriadau,tirlithriad,welsh-regen
+1102,Welsh,eirlithriadau,eirlithriad,welsh-regen
+1103,Welsh,eira,storm eira,welsh-regen
+1104,Welsh,heiliwn,eiliad,welsh-regen
+1107,Welsh,dydd,diwrnod,welsh-regen
+1112,Welsh,wythnosau,wythnos,welsh-regen
+1113,Welsh,misoedd,mis,welsh-regen
+1115,Welsh,dyddid,dyddiad,welsh-regen
+1116,Welsh,nhymor,tymor,welsh-regen
+1117,Welsh,darddwch,gwanwyn,welsh-regen
+1118,Welsh,hafotir,haf,welsh-regen
+1120,Welsh,aeafwyd,gaeaf,welsh-regen
+1121,Welsh,ngogledd,gogledd,welsh-regen
+1122,Welsh,nwyrain,dwyrain,welsh-regen
+1123,Welsh,ne,de,welsh-regen
+1124,Welsh,i'r gorllewin,gorllewin,welsh-regen
+1125,Welsh,dydd llun,dydd Llun,welsh-regen
+1126,Welsh,dydd mawrth,dydd Mawrth,welsh-regen
+1127,Welsh,dydd mercher,dydd Mercher,welsh-regen
+1128,Welsh,dydd iau,dydd Iau,welsh-regen
+1129,Welsh,dydd gwener,dydd Gwener,welsh-regen
+1130,Welsh,dydd sadwrn,dydd Sadwrn,welsh-regen
+1131,Welsh,sul,dydd Sul,welsh-regen
+1132,Welsh,ionawr,Ionawr,welsh-regen
+1133,Welsh,chwefror,Chwefror,welsh-regen
+1134,Welsh,orymdeithion,Mawrth,welsh-regen
+1135,Welsh,ebrill,Ebrill,welsh-regen
+1136,Welsh,mai,Mai,welsh-regen
+1137,Welsh,mehefin,Mehefin,welsh-regen
+1138,Welsh,ngorffennaf,Gorffennaf,welsh-regen
+1139,Welsh,awst,Awst,welsh-regen
+1140,Welsh,medi,Medi,welsh-regen
+1141,Welsh,hydref,Hydref,welsh-regen
+1142,Welsh,nhachwedd,Tachwedd,welsh-regen
+1143,Welsh,rhagfyr,Rhagfyr,welsh-regen
+1144,Welsh,henynni,golau,welsh-regen
+1145,Welsh,felltennaf,fflach,welsh-regen
+1146,Welsh,nghysgodion,cysgod,welsh-regen
+1147,Welsh,drychau,drych,welsh-regen
+1149,Welsh,lleision,llais,welsh-regen
+1150,Welsh,materol,deunydd,welsh-regen
+1153,Welsh,rhyder,rhwd,welsh-regen
+1154,Welsh,blastig,plastig,welsh-regen
+1155,Welsh,choed,pren,welsh-regen
+1159,Welsh,ngherameg,cerameg,welsh-regen
+1161,Welsh,harian,arian,welsh-regen
+1162,Welsh,gopr,copr,welsh-regen
+1163,Welsh,smwddiant,haearn,welsh-regen
+1164,Welsh,ddur,dur,welsh-regen
+1166,Welsh,drysora ’,trysor,welsh-regen
+1167,Welsh,thlysau,gem,welsh-regen
+1168,Welsh,jade,jâd,welsh-regen
+1172,Welsh,wlân,gwlân,welsh-regen
+1175,Welsh,ddillad,dillad,welsh-regen
+1176,Welsh,bwerau,grym,welsh-regen
+1179,Welsh,harfau,arf,welsh-regen
+1181,Welsh,foch,bwa,welsh-regen
+1182,Welsh,gwaywffyn,gwaywffon,welsh-regen
+1183,Welsh,gleddyfau,cleddyf,welsh-regen
+1184,Welsh,hechel,bwyell,welsh-regen
+1185,Welsh,llifiant,llif,welsh-regen
+1186,Welsh,bachent,bachyn,welsh-regen
+1187,Welsh,gefynnaf,gefyn,welsh-regen
+1188,Welsh,rhaffith,rhaff,welsh-regen
+1189,Welsh,gadwynem,cadwyn,welsh-regen
+1190,Welsh,fflangellon,chwip,welsh-regen
+1191,Welsh,slingshot,catapwlt,welsh-regen
+1192,Welsh,myrthyla ’,morthwyl,welsh-regen
+1193,Welsh,rhaca,cribin,welsh-regen
+1194,Welsh,trapith,trap,welsh-regen
+1195,Welsh,hamddiffyn,tarian,welsh-regen
+1196,Welsh,ngwarnau,gwn,welsh-regen
+1197,Welsh,bomia ’,bom,welsh-regen
+1199,Welsh,ngorchuddiadau,clorian,welsh-regen
+1200,Welsh,ngheage,cawell,welsh-regen
+1201,Welsh,barilith,casgen,welsh-regen
+1203,Welsh,hofi,hof,welsh-regen
+1204,Welsh,rofied,rhaw,welsh-regen
+1205,Welsh,chryman,cryman,welsh-regen
+1207,Welsh,meliniff,melin,welsh-regen
+1208,Welsh,mhestl,pestl,welsh-regen
+1210,Welsh,lwch,rhaw lwch,welsh-regen
+1211,Welsh,golynnes,colyn,welsh-regen
+1212,Welsh,werthyd,gwerthyd,welsh-regen
+1214,Welsh,ffibrau,ffibr,welsh-regen
+1216,Welsh,cam -drodd,ystof,welsh-regen
+1217,Welsh,wefl,anwe,welsh-regen
+1219,Welsh,alwai,enw,welsh-regen
+1220,Welsh,nghartrefi,cartref,welsh-regen
+1223,Welsh,felyll,wal,welsh-regen
+1226,Welsh,ffenestri,ffenestr,welsh-regen
+1228,Welsh,toesent,to,welsh-regen
+1231,Welsh,garddiff,gardd,welsh-regen
+1233,Welsh,chleddyfa ’,ffens,welsh-regen
+1234,Welsh,toiledau,tŷ bach,welsh-regen
+1235,Welsh,ymolchi,ystafell ymolchi,welsh-regen
+1236,Welsh,welyau,ystafell wely,welsh-regen
+1237,Welsh,hastudiaf,ystafell astudio,welsh-regen
+1240,Welsh,nghegin,cegin,welsh-regen
+1241,Welsh,thapion,tap,welsh-regen
+1242,Welsh,byrddau,planc,welsh-regen
+1243,Welsh,silffoedd,silff,welsh-regen
+1245,Welsh,sothach,sbwriel,welsh-regen
+1246,Welsh,meinciau,bin sbwriel,welsh-regen
+1247,Welsh,meithrinfeydd,meithrinfa,welsh-regen
+1248,Welsh,gylchen,cylch,welsh-regen
+1250,Welsh,ysgolion,ysgol,welsh-regen
+1251,Welsh,fainc,mainc,welsh-regen
+1252,Welsh,barion,bar,welsh-regen
+1254,Welsh,falŵn,balŵn,welsh-regen
+1255,Welsh,lithret,llithren,welsh-regen
+1256,Welsh,grymanaf,siglen,welsh-regen
+1258,Welsh,llawen-go-o gwmpas,carwsél,welsh-regen
+1259,Welsh,thwneler,twnnel,welsh-regen
+1261,Welsh,dywod,pwll tywod,welsh-regen
+1263,Welsh,pypedau,pyped,welsh-regen
+1264,Welsh,dolen,dol,welsh-regen
+1265,Welsh,falconi,balconi,welsh-regen
+1268,Welsh,garejys,garej,welsh-regen
+1269,Welsh,gar,car,welsh-regen
+1270,Welsh,chartiff,cert,welsh-regen
+1271,Welsh,cart siopa,troli siopa,welsh-regen
+1272,Welsh,olwynith,olwyn,welsh-regen
+1273,Welsh,hyffordder,trên,welsh-regen
+1274,Welsh,lyfnhao,awyren,welsh-regen
+1275,Welsh,tryciau,lori,welsh-regen
+1276,Welsh,seicla ’,beic,welsh-regen
+1277,Welsh,fysith,bws,welsh-regen
+1278,Welsh,cychod,cwch,welsh-regen
+1279,Welsh,llongau,llong,welsh-regen
+1280,Welsh,ddiffygion,teiar,welsh-regen
+1281,Welsh,gasolîn,petrol,welsh-regen
+1282,Welsh,pheiriant,injan,welsh-regen
+1283,Welsh,beiriant,peiriant,welsh-regen
+1285,Welsh,nhocynnau,tocyn,welsh-regen
+1286,Welsh,cludiadau,cludiant,welsh-regen
+1287,Welsh,ddrws,drws,welsh-regen
+1289,Welsh,gadeiri,cadair,welsh-regen
+1290,Welsh,wely,gwely,welsh-regen
+1291,Welsh,wely,cynfas,welsh-regen
+1294,Welsh,clustogau,clustog,welsh-regen
+1295,Welsh,gwpwrdd dillad,cwpwrdd dillad,welsh-regen
+1296,Welsh,closet,cwpwrdd,welsh-regen
+1299,Welsh,ganhwyllau,cannwyll,welsh-regen
+1300,Welsh,fflachlampau,tortsh,welsh-regen
+1303,Welsh,gloiff,clo,welsh-regen
+1305,Welsh,chribon,crib,welsh-regen
+1307,Welsh,piniff,pin,welsh-regen
+1308,Welsh,edafeddon,edau,welsh-regen
+1309,Welsh,hweiriwn,gwifren,welsh-regen
+1310,Welsh,fagia ’,bag,welsh-regen
+1311,Welsh,bocsiwyd,blwch,welsh-regen
+1312,Welsh,fasged,basged,welsh-regen
+1313,Welsh,we,rhwyd,welsh-regen
+1314,Welsh,gerdyn,cerdyn,welsh-regen
+1315,Welsh,ganir,modrwy,welsh-regen
+1316,Welsh,eyeglasses,sbectol,welsh-regen
+1318,Welsh,rhoddion,anrheg,welsh-regen
+1320,Welsh,eirion,gair,welsh-regen
+1321,Welsh,lythyrau,llythyren,welsh-regen
+1322,Welsh,bapurent,papur,welsh-regen
+1323,Welsh,fwciais,llyfr,welsh-regen
+1325,Welsh,rhathellem,ffeil,welsh-regen
+1326,Welsh,ngeiriadur,geiriadur,welsh-regen
+1327,Welsh,phensil,pensil,welsh-regen
+1328,Welsh,llociwch,beiro,welsh-regen
+1329,Welsh,frwsio,brwsh,welsh-regen
+1331,Welsh,lythyrau,llythyr,welsh-regen
+1332,Welsh,stampio,stamp post,welsh-regen
+1333,Welsh,phostiwr,cerdyn post,welsh-regen
+1335,Welsh,beintiwch,paent,welsh-regen
+1337,Welsh,fframiau,ffrâm,welsh-regen
+1338,Welsh,thynasant,ffotograff,welsh-regen
+1339,Welsh,fapiwyd,map,welsh-regen
+1340,Welsh,restraf,rhestr,welsh-regen
+1341,Welsh,bwrdd,tabl,welsh-regen
+1342,Welsh,siartiwyd,siart,welsh-regen
+1343,Welsh,galendr,calendr,welsh-regen
+1345,Welsh,nghwmpawdau,cwmpawd,welsh-regen
+1346,Welsh,rheolwr,pren mesur,welsh-regen
+1347,Welsh,teganau,tegan,welsh-regen
+1348,Welsh,clocied,cloc,welsh-regen
+1352,Welsh,alwa ’,ffôn,welsh-regen
+1354,Welsh,gyfrifiaduron,cyfrifiadur,welsh-regen
+1355,Welsh,gliniaduron,gliniadur,welsh-regen
+1356,Welsh,rhaglenna ’,rhaglen,welsh-regen
+1357,Welsh,rhwydweithiwyd,rhwydwaith,welsh-regen
+1359,Welsh,aerdymherydd,cyflyrydd aer,welsh-regen
+1362,Welsh,fforynnau,popty,welsh-regen
+1364,Welsh,meicrodon,microdon,welsh-regen
+1365,Welsh,raswyr,rasel,welsh-regen
+1367,Welsh,naddu,sglodyn,welsh-regen
+1368,Welsh,sgriniwyd,sgrin,welsh-regen
+1371,Welsh,argraffwyr,argraffydd,welsh-regen
+1372,Welsh,clustffonau,clustffon,welsh-regen
+1375,Welsh,offerynnau,offeryn cerdd,welsh-regen
+1376,Welsh,nghyngerdd,cyngerdd,welsh-regen
+1378,Welsh,cherddorfa,cerddorfa,welsh-regen
+1380,Welsh,alawon,alaw,welsh-regen
+1382,Welsh,hodlaf,odl,welsh-regen
+1383,Welsh,geiriau,geiriau cân,welsh-regen
+1387,Welsh,blues,blŵs,welsh-regen
+1389,Welsh,rocid,roc,welsh-regen
+1390,Welsh,chorn,corn,welsh-regen
+1392,Welsh,saxofone,sacsoffon,welsh-regen
+1393,Welsh,nhiwba,tiwba,welsh-regen
+1394,Welsh,drymia ’,drwm,welsh-regen
+1398,Welsh,phiano,piano,welsh-regen
+1399,Welsh,organau,organ,welsh-regen
+1400,Welsh,moch,llinyn,welsh-regen
+1402,Welsh,tiwniwyd,chwiban,welsh-regen
+1407,Welsh,trinia ’,ffrog,welsh-regen
+1408,Welsh,thrawem,siwt,welsh-regen
+1412,Welsh,t-grys-t,crys-T,welsh-regen
+1414,Welsh,phedolwch,esgid,welsh-regen
+1416,Welsh,poceden,poced,welsh-regen
+1417,Welsh,gaenen,cot,welsh-regen
+1418,Welsh,staeniant,staen,welsh-regen
+1422,Welsh,rasiff,ras,welsh-regen
+1423,Welsh,nhîm,tîm,welsh-regen
+1424,Welsh,hymarferion,ymarfer,welsh-regen
+1425,Welsh,bêl -fasged,pêl-fasged,welsh-regen
+1426,Welsh,bêl -droed,pêl-droed,welsh-regen
+1427,Welsh,fasball,pêl-fas,welsh-regen
+1428,Welsh,bêl -foli,pêl-foli,welsh-regen
+1430,Welsh,nhenis,tenis,welsh-regen
+1433,Welsh,ngherddoriaeth,cerddoriaeth,welsh-regen
+1434,Welsh,chelf,celf,welsh-regen
+1436,Welsh,rhyw,rhywedd,welsh-regen
+1437,Welsh,rasiff,hil,welsh-regen
+1438,Welsh,rhifen,rhif,welsh-regen
+1439,Welsh,chyfartaleddwch,cyfartaledd,welsh-regen
+1443,Welsh,gwastatáu,lefel,welsh-regen
+1444,Welsh,haenen,haen,welsh-regen
+1445,Welsh,batrymwn,patrwm,welsh-regen
+1448,Welsh,hadnabyddent,smotyn,welsh-regen
+1449,Welsh,theipia ’,math,welsh-regen
+1450,Welsh,grwpiau,grŵp,welsh-regen
+1451,Welsh,deyrnaswch,rheol,welsh-regen
+1453,Welsh,nhechnolegau,technoleg,welsh-regen
+1454,Welsh,etholiadau,etholiad,welsh-regen
+1455,Welsh,gylchgrawn,cylchgrawn,welsh-regen
+1456,Welsh,newyddbapur,papur newydd,welsh-regen
+1457,Welsh,phris,pris,welsh-regen
+1458,Welsh,chyfamodasoch,contract,welsh-regen
+1459,Welsh,arwydden,arwydd,welsh-regen
+1461,Welsh,nelwedd,delwedd,welsh-regen
+1462,Welsh,ngwyddoniaeth,gwyddoniaeth,welsh-regen
+1463,Welsh,harchebon,trefn,welsh-regen
+1468,Welsh,labyrinth,drysfa,welsh-regen
+1469,Welsh,chrefydd,crefydd,welsh-regen
+1478,Welsh,ysbrydion,ysbryd,welsh-regen
+1480,Welsh,deddfau,cyfraith,welsh-regen
+1481,Welsh,media,cyfryngau,welsh-regen
+1483,Welsh,ngwybodaeth,gwybodaeth,welsh-regen
+1484,Welsh,golygfa,barn,welsh-regen
+1485,Welsh,newisiadau,ffafriaeth,welsh-regen
+1486,Welsh,bias,rhagfarn,welsh-regen
+1487,Welsh,hymdrechion,ymdrech,welsh-regen
+1489,Welsh,phrofai,profiad,welsh-regen
+1490,Welsh,edifarhaer,edifeirwch,welsh-regen
+1494,Welsh,gyd -ddigwyddiadau,cyd-ddigwyddiad,welsh-regen
+1495,Welsh,chaych,cyfle,welsh-regen
+1497,Welsh,theori,damcaniaeth,welsh-regen
+1498,Welsh,baradocs,paradocs,welsh-regen
+1500,Welsh,arbrofi,arbrawf,welsh-regen
+1501,Welsh,fodelith,model,welsh-regen
+1502,Welsh,berfformiad,perfformiad,welsh-regen
+1504,Welsh,bara ’,achos,welsh-regen
+1505,Welsh,hachosem,effaith,welsh-regen
+1506,Welsh,thystiolaeth,tystiolaeth,welsh-regen
+1507,Welsh,gyfnodau,cyfnod,welsh-regen
+1508,Welsh,phrosesu,proses,welsh-regen
+1509,Welsh,symudaf,cynnydd,welsh-regen
+1510,Welsh,terfyna ’,diwedd,welsh-regen
+1511,Welsh,nodau,nod,welsh-regen
+1512,Welsh,safonol,safon,welsh-regen
+1513,Welsh,noethion,syniad,welsh-regen
+1514,Welsh,ngwybodaeth,gwybodaeth,welsh-regen
+1515,Welsh,manylid,manylyn,welsh-regen
+1517,Welsh,olrheinion,ôl,welsh-regen
+1518,Welsh,hesiamol,enghraifft,welsh-regen
+1519,Welsh,achosion,achos,welsh-regen
+1520,Welsh,gwerthfawrogom,gwerth,welsh-regen
+1522,Welsh,harian,arian,welsh-regen
+1523,Welsh,gyfoeth,cyfoeth,welsh-regen
+1525,Welsh,gymdeithasau,cymdeithas,welsh-regen
+1531,Welsh,chemeg,cemeg,welsh-regen
+1533,Welsh,ddiwylliant,diwylliant,welsh-regen
+1534,Welsh,wleidyddiaeth,gwleidyddiaeth,welsh-regen
+1536,Welsh,cyllido,cyllid,welsh-regen
+1539,Welsh,nghwmnïau,cwmni,welsh-regen
+1540,Welsh,niwydiant,diwydiant,welsh-regen
+1542,Welsh,swyddi,swydd,welsh-regen
+1543,Welsh,gyfrifoldeb,cyfrifoldeb,welsh-regen
+1545,Welsh,foesoldeb,moesoldeb,welsh-regen
+1549,Welsh,gyflwyno,presennol,welsh-regen
+1552,Welsh,hardaloedd,ardal,welsh-regen
+1553,Welsh,trefi,tref,welsh-regen
+1554,Welsh,adeiladau,adeilad,welsh-regen
+1555,Welsh,nhraciau,trawst,welsh-regen
+1556,Welsh,colofnau,colofn,welsh-regen
+1557,Welsh,beipiwyd,pibell,welsh-regen
+1558,Welsh,risiau,grisiau,welsh-regen
+1562,Welsh,mhalas,palas,welsh-regen
+1563,Welsh,castella ’,castell,welsh-regen
+1564,Welsh,chaer,caer,welsh-regen
+1566,Welsh,cromennaf,cromen,welsh-regen
+1568,Welsh,twrau,tŵr,welsh-regen
+1569,Welsh,clochen,cloestr,welsh-regen
+1570,Welsh,croesiff,croes,welsh-regen
+1571,Welsh,briciwyd,bricsen,welsh-regen
+1573,Welsh,ngoleudy,goleudy,welsh-regen
+1575,Welsh,hwtyn,cwt,welsh-regen
+1578,Welsh,nhafarnau,tafarn,welsh-regen
+1579,Welsh,caban log,caban boncyffion,welsh-regen
+1580,Welsh,skyscraper,crafwr awyr,welsh-regen
+1583,Welsh,henebion,cofeb,welsh-regen
+1585,Welsh,phonti,pont,welsh-regen
+1587,Welsh,haddysgo,ysgol,welsh-regen
+1589,Welsh,farchnad,marchnad,welsh-regen
+1590,Welsh,siopa ’,siop,welsh-regen
+1591,Welsh,westy,gwesty,welsh-regen
+1593,Welsh,parcied,parc,welsh-regen
+1595,Welsh,swyddi,swyddfa,welsh-regen
+1596,Welsh,ffermid,fferm,welsh-regen
+1597,Welsh,wersylla ’,gwersyll,welsh-regen
+1599,Welsh,llwyfannent,llwyfan,welsh-regen
+1600,Welsh,gynulleidfa,cynulleidfa,welsh-regen
+1602,Welsh,chwarae,drama,welsh-regen
+1603,Welsh,sgriptiwyd,sgript,welsh-regen
+1604,Welsh,lyfrgell,llyfrgell,welsh-regen
+1605,Welsh,nheml,teml,welsh-regen
+1606,Welsh,eglwysi,eglwys,welsh-regen
+1607,Welsh,canlynet,llys,welsh-regen
+1608,Welsh,charchar,carchar,welsh-regen
+1610,Welsh,llofruddia ’,llofruddiaeth,welsh-regen
+1612,Welsh,fanciff,banc,welsh-regen
+1613,Welsh,ngwlad,gwlad,welsh-regen
+1616,Welsh,thywysog,tywysog,welsh-regen
+1617,Welsh,nhywysoges,tywysoges,welsh-regen
+1618,Welsh,llywydd,arlywydd,welsh-regen
+1619,Welsh,gymydog,cymydog,welsh-regen
+1621,Welsh,elynion,gelyn,welsh-regen
+1622,Welsh,ddoctoroch,meddyg,welsh-regen
+1623,Welsh,bensaer,pensaer,welsh-regen
+1626,Welsh,gadeiryddion,cadeirydd,welsh-regen
+1627,Welsh,barnest,barnwr,welsh-regen
+1629,Welsh,gyfrifydd,cyfrifydd,welsh-regen
+1630,Welsh,athrawes,athro,welsh-regen
+1632,Welsh,raglennydd,rhaglennydd,welsh-regen
+1633,Welsh,wleidydd,gwleidydd,welsh-regen
+1634,Welsh,deintyddion,deintydd,welsh-regen
+1636,Welsh,chynorthwywyr,cynorthwyydd,welsh-regen
+1638,Welsh,manteisiol,intern,welsh-regen
+1639,Welsh,lyfrgellydd,llyfrgellydd,welsh-regen
+1641,Welsh,ffermwyr,ffermwr,welsh-regen
+1644,Welsh,bwtsierid,cigydd,welsh-regen
+1648,Welsh,blymwyr,plymwr,welsh-regen
+1653,Welsh,blismyn,plismon,welsh-regen
+1655,Welsh,nyrsio,nyrs,welsh-regen
+1656,Welsh,lywia ’,peilot,welsh-regen
+1658,Welsh,fydwraig,bydwraig,welsh-regen
+1659,Welsh,goginia ’,cogydd,welsh-regen
+1660,Welsh,gweinyddwyr,gweinydd,welsh-regen
+1661,Welsh,theilwra ’,teiliwr,welsh-regen
+1662,Welsh,diurddych,ariannwr,welsh-regen
+1663,Welsh,nerbynnydd,derbynnydd,welsh-regen
+1667,Welsh,corff -warchodwr,gwarchodwr,welsh-regen
+1668,Welsh,offeiriaid,offeiriad,welsh-regen
+1670,Welsh,dyfarner,dyfarnwr,welsh-regen
+1671,Welsh,ohebwyr,gohebydd,welsh-regen
+1673,Welsh,ddawnswyr,dawnsiwr,welsh-regen
+1674,Welsh,het,ymyl,welsh-regen
+1675,Welsh,gornela ’,cornel,welsh-regen
+1676,Welsh,nghanolfan,canol,welsh-regen
+1677,Welsh,phwyntia ’,pwynt,welsh-regen
+1678,Welsh,leinia,llinell,welsh-regen
+1680,Welsh,wyneb,arwyneb,welsh-regen
+1681,Welsh,siapid,siâp,welsh-regen
+1682,Welsh,cylchred,cylch,welsh-regen
+1684,Welsh,sgwariant,sgwâr,welsh-regen
+1685,Welsh,betryal,petryal,welsh-regen
+1686,Welsh,phelen,pêl,welsh-regen
+1687,Welsh,lwmp,talp,welsh-regen
+1688,Welsh,chiwbion,ciwb,welsh-regen
+1689,Welsh,clymant,cwlwm,welsh-regen
+1690,Welsh,hamser,amser,welsh-regen
+1691,Welsh,rhoesit,lle,welsh-regen
+1695,Welsh,mhwysedd,pwysau,welsh-regen
+1696,Welsh,nghyfrol,cyfaint,welsh-regen
+1700,Welsh,ddwysedd,dwysedd,welsh-regen
+1703,Welsh,bellaf,pellter,welsh-regen
+1705,Welsh,thirion,daear,welsh-regen
+1706,Welsh,lafariad,baich,welsh-regen
+1707,Welsh,strwythuro,strwythur,welsh-regen
+1710,Welsh,goryrru,buanedd,welsh-regen
+1711,Welsh,chyflymder,cyflymder,welsh-regen
+1712,Welsh,nghyfeiriadau,cyfeiriad,welsh-regen
+1715,Welsh,orfoded,grym,welsh-regen
+1716,Welsh,gwrthdrawiadau,gwrthdrawiad,welsh-regen
+1718,Welsh,syrthiau,syrthni,welsh-regen
+1720,Welsh,ysgogiadau,ysgogiad,welsh-regen
+1721,Welsh,mhwysedd,gwasgedd,welsh-regen
+1723,Welsh,ronynnau,gronyn,welsh-regen
+1724,Welsh,atomau,atom,welsh-regen
+1725,Welsh,drydan,trydan,welsh-regen
+1727,Welsh,pelydr,pelydryn,welsh-regen
+1728,Welsh,nhelesgop,telesgop,welsh-regen
+1731,Welsh,nebyla,nifwl,welsh-regen
+1732,Welsh,ngalaxy,galaeth,welsh-regen
+1737,Welsh,gomed,comed,welsh-regen
+1738,Welsh,grater,crater,welsh-regen
+1739,Welsh,system solar,cysawd yr haul,welsh-regen
+1740,Welsh,heclips,eclips,welsh-regen
+1742,Welsh,wawrion,gwawr,welsh-regen
+1743,Welsh,nwyaid,cyfnos,welsh-regen
+1744,Welsh,nghyfnodau,cyfnod,welsh-regen
+1745,Welsh,zodiac,sidydd,welsh-regen
+1746,Welsh,mercwri,Mercwri,welsh-regen
+1747,Welsh,fenws,Gwener,welsh-regen
+1748,Welsh,phriddith,Daear,welsh-regen
+1750,Welsh,fantell,mantell,welsh-regen
+1752,Welsh,mars,Mawrth,welsh-regen
+1753,Welsh,iau,Iau,welsh-regen
+1754,Welsh,saturn,Sadwrn,welsh-regen
+1755,Welsh,wranws,Wranws,welsh-regen
+1756,Welsh,neptune,Neifion,welsh-regen
+1757,Welsh,pluto,Plwton,welsh-regen
+1758,Welsh,gania ’,gallu,welsh-regen
+1759,Welsh,angen,rhaid,welsh-regen
+1760,Welsh,ni,dylu,welsh-regen
+1761,Welsh,at,wrth,welsh-regen
+1763,Welsh,ymlaen,ar,welsh-regen
+1764,Welsh,oddi wrth,o,welsh-regen
+1765,Welsh,ato,i,welsh-regen
+1767,Welsh,er,ers,welsh-regen
+1769,Welsh,hefar,i fyny,welsh-regen
+1771,Welsh,blaengar,ymlaen,welsh-regen
+1772,Welsh,tuag,yn ôl,welsh-regen
+1773,Welsh,chwith,i'r chwith,welsh-regen
+1774,Welsh,dde,i'r dde,welsh-regen
+1776,Welsh,erwydd,allan,welsh-regen
+1777,Welsh,uwchlaw,uwchben,welsh-regen
+1778,Welsh,isod,islaw,welsh-regen
+1780,Welsh,ôl,y tu ôl i,welsh-regen
+1781,Welsh,brigant,brig,welsh-regen
+1782,Welsh,waelod,gwaelod,welsh-regen
+1783,Welsh,ffrynt,blaen,welsh-regen
+1784,Welsh,feithrina ’,cefn,welsh-regen
+1786,Welsh,dde,de,welsh-regen
+1787,Welsh,y tu mewn,tu mewn,welsh-regen
+1788,Welsh,y tu allan,tu allan,welsh-regen
+1794,Welsh,yn ymwneud,ynghylch,welsh-regen
+1797,Welsh,er,er bod,welsh-regen
+1800,Welsh,achos,oherwydd,welsh-regen
+1802,Welsh,dros,er mwyn,welsh-regen
+1804,Welsh,eithrio,heblaw,welsh-regen
+1807,Welsh,pryd,pan,welsh-regen
+1809,Welsh,gyfiawn,newydd,welsh-regen
+1812,Welsh,llonyddaf,o hyd,welsh-regen
+1814,Welsh,wreiddiol,yn wreiddiol,welsh-regen
+1815,Welsh,olaf,yn olaf,welsh-regen
+1817,Welsh,raddau,yn raddol,welsh-regen
+1818,Welsh,wedi,ar ôl,welsh-regen
+1823,Welsh,aml,yn aml,welsh-regen
+1826,Welsh,trwy'r amser,drwy'r amser,welsh-regen
+1829,Welsh,yna,wedyn,welsh-regen
+1830,Welsh,eich gilydd,ei gilydd,welsh-regen
+1831,Welsh,gyda'n gilydd,gyda'i gilydd,welsh-regen
+1833,Welsh,sicr,wrth gwrs,welsh-regen
+1836,Welsh,rhywfaint,braidd,welsh-regen
+1839,Welsh,hefyd,rhy,welsh-regen
+1842,Welsh,gyfiawn,dim ond,welsh-regen
+1844,Welsh,mewn gwirionedd,wir,welsh-regen
