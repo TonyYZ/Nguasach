@@ -1,0 +1,5076 @@
+concept_id,column,old,new,source
+7,Arabic,نظر,اِنْتَظَرَ,vocalize
+7,Hebrew,חכה,חַכֵּה,vocalize
+24,Arabic,لتعليم,عَلَّمَ,vocalize
+24,Hebrew,ללמד,לְלַמֵּד,vocalize
+25,Arabic,لتكرار,كَرَّرَ,vocalize
+25,Hebrew,לחזור,לַחֲזֹר,vocalize
+26,Arabic,لتستعمل فى,اِعْتَادَ عَلَى,vocalize
+26,Hebrew,להיות רגיל ל,לִהְיוֹת רָגִיל ל,vocalize
+27,Arabic,لاستكمال,اِسْتَمَرَّ,vocalize
+27,Hebrew,להמשיך,לְהַמְשִׁיךְ,vocalize
+54,Arabic,للاستحمام,لِلاِسْتِحْمام,vocalize
+54,Hebrew,להתקלח,לְהִתְקַלֵּחַ,vocalize
+58,Arabic,للاتصال,اِتَّصَلَ,vocalize
+58,Hebrew,להתחבר,לְהִתְחַבֵּר,vocalize
+59,Arabic,يلتصق,اِلْتَصَقَ,vocalize
+59,Hebrew,להיצמד,לְהִצָּמֵד,vocalize
+67,Arabic,لإبتلاع,بَلَعَ,vocalize
+67,Hebrew,לבלוע,לִבְלֹעַ,vocalize
+82,Arabic,غلق,أَغْلَقَ,vocalize
+82,Hebrew,סגר,סָגַר,vocalize
+90,Arabic,لدفع,دَفَعَ,vocalize
+90,Hebrew,לשלם,לְשַׁלֵּם,vocalize
+97,Arabic,ثبر,خَرَّبَ,vocalize
+97,Hebrew,הרס,הָרַס,vocalize
+114,Arabic,للانتقال,تَحَرَّكَ,vocalize
+114,Hebrew,לזוז,לָזוּז,vocalize
+115,Arabic,للتوقف,تَوَقَّفَ,vocalize
+115,Hebrew,לעצור,לַעֲצֹר,vocalize
+116,Arabic,للقيادة,قَادَ,vocalize
+116,Hebrew,לנהוג,לִנְהֹג,vocalize
+117,Arabic,للمتابعة,تَبِعَ,vocalize
+117,Hebrew,לעקוב,לַעֲקֹב,vocalize
+118,Arabic,للتذكر,تَذَكَّرَ,vocalize
+118,Hebrew,לזכור,לִזְכֹּר,vocalize
+123,Arabic,لازالة,أَزَالَ,vocalize
+123,Hebrew,כדי להסיר,כְּדֵי לְהָסִיר,vocalize
+124,Arabic,لارتفاع,زَادَ,vocalize
+124,Hebrew,להגדיל,לְהַגְדִּיל,vocalize
+125,Arabic,لتنقيص او لتقليل,نَقَصَ,vocalize
+125,Hebrew,להפחית,לְהַפְחִית,vocalize
+128,Arabic,للنزول,نَزَلَ,vocalize
+128,Hebrew,לרדת,לָרֶדֶת,vocalize
+139,Arabic,للطبخ,طَبَخَ,vocalize
+139,Hebrew,לבשל,לְבַשֵּׁל,vocalize
+142,Arabic,حتى الغليان,غَلَّى,vocalize
+142,Hebrew,להרתיח,לְהַרְתִּיחַ,vocalize
+143,Arabic,إلى الحساء,طَهَا بِبُطْءٍ,vocalize
+143,Hebrew,לתבשיל,לְבַשֵּׁל בְּאִטִּיּוּת,vocalize
+144,Arabic,إلى البخار,بَخَّرَ,vocalize
+144,Hebrew,לאדים,לְאַדּוֹת,vocalize
+147,Arabic,للتألق,لَمَعَ,vocalize
+147,Hebrew,לזרוח,לִזְרֹחַ,vocalize
+148,Arabic,للذوبان,ذَابَ,vocalize
+148,Hebrew,כדי להמס,כְּדֵי לְהָמֵס,vocalize
+151,Arabic,لكى تحب,أَحَبَّ,vocalize
+151,Hebrew,לחבב,לְחַבֵּב,vocalize
+156,Arabic,لتقبيل,قَبَّلَ,vocalize
+156,Hebrew,לנשק,לְנַשֵּׁק,vocalize
+158,Arabic,لاناش,اِنْدَفَعَ,vocalize
+158,Hebrew,לדאוף,לָרוּץ בִּמְהִירוּת,vocalize
+159,Arabic,لإطلاق النار,أَطْلَقَ النَّارَ,vocalize
+159,Hebrew,לירות,לִירוֹת,vocalize
+161,Arabic,للصيد,صَادَ,vocalize
+161,Hebrew,לצוד,לָצוּד,vocalize
+162,Arabic,لكي تؤلم,آذَى,vocalize
+162,Hebrew,לפגוע,לִפְגֹּעַ,vocalize
+163,Arabic,للهجوم,هَاجَمَ,vocalize
+163,Hebrew,לתקוף,לִתְקֹף,vocalize
+166,Arabic,خزن,خَزَنَ,vocalize
+166,Hebrew,לאחסן,לְאַחְסֵן,vocalize
+168,Arabic,لاحتواء,اِحْتَوَى عَلَى,vocalize
+168,Hebrew,להכיל,לְהָכִיל,vocalize
+169,Arabic,لكي يتضمن,شَمِلَ,vocalize
+169,Hebrew,לכלול,לִכְלֹל,vocalize
+171,Arabic,لإعلان,أَعْلَنَ,vocalize
+171,Hebrew,להכריז,לְהַכְרִיז,vocalize
+173,Arabic,للإيجار,اِسْتَأْجَرَ,vocalize
+173,Hebrew,לשכור,לִשְׂכֹּר,vocalize
+174,Arabic,للسفر,سَافَرَ,vocalize
+174,Hebrew,לטייל,לְטַיֵּל,vocalize
+176,Arabic,للهرب,هَرَبَ,vocalize
+176,Hebrew,לברוח,לִבְרֹחַ,vocalize
+177,Arabic,لتجنب,تَجَنَّبَ,vocalize
+177,Hebrew,להתחמק,לְהִתְחַמֵּק,vocalize
+178,Arabic,للتركيز,لِلتَرْكِيز,vocalize
+178,Hebrew,להתמקד,לְהִתְמַקֵּד,vocalize
+179,Arabic,للنباح,نَبَحَ,vocalize
+179,Hebrew,לנבוח,לִנְבֹּחַ,vocalize
+180,Arabic,لتعوي,عَوَى,vocalize
+180,Hebrew,ליילל,לְיַלֵּל,vocalize
+181,Arabic,للإتصال,نَادَى,vocalize
+181,Hebrew,להתקשר,לְהִתְקַשֵּׁר,vocalize
+185,Arabic,ان تصرخ,صَرَخَ,vocalize
+185,Hebrew,לצעוק,לִצְעֹק,vocalize
+186,Arabic,أن تهمس,هَمَسَ,vocalize
+186,Hebrew,ללחוש,לִלְחֹשׁ,vocalize
+187,Arabic,لبناء,بَنَى,vocalize
+187,Hebrew,לבנות,לְבָנוֹת,vocalize
+188,Arabic,لكى تحب,أَحَبَّ,vocalize
+188,Hebrew,לחבב,לְחַבֵּב,vocalize
+190,Arabic,لتعليق,عَلَّقَ,vocalize
+190,Hebrew,לתלות,לִתְלוֹת,vocalize
+191,Arabic,لوزن,وَزَنَ,vocalize
+191,Hebrew,לשקול,לִשְׁקֹל,vocalize
+192,Arabic,لقياس,قَاسَ,vocalize
+192,Hebrew,למדוד,לִמְדֹּד,vocalize
+193,Arabic,أن يتأرجح,تَأَرْجَحَ,vocalize
+193,Hebrew,להתנדנד,לְהִתְנַדְנֵד,vocalize
+194,Arabic,أن يهز,هَزَّ,vocalize
+194,Hebrew,לנער,לְנַעֵר,vocalize
+196,Arabic,للعمل,عَمِلَ,vocalize
+196,Hebrew,לעבוד,לַעֲבֹד,vocalize
+197,Arabic,للزواج,تَزَوَّجَ,vocalize
+197,Hebrew,להתחתן,לְהִתְחַתֵּן,vocalize
+198,Arabic,للصلاة,صَلَّى,vocalize
+198,Hebrew,להתפלל,לְהִתְפַּלֵּל,vocalize
+199,Arabic,للفوز,فَازَ,vocalize
+199,Hebrew,לנצח,לְנַצֵּחַ,vocalize
+201,Arabic,لخلط,خَلَطَ,vocalize
+201,Hebrew,לערבב,לְעַרְבֵּב,vocalize
+202,Arabic,للانحناء,ثَنَى,vocalize
+202,Hebrew,לכופף,לְכוֹפֵף,vocalize
+203,Arabic,لكي تطعم,أَطْعَمَ,vocalize
+203,Hebrew,להאכיל,לְהַאֲכִיל,vocalize
+204,Arabic,إلى الخلف,رَبَّى,vocalize
+204,Hebrew,לאחור,לְגַדֵּל,vocalize
+205,Arabic,لفة,دَحْرَجَ,vocalize
+205,Hebrew,לגלגל,לְגַלְגֵּל,vocalize
+206,Arabic,للانزلاق,اِنْزَلَقَ,vocalize
+206,Hebrew,להחליק,לְהַחְלִיק,vocalize
+207,Arabic,لتغطية,غَطَّى,vocalize
+207,Hebrew,לכסות,לְכַסּוֹת,vocalize
+208,Arabic,من أجل دعم,دَعَمَ,vocalize
+208,Hebrew,לתמוך,לִתְמֹךְ,vocalize
+210,Arabic,للتطور,طَوَّرَ,vocalize
+210,Hebrew,לפתח,לְפֶתַח,vocalize
+212,Arabic,أن يتقلص,اِنْكَمَشَ,vocalize
+212,Hebrew,לכווץ,לְכַוֵּץ,vocalize
+214,Arabic,للإفراج,أَطْلَقَ,vocalize
+214,Hebrew,לשחרר,לְשַׁחְרֵר,vocalize
+215,Arabic,لاستنزاف,صَرَّفَ,vocalize
+215,Hebrew,לספוג,לְנַקֵּז,vocalize
+216,Arabic,لملء,مَلَأَ,vocalize
+216,Hebrew,למלא,לְמַלֵּא,vocalize
+221,Arabic,لتوسيع,وَسَّعَ,vocalize
+221,Hebrew,להרחיב,לְהַרְחִיב,vocalize
+223,Arabic,للإشعاع,أَشَعَّ,vocalize
+223,Hebrew,להקרין,לְהַקְרִין,vocalize
+225,Arabic,لعرقلة,عَرْقَلَ,vocalize
+225,Hebrew,להכשיל,לַחְסֹם,vocalize
+230,Arabic,للتجاعيد,لِلتَجاعِيد,vocalize
+230,Hebrew,להתקמט,לְהִתְקַמֵּט,vocalize
+234,Arabic,للتآكل,تَآكَلَ,vocalize
+234,Hebrew,לשחוק,לִשְׁחֹק,vocalize
+235,Arabic,لقشر,قَشَرَ,vocalize
+235,Hebrew,לקלף,לְקַלֵּף,vocalize
+236,Arabic,لتلويث,لَوَّثَ,vocalize
+236,Hebrew,לזהם,לְזַהֵם,vocalize
+237,Arabic,التحديق,حَدَّقَ,vocalize
+237,Hebrew,לבהות,לִבְהוֹת,vocalize
+238,Arabic,لكي يعلق,تَعَامَلَ مَعَ,vocalize
+238,Hebrew,להתמודד,לְהִתְמוֹדֵד,vocalize
+239,Arabic,لترجمة,تَرْجَمَ,vocalize
+239,Hebrew,לתרגם,לְתַרְגֵּם,vocalize
+240,Arabic,لتتناسب مع,طَابَقَ,vocalize
+240,Hebrew,להתאים אליו,לְהַתְאִים אֵלָיו,vocalize
+241,Arabic,لمقارنة,قَارَنَ,vocalize
+241,Hebrew,להשוות,לְהַשְׁווֹת,vocalize
+242,Arabic,لترتيب,رَتَّبَ,vocalize
+242,Hebrew,לארגן,לְאַרְגֵּן,vocalize
+243,Arabic,لفرز,لِفَرْز,vocalize
+243,Hebrew,למיין,לְמַיֵּן,vocalize
+245,Arabic,للإستمتاع,اِسْتَمْتَعَ,vocalize
+245,Hebrew,להנות,לֵהָנוֹת,vocalize
+246,Arabic,للراحة,اِسْتَرْخَى,vocalize
+246,Hebrew,להירגע,לְהֵרָגַע,vocalize
+247,Arabic,بسرعه,أَسْرَعَ,vocalize
+247,Hebrew,למהר,לְמַהֵר,vocalize
+250,Arabic,كي تنجح,نَجَحَ,vocalize
+250,Hebrew,להצליח,לְהַצְלִיחַ,vocalize
+251,Arabic,للفشل,فَشِلَ,vocalize
+251,Hebrew,להיכשל,לְהִכָּשֵׁל,vocalize
+252,Arabic,لإخفاء,أَخْفَى,vocalize
+252,Hebrew,להסתיר,לְהַסְתִּיר,vocalize
+254,Arabic,لكي يحسب,حَسَبَ,vocalize
+254,Hebrew,לחשב,לְחַשֵּׁב,vocalize
+256,Arabic,لكسب,كَسَبَ,vocalize
+256,Hebrew,להרוויח,לְהַרְוִיחַ,vocalize
+257,Arabic,لمسح,مَسَحَ ضَوْئِيًّا,vocalize
+257,Hebrew,לסרוק,לִסְרֹק,vocalize
+258,Arabic,لطباعة,طَبَعَ,vocalize
+258,Hebrew,להדפיס,לְהַדְפִּיס,vocalize
+259,Arabic,لكذب,كَذَبَ,vocalize
+259,Hebrew,לשקר,לְשַׁקֵּר,vocalize
+260,Arabic,لخداع,خَدَعَ,vocalize
+260,Hebrew,לרמות,לְרַמּוֹת,vocalize
+262,Arabic,للتخيل,تَخَيَّلَ,vocalize
+262,Hebrew,לדמיין,לְדַמְיֵן,vocalize
+263,Arabic,لقبول,قَبِلَ,vocalize
+263,Hebrew,לקבל,לְקַבֵּל,vocalize
+264,Arabic,للرفض,أَنْكَرَ,vocalize
+264,Hebrew,להכחיש,לְהַכְחִישׁ,vocalize
+267,Arabic,للتعديل,حَرَّرَ,vocalize
+267,Hebrew,לערוך,לַעֲרֹךְ,vocalize
+269,Arabic,لنسخ,لَنُسَخ,vocalize
+269,Hebrew,להעתיק,לְהַעְתִּיק,vocalize
+270,Arabic,لصق,لَصَّقَ,vocalize
+270,Hebrew,להדביק,לְהַדְבִּיק,vocalize
+273,Arabic,للدردشة,لِلدَرْدَشَة,vocalize
+273,Hebrew,לדבר,לְדַבֵּר,vocalize
+274,Arabic,لشرح,شَرَحَ,vocalize
+274,Hebrew,להסביר,לְהַסְבִּיר,vocalize
+276,Arabic,لتمويل,لِتَمْوِيل,vocalize
+276,Hebrew,לממן,לְמַמֵּן,vocalize
+277,Arabic,ليتحكم,سَيْطَرَ عَلَى,vocalize
+277,Hebrew,לשלוט,לִשְׁלֹט,vocalize
+278,Arabic,للتأكد,فَحَصَ,vocalize
+278,Hebrew,לבדוק,לִבְדֹּק,vocalize
+279,Arabic,لممارسة,مَارَسَ,vocalize
+279,Hebrew,להתאמן,לְהִתְאַמֵּן,vocalize
+280,Arabic,للتحضير,حَضَّرَ,vocalize
+280,Hebrew,להכין,לְהָכִין,vocalize
+281,Arabic,للمراجعة,رَاجَعَ,vocalize
+281,Hebrew,לסקור,לִסְקֹר,vocalize
+283,Arabic,للتصميم,صَمَّمَ,vocalize
+283,Hebrew,לעצב,לְעַצֵּב,vocalize
+284,Arabic,للتخطيط,خَطَّطَ,vocalize
+284,Hebrew,לתכנן,לְתַכְנֵן,vocalize
+285,Arabic,لفهم,فَهِمَ,vocalize
+285,Hebrew,להבין,לְהָבִין,vocalize
+287,Arabic,لافتراض,اِفْتَرَضَ,vocalize
+287,Hebrew,להניח,לְהַנִּיחַ,vocalize
+288,Arabic,لتخمين,خَمَّنَ,vocalize
+288,Hebrew,לנחש,לְנַחֵשׁ,vocalize
+289,Arabic,لتحترم,اِحْتَرَمَ,vocalize
+289,Hebrew,לכבד,לְכַבֵּד,vocalize
+290,Arabic,لازدراء,اِزْدَرَى,vocalize
+290,Hebrew,לבוז,לָבוּז,vocalize
+293,Arabic,لتحمل,تَحَمَّلَ,vocalize
+293,Hebrew,לסבול,לִסְבֹּל,vocalize
+294,Arabic,لكي نلتقي,اِلْتَقَى,vocalize
+294,Hebrew,להפגש,לְהִפָּגֵשׁ,vocalize
+295,Arabic,لكي تصل,وَصَلَ,vocalize
+295,Hebrew,להגיע,לְהַגִּיעַ,vocalize
+296,Arabic,لجمع,جَمَعَ,vocalize
+296,Hebrew,לאסוף,לֶאֱסֹף,vocalize
+298,Arabic,للتوقيع,وَقَّعَ,vocalize
+298,Hebrew,לחתום,לַחְתֹּם,vocalize
+299,Arabic,لكبح جماح,كَبَحَ,vocalize
+299,Hebrew,לרסן,לְרַסֵּן,vocalize
+300,Arabic,لكى يسمح,سَمَحَ,vocalize
+300,Hebrew,לאפשר,לְאַפְשֵׁר,vocalize
+301,Arabic,لمنع,مَنَعَ,vocalize
+301,Hebrew,לאסור,לֶאֱסֹר,vocalize
+302,Arabic,لقيادة,قَادَ,vocalize
+302,Hebrew,להוביל,לְהוֹבִיל,vocalize
+303,Arabic,للحكم,حَكَمَ,vocalize
+303,Hebrew,למשול,לִמְשֹׁל,vocalize
+304,Arabic,لإدارة,أَدَارَ,vocalize
+304,Hebrew,לנהל,לְנַהֵל,vocalize
+307,Arabic,للحضور,حَضَرَ,vocalize
+307,Hebrew,להיות נוכח,לִהְיוֹת נוֹכֵחַ,vocalize
+308,Arabic,لمرافقة,رَافَقَ,vocalize
+308,Hebrew,להתלוות,לְהִתְלַוּוֹת,vocalize
+309,Arabic,للمشاركه,شَارَكَ,vocalize
+309,Hebrew,לשתף,לְשַׁתֵּף,vocalize
+311,Arabic,لحرث,حَرَثَ,vocalize
+311,Hebrew,לחרוש,לַחֲרֹשׁ,vocalize
+312,Arabic,للري,رَوَى,vocalize
+312,Hebrew,להשקות,לְהַשְׁקוֹת,vocalize
+313,Arabic,لزرع,زَرَعَ,vocalize
+313,Hebrew,לזרוע,לִזְרֹעַ,vocalize
+314,Arabic,لجني,حَصَدَ,vocalize
+314,Hebrew,לקצור,לִקְצֹר,vocalize
+315,Arabic,لنسج,نَسَجَ,vocalize
+315,Hebrew,לארוג,לֶאֱרֹג,vocalize
+317,Arabic,للتبرع,تَبَرَّعَ,vocalize
+317,Hebrew,לתרום,לִתְרֹם,vocalize
+318,Arabic,لتوجيه,وَجَّهَ,vocalize
+318,Hebrew,להנחות,לְהַנְחוֹת,vocalize
+322,Arabic,لتأنيب,وَبَّخَ,vocalize
+322,Hebrew,לגעור,לִגְעֹר,vocalize
+323,Arabic,لزيارة,زَارَ,vocalize
+323,Hebrew,לבקר,לְבַקֵּר,vocalize
+324,Arabic,لإصلاح,أَصْلَحَ,vocalize
+324,Hebrew,לתקן,לְתַקֵּן,vocalize
+325,Arabic,للغرف,لِلغُرَف,vocalize
+325,Hebrew,לסקופ,לִגְרוֹף,vocalize
+327,Arabic,لاستكشاف,اِسْتَكْشَفَ,vocalize
+327,Hebrew,כדי לחקור,כְּדֵי לַחֲקֹר,vocalize
+328,Arabic,للاستعمار,اِسْتَعْمَرَ,vocalize
+328,Hebrew,להתיישב,לְהִתְיַשֵּׁב,vocalize
+329,Arabic,للتجول,تَجَوَّلَ,vocalize
+329,Hebrew,לשוטט,לְשׁוֹטֵט,vocalize
+331,Arabic,انحدار,شَدِيدُ الاِنْحِدَار,vocalize
+331,Hebrew,תָלוּל,תָּלוּל,vocalize
+335,Arabic,منحني,مُنْحَنٍ,vocalize
+335,Hebrew,מעוקל,מְעֻקָּל,vocalize
+338,Arabic,سلس,نَاعِم,vocalize
+338,Hebrew,חלק,חֵלֶק,vocalize
+346,Arabic,الأمر الواضح,وَاضِح,vocalize
+346,Hebrew,ברור,בָּרוּר,vocalize
+347,Arabic,عكر,عَكِر,vocalize
+347,Hebrew,עגום,עָכוּר,vocalize
+352,Arabic,أنها ثقيلة,ثَقِيل,vocalize
+352,Hebrew,כבד,כָּבֵד,vocalize
+354,Arabic,إنها صغيرة,صَغِير,vocalize
+354,Hebrew,קטן,קָטָן,vocalize
+355,Arabic,انه طويل,طَوِيل,vocalize
+355,Hebrew,ארוך,אָרֹךְ,vocalize
+364,Arabic,انها على ما يرام,دَقِيق,vocalize
+364,Hebrew,בסדר,דַּק,vocalize
+365,Arabic,هو طويل القامة,طَوِيلُ القَامَة,vocalize
+365,Hebrew,גבוה,גָבוֹהַ,vocalize
+367,Arabic,أنها عالية,عَالٍ,vocalize
+367,Hebrew,גבוה,גָבוֹהַ,vocalize
+368,Arabic,أنها منخفضة,مُنْخَفِض,vocalize
+368,Hebrew,נמוך,נָמוּךְ,vocalize
+372,Arabic,انه قريب,قَرِيب,vocalize
+372,Hebrew,קרוב,קָרוֹב,vocalize
+373,Arabic,انه صعب,صُلْب,vocalize
+373,Hebrew,קשה,קָשֶׁה,vocalize
+374,Arabic,انها ناعمة,نَاعِم,vocalize
+374,Hebrew,רך,רַךְ,vocalize
+376,Arabic,انه مبلل,مُبَلَّل,vocalize
+376,Hebrew,רטוב,רָטֹב,vocalize
+378,Arabic,الجو حار,حَارّ,vocalize
+378,Hebrew,חם,חָם,vocalize
+379,Arabic,انه دافئ,دَافِئ,vocalize
+379,Hebrew,חמים,חָמִים,vocalize
+383,Arabic,مرير,مُرّ,vocalize
+383,Hebrew,מריר,מָרִיר,vocalize
+384,Arabic,لطيف,حُلْو,vocalize
+384,Hebrew,מתוק,מָתוֹק,vocalize
+389,Arabic,انه ممتلىء,مُمْتَلِئ,vocalize
+389,Hebrew,מלא,מִלָּא,vocalize
+391,Arabic,انه كامل,كَامِل,vocalize
+391,Hebrew,שלם,שָׁלֵם,vocalize
+394,Arabic,إنها صعبة,صَعْب,vocalize
+394,Hebrew,קשה,קָשֶׁה,vocalize
+395,Arabic,إنها سهلة,سَهْل,vocalize
+395,Hebrew,קל,קַל,vocalize
+397,Arabic,أنه لأمر محزن,حَزِين,vocalize
+397,Hebrew,עצוב,עָצוּב,vocalize
+398,Arabic,هو سعيد,سَعِيد,vocalize
+398,Hebrew,שמח,שָׂמֵחַ,vocalize
+401,Arabic,أمر مثير للاشمئزاز,مُشْمَئِزّ,vocalize
+401,Hebrew,נגעל,נִגְעַל,vocalize
+402,Arabic,فوجئ,مُتَفَاجِئ,vocalize
+402,Hebrew,מופתע,מֻפְתָּע,vocalize
+403,Arabic,يخجل,خَجِل,vocalize
+403,Hebrew,מתבייש,מִתְבַּיֵּשׁ,vocalize
+407,Arabic,انه مضحك,مُضْحِك,vocalize
+407,Hebrew,מצחיק,מַצְחִיק,vocalize
+408,Arabic,مثير للاهتمام,مُثِير لِلاِهْتِمَام,vocalize
+408,Hebrew,מעניין,מְעַנְיֵן,vocalize
+410,Arabic,هذا غريب,غَرِيب,vocalize
+410,Hebrew,מוזר,מוּזָר,vocalize
+412,Arabic,أنه شائع,شَائِع,vocalize
+412,Hebrew,נפוץ,נָפוֹץ,vocalize
+413,Arabic,فمن النادر,نَادِر,vocalize
+413,Hebrew,נדיר,נָדִיר,vocalize
+415,Arabic,انه جميل,جَمِيل,vocalize
+415,Hebrew,יפה,יָפֶה,vocalize
+418,Arabic,بريىء,بَرِيء,vocalize
+418,Hebrew,חף מפשע,חַף מִפֶּשַׁע,vocalize
+420,Arabic,أنه أمر خطير,خَطِير,vocalize
+420,Hebrew,מסוכן,מְסֻכָּן,vocalize
+424,Arabic,خجول,خَجُول,vocalize
+424,Hebrew,נחבא אל הכלים,בַּיְשָׁן,vocalize
+429,Arabic,متكل,مُعْتَمِد,vocalize
+429,Hebrew,תלוי,תָּלוּי,vocalize
+430,Arabic,عارية,عَارٍ,vocalize
+430,Hebrew,עֵירוֹם,עֵירֹם,vocalize
+431,Arabic,عارية,عَارٍ,vocalize
+438,Arabic,تأكيد,مُؤَكَّد,vocalize
+438,Hebrew,מסוים,וַדָּאִי,vocalize
+442,Arabic,حتى,حَتَى,vocalize
+442,Hebrew,אֲפִילוּ,אֲפִלּוּ,vocalize
+444,Arabic,مزدوج,مُزْدَوَج,vocalize
+444,Hebrew,לְהַכפִּיל,כָּפוּל,vocalize
+445,Arabic,انه جيد,جَيِّد,vocalize
+445,Hebrew,טוב,טוֹב,vocalize
+446,Arabic,سيء,سَيِّئ,vocalize
+446,Hebrew,רע,רַע,vocalize
+447,Arabic,هذا صحيح,صَحِيح,vocalize
+447,Hebrew,נכון,נָכוֹן,vocalize
+448,Arabic,انه خطأ,خَاطِئ,vocalize
+448,Hebrew,לא נכון,לֹא נָכוֹן,vocalize
+449,Arabic,هذا صحيح,صَحِيح,vocalize
+449,Hebrew,נכון,נָכוֹן,vocalize
+450,Arabic,انها كاذبة,خَاطِئ,vocalize
+450,Hebrew,שגוי,שָׁגוּי,vocalize
+452,Arabic,انه قديم,قَدِيم,vocalize
+452,Hebrew,זקן,זָקָן,vocalize
+453,Arabic,انه قديم,قَدِيم,vocalize
+453,Hebrew,זקן,זָקָן,vocalize
+455,Arabic,انه قوي,قَوِيّ,vocalize
+455,Hebrew,חזק,חָזָק,vocalize
+457,Arabic,انه مريض,مَرِيض,vocalize
+457,Hebrew,חולה,חוֹלֶה,vocalize
+459,Arabic,هذا هو نفسه,نَفْس,vocalize
+459,Hebrew,אותו הדבר,זֵהֶה,vocalize
+460,Arabic,متساوي,مُتَسَاوٍ,vocalize
+460,Hebrew,שווה,שָׁוֶה,vocalize
+462,Arabic,انه مختلف,مُخْتَلِف,vocalize
+462,Hebrew,שונה,שׁוֹנֶה,vocalize
+463,Arabic,انه سريع,سَرِيع,vocalize
+463,Hebrew,מהר,מָהִיר,vocalize
+465,Arabic,إن الوقت مبكر,مُبَكِّر,vocalize
+465,Hebrew,מוקדם,מֻקְדָּם,vocalize
+474,Arabic,انه غالي,غَالٍ,vocalize
+474,Hebrew,יקר,יָקָר,vocalize
+479,Arabic,خمول,خَامِل,vocalize
+479,Hebrew,סרק,סֵרֵק,vocalize
+480,Arabic,أنها مزدحمة,مُزْدَحِم,vocalize
+480,Hebrew,צפוף,צָפוּף,vocalize
+484,Arabic,صم,أَصَمّ,vocalize
+484,Hebrew,חירש,חֵירֵשׁ,vocalize
+487,Arabic,جائع - إنها جائعة,جَائِع,vocalize
+487,Hebrew,הוא רעב,הוּא רָעֵב,vocalize
+490,Arabic,كسول,كَسُول,vocalize
+490,Hebrew,עצלן,עַצְלָן,vocalize
+493,Arabic,من الضروري,ضَرُورِيّ,vocalize
+493,Hebrew,נחוץ,נָחוּץ,vocalize
+495,Arabic,تطوعي,طَوْعِيّ,vocalize
+495,Hebrew,מִרָצוֹן,רְצוֹנִי,vocalize
+506,Arabic,عارض,غَيْرُ رَسْمِيّ,vocalize
+506,Hebrew,אַגָבִי,אַגָּבִי,vocalize
+507,Arabic,مقتصد,مُقْتَصِد,vocalize
+507,Hebrew,חסכן,חַסְכָן,vocalize
+508,Arabic,عاقل,عَاقِل,vocalize
+508,Hebrew,שָׁפוּי בְּדַעתוֹ,שָׁפוּי,vocalize
+521,Arabic,في احسن الاحوال,مِثَالِيّ,vocalize
+521,Hebrew,מושלם,מֻשְׁלָם,vocalize
+524,Arabic,انه اسود,أَسْوَد,vocalize
+524,Hebrew,שחור,שָׁחֹר,vocalize
+525,Arabic,انه ابيض,أَبْيَض,vocalize
+525,Hebrew,לבן,לָבָן,vocalize
+526,Arabic,انه أحمر,أَحْمَر,vocalize
+526,Hebrew,אדום,אָדוֹם,vocalize
+527,Arabic,إنها برتقالة,بُرْتُقَالِيّ,vocalize
+527,Hebrew,כתום,כָּתֹם,vocalize
+529,Arabic,انه اخضر,أَخْضَر,vocalize
+529,Hebrew,ירוק,יָרֹק,vocalize
+530,Arabic,انه ازرق,أَزْرَق,vocalize
+530,Hebrew,כחול,כָּחוֹל,vocalize
+532,Arabic,فمن الوردي,وَرْدِيّ,vocalize
+532,Hebrew,ורוד,וָרֹד,vocalize
+533,Arabic,انه بني,بُنِّيّ,vocalize
+533,Hebrew,האם חום,הַאִם חוּם,vocalize
+542,Arabic,هو - هي,هُوَ / هِيَ,vocalize
+542,Hebrew,זה,זֶה,vocalize
+550,Arabic,من الذى,مَنْ,vocalize
+551,Arabic,ماذا او ما,مَاذَا / مَا,vocalize
+551,Hebrew,מה,מָה,vocalize
+557,Arabic,كم عدد,كَمْ,vocalize
+557,Hebrew,כמה,כַּמָּה,vocalize
+559,Arabic,ليس,لَيْسَ,vocalize
+560,Arabic,الكل,كُلّ,vocalize
+560,Hebrew,את כל,אֶת כָּל,vocalize
+569,Arabic,عظم,عَظْم,vocalize
+569,Hebrew,רוב,רֹב,vocalize
+576,Arabic,اثنين,اِثْنَانِ / اِثْنَتَانِ,vocalize
+576,Hebrew,שתיים,שְׁנַיִם / שְׁתַּיִם,vocalize
+585,Arabic,مائة,مِائَة,vocalize
+598,Arabic,يحشد,حَشْد,vocalize
+621,Arabic,الأخ الأكبر,أَخٌ أَكْبَر,vocalize
+621,Hebrew,אח גדול,אָח גָּדוֹל,vocalize
+622,Arabic,الأخ الأصغر,أَخٌ أَصْغَر,vocalize
+622,Hebrew,אח קטן,אָח קָטָן,vocalize
+626,Arabic,ابنه قانونياً,صِهْر,vocalize
+626,Hebrew,בן חורג,בֵּן חוֹרֵג,vocalize
+629,Arabic,أخت الزوج أو اخت الزوجة,أُخْتُ الزَّوْجِ / أُخْتُ الزَّوْجَةِ,vocalize
+629,Hebrew,גיסה,גִּיסָה,vocalize
+631,Arabic,"حماة "" أم الزوج أو أم الزوجة",حَمَاة,vocalize
+631,Hebrew,חותנת,חוֹתֶנֶת,vocalize
+632,Arabic,الآباء في القانون,وَالِدَا الزَّوْجِ / وَالِدَا الزَّوْجَةِ,vocalize
+632,Hebrew,מחותנים,חָם וְחָמוֹת,vocalize
+638,Arabic,ولد عم,اِبْنُ العَمّ,vocalize
+638,Hebrew,בת דודה,בַּת דּוֹדָה,vocalize
+643,Arabic,دكتور بيطري,طَبِيب بَيْطَرِيّ,vocalize
+643,Hebrew,וטרינר,וֵטֵרִינָר,vocalize
+645,Arabic,الحيوان الثديي,ثَدْيِيّ,vocalize
+645,Hebrew,יונק,יוֹנֵק,vocalize
+662,Arabic,الدب القطبي,دُبّ قُطْبِيّ,vocalize
+662,Hebrew,דוב קוטב,דֹּב קֹטֶב,vocalize
+668,Arabic,الحمار الوحشي,حِمَار وَحْشِيّ,vocalize
+668,Hebrew,זֶבּרָה,זֶבְּרָה,vocalize
+682,Arabic,أوزة,إِوَزَّة,vocalize
+682,Hebrew,אווז,אֲוָז,vocalize
+685,Arabic,العقعق,العَقْعَق,vocalize
+685,Hebrew,עוֹרֵב הַנְחָלִים,עַקְעָק,vocalize
+689,Arabic,turtledove,يَمَامَة,vocalize
+689,Hebrew,צבייה,תּוֹר,vocalize
+692,Arabic,cormorant,غَاق,vocalize
+692,Hebrew,קורמורנט,קוֹרְמוֹרָן,vocalize
+696,Arabic,بجعة,بَجَعَة,vocalize
+696,Hebrew,בַּרבּוּר,בַּרְבּוּר,vocalize
+697,Arabic,نسر,نَسْر,vocalize
+697,Hebrew,נשר,עַיִט,vocalize
+700,Arabic,غراب أسود,غُرَاب,vocalize
+715,Arabic,عجل البحر,فُقْمَة,vocalize
+715,Hebrew,חותם,חוֹתָם,vocalize
+716,Arabic,الفظ,فَظّ,vocalize
+716,Hebrew,ניבתן,נִיבְתָן,vocalize
+725,Arabic,هادئة,مَحَارَة,vocalize
+725,Hebrew,צדפה,צִדְפָּה,vocalize
+748,Arabic,أفيد,حَشَرَةُ المَنّ,vocalize
+755,Arabic,الفيروس المتنقل,دُودَة,vocalize
+755,Hebrew,תוֹלַעַת,תּוֹלַעַת,vocalize
+766,Arabic,البرتقالي,بُرْتُقَال,vocalize
+766,Hebrew,תפוז,תַּפּוּז,vocalize
+819,Arabic,ينبع,سَاق,vocalize
+819,Hebrew,גֶזַע,גֶּזַע,vocalize
+830,Arabic,gladiolus,غِلَادِيُولُس,vocalize
+830,Hebrew,סֵיפָן,סַיְפָן,vocalize
+831,Arabic,النرجس البري,نَرْجِس,vocalize
+831,Hebrew,נַרקִיס,נַרְקִיס,vocalize
+835,Arabic,marigold,آذَرْيُون,vocalize
+835,Hebrew,צִפּוֹרנֵי הַחָתוּל,צִפָּרְנֵי־חָתוּל,vocalize
+837,Arabic,azelea,أَزَالِيَا,vocalize
+837,Hebrew,אזלאה,אֲזָלֵאָה,vocalize
+840,Arabic,لافندر,خُزَامَى,vocalize
+840,Hebrew,אֲזוֹבִיוֹן,אֲזוֹבְיוֹן,vocalize
+844,Arabic,الكوبية,كُوبِيَّة,vocalize
+844,Hebrew,הידראנגאה,הִידְרַנְגֵאָה,vocalize
+845,Arabic,snapdragon,حَنَكُ السَّبُع,vocalize
+845,Hebrew,לוֹעַ הָאֲרִי,לֹעַ הָאֲרִי,vocalize
+860,Arabic,ginkgo,جِنْكُو,vocalize
+860,Hebrew,גִינקוֹ,גִּינְקוֹ,vocalize
+869,Arabic,بانيان,بانِيان,vocalize
+869,Hebrew,בניאן,בַּנְיָאן,vocalize
+871,Arabic,كرمة,كَرْمَة,vocalize
+871,Hebrew,גֶפֶן,גֶּפֶן,vocalize
+893,Arabic,جبنه,جُبْن,vocalize
+893,Hebrew,גבינה,גְּבִינָה,vocalize
+894,Arabic,الفيتا,فِيتَا,vocalize
+894,Hebrew,פטה,פֶטָה,vocalize
+899,Arabic,الفول السوداني,فُول سُودَانِيّ,vocalize
+899,Hebrew,בֹּטֶן,בֶּטֶן,vocalize
+997,Arabic,يُسلِّم,يَد,vocalize
+997,Hebrew,יד,יָד,vocalize
+998,Arabic,نخل,كَفّ,vocalize
+998,Hebrew,כַּף הַיָד,כַּף הַיָּד,vocalize
+999,Arabic,رسغ,رُسْغ,vocalize
+999,Hebrew,מפרק כף היד,מִפְרַק כַּף הַיָּד,vocalize
+1006,Arabic,الى الخلف,ظَهْر,vocalize
+1006,Hebrew,חזור,גַּב,vocalize
+1009,Arabic,ورك او نتوء,وَرِك,vocalize
+1009,Hebrew,ירך,יָרֵךְ,vocalize
+1023,Arabic,مثانة,مَثانَة,vocalize
+1023,Hebrew,שַׁלפּוּחִית הַשֶׁתֶן,שַׁלְפּוּחִית הַשֶּׁתֶן,vocalize
+1028,Arabic,عرق,عِرْق,vocalize
+1028,Hebrew,לְהָזִיעַ,זֵעָה,vocalize
+1031,Arabic,ضرطة,ضَرْطَة,vocalize
+1031,Hebrew,לְהַפְלִיץ,נָפִיחָה,vocalize
+1038,Arabic,العالمية,عَالَم,vocalize
+1050,Arabic,تمطر,مَطَر,vocalize
+1050,Hebrew,גֶשֶׁם,גֶּשֶׁם,vocalize
+1056,Arabic,شاطئ بحر,شاطِئ بَحْر,vocalize
+1056,Hebrew,החוף,חוֹף,vocalize
+1057,Arabic,الشعاب المرجانية,شِعَاب مَرْجَانِيَّة,vocalize
+1063,Arabic,الارض,الأَرْض,vocalize
+1063,Hebrew,כדור הארץ,כַּדּוּר הָאָרֶץ,vocalize
+1074,Arabic,البرد,بَرَد,vocalize
+1074,Hebrew,בָּרָד,בָּרָד,vocalize
+1080,Arabic,مستنقع,مُسْتَنْقَع,vocalize
+1080,Hebrew,לְהַצִיף,בִּצָּה,vocalize
+1089,Arabic,الجليدية,نَهْر جَلِيدِيّ,vocalize
+1089,Hebrew,קַרחוֹן,קַרְחוֹן,vocalize
+1103,Arabic,عاصفة ثلجية,عَاصِفَة ثَلْجِيَّة,vocalize
+1103,Hebrew,סופת שלגים,סוּפַת שְׁלָגִים,vocalize
+1109,Arabic,في الامس,أَمْس,vocalize
+1109,Hebrew,אתמול,אֶתְמוֹל,vocalize
+1145,Arabic,فلاش,وَمَضَ,vocalize
+1145,Hebrew,הֶבזֵק,הֶבְזֵק,vocalize
+1148,Arabic,يبدو,صَوْت,vocalize
+1148,Hebrew,נשמע,נִשְׁמַע,vocalize
+1153,Arabic,الصدأ,صَدَأ,vocalize
+1159,Arabic,سيراميك,خَزَف,vocalize
+1165,Arabic,الماس,أَلْمَاس,vocalize
+1165,Hebrew,יהלום,יַהֲלוֹם,vocalize
+1186,Arabic,صنارة صيد,خُطَّاف,vocalize
+1186,Hebrew,וו,וָו,vocalize
+1214,Arabic,الأساسية,لِيف,vocalize
+1216,Arabic,اللحمة,سَدًى,vocalize
+1216,Hebrew,שתי,שְׁתִי,vocalize
+1220,Arabic,الصفحة الرئيسية,بَيْت,vocalize
+1220,Hebrew,בית,בַּיִת,vocalize
+1226,Arabic,نافذة او شباك,نَافِذَة,vocalize
+1226,Hebrew,חַלוֹן,חַלּוֹן,vocalize
+1241,Arabic,صنبور,صُنْبُور,vocalize
+1280,Arabic,إطار العجلة,إِطَار,vocalize
+1280,Hebrew,צמיג,צְמִיג,vocalize
+1298,Arabic,اسفنجة,إِسْفِنْجَة,vocalize
+1308,Arabic,مسلك,خَيْط,vocalize
+1316,Arabic,نظارة طبية,نَظَّارَة طِبِّيَّة,vocalize
+1316,Hebrew,משקפיים,מִשְׁקָפַיִם,vocalize
+1318,Arabic,هدية مجانية,هَدِيَّة,vocalize
+1318,Hebrew,מתנה,מַתָּנָה,vocalize
+1333,Arabic,بطاقة بريدية,بِطَاقَة بَرِيدِيَّة,vocalize
+1333,Hebrew,גְלוּיָה,גְּלוּיָה,vocalize
+1347,Arabic,عروسه لعبه,لُعْبَة,vocalize
+1350,Arabic,المعجب,مُعْجَب,vocalize
+1350,Hebrew,אוהד,אוֹהֵד,vocalize
+1370,Arabic,الماسح الضوئي,مَاسِح ضَوْئِيّ,vocalize
+1379,Arabic,سمفونية,سِيمْفُونِيَّة,vocalize
+1381,Arabic,على نفس المنوال,إِيقَاع,vocalize
+1381,Hebrew,קֶצֶב,קַצָּב,vocalize
+1383,Arabic,كلمات,كَلِمَات,vocalize
+1383,Hebrew,מילים,מִלִּים,vocalize
+1393,Arabic,آلة توبا,تُوبَا,vocalize
+1402,Arabic,صافرة,صَافِرَة,vocalize
+1402,Hebrew,לִשְׁרוֹק,מַשְׁרוֹקִית,vocalize
+1408,Arabic,تناسب,بَدْلَة,vocalize
+1408,Hebrew,חליפה,חֲלִיפָה,vocalize
+1418,Arabic,وصمة,بُقْعَة,vocalize
+1419,Arabic,لعبه,لُعْبَة,vocalize
+1419,Hebrew,מִשְׂחָק,מִשְׂחָק,vocalize
+1436,Arabic,جنس تذكير أو تأنيث,جِنْس,vocalize
+1440,Arabic,أقصى,أَقْصَى,vocalize
+1441,Arabic,الحد الأدنى,أَدْنَى,vocalize
+1449,Arabic,يكتب,نَوْع,vocalize
+1458,Arabic,لمدة,عَقْد,vocalize
+1463,Arabic,طلب,طَلَبَ,vocalize
+1463,Hebrew,להזמין,סֵדֶר,vocalize
+1470,Arabic,سماء,سَمَاء,vocalize
+1470,Hebrew,גן העדן,שָׁמַיִם,vocalize
+1477,Arabic,أبدي,خَالِد,vocalize
+1477,Hebrew,בן אלמוות,בֶּן אַלְמָוֶת,vocalize
+1494,Arabic,صدفة,صُدْفَة,vocalize
+1494,Hebrew,יָד הַמִקרֶה,צֵרוּף מִקְרִים,vocalize
+1498,Arabic,المفارقة,مُفَارَقَة,vocalize
+1498,Hebrew,פָּרָדוֹקס,פָּרָדוֹקְס,vocalize
+1504,Arabic,السبب,سَبَب,vocalize
+1504,Hebrew,סִבָּה,סָבָה,vocalize
+1512,Arabic,اساسي,مِعْيَار,vocalize
+1512,Hebrew,תֶקֶן,תֶּקֶן,vocalize
+1516,Arabic,خاصية,مِيزَة,vocalize
+1516,Hebrew,תכונה,תְּכוּנָה,vocalize
+1529,Arabic,الرياضيات,رِيَاضِيَّات,vocalize
+1529,Hebrew,מָתֵימָטִיקָה,מָתֵמָטִיקָה,vocalize
+1549,Arabic,الحاضر,حَاضِر,vocalize
+1549,Hebrew,הווה,הֹוֶה,vocalize
+1557,Arabic,يضخ,أُنْبُوب,vocalize
+1557,Hebrew,צינור,צִנּוֹר,vocalize
+1561,Arabic,موقع البناء,مَوْقِع البِناء,vocalize
+1561,Hebrew,אתר הבנייה,אֲתַר הַבְּנִיָּה,vocalize
+1565,Arabic,المدرج,مُدَرَّج,vocalize
+1565,Hebrew,אַמְפִיתֵאַטרוֹן,אַמְפִיתֵאַטְרוֹן,vocalize
+1569,Arabic,كلوي,رِوَاقُ الدَّيْر,vocalize
+1569,Hebrew,מִנזָר,קְלוֹיסְטֶר,vocalize
+1570,Arabic,الصليب,صَلِيب,vocalize
+1570,Hebrew,הצלב,צְלָב,vocalize
+1571,Arabic,قالب طوب,طُوبَة,vocalize
+1571,Hebrew,לְבֵנָה,לִבְנֶה,vocalize
+1572,Arabic,يبني,إِسْمَنْت,vocalize
+1572,Hebrew,בטון,מֶלֶט,vocalize
+1581,Arabic,نادي رياضي,صَالَة رِيَاضِيَّة,vocalize
+1581,Hebrew,חדר כושר,חֲדַר כֹּשֶׁר,vocalize
+1583,Arabic,نصب تذكاري,نُصْب تِذْكَارِيّ,vocalize
+1605,Arabic,معبد,مَعْبَد,vocalize
+1605,Hebrew,בית המקדש,מִקְדָּשׁ,vocalize
+1627,Arabic,القاضي,قَاضٍ,vocalize
+1627,Hebrew,לִשְׁפּוֹט,שׁוֹפֵט,vocalize
+1631,Arabic,دكتور جامعى,أُسْتَاذ جَامِعِيّ,vocalize
+1631,Hebrew,פּרוֹפֶסוֹר,פְּרוֹפֶסוֹר,vocalize
+1637,Arabic,المدعي العام,مُدَّعٍ عَامّ,vocalize
+1638,Arabic,المتدرب,مُتَدَرِّب,vocalize
+1638,Hebrew,מתמחה,מִתְמַחֶה,vocalize
+1653,Arabic,الشرطي,شُرْطِيّ,vocalize
+1664,Arabic,اخصائي نظارات,أَخْصَائِيّ نَظَّارَات,vocalize
+1664,Hebrew,אוֹפְּטִיקַאִי,אוֹפְּטִיקַאי,vocalize
+1669,Arabic,مصور فوتوغرافي,مُصَوِّر فُوتُوغْرَافِيّ,vocalize
+1669,Hebrew,צַלָם,צַלָּם,vocalize
+1680,Arabic,سطح - المظهر الخارجي,سَطْح,vocalize
+1680,Hebrew,משטח,מִשְׁטָח,vocalize
+1735,Arabic,الأقمار الصناعية,قَمَر صِنَاعِيّ,vocalize
+1735,Hebrew,לוויין,לַוְיָן,vocalize
+1739,Arabic,النظام الشمسي,النِّظَام الشَّمْسِيّ,vocalize
+1739,Hebrew,מערכת השמש,מַעֲרֶכֶת הַשֶּׁמֶשׁ,vocalize
+1741,Arabic,الانقلاب,الاِنْقِلاب,vocalize
+1741,Hebrew,מִפנֶה הַשֶׁמֶשׁ,מִפְנֵה הַשֶּׁמֶשׁ,vocalize
+1745,Arabic,الأبراج الفلكية,الأَبْرَاج,vocalize
+1745,Hebrew,גַלגַל הַמַזָלוֹת,גַּלְגַּל הַמַּזָּלוֹת,vocalize
+1748,Arabic,أرض,أَرْض,vocalize
+1748,Hebrew,כדור הארץ,כַּדּוּר הָאָרֶץ,vocalize
+1749,Arabic,قشرة الأرض,قِشْرَة الأَرْض,vocalize
+1749,Hebrew,קרום כדור הארץ,קְרוּם כַּדּוּר הָאָרֶץ,vocalize
+1750,Arabic,عباءة الأرض,عَباءَة الأَرْض,vocalize
+1750,Hebrew,מעטפת כדור הארץ,מַעֲטֶפֶת כַּדּוּר הָאָרֶץ,vocalize
+1751,Arabic,جوهر الأرض,جَوْهَر الأَرْض,vocalize
+1751,Hebrew,גרעין כדור הארץ,לִבַּת כַּדּוּר הָאָרֶץ,vocalize
+1754,Arabic,زحل,زُحَل,vocalize
+1754,Hebrew,שַׁבְתַאִי,שַׁבְּתַאי,vocalize
+1758,Arabic,يستطيع,يَسْتَطِيعُ,vocalize
+1758,Hebrew,פחית,פַּחִית,vocalize
+1762,Arabic,في,فِي,vocalize
+1762,Hebrew,ב,בְּ־,vocalize
+1764,Arabic,من,مَنّ,vocalize
+1764,Hebrew,מ,מִ־,vocalize
+1766,Arabic,باتجاه,نَحْوَ,vocalize
+1766,Hebrew,לקראת,לִקְרַאת,vocalize
+1767,Arabic,منذ,مُنْذُ,vocalize
+1767,Hebrew,מאז,מֵאָז,vocalize
+1769,Arabic,انها فوق,إِلَى أَعْلَى,vocalize
+1769,Hebrew,קם,לְמַעְלָה,vocalize
+1770,Arabic,لأسفل,إِلَى أَسْفَل,vocalize
+1770,Hebrew,למטה,לְמַטָּה,vocalize
+1771,Arabic,للأمام,إِلَى الأَمَام,vocalize
+1771,Hebrew,קדימה,קָדִימָה,vocalize
+1772,Arabic,للخلف,إِلَى الخَلْف,vocalize
+1772,Hebrew,אֲחוֹרָה,אָחוֹרָה,vocalize
+1773,Arabic,لقد ترك,يَسَار,vocalize
+1773,Hebrew,נשאר,נִשְׁאַר,vocalize
+1774,Arabic,هذا صحيح,يَمِين,vocalize
+1774,Hebrew,נכון,נָכוֹן,vocalize
+1775,Arabic,داخل,دَاخِل,vocalize
+1775,Hebrew,לְתוֹך,לְתוֹךְ,vocalize
+1788,Arabic,الخارج,خَارِج,vocalize
+1788,Hebrew,בחוץ,בַּחוּץ,vocalize
+1790,Arabic,و,وَ,vocalize
+1790,Hebrew,ו,וְ־,vocalize
+1791,Arabic,خلال,خِلَال,vocalize
+1791,Hebrew,בְּמַהֲלָך,בְּמַהֲלַךְ,vocalize
+1801,Arabic,لذا,لِذَا,vocalize
+1801,Hebrew,לכן,לָכֵן,vocalize
+1802,Arabic,ل,لِ,vocalize
+1802,Hebrew,ל,לְ־,vocalize
+1803,Arabic,كما,كَمَا,vocalize
+1803,Hebrew,כמו,כְּמוֹ,vocalize
+1805,Arabic,وفق,وَفْقًا لِـ,vocalize
+1805,Hebrew,לפי,לְפִי,vocalize
+1806,Arabic,بدلا من,بَدَلًا مِن,vocalize
+1806,Hebrew,ולא,בִּמְקוֹם,vocalize
+1808,Arabic,الآن,الْآنَ,vocalize
+1808,Hebrew,עַכשָׁיו,עַכְשָׁו,vocalize
+1811,Arabic,حتى الآن,حَتَّى الْآن,vocalize
+1811,Hebrew,עדיין,עֲדַיִן,vocalize
+1814,Arabic,في الأصل,أَصْلًا,vocalize
+1814,Hebrew,בְּמָקוֹר,בַּמָּקוֹר,vocalize
+1817,Arabic,تدريجياً,تَدْرِيجِيّاً,vocalize
+1817,Hebrew,באופן הדרגתי,בְּאֹפֶן הַדְרָגָתִי,vocalize
+1818,Arabic,بعد، بعدما,بَعْدَ,vocalize
+1818,Hebrew,לאחר,לְאַחַר,vocalize
+1822,Arabic,أحيانا,أَحْيَانًا,vocalize
+1827,Arabic,للأبد,إِلَى الأَبَد,vocalize
+1830,Arabic,بعضها البعض,بَعْضُهُمْ بَعْضًا,vocalize
+1830,Hebrew,אחד את השני,אֶחָד אֶת הַשֵּׁנִי,vocalize
+1832,Arabic,بالضبط,بِالضَّبْط,vocalize
+1832,Hebrew,בְּדִיוּק,בְּדִיּוּק,vocalize
+1833,Arabic,بالتأكيد,مُتَأَكِّد,vocalize
+1833,Hebrew,בטוח,בָּטוּחַ,vocalize
+1838,Arabic,جداً,جِدًّا,vocalize
+1838,Hebrew,מאוד,מְאוֹד,vocalize
+1840,Arabic,حتى,حَتَى,vocalize
+1840,Hebrew,אֲפִילוּ,אֲפִלּוּ,vocalize
+1844,Arabic,هل حقا,حَقًّا,vocalize
+1844,Hebrew,בֶּאֱמֶת,בֶּאֱמֶת,vocalize
+0,Arabic,نكون,نَكُون,vocalize
+0,Hebrew,היה,הָיָה,vocalize
+1,Arabic,أصبح,أَصْبَحَ,vocalize
+1,Hebrew,הפך,הָפַךְ,vocalize
+2,Arabic,فعل ,فَعَلَ,vocalize
+2,Hebrew,עשה,עָשָׂה,vocalize
+3,Arabic,ذهب,ذَهَبَ,vocalize
+3,Hebrew,הלך,הָלַךְ,vocalize
+4,Arabic,يأتي,يَأْتِي,vocalize
+4,Hebrew,בא,בָּא,vocalize
+5,Arabic,دخل,دَخَلَ,vocalize
+5,Hebrew,נכנס,נִכְנַס,vocalize
+6,Arabic,خرج,خَرَجَ,vocalize
+6,Hebrew,יצא,יָצָא,vocalize
+8,Arabic,بقى,بَقِي,vocalize
+8,Hebrew,נשאר,נִשְׁאַר,vocalize
+9,Arabic,غادر,غَادَرَ,vocalize
+9,Hebrew,עזב,עָזַב,vocalize
+10,Hebrew,חָזַר,חִזֵּר,vocalize
+11,Arabic,فكر,فِكْر,vocalize
+11,Hebrew,חשב,חָשַׁב,vocalize
+12,Arabic,عبر ,عَبَرَ,vocalize
+12,Hebrew,שקל,שָׁקַל,vocalize
+13,Arabic,قرر,قَرَّرَ,vocalize
+13,Hebrew,החליט ,הֶחְלִיט,vocalize
+14,Arabic,اختار,اِخْتَارَ,vocalize
+14,Hebrew,בחר,בָּחַר,vocalize
+15,Arabic,أحس,أَحَسّ,vocalize
+15,Hebrew,הרגיש ,הִרְגִּישׁ,vocalize
+16,Arabic,رأى,رَأَى,vocalize
+16,Hebrew,ראה,רָאָה,vocalize
+17,Arabic,سمع,سَمِع,vocalize
+17,Hebrew,שמע,שָׁמַע,vocalize
+18,Arabic,لمس,لَمَسَ,vocalize
+18,Hebrew,נגע,נָגַע,vocalize
+19,Arabic,شم,شَمَّ,vocalize
+19,Hebrew,הריח,הֵרִיחַ,vocalize
+20,Arabic,ذاق,ذَاقَ,vocalize
+20,Hebrew,טעם,טַעַם,vocalize
+21,Arabic,قال,قَالَ,vocalize
+21,Hebrew,אמר,אָמַר,vocalize
+22,Arabic,عرف,عَرَفَ,vocalize
+22,Hebrew,ידע,יָדַע,vocalize
+23,Arabic,تعلم,تَعَلَّمَ,vocalize
+23,Hebrew,למד,לָמַד,vocalize
+28,Arabic,طلب,طَلَبَ,vocalize
+28,Hebrew,שאל,שָׁאַל,vocalize
+29,Arabic,جواب,جَوَاب,vocalize
+29,Hebrew,ענה,עָנָה,vocalize
+30,Arabic,ليرسم,لِيَرْسُم,vocalize
+30,Hebrew,לצייר,לְצַיֵּר,vocalize
+31,Arabic,كتب,كَتَبَ,vocalize
+31,Hebrew,כתב,כָּתַב,vocalize
+32,Arabic,قرأ,قَرَأَ,vocalize
+32,Hebrew,קרא,קָרָא,vocalize
+33,Arabic,أكل,أَكَلَ,vocalize
+33,Hebrew,אכל,אָכַל,vocalize
+34,Arabic,شرب,شَرِبَ,vocalize
+34,Hebrew,שתה,שָׁתָה,vocalize
+35,Arabic,امتلك,اِمْتَلَكَ,vocalize
+35,Hebrew,יש ,יֵשׁ,vocalize
+36,Arabic,مسك,مَسَكَ,vocalize
+36,Hebrew,החזיק,הֶחְזִיק,vocalize
+37,Arabic,جلب,جَلَبَ,vocalize
+37,Hebrew,הביא ,הֵבִיא,vocalize
+38,Arabic,يحمل,يَحْمِل,vocalize
+38,Hebrew,לשאת,לָשֵׂאת,vocalize
+39,Arabic,حصل,حَصَل,vocalize
+39,Hebrew,קיבל,קִבֵּל,vocalize
+40,Arabic,أعطى,أَعْطَى,vocalize
+40,Hebrew,נתן,נָתַן,vocalize
+41,Arabic,أرسل,أَرْسَلَ,vocalize
+41,Hebrew,שלח,שָׁלַח,vocalize
+42,Arabic,وضع,وَضَعَ,vocalize
+42,Hebrew,שם,שֵׁם,vocalize
+43,Arabic,ترك,تَرَكَ,vocalize
+43,Hebrew,עזב,עָזַב,vocalize
+44,Arabic,أخذ,أَخَذَ,vocalize
+44,Hebrew,לקח,לָקַח,vocalize
+45,Arabic,سرق,سَرَقَ,vocalize
+45,Hebrew,גנב,גָּנַב,vocalize
+46,Arabic,ضرب,ضَرَبَ,vocalize
+46,Hebrew,פגע,פָּגַע,vocalize
+47,Arabic,رفس,رَفَسَ,vocalize
+47,Hebrew,בעט,בָּעַט,vocalize
+48,Arabic,فرك,فَرَكَ,vocalize
+48,Hebrew,שפשף ,שִׁפְשֵׁף,vocalize
+49,Arabic,دار,دَار,vocalize
+49,Hebrew,סבב,סָבַב,vocalize
+50,Arabic,دفع,دَفَعَ,vocalize
+50,Hebrew,דחף,דָּחַף,vocalize
+51,Arabic,سحب,سَحَبَ,vocalize
+51,Hebrew,משך,מָשַׁךְ,vocalize
+52,Arabic,عصر,عَصْر,vocalize
+52,Hebrew,לחץ,לָחַץ,vocalize
+53,Arabic,غسل,غَسَلَ,vocalize
+53,Hebrew,שטף,שָׁטַף,vocalize
+55,Arabic,مسح,مَسَحَ,vocalize
+55,Hebrew,ניגב,נִגֵּב,vocalize
+56,Arabic,خدش,خَدَش,vocalize
+56,Hebrew,סרט,סֶרֶט,vocalize
+57,Arabic,قص,قَصَّ,vocalize
+57,Hebrew,חתך,חָתַךְ,vocalize
+60,Arabic,شق,شَقَّ,vocalize
+60,Hebrew,פיצל,פִּצֵּל,vocalize
+61,Arabic,طعن,طَعَنَ,vocalize
+61,Hebrew,דקר,דָּקַר,vocalize
+62,Arabic,ضحك,ضَحِكَ,vocalize
+62,Hebrew,צחק,צָחַק,vocalize
+63,Arabic,لتبتسم,لِتَبْتَسِم,vocalize
+63,Hebrew,לחייך,לְחַיֵּךְ,vocalize
+64,Arabic,بكى,بَكَى,vocalize
+64,Hebrew,בכה,בָּכָה,vocalize
+65,Arabic,عض,عَضَّ,vocalize
+65,Hebrew,נשך,נָשַׁךְ,vocalize
+66,Arabic,مص,مَصَّ,vocalize
+66,Hebrew,מצץ,מָצַץ,vocalize
+68,Arabic,بزق,بَزَقَ,vocalize
+68,Hebrew,ירק,יֶרֶק,vocalize
+69,Arabic,تقيأ,تَقَيَّأَ,vocalize
+69,Hebrew,הקיא ,הֵקִיא,vocalize
+70,Arabic,نفخ,نَفَخَ,vocalize
+70,Hebrew,נשב,נָשַׁב,vocalize
+71,Arabic,تنفس,تَنَفَّسَ,vocalize
+71,Hebrew,נשם,נָשַׁם,vocalize
+72,Arabic,سعل,سَعَلَ,vocalize
+72,Hebrew,השתעל ,הִשְׁתַּעֵל,vocalize
+73,Arabic,تثاءب,تَثَاءَبَ,vocalize
+73,Hebrew,פיהק,פִּהֵק,vocalize
+74,Arabic,رمى,رَمَى,vocalize
+74,Hebrew,זרק,זָרַק,vocalize
+75,Arabic,للإمساك,لَلامَساك,vocalize
+75,Hebrew,לתפוס,לִתְפֹּס,vocalize
+76,Arabic,حفر,حَفَرَ,vocalize
+76,Hebrew,חפר,חָפַר,vocalize
+77,Arabic,ربط,رَبَطَ,vocalize
+77,Hebrew,קשר,קֶשֶׁר,vocalize
+78,Arabic,خيط,خَيَّطَ,vocalize
+78,Hebrew,תפר,תָּפַר,vocalize
+79,Arabic,عد,عَدَّ,vocalize
+79,Hebrew,ספר,סֵפֶר,vocalize
+80,Arabic,لبس,لَبِسَ,vocalize
+80,Hebrew,נשא,נָשָׂא,vocalize
+81,Arabic,فتح,فَتَحَ,vocalize
+81,Hebrew,פתח,פָּתַח,vocalize
+83,Arabic,بدأ,بَدَأَ,vocalize
+83,Hebrew,התחיל,הִתְחִיל,vocalize
+84,Arabic,أنهى,أَنْهَى,vocalize
+84,Hebrew,סיים,סִיֵּם,vocalize
+85,Arabic,خسر,خَسِرَ,vocalize
+85,Hebrew,אבד,אִבֵּד,vocalize
+86,Arabic,بحث,بَحَثَ,vocalize
+86,Hebrew,חפש ,חִפֵּשׂ,vocalize
+87,Arabic,وجد,وَجَدَ,vocalize
+87,Hebrew,מצא,מָצָא,vocalize
+88,Arabic,غير,غَيْرَ,vocalize
+88,Hebrew,שינה,שִׁנָּה,vocalize
+89,Arabic,ابتاع,أَبْتاع,vocalize
+89,Hebrew,קנה,קָנֶה,vocalize
+91,Arabic,باع,بَاعَ,vocalize
+91,Hebrew,מכר,מָכַר,vocalize
+92,Arabic,حاول,حَاوَلَ,vocalize
+92,Hebrew,ניסה,נִסָּה,vocalize
+93,Arabic,ليصنع,لِيَصْنَع,vocalize
+93,Hebrew,לעשות,לַעֲשׂוֹת,vocalize
+94,Arabic,خلق,خُلْق,vocalize
+94,Hebrew,יצר,יָצַר,vocalize
+95,Arabic,استخدم,اِسْتَخْدَمَ,vocalize
+95,Hebrew,השתמש ,הִשְׁתַּמֵּשׁ,vocalize
+96,Arabic,خرق,خَرْق,vocalize
+96,Hebrew,לשבור,לִשְׁבֹּר,vocalize
+98,Arabic,قتل,قَتَلَ,vocalize
+98,Hebrew,הרג,הָרַג,vocalize
+99,Arabic,مات,مَاتَ,vocalize
+99,Hebrew,מת,מֵת,vocalize
+100,Arabic,عاش,عَاشَ,vocalize
+100,Hebrew,חי,חַי,vocalize
+101,Arabic,حلم,حَلَمَ,vocalize
+101,Hebrew,חלם,חָלַם,vocalize
+102,Arabic,نوم,نَوْم,vocalize
+102,Hebrew,ישן,יָשָׁן,vocalize
+103,Arabic,أيقظ,أَيْقَظَ,vocalize
+103,Hebrew,העיר ,הִתְעוֹרֵר,vocalize
+104,Arabic,وضع,وَضَعَ,vocalize
+104,Hebrew,שכב,שָׁכַב,vocalize
+105,Arabic,جلس,جَلَسَ,vocalize
+105,Hebrew,ישב,יָשַׁב,vocalize
+106,Arabic,جثم,جَثَمَ,vocalize
+106,Hebrew,ישב,יָשַׁב,vocalize
+107,Arabic,انحدر,أَنْحَدِر,vocalize
+107,Hebrew,התכופף ,הִתְכּוֹפֵף,vocalize
+108,Arabic,وقف,وَقَّفَ,vocalize
+108,Hebrew,עמד,עָמַד,vocalize
+109,Arabic,مشى,مَشَى,vocalize
+109,Hebrew,הלך,הָלַךְ,vocalize
+110,Arabic,ركض,رَكَضَ,vocalize
+110,Hebrew,רץ,רָץ,vocalize
+111,Arabic,قفز,قَفَزَ,vocalize
+111,Hebrew,קפץ,קָפַץ,vocalize
+112,Arabic,سبح,سَبَحَ,vocalize
+112,Hebrew,שחה,שָׂחָה,vocalize
+113,Arabic,طار,طَارَ,vocalize
+113,Hebrew,עף,עָף,vocalize
+119,Arabic,لتنسى,لِتَنْسَى,vocalize
+119,Hebrew,לשכוח,לִשְׁכֹּחַ,vocalize
+120,Arabic,لاحظ,لَاحَظَ,vocalize
+120,Hebrew,לשים לב,לָשִׂים לֵב,vocalize
+121,Arabic,تتجاهل,تَتَجاهَل,vocalize
+121,Hebrew,להתעלם,לְהִתְעַלֵּם,vocalize
+122,Arabic,لإضافة,لَأَضافَه,vocalize
+122,Hebrew,להוסיף,לְהוֹסִיף,vocalize
+126,Arabic,نهض,نَهَضَ,vocalize
+126,Hebrew,עלה,עָלֶה,vocalize
+127,Arabic,وقع,وَقَعَ,vocalize
+127,Hebrew,נפל,נָפַל,vocalize
+129,Arabic,مر,مُرّ,vocalize
+129,Hebrew,עבר,עָבָר,vocalize
+130,Arabic,غنى,غَنَّى,vocalize
+130,Hebrew,שר,שָׁר,vocalize
+131,Arabic,رقص,رَقَصَ,vocalize
+131,Hebrew,רקד,רָקַד,vocalize
+132,Arabic,لعب,لَعْب,vocalize
+132,Hebrew,שיחק,שִׂחֵק,vocalize
+133,Arabic,طفا,طَفَا,vocalize
+133,Hebrew,צף,צָף,vocalize
+134,Arabic,دفق,دَفْق,vocalize
+134,Hebrew,זרם,זֶרֶם,vocalize
+135,Arabic,جمد,جَمَّد,vocalize
+135,Hebrew,הקפיא,הִקְפִּיא,vocalize
+136,Arabic,ورم,وَرِمَ,vocalize
+136,Hebrew,התנפח ,הִתְנַפֵּחַ,vocalize
+137,Arabic,نما,نَما,vocalize
+137,Hebrew,גדל,גָּדַל,vocalize
+138,Arabic,حرق,حَرَقَ,vocalize
+138,Hebrew,שרף,שָׂרַף,vocalize
+140,Hebrew,לִטְחוֹן,לִטְחֹן,vocalize
+141,Arabic,يقلى,يَقْلَى,vocalize
+141,Hebrew,לטגן,לְטַגֵּן,vocalize
+145,Arabic,ليشوى,لِيَشْوِي,vocalize
+145,Hebrew,לצלות,לִצְלוֹת,vocalize
+146,Arabic,ليخبز,لِيَخْبِز,vocalize
+146,Hebrew,לאפות,לֶאֱפוֹת,vocalize
+149,Arabic,لتنفجر,لِتَنْفَجِر,vocalize
+149,Hebrew,להתפוצץ,לְהִתְפּוֹצֵץ,vocalize
+150,Arabic,حب,حَبَّ,vocalize
+150,Hebrew,אהב,אָהַב,vocalize
+152,Arabic,أراد,أَرَادَ,vocalize
+152,Hebrew,רצה,רָצָה,vocalize
+153,Arabic,احتاج,اِحْتَاجَ,vocalize
+153,Hebrew,צריך,צָרִיךְ,vocalize
+154,Arabic,كره,كَرِهَ,vocalize
+154,Hebrew,שנא,שָׂנֵא,vocalize
+155,Arabic,خاف,خَافَ,vocalize
+155,Hebrew,פחד,פַּחַד,vocalize
+157,Arabic,ليتغلغل,لِيَتَغَلْغَل,vocalize
+157,Hebrew,לחדור,לַחְדֹּר,vocalize
+160,Arabic,ليقاتل,لِيُقاتِل,vocalize
+160,Hebrew,להלחם,לְהִלָּחֵם,vocalize
+164,Arabic,حمى,حَمَى,vocalize
+164,Hebrew,להגן,לְהָגֵן,vocalize
+165,Arabic,كَوَّمَ,كَوْم,vocalize
+165,Hebrew,לערום,לַעֲרֹם,vocalize
+167,Arabic,أدخل,أَدْخَلَ,vocalize
+167,Hebrew,להכניס,לְהַכְנִיס,vocalize
+170,Arabic,بَلَّغَ,بَلَغَ,vocalize
+170,Hebrew,הודיע,הוֹדִיעַ,vocalize
+172,Arabic,ليكنس,لِيَكْنُس,vocalize
+172,Hebrew,לטאטא,לְטַאֲטֵא,vocalize
+175,Arabic,لتسجيل,لَتَسْجِيل,vocalize
+175,Hebrew,כדי להקליט,כְּדֵי לְהַקְלִיט,vocalize
+182,Arabic,يصرخ,يَصْرُخ,vocalize
+182,Hebrew,לצעוק,לִצְעֹק,vocalize
+183,Arabic,غرد,غَرَّدَ,vocalize
+183,Hebrew,צִיוּץ,צִיּוּץ,vocalize
+184,Arabic,صاح,صَاحَ,vocalize
+184,Hebrew,קרא,קָרָא,vocalize
+189,Arabic,ليعرض,لِيَعْرِض,vocalize
+189,Hebrew,להציג,לְהַצִּיג,vocalize
+195,Arabic,لترتعش,لِتَرْتَعِش,vocalize
+195,Hebrew,לרעוד,לִרְעֹד,vocalize
+200,Arabic,لتخسر,لِتَخْسَر,vocalize
+200,Hebrew,לאבד,לְאַבֵּד,vocalize
+209,Arabic,لتحميل,لَتَحْمِيل,vocalize
+209,Hebrew,לטעון,לִטְעֹן,vocalize
+211,Arabic,لأضعاف,لَإِضْعاف,vocalize
+211,Hebrew,לקפל,לִקְפֹּל,vocalize
+213,Arabic,لينسكب,لِيَنْسَكِب,vocalize
+213,Hebrew,לשפוך,לִשְׁפֹּךְ,vocalize
+217,Arabic,يسكب,يَسْكُب,vocalize
+217,Hebrew,לשפוך,לִשְׁפֹּךְ,vocalize
+218,Arabic,لتنقع,لِتَنْقَع,vocalize
+218,Hebrew,להשרות,לְהַשְׁרוֹת,vocalize
+219,Arabic,تسرب,تَسَرَّبَ,vocalize
+219,Hebrew,לנזול,לִנְזֹל,vocalize
+220,Arabic,لتقطر,لِتَقْطُر,vocalize
+220,Hebrew,לטפטף,לְטַפְטֵף,vocalize
+222,Arabic,لينشر,لِيَنْشُر,vocalize
+222,Hebrew,להפיץ,לְהָפִיץ,vocalize
+224,Arabic,لتصيب,لِتُصِيب,vocalize
+224,Hebrew,להדביק,לְהַדְבִּיק,vocalize
+226,Arabic,لتغرق,لِتَغْرَق,vocalize
+226,Hebrew,לשקוע,לִשְׁקֹעַ,vocalize
+227,Arabic,لنضيعه,لِنَضِيعه,vocalize
+227,Hebrew,לבזבז,לְבַזְבֵּז,vocalize
+228,Arabic,لتختفي,لِتَخْتَفَى,vocalize
+228,Hebrew,להיעלם,לְהֵעָלֵם,vocalize
+229,Arabic,ليتمدد,لِيَتَمَدَّد,vocalize
+229,Hebrew,להתמתח,לְהִתְמַתֵּחַ,vocalize
+231,Arabic,لتزيين,لَتَزَيَّيْن,vocalize
+231,Hebrew,לקשט,לְקַשֵּׁט,vocalize
+232,Arabic,يصبغ,يَصْبُغ,vocalize
+232,Hebrew,לצבוע,לִצְבֹּעַ,vocalize
+233,Arabic,يغلف,يُغَلِّف,vocalize
+233,Hebrew,לעטוף,לַעֲטֹף,vocalize
+244,Arabic,تنقي,تَنِقِّي,vocalize
+244,Hebrew,לסנן,לְסַנֵּן,vocalize
+248,Arabic,ليرث,لِيَرِث,vocalize
+248,Hebrew,לרשת,לָרֶשֶׁת,vocalize
+249,Arabic,يتدرب,يَتَدَرَّب,vocalize
+249,Hebrew,לאמן,לְאַמֵּן,vocalize
+253,Arabic,ليزحف,لِيَزْحَف,vocalize
+253,Hebrew,לזחול,לִזְחֹל,vocalize
+255,Arabic,يوظف,يُوَظِّف,vocalize
+255,Hebrew,להעסיק,לְהַעֲסִיק,vocalize
+261,Arabic,لتصدق,لِتُصَدِّق,vocalize
+261,Hebrew,להאמין,לְהַאֲמִין,vocalize
+265,Arabic,يستلف,يَسْتَلِف,vocalize
+265,Hebrew,ללוות,לְלַוּוֹת,vocalize
+266,Arabic,يقرض,يُقْرَض,vocalize
+266,Hebrew,להלוות,לְהַלְווֹת,vocalize
+268,Arabic,لحذف,لَحَذَف,vocalize
+268,Hebrew,למחוק,לִמְחֹק,vocalize
+271,Arabic,يناقش,يُناقِش,vocalize
+271,Hebrew,לדון,לָדוּן,vocalize
+272,Arabic,ليجادل,لِيُجادِل,vocalize
+272,Hebrew,להתווכח,לְהִתְוַכֵּחַ,vocalize
+275,Arabic,ليزود,لِيُزَوِّد,vocalize
+275,Hebrew,לספק,לְסַפֵּק,vocalize
+282,Arabic,ليؤثر,لِيُؤَثَّر,vocalize
+282,Hebrew,להשפיע,לְהַשְׁפִּיעַ,vocalize
+286,Arabic,ليتنبأ,لِيَتَنَبَّآ,vocalize
+286,Hebrew,לחזות,לַחֲזוֹת,vocalize
+291,Arabic,تحدي,تَحَدِّي,vocalize
+291,Hebrew,לאתגר,לְאַתְגֵּר,vocalize
+292,Arabic,يعاني,يُعانِي,vocalize
+292,Hebrew,לסבול,לִסְבֹּל,vocalize
+297,Arabic,يحذر,يُحَذِّر,vocalize
+297,Hebrew,להזהיר,לְהַזְהִיר,vocalize
+305,Arabic,لقيادة,لِقِيادَة,vocalize
+305,Hebrew,לפקוד,לִפְקֹד,vocalize
+306,Arabic,ليخدم,لِيَخْدُم,vocalize
+306,Hebrew,לשרת,לְשָׁרֵת,vocalize
+310,Arabic,للاعتناء ب,اِعْتَنَى بِـ,vocalize
+310,Hebrew,כדי לטפל ב,לְטַפֵּל בְּ־,vocalize
+316,Arabic,ليأمل,لِيَأْمَل,vocalize
+316,Hebrew,לקוות,לְקַוּוֹת,vocalize
+319,Arabic,لترشد,لِتُرْشَد,vocalize
+319,Hebrew,להדריך,לְהַדְרִיךְ,vocalize
+320,Arabic,أخطأ,أَخْطَأَ,vocalize
+320,Hebrew,החטיא,הֶחֱטִיא,vocalize
+321,Arabic,افتقد,اِفْتَقَدَ,vocalize
+321,Hebrew,התגעגע,הִתְגַּעְגֵּעַ,vocalize
+326,Arabic,ذكر,ذَكَرَ,vocalize
+326,Hebrew,להזכיר,לְהַזְכִּיר,vocalize
+330,Arabic,مسطح,مُسَطَّح,vocalize
+330,Hebrew,שטוח,שָׁטוּחַ,vocalize
+332,Arabic,مائل,مائِل,vocalize
+332,Hebrew,משופע,מְשֻׁפָּע,vocalize
+333,Arabic,مستقيم,مُسْتَقِيم,vocalize
+333,Hebrew,ישר,יָשָׁר,vocalize
+334,Arabic,مستدير,مُسْتَدِير,vocalize
+334,Hebrew,עגול,עָגֹל,vocalize
+336,Arabic,حاد,حَادّ,vocalize
+336,Hebrew,חד,חַד,vocalize
+337,Arabic,صريح,صَرِيح,vocalize
+337,Hebrew,בוטה,קֵהֶה,vocalize
+339,Arabic,خشن,خَشِن,vocalize
+339,Hebrew,מחוספס,מְחֻסְפָּס,vocalize
+340,Arabic,ضيق,ضَيِّق,vocalize
+340,Hebrew,צמוד,צָמוּד,vocalize
+341,Arabic,فضفاض,فَضْفَاض,vocalize
+341,Hebrew,רופף,רוֹפֵף,vocalize
+342,Arabic,صارم,صَارِم,vocalize
+342,Hebrew,קפדני,קַפְּדָנִי,vocalize
+343,Arabic,متساهل,مُتَساهِل,vocalize
+343,Hebrew,מקל,מַקֵּל,vocalize
+344,Arabic,متناثر,مُتَناثِر,vocalize
+344,Hebrew,דליל,דָּלִיל,vocalize
+345,Arabic,كثيف,كَثِيف,vocalize
+345,Hebrew,צפוף,צָפוּף,vocalize
+348,Arabic,ضبابي,ضَبابِيّ,vocalize
+348,Hebrew,מטושטש,מְטֻשְׁטָשׁ,vocalize
+349,Arabic,خفيف,خَفِيف,vocalize
+349,Hebrew,אור,אוֹר,vocalize
+350,Arabic,سميك,سَمِيك,vocalize
+350,Hebrew,עבה,חָזָק,vocalize
+351,Arabic,خفيف,خَفِيف,vocalize
+351,Hebrew,אור,אוֹר,vocalize
+353,Arabic,كبير,كَبِير,vocalize
+353,Hebrew,גדול,גָּדוֹל,vocalize
+356,Arabic,قصير,قَصِير,vocalize
+356,Hebrew,קצר,קָצָר,vocalize
+357,Arabic,واسع,واسِع,vocalize
+357,Hebrew,רחב,רָחָב,vocalize
+358,Arabic,ضيق,ضَيِّق,vocalize
+358,Hebrew,צר,צַר,vocalize
+359,Arabic,سميك,سَمِيك,vocalize
+359,Hebrew,עבה,עָבֶה,vocalize
+360,Arabic,نحيف,نَحِيف,vocalize
+360,Hebrew,רזה,רָזֶה,vocalize
+361,Arabic,سمين,سَمِين,vocalize
+361,Hebrew,שמן,שָׁמֵן,vocalize
+362,Arabic,نحيف,نَحِيف,vocalize
+362,Hebrew,רזה,רָזֶה,vocalize
+363,Arabic,سميك,سَمِيك,vocalize
+363,Hebrew,עבה,עָבֶה,vocalize
+366,Arabic,قصير,قَصِير,vocalize
+366,Hebrew,קצר,קָצָר,vocalize
+369,Arabic,عميق,عَمِيق,vocalize
+369,Hebrew,עמוק,עָמֹק,vocalize
+370,Arabic,ضحل,ضَحِل,vocalize
+370,Hebrew,רדוד,רָדוּד,vocalize
+371,Arabic,بعيد,بَعِيد,vocalize
+371,Hebrew,רחוק,רָחוֹק,vocalize
+375,Arabic,جاف,جَافّ,vocalize
+375,Hebrew,יבש,יָבֵשׁ,vocalize
+377,Arabic,بارد,بَارِد,vocalize
+377,Hebrew,קר,קַר,vocalize
+380,Arabic,بارد,بَارِد,vocalize
+380,Hebrew,מגניב,קָרִיר,vocalize
+381,Arabic,عبق,عَبِق,vocalize
+381,Hebrew,ריחני,רֵיחָנִי,vocalize
+382,Arabic,نتن,نَتِن,vocalize
+382,Hebrew,מסריח,מַסְרִיחַ,vocalize
+385,Arabic,حامض,حَامِض,vocalize
+385,Hebrew,חמוץ,חָמוּץ,vocalize
+386,Arabic,مالح,مَالِح,vocalize
+386,Hebrew,מלוח,מָלוּחַ,vocalize
+387,Arabic,حار,حَارّ,vocalize
+387,Hebrew,חריף,חָרִיף,vocalize
+388,Arabic,فارغ,فَارِغ,vocalize
+388,Hebrew,ריק,רִיק,vocalize
+390,Arabic,مكسور,مَكْسُور,vocalize
+390,Hebrew,שבור,שָׁבוּר,vocalize
+392,Arabic,ميت,مَيِّت,vocalize
+392,Hebrew,מת,מֵת,vocalize
+393,Arabic,حي,حَيّ,vocalize
+393,Hebrew,בחיים,בַּחַיִּים,vocalize
+396,Arabic,المشاعر,المَشاعِر,vocalize
+399,Arabic,متحمس,مُتَحَمِّس,vocalize
+399,Hebrew,נִרגָשׁ,נִרְגָּשׁ,vocalize
+400,Arabic,متوتر,مُتَوَتِّر,vocalize
+400,Hebrew,עַצבָּנִי,עַצְבָּנִי,vocalize
+404,Arabic,غاضب,غَاضِب,vocalize
+404,Hebrew,כועס,כּוֹעֵס,vocalize
+405,Arabic,غيور,غَيُور,vocalize
+405,Hebrew,קַנָאִי,קַנַּאי,vocalize
+406,Arabic,فضولي,فُضُولِيّ,vocalize
+406,Hebrew,סקרן,סַקְרָן,vocalize
+409,Arabic,ممل,مُمِلّ,vocalize
+411,Arabic,عادي,عَادِيّ,vocalize
+411,Hebrew,רגיל,רָגִיל,vocalize
+414,Arabic,مشهور,مَشْهُور,vocalize
+414,Hebrew,מפורסם,מְפֻרְסָם,vocalize
+416,Arabic,قبيح,قَبِيح,vocalize
+416,Hebrew,מכוער,מְכֹעָר,vocalize
+417,Arabic,مذنب,مُذَنَّب,vocalize
+417,Hebrew,אָשֵׁם,אָשֵׁם,vocalize
+419,Arabic,آمن,آمَنَ,vocalize
+419,Hebrew,בטוח,בָּטוּחַ,vocalize
+421,Arabic,مهم,مُهِمّ,vocalize
+422,Arabic,مريض,مَرِيض,vocalize
+422,Hebrew,סבלני,סַבְלָנִי,vocalize
+423,Arabic,شجاع,شُجَاع,vocalize
+423,Hebrew,אַמִיץ,אַמִּיץ,vocalize
+425,Arabic,شفاف,شَفَّاف,vocalize
+425,Hebrew,שָׁקוּף,שָׁקוּף,vocalize
+426,Arabic,إيجابي,إِيجَابِيّ,vocalize
+426,Hebrew,חִיוּבִי,חִיּוּבִי,vocalize
+427,Arabic,سلبي,سَلْبِيّ,vocalize
+427,Hebrew,שלילי,שְׁלִילִי,vocalize
+428,Arabic,مستقل,مُسْتَقِل,vocalize
+428,Hebrew,עצמאי,עַצְמָאִי,vocalize
+432,Arabic,مألوف,مَأْلُوف,vocalize
+432,Hebrew,מוּכָּר,מֻכָּר,vocalize
+433,Arabic,غريب,غَرِيب,vocalize
+434,Arabic,عشوائي,عَشْوَائِيّ,vocalize
+434,Hebrew,אַקרַאִי,אַקְרָאִי,vocalize
+435,Arabic,مستقر,مُسْتَقِرّ,vocalize
+435,Hebrew,יַצִיב,יַצִּיב,vocalize
+436,Arabic,ثابت,ثَابِت,vocalize
+436,Hebrew,עִקבִי,עִקְבִי,vocalize
+437,Arabic,اِعتِباطِيّ,اِعْتِبَاطِيّ,vocalize
+437,Hebrew,שרירותי,שְׁרִירוּתִי,vocalize
+439,Arabic,تقريبي,تَقْرِيبِيّ,vocalize
+439,Hebrew,לְהִתְקַרֵב,מְשׁוֹעָר,vocalize
+440,Arabic,دقيق,دَقِيقٌ,vocalize
+440,Hebrew,מְדוּיָק,מְדֻיָּק,vocalize
+441,Arabic,غريب,غَرِيب,vocalize
+441,Hebrew,מוזר,מוּזָר,vocalize
+443,Arabic,أعزب,أَعْزَب,vocalize
+443,Hebrew,יחיד,יָחִיד,vocalize
+451,Arabic,جديد,جَدِيد,vocalize
+451,Hebrew,חדש,חָדָשׁ,vocalize
+454,Arabic,شاب,شَابّ,vocalize
+454,Hebrew,צעיר,צָעִיר,vocalize
+456,Arabic,ضعيف,ضَعِيف,vocalize
+456,Hebrew,חלש,חַלָּשׁ,vocalize
+458,Arabic,صحي,صِحِّيّ,vocalize
+458,Hebrew,בריא,בָּרִיא,vocalize
+461,Arabic,عدل,عَدَّلَ,vocalize
+461,Hebrew,יריד,יָרִיד,vocalize
+464,Arabic,بطيء,بَطِيء,vocalize
+464,Hebrew,איטי,אִטִּי,vocalize
+466,Arabic,متأخر,مُتَأَخِّر,vocalize
+466,Hebrew,מאוחר,מְאֻחָר,vocalize
+467,Arabic,نظيف,نَظِيف,vocalize
+467,Hebrew,נקי,נָקִי,vocalize
+468,Arabic,مرتب,مُرَتَّب,vocalize
+468,Hebrew,מסודר,מְסֻדָּר,vocalize
+469,Arabic,قذر,قَذِر,vocalize
+469,Hebrew,מלוכלך,מְלֻכְלָךְ,vocalize
+470,Arabic,جديد,جَدِيد,vocalize
+470,Hebrew,טרי,טָרִי,vocalize
+471,Arabic,فاسد,فَاسِد,vocalize
+471,Hebrew,רקוב,רָקוּב,vocalize
+472,Arabic,ذكي,ذَكِيّ,vocalize
+472,Hebrew,חכם,חָכָם,vocalize
+473,Arabic,غبي,غَبِيّ,vocalize
+473,Hebrew,טיפש,טִפֵּשׁ,vocalize
+475,Arabic,رخيص,رَخِيص,vocalize
+475,Hebrew,זול,זוֹל,vocalize
+476,Arabic,فقير,فَقِير,vocalize
+476,Hebrew,עני,עָנִי,vocalize
+477,Arabic,غني,غَنِيّ,vocalize
+477,Hebrew,עשיר,עָשִׁיר,vocalize
+478,Arabic,مشغول,مَشْغُول,vocalize
+478,Hebrew,עמוס,עָמוּס,vocalize
+481,Arabic,صاخب,صاخِب,vocalize
+481,Hebrew,רועש,רוֹעֵשׁ,vocalize
+482,Arabic,هادئ,هَادِئ,vocalize
+482,Hebrew,שקט,שֶׁקֶט,vocalize
+483,Arabic,صامت,صَامِت,vocalize
+483,Hebrew,שותק,שׁוֹתֵק,vocalize
+485,Arabic,غبي,غَبِيّ,vocalize
+485,Hebrew,מטומטם,מְטֻמְטָם,vocalize
+486,Arabic,أعمى,أَعْمَى,vocalize
+486,Hebrew,עיוור,עִוֵּר,vocalize
+488,Arabic,عطشان,عَطْشَان,vocalize
+488,Hebrew,צמא,צָמֵא,vocalize
+489,Arabic,متعب,مُتْعَب,vocalize
+489,Hebrew,עייף,עָיֵף,vocalize
+491,Arabic,مجتهد,مُجْتَهِد,vocalize
+491,Hebrew,חרוץ,חָרוּץ,vocalize
+492,Arabic,قادر,قَادِر,vocalize
+492,Hebrew,יכול,יָכוֹל,vocalize
+494,Arabic,إلزامي,إِلْزَامِيّ,vocalize
+494,Hebrew,חובה,חוֹבָה,vocalize
+496,Arabic,راضي,راضِي,vocalize
+496,Hebrew,שבע רצון,שְׂבַע רָצוֹן,vocalize
+497,Arabic,الزهد,الزُهْد,vocalize
+498,Arabic,متساهل,مُتَساهِل,vocalize
+499,Arabic,وحيدا,وَحِيدا,vocalize
+500,Arabic,غائب,غَائِب,vocalize
+500,Hebrew,נֶעדָר,נֶעְדָּר,vocalize
+501,Arabic,حاضر,حَاضِر,vocalize
+501,Hebrew,נוכח,נוֹכֵחַ,vocalize
+502,Arabic,جمع,جَمَعَ,vocalize
+502,Hebrew,פופולרי,פּוֹפּוּלָרִי,vocalize
+503,Arabic,مسؤول,مَسْؤُول,vocalize
+503,Hebrew,אחראי,אַחְרָאִי,vocalize
+504,Arabic,جدي,جَدِّيّ,vocalize
+505,Arabic,رَسمِيّ,رَسْمِيّ,vocalize
+505,Hebrew,רִשְׁמִי,רִשְׁמִי,vocalize
+509,Arabic,معقول,مَعْقُول,vocalize
+509,Hebrew,רַצִיוֹנָלִי,רַצְיוֹנָלִי,vocalize
+510,Arabic,دائِخ,دَائِخ,vocalize
+510,Hebrew,סְחַרחַר,סְחַרְחַר,vocalize
+511,Arabic,مجنون,مَجْنُون,vocalize
+511,Hebrew,מְטוּרָף,מְטוֹרָף,vocalize
+512,Arabic,رصين,رَصِين,vocalize
+512,Hebrew,פִּכֵּחַ,פִּכֵּחַ,vocalize
+513,Arabic,سكران,سَكْرَان,vocalize
+513,Hebrew,שיכור,שִׁכּוֹר,vocalize
+514,Arabic,نعسان,نَعْسَان,vocalize
+514,Hebrew,מְנוּמנָם,מְנֻמְנָם,vocalize
+515,Arabic,جاهز,جَاهِز,vocalize
+516,Arabic,محتمل,مُحْتَمَل,vocalize
+516,Hebrew,מִסתַבֵּר,מִסְתַּבֵּר,vocalize
+517,Arabic,خاص,خَاصّ,vocalize
+517,Hebrew,פְּרָטִי,פְּרָטִי,vocalize
+518,Arabic,عامة,عَامَّة,vocalize
+518,Hebrew,פּוּמְבֵּי,פֻּמְבִּי,vocalize
+519,Arabic,أجنبي,أَجْنَبِيّ,vocalize
+520,Arabic,محلي,مَحَلِّيّ,vocalize
+522,Arabic,مشرق,مَشْرِق,vocalize
+522,Hebrew,בהיר,בָּהִיר,vocalize
+523,Arabic,مظلم,مُظْلِم,vocalize
+523,Hebrew,חשוך,חָשׁוּךְ,vocalize
+528,Arabic,أصفر,أَصْفَر,vocalize
+528,Hebrew,צהוב,צָהֹב,vocalize
+531,Arabic,أرجواني,أُرْجُوَانِيّ,vocalize
+531,Hebrew,סגול,סָגֹל,vocalize
+534,Arabic,رمادي,رَمَادِيّ,vocalize
+534,Hebrew,אפור,אָפוֹר,vocalize
+535,Arabic,ذهبي,ذَهَبِي,vocalize
+535,Hebrew,זהוב,זָהֹב,vocalize
+536,Arabic,فضة,فِضَّة,vocalize
+536,Hebrew,כסף,כֶּסֶף,vocalize
+537,Arabic,اللون,اللَوْن,vocalize
+537,Hebrew,צבע,צֶבַע,vocalize
+538,Arabic,أنا,أَنَا,vocalize
+538,Hebrew,אני,אֲנִי,vocalize
+539,Arabic,أنت,أَنْتَ,vocalize
+539,Hebrew,אתה,אַתָּה,vocalize
+540,Arabic,هو,هُوَ,vocalize
+540,Hebrew,הוא,הוּא,vocalize
+541,Arabic,هي,هِيَ,vocalize
+541,Hebrew,היא,הִיא,vocalize
+543,Arabic,نحن,نَحْنُ,vocalize
+544,Arabic,أنت,أَنْتَ,vocalize
+544,Hebrew,אתה,אַתָּה,vocalize
+545,Arabic,أنهم,هُمْ,vocalize
+546,Arabic,هذه,هَٰذِهِ,vocalize
+547,Arabic,الذي - التي,الَّذِي / الَّتِي,vocalize
+548,Arabic,هنا,هُنَا,vocalize
+548,Hebrew,כאן,כָּאן,vocalize
+549,Arabic,هناك,هُنَاكَ,vocalize
+549,Hebrew,שם,שֵׁם,vocalize
+552,Arabic,أين,أَيْن,vocalize
+552,Hebrew,איפה,אֵיפֹה,vocalize
+553,Arabic,متى,مَتَى,vocalize
+553,Hebrew,מתי,מָתַי,vocalize
+554,Arabic,كيف,كَيْف,vocalize
+555,Arabic,لماذا,لِمَاذَا,vocalize
+555,Hebrew,למה,לָמָּה,vocalize
+556,Arabic,التي,اَلَّتِي,vocalize
+556,Hebrew,איזה,אֵיזֶה,vocalize
+558,Arabic,كم الثمن,كَمْ,vocalize
+558,Hebrew,כמה,כַּמָּה,vocalize
+561,Arabic,عديدة,عَدِيدَة,vocalize
+561,Hebrew,רב,רָב,vocalize
+562,Arabic,بعض,بَعْض,vocalize
+562,Hebrew,כמה,כַּמָּה,vocalize
+563,Arabic,قليل,قَلِيل,vocalize
+563,Hebrew,מְעַטִים,מְעַטִּים,vocalize
+564,Arabic,آخر,آٰخَر,vocalize
+565,Arabic,جزء,جُزَء,vocalize
+566,Arabic,كل,كُلّ,vocalize
+566,Hebrew,כֹּל,כֹּל,vocalize
+567,Arabic,أكثر,أَكْثٰر,vocalize
+567,Hebrew,יותר,יוֹתֵר,vocalize
+568,Arabic,أقل,أَقَل,vocalize
+568,Hebrew,פָּחוֹת,פָּחוֹת,vocalize
+570,Arabic,الأقل,الأَقَلّ,vocalize
+570,Hebrew,הכי פחות,הֲכִי פָּחוֹת,vocalize
+571,Arabic,كل,كُلّ,vocalize
+571,Hebrew,כל אחד,כָּל אֶחָד,vocalize
+572,Arabic,زوج,زَوْج,vocalize
+572,Hebrew,זוג,זוּג,vocalize
+573,Arabic,نصف,نُصْف,vocalize
+573,Hebrew,חֲצִי,חֵצִי,vocalize
+574,Arabic,صفر,صَفَرَ,vocalize
+575,Arabic,واحد,وَاحِد,vocalize
+575,Hebrew,אחד,אֶחָד,vocalize
+577,Arabic,ثلاثة,ثَلَاثَة,vocalize
+577,Hebrew,שְׁלוֹשָׁה,שְׁלוֹשָׁה,vocalize
+578,Arabic,أربعة,أَرْبَعَة,vocalize
+578,Hebrew,ארבע,אַרְבַּע,vocalize
+579,Arabic,خمسة,خَمْسَة,vocalize
+580,Arabic,ستة,سِتَّة,vocalize
+580,Hebrew,שֵׁשׁ,שֵׁשׁ,vocalize
+581,Arabic,سبعة,سَبْعَة,vocalize
+581,Hebrew,שבע,שֶׁבַע,vocalize
+582,Arabic,ثمانية,ثَمَانِيَة,vocalize
+582,Hebrew,שמונה,שְׁמוֹנֶה,vocalize
+583,Arabic,تسع,تِسْع,vocalize
+583,Hebrew,תֵשַׁע,תֵּשַׁע,vocalize
+584,Arabic,عشرة,عَشَرَة,vocalize
+584,Hebrew,עשר,עֶשֶׂר,vocalize
+586,Arabic,ألف,أَلْف,vocalize
+586,Hebrew,אלף,אֶלֶף,vocalize
+587,Arabic,عشرة آلاف,عَشَرَة آلَاف,vocalize
+587,Hebrew,עשרת אלפים,עֲשֶׂרֶת אֲלָפִים,vocalize
+588,Arabic,مليون,مِلْيُون,vocalize
+588,Hebrew,מִילִיוֹן,מִילְיוֹן,vocalize
+589,Arabic,مليار,مِلْيَار,vocalize
+589,Hebrew,מיליארד,מִילְיַארְד,vocalize
+590,Arabic,تريليون,تِرِيلِيُون,vocalize
+590,Hebrew,טרִילִיוֹן,טְרִילְיוֹן,vocalize
+591,Arabic,أول,أَوَّل,vocalize
+591,Hebrew,ראשון,רִאשׁוֹן,vocalize
+592,Arabic,الاخير,الأَخِير,vocalize
+592,Hebrew,אחרון,אַחֲרוֹן,vocalize
+593,Arabic,التالي,التالِي,vocalize
+594,Arabic,السابق,السابِق,vocalize
+594,Hebrew,קודם,קוֹדֵם,vocalize
+595,Arabic,شيء,شَيْء,vocalize
+595,Hebrew,דָבָר,דָּבָר,vocalize
+596,Arabic,بشري,بَشَرِيّ,vocalize
+596,Hebrew,בן אנוש,בֶּן אֱנוֹשׁ,vocalize
+597,Arabic,شخص,شَخْص,vocalize
+597,Hebrew,אדם,אָדָם,vocalize
+599,Arabic,تعداد السكان,تَعْداد السُكّان,vocalize
+599,Hebrew,אוּכְלוֹסִיָה,אֻכְלוּסִיָּה,vocalize
+600,Arabic,رجل,رِجْل,vocalize
+600,Hebrew,איש,אִישׁ,vocalize
+601,Arabic,النساء,النِساء,vocalize
+601,Hebrew,אִשָׁה,אִשָּׁה,vocalize
+602,Arabic,طفل,طِفْل,vocalize
+603,Arabic,ولد,وَلَد,vocalize
+604,Arabic,بنت,بِنْت,vocalize
+604,Hebrew,ילדה,יַלְדָּה,vocalize
+605,Arabic,ابن,اِبْن,vocalize
+605,Hebrew,בֵּן,בֵּן,vocalize
+606,Arabic,بنت,بِنْت,vocalize
+606,Hebrew,בַּת,בַּת,vocalize
+607,Arabic,زوجة,زَوْجَة,vocalize
+607,Hebrew,אשה,אִשָּׁה,vocalize
+608,Arabic,الزوج,الزَوْج,vocalize
+608,Hebrew,בַּעַל,בַּעַל,vocalize
+609,Arabic,أم,أُمّ,vocalize
+609,Hebrew,אִמָא,אִמָּא,vocalize
+610,Arabic,الآب,الأَب,vocalize
+611,Arabic,الأبوين,الأَبَوَيْن,vocalize
+611,Hebrew,הוֹרֶה,הוֹרָה,vocalize
+612,Arabic,أسرة,أُسْرَة,vocalize
+612,Hebrew,מִשׁפָּחָה,מִשְׁפָּחָה,vocalize
+613,Arabic,طفل,طِفْل,vocalize
+613,Hebrew,תִינוֹק,תִּינוֹק,vocalize
+614,Arabic,بالغ,بَالِغ,vocalize
+614,Hebrew,מְבוּגָר,מְבֻגָּר,vocalize
+615,Arabic,جد,جَدّ,vocalize
+615,Hebrew,סָבָּא,סַבָּא,vocalize
+616,Arabic,جدة,جَدَّة,vocalize
+616,Hebrew,סַבתָא,סָבְתָא,vocalize
+617,Arabic,حفيد,حَفِيد,vocalize
+618,Arabic,حفيدة,حَفِيدَة,vocalize
+618,Hebrew,נֶכדָה,נֶכְדָּה,vocalize
+619,Arabic,أخت,أُخْت,vocalize
+620,Arabic,شقيق,شَقِيق,vocalize
+623,Arabic,الاخت الكبرى,الأُخْت الكُبْرِي,vocalize
+623,Hebrew,אחות גדולה,אָחוֹת גְּדוֹלָה,vocalize
+624,Arabic,اختي الصغيرة,أُخْتَيّ الصَغِيرَة,vocalize
+624,Hebrew,אחות קטנה,אָחוֹת קְטַנָּה,vocalize
+625,Arabic,أخوة,أَخُوه,vocalize
+625,Hebrew,אחים,אַחִים,vocalize
+627,Arabic,ابنة بالنسب,اِبْنَة بِالنِسَب,vocalize
+627,Hebrew,בת חורגת,בַּת חוֹרֶגֶת,vocalize
+628,Arabic,شقيق الزوج,شَقِيق الزَوْج,vocalize
+628,Hebrew,גיס,גִּיס,vocalize
+630,Arabic,ووالد بالتبنى,وَوالِد بِالتَبَنِّي,vocalize
+630,Hebrew,חמות,חָמוֹת,vocalize
+633,Arabic,زوج الأم,زَوْج الأُمّ,vocalize
+633,Hebrew,אבא חורג,אַבָּא חוֹרֵג,vocalize
+634,Arabic,زوجة الأب,زَوْجَةُ الْأَب,vocalize
+634,Hebrew,אמא חורגת,אִמָּא חוֹרֶגֶת,vocalize
+635,Arabic,ابنة الأب,اِبْنَة الأَب,vocalize
+635,Hebrew,בת חורגת,בַּת חוֹרֶגֶת,vocalize
+636,Arabic,ربيب,رَبِيب,vocalize
+636,Hebrew,בֶּן חוֹרֵג,בֵּן חוֹרֵג,vocalize
+637,Arabic,عمة,عَمَّة,vocalize
+637,Hebrew,דוֹדָה,דּוֹדָה,vocalize
+639,Arabic,ابن شقيق,اِبْن شَقِيق,vocalize
+639,Hebrew,אחיין,אַחְיָן,vocalize
+640,Arabic,ابنة الأخت,اِبْنَة الأُخْت,vocalize
+640,Hebrew,אחיינית,אַחְיָנִית,vocalize
+641,Arabic,حيوان,حَيَوَان,vocalize
+641,Hebrew,בעל חיים,בַּעַל חַיִּים,vocalize
+642,Arabic,حيوان أليف,حَيَوَان أَلِيف,vocalize
+642,Hebrew,חיית מחמד,חַיַּת מַחְמָד,vocalize
+644,Arabic,حديقة حيوان,حَدِيقَة حَيَوَان,vocalize
+644,Hebrew,גַן חַיוֹת,גַּן חַיּוֹת,vocalize
+646,Arabic,بقرة,بَقَرَة,vocalize
+646,Hebrew,פָּרָה,פָּרָה,vocalize
+647,Arabic,حصان,حِصَان,vocalize
+648,Arabic,حمار,حِمَار,vocalize
+648,Hebrew,חמור,חֲמוֹר,vocalize
+649,Arabic,خنزير,خِنْزِير,vocalize
+650,Arabic,الفأر,الفار,vocalize
+650,Hebrew,עכבר,עַכְבָּר,vocalize
+651,Arabic,قط,قِطّ,vocalize
+651,Hebrew,חתול,חָתוּל,vocalize
+652,Arabic,كلب,كَلْب,vocalize
+652,Hebrew,כֶּלֶב,כֶּלֶב,vocalize
+653,Arabic,نمر,نَمِر,vocalize
+654,Arabic,أسد,أَسَد,vocalize
+654,Hebrew,אַריֵה,אַרְיֵה,vocalize
+655,Arabic,أرنب,أَرْنَب,vocalize
+655,Hebrew,ארנב,אַרְנָב,vocalize
+656,Arabic,خروف,خَرُوف,vocalize
+656,Hebrew,כבשים,כְּבָשִׂים,vocalize
+657,Arabic,لحم ضأن,لَحْم ضَأْن,vocalize
+657,Hebrew,טלה,טָלֶה,vocalize
+658,Arabic,ماعز,مَاعِز,vocalize
+659,Arabic,قرد,قِرْد,vocalize
+659,Hebrew,קוֹף,קוּף,vocalize
+660,Hebrew,פנדה,פַּנְדָּה,vocalize
+661,Arabic,دب,دُبّ,vocalize
+661,Hebrew,דוב,דּוֹב,vocalize
+663,Arabic,ذئب,ذِئْب,vocalize
+664,Arabic,الثعلب,الثَعْلَب,vocalize
+665,Arabic,جمل,جَمَل,vocalize
+665,Hebrew,גָמָל,גָּמָל,vocalize
+666,Arabic,الفيل,الفِيل,vocalize
+666,Hebrew,פיל,פִּיל,vocalize
+667,Arabic,زرافة,زَرَافَة,vocalize
+667,Hebrew,ג'ִירָפָה,גִ'ירָפָה,vocalize
+669,Arabic,وحيد القرن,وَحِيد اَلْقَرْن,vocalize
+669,Hebrew,קַרנַף,קַרְנַף,vocalize
+670,Arabic,فهد,فَهْد,vocalize
+671,Arabic,الفهد,الفَهْد,vocalize
+671,Hebrew,בַּרדְלָס,בַּרְדְּלָס,vocalize
+672,Arabic,كنغر,كَنْغَر,vocalize
+672,Hebrew,קנגרו,קֶנְגּוּרוּ,vocalize
+673,Arabic,سنجاب,سِنْجَاب,vocalize
+673,Hebrew,סנאי,סְנָאִי,vocalize
+674,Arabic,قنفذ,قُنْفُذ,vocalize
+675,Arabic,قندس,قُنْدُس,vocalize
+675,Hebrew,לוּטרָה,לוּטְרָה,vocalize
+676,Arabic,مضرب,مِضْرَب,vocalize
+676,Hebrew,עטלף,עֲטַלֵּף,vocalize
+677,Arabic,عصفور,عُصْفُور,vocalize
+677,Hebrew,ציפור,צִפּוֹר,vocalize
+678,Arabic,عش,عُشّ,vocalize
+679,Arabic,دجاج,دَجَاج,vocalize
+679,Hebrew,עוף,עוֹף,vocalize
+680,Arabic,حمامة,حَمَامَة,vocalize
+681,Arabic,بطة,بَطَّة,vocalize
+681,Hebrew,ברווז,בַּרְוָז,vocalize
+683,Arabic,الطائر الطنان,الطائِر الطُنّان,vocalize
+684,Arabic,عصفور,عُصْفُور,vocalize
+684,Hebrew,דְרוֹר,דְּרוֹר,vocalize
+686,Arabic,الصفارية,الصفاريه,vocalize
+687,Arabic,طائر القلاع,طائِر القِلاع,vocalize
+687,Hebrew,ציפור קיכלי,צִפּוֹר קִיכְלִי,vocalize
+688,Arabic,ابتلاع الطيور,ابتلاع الطُيُور,vocalize
+688,Hebrew,לבלוע ציפור,לִבְלֹעַ צִפּוֹר,vocalize
+690,Arabic,ببغاء,بَبَّغَاء,vocalize
+690,Hebrew,תוּכִּי,תֻּכִּי,vocalize
+691,Arabic,نقار الخشب,نَقَّار الخَشَب,vocalize
+691,Hebrew,נַקָר,נַקָּר,vocalize
+693,Arabic,البلشون الأبيض,البَلَشُون الأَبْيَض,vocalize
+693,Hebrew,אֲנָפָה,לִבְנִית,vocalize
+694,Arabic,كركي,كُرْكِيّ,vocalize
+694,Hebrew,עגור,עָגוּר,vocalize
+695,Hebrew,יַנשׁוּף,יַנְשׁוּף,vocalize
+698,Arabic,البطريق,البِطْرِيق,vocalize
+698,Hebrew,פינגווין,פִּינְגְּוִין,vocalize
+699,Arabic,نعامة,نَعَامَة,vocalize
+699,Hebrew,יען,יָעֵן,vocalize
+701,Arabic,البجع,البَجَع,vocalize
+701,Hebrew,שַׁקנַאי,שַׂקְנַאי,vocalize
+702,Hebrew,פלָמִינגוֹ,פְלָמִינְגּוֹ,vocalize
+703,Arabic,ضفدع,ضَفْدَع,vocalize
+704,Arabic,الزواحف,الزَواحِف,vocalize
+705,Arabic,تمساح,تِمْسَاح,vocalize
+705,Hebrew,תַנִין,תַּנִּין,vocalize
+706,Arabic,سمك,سَمَك,vocalize
+706,Hebrew,דג,דָּג,vocalize
+707,Hebrew,צב,צָב,vocalize
+708,Arabic,سلحفاة,سُلَحْفَاة,vocalize
+709,Arabic,جمبري,جَمْبَرِيّ,vocalize
+709,Hebrew,שרימפ,שְׁרִימְפּ,vocalize
+710,Arabic,سرطان البحر,سَرَطان البَحْر,vocalize
+710,Hebrew,לובסטר,לוֹבְּסְטֶר,vocalize
+711,Arabic,سلطعون,سَلْطَعون,vocalize
+711,Hebrew,סרטן,סַרְטַן,vocalize
+712,Arabic,حوت,حُوت,vocalize
+712,Hebrew,לוויתן,לִוְיָתָן,vocalize
+713,Arabic,قرش,قِرْش,vocalize
+713,Hebrew,כריש,כָּרִישׁ,vocalize
+714,Hebrew,דולפין,דּוֹלְפִין,vocalize
+717,Arabic,قناديل البحر,قَنادِيل البَحْر,vocalize
+717,Hebrew,מדוזה,מֶדוּזָה,vocalize
+718,Arabic,نجم البحر,نَجْم البَحْر,vocalize
+719,Arabic,فرس البحر,فَرَس البَحْر,vocalize
+719,Hebrew,סוסון ים,סוּסוֹן יָם,vocalize
+720,Arabic,حبار,حَبَّار,vocalize
+720,Hebrew,דיונון,דְּיוֹנוּן,vocalize
+721,Arabic,أخطبوط,أَخْطَبُوط,vocalize
+721,Hebrew,תמנון,תְּמָנוּן,vocalize
+722,Arabic,صدَفَة,صُدْفَة,vocalize
+722,Hebrew,צדף,צֶדֶף,vocalize
+723,Arabic,الذبل درع قرني,الذَبْل دِرْع قَرْنَيّ,vocalize
+723,Hebrew,שִׁריוֹן,שִׁרְיוֹן,vocalize
+724,Arabic,محارة,مَحاره,vocalize
+724,Hebrew,קוּנכִיָה,קוֹנְכִיָּה,vocalize
+726,Arabic,محار,مَحَار,vocalize
+726,Hebrew,צִדפָּה,צִדְפָּה,vocalize
+727,Arabic,شقائق النعمان البحرية,شَقائِق النُعْمان البَحْرِيَّة,vocalize
+727,Hebrew,שושנת ים,שׁוֹשַׁנַּת יָם,vocalize
+728,Arabic,المرجان,المَرْجان,vocalize
+728,Hebrew,אלמוג,אַלְמוֹג,vocalize
+729,Arabic,جرثومة,جُرْثُومَة,vocalize
+729,Hebrew,נֶבֶט,חַיְדָּק,vocalize
+730,Arabic,بكتيريا,بَكْتِيرِيا,vocalize
+730,Hebrew,בַּקטֶרִיָה,בַּקְטֶרְיָה,vocalize
+731,Hebrew,נגיף,נְגִיף,vocalize
+732,Arabic,الحشرات,الحَشَرات,vocalize
+733,Arabic,يطير,يَطِير,vocalize
+733,Hebrew,"לטוס, זבוב","לָטוּס, זְבוּב",vocalize
+734,Arabic,البعوض,البَعُوض,vocalize
+734,Hebrew,יַתוּשׁ,יַתּוּשׁ,vocalize
+735,Hebrew,שַׁפִּירִית,שַׁפִּירִית,vocalize
+736,Arabic,الجراد,الجَراد,vocalize
+737,Arabic,يرقة,يَرَقَة,vocalize
+738,Arabic,النمل الأبيض,النَمَل الأَبْيَض,vocalize
+738,Hebrew,טֶרמִיט,טֶרְמִיט,vocalize
+739,Arabic,دعسوقة,دعسوقه,vocalize
+740,Arabic,حلزون,حَلَزُون,vocalize
+740,Hebrew,שַׁבְּלוּל,שַׁבְּלוּל,vocalize
+741,Arabic,برج العقرب,بُرْج العَقْرَب,vocalize
+741,Hebrew,עַקרָב,עַקְרָב,vocalize
+742,Arabic,عنكبوت,عَنْكَبُوت,vocalize
+742,Hebrew,עַכָּבִישׁ,עַכָּבִישׁ,vocalize
+743,Arabic,النملة,النَمْلَة,vocalize
+744,Arabic,نحلة,نَحْلَة,vocalize
+744,Hebrew,דבורה,דְּבוֹרָה,vocalize
+745,Arabic,فراشة,فَرَاشَة,vocalize
+745,Hebrew,פַּרְפַּר,פַּרְפַּר,vocalize
+746,Arabic,قملة,قَمْلَة,vocalize
+746,Hebrew,כינה,כִּנָּה,vocalize
+747,Arabic,الزيز,الزِيز,vocalize
+749,Arabic,حشرة العتة,حَشَرَة العُتْه,vocalize
+750,Arabic,حريش,حَرِيش,vocalize
+751,Hebrew,מרבה רגליים,מַרְבֶּה רַגְלַיִם,vocalize
+752,Hebrew,קרִיקֶט,קְרִיקֶט,vocalize
+753,Arabic,يراعة,يَرَاعَة,vocalize
+753,Hebrew,גַחֲלִילִית,גַּחְלִילִית,vocalize
+754,Arabic,ثعبان,ثُعْبَان,vocalize
+756,Arabic,مصنع,مَصْنَع,vocalize
+756,Hebrew,צמח,צֶמַח,vocalize
+757,Arabic,شجرة,شَجَرَة,vocalize
+758,Arabic,غابة,غَابَة,vocalize
+759,Arabic,عصا,عَصًا,vocalize
+759,Hebrew,מקל,מַקֵּל,vocalize
+760,Arabic,فاكهة,فَاكِهَة,vocalize
+760,Hebrew,פרי,פְּרִי,vocalize
+761,Arabic,توت,تُوت,vocalize
+762,Arabic,نواة,نِوَاة,vocalize
+762,Hebrew,גַרעִין,גַּרְעִין,vocalize
+763,Arabic,تفاح,تُفَّاح,vocalize
+763,Hebrew,תפוח עץ,תַּפּוּחַ עֵץ,vocalize
+764,Arabic,موز,مَوْز,vocalize
+764,Hebrew,בננה,בָּנָנָה,vocalize
+765,Arabic,كمثرى,كُمَّثْرَى,vocalize
+765,Hebrew,אגס,אַגָּס,vocalize
+767,Arabic,الفراولة,الفَراوِلَة,vocalize
+768,Arabic,أناناس,أَنَانَاس,vocalize
+768,Hebrew,אננס,אָנָנָס,vocalize
+769,Arabic,خوخ,خَوْخ,vocalize
+769,Hebrew,אפרסק,אֲפַרְסֵק,vocalize
+770,Arabic,كرز,كَرَز,vocalize
+770,Hebrew,דובדבן,דֻּבְדְּבָן,vocalize
+771,Arabic,شمام,شَمَّام,vocalize
+771,Hebrew,מֵלוֹן,מָלוֹן,vocalize
+772,Arabic,البطيخ,البَطِّيخ,vocalize
+772,Hebrew,אבטיח,אֲבַטִּיחַ,vocalize
+773,Arabic,أفوكادو,أَفُوكَادُو,vocalize
+773,Hebrew,אבוקדו,אָבוֹקָדוֹ,vocalize
+774,Arabic,كيوي,كِيوِي,vocalize
+774,Hebrew,קיווי,קִיוִי,vocalize
+775,Arabic,مانجو,مَانْجُو,vocalize
+775,Hebrew,מנגו,מַנְגּוֹ,vocalize
+776,Arabic,دوريان,دَوْرِيّان,vocalize
+776,Hebrew,דוריאן,דּוֹרִיאָן,vocalize
+777,Arabic,فاكهة النجمة,فَاكِهَة النَّجْمَة,vocalize
+777,Hebrew,starfruit,קָרַמְבּוֹלָה,vocalize
+778,Arabic,مانغوستين,مَانْغُوسْتِين,vocalize
+778,Hebrew,מנגוסטין,מַנְגּוֹסְטִין,vocalize
+779,Arabic,فاكهة التنين,فاكِهَة التِنِّين,vocalize
+779,Hebrew,פיטאיה,פִּיטָאיָה,vocalize
+780,Arabic,رمان,رُمَّان,vocalize
+780,Hebrew,רימון,רִמּוֹן,vocalize
+781,Arabic,تين,تِين,vocalize
+781,Hebrew,תאנה,תְּאֵנָה,vocalize
+782,Arabic,الخضروات,الخَضْرَوات,vocalize
+782,Hebrew,ירקות,יָרָק,vocalize
+783,Arabic,البطاطس,البَطاطِس,vocalize
+783,Hebrew,תפוח אדמה,תַּפּוּחַ אֲדָמָה,vocalize
+784,Arabic,بطاطا حلوة,بَطَاطَا حُلْوَة,vocalize
+784,Hebrew,בטטה,בָּטָטָה,vocalize
+785,Arabic,طماطم,طَمَاطِم,vocalize
+785,Hebrew,עגבנייה,עַגְבָנִיָּה,vocalize
+786,Arabic,خردل,خَرْدَل,vocalize
+786,Hebrew,חרדל,חַרְדָּל,vocalize
+787,Hebrew,קטשופ,קֶטְשׁוֹפּ,vocalize
+788,Hebrew,בָּמבּוּק,בַּמְבּוּק,vocalize
+789,Arabic,قصب,قَصَب,vocalize
+789,Hebrew,מקל,מַקֵּל,vocalize
+790,Arabic,فطر,فُطْر,vocalize
+790,Hebrew,פטרייה,פִּטְרִיָּה,vocalize
+791,Arabic,ثوم,ثُوم,vocalize
+791,Hebrew,שום,שׁוּם,vocalize
+792,Arabic,زنجبيل,زَنْجَبِيل,vocalize
+792,Hebrew,ג'ינג'ר,גִּ'ינְגֶ'ר,vocalize
+793,Arabic,البصل الأخضر,البَصَل الأَخْضَر,vocalize
+794,Arabic,خيار,خِيَار,vocalize
+794,Hebrew,מלפפון,מְלָפְפוֹן,vocalize
+795,Arabic,بصلة,بِصِلَة,vocalize
+795,Hebrew,בצל,בָּצָל,vocalize
+797,Arabic,سبانخ,سَبَانِخ,vocalize
+797,Hebrew,תרד,תֶּרֶד,vocalize
+798,Arabic,بروكلي,بْرُوكُلِي,vocalize
+798,Hebrew,ברוקולי,בְּרוֹקוֹלִי,vocalize
+799,Arabic,كرنب,كُرُنْب,vocalize
+799,Hebrew,כרוב,כְּרוּב,vocalize
+800,Arabic,قرنبيط,قَرْنَبِيط,vocalize
+800,Hebrew,כרובית,כְּרוּבִית,vocalize
+801,Arabic,يقطين,يَقْطِين,vocalize
+801,Hebrew,דלעת,דְּלַעַת,vocalize
+802,Arabic,كرفس,كَرَفْس,vocalize
+802,Hebrew,סלרי,סֶלֶרִי,vocalize
+803,Hebrew,חסה,חַסָּה,vocalize
+804,Arabic,جزرة,جُزُره,vocalize
+804,Hebrew,גזר,גֶּזֶר,vocalize
+805,Arabic,حبوب ذرة,حُبُوب ذَرَّة,vocalize
+805,Hebrew,תירס,תִּירָס,vocalize
+806,Arabic,باذنجان,بَاذِنْجَان,vocalize
+806,Hebrew,חציל,חָצִיל,vocalize
+807,Arabic,القرع,القَرْع,vocalize
+807,Hebrew,דְלַעַת,דְּלַעַת,vocalize
+808,Arabic,بذرة,بِذْرَة,vocalize
+809,Arabic,ورقة الشجر,وَرَقَة الشَجَر,vocalize
+809,Hebrew,עלה,עָלֶה,vocalize
+810,Arabic,غصين,غُصَيْن,vocalize
+811,Arabic,فرع شجرة,فَرْع شَجَرَة,vocalize
+811,Hebrew,ענף,עָנָף,vocalize
+812,Arabic,جذع,جِذْع,vocalize
+812,Hebrew,חדק,חֵדֶק,vocalize
+813,Arabic,عقب السيجارة,عُقْب السِيجارَة,vocalize
+813,Hebrew,גֶדֶם,גֶּדֶם,vocalize
+814,Arabic,جذر,جَذْر,vocalize
+814,Hebrew,שורש,שׁוֹרֶשׁ,vocalize
+815,Arabic,لحاء الشجر,لَحاء الشَجَر,vocalize
+815,Hebrew,לִנְבּוּחַ,קְלִפַּת עֵץ,vocalize
+816,Arabic,شجيرة,شُجَيْرَة,vocalize
+816,Hebrew,שיח,שִׂיחַ,vocalize
+817,Arabic,زهرة,زَهْرَة,vocalize
+817,Hebrew,פֶּרַח,פֶּרַח,vocalize
+818,Arabic,بتلة,بَتَلَة,vocalize
+818,Hebrew,עָלֵי כּוֹתֶרֶת,עֲלֵי כּוֹתֶרֶת,vocalize
+820,Arabic,طفرات,طَفَرات,vocalize
+820,Hebrew,קוצים,קוֹץ,vocalize
+821,Arabic,لوتس,لُوتِس,vocalize
+822,Arabic,وَردَة,وَرْدَة,vocalize
+822,Hebrew,ורד,וֶרֶד,vocalize
+823,Arabic,زنبق,زَنْبَق,vocalize
+823,Hebrew,שׁוֹשָׁן,שׁוֹשָׁן,vocalize
+824,Hebrew,חִנָנִית,חִנָּנִית,vocalize
+825,Arabic,توليب,تُولِيب,vocalize
+825,Hebrew,צִבעוֹנִי,צִבְעוֹנִי,vocalize
+826,Arabic,زهرة الأوركيد,زُهْرَة الاوركيد,vocalize
+827,Arabic,قرنفل,قَرَنْفُل,vocalize
+828,Arabic,صفير,صُفَيْر,vocalize
+828,Hebrew,יַקִינתוֹן,יַקִּנְתּוֹן,vocalize
+829,Arabic,أقحوان,أُقْحُوَان,vocalize
+829,Hebrew,חַרצִית,חַרְצִית,vocalize
+832,Arabic,شقائق النعمان,شَقائِق النُعْمان,vocalize
+832,Hebrew,כַּלָנִית,כַּלָּנִית,vocalize
+834,Arabic,داليا,دَالِيَّا,vocalize
+834,Hebrew,דַהלִיָה,דַּלִיָּה,vocalize
+836,Arabic,عشبة الحوذان,عُشْبَة الحوذان,vocalize
+836,Hebrew,נוּרִית צְהוּבָּה,נוּרִית צְהֻבָּה,vocalize
+838,Hebrew,גרניום,גֵּרַנְיוּם,vocalize
+839,Arabic,العائق,العائِق,vocalize
+839,Hebrew,דָרְבָנִית,דָּרְבָּנִית,vocalize
+841,Arabic,قزحية,قُزَحِيَّة,vocalize
+841,Hebrew,קַשׁתִית,קַשְתִית,vocalize
+842,Arabic,شقائق النعمان,شَقائِق النُعْمان,vocalize
+842,Hebrew,פָּרָג,פֶּרֶג,vocalize
+843,Arabic,كاميليا,كَامِيلِيَا,vocalize
+843,Hebrew,קמליה,קָמֶלְיָה,vocalize
+846,Hebrew,הִיבִּיסקוּס,הִיבִּיסְקוּס,vocalize
+847,Arabic,الياسمين,الياسْمِين,vocalize
+847,Hebrew,יַסמִין,יַסְמִין,vocalize
+848,Arabic,أرجواني,أُرْجُوَانِيّ,vocalize
+848,Hebrew,לִילָך,לִילָךְ,vocalize
+849,Arabic,البابونج,البابُونَج,vocalize
+849,Hebrew,קמומיל,קָמוֹמִיל,vocalize
+850,Arabic,دوار الشمس,دَوَّار اَلشَّمْس,vocalize
+850,Hebrew,חַמָנִית,חַמָּנִית,vocalize
+851,Arabic,قصب,قَصَب,vocalize
+851,Hebrew,קנה סוף,קְנֵה סוֹף,vocalize
+852,Arabic,صبار,صَبَّار,vocalize
+852,Hebrew,קַקטוּס,קַקְטוּס,vocalize
+853,Arabic,الأشواك,الأَشْواك,vocalize
+853,Hebrew,קוצים,קוֹצִים,vocalize
+855,Arabic,أسبن,اسبن,vocalize
+855,Hebrew,צַפצָפָה רַעֲדָנִית,צַפְצָפָה רַעֲדָנִית,vocalize
+856,Arabic,شجرة التوت,شَجَرَة التُوت,vocalize
+856,Hebrew,עץ תות,עֵץ תּוּת,vocalize
+857,Arabic,شجرة الصنوبر,شَجَرَة الصَنَوْبَر,vocalize
+857,Hebrew,עץ אורן,עֵץ אֹרֶן,vocalize
+858,Arabic,شجرة الجراد,شَجَرَة الجَراد,vocalize
+858,Hebrew,עץ ארבה,עֵץ אַרְבֶּה,vocalize
+859,Arabic,شجرة الكافور,شَجَرَة الكافُور,vocalize
+859,Hebrew,עץ קמפור,עֵץ קַמְפוֹר,vocalize
+861,Hebrew,לִבנֶה,לִבְנֶה,vocalize
+862,Arabic,البلوط,البَلُّوط,vocalize
+862,Hebrew,אַלוֹן,אַלּוֹן,vocalize
+863,Arabic,شجرة النخيل,شَجَرَة النَخِيل,vocalize
+863,Hebrew,עץ דקל,עֵץ דֶּקֶל,vocalize
+864,Arabic,شجر جميز,شَجَر جُمَّيْز,vocalize
+864,Hebrew,שִׁקמָה,שִׁקְמָה,vocalize
+865,Arabic,الأرز,الأَرُزّ,vocalize
+866,Arabic,الدردار,الدَرْدار,vocalize
+867,Arabic,خشب الزان,خَشَب الزان,vocalize
+867,Hebrew,אַשׁוּר,אַשּׁוּר,vocalize
+868,Arabic,خشب القيقب,خَشَب القَيْقَب,vocalize
+870,Arabic,التنوب,التَنُّوب,vocalize
+870,Hebrew,אַשׁוּחַ,אַשּׁוּחַ,vocalize
+872,Arabic,عشب,عُشْب,vocalize
+872,Hebrew,דֶשֶׁא,דֶּשֶׁא,vocalize
+873,Arabic,قَشَّة,قَشّه,vocalize
+873,Hebrew,קש,קַשׁ,vocalize
+874,Arabic,عشب,عُشْب,vocalize
+874,Hebrew,עֵשֶׂב,עֵשֶׂב,vocalize
+875,Arabic,طحلب,طُحْلُب,vocalize
+875,Hebrew,אֵזוֹב,טְחָב,vocalize
+876,Arabic,جلد,جِلْد,vocalize
+876,Hebrew,עור,עוֹר,vocalize
+877,Arabic,لحم,لَحْم,vocalize
+877,Hebrew,בָּשָׂר,בָּשָׂר,vocalize
+878,Arabic,دم,دَم,vocalize
+878,Hebrew,דָם,דָּם,vocalize
+879,Arabic,عظم,عَظْم,vocalize
+880,Arabic,هيكل عظمي,هَيْكَل عَظْمِيّ,vocalize
+880,Hebrew,שֶׁלֶד,שֶׁלֶד,vocalize
+881,Arabic,نخاع,نُخاع,vocalize
+881,Hebrew,מוֹחַ,מֹחַ עֶצֶם,vocalize
+882,Arabic,القيح,القَيْح,vocalize
+882,Hebrew,מוּגלָה,מֻגְלָה,vocalize
+883,Arabic,سمين,سَمِين,vocalize
+883,Hebrew,שמן,שָׁמֵן,vocalize
+884,Arabic,نفط,نَفْط,vocalize
+884,Hebrew,שמן,שָׁמֵן,vocalize
+885,Arabic,بيضة,بَيْضَة,vocalize
+885,Hebrew,ביצה,בֵּיצָה,vocalize
+886,Arabic,بياض البيضة,بَياض البَيْضَة,vocalize
+886,Hebrew,ביצה לבנה,בֵּיצָה לְבָנָה,vocalize
+887,Arabic,صفار البيض,صَفَار اَلْبَيْض,vocalize
+887,Hebrew,חֶלמוֹן,חֶלְמוֹן,vocalize
+888,Arabic,حليب,حَلِيب,vocalize
+888,Hebrew,חלב,חָלַב,vocalize
+889,Arabic,زبدة,زُبْدَة,vocalize
+889,Hebrew,חמאה,חֶמְאָה,vocalize
+890,Arabic,الزبادي,الزَبادِي,vocalize
+890,Hebrew,יוגורט,יוֹגוּרְט,vocalize
+891,Arabic,كريم,كِرِيم,vocalize
+891,Hebrew,קרם,קָרַם,vocalize
+892,Arabic,بوظة,بُوظَة,vocalize
+892,Hebrew,גלידה,גְּלִידָה,vocalize
+895,Arabic,موزاريلا,مُوزَارِيلَا,vocalize
+895,Hebrew,מוצרלה,מוֹצָרֶלָה,vocalize
+896,Arabic,بارميزان,بَارْمِيزَان,vocalize
+896,Hebrew,פרמזן,פַּרְמֶזָן,vocalize
+897,Arabic,البندق,البُنْدُق,vocalize
+897,Hebrew,אגוז,אֱגוֹז,vocalize
+898,Arabic,جوز,جَوْز,vocalize
+898,Hebrew,אגוז מלך,אֱגוֹז מֶלֶךְ,vocalize
+900,Arabic,كستناء,كَسْتَنَاء,vocalize
+900,Hebrew,עַרמוֹן,עַרְמוֹן,vocalize
+901,Arabic,لوز,لَوْز,vocalize
+901,Hebrew,שקד,שָׁקֵד,vocalize
+902,Arabic,الفستق,الفُسْتُق,vocalize
+902,Hebrew,פיסטוק,פִּיסְטוּק,vocalize
+903,Hebrew,קָשִׁיוֹ,קָשְׁיוּ,vocalize
+904,Arabic,أربل,اربل,vocalize
+904,Hebrew,בַּלוּט,בַּלּוּט,vocalize
+905,Arabic,البندق,البُنْدُق,vocalize
+906,Arabic,فاصوليا,فَاصُولِيَا,vocalize
+906,Hebrew,אפונה,אֲפוּנָה,vocalize
+907,Arabic,مسحوق,مَسْحُوق,vocalize
+907,Hebrew,אֲבָקָה,אַבְקָה,vocalize
+908,Arabic,مائع,مَائِع,vocalize
+909,Arabic,رقائق الذرة,رَقائِق الذَرَّة,vocalize
+909,Hebrew,דגני בוקר,דִּגְנֵי בֹּקֶר,vocalize
+910,Arabic,أرز,أَرْز,vocalize
+910,Hebrew,אורז,אֹרֶז,vocalize
+911,Arabic,قمح,قَمْح,vocalize
+911,Hebrew,חיטה,חִיטָּה,vocalize
+912,Arabic,خميرة,خَمِيرَة,vocalize
+912,Hebrew,שמרים,שְׁמָרִים,vocalize
+913,Arabic,عجين,عَجِين,vocalize
+913,Hebrew,בצק,בָּצֵק,vocalize
+914,Arabic,خبز,خَبز,vocalize
+914,Hebrew,לחם,לֶחֶם,vocalize
+915,Arabic,قشرة,قِشْرَة,vocalize
+915,Hebrew,קרום,קְרוּם,vocalize
+916,Arabic,المعكرونة,المَعْكَرُونَة,vocalize
+916,Hebrew,אִטְרִיָה,אִטְרִיָּה,vocalize
+917,Arabic,حساء,حَسَاء,vocalize
+917,Hebrew,מרק,מָרָק,vocalize
+918,Arabic,خمر,خَمْر,vocalize
+919,Arabic,عصير,عَصِير,vocalize
+919,Hebrew,מיץ,מִיץ,vocalize
+920,Arabic,شاي,شَاي,vocalize
+920,Hebrew,תה,תֵּה,vocalize
+921,Arabic,قهوة,قَهْوَة,vocalize
+921,Hebrew,קפה,קָפֶה,vocalize
+922,Arabic,فحم الكوك,فَحْم الكوك,vocalize
+923,Arabic,اللبن المخفوق,اللَبَن المخفوق,vocalize
+923,Hebrew,מילקשייק,מִילְקְשֵׁייק,vocalize
+924,Arabic,ملس,مَلَس,vocalize
+925,Arabic,المشروبات,المَشْرُوبات,vocalize
+925,Hebrew,מַשׁקֶה,מַשְׁקֶה,vocalize
+926,Arabic,بيرة,بِيرَة,vocalize
+926,Hebrew,בירה,בִּירָה,vocalize
+927,Hebrew,שמפנייה,שַׁמְפַּנְיָה,vocalize
+928,Arabic,فودكا,فُودْكَا,vocalize
+928,Hebrew,וודקה,ווֹדְקָה,vocalize
+929,Arabic,ويسكي,وِيسْكِي,vocalize
+929,Hebrew,וויסקי,וִיסְקִי,vocalize
+930,Arabic,تكيلا,تَكِيلَا,vocalize
+930,Hebrew,טקילה,טֶקִילָה,vocalize
+931,Arabic,كوكتيل,كُوكْتَيْل,vocalize
+931,Hebrew,קוקטייל,קוֹקְטֵייל,vocalize
+932,Arabic,خل,خَلّ,vocalize
+932,Hebrew,חומץ,חֹמֶץ,vocalize
+933,Arabic,صلصة,صَلْصَة,vocalize
+933,Hebrew,רוטב,רֹטֶב,vocalize
+934,Arabic,صلصة الصويا,صَلْصَةْ اَلصُّويَا,vocalize
+934,Hebrew,רוטב סויה,רֹטֶב סוֹיָה,vocalize
+935,Arabic,ورطة,وَرْطَة,vocalize
+935,Hebrew,מלפפון חמוץ,מְלָפְפוֹן חָמוּץ,vocalize
+936,Hebrew,טופו,טוֹפוּ,vocalize
+937,Arabic,الفلفل,الفِلْفِل,vocalize
+937,Hebrew,פלפל,פִּלְפֵּל,vocalize
+938,Arabic,الفلفل الحار,الفِلْفِل الحارّ,vocalize
+938,Hebrew,פלפלת צ'ילי,פִּלְפֶּלֶת צִ'ילִי,vocalize
+939,Arabic,كاري,كَارِي,vocalize
+940,Hebrew,וניל,וָנִיל,vocalize
+941,Arabic,جوزة الطيب,جَوْزَةْ اَلطِّيب,vocalize
+941,Hebrew,מוסקט,אֱגוֹז מוּסְקָט,vocalize
+942,Arabic,قرفة,قِرْفَة,vocalize
+942,Hebrew,קינמון,קִנָּמוֹן,vocalize
+943,Arabic,نعناع,نَعْنَاع,vocalize
+943,Hebrew,מנטה,נַעְנַע,vocalize
+944,Arabic,رَيحان,رَيْحَان,vocalize
+944,Hebrew,ריחן,רֵיחָן,vocalize
+945,Arabic,بسكويت,بَسْكَوِيت,vocalize
+945,Hebrew,עוגייה,עוּגִיָּה,vocalize
+946,Arabic,شوكولاتة,شُوكُولَاتَة,vocalize
+946,Hebrew,שוקולד,שׁוֹקוֹלָד,vocalize
+947,Arabic,حلويات,حُلْوَيات,vocalize
+947,Hebrew,ממתק,מַמְתָּק,vocalize
+948,Hebrew,סופגניה,סֻפְגָּנִיָּה,vocalize
+949,Arabic,بودنغ,بُودِنْغ,vocalize
+949,Hebrew,פודינג,פּוּדִינְג,vocalize
+950,Arabic,كيك,كَيّك,vocalize
+950,Hebrew,עוגה,עוּגָה,vocalize
+951,Arabic,تشيز كيك,تْشِيز كَيْك,vocalize
+951,Hebrew,עוגת גבינה,עוּגַת גְּבִינָה,vocalize
+952,Arabic,كرواسون,كْرُوَاسُّون,vocalize
+952,Hebrew,קרוֹאָסוֹן,קְרוּאָסוֹן,vocalize
+953,Arabic,فطيرة,فَطِيرَة,vocalize
+953,Hebrew,פָנקֵייק,פַּנְקֵיְק,vocalize
+954,Arabic,فطيرة تفاح,فَطَيْره تُفّاح,vocalize
+954,Hebrew,פאי תפוחים,פַּאי תַּפּוּחִים,vocalize
+955,Arabic,عسل,عَسَل,vocalize
+955,Hebrew,דבש,דְּבַשׁ,vocalize
+956,Arabic,السكر,السُكَّر,vocalize
+956,Hebrew,סוכר,סֻכָּר,vocalize
+957,Arabic,غذاء,غِذَاء,vocalize
+957,Hebrew,מזון,מָזוֹן,vocalize
+958,Arabic,سكين,سِكِّين,vocalize
+958,Hebrew,סַכִּין,סַכִּין,vocalize
+959,Arabic,ملعقة,مِلْعَقَة,vocalize
+959,Hebrew,כף,כַּף,vocalize
+960,Arabic,فرع,فَرْع,vocalize
+960,Hebrew,מזלג,מַזְלֵג,vocalize
+961,Arabic,لوحة,لَوْحَة,vocalize
+961,Hebrew,צַלַחַת,צַלַּחַת,vocalize
+962,Arabic,صَحن,صَحْن,vocalize
+963,Arabic,فنجان,فِنْجَان,vocalize
+963,Hebrew,גָבִיעַ,גָּבִיעַ,vocalize
+964,Arabic,زجاجة,زُجَاجَة,vocalize
+964,Hebrew,בקבוק,בַּקְבּוּק,vocalize
+965,Arabic,وعاء,وِعاء,vocalize
+965,Hebrew,סיר,סִיר,vocalize
+966,Arabic,حرمان,حِرْمان,vocalize
+966,Hebrew,מחבת,מַחֲבַת,vocalize
+967,Arabic,بوق,بُوق,vocalize
+967,Hebrew,צופר,צוֹפָר,vocalize
+968,Arabic,ذيل,ذَيْل,vocalize
+969,Arabic,ريشة,رِيشَة,vocalize
+970,Arabic,جناح,جَنَاح,vocalize
+970,Hebrew,כנף,כָּנָף,vocalize
+971,Arabic,الفراء,الفَراء,vocalize
+971,Hebrew,פרווה,פַּרְוָה,vocalize
+972,Arabic,شعر,شَعَرَ,vocalize
+972,Hebrew,שיער,שֵׂעָר,vocalize
+973,Arabic,لحية,لِحْيَة,vocalize
+974,Arabic,رئيس,رَئِيس,vocalize
+975,Arabic,وجه,وَجْه,vocalize
+975,Hebrew,פָּנִים,פָּנִים,vocalize
+976,Arabic,أذن,أَذِنَ,vocalize
+977,Arabic,عين,عَيْن,vocalize
+978,Arabic,قزحية,قُزَحِيَّة,vocalize
+978,Hebrew,קַשׁתִית,קַשְתִית,vocalize
+979,Arabic,التلميذ,التِلْمِيذ,vocalize
+979,Hebrew,תלמיד,תַּלְמִיד,vocalize
+980,Arabic,يٌقطِّع,يَقْطَع,vocalize
+980,Hebrew,דמעה,דִּמְעָה,vocalize
+981,Arabic,أنف,أَنْف,vocalize
+981,Hebrew,אף,אַף,vocalize
+982,Arabic,مخاط,مُخَاط,vocalize
+982,Hebrew,נַזֶלֶת,נַזֶּלֶת,vocalize
+983,Arabic,فم,فَم,vocalize
+983,Hebrew,פֶּה,פֹּה,vocalize
+984,Arabic,شفة,شَفَة,vocalize
+984,Hebrew,שָׂפָה,שָׂפָה,vocalize
+985,Arabic,سن,سِنّ,vocalize
+985,Hebrew,שן,שֵׁן,vocalize
+986,Arabic,لسان,لِسَان,vocalize
+987,Arabic,فرع الشجره,فَرْع الشَجَرَة,vocalize
+988,Arabic,اصبع اليد,إِصْبَع اليَد,vocalize
+988,Hebrew,אֶצבַּע,אֶצְבַּע,vocalize
+989,Arabic,ظفر,ظُفْر,vocalize
+989,Hebrew,צִפּצֹרֶן,צִפֹּרֶן,vocalize
+990,Arabic,قدم,قَدِمَ,vocalize
+990,Hebrew,כף רגל,כַּף רֶגֶל,vocalize
+991,Arabic,كاحل,كَاحِل,vocalize
+991,Hebrew,קרסול,קַרְסֹל,vocalize
+992,Arabic,إصبع قدم,إِصْبَع قدم,vocalize
+992,Hebrew,אֶצבַּע,אֶצְבַּע,vocalize
+993,Arabic,رجل,رِجْل,vocalize
+993,Hebrew,רגל,רֶגֶל,vocalize
+994,Arabic,فخذ,فَخِذ,vocalize
+994,Hebrew,יָרֵך,יָרֵךְ,vocalize
+995,Arabic,ركبة,رُكْبَة,vocalize
+995,Hebrew,הברך,בֶּרֶךְ,vocalize
+996,Arabic,المفاصل,المَفاصِل,vocalize
+996,Hebrew,מפרקים,מִפְרָקִים,vocalize
+1000,Arabic,ذراع,ذِرَاع,vocalize
+1001,Arabic,كتف,كَتِف,vocalize
+1001,Hebrew,כָּתֵף,כָּתֵף,vocalize
+1002,Arabic,بطن,بَطْن,vocalize
+1002,Hebrew,בֶּטֶן,בֶּטֶן,vocalize
+1003,Arabic,سرة,سُرَّة,vocalize
+1004,Arabic,أحشاء,أَحْشَاء,vocalize
+1004,Hebrew,מעיים,מֵעַיִם,vocalize
+1005,Arabic,رقبه,رَقَبَة,vocalize
+1005,Hebrew,צוואר,צַוָּאר,vocalize
+1007,Arabic,صدر,صَدْر,vocalize
+1007,Hebrew,שד,שָׁד,vocalize
+1008,Arabic,وسط,وَسَط,vocalize
+1010,Arabic,إبط,إِبْط,vocalize
+1010,Hebrew,בית שחי,בֵּית שֶׁחִי,vocalize
+1011,Arabic,خدّ,خَدّ,vocalize
+1012,Arabic,ذقن,ذَقْن,vocalize
+1013,Arabic,مخ,مُخّ,vocalize
+1013,Hebrew,מוֹחַ,מֹחַ,vocalize
+1014,Arabic,قلب,قَلْب,vocalize
+1015,Arabic,الكبد,الكَبِد,vocalize
+1015,Hebrew,כָּבֵד,כָּבֵד,vocalize
+1016,Arabic,رئة,رِئَة,vocalize
+1016,Hebrew,ריאה,רֵאָה,vocalize
+1017,Arabic,الكلى,الكُلَى,vocalize
+1017,Hebrew,כִּליָה,כִּלְיָה,vocalize
+1018,Arabic,البنكرياس,البَنكرِياس,vocalize
+1018,Hebrew,לַבלָב,לַבְלַב,vocalize
+1019,Arabic,المرارة,المَرارَة,vocalize
+1019,Hebrew,כיס המרה,כִּיס הַמָּרָה,vocalize
+1020,Arabic,طحال,طِحَال,vocalize
+1021,Arabic,معدة,مَعِدَة,vocalize
+1021,Hebrew,בֶּטֶן,בֶּטֶן,vocalize
+1022,Arabic,الأمعاء,الأَمْعاء,vocalize
+1024,Arabic,عصب,عَصَب,vocalize
+1025,Arabic,عضلة,عَضَلَة,vocalize
+1025,Hebrew,שְׁרִיר,שְׁרִיר,vocalize
+1026,Arabic,الوريد,الوَرِيد,vocalize
+1026,Hebrew,וָרִיד,וְרִיד,vocalize
+1027,Arabic,الشريان,الشِرْيان,vocalize
+1029,Arabic,غائط,غائِط,vocalize
+1029,Hebrew,קקי,קָקִי,vocalize
+1030,Arabic,البول,البَوْل,vocalize
+1030,Hebrew,שֶׁתֶן,שֶׁתֶן,vocalize
+1032,Arabic,مرض,مَرَض,vocalize
+1033,Arabic,الم,آلَم,vocalize
+1033,Hebrew,כְּאֵב,כָּאַב,vocalize
+1034,Arabic,دواء,دَوَاء,vocalize
+1034,Hebrew,רפואה,רְפוּאָה,vocalize
+1035,Arabic,سم,سُمّ,vocalize
+1036,Arabic,الجسم,الجِسْم,vocalize
+1036,Hebrew,גוּף,גּוּף,vocalize
+1037,Arabic,الحياة,الحَياة,vocalize
+1037,Hebrew,חַיִים,חַיִּים,vocalize
+1039,Arabic,طبيعة سجية,طَبِيعَة سَجِيَّة,vocalize
+1040,Arabic,عنصر,عُنْصُر,vocalize
+1040,Hebrew,אֵלֵמֶנט,אֵלֵמֵנְט,vocalize
+1041,Arabic,الشمس,الشَمْس,vocalize
+1041,Hebrew,שמש,שֶׁמֶשׁ,vocalize
+1042,Arabic,القمر,القَمَر,vocalize
+1042,Hebrew,ירח,יֶרַח,vocalize
+1043,Arabic,نجمة,نَجْمَة,vocalize
+1043,Hebrew,כוכב,כּוֹכַב,vocalize
+1044,Arabic,هواء,هَوَاء,vocalize
+1044,Hebrew,אוויר,אֲוִיר,vocalize
+1045,Arabic,ماء,مَاء,vocalize
+1045,Hebrew,מים,מַיִם,vocalize
+1046,Arabic,لوح,لَوْح,vocalize
+1046,Hebrew,גַל,גַּל,vocalize
+1047,Arabic,دوامة,دَوَّامَة,vocalize
+1047,Hebrew,מְעַרבּוֹלֶת,מְעַרְבֹּלֶת,vocalize
+1048,Arabic,فقاعة,فُقَّاعَة,vocalize
+1049,Arabic,رغوة,رَغْوَة,vocalize
+1051,Arabic,ندى,نَدَى,vocalize
+1052,Arabic,قوس المطر,قَوْس المَطَر,vocalize
+1052,Hebrew,קשת בענן,קֶשֶׁת בְּעָנָן,vocalize
+1053,Arabic,نهر,نَهْر,vocalize
+1053,Hebrew,נהר,נָהָר,vocalize
+1054,Arabic,بحيرة,بُحَيْرَة,vocalize
+1055,Arabic,بحر,بَحْر,vocalize
+1058,Arabic,جزيرة,جَزِيرَة,vocalize
+1059,Arabic,ملح,مَلَّحَ,vocalize
+1059,Hebrew,מלח,מֶלַח,vocalize
+1060,Arabic,حصاة,حَصاه,vocalize
+1061,Arabic,رمل,رَمْل,vocalize
+1062,Arabic,تراب,تُرَاب,vocalize
+1064,Arabic,غيم,غَيْم,vocalize
+1064,Hebrew,ענן,עָנָן,vocalize
+1065,Arabic,برق,بَرَقَ,vocalize
+1065,Hebrew,בָּרָק,בָּרָק,vocalize
+1066,Arabic,صوت الرعد,صَوْت الرَعْد,vocalize
+1067,Arabic,اقتحام,اِقْتِحام,vocalize
+1067,Hebrew,סערה,סְעָרָה,vocalize
+1068,Arabic,الضباب,الضَباب,vocalize
+1069,Arabic,سماء,سَمَاء,vocalize
+1069,Hebrew,שָׁמַיִם,שָׁמַיִם,vocalize
+1070,Arabic,ريح,رِيح,vocalize
+1071,Arabic,الثلج,الثَلْج,vocalize
+1071,Hebrew,שֶׁלֶג,שֶׁלֶג,vocalize
+1072,Arabic,جليد,جَلِيد,vocalize
+1072,Hebrew,קרח,קֶרַח,vocalize
+1073,Arabic,الصقيع,الصَقِيع,vocalize
+1073,Hebrew,כְּפוֹר,כְּפוֹר,vocalize
+1075,Arabic,دخان,دُخَان,vocalize
+1075,Hebrew,עָשָׁן,עָשָׁן,vocalize
+1076,Arabic,نار,نَار,vocalize
+1077,Arabic,رماد,رَمَاد,vocalize
+1078,Arabic,طريق,طَريق,vocalize
+1078,Hebrew,כְּבִישׁ,כְּבִישׁ,vocalize
+1079,Arabic,الفجوة,الفَجْوَة,vocalize
+1079,Hebrew,חור,חוֹר,vocalize
+1081,Arabic,الأرض,الأَرْض,vocalize
+1081,Hebrew,ארץ,אֶרֶץ,vocalize
+1082,Arabic,حقل,حَقْل,vocalize
+1082,Hebrew,שדה,שָׂדֶה,vocalize
+1083,Arabic,مِلكِي,مَلِكَيّ,vocalize
+1083,Hebrew,שלי,שֶׁלִּי,vocalize
+1084,Arabic,جبل,جَبَل,vocalize
+1085,Arabic,بركان,بُرْكَان,vocalize
+1086,Arabic,قمة,قِمَّة,vocalize
+1086,Hebrew,שִׂיא,שִׂיא,vocalize
+1087,Arabic,جرف,جُرْف,vocalize
+1088,Arabic,صحراء,صَحْرَاء,vocalize
+1088,Hebrew,מִדבָּר,מִדְבָּר,vocalize
+1090,Arabic,ساحل,سَاحِل,vocalize
+1090,Hebrew,חוף,חוֹף,vocalize
+1091,Hebrew,מעיין,מַעְיָן,vocalize
+1092,Arabic,شلال,شَلَّال,vocalize
+1092,Hebrew,מַפַּל מַיִם‎,מַפַּל מַיִם,vocalize
+1093,Hebrew,מישור,מִישׁוֹר,vocalize
+1094,Arabic,تل,تَلّ,vocalize
+1094,Hebrew,גִבעָה,גִּבְעָה,vocalize
+1095,Arabic,الوادي,الْوَادِي,vocalize
+1095,Hebrew,עֶמֶק,עֵמֶק,vocalize
+1096,Arabic,اعصار,إِعْصار,vocalize
+1097,Arabic,إعصار,إِعْصَار,vocalize
+1097,Hebrew,טוֹרנָדוֹ,טוֹרְנָדוֹ,vocalize
+1098,Arabic,تسونامي,تْسُونَامِي,vocalize
+1098,Hebrew,צונאמי,צוּנָאמִי,vocalize
+1099,Arabic,هزة أرضية,هَزَّة أَرْضِيَّة,vocalize
+1099,Hebrew,רעידת אדמה,רְעִידַת אֲדָמָה,vocalize
+1100,Arabic,فيضان,فَيَضَان,vocalize
+1100,Hebrew,הצפה,הֲצָפָה,vocalize
+1101,Arabic,انهيار أرضي,اِنْهِيَار أَرْضِيّ,vocalize
+1101,Hebrew,רוֹב מוֹחֵץ,רֹב מוֹחֵץ,vocalize
+1102,Arabic,انهيار ثلجي,اِنْهِيَار ثَلْجِيّ,vocalize
+1102,Hebrew,מַפּוֹלֶת שְׁלָגִים,מַפֹּלֶת שְׁלָגִים,vocalize
+1104,Arabic,ثانية,ثَانِيَةً,vocalize
+1104,Hebrew,שנייה ,שְׁנִיָּה,vocalize
+1105,Arabic,دقيقة,دَقِيقَة,vocalize
+1105,Hebrew,דַקָה,דַּקָּה,vocalize
+1106,Arabic,ساعة,سَاعَة,vocalize
+1106,Hebrew,שָׁעָה,שָׁעָה,vocalize
+1107,Arabic,يوم,يَوْم,vocalize
+1107,Hebrew,יְוֹם,יוֹם,vocalize
+1108,Arabic,اليوم,الْيَوْم,vocalize
+1108,Hebrew,היום,הַיּוֹם,vocalize
+1110,Arabic,الغد,الغَد,vocalize
+1111,Arabic,ليل,لَيْل,vocalize
+1112,Arabic,أسبوع,أُسْبُوع,vocalize
+1113,Arabic,شهر,شَهْر,vocalize
+1113,Hebrew,חוֹדֶשׁ,חֹדֶשׁ,vocalize
+1114,Arabic,عام,عَامَ,vocalize
+1114,Hebrew,שָׁנָה,שָׁנָה,vocalize
+1115,Arabic,تاريخ,تَارِيخ,vocalize
+1115,Hebrew,תַאֲרִיך,תַּאֲרִיךְ,vocalize
+1116,Arabic,الموسم,المَوْسِم,vocalize
+1116,Hebrew,עונה,עוֹנָה,vocalize
+1117,Arabic,ينبوع,يَنْبُوع,vocalize
+1117,Hebrew,אביב,אָבִיב,vocalize
+1118,Arabic,الصيف,الصَيْف,vocalize
+1119,Arabic,الخريف,الخَرِيف,vocalize
+1119,Hebrew,סתָיו,סְתָו,vocalize
+1120,Arabic,شتاء,شِتَاء,vocalize
+1120,Hebrew,חוֹרֶף,חֹרֶף,vocalize
+1121,Arabic,شمال,شِمَال,vocalize
+1121,Hebrew,צָפוֹן,צָּפוֹן,vocalize
+1122,Arabic,الشرق,الشَرْق,vocalize
+1122,Hebrew,מזרח,מִזְרָח,vocalize
+1123,Arabic,جنوب,جَنُوب,vocalize
+1123,Hebrew,דָרוֹם,דָּרוֹם,vocalize
+1124,Arabic,الغرب,الغَرْب,vocalize
+1125,Arabic,الاثنين,الاِثْنَيْن,vocalize
+1126,Arabic,يوم الثلاثاء,يَوْم الثُلاثاء,vocalize
+1127,Arabic,الأربعاء,الأَرْبِعاء,vocalize
+1127,Hebrew,יום רביעי,יוֹם רְבִיעִי,vocalize
+1128,Arabic,يوم الخميس,يَوْم الخَمِيس,vocalize
+1129,Arabic,جمعة,جُمْعَة,vocalize
+1129,Hebrew,יוֹם שִׁישִׁי,יוֹם שִׁשִּׁי,vocalize
+1130,Arabic,السبت,السَبَت,vocalize
+1130,Hebrew,יום שבת,יוֹם שַׁבָּת,vocalize
+1131,Arabic,الأحد,الأَحَد,vocalize
+1132,Arabic,يناير,يَنايِر,vocalize
+1133,Arabic,شهر فبراير,شَهْر فِبْرايِر,vocalize
+1133,Hebrew,פברואר,פֶבְּרוּאָר,vocalize
+1134,Arabic,يمشي,يَمْشَى,vocalize
+1134,Hebrew,מרץ,מֶרְץ,vocalize
+1135,Arabic,أبريل,أَبْرِيل,vocalize
+1135,Hebrew,אַפּרִיל,אַפְּרִיל,vocalize
+1136,Arabic,قد,قَد,vocalize
+1136,Hebrew,מאי,מַאי,vocalize
+1137,Arabic,يونيه,يُونِيَة,vocalize
+1137,Hebrew,יוני,יוֹנִי,vocalize
+1138,Arabic,يوليو,يُولِيُو,vocalize
+1138,Hebrew,יולי,יוּלִי,vocalize
+1139,Arabic,أغسطس,أَغُسْطُس,vocalize
+1139,Hebrew,אוגוסט,אוֹגוּסְט,vocalize
+1140,Arabic,سبتمبر,سِبْتَمْبِر,vocalize
+1140,Hebrew,סֶפּטֶמבֶּר,סֶפְּטֶמְבֶּר,vocalize
+1141,Arabic,اكتوبر,أُكْتُوبِر,vocalize
+1142,Arabic,شهر نوفمبر,شَهْر نُوفِمْبِر,vocalize
+1142,Hebrew,נוֹבֶמבֶּר,נוֹבֶמְבֶּר,vocalize
+1143,Arabic,ديسمبر,دِيسَمْبِر,vocalize
+1143,Hebrew,דֵצֶמבֶּר,דֵּצֶמְבֶּר,vocalize
+1144,Arabic,نور,نُور,vocalize
+1146,Arabic,ظل,ظِلّ,vocalize
+1147,Arabic,مرآة,مِرْآة,vocalize
+1149,Arabic,صوت بشري,صَوْت بُشْرَى,vocalize
+1150,Arabic,مواد,مَوادّ,vocalize
+1150,Hebrew,חוֹמֶר,חֹמֶר,vocalize
+1151,Arabic,زجاج,زُجَاج,vocalize
+1151,Hebrew,זכוכית,זְכוּכִית,vocalize
+1152,Arabic,فلز,فِلِزّ,vocalize
+1152,Hebrew,מַתֶכֶת,מַתֶּכֶת,vocalize
+1154,Arabic,بلاستيك,بْلَاسْتِيك,vocalize
+1154,Hebrew,פלסטי,פְּלַסְטִיק,vocalize
+1155,Arabic,خشب,خَشَب,vocalize
+1155,Hebrew,עץ,עֵץ,vocalize
+1156,Arabic,ممحاة,مِمْحاة,vocalize
+1157,Arabic,الشمع,الشَمْع,vocalize
+1157,Hebrew,דוֹנַג,דּוֹנַג,vocalize
+1158,Arabic,فخار,فَخّار,vocalize
+1160,Arabic,ذهب,ذَهَبَ,vocalize
+1160,Hebrew,זהב,זָהָב,vocalize
+1161,Arabic,فضة,فِضَّة,vocalize
+1161,Hebrew,כסף,כֶּסֶף,vocalize
+1162,Arabic,نحاس,نُحَاس,vocalize
+1162,Hebrew,נְחוֹשֶׁת,נְחֹשֶׁת,vocalize
+1163,Arabic,حديد,حَدِيد,vocalize
+1163,Hebrew,בַּרזֶל,בַּרְזֶל,vocalize
+1164,Arabic,فُولاَذ,فُولَاذ,vocalize
+1164,Hebrew,פְּלָדָה,פְּלָדָה,vocalize
+1166,Arabic,كنز,كَنْز,vocalize
+1167,Arabic,جوهر,جَوْهَر,vocalize
+1167,Hebrew,אבן חן,אֶבֶן חֵן,vocalize
+1168,Arabic,يشم,يَشْم,vocalize
+1168,Hebrew,יַרקָן,יַרְקָן,vocalize
+1169,Arabic,الحرير,الحَرِير,vocalize
+1169,Hebrew,משי,מֶשִׁי,vocalize
+1170,Arabic,القطن,القُطْن,vocalize
+1170,Hebrew,כותנה,כֻּתְנָה,vocalize
+1171,Arabic,الكتان,الكَتّان,vocalize
+1171,Hebrew,מצעים,פִּשְׁתָּן,vocalize
+1172,Arabic,صوف,صُوف,vocalize
+1173,Arabic,مخمل,مُخْمَل,vocalize
+1174,Arabic,قماش,قُمَاش,vocalize
+1174,Hebrew,בַּד,בַּד,vocalize
+1175,Arabic,ملابس,مَلَابِس,vocalize
+1175,Hebrew,בגדים,בְּגָדִים,vocalize
+1176,Arabic,قوة,قُوَّة,vocalize
+1177,Arabic,حرب,حَرْب,vocalize
+1177,Hebrew,מִלחָמָה,מִלְחָמָה,vocalize
+1178,Arabic,سلام,سَلَام,vocalize
+1178,Hebrew,שָׁלוֹם,שָׁלוֹם,vocalize
+1179,Arabic,سلاح,سِلَاح,vocalize
+1179,Hebrew,נֶשֶׁק,נֶשֶׁק,vocalize
+1180,Arabic,سهم,سَهْم,vocalize
+1181,Arabic,ينحني,يَنْحَنَى,vocalize
+1181,Hebrew,קשת,קֶשֶׁת,vocalize
+1182,Arabic,رمح,رُمْح,vocalize
+1182,Hebrew,חנית,חֲנִית,vocalize
+1183,Arabic,سيف,سَيْف,vocalize
+1184,Arabic,فأس,فَأْس,vocalize
+1184,Hebrew,גַרזֶן,גַּרְזֶן,vocalize
+1185,Arabic,رأى,رَأَى,vocalize
+1185,Hebrew,ראה,רָאָה,vocalize
+1187,Arabic,قيد,قَيْد,vocalize
+1187,Hebrew,לִכבּוֹל,אֲזִיק,vocalize
+1188,Arabic,حبل,حَبْل,vocalize
+1189,Arabic,سلسلة,سِلْسِلَة,vocalize
+1189,Hebrew,שַׁרשֶׁרֶת,שַׁרְשֶׁרֶת,vocalize
+1190,Arabic,سوط,سَوْط,vocalize
+1191,Arabic,مقلاع,مِقْلَاع,vocalize
+1192,Arabic,شاكوش,شَاكُوش,vocalize
+1192,Hebrew,פטיש,פַּטִּישׁ,vocalize
+1193,Arabic,مجرفة,مِجْرَفَة,vocalize
+1193,Hebrew,לִגרוֹף,לִגְרֹף,vocalize
+1194,Arabic,فخ,فَخّ,vocalize
+1194,Hebrew,מַלכּוֹדֶת,מַלְכֹּדֶת,vocalize
+1195,Arabic,درع,دِرْع,vocalize
+1196,Arabic,بندقية,بُنْدُقِيَّة,vocalize
+1196,Hebrew,אֶקְדָח,אֶקְדָּח,vocalize
+1197,Arabic,قنبلة,قُنْبُلَة,vocalize
+1197,Hebrew,פְּצָצָה,פְּצָצָה,vocalize
+1198,Arabic,قنبلة يدوية,قُنْبُلَة يَدَوِيَّة,vocalize
+1198,Hebrew,רימון,רִמּוֹן,vocalize
+1199,Arabic,مقاييس,مَقايِيس,vocalize
+1199,Hebrew,מאזניים,מֹאזְנַיִם,vocalize
+1200,Arabic,قفص,قَفَص,vocalize
+1200,Hebrew,כְּלוּב,כְּלוּב,vocalize
+1201,Arabic,برميل,بِرْمِيل,vocalize
+1202,Arabic,دلو,دَلْو,vocalize
+1202,Hebrew,דְלִי,דְּלִי,vocalize
+1203,Arabic,مجرفة,مِجْرَفَة,vocalize
+1203,Hebrew,מַעדֵר,מַעְדֵּר,vocalize
+1204,Arabic,مجرفة,مِجْرَفَة,vocalize
+1204,Hebrew,את חפירה,אֶת חֲפִירָה,vocalize
+1205,Arabic,المنجل,المِنْجَل,vocalize
+1205,Hebrew,מַגָל,מַגָּל,vocalize
+1206,Arabic,منفاخ,مِنْفَاخ,vocalize
+1207,Arabic,مطحنة,مَطْحَنَة,vocalize
+1207,Hebrew,טחנה,טַחֲנָה,vocalize
+1208,Arabic,مدقة,مِدَقَّة,vocalize
+1208,Hebrew,בּוּכנָה,עֱלִי,vocalize
+1209,Arabic,مونة الاسمنت,مُونَة الأَسْمَنْت,vocalize
+1209,Hebrew,מרגמה,מַכְתֵּשׁ,vocalize
+1210,Arabic,مجرود,مَجْرُود,vocalize
+1211,Arabic,المحور,المِحْوَر,vocalize
+1212,Arabic,مغزل,مِغْزَل,vocalize
+1212,Hebrew,נול,נוּל,vocalize
+1213,Arabic,خدمة النقل,خِدْمَة النَقْل,vocalize
+1213,Hebrew,מעבורת,בֻּכְיָר,vocalize
+1215,Arabic,غزل,غَزَل,vocalize
+1217,Arabic,السداة,السَداة,vocalize
+1218,Arabic,منسج,مِنْسَج,vocalize
+1218,Hebrew,נוֹל,נוּל,vocalize
+1219,Arabic,اسم,اِسْم,vocalize
+1219,Hebrew,שֵׁם,שֵׁם,vocalize
+1221,Arabic,بيت,بَيْت,vocalize
+1221,Hebrew,בַּיִת,בַּיִת,vocalize
+1222,Arabic,مجال,مَجَال,vocalize
+1223,Arabic,حائط,حَائِط,vocalize
+1224,Arabic,أرضية,أَرْضِيَّة,vocalize
+1224,Hebrew,קוֹמָה,רִצְפָּה,vocalize
+1225,Arabic,السقف,السَقْف,vocalize
+1225,Hebrew,תִקרָה,תִּקְרָה,vocalize
+1227,Arabic,ستارة,سِتَارَة,vocalize
+1228,Arabic,سقف,سَقْف,vocalize
+1228,Hebrew,גג,גַּג,vocalize
+1229,Arabic,مدخنة,مَدْخَنَة,vocalize
+1229,Hebrew,אֲרוּבָּה,אֲרֻבָּה,vocalize
+1230,Arabic,حوض السباحة,حَوْض السِباحَة,vocalize
+1230,Hebrew,בריכה,בְּרֵכָה,vocalize
+1231,Arabic,حديقة,حَدِيقَة,vocalize
+1231,Hebrew,גן,גַּן,vocalize
+1232,Arabic,حديقة منزل,حَدِيقَة مَنْزِل,vocalize
+1233,Arabic,سور,سُور,vocalize
+1234,Arabic,الحمام,الحَمّام,vocalize
+1235,Arabic,حمام,حَمَّام,vocalize
+1235,Hebrew,חדר רחצה,חֲדַר רַחֲצָה,vocalize
+1236,Arabic,غرفة نوم,غُرْفَةُ نَوْم,vocalize
+1236,Hebrew,חדר שינה,חֲדַר שֵׁנָה,vocalize
+1237,Arabic,دراسة,دِرَاسَة,vocalize
+1237,Hebrew,לימוד,לִמּוּד,vocalize
+1238,Arabic,غرفة المعيشة,غُرْفَة المَعِيشَة,vocalize
+1238,Hebrew,סלון,סָלוֹן,vocalize
+1239,Arabic,غرفة العشاء,غُرْفَة العَشاء,vocalize
+1239,Hebrew,חדר אוכל,חֲדַר אוֹכֶל,vocalize
+1240,Arabic,مطبخ,مَطْبَخ,vocalize
+1240,Hebrew,מִטְבָּח,מִטְבָּח,vocalize
+1242,Arabic,مجلس,مَجْلِس,vocalize
+1242,Hebrew,גלשן,קֶרֶשׁ,vocalize
+1243,Arabic,رفوف,رُفُوف,vocalize
+1243,Hebrew,מַדָף,מַדָּף,vocalize
+1244,Arabic,صينية,صِينِيَّة,vocalize
+1244,Hebrew,מַגָשׁ,מַגָּשׁ,vocalize
+1245,Arabic,قمامة,قُمَامَة,vocalize
+1245,Hebrew,אַשׁפָּה,אַשְׁפָּה,vocalize
+1246,Arabic,صندوق القمامة,صُنْدُوق القُمامَة,vocalize
+1246,Hebrew,פַּח אַשׁפָּה,פַּח אַשְׁפָּה,vocalize
+1247,Arabic,حضانة,حَضَانَة,vocalize
+1247,Hebrew,מִשׁתָלָה,חֲדַר תִּינוֹקוֹת,vocalize
+1248,Arabic,طارة,طَارَة,vocalize
+1248,Hebrew,חישוק,חִשּׁוּק,vocalize
+1249,Hebrew,טרַמפּוֹלִינָה,טְרַמְפּוֹלִינָה,vocalize
+1250,Arabic,سُلُّم,سُلَّم,vocalize
+1251,Arabic,مقعد,مَقْعَد,vocalize
+1252,Arabic,شريط,شَرِيط,vocalize
+1252,Hebrew,בָּר,בָּר,vocalize
+1253,Arabic,طائرة ورقية,طَائِرَة وَرَقِيَّة,vocalize
+1254,Arabic,بالون,بَالُون,vocalize
+1254,Hebrew,בַּלוֹן,בָּלוֹן,vocalize
+1255,Arabic,زحليقة,زَحْلِيقَة,vocalize
+1256,Arabic,أرجوحة,أُرْجُوحَة,vocalize
+1256,Hebrew,לנדנד,נַדְנֵדָה,vocalize
+1257,Arabic,أرجوحة,أُرْجُوحَة,vocalize
+1258,Arabic,مرح,دَوَّارَة,vocalize
+1258,Hebrew,מסביב שמח,קָרוּסֵלָה,vocalize
+1259,Arabic,نفق,نَفَق,vocalize
+1260,Arabic,حصان خشبي هزاز,حِصان خَشَبِي هَزّاز,vocalize
+1260,Hebrew,סוס נדנדה,סוּס נַדְנֵדָה,vocalize
+1261,Arabic,الرمال,الرِمال,vocalize
+1261,Hebrew,בור חול,בּוֹר חוֹל,vocalize
+1262,Arabic,حجر البناء,حَجَر البِناء,vocalize
+1262,Hebrew,אבן בניין,אֶבֶן בִּנְיָן,vocalize
+1263,Arabic,دمية,دُمْيَة,vocalize
+1263,Hebrew,בּוּבָּה,בֻּבָּה,vocalize
+1264,Arabic,لعبة,لَعْبَة,vocalize
+1264,Hebrew,בּוּבָּה,בֻּבָּה,vocalize
+1265,Arabic,شرفة,شُرْفَة,vocalize
+1265,Hebrew,מִרפֶּסֶת,מִרְפֶּסֶת,vocalize
+1266,Arabic,علية,عِلِّيَّة,vocalize
+1266,Hebrew,עֲלִיַת גַג,עֲלִיַּת גַּג,vocalize
+1267,Arabic,قبو,قَبْوْ,vocalize
+1267,Hebrew,מרתף,מַרְתֵּף,vocalize
+1268,Arabic,كراج,كَراج,vocalize
+1268,Hebrew,מוּסָך,מוּסָךְ,vocalize
+1269,Arabic,جمل,جَمَل,vocalize
+1269,Hebrew,אוטו,אוֹטוֹ,vocalize
+1270,Arabic,عربة التسوق,عَرَبه التَسَوُّق,vocalize
+1271,Arabic,عربة التسوق,عَرَبه التَسَوُّق,vocalize
+1271,Hebrew,עגלת קניות,עֶגְלַת קְנִיּוֹת,vocalize
+1272,Arabic,عجلة,عَجَلَة,vocalize
+1272,Hebrew,גַלגַל,גַּלְגַּל,vocalize
+1273,Arabic,يدرب,يُدَرِّب,vocalize
+1273,Hebrew,רכבת,רַכֶּבֶת,vocalize
+1274,Arabic,طائرة,طَائِرَة,vocalize
+1275,Arabic,شاحنة نقل,شاحِنَة نَقْل,vocalize
+1275,Hebrew,מַשָׂאִית,מַשָּׂאִית,vocalize
+1276,Arabic,دراجة,دَرَّاجَة,vocalize
+1276,Hebrew,אופניים,אוֹפַנַּיִם,vocalize
+1277,Arabic,أوتوبيس,أُوتُوبِيس,vocalize
+1278,Arabic,قارب,قَارِب,vocalize
+1279,Arabic,سفينة,سَفِينَة,vocalize
+1279,Hebrew,ספינה,סְפִינָה,vocalize
+1281,Hebrew,בֶּנזִין,בֶּנזִין,vocalize
+1282,Arabic,محرك,مُحَرِّك,vocalize
+1282,Hebrew,מנוע,מָנוֹעַ,vocalize
+1283,Arabic,آلة,آلَة,vocalize
+1284,Arabic,إنسان آلي,إِنْسَان آلِيّ,vocalize
+1285,Arabic,تذكرة,تَذْكِرَة,vocalize
+1285,Hebrew,כַּרְטִיס,כַּרְטִיס,vocalize
+1286,Arabic,وسائل النقل,وَسائِل النَقْل,vocalize
+1286,Hebrew,הוֹבָלָה,תַּחְבּוּרָה,vocalize
+1287,Arabic,باب,بَاب,vocalize
+1287,Hebrew,דלת,דֶּלֶת,vocalize
+1288,Arabic,الطاولة,الطاوِلَة,vocalize
+1288,Hebrew,שולחן,שֻׁלְחָן,vocalize
+1289,Arabic,كرسي,كُرْسِيّ,vocalize
+1289,Hebrew,כִּסֵא,כִּסֵּא,vocalize
+1290,Arabic,سرير,سَرِير,vocalize
+1290,Hebrew,מיטה,מִיטָה,vocalize
+1291,Arabic,غطاء السرير,غِطاء السَرِير,vocalize
+1291,Hebrew,מצעים,סָדִין,vocalize
+1292,Arabic,لحاف,لَحاف,vocalize
+1292,Hebrew,שמיכה,שְׂמִיכָה,vocalize
+1293,Arabic,وسادة,وَسَادَة,vocalize
+1293,Hebrew,כרית,כָּרִית,vocalize
+1294,Arabic,وسادة,وَسَادَة,vocalize
+1294,Hebrew,כרית,כָּרִית,vocalize
+1295,Arabic,خزانة الملابس,خِزَانَة اَلْمَلَابِس,vocalize
+1295,Hebrew,אָרוֹן בְּגָדִים,אֲרוֹן בְּגָדִים,vocalize
+1296,Arabic,خزانة,خِزَانَة,vocalize
+1297,Arabic,صابون,صَابُون,vocalize
+1299,Arabic,شمعة,شَمْعَة,vocalize
+1299,Hebrew,נר,נֵר,vocalize
+1300,Arabic,شعلة,شُعْلَة,vocalize
+1300,Hebrew,לפיד,לַפִּיד,vocalize
+1301,Arabic,عطور,عُطُور,vocalize
+1301,Hebrew,קְטוֹרֶת,קְטֹרֶת,vocalize
+1302,Arabic,سيجارة,سِيجَارَة,vocalize
+1302,Hebrew,סִיגַרִיָה,סִיגַרְיָה,vocalize
+1303,Arabic,قفل,قَفَّل,vocalize
+1303,Hebrew,לנעול,לִנְעֹל,vocalize
+1304,Arabic,مفتاح,مِفْتَاح,vocalize
+1304,Hebrew,מַפְתֵחַ,מַפְתֵּחַ,vocalize
+1305,Arabic,مشط,مَشَّطَ,vocalize
+1306,Arabic,إبرة,إِبْرَة,vocalize
+1307,Arabic,دبوس,دَبُّوس,vocalize
+1307,Hebrew,פִּין,פִּין,vocalize
+1309,Arabic,الأسلاك,الأَسْلاك,vocalize
+1310,Arabic,كيس,كِيس,vocalize
+1310,Hebrew,תיק,תִּיק,vocalize
+1311,Arabic,علبة,عُلْبَة,vocalize
+1311,Hebrew,קופסא,קֻפְסָא,vocalize
+1312,Arabic,سلة,سَلَّة,vocalize
+1313,Arabic,الويب,الوِيب,vocalize
+1313,Hebrew,אינטרנט,רֶשֶׁת,vocalize
+1314,Arabic,بطاقة,بِطَاقَة,vocalize
+1314,Hebrew,כַּרְטִיס,כַּרְטִיס,vocalize
+1315,Arabic,حلقة,حَلْقَة,vocalize
+1315,Hebrew,טַבַּעַת,טַבַּעַת,vocalize
+1317,Arabic,أداة,أَدَاة,vocalize
+1317,Hebrew,כְּלִי,כְּלִי,vocalize
+1319,Arabic,لغة,لُغَة,vocalize
+1319,Hebrew,שפה,שָׂפָה,vocalize
+1320,Arabic,كلمة,كَلِمَة,vocalize
+1320,Hebrew,מִלָה,מִלָּה,vocalize
+1321,Arabic,حرف,حَرْف,vocalize
+1321,Hebrew,אות,אוֹת,vocalize
+1322,Arabic,ورق,وَرَق,vocalize
+1322,Hebrew,עיתון,עִיתּוֹן,vocalize
+1323,Arabic,كتاب,كِتَاب,vocalize
+1324,Arabic,صفحة,صَفْحَة,vocalize
+1324,Hebrew,עמוד,עַמּוּד,vocalize
+1325,Arabic,ملف,مِلَفّ,vocalize
+1326,Arabic,قاموس,قَامُوس,vocalize
+1326,Hebrew,מילון,מִלּוֹן,vocalize
+1327,Arabic,قلم,قَلَم,vocalize
+1328,Arabic,قلم جاف,قَلَم جافّ,vocalize
+1329,Arabic,فرشاة,فُرْشَاة,vocalize
+1329,Hebrew,מִברֶשֶׁת,מִבְרֶשֶׁת,vocalize
+1330,Arabic,حبر,حِبْر,vocalize
+1330,Hebrew,דְיוֹ,דְּיוֹ,vocalize
+1331,Arabic,رسالة,رِسَالَة,vocalize
+1331,Hebrew,מִכְתָב,מִכְתָּב,vocalize
+1332,Arabic,ختم,خَتْم,vocalize
+1332,Hebrew,חותמת,חוֹתֶמֶת,vocalize
+1334,Arabic,ملاحظة,مُلَاحَظَة,vocalize
+1334,Hebrew,הערה,הֶעָרָה,vocalize
+1335,Arabic,رسم,رَسَمَ,vocalize
+1336,Arabic,صورة,صُورَة,vocalize
+1336,Hebrew,תְמוּנָה,תְּמוּנָה,vocalize
+1337,Arabic,إطار,إِطار,vocalize
+1337,Hebrew,מִסגֶרֶת,מִסְגֶּרֶת,vocalize
+1338,Arabic,تصوير,تَصْوِير,vocalize
+1338,Hebrew,תַצלוּם,תַּצְלוּם,vocalize
+1339,Arabic,خريطة,خَرِيطَة,vocalize
+1339,Hebrew,מַפָּה,מַפָּה,vocalize
+1340,Arabic,قائمة,قَائِمَة,vocalize
+1340,Hebrew,רשימה,רְשִׁימָה,vocalize
+1341,Arabic,طاولة,طَاوِلَة,vocalize
+1341,Hebrew,שולחן,שֻׁלְחָן,vocalize
+1342,Arabic,مخطط,مُخَطَط,vocalize
+1342,Hebrew,טבלה,טַבְלָה,vocalize
+1343,Arabic,تقويم,تَقْوِيم,vocalize
+1343,Hebrew,לוּחַ שָׁנָה,לוּחַ שָׁנָה,vocalize
+1344,Arabic,جدول,جَدْوَل,vocalize
+1344,Hebrew,לוח זמנים,לוּחַ זְמַנִּים,vocalize
+1345,Arabic,بوصلة,بُوصُّلَة,vocalize
+1345,Hebrew,מצפן,מַצְפֵּן,vocalize
+1346,Arabic,مسطرة,مِسْطَرَة,vocalize
+1346,Hebrew,סרגל,סַרְגֵּל,vocalize
+1348,Arabic,ساعة حائط,ساعَة حائِط,vocalize
+1348,Hebrew,שָׁעוֹן,שָׁעוֹן,vocalize
+1349,Arabic,مصباح,مِصْبَاح,vocalize
+1349,Hebrew,מנורה,מְנוֹרָה,vocalize
+1351,Arabic,كاميرا,كَامِيرَا,vocalize
+1351,Hebrew,מַצלֵמָה,מַצְלֵמָה,vocalize
+1352,Arabic,هاتف,هَاتَفَ,vocalize
+1352,Hebrew,טֵלֵפוֹן,טֶלֶפוֹן,vocalize
+1353,Arabic,التلفاز,التِلْفاز,vocalize
+1353,Hebrew,טֵלֶוִיזִיָה,טֵלֵוִיזְיָה,vocalize
+1354,Arabic,الحاسوب,الحاسُوب,vocalize
+1354,Hebrew,מַחשֵׁב,מַחְשֵׁב,vocalize
+1355,Arabic,حاسوب محمول,حَاسُوب مَحْمُول,vocalize
+1355,Hebrew,מחשב נייד,מַחְשֵׁב נַיָּד,vocalize
+1356,Arabic,برنامج,بَرْنَامَج,vocalize
+1356,Hebrew,תכנית,תָּכְנִית,vocalize
+1357,Arabic,شبكة الاتصال,شَبَكَة الاِتِّصال,vocalize
+1357,Hebrew,רֶשֶׁת,רֶשֶׁת,vocalize
+1358,Arabic,ثلاجة,ثَلَّاجَة,vocalize
+1359,Arabic,مكيف هواء,مُكَيِّف هَوَاء,vocalize
+1359,Hebrew,מזגן,מַזְגָן,vocalize
+1360,Arabic,غسالة,غَسَّالَة,vocalize
+1360,Hebrew,מכונת כביסה,מְכוֹנַת כְּבִיסָה,vocalize
+1361,Arabic,مكنسة كهربائية,مِكْنَسَة كَهْرَبَائِيَّة,vocalize
+1361,Hebrew,שואב אבק,שׁוֹאֵב אָבָק,vocalize
+1362,Arabic,فرن,فُرْن,vocalize
+1362,Hebrew,תנור אפיה,תַּנּוּר אֲפִיָּה,vocalize
+1363,Arabic,غلاية,غَلَّايَة,vocalize
+1363,Hebrew,קוּמקוּם,קוּמְקוּם,vocalize
+1364,Hebrew,מיקרוגל,מִיקְרוֹגַל,vocalize
+1365,Arabic,موس الحلاقة,موس الحَلّاقَة,vocalize
+1365,Hebrew,סכין גילוח,סַכִּין גִּלּוּחַ,vocalize
+1366,Arabic,مذياع,مِذْيَاع,vocalize
+1366,Hebrew,רָדִיוֹ,רַדְיוֹ,vocalize
+1367,Arabic,رقاقة,رِقاقه,vocalize
+1367,Hebrew,שְׁבָב,שְׁבָב,vocalize
+1368,Arabic,شاشة,شَاشَة,vocalize
+1368,Hebrew,מָסָך,מָסָךְ,vocalize
+1369,Arabic,لوحة المفاتيح,لَوْحَة المَفاتِيح,vocalize
+1369,Hebrew,מקלדת,מִקְלֶדֶת,vocalize
+1371,Arabic,طابعة,طَابِعَة,vocalize
+1371,Hebrew,מדפסת,מַדְפֶּסֶת,vocalize
+1372,Arabic,سماعة الأذن,سَماعه الإِذْن,vocalize
+1372,Hebrew,אֹזְנִיָה,אָזְנִיָּה,vocalize
+1373,Arabic,ميكروفون,مَيْكْرُوفُون,vocalize
+1373,Hebrew,מִיקרוֹפוֹן,מִיקְרוֹפוֹן,vocalize
+1374,Arabic,مكبر الصوت,مُكَبِّر الصَوْت,vocalize
+1374,Hebrew,רַמקוֹל,רַמְקוֹל,vocalize
+1375,Arabic,أداة,أَدَاة,vocalize
+1375,Hebrew,כלי,כְּלִי,vocalize
+1376,Arabic,حفلة موسيقية,حَفْلَة مُوسِيقِيَّة,vocalize
+1377,Arabic,الأوبرا,الأُوبِرا,vocalize
+1377,Hebrew,אוֹפֵּרָה,אוֹפֵּרָה,vocalize
+1378,Arabic,أوركسترا,أُورْكِسْتْرَا,vocalize
+1378,Hebrew,תִזמוֹרֶת,תִּזְמֹרֶת,vocalize
+1380,Arabic,لحن,لَحْن,vocalize
+1382,Arabic,قافية,قَافِيَة,vocalize
+1382,Hebrew,חרוז,חָרוּז,vocalize
+1384,Arabic,موسيقى كلاسيكية,مُوسِيقَى كْلَاسِيكِيَّة,vocalize
+1384,Hebrew,מוזיקה קלאסית,מוּזִיקָה קְלָסִית,vocalize
+1385,Arabic,موسيقى البوب,مُوسِيقَى الْبُوب,vocalize
+1385,Hebrew,מוסיקת פופ,מוּסִיקַת פּוֹפּ,vocalize
+1386,Arabic,موسيقى الجاز,مُوسِيقَى الجاز,vocalize
+1386,Hebrew,ג'ֶז,גָ'ז,vocalize
+1387,Arabic,البلوز,البلُوز,vocalize
+1387,Hebrew,בלוז,בְּלוּז,vocalize
+1388,Arabic,فاسق,فاسِق,vocalize
+1388,Hebrew,פָּאנק,פַּאנְק,vocalize
+1389,Arabic,صخر,صَخْر,vocalize
+1389,Hebrew,סלע,סֶלַע,vocalize
+1390,Arabic,بوق,بُوق,vocalize
+1390,Hebrew,צופר,צוֹפָר,vocalize
+1391,Arabic,بوق,بُوق,vocalize
+1392,Hebrew,סקסופון,סַקסוֹפוֹן,vocalize
+1394,Arabic,طبل,طَبْل,vocalize
+1394,Hebrew,תוֹף,תֹּף,vocalize
+1395,Hebrew,גִיטָרָה,גִּיטָרָה,vocalize
+1396,Hebrew,צֶ'לוֹ,צֵ'לוֹ,vocalize
+1397,Arabic,كمان,كَمَان,vocalize
+1397,Hebrew,כינור,כִּנּוֹר,vocalize
+1398,Arabic,بيانو,بِيَانُو,vocalize
+1398,Hebrew,פְּסַנְתֵר,פְּסַנְתֵּר,vocalize
+1399,Arabic,عضو,عُضْو,vocalize
+1400,Arabic,سلسلة,سِلْسِلَة,vocalize
+1401,Hebrew,חליל,חָלִיל,vocalize
+1403,Arabic,جرس,جَرَس,vocalize
+1403,Hebrew,פַּעֲמוֹן,פַּעֲמוֹן,vocalize
+1404,Arabic,قبعة,قُبَّعَة,vocalize
+1405,Arabic,تاج,تَاج,vocalize
+1405,Hebrew,כֶּתֶר,כֶּתֶר,vocalize
+1406,Arabic,عباءة,عَباءَة,vocalize
+1406,Hebrew,גְלִימָה,גְּלִימָה,vocalize
+1407,Arabic,فستان,فُسْتَان,vocalize
+1407,Hebrew,שמלה,שִׂמְלָה,vocalize
+1409,Arabic,تنورة,تَنُّورَة,vocalize
+1409,Hebrew,חצאית,חֲצָאִית,vocalize
+1410,Arabic,سترة,سُتْرَة,vocalize
+1410,Hebrew,סווֶדֶר,סְוֵדֶר,vocalize
+1411,Arabic,قميص,قَمِيص,vocalize
+1411,Hebrew,חוּלצָה,חֻלְצָה,vocalize
+1412,Arabic,تي شيرت,تِي شِيرْت,vocalize
+1412,Hebrew,חולצה קצרה,חֻלְצָה קְצָרָה,vocalize
+1413,Arabic,بنطال,بِنْطَال,vocalize
+1413,Hebrew,מִכְנָסַיִים,מִכְנָסַיִם,vocalize
+1414,Arabic,حذاء,حِذَاء,vocalize
+1414,Hebrew,נַעַל,נָעַל,vocalize
+1415,Arabic,جورب,جَوْرَب,vocalize
+1415,Hebrew,גֶרֶב,גֶּרֶב,vocalize
+1416,Arabic,جيب,جَيْب,vocalize
+1416,Hebrew,כִּיס,כִּיס,vocalize
+1417,Arabic,معطف,مِعْطَف,vocalize
+1417,Hebrew,מעיל,מְעִיל,vocalize
+1420,Arabic,رياضة,رِيَاضَة,vocalize
+1420,Hebrew,ספּוֹרט,סְפּוֹרְט,vocalize
+1421,Arabic,منافسة,مُنافَسَة,vocalize
+1421,Hebrew,תַחֲרוּת,תַּחֲרוּת,vocalize
+1422,Arabic,سباق,سِبَاق,vocalize
+1423,Arabic,فريق,فَرِيق,vocalize
+1424,Arabic,ممارسه الرياضه,مُمارَسَة الرِياضَة,vocalize
+1424,Hebrew,תרגיל,תַּרְגִּיל,vocalize
+1425,Arabic,كرة سلة,كُرَة سَلَّة,vocalize
+1425,Hebrew,כדורסל,כַּדּוּרְסַל,vocalize
+1426,Arabic,كرة القدم,كُرَة اَلْقَدَم,vocalize
+1426,Hebrew,כדורגל,כַּדּוּרֶגֶל,vocalize
+1427,Hebrew,בייסבול,בֵּיְסְבּוֹל,vocalize
+1428,Arabic,الكرة الطائرة,الكُرَةُ اَلْطَّائِرَة,vocalize
+1428,Hebrew,כַּדוּר עָף,כַּדּוּר עָף,vocalize
+1429,Arabic,تنس الريشة,تِنِس اَلرِّيشَة,vocalize
+1429,Hebrew,נוצית,נוֹצִית,vocalize
+1430,Arabic,تنس,تَنِس,vocalize
+1431,Arabic,تنس طاولة,تَنِس طَاوِلَة,vocalize
+1431,Hebrew,טניס שולחן,טֶנִיס שׁוּלְחָן,vocalize
+1432,Arabic,ترفيه,تَرْفِيه,vocalize
+1432,Hebrew,בידור,בִּדּוּר,vocalize
+1433,Arabic,موسيقى,مُوسِيقَى,vocalize
+1434,Arabic,فن,فَنّ,vocalize
+1434,Hebrew,אומנות,אָמָּנוּת,vocalize
+1435,Arabic,الجنس,الجِنْس,vocalize
+1437,Arabic,عرق,عِرْق,vocalize
+1437,Hebrew,הגזע,גֶּזַע,vocalize
+1438,Arabic,رقم,رَقَّمَ,vocalize
+1438,Hebrew,מספר,מִסְפָּר,vocalize
+1439,Arabic,متوسط,مُتَوَسِّط,vocalize
+1439,Hebrew,מְמוּצָע,מְמֻצָּע,vocalize
+1442,Arabic,تسلسل,تَسَلْسُل,vocalize
+1442,Hebrew,סדר פעולות,סֵדֶר פְּעֻלּוֹת,vocalize
+1443,Arabic,مستوى,مُسْتَوًى,vocalize
+1443,Hebrew,רָמָה,רִמָּה,vocalize
+1444,Arabic,طبقة,طَبَقَة,vocalize
+1444,Hebrew,שִׁכבָה,שִׁכְבָה,vocalize
+1445,Arabic,نمط,نَمَط,vocalize
+1445,Hebrew,תבנית,תַּבְנִית,vocalize
+1446,Arabic,شريط,شَرِيط,vocalize
+1446,Hebrew,פס,פַּס,vocalize
+1447,Arabic,شبكة,شَبَكَة,vocalize
+1447,Hebrew,רֶשֶׁת,רֶשֶׁת,vocalize
+1448,Arabic,بقعة,بُقْعَة,vocalize
+1448,Hebrew,נקודה ,נְקֻדָּה,vocalize
+1450,Arabic,مجموعة,مَجْمُوعَة,vocalize
+1451,Arabic,القاعدة,القاعِدَة,vocalize
+1452,Arabic,مقدار,مِقْدَار,vocalize
+1452,Hebrew,כמות,כַּמּוּת,vocalize
+1453,Arabic,تقنية,تَقْنِيَة,vocalize
+1454,Arabic,انتخاب,اِنْتِخَاب,vocalize
+1455,Arabic,مجلة,مَجَلَّة,vocalize
+1455,Hebrew,מגזין,מָגָזִין,vocalize
+1456,Arabic,جريدة,جَرِيدَة,vocalize
+1456,Hebrew,עיתון,עִיתּוֹן,vocalize
+1457,Arabic,السعر,السِعْر,vocalize
+1457,Hebrew,מחיר,מְחִיר,vocalize
+1459,Arabic,لافتة,لافِتَة,vocalize
+1460,Arabic,رمز,رَمْز,vocalize
+1461,Arabic,صورة,صُورَة,vocalize
+1461,Hebrew,תמונה,תְּמוּנָה,vocalize
+1462,Arabic,علوم,عُلُوم,vocalize
+1462,Hebrew,מַדָע,מַדָּע,vocalize
+1464,Arabic,فوضى,فَوْضَى,vocalize
+1464,Hebrew,אי סדר,אִי סֵדֶר,vocalize
+1465,Arabic,إله,إِلٰه,vocalize
+1465,Hebrew,אלוהים,אֱלוֹהִים,vocalize
+1466,Arabic,سحر,سَحَر,vocalize
+1467,Arabic,وهم,وَهْم,vocalize
+1467,Hebrew,אַשְׁלָיָה,אַשְׁלָיָה,vocalize
+1468,Arabic,متاهة,مَتَاهَة,vocalize
+1468,Hebrew,מָבוֹך,מָבוֹךְ,vocalize
+1469,Arabic,دين,دِين,vocalize
+1469,Hebrew,דָת,דָּת,vocalize
+1471,Arabic,الجحيم,الجَحِيم,vocalize
+1471,Hebrew,גֵיהִנוֹם,גֵּיהִנּוֹם,vocalize
+1472,Arabic,ملاك,مَلَاك,vocalize
+1472,Hebrew,מַלְאָך,מַלְאָךְ,vocalize
+1473,Arabic,شيطان,شَيْطَان,vocalize
+1473,Hebrew,שָׂטָן,שָׂטָן,vocalize
+1474,Arabic,جنية,جِنِّيَّة,vocalize
+1474,Hebrew,פיות,פֵיָה,vocalize
+1475,Arabic,وحش,وَحْش,vocalize
+1475,Hebrew,מִפלֶצֶת,מִפְלֶצֶת,vocalize
+1476,Arabic,قزم,قَزَم,vocalize
+1476,Hebrew,גמד,גִּמֵּד,vocalize
+1478,Arabic,شبح,شَبَح,vocalize
+1479,Arabic,خرافة,خُرَافَة,vocalize
+1480,Arabic,قانون,قَانُون,vocalize
+1480,Hebrew,חוֹק,חֹק,vocalize
+1481,Arabic,وسائل الإعلام,وَسَائِل الْإِعْلَام,vocalize
+1481,Hebrew,כְּלֵי תִקְשׁוֹרֶת,כְּלֵי תִּקְשֹׁרֶת,vocalize
+1482,Arabic,رسالة,رِسَالَة,vocalize
+1483,Arabic,معلومة,مَعْلُومَة,vocalize
+1484,Arabic,رأي,رَأْي,vocalize
+1484,Hebrew,נוף,נוֹף,vocalize
+1485,Arabic,التفضيل,التَفْضِيل,vocalize
+1486,Arabic,تحيز,تَحَيُّز,vocalize
+1486,Hebrew,הֲטָיָה,הַטָּיָה,vocalize
+1487,Arabic,مجهود,مَجْهُود,vocalize
+1488,Arabic,مشكلة,مُشْكِلَة,vocalize
+1488,Hebrew,בְּעָיָה,בְּעָיָה,vocalize
+1489,Arabic,خبرة,خِبْرَة,vocalize
+1489,Hebrew,ניסיון,נִסָּיוֹן,vocalize
+1490,Arabic,يندم,يَنْدَم,vocalize
+1491,Arabic,سعادة,سَعَادَة,vocalize
+1491,Hebrew,אושר,אֹשֶׁר,vocalize
+1492,Arabic,حظ,حَظّ,vocalize
+1492,Hebrew,מַזָל,מַזָּל,vocalize
+1493,Arabic,قدر,قَدَرَ,vocalize
+1493,Hebrew,גוֹרָל,גּוֹרָל,vocalize
+1495,Arabic,فرصة,فُرْصَة,vocalize
+1495,Hebrew,הִזדַמְנוּת,סִכּוּי,vocalize
+1496,Arabic,احتمالا,اِحْتِمالا,vocalize
+1496,Hebrew,הִסתַבְּרוּת,הִסְתַּבְּרוּת,vocalize
+1497,Arabic,نظرية,نَظَرِيَّة,vocalize
+1497,Hebrew,תֵאוֹרִיָה,תֵּאוֹרְיָה,vocalize
+1499,Arabic,صراع,صِرَاع,vocalize
+1500,Arabic,تجربة,تَجْرِبَة,vocalize
+1500,Hebrew,לְנַסוֹת,נִסּוּי,vocalize
+1501,Arabic,نموذج,نَمُوذَج,vocalize
+1501,Hebrew,דֶגֶם,דֶּגֶם,vocalize
+1502,Arabic,أداء,أَدَاء,vocalize
+1502,Hebrew,ביצועים,בִּצּוּעִים,vocalize
+1503,Arabic,تحليل,تَحْلِيل,vocalize
+1505,Arabic,التأثير,التَأْثِير,vocalize
+1505,Hebrew,תוצאה,תּוֹצָאָה,vocalize
+1506,Arabic,دليل,دَلِيل,vocalize
+1507,Arabic,فترة,فَتْرَة,vocalize
+1507,Hebrew,פרק זמן,פֶּרֶק זְמַן,vocalize
+1508,Arabic,عملية,عَمَلِيَّة,vocalize
+1508,Hebrew,תהליך,תַּהֲלִיךְ,vocalize
+1509,Arabic,تقدم,تَقَدُّم,vocalize
+1509,Hebrew,התקדמות,הִתְקַדְּמוּת,vocalize
+1510,Arabic,نهاية,نِهَايَة,vocalize
+1511,Arabic,هدف,هَدَف,vocalize
+1511,Hebrew,מטרה,מַטָּרָה,vocalize
+1513,Arabic,فكرة,فِكْرَة,vocalize
+1513,Hebrew,רַעְיוֹן,רַעֲיוֹן,vocalize
+1514,Arabic,المعرفه,المَعْرِفَة,vocalize
+1514,Hebrew,יֶדַע,יָדַע,vocalize
+1515,Arabic,التفاصيل,التَفاصِيل,vocalize
+1515,Hebrew,פרט,פְּרָט,vocalize
+1517,Arabic,يتعقب,يَتَعَقَّب,vocalize
+1517,Hebrew,זֵכֶר,זָכַר,vocalize
+1518,Arabic,مثال,مِثَال,vocalize
+1518,Hebrew,דוגמא,דֻּגְמָא,vocalize
+1519,Arabic,قضية,قَضِيَّة,vocalize
+1519,Hebrew,מקרה,מִקְרֶה,vocalize
+1520,Arabic,قيمة,قِيمَة,vocalize
+1520,Hebrew,ערך,עֵרֶךְ,vocalize
+1521,Arabic,معنى,مَعْنًى,vocalize
+1521,Hebrew,מַשְׁמָעוּת,מַשְׁמָעוּת,vocalize
+1522,Arabic,مال,مَال,vocalize
+1522,Hebrew,כֶּסֶף,כֶּסֶף,vocalize
+1523,Arabic,ثروة,ثَرْوَة,vocalize
+1523,Hebrew,עוֹשֶׁר,עֹשֶׁר,vocalize
+1524,Arabic,النظام,النِظام,vocalize
+1524,Hebrew,מערכת,מַעֲרֶכֶת,vocalize
+1525,Arabic,المجتمع,المُجْتَمَع,vocalize
+1525,Hebrew,חֶברָה,חֶבְרָה,vocalize
+1526,Arabic,بيئة,بِيئَة,vocalize
+1526,Hebrew,סביבה,סְבִיבָה,vocalize
+1527,Arabic,التعليم,التَعْلِيم,vocalize
+1527,Hebrew,חינוך,חִנּוּךְ,vocalize
+1528,Arabic,الأدب,الأَدَب,vocalize
+1530,Arabic,الفيزياء,الفِيزياء,vocalize
+1530,Hebrew,פיזיקה,פִֿיזִיקָה,vocalize
+1531,Arabic,كيمياء,كِيمِيَاء,vocalize
+1531,Hebrew,כִּימִיָה,כִימְיָה,vocalize
+1532,Arabic,مادة الاحياء,مادَّة الأَحْياء,vocalize
+1532,Hebrew,ביולוגיה,בִּיּוֹלוֹגְיָה,vocalize
+1533,Arabic,الثقافة,الثَقافَة,vocalize
+1533,Hebrew,תַרְבּוּת,תַּרְבּוּת,vocalize
+1534,Arabic,سياسة,سِيَاسَة,vocalize
+1535,Arabic,اقتصاد,اِقْتِصاد,vocalize
+1535,Hebrew,כַּלְכָּלָה,כַּלְכָּלָה,vocalize
+1536,Arabic,تمويل,تَمْوِيل,vocalize
+1536,Hebrew,לְמַמֵן,מִימוּן,vocalize
+1537,Arabic,جيش,جَيْش,vocalize
+1538,Arabic,الزراعة,الزِراعَة,vocalize
+1538,Hebrew,חַקלָאוּת,חַקְלָאוּת,vocalize
+1539,Arabic,شركة,شَرِكَة,vocalize
+1539,Hebrew,חֶברָה,חֶבְרָה,vocalize
+1540,Arabic,صناعة,صِنَاعَة,vocalize
+1540,Hebrew,תַעֲשִׂיָה,תַּעֲשִׂיָּה,vocalize
+1541,Arabic,قصة,قِصَّة,vocalize
+1541,Hebrew,כַּתָבָה,סִפּוּר,vocalize
+1542,Arabic,مهنة,مِهْنَة,vocalize
+1542,Hebrew,עבודה,עֲבוֹדָה,vocalize
+1543,Arabic,مسؤولية,مَسْؤُولِيَّة,vocalize
+1544,Arabic,العدل,العَدْل,vocalize
+1545,Arabic,الأخلاق,الأَخْلاق,vocalize
+1545,Hebrew,מוּסָרִיוּת,מוּסָרִיּוּת,vocalize
+1546,Arabic,تاريخ,تَارِيخ,vocalize
+1546,Hebrew,הִיסטוֹרִיָה,הִיסְטוֹרְיָה,vocalize
+1547,Arabic,ذاكرة,ذَاكِرَة,vocalize
+1547,Hebrew,זיכרון,זִכָּרוֹן,vocalize
+1548,Arabic,الماضي,الْمَاضِي,vocalize
+1548,Hebrew,עבר,עָבָר,vocalize
+1550,Arabic,المستقبل,المُسْتَقْبَل,vocalize
+1550,Hebrew,עתיד,עָתִיד,vocalize
+1551,Arabic,مدينة,مَدِينَة,vocalize
+1552,Arabic,منطقة,مِنْطَقَة,vocalize
+1553,Arabic,مدينة,مَدِينَة,vocalize
+1553,Hebrew,העיר,עֲיָרָה,vocalize
+1554,Arabic,بناء,بِنَاء,vocalize
+1554,Hebrew,בִּניָן,בִּנְיָן,vocalize
+1555,Arabic,الحزم,الحَزْم,vocalize
+1556,Arabic,عمود,عَمُود,vocalize
+1556,Hebrew,עַמוּד,עַמּוּד,vocalize
+1558,Arabic,سلالم,سَلَالِم,vocalize
+1558,Hebrew,מדרגות,מַדְרֵגוֹת,vocalize
+1559,Arabic,مصعد,مِصْعَدْ,vocalize
+1560,Arabic,رافعة,رَافِعَة,vocalize
+1560,Hebrew,עגורן,עֲגוּרָן,vocalize
+1562,Arabic,قصر,قَصْر,vocalize
+1563,Arabic,قلعة,قَلْعَة,vocalize
+1564,Arabic,الحصن,الحِصْن,vocalize
+1564,Hebrew,מִבצָר,מִבְצָר,vocalize
+1566,Arabic,قبة,قُبَّة,vocalize
+1566,Hebrew,כיפה,כִּפָּה,vocalize
+1567,Arabic,قوس,قَوْس,vocalize
+1567,Hebrew,קֶשֶׁת,קֶשֶׁת,vocalize
+1568,Arabic,برج,بُرْج,vocalize
+1568,Hebrew,מִגדָל,מִגְדָּל,vocalize
+1573,Arabic,منارة,مَنَارَة,vocalize
+1574,Arabic,هرم,هَرَم,vocalize
+1574,Hebrew,פִּירָמִידָה,פִּירָמִידָה,vocalize
+1575,Arabic,كوخ,كُوخ,vocalize
+1576,Arabic,إسطبل,إِسْطَبْل,vocalize
+1576,Hebrew,אֹסֶם,אָסָם,vocalize
+1577,Arabic,قبو,قَبْوْ,vocalize
+1577,Hebrew,מַרְתֵף,מַרְתֵּף,vocalize
+1578,Arabic,حانة,حَانَة,vocalize
+1578,Hebrew,פָּאבּ,פָּאבּ,vocalize
+1579,Arabic,تخشيبة,تَخْشِيبَة,vocalize
+1579,Hebrew,בקתת עץ,בִּקְתַּת עֵץ,vocalize
+1580,Arabic,ناطحة سحاب,نَاطِحَة سَحَاب,vocalize
+1580,Hebrew,גורד שחקים,גּוֹרֵד שְׁחָקִים,vocalize
+1582,Arabic,مصنع,مَصْنَع,vocalize
+1582,Hebrew,בית חרושת,בֵּית חֲרֹשֶׁת,vocalize
+1584,Arabic,شارع,شَارِع,vocalize
+1585,Arabic,كوبري,كَوَبَرِي,vocalize
+1585,Hebrew,לְגַשֵׁר,גֶּשֶׁר,vocalize
+1586,Arabic,محطة,مَحَطَّة,vocalize
+1586,Hebrew,תַחֲנָה,תַּחֲנָה,vocalize
+1587,Arabic,مدرسة,مَدْرَسَة,vocalize
+1587,Hebrew,בית ספר,בֵּית סֵפֶר,vocalize
+1588,Arabic,طالب,طَالِب,vocalize
+1588,Hebrew,סטוּדֶנט,סְטוּדֶנְט,vocalize
+1589,Arabic,سوق,سُوق,vocalize
+1590,Arabic,متجر,مَتْجَر,vocalize
+1590,Hebrew,לִקְנוֹת,חֲנוּת,vocalize
+1591,Arabic,الفندق,الفُنْدُق,vocalize
+1591,Hebrew,מלון,מָלוֹן,vocalize
+1592,Arabic,مطعم,مَطْعَم,vocalize
+1592,Hebrew,מִסעָדָה,מִסְעָדָה,vocalize
+1593,Arabic,منتزه,مُنْتَزَه,vocalize
+1593,Hebrew,פָּארק,פַּארְק,vocalize
+1594,Arabic,مستشفى,مُسْتَشْفًى,vocalize
+1594,Hebrew,בית חולים,בֵּית חוֹלִים,vocalize
+1595,Arabic,مكتب. مقر. مركز,مكتب. مقر. مَرْكَز,vocalize
+1595,Hebrew,מִשׂרָד,מִשְׂרָד,vocalize
+1596,Arabic,مزرعة,مَزْرَعَة,vocalize
+1596,Hebrew,חווה חקלאית,חַוָּה חַקְלָאִית,vocalize
+1597,Arabic,معسكر,مُعَسْكَر,vocalize
+1598,Arabic,مسرح,مَسْرَح,vocalize
+1598,Hebrew,תיאטרון,תֵּאַטְרוֹן,vocalize
+1599,Arabic,المسرح,المَسْرَح,vocalize
+1599,Hebrew,שלב,שָׁלָב,vocalize
+1600,Arabic,جمهور,جُمْهُور,vocalize
+1600,Hebrew,קהל,קָהָל,vocalize
+1601,Arabic,حرف,حَرْف,vocalize
+1601,Hebrew,אופי,דְּמוּת,vocalize
+1602,Arabic,لعب,لَعْب,vocalize
+1602,Hebrew,לְשַׂחֵק,מַחֲזֶה,vocalize
+1603,Hebrew,תַסרִיט,תַּסְרִיט,vocalize
+1604,Arabic,مكتبة,مَكْتَبَة,vocalize
+1604,Hebrew,סִפְרִיָה,סִפְרִיָּה,vocalize
+1606,Arabic,كنيسة,كَنِيسَة,vocalize
+1606,Hebrew,כְּנֵסִיָה,כְּנֵסִיָּה,vocalize
+1607,Arabic,المحكمة,المَحْكَمَة,vocalize
+1607,Hebrew,בית משפט,בֵּית מִשְׁפָּט,vocalize
+1608,Arabic,السجن,السِجْن,vocalize
+1608,Hebrew,בית כלא,בֵּית כֶּלֶא,vocalize
+1609,Arabic,ضحية,ضَحِيَّة,vocalize
+1609,Hebrew,קורבן,קָרְבָּן,vocalize
+1610,Arabic,قتل,قَتَلَ,vocalize
+1611,Arabic,ميناء,مِينَاء,vocalize
+1611,Hebrew,נמל,נָמֵל,vocalize
+1612,Arabic,مصرف,مَصْرِف,vocalize
+1612,Hebrew,בַּנק,בַּנְק,vocalize
+1613,Arabic,بلد,بَلَد,vocalize
+1613,Hebrew,מדינה,מְדִינָה,vocalize
+1614,Arabic,ملِك,مَلَك,vocalize
+1614,Hebrew,מלך,מֶלֶךְ,vocalize
+1615,Arabic,ملكة,مَلِكَة,vocalize
+1615,Hebrew,מַלכָּה,מַלְכָּה,vocalize
+1616,Arabic,أمير,أَمِير,vocalize
+1616,Hebrew,נסיך,נָסִיךְ,vocalize
+1617,Arabic,أميرة,أَمِيرَة,vocalize
+1617,Hebrew,נסיכה,נְסִיכָה,vocalize
+1618,Arabic,رئيس,رَئِيس,vocalize
+1618,Hebrew,נָשִׂיא,נָשִׂיא,vocalize
+1620,Arabic,صديق,صَدِيق,vocalize
+1620,Hebrew,חבר,חָבֵר,vocalize
+1621,Arabic,العدو,العَدُوّ,vocalize
+1622,Arabic,طبيب,طَبِيب,vocalize
+1623,Arabic,مهندس معماري,مُهَنْدِس مِعْمَارِيّ,vocalize
+1624,Arabic,إدارة,إِدارَة,vocalize
+1624,Hebrew,מנהל,מְנַהֵל,vocalize
+1625,Arabic,سكرتير,سِكْرِتِير,vocalize
+1625,Hebrew,מזכיר,מַזְכִּיר,vocalize
+1626,Arabic,رئيس,رَئِيس,vocalize
+1626,Hebrew,"יו""ר",יוֹשֵׁב־רֹאשׁ,vocalize
+1628,Arabic,محامي,مُحامِي,vocalize
+1628,Hebrew,עורך דין,עוֹרֵךְ דִּין,vocalize
+1629,Arabic,محاسب,مُحَاسِب,vocalize
+1629,Hebrew,רואת חשבון,רוֹאַת חֶשְׁבּוֹן,vocalize
+1630,Arabic,معلم,مُعَلِّم,vocalize
+1632,Arabic,مبرمج,مُبَرْمِج,vocalize
+1632,Hebrew,מְתַכנֵת,מְתַכְנֵת,vocalize
+1633,Arabic,سياسي,سِيَاسِيّ,vocalize
+1633,Hebrew,פּוֹלִיטִיקָאִי,פּוֹלִיטִיקַאי,vocalize
+1634,Hebrew,רופא שיניים,רוֹפֵא שִׁינַּייִם,vocalize
+1635,Arabic,الوزير الأول,الْوَزِير الأوَّل,vocalize
+1635,Hebrew,ראש ממשלה,רֹאשׁ מֶמְשָׁלָה,vocalize
+1636,Arabic,مساعد,مُسَاعِد,vocalize
+1639,Arabic,أمين المكتبة,أَمِين المَكْتَبَة,vocalize
+1639,Hebrew,סַפרָן,סַפְרָן,vocalize
+1640,Arabic,مستشار,مُسْتَشَار,vocalize
+1641,Arabic,مزارع,مُزَارِع,vocalize
+1641,Hebrew,חַקלאַי,חַקְלַאי,vocalize
+1642,Arabic,سائق شاحنة,سائِق شاحِنَة,vocalize
+1642,Hebrew,נהג משאית,נָהַג מַשָּׂאִית,vocalize
+1643,Arabic,سائق قطار,سائِق قِطار,vocalize
+1643,Hebrew,נהג רכבת,נָהַג רַכֶּבֶת,vocalize
+1644,Arabic,قصاب,قَصَّاب,vocalize
+1644,Hebrew,קַצָב,קַצָּב,vocalize
+1645,Arabic,عامل بناء,عامِل بِناء,vocalize
+1645,Hebrew,עובד בניין,עוֹבֵד בִּנְיָן,vocalize
+1646,Arabic,النجار,النَجّار,vocalize
+1646,Hebrew,נגר,נַגָּר,vocalize
+1647,Arabic,عامل الكهرباء,عامِل الكَهْرَباء,vocalize
+1647,Hebrew,חַשׁמַלַאי,חַשְׁמַלַּאי,vocalize
+1648,Arabic,سباك,سَبَّاك,vocalize
+1648,Hebrew,שרברב,שְׁרַבְרַב,vocalize
+1649,Arabic,ميكانيكي,مِيكَانِيكِيّ,vocalize
+1649,Hebrew,מְכוֹנַאִי,מְכוֹנַאי,vocalize
+1650,Arabic,منظف,مُنَظِّف,vocalize
+1650,Hebrew,מְנַקֶה,מְנַקֶּה,vocalize
+1651,Arabic,بستاني,بُسْتَانِيّ,vocalize
+1651,Hebrew,גַנָן,גַּנָּן,vocalize
+1652,Arabic,صياد السمك,صَيّاد السَمَك,vocalize
+1652,Hebrew,דַיָג,דַּיָּג,vocalize
+1654,Arabic,رجال الاطفاء,رِجال الإِطْفاء,vocalize
+1654,Hebrew,כבאי,כַּבַּאי,vocalize
+1655,Arabic,ممرض,مُمَرِّض,vocalize
+1656,Arabic,طيار,طَيَّار,vocalize
+1656,Hebrew,טַיָס,טַיָּס,vocalize
+1657,Arabic,مضيفة,مُضِيفَة,vocalize
+1657,Hebrew,דיילה,דַּיֶּלֶת,vocalize
+1658,Arabic,قابلة,قَابِلَة,vocalize
+1658,Hebrew,מְיַלֶדֶת,מְיַלֶּדֶת,vocalize
+1659,Arabic,يطبخ,يَطْبَخ,vocalize
+1659,Hebrew,לְבַשֵׁל,טַבָּח,vocalize
+1660,Arabic,النادل,النادِل,vocalize
+1661,Arabic,خياط,خَيَّاط,vocalize
+1661,Hebrew,לְהַתְאִים,חַיָּט,vocalize
+1662,Arabic,أمين الصندوق,أَمِينُ الصُّنْدُوقِ,vocalize
+1662,Hebrew,קופאית,קֻפָּאִית,vocalize
+1663,Arabic,موظف الإستقبال,مُوَظَّف الاِسْتِقْبال,vocalize
+1665,Arabic,جندي,جُنْدِيّ,vocalize
+1665,Hebrew,לוֹחֶם,חַיָּל,vocalize
+1666,Arabic,سائق الحافلة,سائِق الحافِلَة,vocalize
+1666,Hebrew,נהג אוטובוס,נָהַג אוֹטוֹבּוּס,vocalize
+1667,Arabic,حارس شخصي,حَارِس شَخْصِيّ,vocalize
+1668,Arabic,كاهن,كَاهِن,vocalize
+1668,Hebrew,כּוֹמֶר,כֹּמֶר,vocalize
+1670,Arabic,حكم,حُكْم,vocalize
+1671,Arabic,مراسل,مُرَاسِل,vocalize
+1671,Hebrew,כַתָב,כָּתַב,vocalize
+1672,Arabic,الممثل,المُمَثِّل,vocalize
+1672,Hebrew,שַׂחְקָן,שַׂחְקָן,vocalize
+1673,Arabic,راقصة,رَاقِصَة,vocalize
+1673,Hebrew,רַקדָן,רַקְדָן,vocalize
+1674,Arabic,حافة,حافَة,vocalize
+1675,Arabic,ركن,رُكْن,vocalize
+1675,Hebrew,פינה,פִּנָּה,vocalize
+1676,Arabic,المركز,المَرْكَز,vocalize
+1676,Hebrew,מֶרְכָּז,מֶרְכָּז,vocalize
+1677,Arabic,هدف,هَدَف,vocalize
+1677,Hebrew,נְקוּדָה,נְקֻדָּה,vocalize
+1678,Arabic,خط,خَطّ,vocalize
+1679,Arabic,عقدة,عُقْدَة,vocalize
+1681,Arabic,شكل,شَكْل,vocalize
+1682,Arabic,دائرة,دَائِرَة,vocalize
+1682,Hebrew,מעגל,מַעְגָּל,vocalize
+1683,Arabic,مثلث,مُثَلَّث,vocalize
+1683,Hebrew,משולש,מְשֻׁלָּשׁ,vocalize
+1684,Arabic,ميدان,مَيْدَان,vocalize
+1684,Hebrew,כיכר,רִבּוּעַ,vocalize
+1685,Arabic,مستطيل,مُسْتَطِيل,vocalize
+1685,Hebrew,מַלבֵּן,מַלְבֵּן,vocalize
+1686,Arabic,كرة,كُرَة,vocalize
+1686,Hebrew,כַּדוּר,כַּדּוּר,vocalize
+1687,Arabic,كتلة,كُتْلَة,vocalize
+1687,Hebrew,גוש,גּוּשׁ,vocalize
+1688,Arabic,مكعب,مُكَعَّب,vocalize
+1688,Hebrew,קוּבִּיָה,קֻבִּיָּה,vocalize
+1689,Arabic,عقدة,عُقْدَة,vocalize
+1689,Hebrew,קשר,קֶשֶׁר,vocalize
+1690,Arabic,الوقت,الوَقْت,vocalize
+1690,Hebrew,זְמַן,זְמָן,vocalize
+1691,Arabic,مكان,مَكَان,vocalize
+1691,Hebrew,מקום,מָקוֹם,vocalize
+1692,Arabic,الفراغ,الفَراغ,vocalize
+1692,Hebrew,מֶרחָב,מֶרְחָב,vocalize
+1693,Arabic,طاقة,طَاقَة,vocalize
+1693,Hebrew,אֵנֶרְגִיָה,אֵנֶרְגִּיָּה,vocalize
+1694,Arabic,المادة,المادَّة,vocalize
+1694,Hebrew,חוֹמֶר,חֹמֶר,vocalize
+1695,Arabic,وزن,وَزَنَ,vocalize
+1695,Hebrew,מִשׁקָל,מִשְׁקָל,vocalize
+1696,Arabic,الصوت,الصَوْت,vocalize
+1696,Hebrew,כרך,כֶּרֶךְ,vocalize
+1697,Arabic,الطول,الطُول,vocalize
+1697,Hebrew,אורך,אֹרֶךְ,vocalize
+1698,Arabic,العرض,العَرْض,vocalize
+1698,Hebrew,רוֹחַב,רֹחַב,vocalize
+1699,Arabic,ارتفاع,اِرْتِفَاع,vocalize
+1699,Hebrew,גוֹבַה,גֹּבַהּ,vocalize
+1700,Arabic,كثافة,كَثَافَة,vocalize
+1701,Arabic,تردد,تَرَدُّد,vocalize
+1701,Hebrew,תדירות,תְּדִירוּת,vocalize
+1702,Arabic,السعة,السَعَة,vocalize
+1702,Hebrew,אמפליטודה,אַמְפְּלִיטוּדָה,vocalize
+1703,Arabic,مسافه: بعد,مسافه: بُعْد,vocalize
+1704,Arabic,الفارق,الفارِق,vocalize
+1704,Hebrew,פער,פַּעַר,vocalize
+1705,Arabic,أرض,أَرْض,vocalize
+1705,Hebrew,"קרקע, אדמה","קַרְקַע, אֲדָמָה",vocalize
+1706,Arabic,حرج,حَرَج,vocalize
+1706,Hebrew,נטל,נֵטֶל,vocalize
+1707,Arabic,بناء,بِنَاء,vocalize
+1708,Arabic,الإزاحة,الإِزاحَة,vocalize
+1708,Hebrew,תְזוּזָה,הֶעְתֵּק,vocalize
+1709,Arabic,المتجه,المُتَّجِه,vocalize
+1709,Hebrew,וֶקטוֹר,וֶקְטוֹר,vocalize
+1710,Arabic,سرعة,سُرْعَة,vocalize
+1711,Arabic,سرعة,سُرْعَة,vocalize
+1712,Arabic,اتجاه,اِتِّجَاه,vocalize
+1712,Hebrew,כיוון,כִּוּוּן,vocalize
+1713,Arabic,ضخامة,ضَخامَة,vocalize
+1713,Hebrew,עוצמה,גֹּדֶל,vocalize
+1714,Arabic,التسريع,التَسْرِيع,vocalize
+1714,Hebrew,תְאוּצָה,תְּאוּצָה,vocalize
+1715,Arabic,فرض,فَرْض,vocalize
+1716,Arabic,الاصطدام,الاِصْطِدام,vocalize
+1717,Arabic,الجاذبية,الجاذِبِيَّة,vocalize
+1717,Hebrew,כוח משיכה,כּוֹחַ מְשִׁיכָה,vocalize
+1718,Arabic,التعطيل,التَعْطِيل,vocalize
+1718,Hebrew,אִינֶרצִיָה,אִינֶרְצִיָּה,vocalize
+1719,Arabic,احتكاك,اِحْتِكَاك,vocalize
+1719,Hebrew,חיכוך,חִכּוּךְ,vocalize
+1720,Arabic,دفعة,دَفْعَة,vocalize
+1720,Hebrew,דַחַף,דָּחַף,vocalize
+1721,Arabic,الضغط,الضَغْط,vocalize
+1722,Arabic,قوة الدفع,قُوَّة الدَفْع,vocalize
+1722,Hebrew,תְנוּפָה,תֶּנַע,vocalize
+1723,Arabic,الجسيمات,الجَسِيمات,vocalize
+1724,Arabic,ذرة,ذَرَّة,vocalize
+1725,Arabic,كهرباء,كَهْرَبَاء,vocalize
+1725,Hebrew,חַשְׁמַל,חַשְׁמַל,vocalize
+1726,Arabic,مغناطيس,مَغْنَاطِيس,vocalize
+1726,Hebrew,מַגנֵט,מַגְנֵט,vocalize
+1727,Arabic,شعاع,شُعَاع,vocalize
+1728,Arabic,تلسكوب,تِلِسْكُوب,vocalize
+1728,Hebrew,טֵלֶסקוֹפּ,טֶלֶסְקוֹפּ,vocalize
+1729,Arabic,عدسة,عَدَسَة,vocalize
+1729,Hebrew,עֲדָשָׁה,עֲדָשָׁה,vocalize
+1730,Arabic,كون,كَوْن,vocalize
+1731,Arabic,سديم,سَدِيم,vocalize
+1731,Hebrew,עַרְפִּילִית,עַרְפִלִּית,vocalize
+1732,Arabic,مجرة,مَجَرَّة,vocalize
+1732,Hebrew,גָלַקסִיָה,גָּלַקְסְיָה,vocalize
+1733,Arabic,ثقب أسود,ثُقْب أَسْوَد,vocalize
+1733,Hebrew,חור שחור,חֹר שָׁחֹר,vocalize
+1734,Arabic,كوكب,كَوْكَب,vocalize
+1734,Hebrew,כוכב לכת,כּוֹכַב לֶכֶת,vocalize
+1736,Arabic,نيزك,نَيْزَك,vocalize
+1736,Hebrew,מֵטֵאוֹר,מֶטֶאוֹר,vocalize
+1737,Arabic,مذنب,مُذَنَّب,vocalize
+1737,Hebrew,כוכב שביט,כּוֹכַב שָׁבִיט,vocalize
+1738,Arabic,فوهة البركان,فَوَّهَةُ الْبُرْكَان,vocalize
+1738,Hebrew,מַכְתֵשׁ,מַכְתֵּשׁ,vocalize
+1740,Arabic,كسوف,كُسُوف,vocalize
+1740,Hebrew,ליקוי חמה,לִקּוּי חַמָּה,vocalize
+1742,Arabic,فَجر,فَجْر,vocalize
+1743,Arabic,الغسق,الغَسَق,vocalize
+1744,Arabic,مرحلة,مَرْحَلَة,vocalize
+1744,Hebrew,שלב,שָׁלָב,vocalize
+1746,Arabic,الزئبق,الزِئْبَق,vocalize
+1746,Hebrew,כַּספִּית,כַּסְפִּית,vocalize
+1747,Arabic,كوكب الزهرة,كَوْكَب الزَهْرَة,vocalize
+1752,Arabic,كوكب المريخ,كَوْكَب المِرِّيخ,vocalize
+1752,Hebrew,מַאְדִים,מַאְדִּים,vocalize
+1753,Arabic,كوكب المشتري,كَوْكَب المُشْتَرِي,vocalize
+1753,Hebrew,צדק,צֶדֶק,vocalize
+1755,Arabic,أورانوس,أُورانُوس,vocalize
+1756,Arabic,نبتون,نِبْتُون,vocalize
+1756,Hebrew,נפטון,נֶפְּטוּן,vocalize
+1757,Arabic,بلوتو,بلُوتُو,vocalize
+1757,Hebrew,פלוטו,פְּלוּטוֹ,vocalize
+1759,Arabic,يجب,يَجِب,vocalize
+1759,Hebrew,צריך,צָרִיךְ,vocalize
+1760,Arabic,يجب,يَجِب,vocalize
+1760,Hebrew,צריך,צָרִיךְ,vocalize
+1761,Arabic,في,فِي,vocalize
+1761,Hebrew,בְּ-,בְּ-,vocalize
+1763,Arabic,على,عَلَى,vocalize
+1763,Hebrew,עַל,עֹל,vocalize
+1765,Arabic,إِلَى‎,إِلَى,vocalize
+1765,Hebrew,אל,אֵל,vocalize
+1768,Arabic,حتى,حَتَى,vocalize
+1768,Hebrew,עד,עַד,vocalize
+1776,Arabic,خارج,خَارِج,vocalize
+1776,Hebrew,בחוץ,בַּחוּץ,vocalize
+1777,Arabic,فوق,فَوقَ,vocalize
+1778,Arabic,أقل,أَقَل,vocalize
+1778,Hebrew,לְהַלָן,לְהַלָּן,vocalize
+1779,Arabic,قبل,قَبِلَ,vocalize
+1779,Hebrew,לפני,לִפְנֵי,vocalize
+1780,Arabic,خلف,خَلْفَ,vocalize
+1781,Arabic,قمة,قِمَّة,vocalize
+1781,Hebrew,חלק עליון,חֵלֶק עֶלְיוֹן,vocalize
+1782,Arabic,قاع,قَاع,vocalize
+1782,Hebrew,תַחתִית,תַּחְתִּית,vocalize
+1783,Arabic,أمام,أَمَامَ,vocalize
+1784,Arabic,مؤخرة,مُؤَخَّره,vocalize
+1784,Hebrew,חלק אחורי,חֵלֶק אֲחוֹרִי,vocalize
+1785,Arabic,غادر,غَادَرَ,vocalize
+1785,Hebrew,שמאלה,שְׂמֹאלָה,vocalize
+1786,Arabic,يمين,يَمِين,vocalize
+1786,Hebrew,ימין,יָמִין,vocalize
+1787,Arabic,داخل,دَاخِل,vocalize
+1787,Hebrew,בְּתוֹך,בְּתוֹך,vocalize
+1789,Arabic,مع,مَعَ,vocalize
+1789,Hebrew,עם,עִם,vocalize
+1792,Arabic,حول,حَوْلَ,vocalize
+1792,Hebrew,סְבִיב,סָבִיב,vocalize
+1793,Arabic,ما بين,بَيْنَ,vocalize
+1793,Hebrew,בֵּין,בֵּין,vocalize
+1794,Arabic,حول,حَوْلَ,vocalize
+1794,Hebrew,על אודות,עַל אוֹדוֹת,vocalize
+1795,Arabic,ل,لِ,vocalize
+1795,Hebrew,שֶׁל,שֶׁל,vocalize
+1796,Arabic,أو,أَو,vocalize
+1797,Arabic,بالرغم ان,مَعَ أَنَّ,vocalize
+1797,Hebrew,למרות ש,לַמְרוֹת שֶׁ־,vocalize
+1798,Arabic,لكن,لٰكِن,vocalize
+1798,Hebrew,אבל,אֲבָל,vocalize
+1799,Arabic,لو,لَوْ,vocalize
+1799,Hebrew,אם,אִם,vocalize
+1800,Arabic,لان,لِأَنَّ,vocalize
+1800,Hebrew,כי,כִּי,vocalize
+1804,Arabic,يستثني,يَسْتَثْنِي,vocalize
+1804,Hebrew,מלבד,מִלְּבַד,vocalize
+1807,Arabic,متى,مَتَى,vocalize
+1807,Hebrew,מתי,מָתַי,vocalize
+1809,Arabic,للتو,لِلتَّوِّ,vocalize
+1810,Arabic,حديثاً,حَدِيثًا,vocalize
+1810,Hebrew,לאחרונה,לָאַחֲרוֹנָה,vocalize
+1812,Arabic,ما يزال,مَا زَالَ,vocalize
+1813,Arabic,قبل,قَبِلَ,vocalize
+1813,Hebrew,לפני,לִפְנֵי,vocalize
+1815,Arabic,أخيراً,أَخِيراً,vocalize
+1815,Hebrew,סוף כל סוף,סוֹף־סוֹף,vocalize
+1816,Arabic,في الحال,فَوْرًا,vocalize
+1816,Hebrew,מיד,מִיָּד,vocalize
+1819,Arabic,سابقا,بِالْفِعْل,vocalize
+1819,Hebrew,כְּבָר,כְּבָר,vocalize
+1820,Arabic,أبداً,أَبَدًا,vocalize
+1820,Hebrew,לעולם לא,לְעוֹלָם לֹא,vocalize
+1821,Arabic,نادرًا,نَادِرًا,vocalize
+1821,Hebrew,לעתים רחוקות,לְעִתִּים רְחוֹקוֹת,vocalize
+1823,Arabic,غالباً,غَالِبًا,vocalize
+1823,Hebrew,לעתים קרובות,לְעִתִּים קְרוֹבוֹת,vocalize
+1824,Arabic,عادة,عَادَةً,vocalize
+1824,Hebrew,בְּדֶרֶך כְּלַל,בְּדֶרֶךְ כְּלָל,vocalize
+1825,Arabic,دائماً,دَائِمًا,vocalize
+1825,Hebrew,תמיד,תָּמִיד,vocalize
+1826,Arabic,طوال الوقت,طَوَالَ الوَقْت,vocalize
+1826,Hebrew,כל הזמן,כָּל הַזְּמַן,vocalize
+1828,Arabic,تكرارا,مَرَّةً أُخْرَى,vocalize
+1828,Hebrew,שוב,שׁוּב,vocalize
+1829,Arabic,ومن بعد,ثُمَّ,vocalize
+1829,Hebrew,לאחר מכן,לְאַחַר מִכֵּן,vocalize
+1831,Arabic,معاً,مَعًا,vocalize
+1834,Arabic,يمكن,رُبَّمَا,vocalize
+1834,Hebrew,אולי,אוּלַי,vocalize
+1835,Arabic,القليل,قَلِيلًا,vocalize
+1835,Hebrew,קצת,קְצָת,vocalize
+1836,Arabic,قليلا,قَلِيلًا,vocalize
+1836,Hebrew,במידה מסוימת,בְּמִדָּה מְסֻיֶּמֶת,vocalize
+1837,Arabic,بالكاد,تَقْرِيبًا,vocalize
+1837,Hebrew,כִּמעַט,כִּמְעַט,vocalize
+1839,Arabic,أيضاً,أَيْضًا,vocalize
+1839,Hebrew,גַם,גַּם,vocalize
+1841,Arabic,فقط,فَقَط,vocalize
+1841,Hebrew,רק,רַק,vocalize
+1842,Arabic,فقط,فَقَط,vocalize
+1843,Arabic,ايضا,أَيْضًا,vocalize
+1843,Hebrew,גַם,גַּם,vocalize
+1845,Arabic,أهلا,أَهْلًا,vocalize
+1845,Hebrew,שלום,שָׁלוֹם,vocalize
+1846,Arabic,حسنا,حَسَنًا,vocalize
+1846,Hebrew,בסדר,בְּסֵדֶר,vocalize
+1847,Arabic,مع السلامة,مَعَ السَّلَامَة,vocalize
+1847,Hebrew,הֱיה שלום,הָיָה שָׁלוֹם,vocalize
+7,Spanish,aspettare ,esperar,swap
+7,Italian,esperar ,aspettare,swap
+8,Spanish,stare ,quedarse,swap
+8,Italian,quedarse ,stare,swap
+687,English,thrush bird,song thrush,headword
+688,English,swallow bird,barn swallow,headword
+1258,English,merry-go-around,merry-go-round,headword
+263,Greek,να αποδεχθεί,δέχομαι,batch2
+282,Greek,να επηρεάσουν,βλάπτω,batch2
+300,Greek,να επιτρέπεις,αναγνωρίζω,batch2
+242,Greek,να οργανώσει,διοργανώνω,batch2
+163,Greek,να επιτεθείς,επιτίθεμαι,batch2
+179,Greek,να γαβγίσει,αποφλοιώνω,batch2
+202,Greek,να λυγίσει,λυγίζω,batch2
+142,Greek,να βράσει,βράζω,batch2
+265,Greek,να δανειστω,δανείζομαι,batch2
+96,Greek,να σπάσει,σπάζω,batch2
+291,Greek,για να προκαλέσει,προκαλώ,batch2
+278,Greek,να ελέγξω,ανακόπτω,batch2
+328,Greek,να αποικίσω,αποικίσει,batch2
+305,Greek,να διοικείς,διατάζω,batch2
+241,Greek,να συγκρίνω,παραβάλλω,batch2
+27,Greek,να συνεχίσει,εξακολουθώ,batch2
+139,Greek,να μαγειρέψω,μαγειρεύω,batch2
+269,Greek,να αντιγράψω,αντιγράφω,batch2
+253,Greek,να σέρνω,έρπω,batch2
+268,Greek,να διαγράψω,διαγράφω,batch2
+264,Greek,να αρνηθώ,αρνούμαι,batch2
+283,Greek,να σχεδιάσει,σχεδιάζω,batch2
+210,Greek,για να αναπτυχθεί,αναπτύσσω,batch2
+271,Greek,να συζητήσω,συζητώ,batch2
+256,Greek,να κερδίσω,κερδίζω,batch2
+255,Greek,για να χρησιμοποιήσω,απασχολώ,batch2
+221,Greek,να επεκτείνει,επεκτείνω,batch2
+274,Greek,για να εξηγήσει,εξηγώ,batch2
+149,Greek,να εκραγεί,ανατινάζω,batch2
+327,Greek,να εξερευνήσω,εξερευνώ,batch2
+251,Greek,να αποτύχει,αποτυγχάνω,batch2
+160,Greek,να παλέψω,καταπολεμώ,batch2
+244,Greek,να φιλτράρει,διηθώ,batch2
+324,Greek,να φτιάξω,διορθώνω,batch2
+178,Greek,να επικεντρωθεί,εστιάζω,batch2
+301,Greek,να απαγορεύσω,απαγορεύω,batch2
+303,Greek,να κυβερνώ,κυβερνώ,batch2
+288,Greek,να μαντέψει,εικάζω,batch2
+316,Greek,να ελπίζω,ελπίζω,batch2
+162,Greek,να βλάψει,λυπώ,batch2
+169,Greek,να συμπεριλάβει,συμπεριλαμβάνω,batch2
+248,Greek,να κληρονομήσω,κληρονομώ,batch2
+302,Greek,να οδηγήσω,επιμολυβδώνω,batch2
+219,Greek,να διαρρεύσει,διαρρέω,batch2
+266,Greek,να δανείσουν,δανείζω,batch2
+151,Greek,να αρεσει,αγαπώ,batch2
+188,Greek,να αρεσει,αγαπώ,batch2
+200,Greek,να χάσω,αδυνατίζω,batch2
+304,Greek,να καταφέρω,διαχειρίζομαι,batch2
+240,Greek,για να ταιριάζει με,αγώνας,batch2
+326,Greek,να αναφέρω,αναφέρω,batch2
+201,Greek,να αναμείξετε,αναμιγνύω,batch2
+114,Greek,να μετακινήσω,κινώ,batch2
+157,Greek,να διεισδύσει,διεισδύω,batch2
+284,Greek,να σχεδιάσουν,σχεδιάζω,batch2
+311,Greek,να αλέσω,άροτρο,batch2
+279,Greek,να εξασκηθεί,ασκώ,batch2
+198,Greek,να προσευχηθούν,προσεύχομαι,batch2
+223,Greek,για να ακτινοβολώ,ακτινοβολώ,batch2
+314,Greek,για να καρπωθώ,θερίζω,batch2
+214,Greek,να απελευθερώσει,έκδοση,batch2
+123,Greek,για να αφαιρέσετε,βγάζω,batch2
+289,Greek,να σέβεσαι,σέβομαι,batch2
+145,Greek,να ψήσει,καβουρδίζω,batch2
+257,Greek,να σκαναρω,ανιχνεύω,batch2
+322,Greek,να πειράξει,μέγαιρα,batch2
+182,Greek,να ουρλιάξω,κραυγάζω,batch2
+306,Greek,για να εξυπηρετήσει,υπηρετώ,batch2
+212,Greek,για να συρρικνώνεται,αποτραβιέμαι,batch2
+298,Greek,να υπογράψει,υπογράφω,batch2
+206,Greek,να γλιστρήσει,σλάιντ,batch2
+63,Greek,να χαμογελάσει,χαμογελάω,batch2
+313,Greek,να σπείρω,σπέρνω,batch2
+213,Greek,να λερώνω,ξεχειλίζω,batch2
+144,Greek,να βγάζει ατμούς,ατμός,batch2
+143,Greek,για να ματαιώσω,βράζω,batch2
+229,Greek,για να τεντώσει,τείνω,batch2
+292,Greek,να υποφέρουν,βασανίζομαι,batch2
+193,Greek,να ταλαντεύεται,κουνιέμαι,batch2
+310,Greek,να αναλάβει τη φροντίδα του,νοιάζομαι,batch2
+249,Greek,να εκπαιδεύσω,ασκούμαι,batch2
+297,Greek,να προειδοποιήσει,προειδοποιώ,batch2
+227,Greek,να σπαταλώ,απόρριμμα,batch2
+315,Greek,να υφαίνω,υφαίνω,batch2
+191,Greek,να ζυγίζω,ζυγίζω,batch2
+186,Greek,να ψιθυρίσω,ψιθυρίζω,batch2
+196,Greek,να δουλέψω,δουλεύω,batch2
+386,Korean,그것은 짠다,짜다,batch2
+837,Arabic,أَزَالِيَا,أزيليا,batch2
+692,Arabic,غَاق,غَاقِيَات,batch2
+860,Arabic,جِنْكُو,الجنكة,batch2
+830,Arabic,غِلَادِيُولُس,الزنبق,batch2
+845,Arabic,حَنَكُ السَّبُع,أَنْف الْعِجْل,batch2
+689,Arabic,يَمَامَة,حمامة السلحفاة,batch2
+683,Hebrew,hummingbird,יוֹנֵק דְּבַשׁ,batch2
+777,Hebrew,קָרַמְבּוֹלָה,כוכב ים,batch2
+837,Hindi,azalea,Azalea,batch2
+764,Hindi,banana,केला,batch2
+1269,Hindi,car,कार,batch2
+735,Hindi,dragonfly,व्याध पतंग,batch2
+693,Hindi,egret,बगुला,batch2
+866,Hindi,elm,एल्म,batch2
+1432,Hindi,entertainment,मनोरंजन,batch2
+860,Hindi,ginkgo,जिन्कगो,batch2
+1845,Hindi,hello,tr=kya,batch2
+46,Hindi,hit,मारना,batch2
+685,Hindi,magpie,अधेला,batch2
+701,Hindi,pelican,हवासील,batch2
+1307,Hindi,pin,पिन,batch2
+719,Hindi,seahorse,समुद्री घोड़े,batch2
+1435,Hindi,sex,चुदाई,batch2
+464,Hindi,slow,आहिस्ता,batch2
+718,Hindi,starfish,तारा मछली,batch2
+1446,Hindi,stripe,धारी,batch2
+1839,Hindi,too,अतीव,batch2
+495,Hindi,voluntary,स्वेच्छा,batch2
+845,Japanese,snapdragon,キンギョソウ,batch2
+737,Russian,caterpillar,гу́сеница,batch2
+777,Russian,starfruit,карамбола,batch2
+308,Greek,να συνοδεύω,συνοδεύω,batch2
+122,Greek,να προσθέσω,προσθέτω,batch2
+272,Greek,να υποστηρίξω,υποστηρίξω,batch2
+295,Greek,να φτάσω,φτάνω,batch2
+287,Greek,να υποθέσω,υποθέσω,batch2
+146,Greek,να ψήνουν,ψήνω,batch2
+26,Greek,να συνηθίσει,συνηθίσει,batch2
+254,Greek,να υπολογίσω,λογαριάζω,batch2
+75,Greek,να πιάσω,πιάνω,batch2
+296,Greek,να συλλέξει,μαζεύω,batch2
+207,Greek,να καλύψω,σκεπάζω,batch2
+158,Greek,να καταρρίψει,τρέχω γρήγορα,batch2
+260,Greek,να εξαπατήσω,παραπλανώ,batch2
+231,Greek,να διακοσμήσω,στολίζω,batch2
+228,Greek,να εξαφανιστούν,εξαφανίζομαι,batch2
+290,Greek,να περιφρονήσει,περιφρονήσει,batch2
+215,Greek,να αποστραγγίζω,αποστραγγίζω,batch2
+220,Greek,να στάζει,στάλα,batch2
+232,Greek,να βάφω,βάφω,batch2
+267,Greek,για να επεξεργαστείτε,επεξεργαστείτε,batch2
+234,Greek,να διαβρώσω,διαβρώσω,batch2
+176,Greek,να ξεφύγουν,δραπετεύω,batch2
+203,Greek,να ταΐσει,ταΐζω,batch2
+216,Greek,να γεμίσω,γεμίζω,batch2
+119,Greek,να ξεχάσω,ξεχνώ,batch2
+190,Greek,να κρεμάσετε,κρέμομαι,batch2
+161,Greek,να κυνηγήσω,κυνηγώ,batch2
+247,Greek,να βιάζεται,βιάζομαι,batch2
+224,Greek,να μολύνεις,μολύνεις,batch2
+312,Greek,να αρδίσω,ποτίζω,batch2
+156,Greek,να φιλήσει,φιλώ,batch2
+192,Greek,να μετρήσετε,μετρώ,batch2
+294,Greek,να συναντησω,συναντώ,batch2
+148,Greek,να λιώσει,λειώνω,batch2
+225,Greek,να εμποδίσω,εμποδίσω,batch2
+90,Greek,να πληρώσω,πληρώνω,batch2
+236,Greek,να μολύνει,μολύνει,batch2
+217,Greek,να χύσει,χύνω,batch2
+280,Greek,να προετοιμαστούμε,προετοιμάζω,batch2
+118,Greek,να θυμηθω,θυμάμαι,batch2
+299,Greek,να συγκρατηθεί,συγκρατηθεί,batch2
+281,Greek,να αναθεωρήσει,αναθεωρήσει,batch2
+329,Greek,να τριγυρίζω,τριγυρίζω,batch2
+205,Greek,να κυλήσει,κυλήσει,batch2
+325,Greek,για να σέσουσω,σέσουσω,batch2
+194,Greek,να κουνήσει,κουνώ,batch2
+147,Greek,να λάμψει,λάμπω,batch2
+185,Greek,να φωνάξει,κραυγάζω,batch2
+189,Greek,να δείξω,δείχνω,batch2
+226,Greek,να βυθιστεί,βουλιάζω,batch2
+218,Greek,να απολαύσω,απολαύσω,batch2
+222,Greek,να εξαπλωθεί,αλείφω,batch2
+318,Greek,να κατευθύνω,κατευθύνω,batch2
+59,Greek,να κολλήσει,μπαστούνι,batch2
+115,Greek,να σταματήσει,σταματώ,batch2
+250,Greek,να επιτύχεις,πετυχαίνω,batch2
+67,Greek,να καταπιω,καταπίνω,batch2
+239,Greek,να μεταφράσω,μεταφράζω,batch2
+195,Greek,να τρέμει,τρέμω,batch2
+285,Greek,να καταλαβεις,ακούω,batch2
+233,Greek,να τυλίξεις,τυλίγω,batch2
+1108,Russian,cегодня,сегодня,batch2
+450,Korean,거짓입니다,거짓,batch2
+403,Korean,부끄럽습니다,부끄럽다,batch2
+415,Korean,그것은 아름다운,멋진,batch2
+261,Korean,믿습니다,믿다,batch2
+486,Korean,맹인입니다,맹인,batch2
+337,Korean,무딘입니다,무딘,batch2
+142,Korean,끓입니다,끓,batch2
+522,Korean,밝습니다,밝다,batch2
+533,Korean,그것은 갈색이다,갈색,batch2
+537,Korean,색상입니다,색상,batch2
+412,Korean,일반적입니다,일반적,batch2
+391,Korean,완료되었습니다,완료되었다,batch2
+447,Korean,맞습니다,맞다,batch2
+335,Korean,곡선입니다,곡선,batch2
+484,Korean,귀머거리입니다,귀머거리,batch2
+345,Korean,밀도가 높습니다,밀도가 높다,batch2
+469,Korean,더럽습니다,더럽다,batch2
+401,Korean,혐오감이 있습니다,혐오감이 있다,batch2
+1770,Korean,다운되었습니다,다운되었다,batch2
+485,Korean,바보입니다,바보,batch2
+395,Korean,쉽습니다,쉽다,batch2
+364,Korean,그것은 괜찮습니다,괜찮다,batch2
+407,Korean,재밌습니다,재밌다,batch2
+535,Korean,황금입니다,황금,batch2
+445,Korean,좋습니다,좋다,batch2
+534,Korean,회색입니다,회색,batch2
+373,Korean,그것은 어렵다,굳은,batch2
+352,Korean,무겁습니다,무겁다,batch2
+367,Korean,높습니다,높다,batch2
+479,Korean,유휴 상태입니다,유휴 상태,batch2
+408,Korean,흥미 롭습니다,흥미롭다,batch2
+343,Korean,그것은 관대합니다,관대하다,batch2
+368,Korean,낮습니다,낮다,batch2
+358,Korean,좁습니다,좁다,batch2
+372,Korean,가까이 있습니다,가까이 있다,batch2
+451,Korean,새로운 것입니다,새로운 것,batch2
+481,Korean,시끄 럽습니다,시끄럽다,batch2
+452,Korean,오래되었습니다,오래되었다,batch2
+453,Korean,오래되었습니다,오래되었다,batch2
+527,Korean,오렌지입니다,오렌지,batch2
+1776,Korean,외출 중입니다,외출 중,batch2
+532,Korean,분홍색입니다,분홍색,batch2
+531,Korean,자주색입니다,자주색,batch2
+477,Korean,그것은 부자입니다,부자,batch2
+1774,Korean,맞습니다,맞다,batch2
+419,Korean,그것은 안전하다,안전하다,batch2
+322,Korean,꾸짖습니다,꾸짖다,batch2
+370,Korean,얕습니다,얕다,batch2
+336,Korean,날카 롭습니다,날카롭다,batch2
+356,Korean,짧습니다,짧다,batch2
+366,Korean,짧습니다,짧다,batch2
+536,Korean,은입니다,은,batch2
+354,Korean,작습니다,작다,batch2
+338,Korean,매끄 럽습니다,매끄럽다,batch2
+374,Korean,부드럽습니다,부드럽다,batch2
+382,Korean,그것은 냄새입니다,냄새,batch2
+333,Korean,그것은 똑바로입니다,똑바로,batch2
+410,Korean,그것은 이상해,이상하다,batch2
+350,Korean,두껍습니다,두껍다,batch2
+473,Korean,그것은 바보입니다,바보,batch2
+402,Korean,놀랐습니다,놀랐다,batch2
+359,Korean,두껍습니다,두껍다,batch2
+363,Korean,두껍습니다,두껍다,batch2
+360,Korean,얇습니다,얇다,batch2
+1769,Korean,위에 있습니다,위에 있다,batch2
+376,Korean,젖습니다,젖다,batch2
+525,Korean,흰색입니다,흰색,batch2
+357,Korean,넓습니다,넓다,batch2
+528,Korean,노란색입니다,노란색,batch2
+454,Korean,젊습니다,젊다,batch2
+550,Finnish,who,ken,batch2
+1411,German,shirt,Hemd,batch2
+1044,Hungarian,air,levegő,batch2
+763,Hungarian,apple,alma,batch2
+1077,Hungarian,ash,hamu,batch2
+861,Hungarian,birch,nyír,batch2
+524,Hungarian,black,fekete,batch2
+878,Hungarian,blood,vér,batch2
+530,Hungarian,blue,kék,batch2
+1585,Hungarian,bridge,híd,batch2
+1158,Hungarian,clay,agyag,batch2
+467,Hungarian,clean,tiszta,batch2
+1064,Hungarian,cloud,felhő,batch2
+1305,Hungarian,comb,fésű,batch2
+158,Hungarian,dash,robog,batch2
+681,Hungarian,duck,kacsa,batch2
+697,Hungarian,eagle,sas,batch2
+1674,Hungarian,edge,él,batch2
+664,Hungarian,fox,róka,batch2
+141,Hungarian,fry,süt,batch2
+1094,Hungarian,hill,domb,batch2
+967,Hungarian,horn,szarv,batch2
+1390,Hungarian,horn,szarv,batch2
+180,Hungarian,howl,bőg,batch2
+1072,Hungarian,ice,jég,batch2
+156,Hungarian,kiss,csókol,batch2
+1037,Hungarian,life,élet,batch2
+984,Hungarian,lip,ajak,batch2
+1042,Hungarian,moon,hold,batch2
+998,Hungarian,palm,tenyér,batch2
+857,Hungarian,pine,fenyő,batch2
+477,Hungarian,rich,gazdag,batch2
+194,Hungarian,shake,megráz,batch2
+362,Hungarian,slim,karcsú,batch2
+742,Hungarian,spider,pók,batch2
+1060,Hungarian,stone,kő,batch2
+696,Hungarian,swan,hattyú,batch2
+663,Hungarian,wolf,farkas,batch2
+233,Hungarian,wrap,becsavar,batch2
+367,Welsh,high,fry,batch2
+746,Welsh,louse,lleuen,batch2
+1413,Welsh,pants,trowsus,batch2
+992,Welsh,toe,bys troed,batch2
+793,Hebrew,scallion,בצל,batch2
+550,Hebrew,who,מי,batch2
+122,Hindi,add,जोड़ना,batch2
+743,Hindi,ant,चींटी,batch2
+431,Hindi,bare,नग्न,batch2
+1290,Hindi,bed,खाट,batch2
+620,Hindi,bhai,भाई,batch2
+1012,Hindi,chin,चिबुक,batch2
+1770,Hindi,bas,नीचे को,batch2
+870,Hindi,fir,फ़र,batch2
+1620,Hindi,dost,मित्र,batch2
+378,Hindi,hot,उष्ण,batch2
+608,Hindi,husband,पति,batch2
+355,Hindi,long,दीर्घ,batch2
+600,Hindi,man,आदमी,batch2
+1136,Hindi,may,जानना,batch2
+129,Hindi,pass,गुज़रना,batch2
+164,Hindi,protect,रक्षा करना,batch2
+208,Hindi,support,पालना,batch2
+74,Hindi,throw,फेंकना,batch2
+158,German,zu streiten,stürmen,llm_qc
+204,German,nach hinten,aufziehen,llm_qc
+217,German,zu arm,gießen,llm_qc
+442,German,selbst,gerade,llm_qc
+1303,German,sperren,Schloss,llm_qc
+204,Greek,πίσω,ανατρέφω,llm_qc
+461,Greek,έκθεση,δίκαιο,llm_qc
+980,Greek,σχίσιμο,δάκρυ,llm_qc
+1136,Greek,ενδέχεται,Μάιος,llm_qc
+1313,Greek,ιστός,δίχτυ,llm_qc
+1769,Greek,εναπόκειται,πάνω,llm_qc
+59,Hindi,स्टिक,चिपकना,llm_qc
+64,Hindi,क्राई,रोना,llm_qc
+75,Hindi,कैच,पकड़ना,llm_qc
+77,Hindi,टाई,बाँधना,llm_qc
+93,Hindi,मेक,बनाना,llm_qc
+116,Hindi,ड्राइव,हिलना,llm_qc
+135,Hindi,फ्रीज,जमना,llm_qc
+161,Hindi,हंट,शिकार करना,llm_qc
+172,Hindi,स्वीप,झाड़ू लगाना,llm_qc
+181,Hindi,कॉल,बुलाना,llm_qc
+190,Hindi,हैंग,लटकाना,llm_qc
+194,Hindi,शेक,हिलाना,llm_qc
+209,Hindi,लोड,लादना,llm_qc
+232,Hindi,डाई,रंगना,llm_qc
+233,Hindi,रैप,लपेटना,llm_qc
+238,Hindi,हैंडल,संभालना,llm_qc
+470,Hindi,भैस,ताज़ा,llm_qc
+524,Hindi,ब्लैक,काला,llm_qc
+526,Hindi,रेड,लाल,llm_qc
+529,Hindi,ग्रीन,हरा,llm_qc
+584,Hindi,टेन,दस,llm_qc
+619,Hindi,सिस्टर,बहन,llm_qc
+641,Hindi,एनिमल,जानवर,llm_qc
+664,Hindi,फॉक्स,लोमड़ी,llm_qc
+677,Hindi,बर्ड,पक्षी,llm_qc
+696,Hindi,स्वैन,हंस,llm_qc
+697,Hindi,त्रिभुज,चील,llm_qc
+763,Hindi,ठहराना,सेब,llm_qc
+872,Hindi,ग्रास,घास,llm_qc
+876,Hindi,स्किन,त्वचा,llm_qc
+888,Hindi,मिल्क,दूध,llm_qc
+968,Hindi,टेल,पूँछ,llm_qc
+969,Hindi,बट्टे,पंख,llm_qc
+975,Hindi,फेस,चेहरा,llm_qc
+977,Hindi,नजर,आँख,llm_qc
+984,Hindi,लिप,होंठ,llm_qc
+992,Hindi,टो,पैर की उँगली,llm_qc
+993,Hindi,लेग,टाँग,llm_qc
+1044,Hindi,एयर,हवा,llm_qc
+1046,Hindi,वेव,लहर,llm_qc
+1052,Hindi,रेनबो,इंद्रधनुष,llm_qc
+1060,Hindi,स्टोन,पत्थर,llm_qc
+1066,Hindi,थंडर,गड़गड़ाहट,llm_qc
+1080,Hindi,मग्न,दलदल,llm_qc
+1091,Hindi,वसन्त,झरना,llm_qc
+1104,Hindi,दूसरी,सेकंड,llm_qc
+1224,Hindi,मंजिल,फ़र्श,llm_qc
+1313,Hindi,वेब,जाल,llm_qc
+1703,Hindi,अलहदा,दूरी,llm_qc
+1794,Hindi,परिचय,के बारे में,llm_qc
+1812,Hindi,स्टिल,अभी भी,llm_qc
+70,Hungarian,robbantani,fújni,llm_qc
+77,Hungarian,döntetlen,megkötni,llm_qc
+82,Hungarian,közeli,bezárni,llm_qc
+127,Hungarian,ősz,esni,llm_qc
+378,Hungarian,dögös,forró,llm_qc
+1012,Hungarian,csin,áll,llm_qc
+1278,Hungarian,hajós,csónak,llm_qc
+1313,Hungarian,webes,háló,llm_qc
+1419,Hungarian,meccs,játék,llm_qc
+1590,Hungarian,vásárlás,bolt,llm_qc
+1602,Hungarian,játssz,színdarab,llm_qc
+1614,Hungarian,kinga,király,llm_qc
+1695,Hungarian,tömeg,súly,llm_qc
+8,Italian,stare,restare,llm_qc
+442,Italian,anche,pari,llm_qc
+815,Italian,abbaio,corteccia,llm_qc
+1002,Italian,gonfiarsi,pancia,llm_qc
+1313,Italian,ragnatela,rete,llm_qc
+1315,Italian,squillo,anello,llm_qc
+1519,Italian,astuccio,caso,llm_qc
+1769,Italian,attivo,su,llm_qc
+1773,Italian,lasciato,a sinistra,llm_qc
+1774,Italian,giusto,a destra,llm_qc
+1786,Italian,giusto,destra,llm_qc
+130,Japanese,通る,歌う,llm_qc
+179,Japanese,叫ぶ,吠える,llm_qc
+980,Japanese,破れ目,涙,llm_qc
+1043,Japanese,スター,星,llm_qc
+1049,Japanese,フォーム,泡,llm_qc
+1066,Japanese,サンダー,雷,llm_qc
+1117,Japanese,バネ,春,llm_qc
+1313,Japanese,ウェブ,網,llm_qc
+159,Korean,촬영합니다,쏘다,llm_qc
+179,Korean,껍질로,짖다,llm_qc
+854,Korean,솜틀,버드나무,llm_qc
+984,Korean,말뿐인,입술,llm_qc
+1313,Korean,편물,그물,llm_qc
+1622,Korean,박사님,의사,llm_qc
+188,Russian,нравится,походить,llm_qc
+1049,Russian,мыло,пена,llm_qc
+1313,Russian,веб -,сеть,llm_qc
+1547,Russian,объем памяти,память,llm_qc
+1695,Russian,масса,вес,llm_qc
+1769,Russian,до,вверх,llm_qc
+1773,Russian,осталось,налево,llm_qc
+1840,Russian,четное,даже,llm_qc
+809,Spanish,lámina,hoja,llm_qc
+1313,Spanish,web,red,llm_qc
+1523,Spanish,poder,riqueza,llm_qc
+1705,Spanish,terrestre,suelo,llm_qc
+1769,Spanish,le corresponde,arriba,llm_qc
+1773,Spanish,se queda,a la izquierda,llm_qc
+1786,Spanish,bien,derecha,llm_qc
+1242,Turkish,devre kartı,tahta,llm_qc
+1773,Turkish,kaldı,sola,llm_qc
+6,German,beenden ,hinausgehen,llm_qc
+1248,German,band,Reifen,llm_qc
+1452,German,höhe,Menge,llm_qc
+10,Hindi,वापसी,लौटना,llm_qc
+30,Hindi,चित्रण,चित्र बनाना,llm_qc
+79,Hindi,गिनती,गिनना,llm_qc
+127,Hindi,पतन,गिरना,llm_qc
+156,Hindi,चुंबन,चूमना,llm_qc
+195,Hindi,घबराना,काँपना,llm_qc
+273,Hindi,गपशप,गपशप करना,llm_qc
+277,Hindi,कंट्रोल,नियंत्रित करना,llm_qc
+319,Hindi,मार्गदर्शिका,मार्गदर्शन करना,llm_qc
+445,Hindi,शुभ,अच्छा,llm_qc
+755,Hindi,इल्ली,कीड़ा,llm_qc
+759,Hindi,स्टिक,छड़ी,llm_qc
+971,Hindi,फर,रोआँ,llm_qc
+1094,Hindi,हिल,पहाड़ी,llm_qc
+1122,Hindi,ईस्ट,पूर्व,llm_qc
+1124,Hindi,वेस्ट,पश्चिम,llm_qc
+1134,Hindi,कूच,मार्च,llm_qc
+1221,Hindi,हाउस,मकान,llm_qc
+1248,Hindi,हूप,घेरा,llm_qc
+1315,Hindi,रिंग,अंगूठी,llm_qc
+1510,Hindi,समाप्त,अंत,llm_qc
+1517,Hindi,ट्रेस,निशान,llm_qc
+1541,Hindi,स्टोरी,कहानी,llm_qc
+1547,Hindi,मेमोरी,स्मृति,llm_qc
+1548,Hindi,पास्ट,अतीत,llm_qc
+1614,Hindi,किंग,राजा,llm_qc
+1705,Hindi,मैदान,ज़मीन,llm_qc
+1715,Hindi,फ़ोर्स,बल,llm_qc
+1841,Hindi,तभी,केवल,llm_qc
+209,Hungarian,terhelés,megrakni,llm_qc
+1071,Hungarian,havazás,hó,llm_qc
+1523,Hungarian,jólét,gazdagság,llm_qc
+1541,Hungarian,mese,történet,llm_qc
+1091,Italian,fonta,sorgente,llm_qc
+1459,Italian,cartello,segno,llm_qc
+129,Japanese,渡す,通り過ぎる,llm_qc
+539,Japanese,彼方,あなた,llm_qc
+544,Japanese,彼方達,あなたたち,llm_qc
+808,Japanese,シード,種,llm_qc
+811,Japanese,ブランチ,枝,llm_qc
+861,Japanese,バーチ,カバ,llm_qc
+969,Japanese,フェザー,羽,llm_qc
+984,Japanese,リップ,唇,llm_qc
+1001,Japanese,ショルダー,肩,llm_qc
+1186,Japanese,針,フック,llm_qc
+1243,Japanese,シェルフ,棚,llm_qc
+1303,Japanese,ロック,錠,llm_qc
+1452,Japanese,額,量,llm_qc
+30,Korean,그리기 위해,그리다,llm_qc
+59,Korean,고집하려면,붙다,llm_qc
+75,Korean,잡기 위해,잡다,llm_qc
+158,Korean,대시,질주하다,llm_qc
+164,Korean,보호하기 위해,보호하다,llm_qc
+180,Korean,울부 짖음으로,울부짖다,llm_qc
+181,Korean,전화합니다,부르다,llm_qc
+189,Korean,보여주기 위해,보여주다,llm_qc
+194,Korean,흔들려면,흔들다,llm_qc
+208,Korean,지원합니다,지원하다,llm_qc
+209,Korean,로드하려면,싣다,llm_qc
+216,Korean,채우기 위해,채우다,llm_qc
+909,Korean,시리얼,곡물,llm_qc
+1063,Korean,지구,흙,llm_qc
+1186,Korean,훅,갈고리,llm_qc
+1459,Korean,징후,기호,llm_qc
+1517,Korean,추적하다,흔적,llm_qc
+59,Russian,чтобы остаться,приклеиваться,llm_qc
+746,Russian,вошник,вошь,llm_qc
+965,Spanish,maceta,olla,llm_qc
+172,Turkish,süpürüyor,süpürmek,llm_qc
+190,Turkish,takılmak,asmak,llm_qc
+207,Turkish,örtbas etmek,örtmek,llm_qc
+559,Turkish,olumsuzluk,değil,llm_qc
+1549,Turkish,geçmiş şimdi,şimdiki zaman,llm_qc
+364,German,in ordnung,fein,llm_qc
+753,German,firefly,glühwürmchen,llm_qc
+1036,German,karosserie,körper,llm_qc
+1134,German,marsch,März,llm_qc
+1136,German,dürfen,Mai,llm_qc
+1185,German,gesehen,Säge,llm_qc
+1194,German,fangen,Falle,llm_qc
+1211,German,drehzahl,Drehpunkt,llm_qc
+1213,German,pendeln,Weberschiff,llm_qc
+1308,German,gewinde,Faden,llm_qc
+1331,German,buchstabe,Brief,llm_qc
+1715,German,gewalt,Kraft,llm_qc
+1773,German,bleibt übrig,links,llm_qc
+1774,German,richtig,rechts,llm_qc
+1812,German,still,noch immer,llm_qc
+380,Greek,ειναι ενταξει,δροσερός,llm_qc
+442,Greek,ακόμη και,ζυγός,llm_qc
+611,Greek,μητρική εταιρεία,γονέας,llm_qc
+692,Greek,άπληστος,κορμοράνος,llm_qc
+924,Greek,λουλούδι,smoothie,llm_qc
+1006,Greek,πίσω,πλάτη,llm_qc
+1077,Greek,φλαμουριά,στάχτη,llm_qc
+1151,Greek,ποτήρι,γυαλί,llm_qc
+1185,Greek,είδε,πριόνι,llm_qc
+1187,Greek,δεσμεύω,χειροπέδες,llm_qc
+1210,Greek,σκόνη,φαράσι,llm_qc
+1249,Greek,σουμιές,τραμπολίνο,llm_qc
+1370,Greek,ερευνητής,σαρωτής,llm_qc
+1392,Greek,σαξοφωνική,σαξόφωνο,llm_qc
+1400,Greek,σειρά,χορδή,llm_qc
+1657,Greek,τροφοδότης,αεροσυνοδός,llm_qc
+1774,Greek,σωστό,δεξιά,llm_qc
+1786,Greek,σωστά,δεξιά,llm_qc
+96,Hindi,ब्रेक,तोड़ना,llm_qc
+138,Hindi,बर्न,जलाना,llm_qc
+145,Hindi,रोस्ट,भूनना,llm_qc
+158,Hindi,डैश,झपटना,llm_qc
+166,Hindi,स्टोर,भंडारण करना,llm_qc
+184,Hindi,कौवा,बाँग देना,llm_qc
+202,Hindi,बेंड,मोड़ना,llm_qc
+203,Hindi,फीड,खिलाना,llm_qc
+206,Hindi,स्लाइड,फिसलना,llm_qc
+253,Hindi,क्रॉल,रेंगना,llm_qc
+349,Hindi,लाइट,हल्का,llm_qc
+351,Hindi,लाइट,हल्का,llm_qc
+404,Hindi,एंग्री,क्रोधित,llm_qc
+442,Hindi,भी,सम,llm_qc
+461,Hindi,मेला,निष्पक्ष,llm_qc
+530,Hindi,ब्लू,नीला,llm_qc
+602,Hindi,चाइल्ड,बच्चा,llm_qc
+659,Hindi,मंकी,बंदर,llm_qc
+700,Hindi,रेवेन,डोमकौआ,llm_qc
+715,Hindi,मुहर,सील,llm_qc
+721,Hindi,अष्टभुज,ऑक्टोपस,llm_qc
+748,Hindi,सुगंधित,माहू,llm_qc
+756,Hindi,संयंत्र,पौधा,llm_qc
+781,Hindi,फिदा,अंजीर,llm_qc
+812,Hindi,ट्रंक,तना,llm_qc
+822,Hindi,रोज़,गुलाब,llm_qc
+831,Hindi,हलका पीला रंग,नरगिस,llm_qc
+883,Hindi,मोटे,चर्बी,llm_qc
+884,Hindi,आयल,तेल,llm_qc
+893,Hindi,चीज,पनीर,llm_qc
+910,Hindi,राइस,चावल,llm_qc
+914,Hindi,ब्रैड,रोटी,llm_qc
+982,Hindi,गुस्ताख़,सिनक,llm_qc
+1006,Hindi,वापस,पीठ,llm_qc
+1034,Hindi,आयुर्विज्ञान,दवा,llm_qc
+1153,Hindi,चढ़,जंग,llm_qc
+1160,Hindi,सुनहरा,सोना,llm_qc
+1169,Hindi,रेशा,रेशम,llm_qc
+1185,Hindi,देखी,आरी,llm_qc
+1186,Hindi,आँकड़ा,हुक,llm_qc
+1206,Hindi,पर्दों,धौंकनी,llm_qc
+1288,Hindi,तालिका,मेज़,llm_qc
+1331,Hindi,अक्षर,पत्र,llm_qc
+1608,Hindi,थाना,जेल,llm_qc
+1696,Hindi,आवाज़,आयतन,llm_qc
+1717,Hindi,गम्भीरता,गुरुत्वाकर्षण,llm_qc
+1774,Hindi,सही,दाएँ,llm_qc
+1786,Hindi,सही,दायाँ,llm_qc
+6,Hungarian,kijárat,kilépni,llm_qc
+30,Hungarian,döntetlen,rajzolni,llm_qc
+59,Hungarian,bot,ragadni,llm_qc
+79,Hungarian,gróf,számolni,llm_qc
+104,Hungarian,hazudj,feküdj,llm_qc
+166,Hungarian,bolt,tárolni,llm_qc
+188,Hungarian,tetszik,hasonlítani,llm_qc
+189,Hungarian,show,megmutatni,llm_qc
+192,Hungarian,intézkedés,megmérni,llm_qc
+193,Hungarian,swing,hintázni,llm_qc
+203,Hungarian,takarmányok,etetni,llm_qc
+204,Hungarian,hátsó,nevelni,llm_qc
+205,Hungarian,roll,gurítani,llm_qc
+212,Hungarian,pszichiáter,összemenni,llm_qc
+213,Hungarian,bukás,kiönteni,llm_qc
+229,Hungarian,stretch,nyújtani,llm_qc
+235,Hungarian,peel,hámozni,llm_qc
+270,Hungarian,paszta,beilleszteni,llm_qc
+442,Hungarian,még,páros,llm_qc
+643,Hungarian,veterán,állatorvos,llm_qc
+653,Hungarian,tiger,tigris,llm_qc
+700,Hungarian,raven,holló,llm_qc
+715,Hungarian,seal,fóka,llm_qc
+733,Hungarian,repülj,légy,llm_qc
+753,Hungarian,firefly,szentjánosbogár,llm_qc
+762,Hungarian,kernel,mag,llm_qc
+781,Hungarian,figura,füge,llm_qc
+792,Hungarian,ginger,gyömbér,llm_qc
+793,Hungarian,mogyoró,újhagyma,llm_qc
+813,Hungarian,stump,csonk,llm_qc
+822,Hungarian,rose,rózsa,llm_qc
+823,Hungarian,lily,liliom,llm_qc
+824,Hungarian,daisy,százszorszép,llm_qc
+842,Hungarian,poppy,mák,llm_qc
+843,Hungarian,camellia,kamélia,llm_qc
+847,Hungarian,jasmine,jázmin,llm_qc
+851,Hungarian,reed,nád,llm_qc
+874,Hungarian,herb,gyógynövény,llm_qc
+875,Hungarian,moss,moha,llm_qc
+883,Hungarian,kövér,zsír,llm_qc
+944,Hungarian,basil,bazsalikom,llm_qc
+947,Hungarian,candy,cukorka,llm_qc
+962,Hungarian,bowl,tál,llm_qc
+965,Hungarian,füves,fazék,llm_qc
+980,Hungarian,szakadás,könny,llm_qc
+1006,Hungarian,vissza,hát,llm_qc
+1034,Hungarian,orvostudomány,gyógyszer,llm_qc
+1043,Hungarian,sztár,csillag,llm_qc
+1074,Hungarian,éljen,jégeső,llm_qc
+1093,Hungarian,sima,síkság,llm_qc
+1151,Hungarian,pohár,üveg,llm_qc
+1171,Hungarian,ágynemű,lenvászon,llm_qc
+1213,Hungarian,komp,vetélő,llm_qc
+1217,Hungarian,vetélkedő,vetülékfonal,llm_qc
+1230,Hungarian,biliárd,medence,llm_qc
+1261,Hungarian,homokbánya,homokozó,llm_qc
+1281,Hungarian,gázolaj,benzin,llm_qc
+1354,Hungarian,computer,számítógép,llm_qc
+1357,Hungarian,network,hálózat,llm_qc
+1379,Hungarian,szimfonikus,szimfónia,llm_qc
+1380,Hungarian,melody,dallam,llm_qc
+1400,Hungarian,string,húr,llm_qc
+1423,Hungarian,team,csapat,llm_qc
+1434,Hungarian,art,művészet,llm_qc
+1524,Hungarian,system,rendszer,llm_qc
+1557,Hungarian,pipa,cső,llm_qc
+1562,Hungarian,palace,palota,llm_qc
+1564,Hungarian,fort,erőd,llm_qc
+1567,Hungarian,arch,boltív,llm_qc
+1571,Hungarian,brick,tégla,llm_qc
+1589,Hungarian,market,piac,llm_qc
+1605,Hungarian,temple,templom,llm_qc
+1607,Hungarian,számvevőszék,bíróság,llm_qc
+1616,Hungarian,prince,herceg,llm_qc
+753,Indonesian,firefly,kunang-kunang,llm_qc
+848,Indonesian,ungu,bunga lila,llm_qc
+873,Indonesian,sedotan,jerami,llm_qc
+1006,Indonesian,kembali,punggung,llm_qc
+1046,Indonesian,melambai,ombak,llm_qc
+1202,Indonesian,keranjang,ember,llm_qc
+1270,Indonesian,keranjang,gerobak,llm_qc
+1279,Indonesian,mengirimkan,kapal,llm_qc
+1313,Indonesian,web,jaring,llm_qc
+1559,Indonesian,tangga berjalan,lift,llm_qc
+1570,Indonesian,persimpangan,salib,llm_qc
+1594,Indonesian,rsud,rumah sakit,llm_qc
+315,Italian,ondeggiare,tessere,llm_qc
+899,Italian,peanut,arachide,llm_qc
+903,Italian,anchew,anacardio,llm_qc
+982,Italian,snot,moccio,llm_qc
+1006,Italian,indietro,schiena,llm_qc
+1050,Italian,piovere,pioggia,llm_qc
+1081,Italian,sbarcare,terra,llm_qc
+1145,Italian,veloce,lampo,llm_qc
+1151,Italian,bicchiere,vetro,llm_qc
+1171,Italian,biancheria,lino,llm_qc
+1323,Italian,prenotare,libro,llm_qc
+1346,Italian,governate,righello,llm_qc
+1350,Italian,fan,ventilatore,llm_qc
+1367,Italian,patata fritta,chip,llm_qc
+1394,Italian,tamburellare,tamburo,llm_qc
+1611,Italian,porta,porto,llm_qc
+1650,Italian,più pulito,addetto alle pulizie,llm_qc
+1727,Italian,ray,raggio,llm_qc
+691,Japanese,キッドペッカー,キツツキ,llm_qc
+715,Japanese,密閉する,アザラシ,llm_qc
+756,Japanese,工場,植物,llm_qc
+812,Japanese,トランク,幹,llm_qc
+815,Japanese,吠える,樹皮,llm_qc
+873,Japanese,ストロー,藁,llm_qc
+900,Japanese,くるみ,栗,llm_qc
+1006,Japanese,戻る,背中,llm_qc
+1063,Japanese,地球,土,llm_qc
+1146,Japanese,影の多い,影,llm_qc
+1168,Japanese,ジェイド,翡翠,llm_qc
+1185,Japanese,見た,のこぎり,llm_qc
+1190,Japanese,ホイップ,鞭,llm_qc
+1198,Japanese,手ren弾,手榴弾,llm_qc
+1199,Japanese,スケール,はかり,llm_qc
+1210,Japanese,ほこり,ちりとり,llm_qc
+1231,Japanese,公園,庭,llm_qc
+1329,Japanese,みがきます,ブラシ,llm_qc
+1602,Japanese,演奏する,戯曲,llm_qc
+1705,Japanese,接地,地面,llm_qc
+1722,Japanese,勢い,運動量,llm_qc
+1741,Japanese,至福,至点,llm_qc
+1840,Japanese,平,さえ,llm_qc
+188,Korean,좋아하다,닮다,llm_qc
+441,Korean,이상한,홀수의,llm_qc
+442,Korean,심지어,짝수의,llm_qc
+628,Korean,며느리,매형,llm_qc
+704,Korean,비열한,파충류,llm_qc
+715,Korean,봉인,물개,llm_qc
+737,Korean,무한 궤도,애벌레,llm_qc
+741,Korean,투석기,전갈,llm_qc
+756,Korean,공장,식물,llm_qc
+793,Korean,가리비,파,llm_qc
+812,Korean,트렁크,줄기,llm_qc
+815,Korean,짖다,나무 껍질,llm_qc
+847,Korean,여자 이름,재스민,llm_qc
+873,Korean,빨대,짚,llm_qc
+887,Korean,양털 기름,노른자,llm_qc
+924,Korean,점잖은 사람,스무디,llm_qc
+1004,Korean,끈기,내장,llm_qc
+1006,Korean,뒤쪽에,등,llm_qc
+1009,Korean,잘 알고 있기,엉덩이,llm_qc
+1014,Korean,마음,심장,llm_qc
+1018,Korean,콩팥,췌장,llm_qc
+1024,Korean,신경 이상,신경,llm_qc
+1181,Korean,절하다,활,llm_qc
+1185,Korean,봤다,톱,llm_qc
+1207,Korean,밀,방앗간,llm_qc
+1210,Korean,더스트 스팬,쓰레받기,llm_qc
+1213,Korean,우주선,북,llm_qc
+1247,Korean,양식장,어린이집,llm_qc
+1266,Korean,애틱,다락방,llm_qc
+1267,Korean,최하부,지하실,llm_qc
+1303,Korean,잠그다,자물쇠,llm_qc
+1424,Korean,행사,운동,llm_qc
+1602,Korean,놀다,희곡,llm_qc
+1637,Korean,수행자,검사,llm_qc
+1650,Korean,청소기,청소부,llm_qc
+204,Russian,чтобы сзади,растить,llm_qc
+311,Russian,плавать,пахать,llm_qc
+325,Russian,чтобы сочетать,зачерпнуть,llm_qc
+364,Russian,нормально,тонкий,llm_qc
+442,Russian,даже,чётный,llm_qc
+600,Russian,человек,мужчина,llm_qc
+692,Russian,банк,баклан,llm_qc
+716,Russian,морс,морж,llm_qc
+740,Russian,уловка,улитка,llm_qc
+815,Russian,лаять,кора,llm_qc
+819,Russian,корень,стебель,llm_qc
+883,Russian,толстый,жир,llm_qc
+944,Russian,бэзил,базилик,llm_qc
+1006,Russian,назад,спина,llm_qc
+1134,Russian,маршировать,март,llm_qc
+1136,Russian,может,май,llm_qc
+1161,Russian,серебряный,серебро,llm_qc
+1168,Russian,джейд,нефрит,llm_qc
+1181,Russian,поклон,лук,llm_qc
+1206,Russian,сильфовать,мехи,llm_qc
+1210,Russian,пыль,совок,llm_qc
+1224,Russian,этаж,пол,llm_qc
+1261,Russian,песочный,песочница,llm_qc
+1262,Russian,структурный элемент,кубик,llm_qc
+1263,Russian,кукольный,марионетка,llm_qc
+1307,Russian,приколоть,булавка,llm_qc
+1315,Russian,звенеть,кольцо,llm_qc
+1459,Russian,подписать,знак,llm_qc
+1474,Russian,сказочный,фея,llm_qc
+1567,Russian,архи,арка,llm_qc
+1662,Russian,касса,кассир,llm_qc
+1692,Russian,космос,пространство,llm_qc
+1774,Russian,правильно,направо,llm_qc
+1776,Russian,вышло,наружу,llm_qc
+1779,Russian,до,перед,llm_qc
+1786,Russian,верно,правый,llm_qc
+188,Spanish,gustar,parecerse,llm_qc
+230,Spanish,arruinar,arrugarse,llm_qc
+442,Spanish,incluso,par,llm_qc
+661,Spanish,soportar,oso,llm_qc
+671,Spanish,leopardo,guepardo,llm_qc
+811,Spanish,sucursal,rama,llm_qc
+812,Spanish,maletero,tronco,llm_qc
+815,Spanish,ladrar,corteza,llm_qc
+869,Spanish,bata oriental,baniano,llm_qc
+883,Spanish,gordo,grasa,llm_qc
+1065,Spanish,iluminación,relámpago,llm_qc
+1136,Spanish,puede,mayo,llm_qc
+1187,Spanish,encadenar,grillete,llm_qc
+1195,Spanish,blindaje,escudo,llm_qc
+1199,Spanish,escamas,balanza,llm_qc
+1242,Spanish,junta,tabla,llm_qc
+1251,Spanish,mesa de trabajo,banco,llm_qc
+1261,Spanish,mina de arena,arenero,llm_qc
+1303,Spanish,cerrar,cerradura,llm_qc
+1392,Spanish,sajrofo,saxofón,llm_qc
+1555,Spanish,haz,viga,llm_qc
+1566,Spanish,hazme,cúpula,llm_qc
+1581,Spanish,gimnasia,gimnasio,llm_qc
+1602,Spanish,tocar,obra de teatro,llm_qc
+1690,Spanish,hora,tiempo,llm_qc
+1743,Spanish,oscuridad,anochecer,llm_qc
+1771,Spanish,delantero,adelante,llm_qc
+1774,Spanish,correcto,a la derecha,llm_qc
+158,Swahili,kwa dash,kukimbia kasi,llm_qc
+478,Swahili,busy,-enye shughuli,llm_qc
+661,Swahili,kubeba,dubu,llm_qc
+715,Swahili,muhuri,sili,llm_qc
+1006,Swahili,nyuma,mgongo,llm_qc
+1009,Swahili,kiboko,nyonga,llm_qc
+1172,Swahili,pamba,sufu,llm_qc
+1185,Swahili,aliona,msumeno,llm_qc
+1305,Swahili,kuchanganya,kitana,llm_qc
+1334,Swahili,kumbuka,kidokezo,llm_qc
+159,Thai,ในการถ่ายภาพ,ยิง,llm_qc
+613,Thai,ที่รัก,ทารก,llm_qc
+715,Thai,ผนึก,แมวน้ำ,llm_qc
+844,Thai,สแน็ปดราก้อน,ไฮเดรนเยีย,llm_qc
+1006,Thai,กลับ,หลัง,llm_qc
+1210,Thai,โพรง,ที่ตักผง,llm_qc
+1313,Thai,เว็บ,ตาข่าย,llm_qc
+1459,Thai,เข้าสู่ระบบ,เครื่องหมาย,llm_qc
+204,Turkish,arkaya,yetiştirmek,llm_qc
+364,Turkish,iyi,ince,llm_qc
+380,Turkish,harika,serin,llm_qc
+441,Turkish,garip,tek,llm_qc
+542,Turkish,bt,o,llm_qc
+685,Turkish,magpie,saksağan,llm_qc
+686,Turkish,oriole,sarıasma,llm_qc
+752,Turkish,kriket,cırcır böceği,llm_qc
+815,Turkish,havlamak,ağaç kabuğu,llm_qc
+819,Turkish,kök,sap,llm_qc
+873,Turkish,pipet,saman,llm_qc
+883,Turkish,şişman,yağ,llm_qc
+1006,Turkish,geri,sırt,llm_qc
+1009,Turkish,belki,kalça,llm_qc
+1047,Turkish,jakuzi,girdap,llm_qc
+1063,Turkish,dünya,toprak,llm_qc
+1083,Turkish,bana ait,maden,llm_qc
+1086,Turkish,doruğa ulaşmak,zirve,llm_qc
+1151,Turkish,bardak,cam,llm_qc
+1156,Turkish,silgi,kauçuk,llm_qc
+1163,Turkish,ütü,demir,llm_qc
+1199,Turkish,ölçek,terazi,llm_qc
+1261,Turkish,zımpara,kum havuzu,llm_qc
+1389,Turkish,kaya,rock,llm_qc
+1408,Turkish,uygun olmak,takım elbise,llm_qc
+1678,Turkish,astar,çizgi,llm_qc
+1692,Turkish,uzay,boşluk,llm_qc
+1727,Turkish,ray,ışın,llm_qc
+1774,Turkish,doğru,sağa,llm_qc
+682,Vietnamese,goose,con ngỗng,llm_qc
+683,Vietnamese,hummingbird,chim ruồi,llm_qc
+684,Vietnamese,sparrow,chim sẻ,llm_qc
+685,Vietnamese,magpie,chim ác là,llm_qc
+686,Vietnamese,oriole,chim vàng anh,llm_qc
+700,Vietnamese,raven,quạ khoang,llm_qc
+715,Vietnamese,niêm phong,hải cẩu,llm_qc
+716,Vietnamese,walrus,hải mã,llm_qc
+816,Vietnamese,bush,bụi cây,llm_qc
+824,Vietnamese,daisy,hoa cúc,llm_qc
+831,Vietnamese,daffodil,hoa thủy tiên,llm_qc
+904,Vietnamese,acorn,quả sồi,llm_qc
+905,Vietnamese,hazelnut,quả phỉ,llm_qc
+982,Vietnamese,hợm hĩnh,nước mũi,llm_qc
+1047,Vietnamese,whirlpool,xoáy nước,llm_qc
+1065,Vietnamese,lightning,tia chớp,llm_qc
+1199,Vietnamese,quy mô,cái cân,llm_qc
+1220,Vietnamese,trang chủ,tổ ấm,llm_qc
+1308,Vietnamese,chủ đề,sợi chỉ,llm_qc
+1313,Vietnamese,web,lưới,llm_qc
+1722,Vietnamese,quán tính,động lượng,llm_qc
+1773,Vietnamese,còn lại,bên trái,llm_qc
+248,German,übernehmen,erben,llm_qc
+655,German,hase,kaninchen,llm_qc
+693,German,gret,silberreiher,llm_qc
+722,German,kruste,muschel,llm_qc
+1087,German,cliff,Klippe,llm_qc
+1176,German,energie,Kraft,llm_qc
+1309,German,kabel,Draht,llm_qc
+1334,German,hinweis,Notiz,llm_qc
+1517,German,verfolgen,Spur,llm_qc
+1558,German,stufen,Treppe,llm_qc
+1638,German,praktikum,Praktikant,llm_qc
+660,Greek,αρκτοειδές ζώο της ασίας,πάντα,llm_qc
+686,Greek,φλώρος,συκοφάγος,llm_qc
+704,Greek,έρπων,ερπετό,llm_qc
+729,Greek,φύτρο,μικρόβιο,llm_qc
+831,Greek,ασφόδελος,νάρκισσος,llm_qc
+903,Greek,κάβαρο,κάσιους,llm_qc
+934,Greek,σοκάη,σάλτσα σόγιας,llm_qc
+961,Greek,πλάκα,πιάτο,llm_qc
+1101,Greek,καθίζηση έδαφους,κατολίσθηση,llm_qc
+1121,Greek,βόρειος,βορράς,llm_qc
+1171,Greek,λευκα ειδη,λινό,llm_qc
+1199,Greek,ζυγός,ζυγαριά,llm_qc
+1235,Greek,τουαλέτα,μπάνιο,llm_qc
+1377,Greek,λυρικη σκηνη,όπερα,llm_qc
+1387,Greek,ακεφιά,μπλουζ,llm_qc
+1429,Greek,παιγνίδι όμοιο με τέννις,μπάντμιντον,llm_qc
+1446,Greek,ταινία,ρίγα,llm_qc
+1555,Greek,δέσμη,δοκάρι,llm_qc
+5,Hindi,डालें,प्रवेश करना,llm_qc
+34,Hindi,पेय,पीना,llm_qc
+100,Hindi,सजीव,जीना,llm_qc
+133,Hindi,फ्लैश,तैरना,llm_qc
+150,Hindi,प्रेम,प्यार करना,llm_qc
+151,Hindi,जैसे,पसंद करना,llm_qc
+178,Hindi,फ़ोकस,ध्यान केंद्रित करना,llm_qc
+201,Hindi,मिक्सर,मिलाना,llm_qc
+204,Hindi,पश्च,पालना,llm_qc
+205,Hindi,फेंकें,लुढ़काना,llm_qc
+207,Hindi,कवर,ढकना,llm_qc
+214,Hindi,रिलीज,मुक्त करना,llm_qc
+255,Hindi,काम,नियुक्त करना,llm_qc
+318,Hindi,रास्ते पर लाना,चलाना,llm_qc
+364,Hindi,ठीक,महीन,llm_qc
+599,Hindi,जनसांख्यिकी,जनसंख्या,llm_qc
+683,Hindi,हमिंगबर्ड,गुंजन पक्षी,llm_qc
+694,Hindi,क्रेन,सारस,llm_qc
+704,Hindi,साँप,सरीसृप,llm_qc
+793,Hindi,स्कैलिआन,हरा प्याज,llm_qc
+801,Hindi,पम्पकिन,कद्दू,llm_qc
+802,Hindi,अजवाइन,अजमोद,llm_qc
+816,Hindi,बुश,झाड़ी,llm_qc
+818,Hindi,पत्ती,पंखुड़ी,llm_qc
+823,Hindi,लिली,कुमुदिनी,llm_qc
+824,Hindi,डेज़ी,गुलबहार,llm_qc
+854,Hindi,विलो,मजनूं,llm_qc
+857,Hindi,पाइन,चीड़,llm_qc
+862,Hindi,ओक,बलूत,llm_qc
+873,Hindi,स्ट्रॉ,पुआल,llm_qc
+874,Hindi,हर्ब,जड़ी-बूटी,llm_qc
+875,Hindi,मॉस,काई,llm_qc
+913,Hindi,आटा,गुँधा आटा,llm_qc
+915,Hindi,क्रस्ट,पपड़ी,llm_qc
+943,Hindi,मिंट,पुदीना,llm_qc
+944,Hindi,बेसिल,तुलसी,llm_qc
+956,Hindi,शुगर,चीनी,llm_qc
+1009,Hindi,हिप,कूल्हा,llm_qc
+1043,Hindi,स्टार,तारा,llm_qc
+1056,Hindi,बीच,समुद्र तट,llm_qc
+1131,Hindi,संडे,रविवार,llm_qc
+1144,Hindi,लाइट,प्रकाश,llm_qc
+1152,Hindi,मेटल,धातु,llm_qc
+1189,Hindi,कड़ी,ज़ंजीर,llm_qc
+1195,Hindi,शील्ड,ढाल,llm_qc
+1205,Hindi,सिकल,हँसिया,llm_qc
+1209,Hindi,गारा,ओखली,llm_qc
+1210,Hindi,डस्टपैन,सूप,llm_qc
+1222,Hindi,रूम,कमरा,llm_qc
+1223,Hindi,वॉल,दीवार,llm_qc
+1231,Hindi,गार्डन,बग़ीचा,llm_qc
+1232,Hindi,यार्ड,आँगन,llm_qc
+1243,Hindi,शेल्फ,ताक,llm_qc
+1255,Hindi,स्लाइड,फिसलपट्टी,llm_qc
+1270,Hindi,कार्ट,ठेला,llm_qc
+1272,Hindi,व्हील,पहिया,llm_qc
+1274,Hindi,प्लेन,विमान,llm_qc
+1312,Hindi,बास्केट,टोकरी,llm_qc
+1332,Hindi,स्टैम्प,डाक टिकट,llm_qc
+1337,Hindi,फ़्रेम,चौखट,llm_qc
+1339,Hindi,मैप,नक़्शा,llm_qc
+1348,Hindi,क्लॉक,घड़ी,llm_qc
+1349,Hindi,बल्ब,दीपक,llm_qc
+1375,Hindi,यंत्र,वाद्ययंत्र,llm_qc
+1404,Hindi,हैट,टोपी,llm_qc
+1405,Hindi,क्राउन,मुकुट,llm_qc
+1422,Hindi,रेस,दौड़,llm_qc
+1433,Hindi,म्यूज़िक,संगीत,llm_qc
+1437,Hindi,रेस,नस्ल,llm_qc
+1468,Hindi,व्यामोह,भूलभुलैया,llm_qc
+1488,Hindi,प्रॉब्लम,समस्या,llm_qc
+1492,Hindi,लक,किस्मत,llm_qc
+1499,Hindi,विरोध,संघर्ष,llm_qc
+1542,Hindi,जॉब,नौकरी,llm_qc
+1555,Hindi,बीम,शहतीर,llm_qc
+1575,Hindi,हट,झोपड़ी,llm_qc
+1582,Hindi,फैक्टरी,कारख़ाना,llm_qc
+1593,Hindi,पार्क,उद्यान,llm_qc
+1594,Hindi,हॉस्पिटल,अस्पताल,llm_qc
+1599,Hindi,स्टेज,मंच,llm_qc
+1603,Hindi,स्क्रिप्ट,पटकथा,llm_qc
+1630,Hindi,टीचर,शिक्षक,llm_qc
+1647,Hindi,इलेक्ट्रीशियन,बिजली मिस्त्री,llm_qc
+1648,Hindi,प्लम्बर,नलसाज़,llm_qc
+1654,Hindi,अग्निशमन,दमकलकर्मी,llm_qc
+1657,Hindi,भंडारिन,परिचारिका,llm_qc
+1676,Hindi,बीच,केंद्र,llm_qc
+1677,Hindi,पाइंट,बिंदु,llm_qc
+1686,Hindi,बॉल,गेंद,llm_qc
+1691,Hindi,प्लेस,जगह,llm_qc
+1722,Hindi,आवेग,संवेग,llm_qc
+1738,Hindi,गड्ढा,क्रेटर,llm_qc
+1741,Hindi,संक्रांति,अयनांत,llm_qc
+1749,Hindi,क्रस्ट,भूपर्पटी,llm_qc
+1751,Hindi,कोर,क्रोड,llm_qc
+1804,Hindi,मगर,सिवाय,llm_qc
+1809,Hindi,बस,अभी-अभी,llm_qc
+25,Hungarian,ismétlés,ismételni,llm_qc
+143,Hungarian,pörkölt,pörköltet főzni,llm_qc
+150,Hungarian,szerelem,szeretni,llm_qc
+161,Hungarian,vadászatot,vadászni,llm_qc
+167,Hungarian,beszúrása,beszúrni,llm_qc
+196,Hungarian,munka,dolgozni,llm_qc
+207,Hungarian,borító,befedni,llm_qc
+208,Hungarian,támogatást,támogatni,llm_qc
+242,Hungarian,gondoskodjon,rendezni,llm_qc
+273,Hungarian,csevegés,csevegni,llm_qc
+277,Hungarian,ellenőrzés,ellenőrizni,llm_qc
+319,Hungarian,útmutató,irányítani,llm_qc
+324,Hungarian,fix,megjavítani,llm_qc
+401,Hungarian,felháborodott,undorodott,llm_qc
+435,Hungarian,istálló,stabil,llm_qc
+443,Hungarian,szingli,egyetlen,llm_qc
+600,Hungarian,ember,férfi,llm_qc
+618,Hungarian,unokája,unoka,llm_qc
+627,Hungarian,sógornő,meny,llm_qc
+649,Hungarian,malac,disznó,llm_qc
+855,Hungarian,aspen,rezgő nyár,llm_qc
+1087,Hungarian,cliff,szikla,llm_qc
+1095,Hungarian,valley,völgy,llm_qc
+1145,Hungarian,villám,villanás,llm_qc
+1165,Hungarian,diamond,gyémánt,llm_qc
+1167,Hungarian,jewel,ékszer,llm_qc
+1195,Hungarian,shield,pajzs,llm_qc
+1206,Hungarian,bellows,fújtató,llm_qc
+1220,Hungarian,haza,otthon,llm_qc
+1256,Hungarian,swing,hinta,llm_qc
+1307,Hungarian,pin,gombostű,llm_qc
+1350,Hungarian,fanni,ventilátor,llm_qc
+1452,Hungarian,összeg,mennyiség,llm_qc
+1455,Hungarian,újság,magazin,llm_qc
+1536,Hungarian,finanszírozás,pénzügy,llm_qc
+1539,Hungarian,század,cég,llm_qc
+1566,Hungarian,búra,kupola,llm_qc
+1587,Hungarian,suli,iskola,llm_qc
+1641,Hungarian,farmer,gazdálkodó,llm_qc
+1652,Hungarian,horgász,halász,llm_qc
+1676,Hungarian,center,központ,llm_qc
+1677,Hungarian,point,pont,llm_qc
+1707,Hungarian,építmény,szerkezet,llm_qc
+1727,Hungarian,ray,sugár,llm_qc
+1732,Hungarian,galaxy,galaxis,llm_qc
+1763,Hungarian,tovább,-on/-en/-ön,llm_qc
+1764,Hungarian,from,-tól/-től,llm_qc
+1779,Hungarian,mielőtt,előtt,llm_qc
+1789,Hungarian,with,-val/-vel,llm_qc
+1794,Hungarian,körülbelül,-ról/-ről,llm_qc
+1802,Hungarian,for,-ért,llm_qc
+59,Indonesian,tetap,menempel,llm_qc
+96,Indonesian,istirahat,memecahkan,llm_qc
+188,Indonesian,menyukai,menyerupai,llm_qc
+441,Indonesian,aneh,ganjil,llm_qc
+685,Indonesian,magpie,burung murai,llm_qc
+747,Indonesian,jangkrik,tonggeret,llm_qc
+751,Indonesian,millipede,kaki seribu,llm_qc
+842,Indonesian,poppy,bunga opium,llm_qc
+844,Indonesian,hydrangea,bunga hortensia,llm_qc
+905,Indonesian,kemiri,hazelnut,llm_qc
+1083,Indonesian,milikku,tambang,llm_qc
+1097,Indonesian,angin topan,puting beliung,llm_qc
+1196,Indonesian,senjata,senapan,llm_qc
+1210,Indonesian,dustpan,pengki,llm_qc
+1278,Indonesian,kapal,perahu,llm_qc
+1309,Indonesian,kabel,kawat,llm_qc
+1335,Indonesian,melukis,cat,llm_qc
+1446,Indonesian,garis,belang,llm_qc
+1484,Indonesian,melihat,pandangan,llm_qc
+1547,Indonesian,penyimpanan,ingatan,llm_qc
+1596,Indonesian,tanah pertanian,ladang,llm_qc
+1692,Indonesian,ruang angkasa,ruang,llm_qc
+1708,Indonesian,pemindahan,perpindahan,llm_qc
+1715,Indonesian,memaksa,gaya,llm_qc
+1812,Indonesian,tetap,masih,llm_qc
+58,Italian,per connettere,connettere,llm_qc
+59,Italian,rimanere,attaccare,llm_qc
+230,Italian,per raggruppare,raggrinzire,llm_qc
+443,Italian,separare,singolo,llm_qc
+686,Italian,oriole,rigogolo,llm_qc
+845,Italian,snapdragon,bocca di leone,llm_qc
+855,Italian,aspen,pioppo tremulo,llm_qc
+1402,Italian,fischio,fischietto,llm_qc
+1445,Italian,trama,motivo,llm_qc
+1500,Italian,sperimentare,esperimento,llm_qc
+1601,Italian,carattere,personaggio,llm_qc
+1708,Italian,dislocamento,spostamento,llm_qc
+1735,Italian,satellitare,satellite,llm_qc
+1750,Italian,mantle terrestre,mantello terrestre,llm_qc
+636,Japanese,義理の息子,継子,llm_qc
+665,Japanese,キャメル,ラクダ,llm_qc
+674,Japanese,ヘッジホッグ,ハリネズミ,llm_qc
+678,Japanese,ネスト,巣,llm_qc
+686,Japanese,オリオール,コウライウグイス,llm_qc
+693,Japanese,ユグレット,シラサギ,llm_qc
+727,Japanese,シーアンモネ,イソギンチャク,llm_qc
+728,Japanese,コーラル,サンゴ,llm_qc
+755,Japanese,いも虫,ミミズ,llm_qc
+823,Japanese,リリー,ユリ,llm_qc
+824,Japanese,デイジー,ヒナギク,llm_qc
+836,Japanese,バターカップ,キンポウゲ,llm_qc
+843,Japanese,カメリア,ツバキ,llm_qc
+855,Japanese,アスペン,ヤマナラシ,llm_qc
+866,Japanese,エルム,ニレ,llm_qc
+868,Japanese,メープル,カエデ,llm_qc
+875,Japanese,モス,苔,llm_qc
+883,Japanese,肥満,脂肪,llm_qc
+915,Japanese,パリパリの皮,クラスト,llm_qc
+956,Japanese,シュガー,砂糖,llm_qc
+967,Japanese,ホーン,角,llm_qc
+1195,Japanese,シールド,盾,llm_qc
+1206,Japanese,ベローズ,ふいご,llm_qc
+1235,Japanese,トイレ,浴室,llm_qc
+1302,Japanese,シガレット,タバコ,llm_qc
+1400,Japanese,ストリング,弦,llm_qc
+1418,Japanese,染色,しみ,llm_qc
+1459,Japanese,サイン,記号,llm_qc
+1462,Japanese,理科,科学,llm_qc
+1492,Japanese,ラック,運,llm_qc
+1497,Japanese,仮説,理論,llm_qc
+1547,Japanese,メモリー,記憶,llm_qc
+1562,Japanese,城,宮殿,llm_qc
+1577,Japanese,セラー,地下室,llm_qc
+1614,Japanese,キング,王,llm_qc
+1628,Japanese,法律家,弁護士,llm_qc
+1650,Japanese,クリーナー,清掃員,llm_qc
+1664,Japanese,眼鏡学者,眼鏡技師,llm_qc
+1680,Japanese,水面,表面,llm_qc
+1682,Japanese,サークル,円,llm_qc
+1699,Japanese,身長,高さ,llm_qc
+1727,Japanese,レイ,光線,llm_qc
+1762,Japanese,の,に,llm_qc
+1796,Japanese,また,または,llm_qc
+1824,Japanese,いつもの,たいてい,llm_qc
+25,Korean,반복하려면,반복하다,llm_qc
+63,Korean,미소하는,미소짓다,llm_qc
+167,Korean,삽입하려면,삽입하다,llm_qc
+182,Korean,비명을 지르기 위해,비명 지르다,llm_qc
+193,Korean,스윙,흔들다,llm_qc
+201,Korean,믹스,섞다,llm_qc
+205,Korean,롤,굴리다,llm_qc
+232,Korean,염료에,염색하다,llm_qc
+325,Korean,국자,푸다,llm_qc
+329,Korean,로밍에,배회하다,llm_qc
+753,Korean,파이어 플라이,반딧불이,llm_qc
+816,Korean,부시,덤불,llm_qc
+841,Korean,아이리스,붓꽃,llm_qc
+855,Korean,아스펜,사시나무,llm_qc
+862,Korean,오크,참나무,llm_qc
+866,Korean,엘름,느릅나무,llm_qc
+874,Korean,목초,허브,llm_qc
+961,Korean,그릇,접시,llm_qc
+978,Korean,아이리스,홍채,llm_qc
+1060,Korean,결석,돌,llm_qc
+1107,Korean,요일,날,llm_qc
+1169,Korean,실크,비단,llm_qc
+1187,Korean,걸쇠,족쇄,llm_qc
+1202,Korean,버킷,양동이,llm_qc
+1212,Korean,축,방추,llm_qc
+1300,Korean,토치,횃불,llm_qc
+1357,Korean,회로망,네트워크,llm_qc
+1381,Korean,율,리듬,llm_qc
+1402,Korean,휘파람,호루라기,llm_qc
+1465,Korean,하나님,신,llm_qc
+1484,Korean,보다,견해,llm_qc
+1536,Korean,재원,금융,llm_qc
+1544,Korean,정당성,정의,llm_qc
+1547,Korean,메모리,기억,llm_qc
+1553,Korean,도시,읍,llm_qc
+1576,Korean,외양간,헛간,llm_qc
+1632,Korean,프로그램 제작자,프로그래머,llm_qc
+1641,Korean,농장주,농부,llm_qc
+1644,Korean,푸줏간,정육점 주인,llm_qc
+1667,Korean,친위대,경호원,llm_qc
+1690,Korean,시각,시간,llm_qc
+1692,Korean,우주,공간,llm_qc
+1696,Korean,용량,부피,llm_qc
+1699,Korean,키,높이,llm_qc
+1708,Korean,배수량,변위,llm_qc
+1720,Korean,충동,충격량,llm_qc
+1722,Korean,기세,운동량,llm_qc
+1727,Korean,레이,광선,llm_qc
+1779,Korean,전에,앞에,llm_qc
+1833,Korean,확실한,물론,llm_qc
+693,Russian,царапин,цапля,llm_qc
+751,Russian,миллипед,многоножка,llm_qc
+824,Russian,дейзи,маргаритка,llm_qc
+831,Russian,нарцискую,нарцисс,llm_qc
+834,Russian,далия,георгин,llm_qc
+835,Russian,ногол,бархатцы,llm_qc
+866,Russian,вере,вяз,llm_qc
+1031,Russian,пердук,пердёж,llm_qc
+1076,Russian,пожар,огонь,llm_qc
+1180,Russian,стрелка,стрела,llm_qc
+1232,Russian,площадка,двор,llm_qc
+1349,Russian,фонарь,лампа,llm_qc
+1484,Russian,посмотреть,взгляд,llm_qc
+1707,Russian,состав,структура,llm_qc
+686,Spanish,oriol,oropéndola,llm_qc
+967,Spanish,bocina,cuerno,llm_qc
+1279,Spanish,embarcacion,barco,llm_qc
+1452,Spanish,monto,cantidad,llm_qc
+1467,Spanish,espejismo,ilusión,llm_qc
+1486,Spanish,inclinación,sesgo,llm_qc
+1679,Spanish,círculo,bucle,llm_qc
+1722,Spanish,impulso,cantidad de movimiento,llm_qc
+1736,Spanish,meteorito,meteoro,llm_qc
+364,Swahili,sawa,laini,llm_qc
+600,Swahili,mtu,mwanamume,llm_qc
+642,Swahili,pet,mnyama kipenzi,llm_qc
+653,Swahili,tiger,simba marara,llm_qc
+676,Swahili,bat,popo,llm_qc
+682,Swahili,goose,bata bukini,llm_qc
+683,Swahili,hummingbird,ndege-nyuki,llm_qc
+690,Swahili,parrot,kasuku,llm_qc
+691,Swahili,woodpecker,kigogota,llm_qc
+700,Swahili,raven,kunguru,llm_qc
+704,Swahili,reptile,mtambaazi,llm_qc
+716,Swahili,walrus,tembo wa baharini,llm_qc
+737,Swahili,caterpillar,kiwavi,llm_qc
+741,Swahili,scorpion,nge,llm_qc
+743,Swahili,mchwa,siafu/chungu,llm_qc
+746,Swahili,louse,chawa,llm_qc
+751,Swahili,millipede,jongoo,llm_qc
+753,Swahili,firefly,kimulimuli,llm_qc
+763,Swahili,apple,tofaa,llm_qc
+769,Swahili,peach,pichi,llm_qc
+791,Swahili,vitunguu,kitunguu saumu,llm_qc
+800,Swahili,cauliflower,koliflawa,llm_qc
+815,Swahili,bark,gome,llm_qc
+816,Swahili,bush,kichaka,llm_qc
+822,Swahili,rose,waridi,llm_qc
+887,Swahili,yolk,kiini cha yai,llm_qc
+897,Swahili,nut,kokwa,llm_qc
+913,Swahili,unga,donge la unga,llm_qc
+935,Swahili,kachumbari,achali,llm_qc
+992,Swahili,toe,kidole cha mguu,llm_qc
+995,Swahili,knee,goti,llm_qc
+1010,Swahili,armpit,kwapa,llm_qc
+1026,Swahili,vein,mshipa,llm_qc
+1080,Swahili,swamp,bwawa,llm_qc
+1083,Swahili,yangu,mgodi,llm_qc
+1155,Swahili,kuni,mbao,llm_qc
+1184,Swahili,ax,shoka,llm_qc
+1193,Swahili,taka,reki,llm_qc
+1206,Swahili,kengele,mvukuto,llm_qc
+1208,Swahili,pestle,mchi,llm_qc
+1209,Swahili,chokaa,kinu,llm_qc
+1244,Swahili,tray,sinia,llm_qc
+1263,Swahili,bomba,bandia,llm_qc
+1270,Swahili,gari,mkokoteni,llm_qc
+1295,Swahili,wardrobe,kabati la nguo,llm_qc
+1303,Swahili,funga,kufuli,llm_qc
+1308,Swahili,thread,uzi,llm_qc
+1337,Swahili,sura,fremu,llm_qc
+1346,Swahili,mtawala,rula,llm_qc
+1356,Swahili,mpango,programu,llm_qc
+1361,Swahili,safi ya utupu,kisafishaji,llm_qc
+1363,Swahili,kettle,birika,llm_qc
+1381,Swahili,rhythm,mdundo,llm_qc
+1382,Swahili,wimbo,kina,llm_qc
+1399,Swahili,chombo,kinanda,llm_qc
+1415,Swahili,sock,soksi,llm_qc
+1417,Swahili,kanzu,koti,llm_qc
+1437,Swahili,taifa,rangi,llm_qc
+1446,Swahili,mstari,mstari wa rangi,llm_qc
+1451,Swahili,sheria,kanuni,llm_qc
+1463,Swahili,agizo,utaratibu,llm_qc
+1478,Swahili,ghost,mzimu,llm_qc
+1554,Swahili,ujenzi,jengo,llm_qc
+1562,Swahili,ikulu,kasri,llm_qc
+1566,Swahili,dome,kuba,llm_qc
+1593,Swahili,hifadhi,bustani,llm_qc
+1599,Swahili,hatua,jukwaa,llm_qc
+1601,Swahili,tabia,mhusika,llm_qc
+1603,Swahili,maandishi,mswada,llm_qc
+1616,Swahili,prince,mwana wa mfalme,llm_qc
+1617,Swahili,princess,binti mfalme,llm_qc
+1623,Swahili,mbunifu,mbunifu majengo,llm_qc
+1639,Swahili,maktaba,mkutubi,llm_qc
+1649,Swahili,mechanic,mekanika,llm_qc
+1661,Swahili,tailor,mshonaji,llm_qc
+1672,Swahili,mtaalam,mwigizaji,llm_qc
+1677,Swahili,hatua,nukta,llm_qc
+1681,Swahili,sura,umbo,llm_qc
+1682,Swahili,mzunguko,duara,llm_qc
+1689,Swahili,knot,fundo,llm_qc
+1727,Swahili,ray,mwale,llm_qc
+1732,Swahili,galaxy,galaksi,llm_qc
+1735,Swahili,satellite,satelaiti,llm_qc
+1771,Swahili,iko mbele,mbele,llm_qc
+1773,Swahili,imesalia,kushoto,llm_qc
+1774,Swahili,sawa,kulia,llm_qc
+1845,Swahili,hello,hujambo,llm_qc
+9,Thai,ทิ้ง ,จากไป,llm_qc
+36,Thai,เก็บ,ถือ,llm_qc
+42,Thai,นำ ,วาง,llm_qc
+44,Thai,ใช้ ,เอา,llm_qc
+364,Thai,ไม่ไร,ละเอียด,llm_qc
+441,Thai,แปลก,คี่,llm_qc
+442,Thai,สม่ำเสมอ,คู่,llm_qc
+631,Thai,แม่บุญธรรม,แม่ยาย,llm_qc
+759,Thai,ติด,ไม้,llm_qc
+781,Thai,รูปที่,มะเดื่อ,llm_qc
+846,Thai,ชิบัส,ชบา,llm_qc
+854,Thai,วิลโลว์,ต้นหลิว,llm_qc
+873,Thai,หลอด,ฟาง,llm_qc
+909,Thai,ซีเรียล,ธัญพืช,llm_qc
+1064,Thai,คลาวด์,เมฆ,llm_qc
+1073,Thai,น้ำแข็ง,น้ำค้างแข็ง,llm_qc
+1213,Thai,รถรับส่ง,กระสวย,llm_qc
+1254,Thai,บอลลูน,ลูกโป่ง,llm_qc
+1292,Thai,ผ้าห่ม,ผ้านวม,llm_qc
+1308,Thai,เกลียว,ด้าย,llm_qc
+1375,Thai,อุปกรณ์,เครื่องดนตรี,llm_qc
+1472,Thai,นางฟ้า,ทูตสวรรค์,llm_qc
+1498,Thai,ความขัดแย้ง,ปฏิทรรศน์,llm_qc
+1517,Thai,ติดตาม,ร่องรอย,llm_qc
+1598,Thai,โรงภาพยนตร์,โรงละคร,llm_qc
+1603,Thai,สคริปต์,บทภาพยนตร์,llm_qc
+1650,Thai,เครื่องทำความสะอาด,พนักงานทำความสะอาด,llm_qc
+1696,Thai,ปริมาณ,ปริมาตร,llm_qc
+1708,Thai,การกำจัด,การกระจัด,llm_qc
+1727,Thai,เรย์,รังสี,llm_qc
+1773,Thai,เหลืออยู่,ทางซ้าย,llm_qc
+1840,Thai,สม่ำเสมอ,แม้แต่,llm_qc
+846,Turkish,ebegümeci,hatmi,llm_qc
+1076,Turkish,yangın,ateş,llm_qc
+1155,Turkish,odun,tahta,llm_qc
+1213,Turkish,servis aracı,mekik,llm_qc
+1262,Turkish,yapıtaşı,oyuncak küp,llm_qc
+1344,Turkish,takvim,program,llm_qc
+1367,Turkish,yonga,çip,llm_qc
+1369,Turkish,tuş takımı,klavye,llm_qc
+1387,Turkish,mavimsi,blüz,llm_qc
+1402,Turkish,ıslık,düdük,llm_qc
+1447,Turkish,kafes,ızgara,llm_qc
+1448,Turkish,nokta,benek,llm_qc
+1459,Turkish,imza,işaret,llm_qc
+1519,Turkish,dava,durum,llm_qc
+1581,Turkish,jimnastik,spor salonu,llm_qc
+1600,Turkish,kitle,seyirci,llm_qc
+1706,Turkish,sorumluluk,yük,llm_qc
+1722,Turkish,itme,momentum,llm_qc
+1759,Turkish,mutlak,-meli,llm_qc
+1763,Turkish,açık,üstünde,llm_qc
+1795,Turkish,ile ilgili,-in,llm_qc
+204,Vietnamese,phía sau,nuôi dạy,llm_qc
+364,Vietnamese,tốt,mịn,llm_qc
+692,Vietnamese,chim nhập vai,chim cốc,llm_qc
+693,Vietnamese,đầu tiên,cò,llm_qc
+725,Vietnamese,yên tĩnh,nghêu,llm_qc
+762,Vietnamese,kernel,nhân,llm_qc
+811,Vietnamese,ngành,cành cây,llm_qc
+841,Vietnamese,iris,hoa diên vĩ,llm_qc
+846,Vietnamese,sibiscus,dâm bụt,llm_qc
+847,Vietnamese,jasmine,hoa nhài,llm_qc
+867,Vietnamese,beech,cây sồi,llm_qc
+978,Vietnamese,iris,mống mắt,llm_qc
+1102,Vietnamese,avalanche,tuyết lở,llm_qc
+1134,Vietnamese,bước đều,tháng Ba,llm_qc
+1187,Vietnamese,xu phạm,xiềng xích,llm_qc
+1210,Vietnamese,vũi bụi,ki hốt rác,llm_qc
+1212,Vietnamese,con quay,cái suốt,llm_qc
+1213,Vietnamese,xe đưa đón,con thoi,llm_qc
+1218,Vietnamese,hiện ra dệt,khung cửi,llm_qc
+1224,Vietnamese,tầng lầu,sàn nhà,llm_qc
+1237,Vietnamese,nghiên cứu,phòng làm việc,llm_qc
+1292,Vietnamese,may chăn,chăn bông,llm_qc
+1349,Vietnamese,nguồn sáng,đèn,llm_qc
+1373,Vietnamese,cái mic cờ rô,micrô,llm_qc
+1442,Vietnamese,sự liên tiếp,trình tự,llm_qc
+1465,Vietnamese,chúa,thần,llm_qc
+1479,Vietnamese,chuyện hoang đường,thần thoại,llm_qc
+1487,Vietnamese,cố gắng,nỗ lực,llm_qc
+1576,Vietnamese,barn,nhà kho,llm_qc
+1582,Vietnamese,xưởng sản xuất,nhà máy,llm_qc
+1649,Vietnamese,công nhân cơ khí,thợ máy,llm_qc
+1687,Vietnamese,cục bướu,cục,llm_qc
+1736,Vietnamese,thiên thạch,sao băng,llm_qc
+1741,Vietnamese,solstice,điểm chí,llm_qc
+1776,Vietnamese,hết rồi,ra ngoài,llm_qc
+188,German,mögen,ähneln,llm_qc
+349,German,licht,blass,llm_qc
+351,German,licht,leicht,llm_qc
+380,German,cool,kühl,llm_qc
+441,German,seltsam,ungerade,llm_qc
+676,German,schläger,fledermaus,llm_qc
+715,German,siegel,robbe,llm_qc
+752,German,kricket,grille,llm_qc
+848,German,lila,flieder,llm_qc
+897,German,mutter,nuss,llm_qc
+922,German,koks,cola,llm_qc
+980,German,reißen,träne,llm_qc
+1144,German,hell,Licht,llm_qc
+1209,German,granatwerfer,Mörser,llm_qc
+1210,German,schaufel,Kehrblech,llm_qc
+1237,German,lernen,Arbeitszimmer,llm_qc
+1291,German,bettdecke,Bettlaken,llm_qc
+1323,German,buchen,Buch,llm_qc
+1335,German,malen,Farbe,llm_qc
+1346,German,herrscher,Lineal,llm_qc
+1369,German,klaviatur,Tastatur,llm_qc
+1389,German,felsen,Rockmusik,llm_qc
+1399,German,organ,Orgel,llm_qc
+1408,German,passen,Anzug,llm_qc
+1418,German,beflecken,Fleck,llm_qc
+1463,German,befehl,Ordnung,llm_qc
+1555,German,strahl,Balken,llm_qc
+1602,German,abspielen,Theaterstück,llm_qc
+1676,German,center,Zentrum,llm_qc
+1680,German,auftauchen,Oberfläche,llm_qc
+1681,German,gestalten,Form,llm_qc
+1746,German,quecksilber,Merkur,llm_qc
+364,Greek,καλά,λεπτός,llm_qc
+715,Greek,σφραγίδα,φώκια,llm_qc
+719,Greek,θαλάσσιος θαλάσσιος,ιππόκαμπος,llm_qc
+733,Greek,πετώ,μύγα,llm_qc
+752,Greek,κρίκετ,γρύλος,llm_qc
+1083,Greek,δικος μου,ορυχείο,llm_qc
+1237,Greek,μελέτη,γραφείο,llm_qc
+1247,Greek,φυτώριο,παιδικός σταθμός,llm_qc
+1258,Greek,εύστορα,καρουζέλ,llm_qc
+1261,Greek,άμμος,αμμοδόχος,llm_qc
+1274,Greek,επίπεδο,αεροπλάνο,llm_qc
+1346,Greek,κυβερνήτης,χάρακας,llm_qc
+1367,Greek,πατατακι,τσιπ,llm_qc
+1389,Greek,βράχος,ροκ,llm_qc
+1402,Greek,σφυρίζω,σφυρίχτρα,llm_qc
+1528,Greek,βιβλιογραφία,λογοτεχνία,llm_qc
+1602,Greek,παίζω,θεατρικό έργο,llm_qc
+1638,Greek,κρατώ,ασκούμενος,llm_qc
+1644,Greek,σφάζω,χασάπης,llm_qc
+1696,Greek,ενταση ηχου,όγκος,llm_qc
+1781,Greek,μπλουζα,κορυφή,llm_qc
+302,Hindi,सीसे,नेतृत्व करना,llm_qc
+380,Hindi,कूल,ठंडा,llm_qc
+508,Hindi,गुरूजी,समझदार,llm_qc
+643,Hindi,जाँचना,पशु चिकित्सक,llm_qc
+722,Hindi,शेल,खोल,llm_qc
+788,Hindi,बाँसुरी,बाँस,llm_qc
+806,Hindi,बैंगनी,बैंगन,llm_qc
+845,Hindi,अजगर का चित्र,डॉग-फ्लावर,llm_qc
+924,Hindi,ठग,स्मूदी,llm_qc
+1004,Hindi,गुस्ताखी,अंतड़ियाँ,llm_qc
+1029,Hindi,जहाज़ का सबसे पिछला भाग,गू,llm_qc
+1074,Hindi,जयकार करना,ओले,llm_qc
+1083,Hindi,मेरा,खदान,llm_qc
+1178,Hindi,सलाम,शांति,llm_qc
+1193,Hindi,जेली,रेक,llm_qc
+1217,Hindi,कपड़ा,बाना,llm_qc
+1237,Hindi,पढ़ाई,अध्ययन कक्ष,llm_qc
+1258,Hindi,मेररी आस पास जाओ,घूमने वाला झूला,llm_qc
+1261,Hindi,रेत की खान,रेत का गड्ढा,llm_qc
+1346,Hindi,शासक,फुटपट्टी,llm_qc
+1350,Hindi,प्रशंसक,पंखा,llm_qc
+1389,Hindi,चट्टान,रॉक,llm_qc
+1602,Hindi,खेल,नाटक,llm_qc
+1672,Hindi,कर्ता,अभिनेता,llm_qc
+1724,Hindi,अणु,परमाणु,llm_qc
+1746,Hindi,पारा,बुध,llm_qc
+68,Hungarian,nyárs,köpni,llm_qc
+175,Hungarian,lemez,rögzíteni,llm_qc
+179,Hungarian,kéreg,ugatni,llm_qc
+184,Hungarian,varjú,kukorékolni,llm_qc
+202,Hungarian,kanyar,hajlítani,llm_qc
+249,Hungarian,vonat,edzeni,llm_qc
+311,Hungarian,eke,szántani,llm_qc
+313,Hungarian,koca,vetni,llm_qc
+320,Hungarian,kisasszony,elhibázni,llm_qc
+321,Hungarian,kisasszony,hiányozni,llm_qc
+325,Hungarian,gombóc,kimerni,llm_qc
+349,Hungarian,fényt,halvány,llm_qc
+351,Hungarian,fényt,könnyű,llm_qc
+364,Hungarian,bírság,finom,llm_qc
+380,Hungarian,menő,hűvös,llm_qc
+441,Hungarian,furcsa,páratlan,llm_qc
+858,Hungarian,süllyesztett fa,akácfa,llm_qc
+966,Hungarian,pan,serpenyő,llm_qc
+1036,Hungarian,holttest,test,llm_qc
+1083,Hungarian,enyém,bánya,llm_qc
+1091,Hungarian,tavasz,forrás,llm_qc
+1104,Hungarian,második,másodperc,llm_qc
+1209,Hungarian,aknavető,mozsár,llm_qc
+1237,Hungarian,tanulmány,dolgozószoba,llm_qc
+1241,Hungarian,koppintson a,csap,llm_qc
+1252,Hungarian,bár,rúd,llm_qc
+1258,Hungarian,körbekerült,körhinta,llm_qc
+1321,Hungarian,levele,betű,llm_qc
+1346,Hungarian,uralkodó,vonalzó,llm_qc
+1399,Hungarian,szerv,orgona,llm_qc
+1437,Hungarian,verseny,faj,llm_qc
+1463,Hungarian,parancs,rend,llm_qc
+1535,Hungarian,gazdaságos,gazdaság,llm_qc
+1659,Hungarian,főzés,szakács,llm_qc
+1694,Hungarian,számít,anyag,llm_qc
+1746,Hungarian,higany,Merkúr,llm_qc
+600,Indonesian,manusia,laki-laki,llm_qc
+650,Indonesian,mouse,tikus,llm_qc
+715,Indonesian,segel,anjing laut,llm_qc
+733,Indonesian,terbang,lalat,llm_qc
+836,Indonesian,cangkir mentega,bunga mentega,llm_qc
+980,Indonesian,merobek,air mata,llm_qc
+1004,Indonesian,nyali,jeroan,llm_qc
+1258,Indonesian,merry-go-around,komidi putar,llm_qc
+1295,Indonesian,pakaian,lemari pakaian,llm_qc
+1350,Indonesian,penggemar,kipas angin,llm_qc
+1389,Indonesian,batu,musik rok,llm_qc
+1463,Indonesian,memesan,ketertiban,llm_qc
+1585,Indonesian,menjembatani,jembatan,llm_qc
+1602,Indonesian,bermain,sandiwara,llm_qc
+1746,Indonesian,air raksa,Merkurius,llm_qc
+1839,Indonesian,juga,terlalu,llm_qc
+188,Italian,piacere,somigliare,llm_qc
+249,Italian,al treno,allenare,llm_qc
+364,Italian,va bene,fine,llm_qc
+441,Italian,strano,dispari,llm_qc
+733,Italian,volare,mosca,llm_qc
+752,Italian,cricket,grillo,llm_qc
+1083,Italian,mio,miniera,llm_qc
+1144,Italian,leggero,luce,llm_qc
+1156,Italian,gomma da cancellare,gomma,llm_qc
+1237,Italian,studia,studio,llm_qc
+1335,Italian,dipingere,vernice,llm_qc
+1389,Italian,roccia,rock,llm_qc
+1407,Italian,vestire,vestito,llm_qc
+1458,Italian,contrarre,contratto,llm_qc
+1602,Italian,giocare a,opera teatrale,llm_qc
+1659,Italian,cucinare,cuoco,llm_qc
+1782,Italian,metter il fondo a,fondo,llm_qc
+1839,Italian,pure,troppo,llm_qc
+676,Japanese,バット,コウモリ,llm_qc
+729,Japanese,胚芽,細菌,llm_qc
+733,Japanese,飛ぶ,ハエ,llm_qc
+752,Japanese,クリケット,コオロギ,llm_qc
+841,Japanese,虹彩,アヤメ,llm_qc
+897,Japanese,ナット,木の実,llm_qc
+922,Japanese,コークス,コーラ,llm_qc
+1004,Japanese,根性,内臓,llm_qc
+1060,Japanese,結石,石,llm_qc
+1082,Japanese,分野,野原,llm_qc
+1083,Japanese,私の,鉱山,llm_qc
+1180,Japanese,矢印,矢,llm_qc
+1237,Japanese,勉強,書斎,llm_qc
+1258,Japanese,メリーゴーアラウンド,回転木馬,llm_qc
+1322,Japanese,論文,紙,llm_qc
+1389,Japanese,石,ロック,llm_qc
+1399,Japanese,器官,オルガン,llm_qc
+1463,Japanese,注文,秩序,llm_qc
+1659,Japanese,料理,料理人,llm_qc
+1662,Japanese,レジ,レジ係,llm_qc
+1696,Japanese,音量,体積,llm_qc
+1720,Japanese,衝動,力積,llm_qc
+1721,Japanese,プレッシャー,圧力,llm_qc
+1734,Japanese,星,惑星,llm_qc
+632,Korean,며느리,사돈,llm_qc
+752,Korean,크리켓,귀뚜라미,llm_qc
+766,Korean,주황색,오렌지,llm_qc
+897,Korean,너트,견과,llm_qc
+1115,Korean,데이트,날짜,llm_qc
+1209,Korean,박격포,절구,llm_qc
+1237,Korean,공부하다,서재,llm_qc
+1252,Korean,술집,막대,llm_qc
+1258,Korean,메리-거주지,회전목마,llm_qc
+1389,Korean,바위,록,llm_qc
+1463,Korean,주문하다,질서,llm_qc
+1599,Korean,단계,무대,llm_qc
+1659,Korean,요리하다,요리사,llm_qc
+1677,Korean,가리키다,점,llm_qc
+1746,Korean,수은,수성,llm_qc
+1839,Korean,도,너무,llm_qc
+349,Russian,свет,бледный,llm_qc
+351,Russian,свет,лёгкий,llm_qc
+380,Russian,круто,прохладный,llm_qc
+441,Russian,странный,нечётный,llm_qc
+611,Russian,родительский,родитель,llm_qc
+715,Russian,печать,тюлень,llm_qc
+733,Russian,летать,муха,llm_qc
+752,Russian,крикет,сверчок,llm_qc
+855,Russian,оси,осина,llm_qc
+955,Russian,медовый,мёд,llm_qc
+961,Russian,пластина,тарелка,llm_qc
+980,Russian,рвать,слеза,llm_qc
+1075,Russian,дымка,дым,llm_qc
+1083,Russian,мой,шахта,llm_qc
+1124,Russian,западный,запад,llm_qc
+1171,Russian,белье,лён,llm_qc
+1197,Russian,бомбить,бомба,llm_qc
+1201,Russian,ствол,бочка,llm_qc
+1209,Russian,раствор,ступка,llm_qc
+1211,Russian,вращаться,ось,llm_qc
+1237,Russian,изучение,кабинет,llm_qc
+1247,Russian,питомник,ясли,llm_qc
+1254,Russian,баллон,воздушный шар,llm_qc
+1272,Russian,рулевое колесо,колесо,llm_qc
+1273,Russian,тренироваться,поезд,llm_qc
+1332,Russian,печать,марка,llm_qc
+1335,Russian,покрасить,краска,llm_qc
+1354,Russian,компьютерный,компьютер,llm_qc
+1407,Russian,одеваться,платье,llm_qc
+1408,Russian,подходить,костюм,llm_qc
+1463,Russian,заказ,порядок,llm_qc
+1476,Russian,карликовая,гном,llm_qc
+1555,Russian,луч,балка,llm_qc
+1602,Russian,играть в,пьеса,llm_qc
+1607,Russian,корт,суд,llm_qc
+1627,Russian,судить,судья,llm_qc
+1650,Russian,очиститель,уборщик,llm_qc
+1659,Russian,готовить пищу,повар,llm_qc
+1684,Russian,площадь,квадрат,llm_qc
+349,Spanish,luz,claro,llm_qc
+351,Spanish,luz,ligero,llm_qc
+364,Spanish,bien,fino,llm_qc
+380,Spanish,genial,fresco,llm_qc
+441,Spanish,extraño,impar,llm_qc
+715,Spanish,sello,foca,llm_qc
+733,Spanish,volar,mosca,llm_qc
+897,Spanish,tuerca,nuez,llm_qc
+924,Spanish,zalamero,batido,llm_qc
+952,Spanish,cuerno,cruasán,llm_qc
+961,Spanish,placa,plato,llm_qc
+1083,Spanish,mío,mina,llm_qc
+1144,Spanish,ligero,luz,llm_qc
+1232,Spanish,yarda,patio,llm_qc
+1237,Spanish,estudiar,despacho,llm_qc
+1328,Spanish,lápiz,bolígrafo,llm_qc
+1329,Spanish,cepillar,cepillo,llm_qc
+1346,Spanish,gobernante,regla,llm_qc
+1389,Spanish,roca,rock,llm_qc
+1402,Spanish,silbar,silbato,llm_qc
+1407,Spanish,vestir,vestido,llm_qc
+1426,Spanish,fútbol americano,fútbol,llm_qc
+1599,Spanish,etapa,escenario,llm_qc
+1839,Spanish,también,demasiado,llm_qc
+179,Swahili,kwa gome,kubweka,llm_qc
+193,Swahili,kwa swing,kupembea,llm_qc
+407,Swahili,kuchekesha,mdadisi,llm_qc
+409,Swahili,boring,-a kuchosha,llm_qc
+512,Swahili,sober,mwenye kiasi,llm_qc
+538,Swahili,i,mimi,llm_qc
+550,Swahili,who,nani,llm_qc
+931,Swahili,jogoo,kokteli,llm_qc
+1246,Swahili,vumbi,pipa la taka,llm_qc
+1257,Swahili,msumeno,pembea,llm_qc
+1258,Swahili,merry-go-around,mzunguko,llm_qc
+1289,Swahili,mwenyekiti,kiti,llm_qc
+1292,Swahili,mto,mfarishi,llm_qc
+1389,Swahili,mwamba,muziki wa rock,llm_qc
+812,Thai,กระโปรงหลังรถ,ลำต้น,llm_qc
+843,Thai,ไฮเดรนเยีย,ดอกคามีเลีย,llm_qc
+1004,Thai,ความกล้าหาญ,เครื่องใน,llm_qc
+1216,Thai,วิปริต,เส้นด้ายยืน,llm_qc
+1217,Thai,ผ้า,เส้นด้ายพุ่ง,llm_qc
+1258,Thai,ความร่าเริงรอบ,ม้าหมุน,llm_qc
+1261,Thai,ทราย,บ่อทราย,llm_qc
+1262,Thai,ตึก,บล็อกตัวต่อ,llm_qc
+1389,Thai,หิน,ร็อก,llm_qc
+1746,Thai,ปรอท,ดาวพุธ,llm_qc
+188,Turkish,beğenmek,benzemek,llm_qc
+249,Turkish,trene,eğitmek,llm_qc
+314,Turkish,yaratmak için,biçmek,llm_qc
+715,Turkish,mühür,fok,llm_qc
+733,Turkish,uçmak,sinek,llm_qc
+961,Turkish,plaka,tabak,llm_qc
+1190,Turkish,kırbaçlamak,kırbaç,llm_qc
+1271,Turkish,alışveriş kartı,alışveriş arabası,llm_qc
+1280,Turkish,yorulmak,lastik,llm_qc
+1310,Turkish,sırt çantası,çanta,llm_qc
+1329,Turkish,fırçalamak,fırça,llm_qc
+1335,Turkish,boyamak,boya,llm_qc
+1418,Turkish,lekelemek,leke,llm_qc
+1463,Turkish,emir,düzen,llm_qc
+1659,Turkish,pişirmek,aşçı,llm_qc
+1684,Turkish,meydan,kare,llm_qc
+1696,Turkish,ses,hacim,llm_qc
+1721,Turkish,baskı yapmak,basınç,llm_qc
+1748,Turkish,toprak,Dünya,llm_qc
+661,Vietnamese,chịu,con gấu,llm_qc
+687,Vietnamese,chim thrush,chim hoét,llm_qc
+689,Vietnamese,rùa,chim cu gáy,llm_qc
+752,Vietnamese,bóng chày,con dế,llm_qc
+832,Vietnamese,quái vật,hoa hải quỳ,llm_qc
+836,Vietnamese,bơ,mao lương,llm_qc
+883,Vietnamese,mập mạp,mỡ,llm_qc
+915,Vietnamese,vỏ trái đất,vỏ bánh mì,llm_qc
+922,Vietnamese,than cốc,Coca,llm_qc
+975,Vietnamese,đối mặt,khuôn mặt,llm_qc
+1006,Vietnamese,trở lại,lưng,llm_qc
+1258,Vietnamese,vui vẻ xung quanh,đu quay,llm_qc
+1389,Vietnamese,đá,nhạc rock,llm_qc
+1463,Vietnamese,đặt hàng,trật tự,llm_qc
+1602,Vietnamese,chơi,vở kịch,llm_qc
+1727,Vietnamese,cá đuối,tia,llm_qc
+1746,Vietnamese,thủy ngân,Sao Thủy,llm_qc
+1774,Vietnamese,đúng rồi,bên phải,llm_qc
