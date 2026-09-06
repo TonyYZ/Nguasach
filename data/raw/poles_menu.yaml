@@ -389,3 +389,117 @@ poles:
   - fury
   - wrath
   - ire
+- name: BITTER
+  gloss: bitter
+  words:
+  - bitter
+  - acrid
+  - astringent
+- name: SALTY
+  gloss: salty
+  words:
+  - salty
+  - briny
+  - saline
+- name: WARM
+  gloss: warm
+  words:
+  - warm
+  - tepid
+  - balmy
+  - lukewarm
+- name: YELLOW
+  gloss: yellow
+  words:
+  - yellow
+  - golden
+  - amber
+- name: GREEN
+  gloss: green
+  words:
+  - green
+  - verdant
+  - olive
+- name: BLUE
+  gloss: blue
+  words:
+  - blue
+  - azure
+  - indigo
+- name: SHINY
+  gloss: shiny
+  words:
+  - shiny
+  - glossy
+  - glinting
+  - lustrous
+- name: STINK
+  gloss: stink
+  words:
+  - stink
+  - stench
+  - reek
+  - foul
+  - rancid
+- name: PAIN
+  gloss: pain
+  words:
+  - pain
+  - ache
+  - hurt
+  - sore
+  - agony
+- name: ITCH
+  gloss: itch
+  words:
+  - itch
+  - tickle
+  - prickle
+  - tingle
+- name: HAPPY
+  gloss: happy
+  words:
+  - happy
+  - joyful
+  - cheerful
+  - glad
+  - delighted
+- name: SAD
+  gloss: sad
+  words:
+  - sad
+  - sorrowful
+  - mournful
+  - gloomy
+  - dejected
+- name: LOVE
+  gloss: love
+  words:
+  - love
+  - affection
+  - adore
+  - fondness
+  - cherish
+- name: HATE
+  gloss: hate
+  words:
+  - hate
+  - loathe
+  - detest
+  - despise
+  - abhor
+- name: DISGUST
+  gloss: disgust
+  words:
+  - disgust
+  - revulsion
+  - repulsion
+  - nausea
+- name: CALM
+  gloss: calm
+  words:
+  - calm
+  - serene
+  - tranquil
+  - placid
+  - peaceful
