@@ -167,7 +167,7 @@ footer a{border:0}
 
     <section id="data">
       <h2><span class="num">02</span>The data</h2>
-      <h3>1,842 concepts &times; 22 languages</h3>
+      <h3>1,968 concepts &times; 22 languages</h3>
       <p>The concept list leans on verbs, adjectives and everyday nouns. Each concept is translated
         into every language, then turned into two vectors — one for how it sounds, one for what it
         means.</p>
@@ -192,9 +192,9 @@ footer a{border:0}
       <p>The retrieval map is a <strong>ridge regression</strong> between the two sound-spaces —
         regularised, unlike the original&#39;s plain least squares, which overfits at ~18 training
         pairs per parameter. Scoring uses exact cosine retrieval with CSLS de-hubbing, 10-fold
-        cross-validation, and a <strong>1,000-permutation null</strong> that reshuffles the
-        translation pairing and re-runs the entire fit. Everything gets Benjamini&ndash;Hochberg
-        FDR.</p>
+        cross-validation, and a <strong>permutation null</strong> (200 iterations, 300 for the
+        confirmatory set) that reshuffles the translation pairing and re-runs the entire fit.
+        Everything gets Benjamini&ndash;Hochberg FDR.</p>
       <p>Three non-learned baselines run through the identical machinery, so the learned map&#39;s
         contribution is isolable:</p>
       <ul>
@@ -227,11 +227,12 @@ footer a{border:0}
       </figure>
 
       <figure>
-        <img src="__FIG_sweep__" alt="Horizontal bars: form-meaning Mantel r for all 22 languages, raw and after partialling out orthography. Positive and significant everywhere except Chinese's partial.">
+        <img src="__FIG_sweep__" alt="Horizontal bars: form-meaning Mantel r for all 22 languages, raw and after partialling out orthography. Positive and significant in every language, with and without the orthographic control.">
         <figcaption><b>Within-language sound&harr;meaning correlation is near-universal but tiny.</b>
-          Positive and significant (<i>r</i>&nbsp;&asymp;&nbsp;0.01&ndash;0.04) in all 22 languages;
-          it survives the orthographic control wherever that control is meaningful (all but
-          Chinese, whose logographic script defeats an edit-distance measure).</figcaption>
+          Positive and significant (<i>r</i>&nbsp;&asymp;&nbsp;0.004&ndash;0.04) in all 22 languages;
+          on the full concept list it survives the orthographic control in every one of them
+          (Japanese strongest at <i>r</i>&nbsp;&asymp;&nbsp;0.04, Chinese and Korean weakest near
+          0.004 &mdash; both had dropped out under the earlier 600-concept subsample).</figcaption>
       </figure>
 
       <figure>
@@ -244,47 +245,48 @@ footer a{border:0}
       </figure>
 
       <figure>
-        <img src="__FIG_formform_dist__" alt="Strip plot: partial Mantel r for the 47 same-family language pairs (Indo-European counted as one family; scattered from 0 to 0.15, median 0.017) versus the 184 different-family pairs (tightly clustered just above zero, median 0.008), 132 of them significant at q below 0.05.">
+        <img src="__FIG_formform_dist__" alt="Strip plot: partial Mantel r for the 49 same-family language pairs (Indo-European counted as one family; scattered from 0 to 0.15, median 0.018) versus the 182 different-family pairs (tightly clustered just above zero, median 0.010), 180 of them significant at q below 0.05.">
         <figcaption><b>A tiny signal that outlives genealogy.</b> Counting all Indo-European branches
-          as one family, the 47 same-family pairs run higher (median <i>r</i>&nbsp;&asymp;&nbsp;0.017);
-          the 184 genuinely unrelated pairs still sit above zero&nbsp;&mdash; median 0.008, and 132 of
+          as one family, the 49 same-family pairs run higher (median <i>r</i>&nbsp;&asymp;&nbsp;0.018);
+          the 182 genuinely unrelated pairs still sit above zero&nbsp;&mdash; median 0.010, and 180 of
           them significant at <i>q</i>&nbsp;&lt;&nbsp;0.05. Unrelated languages encode meaning in sound
           just slightly alike.</figcaption>
       </figure>
 
       <figure>
-        <img src="__FIG_strata__" alt="Horizontal bars: median partial Mantel r by concept stratum. Leipzig-Jakarta 0.078, Swadesh 0.050, adjectives 0.048, all/no-loanword/nouns near 0.020, verbs 0.009.">
+        <img src="__FIG_strata__" alt="Horizontal bars: median partial Mantel r by concept stratum. Leipzig-Jakarta 0.062, Swadesh 0.046, adjectives 0.046, all/no-loanword/nouns near 0.019, verbs 0.007.">
         <figcaption><b>The effect concentrates in basic vocabulary.</b> On the Leipzig&ndash;Jakarta
-          list — the 100 most borrowing-resistant meanings — it is four times the full-list value and
-          significant in all 20 languages. Adjectives (the <i>bouba/kiki</i> category) carry it;
-          verbs barely do.</figcaption>
+          list — the 100 most borrowing-resistant meanings — it is ~3.5&times; the full-list value and
+          significant in all 20 languages. Adjectives (the <i>bouba/kiki</i> category) carry it too;
+          verbs barely do (significant in only 11 of 20 languages).</figcaption>
       </figure>
 
       <div class="finding">
         <span class="tag">loanwords</span>
         <p>Internationalisms (<em>chocolate, tsunami, saxophone</em>) <strong>dilute</strong> the
           signal rather than inflate it — they sound alike everywhere but mean unrelated things.
-          Excluding 205 of them nudges the median correlation <em>up</em>.</p>
+          Excluding 209 of them nudges the median correlation <em>up</em>.</p>
       </div>
       <div class="finding">
         <span class="tag">verbs</span>
-        <p>Verbs are near zero overall, and the sign flips with morphology: significantly
-          <em>negative</em> for the agglutinative languages (Japanese &minus;0.043, Korean, Turkish,
-          Russian). Regular conjugation endings make similar-sounding verbs share inflection, not
-          meaning.</p>
+        <p>Verbs are near zero overall (median partial <em>r</em>&nbsp;&asymp;&nbsp;0.007) and
+          significant in only 11 of 20 languages. Shared infinitival and conjugation morphology
+          (<em>-ar/-er/-ir</em>, <em>-mek</em>, <em>-&omega;</em>) makes similar-sounding verbs share
+          inflection rather than meaning, and it washes the signal out unevenly — the isolating
+          languages keep a little, the heavily inflected ones lose it.</p>
       </div>
       <div class="finding">
         <span class="tag">cross-family</span>
         <p>Between genuinely unrelated languages the <code>form&#8202;~&#8202;form</code> correlation
-          is real but minuscule (median partial <em>r</em>&nbsp;&asymp;&nbsp;0.008), significant for
-          ~70&nbsp;% of the 184 cross-family pairs. Too weak for a universality claim; not nothing.</p>
+          is real but minuscule (median partial <em>r</em>&nbsp;&asymp;&nbsp;0.010), yet significant
+          in 180 of the 182 cross-family pairs. Tiny, but not sporadic.</p>
       </div>
       <figure>
-        <img src="__FIG_pooled__" alt="Horizontal bars: 33 phoneme-by-pole associations that clear a false-discovery threshold and appear in at least four language families with consistent sign. Largest is the affricate t-esh with the wind/seepage pole at mean z 2.8; k is under-represented in sky/fullness at mean z -0.8.">
+        <img src="__FIG_pooled__" alt="Horizontal bars: 43 phoneme-by-pole associations that clear a false-discovery threshold and appear in at least four language families with consistent sign.">
         <figcaption><b>The phoneme&ndash;pole layer holds up only when pooled across languages.</b>
           Tested per language, nothing clears a false-discovery threshold. Averaged over the 22
           languages&nbsp;&mdash; with a guard requiring the bias in &ge;4 families at consistent
-          sign&nbsp;&mdash; <b>33 of 627</b> phoneme&times;pole cells survive (79 clear the threshold
+          sign&nbsp;&mdash; <b>43 of 635</b> phoneme&times;pole cells survive (77 clear the threshold
           before the family guard). Small effects, but cross-linguistically real.</figcaption>
       </figure>
     </section>
