@@ -133,8 +133,10 @@ def run(cfg: Config, n_jobs: int = 1) -> dict:
                 order = np.argsort(-sp)[:3]
                 entry["pole"] = [{"name": names[k], "gloss": glosses[k],
                                   "score": round(float(sp[k]), 3)} for k in order]
-                pk = int(np.argmax(spp))
-                entry["parallel_pole"] = {"name": pair_names[pk], "score": round(float(spp[pk]), 3)}
+                porder = np.argsort(-spp)[:3]
+                entry["parallel_poles"] = [{"name": pair_names[k], "score": round(float(spp[k]), 3)}
+                                           for k in porder]
+                entry["parallel_pole"] = entry["parallel_poles"][0]   # back-compat
                 nbr = mat @ m
                 entry["neighbors"] = [labels[k].rstrip("_")
                                       for k in np.argsort(-nbr)[:12] if labels[k].rstrip("_")]
@@ -192,7 +194,7 @@ def _csv(path, cells: list[dict]) -> None:
     with path.open("w", encoding="utf-8", newline="") as fh:
         w = csv.writer(fh)
         w.writerow(["syllable", "onset", "rhyme", "n", "pole_1", "pole_2", "pole_3",
-                    "parallel_pole", "neighbors", "example_words"])
+                    "parallel_1", "parallel_2", "parallel_3", "neighbors", "example_words"])
         for c in cells:
             pole = c.get("pole", [])
             w.writerow([
@@ -200,7 +202,8 @@ def _csv(path, cells: list[dict]) -> None:
                 pole[0]["name"] if len(pole) > 0 else "",
                 pole[1]["name"] if len(pole) > 1 else "",
                 pole[2]["name"] if len(pole) > 2 else "",
-                c.get("parallel_pole", {}).get("name", ""),
+                *[(c.get("parallel_poles", [{}, {}, {}]) + [{}, {}, {}])[i].get("name", "")
+                  for i in range(3)],
                 " ".join(c.get("neighbors", [])[:8]),
                 " ".join(f"{x['hanzi']}({x['english']})" for x in c["words"][:12]),
             ])

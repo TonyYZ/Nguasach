@@ -161,6 +161,8 @@ td.dim .cell{opacity:.22}
 .wd .en{color:var(--muted); font-size:12px; text-align:right}
 .parallel{font-family:"Spectral",serif; font-size:13px; color:var(--ink)}
 .parallel .op{color:var(--seal); margin:0 5px}
+.parallel-row{display:flex; align-items:baseline; margin:3px 0}
+.parallel-row .v{color:var(--faint); font-size:11px; font-family:var(--mono)}
 .copy{margin:14px 22px 24px; padding:9px 12px; border:1px solid var(--line-strong); border-radius:8px; background:var(--paper); font-size:12px; display:flex; align-items:center; gap:8px; justify-content:center}
 .copy:hover{border-color:var(--seal); color:var(--seal)}
 .copy.done{color:var(--pos); border-color:var(--pos)}
@@ -279,7 +281,12 @@ function renderDrawer(c){
         <div class="bar"><i style="width:${Math.min(100,w)}%"></i></div></span>
       <span class="v">${p.score.toFixed(2)}</span></button>`;
   }).join('');
-  const par=c.parallel_pole ? c.parallel_pole.name.split(' + ').map(n=>`<span class="cjk">${base(n)}<span style="color:var(--faint)">·${sd(n)}</span></span>`).join('<span class="op">∥</span>') : '—';
+  const pairList = c.parallel_poles || (c.parallel_pole ? [c.parallel_pole] : []);
+  const par = pairList.length ? pairList.map(pp =>
+      `<div class="parallel-row">` +
+      pp.name.split(' + ').map(n=>`<span class="cjk">${base(n)}<span style="color:var(--faint)">·${sd(n)}</span></span>`).join('<span class="op">∥</span>') +
+      `<span class="v" style="margin-left:8px">${pp.score.toFixed(2)}</span></div>`
+    ).join('') : '—';
   const nbrs=(c.neighbors||[]).slice(0,12).map((n,i)=>`${i?', ':''}<b>${n}</b>`).join('');
   const words=(c.words||[]).map(w=>`<div class="wd"><span class="hz">${w.hanzi}</span>
       <span class="en">${w.english}</span><span class="py">${w.pinyin}</span></div>`).join('');
@@ -312,7 +319,8 @@ function copyCell(c){
   const L=[`${c.syllable}  (${c.onset==='∅'?'∅':c.onset} + ${c.rhyme})  ·  ${c.n} words`];
   if(c.pole) L.push(`pole: ${base(c.pole[0].name)} ${sd(c.pole[0].name)} — ${c.pole[0].gloss}`
     +`  |  next: ${c.pole.slice(1).map(p=>base(p.name)+' '+sd(p.name)).join(', ')}`);
-  if(c.parallel_pole) L.push(`parallel ∥: ${c.parallel_pole.name}`);
+  const pl=c.parallel_poles||(c.parallel_pole?[c.parallel_pole]:[]);
+  if(pl.length) L.push(`parallel ∥: ${pl.map(p=>`${p.name} (${p.score.toFixed(2)})`).join(' ; ')}`);
   if(c.neighbors?.length) L.push(`neighbours: ${c.neighbors.slice(0,12).join(', ')}`);
   L.push('', ...c.words.map(w=>`  ${w.hanzi}\t${w.pinyin}\t${w.english}`));
   navigator.clipboard.writeText(L.join('\n')).then(()=>{
