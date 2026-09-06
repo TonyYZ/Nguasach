@@ -63,11 +63,11 @@ section.panel > p.lead{color:var(--muted); max-width:70ch; margin:0 0 18px}
 .card .l{color:var(--muted); font-size:11.5px; text-transform:uppercase; letter-spacing:.06em; margin-top:2px}
 
 .tbl-wrap{overflow-x:auto; border:1px solid var(--line); border-radius:10px; background:var(--surface); margin-bottom:22px}
-table{border-collapse:collapse; width:100%; font-size:13px}
+table{border-collapse:separate; border-spacing:0; width:100%; font-size:13px}
 th,td{padding:7px 12px; text-align:right; white-space:nowrap; border-bottom:1px solid var(--line)}
 th:first-child,td:first-child{text-align:left}
 thead th{
-  position:sticky; top:44px; background:var(--sunk); color:var(--muted);
+  position:sticky; top:0; z-index:2; background:var(--sunk); color:var(--muted);
   font-weight:600; font-size:11px; text-transform:uppercase; letter-spacing:.05em;
   cursor:pointer; user-select:none; border-bottom:1px solid var(--line-2);
 }

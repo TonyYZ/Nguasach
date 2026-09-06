@@ -1,0 +1,442 @@
+<title>Nguasach Results</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600;700&family=Spectral:wght@600&display=swap">
+
+<style>
+:root{
+  --bg:#f4f3f0; --surface:#ffffff; --sunk:#eceae4; --line:#dcdad2; --line-2:#c6c3b8;
+  --ink:#191a1d; --muted:#65656e; --faint:#94949d;
+  --accent:#7c4a86;          /* muted plum — not one of the AI-default hues */
+  --accent-soft:#7c4a8618;
+  --pos:#3f7d54; --pos-soft:#3f7d5416; --neg:#b0472b; --neg-soft:#b0472b14;
+  --warn:#9a7016;
+  --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#15151a; --surface:#1d1d23; --sunk:#111116; --line:#2d2d36; --line-2:#3d3d48;
+  --ink:#e8e8ec; --muted:#9c9ca6; --faint:#6b6b75;
+  --accent:#c79ad0; --accent-soft:#c79ad022;
+  --pos:#7fbf94; --pos-soft:#7fbf9420; --neg:#e0876a; --neg-soft:#e0876a20; --warn:#d6ab52;
+}}
+:root[data-theme="dark"]{
+  --bg:#15151a; --surface:#1d1d23; --sunk:#111116; --line:#2d2d36; --line-2:#3d3d48;
+  --ink:#e8e8ec; --muted:#9c9ca6; --faint:#6b6b75;
+  --accent:#c79ad0; --accent-soft:#c79ad022;
+  --pos:#7fbf94; --pos-soft:#7fbf9420; --neg:#e0876a; --neg-soft:#e0876a20; --warn:#d6ab52;
+}
+
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0; background:var(--bg); color:var(--ink);
+  font-family:"IBM Plex Sans",system-ui,sans-serif; font-size:14px; line-height:1.55;
+  -webkit-font-smoothing:antialiased;
+}
+h1,h2,h3{margin:0}
+a{color:var(--accent)}
+.wrap{max-width:1180px; margin:0 auto; padding:0 24px}
+
+header{border-bottom:1px solid var(--line); background:var(--surface); padding:26px 0 20px}
+header h1{font-family:"Spectral",Georgia,serif; font-size:25px; letter-spacing:-.01em}
+header .meta{color:var(--muted); font-size:12.5px; margin-top:6px}
+header .meta code{font-family:var(--mono); color:var(--ink); background:var(--sunk); padding:1px 5px; border-radius:4px}
+
+nav{position:sticky; top:0; z-index:10; background:var(--surface); border-bottom:1px solid var(--line);
+  display:flex; gap:2px; padding:0; overflow-x:auto}
+nav button{
+  font:inherit; color:var(--muted); background:none; border:0; cursor:pointer;
+  padding:12px 14px; white-space:nowrap; border-bottom:2px solid transparent;
+}
+nav button:hover{color:var(--ink)}
+nav button.on{color:var(--accent); border-bottom-color:var(--accent)}
+
+main{padding:28px 0 80px}
+section.panel{display:none}
+section.panel.on{display:block}
+section.panel > h2{font-family:"Spectral",serif; font-size:19px; margin-bottom:4px}
+section.panel > p.lead{color:var(--muted); max-width:70ch; margin:0 0 18px}
+
+.cards{display:flex; flex-wrap:wrap; gap:12px; margin:16px 0 22px}
+.card{background:var(--surface); border:1px solid var(--line); border-radius:10px; padding:13px 16px; min-width:150px}
+.card .k{font-family:var(--mono); font-size:20px; font-variant-numeric:tabular-nums}
+.card .l{color:var(--muted); font-size:11.5px; text-transform:uppercase; letter-spacing:.06em; margin-top:2px}
+
+.tbl-wrap{overflow-x:auto; border:1px solid var(--line); border-radius:10px; background:var(--surface); margin-bottom:22px}
+table{border-collapse:separate; border-spacing:0; width:100%; font-size:13px}
+th,td{padding:7px 12px; text-align:right; white-space:nowrap; border-bottom:1px solid var(--line)}
+th:first-child,td:first-child{text-align:left}
+thead th{
+  position:sticky; top:0; z-index:2; background:var(--sunk); color:var(--muted);
+  font-weight:600; font-size:11px; text-transform:uppercase; letter-spacing:.05em;
+  cursor:pointer; user-select:none; border-bottom:1px solid var(--line-2);
+}
+thead th:hover{color:var(--ink)}
+thead th.sortasc::after{content:" ▲"; color:var(--accent)}
+thead th.sortdesc::after{content:" ▼"; color:var(--accent)}
+tbody tr:hover{background:var(--accent-soft)}
+tbody td{font-variant-numeric:tabular-nums}
+td.num{font-family:var(--mono)}
+.tag{font-family:var(--mono); font-size:11px; padding:1px 6px; border-radius:4px; background:var(--sunk); color:var(--muted)}
+.tag.pos{background:var(--pos-soft); color:var(--pos)}
+.tag.neg{background:var(--neg-soft); color:var(--neg)}
+.tag.warn{background:var(--accent-soft); color:var(--accent)}
+.pos{color:var(--pos)} .neg{color:var(--neg)}
+.sig{font-weight:700; color:var(--accent)}
+.mut{color:var(--faint)}
+
+.note{background:var(--sunk); border-left:3px solid var(--accent); border-radius:0 8px 8px 0;
+  padding:10px 14px; font-size:12.5px; color:var(--muted); margin:0 0 20px; max-width:78ch}
+.note b{color:var(--ink)}
+h3.sub{font-size:12px; text-transform:uppercase; letter-spacing:.06em; color:var(--muted); margin:22px 0 8px}
+
+figure{margin:0 0 26px}
+figure img{width:100%; max-width:820px; display:block; border:1px solid var(--line); border-radius:8px; background:#fff}
+figcaption{font-size:12.5px; color:var(--muted); margin-top:8px; max-width:78ch}
+
+.filterbar{display:flex; gap:10px; flex-wrap:wrap; align-items:center; margin-bottom:12px}
+.filterbar input,.filterbar select{
+  font:inherit; padding:6px 10px; border:1px solid var(--line-2); border-radius:7px;
+  background:var(--surface); color:inherit; outline:0;
+}
+.filterbar input:focus,.filterbar select:focus{border-color:var(--accent)}
+.filterbar .count{color:var(--muted); font-size:12px; margin-left:auto}
+</style>
+
+<header><div class="wrap">
+  <h1>Nguasach — full results</h1>
+  <div class="meta" id="meta"></div>
+</div></header>
+
+<nav id="nav" class="wrap" style="max-width:1180px"></nav>
+
+<main><div class="wrap" id="panels"></div></main>
+
+<script type="application/json" id="data">/*__RESULTS_DATA__*/</script>
+<script>
+const D = JSON.parse(document.getElementById('data').textContent);
+
+/* ---------- helpers ---------- */
+const el = (t, a = {}, ...kids) => {
+  const n = document.createElement(t);
+  for (const [k, v] of Object.entries(a)) {
+    if (k === 'class') n.className = v; else if (k === 'html') n.innerHTML = v; else n.setAttribute(k, v);
+  }
+  for (const kid of kids) n.append(kid?.nodeType ? kid : document.createTextNode(kid ?? ''));
+  return n;
+};
+const fmt = (v, d = 3) => (v === null || v === undefined || Number.isNaN(v)) ? '·'
+  : (typeof v === 'number' ? v.toFixed(d) : String(v));
+const q = (v) => v == null ? '·' : (v < 0.05 ? `<span class="sig">${v.toFixed(4)}</span>` : v.toFixed(4));
+
+function sortableTable(rows, cols) {
+  // cols: [{key, label, d?(decimals), cls?, html?(fn)}]
+  const wrap = el('div', { class: 'tbl-wrap' });
+  const t = el('table');
+  const thead = el('thead'); const tr = el('tr');
+  cols.forEach((c, ci) => {
+    const th = el('th', {}, c.label);
+    th.onclick = () => {
+      const asc = !(th.classList.contains('sortasc'));
+      thead.querySelectorAll('th').forEach(x => x.classList.remove('sortasc', 'sortdesc'));
+      th.classList.add(asc ? 'sortasc' : 'sortdesc');
+      rows.sort((a, b) => {
+        const x = a[c.key], y = b[c.key];
+        if (typeof x === 'number' && typeof y === 'number') return asc ? x - y : y - x;
+        return asc ? String(x).localeCompare(String(y)) : String(y).localeCompare(String(x));
+      });
+      draw();
+    };
+    tr.append(th);
+  });
+  thead.append(tr); t.append(thead);
+  const tb = el('tbody'); t.append(tb); wrap.append(t);
+  function draw() {
+    tb.innerHTML = '';
+    for (const r of rows) {
+      const rtr = el('tr');
+      for (const c of cols) {
+        const raw = r[c.key];
+        const td = el('td', { class: c.cls || (typeof raw === 'number' ? 'num' : '') });
+        if (c.html) td.innerHTML = c.html(r); else td.textContent = fmt(raw, c.d ?? 3);
+        rtr.append(td);
+      }
+      tb.append(rtr);
+    }
+  }
+  draw();
+  return wrap;
+}
+
+function cards(items) {
+  const c = el('div', { class: 'cards' });
+  for (const [k, l] of items) c.append(el('div', { class: 'card' }, el('div', { class: 'k' }, k), el('div', { class: 'l' }, l)));
+  return c;
+}
+
+/* ---------- panels ---------- */
+const PANELS = [];
+function panel(id, title, buildFn) { PANELS.push({ id, title, buildFn }); }
+
+panel('overview', 'Overview', () => {
+  const s = el('div');
+  s.append(el('h2', {}, 'Overview'));
+  s.append(el('p', { class: 'lead' }, D.blurb));
+  const a = D.confirmatory.retrieval, e = D.exploratory.retrieval;
+  const m = D.exploratory.mantel, mp = D.exploratory.pooled;
+  s.append(cards([
+    [a ? a.pairs.length : '·', 'confirmatory retrieval pairs'],
+    [e ? e.pairs.length : '·', 'exploratory retrieval pairs'],
+    [m ? m.form_meaning.length : '·', 'Mantel form~meaning langs'],
+    [m ? m.form_form.length : '·', 'Mantel form~form pairs'],
+    [mp ? mp.n_fdr_only : '·', 'pooled cells clearing FDR'],
+    [mp ? mp.n_significant : '·', 'pooled cells family-robust'],
+  ]));
+  s.append(el('div', { class: 'note', html:
+    '<b>Two configs.</b> <b>paper_confirmatory</b> = {English, Chinese, French, Irish}, full pairwise retrieval + control baselines. ' +
+    '<b>paper_exploratory</b> = 22 languages, English-anchored retrieval, all-pairs Mantel. ' +
+    'Each result file carries its config fingerprint; see the values above.' }));
+  return s;
+});
+
+function retrievalPanel(id, title, key, lead) {
+  panel(id, title, () => {
+    const d = D[key].retrieval;
+    const s = el('div');
+    s.append(el('h2', {}, title));
+    s.append(el('p', { class: 'lead' }, lead));
+    if (!d) { s.append(el('p', { class: 'mut' }, 'no accuracy_by_pair.json')); return s; }
+    const rows = d.pairs.map(r => ({
+      source: r.source, target: r.target, family: r.family,
+      acc: r.acc_mean, null: r.null_mean, gap: r.acc_mean - r.null_mean,
+      ci: `${fmt(r.boot_ci95[0])}–${fmt(r.boot_ci95[1])}`,
+      p_perm: r.p_perm, q_fdr: r.q_fdr ?? null,
+    }));
+    const cols = [
+      { key: 'source', label: 'source' }, { key: 'target', label: 'target' },
+      { key: 'family', label: 'family', html: r => `<span class="tag ${r.family === 'confirmatory' ? 'warn' : ''}">${r.family}</span>` },
+      { key: 'acc', label: 'acc' }, { key: 'null', label: 'null' },
+      { key: 'gap', label: 'acc − null', html: r => `<span class="${r.gap > 0 ? 'pos' : 'neg'}">${fmt(r.gap)}</span>` },
+      { key: 'ci', label: 'boot 95% CI', cls: 'num' },
+      { key: 'p_perm', label: 'p perm', d: 4 },
+      { key: 'q_fdr', label: 'q FDR', html: r => q(r.q_fdr) },
+    ];
+    s.append(el('div', { class: 'note', html:
+      'Ridge map source→target phonetic space, top-<b>' + d.k + '</b> retrieval, ' + d.folds +
+      '-fold CV, ' + d.null_iters + '-permutation null. <b>target = Semantics</b> is the sound→meaning test; ' +
+      'language→language pairs are cognate-dominated.' }));
+    s.append(withFilter(rows, cols, ['source', 'target', 'family']));
+    return s;
+  });
+}
+retrievalPanel('ret_conf', 'Retrieval · confirmatory', 'confirmatory',
+  '{English, Chinese, French, Irish}, every ordered pair incl. → Semantics.');
+retrievalPanel('ret_expl', 'Retrieval · exploratory', 'exploratory',
+  '22 languages, English-anchored (align_scope: english): English→each, each→English, each→Semantics.');
+
+panel('mantel_fm', 'Mantel · form ~ meaning', () => {
+  const d = D.exploratory.mantel;
+  const s = el('div');
+  s.append(el('h2', {}, 'Mantel — form ~ meaning (within language)'));
+  s.append(el('p', { class: 'lead' }, 'Pairwise form-distance vs meaning-distance over ' +
+    (d?.n_subsample ?? '?') + ' concepts. r_partial residualises both matrices on the orthographic edit-distance matrix.'));
+  if (!d) { s.append(el('p', { class: 'mut' }, 'no mantel.json')); return s; }
+  const rows = d.form_meaning.map(r => ({
+    language: r.unit, n: r.n, r: r.r, p_perm: r.p_perm,
+    r_partial: r.r_partial_orth, p_partial: r.p_partial, q_partial: r.q_partial ?? null,
+    orth: r.orth_control_degenerate ? 'degenerate' : 'ok',
+  }));
+  const cols = [
+    { key: 'language', label: 'language' }, { key: 'n', label: 'n', d: 0 },
+    { key: 'r', label: 'r', d: 4 }, { key: 'p_perm', label: 'p', d: 4 },
+    { key: 'r_partial', label: 'r | orth', d: 4 },
+    { key: 'p_partial', label: 'p partial', d: 4 },
+    { key: 'q_partial', label: 'q FDR', html: r => q(r.q_partial) },
+    { key: 'orth', label: 'orth ctrl', html: r => `<span class="tag ${r.orth === 'ok' ? '' : 'neg'}">${r.orth}</span>` },
+  ];
+  s.append(withFilter(rows, cols, ['language']));
+  return s;
+});
+
+panel('mantel_ff', 'Mantel · form ~ form', () => {
+  const d = D.exploratory.mantel;
+  const s = el('div');
+  s.append(el('h2', {}, 'Mantel — form ~ form (cross-language)'));
+  if (!d || !d.form_form.length) { s.append(el('p', { class: 'mut' }, 'no form~form rows')); return s; }
+  const ff = d.form_form;
+  const diff = ff.filter(r => !r.same_family);
+  s.append(cards([
+    [ff.length, 'language pairs'],
+    [fmt(median(ff.map(r => r.r_partial_orth)), 4), 'median r | orth'],
+    [ff.filter(r => (r.q_partial ?? 1) < 0.05).length + '/' + ff.length, 'sig. at q<.05'],
+    [fmt(median(diff.map(r => r.r_partial_orth)), 4), 'median (different branch)'],
+  ]));
+  s.append(el('div', { class: 'note', html:
+    'Branch-level <b>same_family</b> here (IE-Germanic ≠ IE-Romance …). The figure tab uses the ' +
+    'macro grain (all Indo-European = one family).' }));
+  const rows = ff.map(r => ({
+    pair: r.unit, families: r.families, same: r.same_family ? 'same' : 'diff',
+    r: r.r, r_partial: r.r_partial_orth, p_partial: r.p_partial, q_partial: r.q_partial ?? null,
+    orth: r.orth_control_degenerate ? 'degen' : 'ok',
+  }));
+  const cols = [
+    { key: 'pair', label: 'pair' }, { key: 'families', label: 'families' },
+    { key: 'same', label: 'rel', html: r => `<span class="tag ${r.same === 'same' ? 'warn' : ''}">${r.same}</span>` },
+    { key: 'r', label: 'r', d: 4 }, { key: 'r_partial', label: 'r | orth', d: 4 },
+    { key: 'p_partial', label: 'p partial', d: 4 },
+    { key: 'q_partial', label: 'q FDR', html: r => q(r.q_partial) },
+    { key: 'orth', label: 'orth', html: r => `<span class="tag ${r.orth === 'ok' ? '' : 'neg'}">${r.orth}</span>` },
+  ];
+  s.append(withFilter(rows, cols, ['pair', 'families', 'same']));
+  return s;
+});
+
+panel('baselines', 'Baselines', () => {
+  const d = D.confirmatory.baselines;
+  const s = el('div');
+  s.append(el('h2', {}, 'Control baselines (confirmatory)'));
+  s.append(el('p', { class: 'lead' }, 'Same retrieval machinery, no learned map. editdist = spelling Levenshtein (cognate control); orth = char n-gram cosine; feat = mean panphon feature cosine.'));
+  if (!d) { s.append(el('p', { class: 'mut' }, 'no baselines.json')); return s; }
+  const src = d.rows || d.pairs || [];
+  const rows = src.map(r => ({
+    source: r.source, target: r.target, baseline: r.baseline,
+    acc: r.acc_mean, null: r.null_mean, p_perm: r.p_perm, q_fdr: r.q_fdr ?? null,
+  }));
+  const cols = [
+    { key: 'source', label: 'source' }, { key: 'target', label: 'target' },
+    { key: 'baseline', label: 'baseline', html: r => `<span class="tag">${r.baseline}</span>` },
+    { key: 'acc', label: 'acc' }, { key: 'null', label: 'null' },
+    { key: 'p_perm', label: 'p', d: 4 }, { key: 'q_fdr', label: 'q FDR', html: r => q(r.q_fdr) },
+  ];
+  s.append(withFilter(rows, cols, ['source', 'target', 'baseline']));
+  return s;
+});
+
+panel('assoc', 'Association · per language', () => {
+  const d = D.exploratory.association;
+  const s = el('div');
+  s.append(el('h2', {}, 'Phoneme × pole association — per language'));
+  s.append(el('p', { class: 'lead' }, 'Each concept → nearest of 18 trigram poles; each phoneme rate z-scored across poles; permutation p, BH-FDR across all cells per language. Nothing clears FDR at this grain.'));
+  if (!d) { s.append(el('p', { class: 'mut' }, 'no association_z.json')); return s; }
+  const rows = d.cells.map(r => ({
+    language: r.language, pole: r.pole, phoneme: r.phoneme, z: r.z, count: r.count,
+    p_perm: r.p_perm, q_fdr: r.q_fdr, significant: r.significant ? 'yes' : '',
+  }));
+  const cols = [
+    { key: 'language', label: 'language' }, { key: 'pole', label: 'pole' },
+    { key: 'phoneme', label: 'phon' },
+    { key: 'z', label: 'z', d: 3, html: r => `<span class="${r.z > 0 ? 'pos' : 'neg'}">${fmt(r.z)}</span>` },
+    { key: 'count', label: 'count', d: 0 },
+    { key: 'p_perm', label: 'p', d: 4 }, { key: 'q_fdr', label: 'q', html: r => q(r.q_fdr) },
+    { key: 'significant', label: 'sig' },
+  ];
+  s.append(withFilter(rows, cols, ['language', 'pole', 'phoneme']));
+  return s;
+});
+
+panel('assoc_pool', 'Association · pooled', () => {
+  const p = D.exploratory.pooled;
+  const s = el('div');
+  s.append(el('h2', {}, 'Phoneme × pole association — pooled across languages'));
+  if (!p) { s.append(el('p', { class: 'mut' }, 'no pooled block; re-run associate')); return s; }
+  s.append(cards([
+    [p.n_cells_tested, 'cells tested'],
+    [p.n_fdr_only, 'clear BH-FDR < .10'],
+    [p.n_significant, 'also ≥4 families, ≥75% concordant'],
+    [p.min_langs, 'min languages / cell'],
+  ]));
+  s.append(el('div', { class: 'note', html:
+    '<b>' + p.note + '</b>' }));
+  const rows = p.cells.map(r => ({
+    pole: r.pole, gloss: r.gloss, phoneme: r.phoneme, mean_z: r.mean_z,
+    n_langs: r.n_langs, n_families: r.n_families, concord: r.family_sign_concord,
+    total: r.total_count, q_fdr: r.q_fdr, significant: r.significant ? 'yes' : '',
+  }));
+  const cols = [
+    { key: 'gloss', label: 'pole' }, { key: 'phoneme', label: 'phon' },
+    { key: 'mean_z', label: 'mean z', d: 3, html: r => `<span class="${r.mean_z > 0 ? 'pos' : 'neg'}">${fmt(r.mean_z)}</span>` },
+    { key: 'n_langs', label: '# lang', d: 0 }, { key: 'n_families', label: '# fam', d: 0 },
+    { key: 'concord', label: 'sign concord', d: 2 },
+    { key: 'total', label: 'tokens', d: 0 },
+    { key: 'q_fdr', label: 'q FDR', html: r => q(r.q_fdr) },
+    { key: 'significant', label: 'robust', html: r => r.significant ? '<span class="sig">yes</span>' : '' },
+  ];
+  s.append(withFilter(rows, cols, ['gloss', 'phoneme']));
+  return s;
+});
+
+panel('strata', 'Concept strata', () => {
+  const s = el('div');
+  s.append(el('h2', {}, 'Systematicity by concept subset'));
+  s.append(el('p', { class: 'lead' }, 'Mantel form~meaning re-run on Swadesh-207, Leipzig-Jakarta-100, and part-of-speech subsets.'));
+  if (!D.strata) { s.append(el('p', { class: 'mut' }, 'no strata.csv')); return s; }
+  const { header, rows } = D.strata;
+  const cols = header.map((h, i) => ({ key: 'c' + i, label: h, d: 4 }));
+  const objs = rows.map(r => Object.fromEntries(r.map((v, i) => ['c' + i, isNaN(+v) || v === '' ? v : +v])));
+  s.append(sortableTable(objs, cols));
+  return s;
+});
+
+panel('figures', 'Figures', () => {
+  const s = el('div');
+  s.append(el('h2', {}, 'Figures'));
+  s.append(el('p', { class: 'lead' }, 'Regenerate: python notebooks/figures.py; python notebooks/build_reports.py.'));
+  for (const f of D.figures) {
+    const fig = el('figure');
+    fig.append(el('img', { src: f.src, alt: f.name }));
+    fig.append(el('figcaption', {}, f.name + (f.caption ? ' — ' + f.caption : '')));
+    s.append(fig);
+  }
+  return s;
+});
+
+/* filter bar wrapping a sortable table */
+function withFilter(rows, cols, textKeys) {
+  const holder = el('div');
+  const bar = el('div', { class: 'filterbar' });
+  const inp = el('input', { type: 'search', placeholder: 'filter…', autocomplete: 'off' });
+  const cnt = el('span', { class: 'count' });
+  bar.append(inp, cnt);
+  holder.append(bar);
+  let tblWrap = sortableTable(rows.slice(), cols);
+  holder.append(tblWrap);
+  const apply = () => {
+    const v = inp.value.trim().toLowerCase();
+    const filt = !v ? rows.slice()
+      : rows.filter(r => textKeys.some(k => String(r[k] ?? '').toLowerCase().includes(v)));
+    const fresh = sortableTable(filt, cols);
+    holder.replaceChild(fresh, tblWrap); tblWrap = fresh;
+    cnt.textContent = `${filt.length} / ${rows.length} rows`;
+  };
+  inp.addEventListener('input', apply);
+  cnt.textContent = `${rows.length} rows`;
+  return holder;
+}
+const median = a => { const b = [...a].sort((x, y) => x - y); const n = b.length; return n ? (n % 2 ? b[(n - 1) / 2] : (b[n / 2 - 1] + b[n / 2]) / 2) : NaN; };
+
+/* ---------- mount ---------- */
+document.getElementById('meta').innerHTML =
+  `confirmatory <code>${D.fingerprints.confirmatory || '·'}</code> · ` +
+  `exploratory <code>${D.fingerprints.exploratory || '·'}</code> · built ${D.built}`;
+
+const nav = document.getElementById('nav'), panels = document.getElementById('panels');
+PANELS.forEach((p, i) => {
+  const b = el('button', {}, p.title); b.dataset.id = p.id;
+  b.onclick = () => show(p.id);
+  nav.append(b);
+  const sec = el('section', { class: 'panel', id: 'p_' + p.id });
+  panels.append(sec);
+});
+function show(id) {
+  PANELS.forEach(p => {
+    const on = p.id === id;
+    nav.querySelector(`button[data-id="${p.id}"]`).classList.toggle('on', on);
+    const sec = document.getElementById('p_' + p.id);
+    sec.classList.toggle('on', on);
+    if (on && !sec.dataset.built) { sec.append(p.buildFn()); sec.dataset.built = '1'; }
+  });
+  history.replaceState(null, '', '#' + id);
+}
+const _start = (location.hash || '').slice(1);
+show(PANELS.some(p => p.id === _start) ? _start : 'overview');
+</script>
