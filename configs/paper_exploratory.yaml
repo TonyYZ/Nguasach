@@ -23,7 +23,7 @@ seed: 20240828
 
 null_iters: 200
 bootstrap_iters: 1000
-mantel_cap: 600
+mantel_cap: 2000
 
 qc_mode: exclude_flagged
 baselines: []

@@ -18,6 +18,7 @@ seed: 20240828
 
 null_iters: 300
 bootstrap_iters: 2000
+mantel_cap: 2000
 
 qc_mode: "off"      # all four columns are user-verified
 exclude_loanwords: true
