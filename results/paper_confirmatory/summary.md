@@ -1,4 +1,4 @@
-# Results — config `paper_confirmatory` (`d4fdffa3635611fa`)
+# Results — config `paper_confirmatory` (`4f80d42508a72fb3`)
 
 map=ridge, k=100, folds=10, null_iters=300, bootstrap_iters=2000
 
@@ -7,18 +7,18 @@ map=ridge, k=100, folds=10, null_iters=300, bootstrap_iters=2000
 
 | pair | acc@k [95% CI] | acc clean | null | p_perm | q_FDR | mean rank | collisions |
 |---|---|---|---|---|---|---|---|
-| English → French | 0.423 [0.404, 0.443] | 0.415 | 0.051 | 0.0033 | 0.0033 * | 453 | 176 |
-| French → English | 0.419 [0.401, 0.439] | 0.408 | 0.052 | 0.0033 | 0.0033 * | 447 | 81 |
-| Irish → English | 0.264 [0.247, 0.280] | 0.257 | 0.051 | 0.0033 | 0.0033 * | 606 | 81 |
-| English → Irish | 0.262 [0.248, 0.273] | 0.265 | 0.053 | 0.0033 | 0.0033 * | 607 | 160 |
-| Irish → French | 0.199 [0.190, 0.208] | 0.185 | 0.051 | 0.0033 | 0.0033 * | 650 | 176 |
-| French → Irish | 0.196 [0.185, 0.209] | 0.190 | 0.053 | 0.0033 | 0.0033 * | 647 | 160 |
-| Irish → Chinese | 0.098 [0.086, 0.111] | 0.097 | 0.051 | 0.0033 | 0.0033 * | 797 | 26 |
-| Chinese → Irish | 0.094 [0.083, 0.107] | 0.088 | 0.053 | 0.0033 | 0.0033 * | 802 | 160 |
-| Chinese → French | 0.090 [0.073, 0.105] | 0.088 | 0.052 | 0.0033 | 0.0033 * | 795 | 176 |
-| French → Chinese | 0.088 [0.077, 0.100] | 0.084 | 0.052 | 0.0033 | 0.0033 * | 791 | 26 |
-| Chinese → English | 0.083 [0.074, 0.090] | 0.082 | 0.052 | 0.0033 | 0.0033 * | 823 | 81 |
-| English → Chinese | 0.080 [0.073, 0.086] | 0.079 | 0.053 | 0.0033 | 0.0033 * | 822 | 26 |
+| French → English | 0.418 [0.397, 0.436] | 0.409 | 0.048 | 0.0033 | 0.0033 * | 487 | 79 |
+| English → French | 0.417 [0.394, 0.437] | 0.412 | 0.049 | 0.0033 | 0.0033 * | 493 | 197 |
+| English → Irish | 0.264 [0.253, 0.274] | 0.267 | 0.050 | 0.0033 | 0.0033 * | 627 | 176 |
+| Irish → English | 0.254 [0.240, 0.269] | 0.248 | 0.048 | 0.0033 | 0.0033 * | 629 | 79 |
+| Irish → French | 0.197 [0.184, 0.209] | 0.184 | 0.047 | 0.0033 | 0.0033 * | 693 | 197 |
+| French → Irish | 0.193 [0.183, 0.207] | 0.182 | 0.049 | 0.0033 | 0.0033 * | 689 | 176 |
+| Irish → Chinese | 0.092 [0.082, 0.102] | 0.090 | 0.047 | 0.0033 | 0.0033 * | 843 | 32 |
+| French → Chinese | 0.090 [0.077, 0.104] | 0.086 | 0.048 | 0.0033 | 0.0033 * | 850 | 32 |
+| Chinese → Irish | 0.090 [0.082, 0.098] | 0.086 | 0.050 | 0.0033 | 0.0033 * | 850 | 176 |
+| Chinese → French | 0.086 [0.073, 0.101] | 0.086 | 0.049 | 0.0033 | 0.0033 * | 872 | 197 |
+| Chinese → English | 0.076 [0.064, 0.087] | 0.075 | 0.049 | 0.0033 | 0.0033 * | 864 | 79 |
+| English → Chinese | 0.072 [0.058, 0.084] | 0.070 | 0.049 | 0.0033 | 0.0033 * | 854 | 32 |
 
 12/12 pairs significant at q<0.05.
 
@@ -27,10 +27,10 @@ map=ridge, k=100, folds=10, null_iters=300, bootstrap_iters=2000
 
 | pair | acc@k [95% CI] | acc clean | null | p_perm | q_FDR | mean rank | collisions |
 |---|---|---|---|---|---|---|---|
-| French → Semantics | 0.214 [0.202, 0.225] | 0.194 | 0.054 | 0.0033 | 0.0033 * | 584 | 81 |
-| English → Semantics | 0.212 [0.189, 0.231] | 0.177 | 0.054 | 0.0033 | 0.0033 * | 604 | 81 |
-| Irish → Semantics | 0.208 [0.194, 0.225] | 0.196 | 0.053 | 0.0033 | 0.0033 * | 611 | 81 |
-| Chinese → Semantics | 0.170 [0.156, 0.185] | 0.169 | 0.054 | 0.0033 | 0.0033 * | 663 | 81 |
+| English → Semantics | 0.206 [0.189, 0.221] | 0.175 | 0.050 | 0.0033 | 0.0033 * | 633 | 79 |
+| French → Semantics | 0.198 [0.179, 0.217] | 0.184 | 0.050 | 0.0033 | 0.0033 * | 636 | 79 |
+| Irish → Semantics | 0.193 [0.178, 0.209] | 0.183 | 0.050 | 0.0033 | 0.0033 * | 642 | 79 |
+| Chinese → Semantics | 0.171 [0.155, 0.186] | 0.170 | 0.051 | 0.0033 | 0.0033 * | 695 | 79 |
 
 4/4 pairs significant at q<0.05.
 
@@ -39,40 +39,40 @@ map=ridge, k=100, folds=10, null_iters=300, bootstrap_iters=2000
 
 | pair | phonetic acc | editdist acc | feat acc | orth acc | null |
 |---|---|---|---|---|---|
-| English → French | 0.423 | 0.466 | 0.306 | 0.457 | 0.051 |
-| French → English | 0.419 | 0.464 | 0.320 | 0.444 | 0.052 |
-| Irish → English | 0.264 | 0.310 | 0.230 | 0.288 | 0.051 |
-| English → Irish | 0.262 | 0.311 | 0.229 | 0.296 | 0.053 |
-| French → Semantics | 0.214 | — | — | — | 0.054 |
-| English → Semantics | 0.212 | — | — | — | 0.054 |
-| Irish → Semantics | 0.208 | — | — | — | 0.053 |
-| Irish → French | 0.199 | 0.252 | 0.157 | 0.215 | 0.051 |
-| French → Irish | 0.196 | 0.250 | 0.167 | 0.221 | 0.053 |
-| Chinese → Semantics | 0.170 | — | — | — | 0.054 |
-| Irish → Chinese | 0.098 | 0.000 | 0.055 | 0.000 | 0.051 |
-| Chinese → Irish | 0.094 | 0.000 | 0.061 | 0.000 | 0.053 |
-| Chinese → French | 0.090 | 0.000 | 0.074 | 0.000 | 0.052 |
-| French → Chinese | 0.088 | 0.000 | 0.071 | 0.000 | 0.052 |
-| Chinese → English | 0.083 | 0.000 | 0.070 | 0.000 | 0.052 |
-| English → Chinese | 0.080 | 0.000 | 0.071 | 0.000 | 0.053 |
+| French → English | 0.418 | 0.451 | 0.306 | 0.431 | 0.048 |
+| English → French | 0.417 | 0.452 | 0.292 | 0.447 | 0.049 |
+| English → Irish | 0.264 | 0.298 | 0.218 | 0.284 | 0.050 |
+| Irish → English | 0.254 | 0.297 | 0.220 | 0.275 | 0.048 |
+| English → Semantics | 0.206 | — | — | — | 0.050 |
+| French → Semantics | 0.198 | — | — | — | 0.050 |
+| Irish → French | 0.197 | 0.238 | 0.147 | 0.201 | 0.047 |
+| French → Irish | 0.193 | 0.241 | 0.154 | 0.205 | 0.049 |
+| Irish → Semantics | 0.193 | — | — | — | 0.050 |
+| Chinese → Semantics | 0.171 | — | — | — | 0.051 |
+| Irish → Chinese | 0.092 | 0.000 | 0.053 | 0.000 | 0.047 |
+| French → Chinese | 0.090 | 0.000 | 0.067 | 0.000 | 0.048 |
+| Chinese → Irish | 0.090 | 0.000 | 0.060 | 0.000 | 0.050 |
+| Chinese → French | 0.086 | 0.000 | 0.068 | 0.000 | 0.049 |
+| Chinese → English | 0.076 | 0.000 | 0.068 | 0.000 | 0.049 |
+| English → Chinese | 0.072 | 0.000 | 0.068 | 0.000 | 0.049 |
 
 phonetic − editdist is the retrieval accuracy not explained by raw orthographic string overlap (cognates / borrowing).
 
 
-## Form–meaning correlation (Mantel, n=700 concepts)
+## Form–meaning correlation (Mantel, n=1968 concepts)
 
 | analysis | unit | r | p | r \| orthography | p (partial) | note |
 |---|---|---|---|---|---|---|
-| form~meaning | English | +0.0258* | 0.0033 | +0.0243* | 0.0033 |  |
-| form~meaning | Chinese | +0.0169* | 0.0033 | +0.0043* | 0.0233 |  |
-| form~meaning | French | +0.0212* | 0.0033 | +0.0144* | 0.0033 |  |
-| form~meaning | Irish | +0.0172* | 0.0033 | +0.0148* | 0.0033 |  |
-| form~form | English~Chinese | +0.0036 | 0.0930 | +0.0034 | 0.1030 |  |
-| form~form | English~French | +0.0537* | 0.0033 | +0.0479* | 0.0033 |  |
-| form~form | English~Irish | +0.0336* | 0.0033 | +0.0293* | 0.0033 |  |
-| form~form | Chinese~French | +0.0044* | 0.0266 | +0.0022 | 0.3023 |  |
-| form~form | Chinese~Irish | +0.0064* | 0.0033 | +0.0036 | 0.0963 |  |
-| form~form | French~Irish | +0.0185* | 0.0033 | +0.0152* | 0.0033 |  |
+| form~meaning | English | +0.0215* | 0.0033 | +0.0202* | 0.0033 |  |
+| form~meaning | Chinese | +0.0166* | 0.0033 | +0.0039* | 0.0033 | orth control degenerate |
+| form~meaning | French | +0.0209* | 0.0033 | +0.0151* | 0.0033 |  |
+| form~meaning | Irish | +0.0202* | 0.0033 | +0.0182* | 0.0033 |  |
+| form~form | English~Chinese | +0.0039* | 0.0033 | +0.0033* | 0.0033 | orth control degenerate |
+| form~form | English~French | +0.0585* | 0.0033 | +0.0522* | 0.0033 |  |
+| form~form | English~Irish | +0.0276* | 0.0033 | +0.0243* | 0.0033 |  |
+| form~form | Chinese~French | +0.0046* | 0.0033 | +0.0018* | 0.0133 | orth control degenerate |
+| form~form | Chinese~Irish | +0.0055* | 0.0033 | +0.0023* | 0.0033 | orth control degenerate |
+| form~form | French~Irish | +0.0189* | 0.0033 | +0.0160* | 0.0033 |  |
 
 A within-language *form~meaning* r that stays significant in the *| orthography* column is sound–meaning systematicity not attributable to spelling / cognate overlap.
 

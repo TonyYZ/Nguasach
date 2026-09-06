@@ -1,16 +1,18 @@
 {
   "stage": "mantel",
   "config": "paper_confirmatory_noloan",
-  "config_fingerprint": "657a9e276cc67dcf",
-  "n_subsample": 700,
+  "config_fingerprint": "176e6c7224b94118",
+  "n_subsample": 1759,
+  "subset": null,
+  "exclude_loanwords": true,
   "rows": [
     {
       "analysis": "form~meaning",
       "unit": "English",
-      "n": 697,
-      "r": 0.0271,
+      "n": 1750,
+      "r": 0.0224,
       "p_perm": 0.0033,
-      "r_partial_orth": 0.0274,
+      "r_partial_orth": 0.0215,
       "p_partial": 0.0033,
       "orth_control_degenerate": false,
       "q_partial": 0.0033
@@ -18,10 +20,10 @@
     {
       "analysis": "form~meaning",
       "unit": "Chinese",
-      "n": 697,
-      "r": 0.0184,
+      "n": 1750,
+      "r": 0.0159,
       "p_perm": 0.0033,
-      "r_partial_orth": 0.0069,
+      "r_partial_orth": 0.0037,
       "p_partial": 0.0033,
       "orth_control_degenerate": true,
       "q_partial": 0.0033
@@ -29,10 +31,10 @@
     {
       "analysis": "form~meaning",
       "unit": "French",
-      "n": 697,
-      "r": 0.0204,
+      "n": 1750,
+      "r": 0.0223,
       "p_perm": 0.0033,
-      "r_partial_orth": 0.0147,
+      "r_partial_orth": 0.0163,
       "p_partial": 0.0033,
       "orth_control_degenerate": false,
       "q_partial": 0.0033
@@ -40,10 +42,10 @@
     {
       "analysis": "form~meaning",
       "unit": "Irish",
-      "n": 697,
-      "r": 0.02,
+      "n": 1750,
+      "r": 0.0216,
       "p_perm": 0.0033,
-      "r_partial_orth": 0.0185,
+      "r_partial_orth": 0.0193,
       "p_partial": 0.0033,
       "orth_control_degenerate": false,
       "q_partial": 0.0033
@@ -51,80 +53,80 @@
     {
       "analysis": "form~form",
       "unit": "English~Chinese",
-      "n": 700,
-      "r": 0.0032,
-      "p_perm": 0.0897,
-      "r_partial_orth": 0.0025,
-      "p_partial": 0.1927,
+      "n": 1759,
+      "r": 0.0041,
+      "p_perm": 0.0033,
+      "r_partial_orth": 0.0035,
+      "p_partial": 0.0033,
       "orth_control_degenerate": true,
       "same_family": false,
       "families": "IE-Germanic / Sino-Tibetan",
-      "q_partial": 0.2312
+      "q_partial": 0.004
     },
     {
       "analysis": "form~form",
       "unit": "English~French",
-      "n": 700,
-      "r": 0.052,
+      "n": 1759,
+      "r": 0.0491,
       "p_perm": 0.0033,
-      "r_partial_orth": 0.0456,
+      "r_partial_orth": 0.0438,
       "p_partial": 0.0033,
       "orth_control_degenerate": false,
       "same_family": false,
       "families": "IE-Germanic / IE-Romance",
-      "q_partial": 0.0066
+      "q_partial": 0.004
     },
     {
       "analysis": "form~form",
       "unit": "English~Irish",
-      "n": 700,
-      "r": 0.0242,
+      "n": 1759,
+      "r": 0.0228,
       "p_perm": 0.0033,
-      "r_partial_orth": 0.0218,
+      "r_partial_orth": 0.0201,
       "p_partial": 0.0033,
       "orth_control_degenerate": false,
       "same_family": false,
       "families": "IE-Germanic / IE-Celtic",
-      "q_partial": 0.0066
+      "q_partial": 0.004
     },
     {
       "analysis": "form~form",
       "unit": "Chinese~French",
-      "n": 700,
-      "r": 0.0074,
+      "n": 1759,
+      "r": 0.0047,
       "p_perm": 0.0033,
-      "r_partial_orth": 0.0037,
-      "p_partial": 0.0498,
+      "r_partial_orth": 0.0015,
+      "p_partial": 0.0698,
       "orth_control_degenerate": true,
       "same_family": false,
       "families": "Sino-Tibetan / IE-Romance",
-      "q_partial": 0.0747
+      "q_partial": 0.0698
     },
     {
       "analysis": "form~form",
       "unit": "Chinese~Irish",
-      "n": 700,
-      "r": 0.0052,
-      "p_perm": 0.0166,
-      "r_partial_orth": 0.0025,
-      "p_partial": 0.2392,
+      "n": 1759,
+      "r": 0.0063,
+      "p_perm": 0.0033,
+      "r_partial_orth": 0.0028,
+      "p_partial": 0.0033,
       "orth_control_degenerate": true,
       "same_family": false,
       "families": "Sino-Tibetan / IE-Celtic",
-      "q_partial": 0.2392
+      "q_partial": 0.004
     },
     {
       "analysis": "form~form",
       "unit": "French~Irish",
-      "n": 700,
-      "r": 0.0146,
+      "n": 1759,
+      "r": 0.0161,
       "p_perm": 0.0033,
-      "r_partial_orth": 0.0123,
+      "r_partial_orth": 0.0133,
       "p_partial": 0.0033,
       "orth_control_degenerate": false,
       "same_family": false,
       "families": "IE-Romance / IE-Celtic",
-      "q_partial": 0.0066
+      "q_partial": 0.004
     }
   ]
 }

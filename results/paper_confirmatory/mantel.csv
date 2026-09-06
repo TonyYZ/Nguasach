@@ -1,11 +1,11 @@
-analysis,unit,n,r,p_perm,r_partial_orth,p_partial,orth_control_degenerate
-form~meaning,English,696,0.0258,0.0033,0.0243,0.0033,False
-form~meaning,Chinese,696,0.0169,0.0033,0.0043,0.0233,False
-form~meaning,French,696,0.0212,0.0033,0.0144,0.0033,False
-form~meaning,Irish,696,0.0172,0.0033,0.0148,0.0033,False
-form~form,English~Chinese,700,0.0036,0.093,0.0034,0.103,False
-form~form,English~French,700,0.0537,0.0033,0.0479,0.0033,False
-form~form,English~Irish,700,0.0336,0.0033,0.0293,0.0033,False
-form~form,Chinese~French,700,0.0044,0.0266,0.0022,0.3023,False
-form~form,Chinese~Irish,700,0.0064,0.0033,0.0036,0.0963,False
-form~form,French~Irish,700,0.0185,0.0033,0.0152,0.0033,False
+analysis,unit,n,r,p_perm,r_partial_orth,p_partial,q_partial,same_family,families,orth_control_degenerate
+form~meaning,English,1958,0.0215,0.0033,0.0202,0.0033,0.0033,,,False
+form~meaning,Chinese,1958,0.0166,0.0033,0.0039,0.0033,0.0033,,,True
+form~meaning,French,1958,0.0209,0.0033,0.0151,0.0033,0.0033,,,False
+form~meaning,Irish,1958,0.0202,0.0033,0.0182,0.0033,0.0033,,,False
+form~form,English~Chinese,1968,0.0039,0.0033,0.0033,0.0033,0.004,False,IE-Germanic / Sino-Tibetan,True
+form~form,English~French,1968,0.0585,0.0033,0.0522,0.0033,0.004,False,IE-Germanic / IE-Romance,False
+form~form,English~Irish,1968,0.0276,0.0033,0.0243,0.0033,0.004,False,IE-Germanic / IE-Celtic,False
+form~form,Chinese~French,1968,0.0046,0.0033,0.0018,0.0133,0.0133,False,Sino-Tibetan / IE-Romance,True
+form~form,Chinese~Irish,1968,0.0055,0.0033,0.0023,0.0033,0.004,False,Sino-Tibetan / IE-Celtic,True
+form~form,French~Irish,1968,0.0189,0.0033,0.016,0.0033,0.004,False,IE-Romance / IE-Celtic,False
