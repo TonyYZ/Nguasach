@@ -117,7 +117,7 @@ def fig_mantel_sweep(mant, out: Path):
     ax.set_xlim(0, xmax * 1.28)
     for i, r in zip(y, fm):
         if r.get("orth_control_degenerate"):
-            ax.text(r["r"] + xmax * 0.03, i, "logographic –\north. control n/a",
+            ax.text(r["r"] + xmax * 0.03, i, "logographic –\nedit-dist. control\nis a weak proxy",
                     va="center", fontsize=6.5, style="italic", color=NULLC, linespacing=0.95)
     ax.set_yticks(y)
     ax.set_yticklabels([r["unit"] for r in fm])
