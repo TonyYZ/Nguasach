@@ -169,6 +169,9 @@ data/raw/concept_additions.csv
 # NorthEuraLex CLDF snapshot (fetched by nguasach.lexibank_qc)
 data/raw/northeuralex-cldf/
 
+# IDS CLDF snapshot (fetched for notebooks/build_additions2.py)
+data/raw/ids-cldf/
+
 data/interim/wiktionary_cache*.json
 
 data/interim/nakdan_cache.json

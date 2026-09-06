@@ -28,7 +28,7 @@
 
 ## MAJOR: Finnish column off-by-one shift (pre-existing, in frozen original)
 Range ~concepts 1328-1435 (electronics / instruments / clothing / writing tools —
-the THINGS-database noun expansion). Finnish cell = the word for concept_id+1.
+the concrete/technical-noun region of the list). Finnish cell = the word for concept_id+1.
 Not a clean block; self-corrects around 1339-1346, 1367, 1405-1406, 1425-1432.
 Needs a Finnish re-translation for that range, not overrides.
 German column also has scattered wrong-sense in the same region (ruler->Herrscher).

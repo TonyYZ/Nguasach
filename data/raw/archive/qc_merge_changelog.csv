@@ -6458,3 +6458,28 @@ concept_id,column,old,new,source
 1839,Welsh,hefyd,rhy,welsh-regen
 1842,Welsh,gyfiawn,dim ond,welsh-regen
 1844,Welsh,mewn gwirionedd,wir,welsh-regen
+789,Irish,c nó,cána,irish-qc
+1750,Irish,mantle an domhain,maintlín an domhain,irish-qc
+1327,Irish,peann luain,peann luaidhe,irish-qc
+1780,Irish,taobh thair de,taobh thiar de,irish-qc
+1316,Irish,eyeglasses,spéaclaí,irish-qc
+205,Irish,roll,rolláil,irish-qc
+257,Irish,scan,scanáil,irish-qc
+22,Irish,bí a fhios ag,fios,irish-qc
+35,Irish,bí ag,bheith ag,irish-qc
+316,Irish,bí súil ag,dóchas,irish-qc
+290,Irish,bí dímheas ag ar,dímheas,irish-qc
+253,Irish,bí ag lámhacán,lámhacán,irish-qc
+273,Irish,bí ag comhrá,comhrá,irish-qc
+329,Irish,bí ag fánaíocht,fánaíocht,irish-qc
+487,Irish,bí ocras ar,ocras,irish-qc
+488,Irish,bí tart ar,tart,irish-qc
+403,Irish,bí náire ar,náire,irish-qc
+399,Irish,bí sceitimíní ar,sceitimíní,irish-qc
+402,Irish,bí ionadh ar,ionadh,irish-qc
+266,Irish,tabhairt ar iasacht,tabhair ar iasacht,irish-qc
+291,Irish,tabhairt dúshlán,tabhair dúshlán,irish-qc
+310,Irish,tabhairt aire,tabhair aire,irish-qc
+1481,Irish,na meáin,meáin,irish-qc
+632,Irish,tuismitheoirí chéile,tuismitheoirí céile,irish-qc
+1965,Hindi,tr=kya,नमस्ते,stale-cell-fix
