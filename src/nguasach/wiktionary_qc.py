@@ -55,7 +55,10 @@ _SUBPAGE_MARKER = re.compile(r"\{\{see translation subpage\|[^}]*\}\}")
 
 def _clean_form(s: str) -> str:
     s = _WIKI_MARKUP.sub("", s).strip()
-    return s.split("|")[-1].strip()      # [[lemma|display]] already split by regex; guard
+    s = s.split("|")[-1].strip()         # [[lemma|display]] already split by regex; guard
+    # a malformed {{t}} with the form slot missing puts a named param (tr=, alt=,
+    # sc=, ...) in the capture group -- e.g. hello/Hindi -> "tr=kya". Drop those.
+    return "" if re.match(r"^[a-z]{1,6}=", s) else s
 
 
 def _parse_translations(wikitext: str) -> dict[str, set[str]]:
