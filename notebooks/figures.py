@@ -109,13 +109,16 @@ def fig_mantel_sweep(mant, out: Path):
         return
     fm = sorted(fm, key=lambda r: r["r"])
     y = list(range(len(fm)))
+    xmax = max(r["r"] for r in fm)
     fig, ax = plt.subplots(figsize=(6, 0.28 * len(fm) + 1))
     ax.barh([i + 0.2 for i in y], [r["r"] for r in fm], 0.38, color=ACCENT, label="Mantel r")
     ax.barh([i - 0.2 for i in y], [r["r_partial_orth"] for r in fm], 0.38, color=INK,
             label="partial | orthography")
+    ax.set_xlim(0, xmax * 1.28)
     for i, r in zip(y, fm):
         if r.get("orth_control_degenerate"):
-            ax.text(0.0005, i - 0.2, " (logographic)", va="center", fontsize=7, style="italic")
+            ax.text(r["r"] + xmax * 0.03, i, "logographic –\north. control n/a",
+                    va="center", fontsize=6.5, style="italic", color=NULLC, linespacing=0.95)
     ax.set_yticks(y)
     ax.set_yticklabels([r["unit"] for r in fm])
     ax.axvline(0, color=NULLC, lw=0.8)
