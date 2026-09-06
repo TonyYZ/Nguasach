@@ -1,0 +1,33 @@
+# FROZEN exploratory extension for the manuscript.
+# All 22 languages; translation-QC flags applied. Corrected as a SEPARATE FDR
+# family from the confirmatory pairs. Lighter resampling than the confirmatory
+# config -- 462 ordered retrieval pairs + 231 Mantel form~form pairs.
+name: paper_exploratory_iconic_m05
+
+languages: [Hungarian, Finnish, Greek, Russian, German, Spanish, Italian, French,
+            Irish, Welsh, English, Chinese, Vietnamese, Japanese, Korean, Thai,
+            Indonesian, Turkish, Arabic, Hebrew, Swahili, Hindi]
+verified_core: [English, Chinese, French, Irish]
+concept_set: all
+
+map: ridge
+dim: 300
+align_scope: english
+ridge_alpha: 1.0
+k: 100
+csls_k: 10
+
+folds: 10
+test_folds: 1
+seed: 20240828
+
+null_iters: 200
+pole_margin_quantile: 0.5
+bootstrap_iters: 1000
+mantel_cap: 2000
+
+qc_mode: exclude_flagged
+baselines: []
+
+paths:
+  hex_labels: data/raw/iconic_poles.yaml

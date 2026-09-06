@@ -1,0 +1,60 @@
+# Semantic poles for a sound-symbolism replication (parallel to hexLabels.yaml).
+#
+# Same machinery as association.py: each pole's anchor = mean word2vec vector of
+# its seed words; every concept is assigned to its nearest pole; phoneme rates
+# per pole are z-scored across poles; pooled across languages with the family
+# guard. The difference from hexLabels.yaml is the target: these 12 poles are
+# the six antonym contrasts with the strongest cross-linguistic sound-symbolic
+# evidence, so any phoneme-pole bias found is a *replication* of a known effect
+# rather than a novel discovery.
+#
+# Dimensions & sources:
+#   SMALL/BIG      magnitude symbolism  -- Sapir 1929; Ohala 1994 (frequency code); Blasi et al. 2016
+#   ROUND/SHARP    shape (bouba/kiki)   -- Kohler 1929; Ramachandran & Hubbard 2001; Cwiek et al. 2022
+#   BRIGHT/DARK    brightness           -- frequency code; Hirata et al. 2011
+#   ROUGH/SMOOTH   texture              -- ideophone literature; Winter et al. 2017
+#   FAST/SLOW      motion               -- Dingemanse 2012 implicational hierarchy
+#   LOUD/QUIET     sound                -- Dingemanse 2012 (sound = most iconic domain)
+
+poles:
+  - name: "SMALL"
+    gloss: "small / little"
+    words: [small, little, tiny, minute, slight, narrow, thin, petite]
+  - name: "BIG"
+    gloss: "big / large"
+    words: [big, large, huge, enormous, vast, wide, thick, massive]
+
+  - name: "ROUND"
+    gloss: "round / curved"
+    words: [round, circle, ball, curve, sphere, loop, bulge, blob]
+  - name: "SHARP"
+    gloss: "sharp / angular"
+    words: [sharp, point, spike, edge, prick, jagged, angular, needle]
+
+  - name: "BRIGHT"
+    gloss: "bright / light"
+    words: [bright, shine, glow, gleam, dazzle, radiant, luminous, glare]
+  - name: "DARK"
+    gloss: "dark / dim"
+    words: [dark, dim, shadow, gloom, murky, obscure, dusk, black]
+
+  - name: "ROUGH"
+    gloss: "rough / coarse"
+    words: [rough, coarse, gritty, scratchy, bumpy, uneven, jagged, harsh]
+  - name: "SMOOTH"
+    gloss: "smooth / sleek"
+    words: [smooth, sleek, slick, glossy, polished, even, slippery, silky]
+
+  - name: "FAST"
+    gloss: "fast / quick"
+    words: [fast, quick, rapid, swift, rush, dart, hurry, sudden]
+  - name: "SLOW"
+    gloss: "slow / sluggish"
+    words: [slow, sluggish, crawl, linger, drag, plod, gradual, dawdle]
+
+  - name: "LOUD"
+    gloss: "loud / noisy"
+    words: [loud, blast, bang, boom, roar, clang, noisy, thunderous]
+  - name: "QUIET"
+    gloss: "quiet / faint"
+    words: [quiet, hush, faint, murmur, whisper, silent, muffled, still]

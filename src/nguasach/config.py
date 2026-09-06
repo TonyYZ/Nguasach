@@ -113,6 +113,13 @@ class Config:
     #                                   for the POS / Swadesh / Leipzig-Jakarta strata
     mantel_form_form: bool = True      # also run the O(N^2) cross-language matrix
 
+    # --- phoneme-pole association ---
+    pole_margin_quantile: float = 0.0  # drop concepts whose meaning is farther than
+    #                                   this quantile of nearest-pole similarity from
+    #                                   any pole (0.0 = keep all; 0.5 = keep the
+    #                                   semantically-nearest half). For iconic-pole
+    #                                   runs where most everyday concepts sit near no pole.
+
     # --- translation QC ---
     qc_mode: str = "exclude_flagged"  # "exclude_flagged" | "downweight" | "off"
 

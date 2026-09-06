@@ -55,12 +55,26 @@ def pole_anchors(cfg: Config, poles: list[dict]) -> tuple[list[str], np.ndarray]
 
 
 def assign_poles(cfg: Config, lang: str, anchor_vecs: np.ndarray) -> np.ndarray:
-    """Concept -> pole index, via a full-fit L(phonetic)->Semantics projection."""
+    """Concept -> pole index, via a full-fit L(phonetic)->Semantics projection.
+
+    The pole assignment is on the *projected sound* (that is the thing under
+    test); the optional ``pole_margin_quantile`` filter is on the concept's
+    *actual meaning* -- keep only concepts whose semantic vector is genuinely
+    near some pole, so an iconic-pole run isn't diluted by everyday concepts
+    that belong to no pole."""
     pd = crossval.load_pair_data(cfg, lang, "Semantics")
     model = make_map(cfg.map, cfg.ridge_alpha).fit(pd.xs, pd.xt)
     proj = model.predict(pd.xs)
     proj /= np.linalg.norm(proj, axis=1, keepdims=True).clip(min=1e-12)
-    return np.argmax(proj @ anchor_vecs.T, axis=1), pd.concepts
+    pole_of = np.argmax(proj @ anchor_vecs.T, axis=1)
+    concepts = pd.concepts
+    q = getattr(cfg, "pole_margin_quantile", 0.0)
+    if q > 0.0:
+        sem = pd.xt / np.linalg.norm(pd.xt, axis=1, keepdims=True).clip(min=1e-12)
+        near = (sem @ anchor_vecs.T).max(axis=1)
+        keep = near >= np.quantile(near, q)
+        pole_of, concepts = pole_of[keep], concepts[keep]
+    return pole_of, concepts
 
 
 def phoneme_rows(cfg: Config, lang: str) -> dict[int, list[str]]:
