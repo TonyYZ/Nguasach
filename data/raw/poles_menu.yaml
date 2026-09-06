@@ -1,0 +1,391 @@
+poles:
+- name: SMALL
+  gloss: small
+  words:
+  - small
+  - little
+  - tiny
+  - thin
+  - narrow
+  - slight
+- name: BIG
+  gloss: big
+  words:
+  - big
+  - large
+  - huge
+  - wide
+  - thick
+  - massive
+- name: LONG
+  gloss: long
+  words:
+  - long
+  - lengthy
+  - extended
+  - elongated
+- name: SHORT
+  gloss: short
+  words:
+  - short
+  - brief
+  - stubby
+  - squat
+- name: TALL
+  gloss: tall
+  words:
+  - tall
+  - high
+  - lofty
+  - towering
+- name: DEEP
+  gloss: deep
+  words:
+  - deep
+  - profound
+  - sunken
+  - bottomless
+- name: ROUND
+  gloss: round
+  words:
+  - round
+  - circle
+  - ball
+  - curve
+  - sphere
+  - loop
+- name: FLAT
+  gloss: flat
+  words:
+  - flat
+  - level
+  - even
+  - plane
+  - slab
+- name: POINTED
+  gloss: pointed
+  words:
+  - pointed
+  - sharp
+  - spike
+  - needle
+  - prick
+  - jagged
+- name: STRAIGHT
+  gloss: straight
+  words:
+  - straight
+  - direct
+  - linear
+  - aligned
+- name: BENT
+  gloss: bent
+  words:
+  - bent
+  - crooked
+  - curved
+  - twisted
+  - warped
+- name: HOLE
+  gloss: hole
+  words:
+  - hole
+  - hollow
+  - pit
+  - gap
+  - cavity
+  - opening
+- name: ROUGH
+  gloss: rough
+  words:
+  - rough
+  - coarse
+  - gritty
+  - scratchy
+  - bumpy
+  - harsh
+- name: SMOOTH
+  gloss: smooth
+  words:
+  - smooth
+  - sleek
+  - slick
+  - glossy
+  - polished
+  - silky
+- name: HARD
+  gloss: hard
+  words:
+  - hard
+  - stiff
+  - rigid
+  - solid
+  - firm
+  - tough
+- name: SOFT
+  gloss: soft
+  words:
+  - soft
+  - tender
+  - gentle
+  - squishy
+  - limp
+  - supple
+- name: WET
+  gloss: wet
+  words:
+  - wet
+  - moist
+  - damp
+  - soggy
+  - drenched
+  - dripping
+- name: DRY
+  gloss: dry
+  words:
+  - dry
+  - arid
+  - parched
+  - dusty
+  - withered
+- name: STICKY
+  gloss: sticky
+  words:
+  - sticky
+  - gluey
+  - tacky
+  - gummy
+  - adhesive
+- name: HOT
+  gloss: hot
+  words:
+  - hot
+  - burning
+  - scorching
+  - fiery
+  - blazing
+- name: COLD
+  gloss: cold
+  words:
+  - cold
+  - freezing
+  - icy
+  - chilly
+  - frosty
+- name: BRIGHT
+  gloss: bright
+  words:
+  - bright
+  - shining
+  - glowing
+  - radiant
+  - gleaming
+  - dazzling
+- name: DARK
+  gloss: dark
+  words:
+  - dark
+  - dim
+  - shadowy
+  - gloomy
+  - murky
+  - obscure
+- name: RED
+  gloss: red
+  words:
+  - red
+  - crimson
+  - scarlet
+  - ruby
+- name: WHITE
+  gloss: white
+  words:
+  - white
+  - pale
+  - snowy
+  - milky
+- name: BLACK
+  gloss: black
+  words:
+  - black
+  - inky
+  - sooty
+  - jet
+- name: FAST
+  gloss: fast
+  words:
+  - fast
+  - quick
+  - rapid
+  - swift
+  - hurried
+  - speedy
+- name: SLOW
+  gloss: slow
+  words:
+  - slow
+  - sluggish
+  - crawling
+  - plodding
+  - gradual
+- name: UP
+  gloss: up
+  words:
+  - up
+  - rising
+  - ascending
+  - upward
+  - aloft
+- name: DOWN
+  gloss: down
+  words:
+  - down
+  - falling
+  - descending
+  - downward
+  - sinking
+- name: FLOW
+  gloss: flow
+  words:
+  - flow
+  - stream
+  - pour
+  - gush
+  - trickle
+  - seep
+- name: FLY
+  gloss: fly
+  words:
+  - fly
+  - soar
+  - glide
+  - flutter
+  - hover
+- name: STOP
+  gloss: stop
+  words:
+  - stop
+  - halt
+  - cease
+  - freeze
+  - motionless
+- name: SHAKE
+  gloss: shake
+  words:
+  - shake
+  - tremble
+  - quiver
+  - wobble
+  - vibrate
+  - shudder
+- name: LOUD
+  gloss: loud
+  words:
+  - loud
+  - blaring
+  - booming
+  - roaring
+  - thunderous
+- name: QUIET
+  gloss: quiet
+  words:
+  - quiet
+  - hushed
+  - faint
+  - muffled
+  - silent
+- name: BANG
+  gloss: bang
+  words:
+  - bang
+  - crash
+  - clatter
+  - slam
+  - knock
+  - thud
+- name: HUM
+  gloss: hum
+  words:
+  - hum
+  - buzz
+  - drone
+  - murmur
+  - whir
+- name: HEAVY
+  gloss: heavy
+  words:
+  - heavy
+  - weighty
+  - massive
+  - ponderous
+  - hefty
+- name: STRONG
+  gloss: strong
+  words:
+  - strong
+  - powerful
+  - mighty
+  - forceful
+  - sturdy
+- name: WEAK
+  gloss: weak
+  words:
+  - weak
+  - feeble
+  - frail
+  - flimsy
+  - faint
+- name: PUSH
+  gloss: push
+  words:
+  - push
+  - shove
+  - thrust
+  - press
+  - ram
+- name: PULL
+  gloss: pull
+  words:
+  - pull
+  - drag
+  - tug
+  - haul
+  - yank
+- name: HIT
+  gloss: hit
+  words:
+  - hit
+  - strike
+  - smack
+  - whack
+  - bash
+- name: SWEET
+  gloss: sweet
+  words:
+  - sweet
+  - sugary
+  - honeyed
+  - luscious
+- name: SOUR
+  gloss: sour
+  words:
+  - sour
+  - tart
+  - tangy
+  - acidic
+- name: FEAR
+  gloss: fear
+  words:
+  - fear
+  - dread
+  - terror
+  - fright
+  - panic
+- name: ANGER
+  gloss: anger
+  words:
+  - anger
+  - rage
+  - fury
+  - wrath
+  - ire
