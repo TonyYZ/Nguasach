@@ -65,12 +65,13 @@ def _pole_anchors(cfg: Config):
     poles = yaml.safe_load(cfg.paths.resolve("hex_labels").read_text(encoding="utf-8"))["poles"]
     labels, mat = load_emb(cfg.paths.resolve("processed") / "SemanticsEmb.txt")
     idx = {lab: i for i, lab in enumerate(labels)}
-    names, glosses, vecs = [], [], []
+    names, glosses, pinyins, vecs = [], [], [], []
     for p in poles:
         rows = [mat[idx[f'{w}_']] for w in p["words"] if f'{w}_' in idx]
         if rows:
             names.append(p["name"])
             glosses.append(p.get("gloss", ""))
+            pinyins.append(p.get("pinyin", ""))
             vecs.append(np.mean(rows, axis=0))
     v = np.asarray(vecs, np.float32)
     v /= np.linalg.norm(v, axis=1, keepdims=True).clip(min=1e-12)
@@ -81,7 +82,7 @@ def _pole_anchors(cfg: Config):
         pair_vecs.append((v[i] + v[j]) / 2)
     pv = np.asarray(pair_vecs, np.float32)
     pv /= np.linalg.norm(pv, axis=1, keepdims=True).clip(min=1e-12)
-    return names, glosses, v, pair_names, pv
+    return names, glosses, pinyins, v, pair_names, pv
 
 
 def run(cfg: Config, n_jobs: int = 1) -> dict:
@@ -91,7 +92,7 @@ def run(cfg: Config, n_jobs: int = 1) -> dict:
     sem_keys = json.loads((cfg.paths.resolve("interim") / "semantics_keys.json").read_text(encoding="utf-8"))
     labels, mat = load_emb(cfg.paths.resolve("processed") / "SemanticsEmb.txt")
     sidx = {lab: i for i, lab in enumerate(labels)}
-    names, glosses, anch, pair_names, pair_anch = _pole_anchors(cfg)
+    names, glosses, pinyins, anch, pair_names, pair_anch = _pole_anchors(cfg)
 
     # grid[rhyme][onset] -> list of concept dicts
     grid: dict[str, dict[str, list[dict]]] = {}
@@ -167,7 +168,7 @@ def run(cfg: Config, n_jobs: int = 1) -> dict:
         "stage": "etym", "config": cfg.name, "config_fingerprint": cfg.fingerprint(),
         "onsets": sorted(onsets), "rhymes": sorted(rhymes),
         "n_cells": len(cells),
-        "pole_names": names, "pole_glosses": glosses,
+        "pole_names": names, "pole_glosses": glosses, "pole_pinyin": pinyins,
         "poles": _pole_phoneme_profiles(cfg, names),
         "table": table,
     }

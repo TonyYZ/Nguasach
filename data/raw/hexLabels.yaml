@@ -5,63 +5,82 @@
 # language is assigned to its nearest pole in the aligned bilingual space, then
 # phoneme frequencies per pole are z-scored across poles (see association.py).
 #
-# Verbatim from transPhone.py (the third, uncommented `hexLabels` block, lines
-# ~75-93) and `hexNames` (lines ~96-100): the nine I-Ching trigram names, each
-# split into a static and a dynamic pole -> 18 poles. The trigram framing is
-# descriptive shorthand only; the substance is "semantic pole -> phoneme z-score".
+# The nine I-Ching trigrams, each split into a static and a dynamic pole -> 18
+# poles.  `pinyin` is the trigram romanisation (shown in the etym browser in
+# place of the Hanzi); `gloss` is the user's own static/dynamic descriptor.
+# The trigram framing is descriptive shorthand; the substance is
+# "semantic pole -> phoneme z-score".
 
 poles:
   - name: "坤卦-static"
-    gloss: "earth / void"
+    pinyin: "Kun"
+    gloss: "Kun · empty"
     words: [void, empty, sparse, few, clean, space]
   - name: "坤卦-dynamic"
-    gloss: "earth / stillness"
+    pinyin: "Kun"
+    gloss: "Kun · still"
     words: [static, motionless, quiet, calm, fixed, dead, stay]
   - name: "艮卦-static"
-    gloss: "mountain / cover"
+    pinyin: "Gen"
+    gloss: "Gen · constrain"
     words: [high, aloft, top, cover, shell, protect, roof, surface, limit, constrain]
   - name: "艮卦-dynamic"
-    gloss: "mountain / descent"
+    pinyin: "Gen"
+    gloss: "Gen · fall"
     words: [retreat, return, come, descend, fall, gravity, backward, pull]
   - name: "坎卦-static"
-    gloss: "water / core"
+    pinyin: "Kan"
+    gloss: "Kan · occupy"
     words: [inner, core, center, middle, occupy, obstruct, barrier, separated, isolated]
   - name: "坎卦-dynamic"
-    gloss: "water / dispersal"
+    pinyin: "Kan"
+    gloss: "Kan · radiate"
     words: [separate, split, repel, break, disconnect, radiate, disperse, spread, source, expand, detach]
   - name: "巽卦-static"
-    gloss: "wind / detachment"
+    pinyin: "Xun"
+    gloss: "Xun · airy"
     words: [tall, lush, drifting, unsupported, detached]
   - name: "巽卦-dynamic"
-    gloss: "wind / seepage"
+    pinyin: "Xun"
+    gloss: "Xun · leak"
     words: [leak, seep, shed, erode, decay, discard, feedback, loosen, release]
   - name: "中卦-static"
-    gloss: "center / uniformity"
+    pinyin: "Taiji"
+    gloss: "Taiji · monotonous"
     words: [vague, monotonous, homogeneous, uniformity]
   - name: "中卦-dynamic"
-    gloss: "center / mixture"
+    pinyin: "Taiji"
+    gloss: "Taiji · variegated"
     words: [varying, mixed, intricate, complex, random]
   - name: "震卦-static"
-    gloss: "thunder / base"
+    pinyin: "Zhen"
+    gloss: "Zhen · load"
     words: [support, carry, base, low, bottom, floor, ground, platform, deep]
   - name: "震卦-dynamic"
-    gloss: "thunder / rising"
+    pinyin: "Zhen"
+    gloss: "Zhen · rise"
     words: [depart, advance, go, rise, ascend, climb, forward, push, overcome]
   - name: "離卦-static"
-    gloss: "fire / enclosure"
+    pinyin: "Li"
+    gloss: "Li · contain"
     words: [enclosure, surface, periphery, surround, hollow, contain, together, eachother]
   - name: "離卦-dynamic"
-    gloss: "fire / contraction"
+    pinyin: "Li"
+    gloss: "Li · attach"
     words: [combine, concentrate, join, attach, connect, attract, receive, shrink, contract]
   - name: "兌卦-static"
-    gloss: "marsh / cavity"
+    pinyin: "Dui"
+    gloss: "Dui · broken"
     words: [recessed, cavity, shallow, exposed, incomplete]
   - name: "兌卦-dynamic"
-    gloss: "marsh / emission"
+    pinyin: "Dui"
+    gloss: "Dui · express"
     words: [express, depart, emit, throw, eject, give, grow, swell, abandon]
   - name: "乾卦-static"
-    gloss: "sky / fullness"
+    pinyin: "Qian"
+    gloss: "Qian · multiple"
     words: [congested, teeming, abundant, enormous, whole]
   - name: "乾卦-dynamic"
-    gloss: "sky / tumult"
+    pinyin: "Qian"
+    gloss: "Qian · vibrant"
     words: [tumultuous, chaotic, energetic, lively, hustle, bustle, dynamic, vibrant]

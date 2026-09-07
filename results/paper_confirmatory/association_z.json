@@ -1,7 +1,7 @@
 {
   "stage": "associate",
   "config": "paper_confirmatory",
-  "config_fingerprint": "4f80d42508a72fb3",
+  "config_fingerprint": "3ca79d58de08c84d",
   "n_poles": 18,
   "null_iters": 300,
   "per_language": {

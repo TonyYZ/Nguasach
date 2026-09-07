@@ -237,7 +237,8 @@ const EMOJI = {
   FEAR:'😱',ANGER:'💢',HAPPY:'😀',SAD:'😢',LOVE:'❤️',HATE:'👿',DISGUST:'🤢',CALM:'😌',
 };
 const IS_TRIGRAM = /卦-(static|dynamic)$/.test(DATA.pole_names[0] || '');
-const base = n => IS_TRIGRAM ? n.split('-')[0] : n;
+const PINYIN = Object.fromEntries((DATA.pole_names||[]).map((n,i)=>[n, (DATA.pole_pinyin||[])[i] || '']));
+const base = n => IS_TRIGRAM ? (PINYIN[n] || n.split('-')[0]) : n;
 const sd   = n => IS_TRIGRAM ? (n.split('-')[1] || '') : '';
 const gly  = n => IS_TRIGRAM ? (TRIGRAM[(n||'').split('卦')[0].replace('-','')] || '·')
                              : (EMOJI[(n||'').split(' + ')[0]] || '◆');
@@ -358,7 +359,6 @@ function renderDrawer(c){
         <span class="gl">${activePole[0].gloss}</span></span></div>`:''}
     </div>
     ${poles?`<div class="d-sect"><h3>nearest poles</h3>${poles}</div>`:''}
-    ${weightedNote}
     <div class="d-sect"><h3>parallel composition ∥</h3><div class="parallel">${par}</div></div>
     ${nbrs?`<div class="d-sect"><h3>meaning neighbours</h3><div class="nbr">${nbrs}</div></div>`:''}
     <div class="d-sect"><h3>${c.n} words with this syllable</h3><div class="words">${words}</div></div>

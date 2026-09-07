@@ -1,7 +1,7 @@
 {
   "stage": "associate",
   "config": "paper_exploratory",
-  "config_fingerprint": "91448921b21baaae",
+  "config_fingerprint": "e1cbbd80ddfbd4db",
   "n_poles": 18,
   "null_iters": 200,
   "per_language": {
@@ -105070,7 +105070,7 @@
     "cells": [
       {
         "pole": "\u5dfd\u5366-dynamic",
-        "gloss": "wind / seepage",
+        "gloss": "Xun \u00b7 leak",
         "phoneme": "t\u0361\u0283",
         "mean_z": 2.576,
         "n_langs": 5,
@@ -105083,7 +105083,7 @@
       },
       {
         "pole": "\u4e2d\u5366-static",
-        "gloss": "center / uniformity",
+        "gloss": "Taiji \u00b7 monotonous",
         "phoneme": "\u0279",
         "mean_z": 2.039,
         "n_langs": 5,
@@ -105096,7 +105096,7 @@
       },
       {
         "pole": "\u4e7e\u5366-dynamic",
-        "gloss": "sky / tumult",
+        "gloss": "Qian \u00b7 vibrant",
         "phoneme": "z",
         "mean_z": 2.027,
         "n_langs": 8,
@@ -105109,7 +105109,7 @@
       },
       {
         "pole": "\u4e2d\u5366-dynamic",
-        "gloss": "center / mixture",
+        "gloss": "Taiji \u00b7 variegated",
         "phoneme": "w",
         "mean_z": 1.671,
         "n_langs": 6,
@@ -105122,7 +105122,7 @@
       },
       {
         "pole": "\u5dfd\u5366-dynamic",
-        "gloss": "wind / seepage",
+        "gloss": "Xun \u00b7 leak",
         "phoneme": "u",
         "mean_z": 1.538,
         "n_langs": 12,
@@ -105135,7 +105135,7 @@
       },
       {
         "pole": "\u4e7e\u5366-dynamic",
-        "gloss": "sky / tumult",
+        "gloss": "Qian \u00b7 vibrant",
         "phoneme": "f",
         "mean_z": 1.51,
         "n_langs": 7,
@@ -105148,7 +105148,7 @@
       },
       {
         "pole": "\u514c\u5366-static",
-        "gloss": "marsh / cavity",
+        "gloss": "Dui \u00b7 broken",
         "phoneme": "u",
         "mean_z": 1.477,
         "n_langs": 12,
@@ -105161,7 +105161,7 @@
       },
       {
         "pole": "\u4e2d\u5366-dynamic",
-        "gloss": "center / mixture",
+        "gloss": "Taiji \u00b7 variegated",
         "phoneme": "\u026a",
         "mean_z": 1.371,
         "n_langs": 8,
@@ -105174,7 +105174,7 @@
       },
       {
         "pole": "\u4e2d\u5366-dynamic",
-        "gloss": "center / mixture",
+        "gloss": "Taiji \u00b7 variegated",
         "phoneme": "f",
         "mean_z": 1.336,
         "n_langs": 9,
@@ -105187,7 +105187,7 @@
       },
       {
         "pole": "\u574e\u5366-static",
-        "gloss": "water / core",
+        "gloss": "Kan \u00b7 occupy",
         "phoneme": "\u014b",
         "mean_z": 1.209,
         "n_langs": 14,
@@ -105200,7 +105200,7 @@
       },
       {
         "pole": "\u4e2d\u5366-static",
-        "gloss": "center / uniformity",
+        "gloss": "Taiji \u00b7 monotonous",
         "phoneme": "h",
         "mean_z": 1.14,
         "n_langs": 9,
@@ -105213,7 +105213,7 @@
       },
       {
         "pole": "\u574e\u5366-static",
-        "gloss": "water / core",
+        "gloss": "Kan \u00b7 occupy",
         "phoneme": "\u0272",
         "mean_z": 0.952,
         "n_langs": 5,
@@ -105226,7 +105226,7 @@
       },
       {
         "pole": "\u574e\u5366-dynamic",
-        "gloss": "water / dispersal",
+        "gloss": "Kan \u00b7 radiate",
         "phoneme": "f",
         "mean_z": 0.885,
         "n_langs": 15,
@@ -105239,7 +105239,7 @@
       },
       {
         "pole": "\u5764\u5366-static",
-        "gloss": "earth / void",
+        "gloss": "Kun \u00b7 empty",
         "phoneme": "s",
         "mean_z": 0.813,
         "n_langs": 22,
@@ -105252,7 +105252,7 @@
       },
       {
         "pole": "\u574e\u5366-dynamic",
-        "gloss": "water / dispersal",
+        "gloss": "Kan \u00b7 radiate",
         "phoneme": "h",
         "mean_z": 0.81,
         "n_langs": 12,
@@ -105265,7 +105265,7 @@
       },
       {
         "pole": "\u4e2d\u5366-static",
-        "gloss": "center / uniformity",
+        "gloss": "Taiji \u00b7 monotonous",
         "phoneme": "s",
         "mean_z": 0.693,
         "n_langs": 21,
@@ -105278,7 +105278,7 @@
       },
       {
         "pole": "\u826e\u5366-dynamic",
-        "gloss": "mountain / descent",
+        "gloss": "Gen \u00b7 fall",
         "phoneme": "\u0283",
         "mean_z": 0.568,
         "n_langs": 13,
@@ -105291,7 +105291,7 @@
       },
       {
         "pole": "\u9707\u5366-static",
-        "gloss": "thunder / base",
+        "gloss": "Zhen \u00b7 load",
         "phoneme": "t",
         "mean_z": 0.553,
         "n_langs": 21,
@@ -105304,7 +105304,7 @@
       },
       {
         "pole": "\u9707\u5366-static",
-        "gloss": "thunder / base",
+        "gloss": "Zhen \u00b7 load",
         "phoneme": "\u014b",
         "mean_z": 0.538,
         "n_langs": 11,
@@ -105317,7 +105317,7 @@
       },
       {
         "pole": "\u826e\u5366-static",
-        "gloss": "mountain / cover",
+        "gloss": "Gen \u00b7 constrain",
         "phoneme": "\u014b",
         "mean_z": 0.504,
         "n_langs": 10,
@@ -105330,7 +105330,7 @@
       },
       {
         "pole": "\u5764\u5366-dynamic",
-        "gloss": "earth / stillness",
+        "gloss": "Kun \u00b7 still",
         "phoneme": "n",
         "mean_z": 0.498,
         "n_langs": 22,
@@ -105343,7 +105343,7 @@
       },
       {
         "pole": "\u96e2\u5366-dynamic",
-        "gloss": "fire / contraction",
+        "gloss": "Li \u00b7 attach",
         "phoneme": "s",
         "mean_z": -0.494,
         "n_langs": 22,
@@ -105356,7 +105356,7 @@
       },
       {
         "pole": "\u514c\u5366-dynamic",
-        "gloss": "marsh / emission",
+        "gloss": "Dui \u00b7 express",
         "phoneme": "s",
         "mean_z": -0.492,
         "n_langs": 22,
@@ -105369,7 +105369,7 @@
       },
       {
         "pole": "\u826e\u5366-dynamic",
-        "gloss": "mountain / descent",
+        "gloss": "Gen \u00b7 fall",
         "phoneme": "o",
         "mean_z": -0.482,
         "n_langs": 19,
@@ -105382,7 +105382,7 @@
       },
       {
         "pole": "\u826e\u5366-static",
-        "gloss": "mountain / cover",
+        "gloss": "Gen \u00b7 constrain",
         "phoneme": "s",
         "mean_z": -0.468,
         "n_langs": 22,
@@ -105395,7 +105395,7 @@
       },
       {
         "pole": "\u5764\u5366-dynamic",
-        "gloss": "earth / stillness",
+        "gloss": "Kun \u00b7 still",
         "phoneme": "p",
         "mean_z": -0.46,
         "n_langs": 19,
@@ -105408,7 +105408,7 @@
       },
       {
         "pole": "\u96e2\u5366-dynamic",
-        "gloss": "fire / contraction",
+        "gloss": "Li \u00b7 attach",
         "phoneme": "o",
         "mean_z": -0.449,
         "n_langs": 19,
@@ -105421,7 +105421,7 @@
       },
       {
         "pole": "\u96e2\u5366-dynamic",
-        "gloss": "fire / contraction",
+        "gloss": "Li \u00b7 attach",
         "phoneme": "t",
         "mean_z": 0.423,
         "n_langs": 21,
@@ -105434,7 +105434,7 @@
       },
       {
         "pole": "\u514c\u5366-dynamic",
-        "gloss": "marsh / emission",
+        "gloss": "Dui \u00b7 express",
         "phoneme": "i",
         "mean_z": -0.383,
         "n_langs": 22,
@@ -105447,7 +105447,7 @@
       },
       {
         "pole": "\u5764\u5366-dynamic",
-        "gloss": "earth / stillness",
+        "gloss": "Kun \u00b7 still",
         "phoneme": "k",
         "mean_z": -0.366,
         "n_langs": 22,
@@ -105460,7 +105460,7 @@
       },
       {
         "pole": "\u96e2\u5366-dynamic",
-        "gloss": "fire / contraction",
+        "gloss": "Li \u00b7 attach",
         "phoneme": "m",
         "mean_z": -0.318,
         "n_langs": 22,
@@ -105473,7 +105473,7 @@
       },
       {
         "pole": "\u514c\u5366-static",
-        "gloss": "marsh / cavity",
+        "gloss": "Dui \u00b7 broken",
         "phoneme": "v",
         "mean_z": 1.713,
         "n_langs": 7,
@@ -105486,7 +105486,7 @@
       },
       {
         "pole": "\u4e2d\u5366-dynamic",
-        "gloss": "center / mixture",
+        "gloss": "Taiji \u00b7 variegated",
         "phoneme": "j",
         "mean_z": 1.162,
         "n_langs": 11,
@@ -105499,7 +105499,7 @@
       },
       {
         "pole": "\u4e7e\u5366-dynamic",
-        "gloss": "sky / tumult",
+        "gloss": "Qian \u00b7 vibrant",
         "phoneme": "s",
         "mean_z": 1.006,
         "n_langs": 21,
@@ -105512,7 +105512,7 @@
       },
       {
         "pole": "\u96e2\u5366-static",
-        "gloss": "fire / enclosure",
+        "gloss": "Li \u00b7 contain",
         "phoneme": "p",
         "mean_z": 0.933,
         "n_langs": 14,
@@ -105525,7 +105525,7 @@
       },
       {
         "pole": "\u4e2d\u5366-dynamic",
-        "gloss": "center / mixture",
+        "gloss": "Taiji \u00b7 variegated",
         "phoneme": "i",
         "mean_z": 0.702,
         "n_langs": 22,
@@ -105538,7 +105538,7 @@
       },
       {
         "pole": "\u4e7e\u5366-static",
-        "gloss": "sky / fullness",
+        "gloss": "Qian \u00b7 multiple",
         "phoneme": "j",
         "mean_z": 0.555,
         "n_langs": 17,
@@ -105551,7 +105551,7 @@
       },
       {
         "pole": "\u5764\u5366-static",
-        "gloss": "earth / void",
+        "gloss": "Kun \u00b7 empty",
         "phoneme": "b",
         "mean_z": 0.453,
         "n_langs": 18,
@@ -105564,7 +105564,7 @@
       },
       {
         "pole": "\u9707\u5366-dynamic",
-        "gloss": "thunder / rising",
+        "gloss": "Zhen \u00b7 rise",
         "phoneme": "i",
         "mean_z": -0.416,
         "n_langs": 22,
@@ -105577,7 +105577,7 @@
       },
       {
         "pole": "\u826e\u5366-dynamic",
-        "gloss": "mountain / descent",
+        "gloss": "Gen \u00b7 fall",
         "phoneme": "\u0261",
         "mean_z": 0.39,
         "n_langs": 17,
@@ -105590,7 +105590,7 @@
       },
       {
         "pole": "\u9707\u5366-dynamic",
-        "gloss": "thunder / rising",
+        "gloss": "Zhen \u00b7 rise",
         "phoneme": "k",
         "mean_z": -0.345,
         "n_langs": 22,
@@ -105603,7 +105603,7 @@
       },
       {
         "pole": "\u826e\u5366-dynamic",
-        "gloss": "mountain / descent",
+        "gloss": "Gen \u00b7 fall",
         "phoneme": "l",
         "mean_z": 0.314,
         "n_langs": 21,
@@ -105616,7 +105616,7 @@
       },
       {
         "pole": "\u96e2\u5366-dynamic",
-        "gloss": "fire / contraction",
+        "gloss": "Li \u00b7 attach",
         "phoneme": "k",
         "mean_z": -0.309,
         "n_langs": 21,
@@ -105629,7 +105629,7 @@
       },
       {
         "pole": "\u826e\u5366-static",
-        "gloss": "mountain / cover",
+        "gloss": "Gen \u00b7 constrain",
         "phoneme": "a\u0361\u026a",
         "mean_z": 1.401,
         "n_langs": 6,
@@ -105642,7 +105642,7 @@
       },
       {
         "pole": "\u574e\u5366-static",
-        "gloss": "water / core",
+        "gloss": "Kan \u00b7 occupy",
         "phoneme": "a\u0361\u026a",
         "mean_z": 1.349,
         "n_langs": 5,
@@ -105655,7 +105655,7 @@
       },
       {
         "pole": "\u5764\u5366-static",
-        "gloss": "earth / void",
+        "gloss": "Kun \u00b7 empty",
         "phoneme": "\u028c",
         "mean_z": 0.954,
         "n_langs": 6,
@@ -105668,7 +105668,7 @@
       },
       {
         "pole": "\u9707\u5366-dynamic",
-        "gloss": "thunder / rising",
+        "gloss": "Zhen \u00b7 rise",
         "phoneme": "e",
         "mean_z": 0.819,
         "n_langs": 19,
@@ -105681,7 +105681,7 @@
       },
       {
         "pole": "\u9707\u5366-dynamic",
-        "gloss": "thunder / rising",
+        "gloss": "Zhen \u00b7 rise",
         "phoneme": "c",
         "mean_z": 0.789,
         "n_langs": 7,
@@ -105694,7 +105694,7 @@
       },
       {
         "pole": "\u9707\u5366-dynamic",
-        "gloss": "thunder / rising",
+        "gloss": "Zhen \u00b7 rise",
         "phoneme": "\u025b",
         "mean_z": 0.783,
         "n_langs": 15,
@@ -105707,7 +105707,7 @@
       },
       {
         "pole": "\u514c\u5366-dynamic",
-        "gloss": "marsh / emission",
+        "gloss": "Dui \u00b7 express",
         "phoneme": "\u00f8",
         "mean_z": 0.771,
         "n_langs": 5,
@@ -105720,7 +105720,7 @@
       },
       {
         "pole": "\u4e7e\u5366-static",
-        "gloss": "sky / fullness",
+        "gloss": "Qian \u00b7 multiple",
         "phoneme": "o",
         "mean_z": 0.748,
         "n_langs": 18,
@@ -105733,7 +105733,7 @@
       },
       {
         "pole": "\u5764\u5366-dynamic",
-        "gloss": "earth / stillness",
+        "gloss": "Kun \u00b7 still",
         "phoneme": "x",
         "mean_z": 0.73,
         "n_langs": 8,
@@ -105746,7 +105746,7 @@
       },
       {
         "pole": "\u9707\u5366-static",
-        "gloss": "thunder / base",
+        "gloss": "Zhen \u00b7 load",
         "phoneme": "\u028a",
         "mean_z": 0.679,
         "n_langs": 8,
@@ -105759,7 +105759,7 @@
       },
       {
         "pole": "\u9707\u5366-static",
-        "gloss": "thunder / base",
+        "gloss": "Zhen \u00b7 load",
         "phoneme": "p",
         "mean_z": 0.672,
         "n_langs": 21,
@@ -105772,7 +105772,7 @@
       },
       {
         "pole": "\u826e\u5366-dynamic",
-        "gloss": "mountain / descent",
+        "gloss": "Gen \u00b7 fall",
         "phoneme": "d",
         "mean_z": 0.667,
         "n_langs": 19,
@@ -105785,7 +105785,7 @@
       },
       {
         "pole": "\u4e7e\u5366-static",
-        "gloss": "sky / fullness",
+        "gloss": "Qian \u00b7 multiple",
         "phoneme": "m",
         "mean_z": 0.666,
         "n_langs": 22,
@@ -105798,7 +105798,7 @@
       },
       {
         "pole": "\u826e\u5366-static",
-        "gloss": "mountain / cover",
+        "gloss": "Gen \u00b7 constrain",
         "phoneme": "p",
         "mean_z": 0.636,
         "n_langs": 21,
@@ -105811,7 +105811,7 @@
       },
       {
         "pole": "\u9707\u5366-static",
-        "gloss": "thunder / base",
+        "gloss": "Zhen \u00b7 load",
         "phoneme": "b",
         "mean_z": 0.63,
         "n_langs": 20,
@@ -105824,7 +105824,7 @@
       },
       {
         "pole": "\u4e7e\u5366-static",
-        "gloss": "sky / fullness",
+        "gloss": "Qian \u00b7 multiple",
         "phoneme": "k",
         "mean_z": -0.625,
         "n_langs": 21,
@@ -105837,7 +105837,7 @@
       },
       {
         "pole": "\u9707\u5366-static",
-        "gloss": "thunder / base",
+        "gloss": "Zhen \u00b7 load",
         "phoneme": "t\u0361s",
         "mean_z": 0.624,
         "n_langs": 6,
@@ -105850,7 +105850,7 @@
       },
       {
         "pole": "\u826e\u5366-static",
-        "gloss": "mountain / cover",
+        "gloss": "Gen \u00b7 constrain",
         "phoneme": "f",
         "mean_z": 0.577,
         "n_langs": 16,
@@ -105863,7 +105863,7 @@
       },
       {
         "pole": "\u96e2\u5366-dynamic",
-        "gloss": "fire / contraction",
+        "gloss": "Li \u00b7 attach",
         "phoneme": "l",
         "mean_z": -0.532,
         "n_langs": 21,
@@ -105876,7 +105876,7 @@
       },
       {
         "pole": "\u5764\u5366-static",
-        "gloss": "earth / void",
+        "gloss": "Kun \u00b7 empty",
         "phoneme": "r",
         "mean_z": -0.494,
         "n_langs": 15,
@@ -105889,7 +105889,7 @@
       },
       {
         "pole": "\u9707\u5366-static",
-        "gloss": "thunder / base",
+        "gloss": "Zhen \u00b7 load",
         "phoneme": "\u026a",
         "mean_z": -0.48,
         "n_langs": 10,
@@ -105902,7 +105902,7 @@
       },
       {
         "pole": "\u826e\u5366-static",
-        "gloss": "mountain / cover",
+        "gloss": "Gen \u00b7 constrain",
         "phoneme": "k",
         "mean_z": 0.454,
         "n_langs": 22,
@@ -105915,7 +105915,7 @@
       },
       {
         "pole": "\u826e\u5366-static",
-        "gloss": "mountain / cover",
+        "gloss": "Gen \u00b7 constrain",
         "phoneme": "t",
         "mean_z": 0.447,
         "n_langs": 20,
@@ -105928,7 +105928,7 @@
       },
       {
         "pole": "\u96e2\u5366-dynamic",
-        "gloss": "fire / contraction",
+        "gloss": "Li \u00b7 attach",
         "phoneme": "u",
         "mean_z": -0.427,
         "n_langs": 20,
@@ -105941,7 +105941,7 @@
       },
       {
         "pole": "\u5764\u5366-static",
-        "gloss": "earth / void",
+        "gloss": "Kun \u00b7 empty",
         "phoneme": "t",
         "mean_z": 0.418,
         "n_langs": 21,
@@ -105954,7 +105954,7 @@
       },
       {
         "pole": "\u9707\u5366-dynamic",
-        "gloss": "thunder / rising",
+        "gloss": "Zhen \u00b7 rise",
         "phoneme": "d",
         "mean_z": 0.407,
         "n_langs": 20,
@@ -105967,7 +105967,7 @@
       },
       {
         "pole": "\u826e\u5366-dynamic",
-        "gloss": "mountain / descent",
+        "gloss": "Gen \u00b7 fall",
         "phoneme": "m",
         "mean_z": -0.403,
         "n_langs": 22,
@@ -105980,7 +105980,7 @@
       },
       {
         "pole": "\u9707\u5366-static",
-        "gloss": "thunder / base",
+        "gloss": "Zhen \u00b7 load",
         "phoneme": "i",
         "mean_z": -0.398,
         "n_langs": 22,
@@ -105993,7 +105993,7 @@
       },
       {
         "pole": "\u826e\u5366-static",
-        "gloss": "mountain / cover",
+        "gloss": "Gen \u00b7 constrain",
         "phoneme": "b",
         "mean_z": 0.383,
         "n_langs": 20,
@@ -106006,7 +106006,7 @@
       },
       {
         "pole": "\u574e\u5366-static",
-        "gloss": "water / core",
+        "gloss": "Kan \u00b7 occupy",
         "phoneme": "t",
         "mean_z": 0.379,
         "n_langs": 21,
@@ -106019,7 +106019,7 @@
       },
       {
         "pole": "\u4e2d\u5366-static",
-        "gloss": "center / uniformity",
+        "gloss": "Taiji \u00b7 monotonous",
         "phoneme": "j",
         "mean_z": 0.778,
         "n_langs": 13,
@@ -106032,7 +106032,7 @@
       },
       {
         "pole": "\u826e\u5366-static",
-        "gloss": "mountain / cover",
+        "gloss": "Gen \u00b7 constrain",
         "phoneme": "l",
         "mean_z": 0.396,
         "n_langs": 20,
@@ -106045,7 +106045,7 @@
       },
       {
         "pole": "\u826e\u5366-dynamic",
-        "gloss": "mountain / descent",
+        "gloss": "Gen \u00b7 fall",
         "phoneme": "a",
         "mean_z": 0.328,
         "n_langs": 21,
@@ -106058,7 +106058,7 @@
       },
       {
         "pole": "\u514c\u5366-dynamic",
-        "gloss": "marsh / emission",
+        "gloss": "Dui \u00b7 express",
         "phoneme": "a",
         "mean_z": 0.314,
         "n_langs": 21,
@@ -106071,7 +106071,7 @@
       },
       {
         "pole": "\u5dfd\u5366-dynamic",
-        "gloss": "wind / seepage",
+        "gloss": "Xun \u00b7 leak",
         "phoneme": "f",
         "mean_z": 1.584,
         "n_langs": 6,
@@ -106084,7 +106084,7 @@
       },
       {
         "pole": "\u4e7e\u5366-dynamic",
-        "gloss": "sky / tumult",
+        "gloss": "Qian \u00b7 vibrant",
         "phoneme": "t\u0361\u0283",
         "mean_z": 1.469,
         "n_langs": 7,
@@ -106097,7 +106097,7 @@
       },
       {
         "pole": "\u4e2d\u5366-dynamic",
-        "gloss": "center / mixture",
+        "gloss": "Taiji \u00b7 variegated",
         "phoneme": "z",
         "mean_z": 1.14,
         "n_langs": 8,
@@ -106110,7 +106110,7 @@
       },
       {
         "pole": "\u5dfd\u5366-static",
-        "gloss": "wind / detachment",
+        "gloss": "Xun \u00b7 airy",
         "phoneme": "\u0261",
         "mean_z": 1.053,
         "n_langs": 9,
@@ -106123,7 +106123,7 @@
       },
       {
         "pole": "\u514c\u5366-static",
-        "gloss": "marsh / cavity",
+        "gloss": "Dui \u00b7 broken",
         "phoneme": "l",
         "mean_z": 0.941,
         "n_langs": 14,
@@ -106136,7 +106136,7 @@
       },
       {
         "pole": "\u5dfd\u5366-static",
-        "gloss": "wind / detachment",
+        "gloss": "Xun \u00b7 airy",
         "phoneme": "o",
         "mean_z": 0.926,
         "n_langs": 15,
@@ -106149,7 +106149,7 @@
       },
       {
         "pole": "\u5dfd\u5366-dynamic",
-        "gloss": "wind / seepage",
+        "gloss": "Xun \u00b7 leak",
         "phoneme": "k",
         "mean_z": 0.873,
         "n_langs": 18,
@@ -106162,7 +106162,7 @@
       },
       {
         "pole": "\u5764\u5366-dynamic",
-        "gloss": "earth / stillness",
+        "gloss": "Kun \u00b7 still",
         "phoneme": "t\u0361s",
         "mean_z": -0.651,
         "n_langs": 6,
@@ -106175,7 +106175,7 @@
       },
       {
         "pole": "\u9707\u5366-dynamic",
-        "gloss": "thunder / rising",
+        "gloss": "Zhen \u00b7 rise",
         "phoneme": "\u0254",
         "mean_z": 0.526,
         "n_langs": 10,
@@ -106188,7 +106188,7 @@
       },
       {
         "pole": "\u9707\u5366-static",
-        "gloss": "thunder / base",
+        "gloss": "Zhen \u00b7 load",
         "phoneme": "\u0261",
         "mean_z": 0.349,
         "n_langs": 18,
@@ -106201,7 +106201,7 @@
       },
       {
         "pole": "\u96e2\u5366-dynamic",
-        "gloss": "fire / contraction",
+        "gloss": "Li \u00b7 attach",
         "phoneme": "n",
         "mean_z": 0.317,
         "n_langs": 22,
@@ -106214,7 +106214,7 @@
       },
       {
         "pole": "\u9707\u5366-static",
-        "gloss": "thunder / base",
+        "gloss": "Zhen \u00b7 load",
         "phoneme": "d",
         "mean_z": 0.313,
         "n_langs": 19,
@@ -106227,7 +106227,7 @@
       },
       {
         "pole": "\u514c\u5366-dynamic",
-        "gloss": "marsh / emission",
+        "gloss": "Dui \u00b7 express",
         "phoneme": "o",
         "mean_z": -0.296,
         "n_langs": 19,
@@ -106240,7 +106240,7 @@
       },
       {
         "pole": "\u826e\u5366-static",
-        "gloss": "mountain / cover",
+        "gloss": "Gen \u00b7 constrain",
         "phoneme": "i",
         "mean_z": -0.282,
         "n_langs": 22,
@@ -106253,7 +106253,7 @@
       },
       {
         "pole": "\u5dfd\u5366-dynamic",
-        "gloss": "wind / seepage",
+        "gloss": "Xun \u00b7 leak",
         "phoneme": "\u0283",
         "mean_z": 1.543,
         "n_langs": 5,
@@ -106266,7 +106266,7 @@
       },
       {
         "pole": "\u514c\u5366-static",
-        "gloss": "marsh / cavity",
+        "gloss": "Dui \u00b7 broken",
         "phoneme": "f",
         "mean_z": 1.514,
         "n_langs": 5,
@@ -106279,7 +106279,7 @@
       },
       {
         "pole": "\u4e7e\u5366-dynamic",
-        "gloss": "sky / tumult",
+        "gloss": "Qian \u00b7 vibrant",
         "phoneme": "v",
         "mean_z": 1.066,
         "n_langs": 7,
@@ -106292,7 +106292,7 @@
       },
       {
         "pole": "\u5dfd\u5366-static",
-        "gloss": "wind / detachment",
+        "gloss": "Xun \u00b7 airy",
         "phoneme": "v",
         "mean_z": 1.013,
         "n_langs": 11,
@@ -106305,7 +106305,7 @@
       },
       {
         "pole": "\u5dfd\u5366-static",
-        "gloss": "wind / detachment",
+        "gloss": "Xun \u00b7 airy",
         "phoneme": "j",
         "mean_z": 0.974,
         "n_langs": 11,
@@ -106318,7 +106318,7 @@
       },
       {
         "pole": "\u96e2\u5366-static",
-        "gloss": "fire / enclosure",
+        "gloss": "Li \u00b7 contain",
         "phoneme": "\u025b",
         "mean_z": 0.882,
         "n_langs": 12,
@@ -106331,7 +106331,7 @@
       },
       {
         "pole": "\u574e\u5366-dynamic",
-        "gloss": "water / dispersal",
+        "gloss": "Kan \u00b7 radiate",
         "phoneme": "\u014b",
         "mean_z": 0.76,
         "n_langs": 8,
@@ -106344,7 +106344,7 @@
       },
       {
         "pole": "\u4e2d\u5366-dynamic",
-        "gloss": "center / mixture",
+        "gloss": "Taiji \u00b7 variegated",
         "phoneme": "b",
         "mean_z": 0.756,
         "n_langs": 13,
@@ -106357,7 +106357,7 @@
       },
       {
         "pole": "\u4e7e\u5366-static",
-        "gloss": "sky / fullness",
+        "gloss": "Qian \u00b7 multiple",
         "phoneme": "w",
         "mean_z": 0.693,
         "n_langs": 8,
@@ -106370,7 +106370,7 @@
       },
       {
         "pole": "\u4e7e\u5366-static",
-        "gloss": "sky / fullness",
+        "gloss": "Qian \u00b7 multiple",
         "phoneme": "s",
         "mean_z": 0.482,
         "n_langs": 21,
@@ -106383,7 +106383,7 @@
       },
       {
         "pole": "\u826e\u5366-static",
-        "gloss": "mountain / cover",
+        "gloss": "Gen \u00b7 constrain",
         "phoneme": "\u0283",
         "mean_z": 0.394,
         "n_langs": 12,
@@ -106396,7 +106396,7 @@
       },
       {
         "pole": "\u9707\u5366-dynamic",
-        "gloss": "thunder / rising",
+        "gloss": "Zhen \u00b7 rise",
         "phoneme": "u",
         "mean_z": -0.384,
         "n_langs": 20,
@@ -106409,7 +106409,7 @@
       },
       {
         "pole": "\u574e\u5366-static",
-        "gloss": "water / core",
+        "gloss": "Kan \u00b7 occupy",
         "phoneme": "\u0261",
         "mean_z": 0.376,
         "n_langs": 17,
@@ -106422,7 +106422,7 @@
       },
       {
         "pole": "\u9707\u5366-dynamic",
-        "gloss": "thunder / rising",
+        "gloss": "Zhen \u00b7 rise",
         "phoneme": "m",
         "mean_z": -0.353,
         "n_langs": 22,
@@ -106435,7 +106435,7 @@
       },
       {
         "pole": "\u9707\u5366-static",
-        "gloss": "thunder / base",
+        "gloss": "Zhen \u00b7 load",
         "phoneme": "z",
         "mean_z": -0.329,
         "n_langs": 13,
@@ -106448,7 +106448,7 @@
       },
       {
         "pole": "\u9707\u5366-static",
-        "gloss": "thunder / base",
+        "gloss": "Zhen \u00b7 load",
         "phoneme": "s",
         "mean_z": -0.299,
         "n_langs": 21,
@@ -106461,7 +106461,7 @@
       },
       {
         "pole": "\u4e2d\u5366-static",
-        "gloss": "center / uniformity",
+        "gloss": "Taiji \u00b7 monotonous",
         "phoneme": "\u00f0",
         "mean_z": 1.291,
         "n_langs": 5,
@@ -106474,7 +106474,7 @@
       },
       {
         "pole": "\u4e2d\u5366-static",
-        "gloss": "center / uniformity",
+        "gloss": "Taiji \u00b7 monotonous",
         "phoneme": "\u028c",
         "mean_z": 0.899,
         "n_langs": 6,
@@ -106487,7 +106487,7 @@
       },
       {
         "pole": "\u4e7e\u5366-dynamic",
-        "gloss": "sky / tumult",
+        "gloss": "Qian \u00b7 vibrant",
         "phoneme": "r",
         "mean_z": 0.894,
         "n_langs": 14,
@@ -106500,7 +106500,7 @@
       },
       {
         "pole": "\u4e2d\u5366-static",
-        "gloss": "center / uniformity",
+        "gloss": "Taiji \u00b7 monotonous",
         "phoneme": "\u025b",
         "mean_z": 0.634,
         "n_langs": 13,
@@ -106513,7 +106513,7 @@
       },
       {
         "pole": "\u4e7e\u5366-static",
-        "gloss": "sky / fullness",
+        "gloss": "Qian \u00b7 multiple",
         "phoneme": "\u0261",
         "mean_z": 0.548,
         "n_langs": 13,
@@ -106526,7 +106526,7 @@
       },
       {
         "pole": "\u5764\u5366-dynamic",
-        "gloss": "earth / stillness",
+        "gloss": "Kun \u00b7 still",
         "phoneme": "\u028c",
         "mean_z": 0.546,
         "n_langs": 6,
@@ -106539,7 +106539,7 @@
       },
       {
         "pole": "\u514c\u5366-dynamic",
-        "gloss": "marsh / emission",
+        "gloss": "Dui \u00b7 express",
         "phoneme": "x",
         "mean_z": 0.463,
         "n_langs": 10,
@@ -106552,7 +106552,7 @@
       },
       {
         "pole": "\u4e7e\u5366-static",
-        "gloss": "sky / fullness",
+        "gloss": "Qian \u00b7 multiple",
         "phoneme": "n",
         "mean_z": 0.442,
         "n_langs": 22,
@@ -106565,7 +106565,7 @@
       },
       {
         "pole": "\u574e\u5366-static",
-        "gloss": "water / core",
+        "gloss": "Kan \u00b7 occupy",
         "phoneme": "\u0259",
         "mean_z": 0.382,
         "n_langs": 10,
@@ -106578,7 +106578,7 @@
       },
       {
         "pole": "\u5dfd\u5366-static",
-        "gloss": "wind / detachment",
+        "gloss": "Xun \u00b7 airy",
         "phoneme": "b",
         "mean_z": 0.777,
         "n_langs": 13,
@@ -106591,7 +106591,7 @@
       },
       {
         "pole": "\u9707\u5366-dynamic",
-        "gloss": "thunder / rising",
+        "gloss": "Zhen \u00b7 rise",
         "phoneme": "d\u0361\u0292",
         "mean_z": 0.696,
         "n_langs": 7,
@@ -106604,7 +106604,7 @@
       },
       {
         "pole": "\u4e2d\u5366-dynamic",
-        "gloss": "center / mixture",
+        "gloss": "Taiji \u00b7 variegated",
         "phoneme": "m",
         "mean_z": 0.653,
         "n_langs": 21,
@@ -106617,7 +106617,7 @@
       },
       {
         "pole": "\u9707\u5366-dynamic",
-        "gloss": "thunder / rising",
+        "gloss": "Zhen \u00b7 rise",
         "phoneme": "\u0259",
         "mean_z": 0.479,
         "n_langs": 10,
@@ -106630,7 +106630,7 @@
       },
       {
         "pole": "\u5764\u5366-dynamic",
-        "gloss": "earth / stillness",
+        "gloss": "Kun \u00b7 still",
         "phoneme": "\u028a",
         "mean_z": 0.397,
         "n_langs": 8,
@@ -106643,7 +106643,7 @@
       },
       {
         "pole": "\u96e2\u5366-dynamic",
-        "gloss": "fire / contraction",
+        "gloss": "Li \u00b7 attach",
         "phoneme": "\u025b",
         "mean_z": 0.355,
         "n_langs": 16,
@@ -106656,7 +106656,7 @@
       },
       {
         "pole": "\u96e2\u5366-dynamic",
-        "gloss": "fire / contraction",
+        "gloss": "Li \u00b7 attach",
         "phoneme": "\u0261",
         "mean_z": -0.279,
         "n_langs": 18,
@@ -106669,7 +106669,7 @@
       },
       {
         "pole": "\u5764\u5366-dynamic",
-        "gloss": "earth / stillness",
+        "gloss": "Kun \u00b7 still",
         "phoneme": "a",
         "mean_z": -0.265,
         "n_langs": 21,
@@ -106682,7 +106682,7 @@
       },
       {
         "pole": "\u5dfd\u5366-static",
-        "gloss": "wind / detachment",
+        "gloss": "Xun \u00b7 airy",
         "phoneme": "z",
         "mean_z": 1.114,
         "n_langs": 5,
@@ -106695,7 +106695,7 @@
       },
       {
         "pole": "\u5764\u5366-dynamic",
-        "gloss": "earth / stillness",
+        "gloss": "Kun \u00b7 still",
         "phoneme": "a\u0361\u028a",
         "mean_z": 0.584,
         "n_langs": 6,
@@ -106708,7 +106708,7 @@
       },
       {
         "pole": "\u826e\u5366-dynamic",
-        "gloss": "mountain / descent",
+        "gloss": "Gen \u00b7 fall",
         "phoneme": "a\u0361\u026a",
         "mean_z": 0.53,
         "n_langs": 5,
@@ -106721,7 +106721,7 @@
       },
       {
         "pole": "\u4e7e\u5366-static",
-        "gloss": "sky / fullness",
+        "gloss": "Qian \u00b7 multiple",
         "phoneme": "h",
         "mean_z": 0.445,
         "n_langs": 16,
@@ -106734,7 +106734,7 @@
       },
       {
         "pole": "\u5764\u5366-static",
-        "gloss": "earth / void",
+        "gloss": "Kun \u00b7 empty",
         "phoneme": "a",
         "mean_z": 0.35,
         "n_langs": 21,
@@ -106747,7 +106747,7 @@
       },
       {
         "pole": "\u96e2\u5366-static",
-        "gloss": "fire / enclosure",
+        "gloss": "Li \u00b7 contain",
         "phoneme": "\u0254",
         "mean_z": 1.155,
         "n_langs": 5,
@@ -106760,7 +106760,7 @@
       },
       {
         "pole": "\u4e2d\u5366-static",
-        "gloss": "center / uniformity",
+        "gloss": "Taiji \u00b7 monotonous",
         "phoneme": "y",
         "mean_z": 1.009,
         "n_langs": 5,
@@ -106773,7 +106773,7 @@
       },
       {
         "pole": "\u4e2d\u5366-static",
-        "gloss": "center / uniformity",
+        "gloss": "Taiji \u00b7 monotonous",
         "phoneme": "w",
         "mean_z": 0.999,
         "n_langs": 6,
@@ -106786,7 +106786,7 @@
       },
       {
         "pole": "\u4e7e\u5366-dynamic",
-        "gloss": "sky / tumult",
+        "gloss": "Qian \u00b7 vibrant",
         "phoneme": "j",
         "mean_z": 0.892,
         "n_langs": 8,
@@ -106799,7 +106799,7 @@
       },
       {
         "pole": "\u96e2\u5366-static",
-        "gloss": "fire / enclosure",
+        "gloss": "Li \u00b7 contain",
         "phoneme": "r",
         "mean_z": 0.784,
         "n_langs": 13,
@@ -106812,7 +106812,7 @@
       },
       {
         "pole": "\u574e\u5366-dynamic",
-        "gloss": "water / dispersal",
+        "gloss": "Kan \u00b7 radiate",
         "phoneme": "\u028a",
         "mean_z": 0.733,
         "n_langs": 7,
@@ -106825,7 +106825,7 @@
       },
       {
         "pole": "\u9707\u5366-dynamic",
-        "gloss": "thunder / rising",
+        "gloss": "Zhen \u00b7 rise",
         "phoneme": "t\u0361s",
         "mean_z": 0.663,
         "n_langs": 6,
@@ -106838,7 +106838,7 @@
       },
       {
         "pole": "\u4e2d\u5366-dynamic",
-        "gloss": "center / mixture",
+        "gloss": "Taiji \u00b7 variegated",
         "phoneme": "k",
         "mean_z": 0.604,
         "n_langs": 20,
@@ -106851,7 +106851,7 @@
       },
       {
         "pole": "\u5764\u5366-static",
-        "gloss": "earth / void",
+        "gloss": "Kun \u00b7 empty",
         "phoneme": "h",
         "mean_z": 0.375,
         "n_langs": 13,
@@ -106864,7 +106864,7 @@
       },
       {
         "pole": "\u5dfd\u5366-dynamic",
-        "gloss": "wind / seepage",
+        "gloss": "Xun \u00b7 leak",
         "phoneme": "o",
         "mean_z": 1.034,
         "n_langs": 10,
@@ -106877,7 +106877,7 @@
       },
       {
         "pole": "\u96e2\u5366-static",
-        "gloss": "fire / enclosure",
+        "gloss": "Li \u00b7 contain",
         "phoneme": "m",
         "mean_z": 0.706,
         "n_langs": 19,
@@ -106890,7 +106890,7 @@
       },
       {
         "pole": "\u5dfd\u5366-static",
-        "gloss": "wind / detachment",
+        "gloss": "Xun \u00b7 airy",
         "phoneme": "a",
         "mean_z": 0.58,
         "n_langs": 19,
@@ -106903,7 +106903,7 @@
       },
       {
         "pole": "\u4e2d\u5366-static",
-        "gloss": "center / uniformity",
+        "gloss": "Taiji \u00b7 monotonous",
         "phoneme": "i",
         "mean_z": 0.503,
         "n_langs": 21,
@@ -106916,7 +106916,7 @@
       },
       {
         "pole": "\u574e\u5366-dynamic",
-        "gloss": "water / dispersal",
+        "gloss": "Kan \u00b7 radiate",
         "phoneme": "t",
         "mean_z": -0.421,
         "n_langs": 20,
@@ -106929,7 +106929,7 @@
       },
       {
         "pole": "\u5764\u5366-dynamic",
-        "gloss": "earth / stillness",
+        "gloss": "Kun \u00b7 still",
         "phoneme": "v",
         "mean_z": 0.308,
         "n_langs": 14,
@@ -106942,7 +106942,7 @@
       },
       {
         "pole": "\u514c\u5366-dynamic",
-        "gloss": "marsh / emission",
+        "gloss": "Dui \u00b7 express",
         "phoneme": "t",
         "mean_z": -0.256,
         "n_langs": 22,
@@ -106955,7 +106955,7 @@
       },
       {
         "pole": "\u96e2\u5366-dynamic",
-        "gloss": "fire / contraction",
+        "gloss": "Li \u00b7 attach",
         "phoneme": "p",
         "mean_z": 0.249,
         "n_langs": 20,
@@ -106968,7 +106968,7 @@
       },
       {
         "pole": "\u5dfd\u5366-static",
-        "gloss": "wind / detachment",
+        "gloss": "Xun \u00b7 airy",
         "phoneme": "l",
         "mean_z": 0.531,
         "n_langs": 20,
@@ -106981,7 +106981,7 @@
       },
       {
         "pole": "\u4e7e\u5366-static",
-        "gloss": "sky / fullness",
+        "gloss": "Qian \u00b7 multiple",
         "phoneme": "z",
         "mean_z": 0.492,
         "n_langs": 12,
@@ -106994,7 +106994,7 @@
       },
       {
         "pole": "\u826e\u5366-dynamic",
-        "gloss": "mountain / descent",
+        "gloss": "Gen \u00b7 fall",
         "phoneme": "\u028a",
         "mean_z": 0.401,
         "n_langs": 8,
@@ -107007,7 +107007,7 @@
       },
       {
         "pole": "\u4e7e\u5366-static",
-        "gloss": "sky / fullness",
+        "gloss": "Qian \u00b7 multiple",
         "phoneme": "u",
         "mean_z": 0.37,
         "n_langs": 19,
@@ -107020,7 +107020,7 @@
       },
       {
         "pole": "\u574e\u5366-static",
-        "gloss": "water / core",
+        "gloss": "Kan \u00b7 occupy",
         "phoneme": "w",
         "mean_z": 0.365,
         "n_langs": 12,
@@ -107033,7 +107033,7 @@
       },
       {
         "pole": "\u5764\u5366-static",
-        "gloss": "earth / void",
+        "gloss": "Kun \u00b7 empty",
         "phoneme": "j",
         "mean_z": 0.364,
         "n_langs": 16,
@@ -107046,7 +107046,7 @@
       },
       {
         "pole": "\u9707\u5366-static",
-        "gloss": "thunder / base",
+        "gloss": "Zhen \u00b7 load",
         "phoneme": "\u0283",
         "mean_z": 0.352,
         "n_langs": 12,
@@ -107059,7 +107059,7 @@
       },
       {
         "pole": "\u5764\u5366-dynamic",
-        "gloss": "earth / stillness",
+        "gloss": "Kun \u00b7 still",
         "phoneme": "j",
         "mean_z": 0.243,
         "n_langs": 20,
@@ -107072,7 +107072,7 @@
       },
       {
         "pole": "\u826e\u5366-dynamic",
-        "gloss": "mountain / descent",
+        "gloss": "Gen \u00b7 fall",
         "phoneme": "s",
         "mean_z": -0.241,
         "n_langs": 22,
@@ -107085,7 +107085,7 @@
       },
       {
         "pole": "\u826e\u5366-static",
-        "gloss": "mountain / cover",
+        "gloss": "Gen \u00b7 constrain",
         "phoneme": "\u0261",
         "mean_z": 0.229,
         "n_langs": 17,
@@ -107098,7 +107098,7 @@
       },
       {
         "pole": "\u4e7e\u5366-static",
-        "gloss": "sky / fullness",
+        "gloss": "Qian \u00b7 multiple",
         "phoneme": "t\u0361s",
         "mean_z": 0.89,
         "n_langs": 5,
@@ -107111,7 +107111,7 @@
       },
       {
         "pole": "\u826e\u5366-dynamic",
-        "gloss": "mountain / descent",
+        "gloss": "Gen \u00b7 fall",
         "phoneme": "\u014b",
         "mean_z": 0.358,
         "n_langs": 10,
@@ -107124,7 +107124,7 @@
       },
       {
         "pole": "\u9707\u5366-dynamic",
-        "gloss": "thunder / rising",
+        "gloss": "Zhen \u00b7 rise",
         "phoneme": "o",
         "mean_z": -0.317,
         "n_langs": 19,
@@ -107137,7 +107137,7 @@
       },
       {
         "pole": "\u826e\u5366-static",
-        "gloss": "mountain / cover",
+        "gloss": "Gen \u00b7 constrain",
         "phoneme": "d",
         "mean_z": -0.257,
         "n_langs": 18,
@@ -107150,7 +107150,7 @@
       },
       {
         "pole": "\u5764\u5366-static",
-        "gloss": "earth / void",
+        "gloss": "Kun \u00b7 empty",
         "phoneme": "\u0272",
         "mean_z": 0.576,
         "n_langs": 6,
@@ -107163,7 +107163,7 @@
       },
       {
         "pole": "\u4e2d\u5366-dynamic",
-        "gloss": "center / mixture",
+        "gloss": "Taiji \u00b7 variegated",
         "phoneme": "d",
         "mean_z": 0.536,
         "n_langs": 14,
@@ -107176,7 +107176,7 @@
       },
       {
         "pole": "\u574e\u5366-static",
-        "gloss": "water / core",
+        "gloss": "Kan \u00b7 occupy",
         "phoneme": "\u00f0",
         "mean_z": 0.509,
         "n_langs": 5,
@@ -107189,7 +107189,7 @@
       },
       {
         "pole": "\u9707\u5366-dynamic",
-        "gloss": "thunder / rising",
+        "gloss": "Zhen \u00b7 rise",
         "phoneme": "j",
         "mean_z": 0.326,
         "n_langs": 18,
@@ -107202,7 +107202,7 @@
       },
       {
         "pole": "\u574e\u5366-static",
-        "gloss": "water / core",
+        "gloss": "Kan \u00b7 occupy",
         "phoneme": "j",
         "mean_z": -0.264,
         "n_langs": 18,
@@ -107215,7 +107215,7 @@
       },
       {
         "pole": "\u96e2\u5366-static",
-        "gloss": "fire / enclosure",
+        "gloss": "Li \u00b7 contain",
         "phoneme": "l",
         "mean_z": 0.66,
         "n_langs": 15,
@@ -107228,7 +107228,7 @@
       },
       {
         "pole": "\u826e\u5366-static",
-        "gloss": "mountain / cover",
+        "gloss": "Gen \u00b7 constrain",
         "phoneme": "v",
         "mean_z": -0.255,
         "n_langs": 14,
@@ -107241,7 +107241,7 @@
       },
       {
         "pole": "\u5764\u5366-dynamic",
-        "gloss": "earth / stillness",
+        "gloss": "Kun \u00b7 still",
         "phoneme": "h",
         "mean_z": 0.244,
         "n_langs": 16,
@@ -107254,7 +107254,7 @@
       },
       {
         "pole": "\u5dfd\u5366-dynamic",
-        "gloss": "wind / seepage",
+        "gloss": "Xun \u00b7 leak",
         "phoneme": "s",
         "mean_z": 0.708,
         "n_langs": 14,
@@ -107267,7 +107267,7 @@
       },
       {
         "pole": "\u574e\u5366-static",
-        "gloss": "water / core",
+        "gloss": "Kan \u00b7 occupy",
         "phoneme": "t\u0361s",
         "mean_z": 0.527,
         "n_langs": 5,
@@ -107280,7 +107280,7 @@
       },
       {
         "pole": "\u826e\u5366-static",
-        "gloss": "mountain / cover",
+        "gloss": "Gen \u00b7 constrain",
         "phoneme": "\u00f8",
         "mean_z": 0.503,
         "n_langs": 5,
@@ -107293,7 +107293,7 @@
       },
       {
         "pole": "\u96e2\u5366-dynamic",
-        "gloss": "fire / contraction",
+        "gloss": "Li \u00b7 attach",
         "phoneme": "\u0272",
         "mean_z": 0.403,
         "n_langs": 6,
@@ -107306,7 +107306,7 @@
       },
       {
         "pole": "\u9707\u5366-dynamic",
-        "gloss": "thunder / rising",
+        "gloss": "Zhen \u00b7 rise",
         "phoneme": "w",
         "mean_z": 0.391,
         "n_langs": 11,
@@ -107319,7 +107319,7 @@
       },
       {
         "pole": "\u9707\u5366-dynamic",
-        "gloss": "thunder / rising",
+        "gloss": "Zhen \u00b7 rise",
         "phoneme": "\u0283",
         "mean_z": 0.361,
         "n_langs": 11,
@@ -107332,7 +107332,7 @@
       },
       {
         "pole": "\u96e2\u5366-dynamic",
-        "gloss": "fire / contraction",
+        "gloss": "Li \u00b7 attach",
         "phoneme": "\u0254",
         "mean_z": -0.331,
         "n_langs": 10,
@@ -107345,7 +107345,7 @@
       },
       {
         "pole": "\u9707\u5366-static",
-        "gloss": "thunder / base",
+        "gloss": "Zhen \u00b7 load",
         "phoneme": "o",
         "mean_z": 0.225,
         "n_langs": 19,
@@ -107358,7 +107358,7 @@
       },
       {
         "pole": "\u5dfd\u5366-static",
-        "gloss": "wind / detachment",
+        "gloss": "Xun \u00b7 airy",
         "phoneme": "\u014b",
         "mean_z": 0.866,
         "n_langs": 5,
@@ -107371,7 +107371,7 @@
       },
       {
         "pole": "\u4e2d\u5366-dynamic",
-        "gloss": "center / mixture",
+        "gloss": "Taiji \u00b7 variegated",
         "phoneme": "e",
         "mean_z": 0.491,
         "n_langs": 16,
@@ -107384,7 +107384,7 @@
       },
       {
         "pole": "\u9707\u5366-dynamic",
-        "gloss": "thunder / rising",
+        "gloss": "Zhen \u00b7 rise",
         "phoneme": "x",
         "mean_z": 0.472,
         "n_langs": 7,
@@ -107397,7 +107397,7 @@
       },
       {
         "pole": "\u96e2\u5366-dynamic",
-        "gloss": "fire / contraction",
+        "gloss": "Li \u00b7 attach",
         "phoneme": "c",
         "mean_z": 0.4,
         "n_langs": 5,
@@ -107410,7 +107410,7 @@
       },
       {
         "pole": "\u826e\u5366-dynamic",
-        "gloss": "mountain / descent",
+        "gloss": "Gen \u00b7 fall",
         "phoneme": "i",
         "mean_z": -0.246,
         "n_langs": 22,
@@ -107423,7 +107423,7 @@
       },
       {
         "pole": "\u96e2\u5366-static",
-        "gloss": "fire / enclosure",
+        "gloss": "Li \u00b7 contain",
         "phoneme": "v",
         "mean_z": 1.122,
         "n_langs": 5,
@@ -107436,7 +107436,7 @@
       },
       {
         "pole": "\u4e7e\u5366-dynamic",
-        "gloss": "sky / tumult",
+        "gloss": "Qian \u00b7 vibrant",
         "phoneme": "\u0283",
         "mean_z": 0.937,
         "n_langs": 6,
@@ -107449,7 +107449,7 @@
       },
       {
         "pole": "\u574e\u5366-dynamic",
-        "gloss": "water / dispersal",
+        "gloss": "Kan \u00b7 radiate",
         "phoneme": "w",
         "mean_z": 0.67,
         "n_langs": 6,
@@ -107462,7 +107462,7 @@
       },
       {
         "pole": "\u4e7e\u5366-dynamic",
-        "gloss": "sky / tumult",
+        "gloss": "Qian \u00b7 vibrant",
         "phoneme": "i",
         "mean_z": 0.55,
         "n_langs": 19,
@@ -107475,7 +107475,7 @@
       },
       {
         "pole": "\u5764\u5366-static",
-        "gloss": "earth / void",
+        "gloss": "Kun \u00b7 empty",
         "phoneme": "l",
         "mean_z": -0.272,
         "n_langs": 20,
@@ -107488,7 +107488,7 @@
       },
       {
         "pole": "\u5764\u5366-dynamic",
-        "gloss": "earth / stillness",
+        "gloss": "Kun \u00b7 still",
         "phoneme": "m",
         "mean_z": -0.184,
         "n_langs": 22,
@@ -107501,7 +107501,7 @@
       },
       {
         "pole": "\u514c\u5366-static",
-        "gloss": "marsh / cavity",
+        "gloss": "Dui \u00b7 broken",
         "phoneme": "k",
         "mean_z": 0.619,
         "n_langs": 17,
@@ -107514,7 +107514,7 @@
       },
       {
         "pole": "\u826e\u5366-static",
-        "gloss": "mountain / cover",
+        "gloss": "Gen \u00b7 constrain",
         "phoneme": "n",
         "mean_z": -0.209,
         "n_langs": 22,
@@ -107527,7 +107527,7 @@
       },
       {
         "pole": "\u9707\u5366-static",
-        "gloss": "thunder / base",
+        "gloss": "Zhen \u00b7 load",
         "phoneme": "k",
         "mean_z": 0.207,
         "n_langs": 22,
@@ -107540,7 +107540,7 @@
       },
       {
         "pole": "\u826e\u5366-static",
-        "gloss": "mountain / cover",
+        "gloss": "Gen \u00b7 constrain",
         "phoneme": "\u026a",
         "mean_z": -0.305,
         "n_langs": 9,
@@ -107553,7 +107553,7 @@
       },
       {
         "pole": "\u5764\u5366-dynamic",
-        "gloss": "earth / stillness",
+        "gloss": "Kun \u00b7 still",
         "phoneme": "\u026a",
         "mean_z": -0.283,
         "n_langs": 10,
@@ -107566,7 +107566,7 @@
       },
       {
         "pole": "\u5dfd\u5366-static",
-        "gloss": "wind / detachment",
+        "gloss": "Xun \u00b7 airy",
         "phoneme": "\u0251",
         "mean_z": 1.036,
         "n_langs": 6,
@@ -107579,7 +107579,7 @@
       },
       {
         "pole": "\u5dfd\u5366-static",
-        "gloss": "wind / detachment",
+        "gloss": "Xun \u00b7 airy",
         "phoneme": "n",
         "mean_z": 0.448,
         "n_langs": 21,
@@ -107592,7 +107592,7 @@
       },
       {
         "pole": "\u826e\u5366-static",
-        "gloss": "mountain / cover",
+        "gloss": "Gen \u00b7 constrain",
         "phoneme": "\u025b",
         "mean_z": 0.256,
         "n_langs": 15,
@@ -107605,7 +107605,7 @@
       },
       {
         "pole": "\u514c\u5366-static",
-        "gloss": "marsh / cavity",
+        "gloss": "Dui \u00b7 broken",
         "phoneme": "\u0254",
         "mean_z": 1.106,
         "n_langs": 5,
@@ -107618,7 +107618,7 @@
       },
       {
         "pole": "\u4e2d\u5366-static",
-        "gloss": "center / uniformity",
+        "gloss": "Taiji \u00b7 monotonous",
         "phoneme": "x",
         "mean_z": 0.892,
         "n_langs": 5,
@@ -107631,7 +107631,7 @@
       },
       {
         "pole": "\u4e2d\u5366-dynamic",
-        "gloss": "center / mixture",
+        "gloss": "Taiji \u00b7 variegated",
         "phoneme": "y",
         "mean_z": 0.768,
         "n_langs": 7,
@@ -107644,7 +107644,7 @@
       },
       {
         "pole": "\u96e2\u5366-static",
-        "gloss": "fire / enclosure",
+        "gloss": "Li \u00b7 contain",
         "phoneme": "b",
         "mean_z": 0.768,
         "n_langs": 8,
@@ -107657,7 +107657,7 @@
       },
       {
         "pole": "\u826e\u5366-dynamic",
-        "gloss": "mountain / descent",
+        "gloss": "Gen \u00b7 fall",
         "phoneme": "\u026a",
         "mean_z": -0.293,
         "n_langs": 10,
@@ -107670,7 +107670,7 @@
       },
       {
         "pole": "\u9707\u5366-dynamic",
-        "gloss": "thunder / rising",
+        "gloss": "Zhen \u00b7 rise",
         "phoneme": "l",
         "mean_z": -0.236,
         "n_langs": 20,
@@ -107683,7 +107683,7 @@
       },
       {
         "pole": "\u574e\u5366-static",
-        "gloss": "water / core",
+        "gloss": "Kan \u00b7 occupy",
         "phoneme": "d",
         "mean_z": 0.233,
         "n_langs": 19,
@@ -107696,7 +107696,7 @@
       },
       {
         "pole": "\u9707\u5366-static",
-        "gloss": "thunder / base",
+        "gloss": "Zhen \u00b7 load",
         "phoneme": "a",
         "mean_z": 0.181,
         "n_langs": 21,
@@ -107709,7 +107709,7 @@
       },
       {
         "pole": "\u96e2\u5366-dynamic",
-        "gloss": "fire / contraction",
+        "gloss": "Li \u00b7 attach",
         "phoneme": "\u00f0",
         "mean_z": 0.472,
         "n_langs": 6,
@@ -107722,7 +107722,7 @@
       },
       {
         "pole": "\u4e2d\u5366-static",
-        "gloss": "center / uniformity",
+        "gloss": "Taiji \u00b7 monotonous",
         "phoneme": "a",
         "mean_z": -0.38,
         "n_langs": 21,
@@ -107735,7 +107735,7 @@
       },
       {
         "pole": "\u826e\u5366-static",
-        "gloss": "mountain / cover",
+        "gloss": "Gen \u00b7 constrain",
         "phoneme": "z",
         "mean_z": -0.227,
         "n_langs": 13,
@@ -107748,7 +107748,7 @@
       },
       {
         "pole": "\u826e\u5366-static",
-        "gloss": "mountain / cover",
+        "gloss": "Gen \u00b7 constrain",
         "phoneme": "j",
         "mean_z": -0.214,
         "n_langs": 18,
@@ -107761,7 +107761,7 @@
       },
       {
         "pole": "\u4e2d\u5366-static",
-        "gloss": "center / uniformity",
+        "gloss": "Taiji \u00b7 monotonous",
         "phoneme": "\u0283",
         "mean_z": 0.534,
         "n_langs": 8,
@@ -107774,7 +107774,7 @@
       },
       {
         "pole": "\u574e\u5366-dynamic",
-        "gloss": "water / dispersal",
+        "gloss": "Kan \u00b7 radiate",
         "phoneme": "k",
         "mean_z": 0.276,
         "n_langs": 21,
@@ -107787,7 +107787,7 @@
       },
       {
         "pole": "\u5dfd\u5366-static",
-        "gloss": "wind / detachment",
+        "gloss": "Xun \u00b7 airy",
         "phoneme": "h",
         "mean_z": 0.657,
         "n_langs": 8,
@@ -107800,7 +107800,7 @@
       },
       {
         "pole": "\u574e\u5366-dynamic",
-        "gloss": "water / dispersal",
+        "gloss": "Kan \u00b7 radiate",
         "phoneme": "\u0254",
         "mean_z": 0.495,
         "n_langs": 8,
@@ -107813,7 +107813,7 @@
       },
       {
         "pole": "\u96e2\u5366-dynamic",
-        "gloss": "fire / contraction",
+        "gloss": "Li \u00b7 attach",
         "phoneme": "d\u0361\u0292",
         "mean_z": -0.377,
         "n_langs": 6,
@@ -107826,7 +107826,7 @@
       },
       {
         "pole": "\u5764\u5366-dynamic",
-        "gloss": "earth / stillness",
+        "gloss": "Kun \u00b7 still",
         "phoneme": "c",
         "mean_z": 0.376,
         "n_langs": 6,
@@ -107839,7 +107839,7 @@
       },
       {
         "pole": "\u826e\u5366-static",
-        "gloss": "mountain / cover",
+        "gloss": "Gen \u00b7 constrain",
         "phoneme": "r",
         "mean_z": -0.247,
         "n_langs": 16,
@@ -107852,7 +107852,7 @@
       },
       {
         "pole": "\u826e\u5366-static",
-        "gloss": "mountain / cover",
+        "gloss": "Gen \u00b7 constrain",
         "phoneme": "h",
         "mean_z": -0.218,
         "n_langs": 16,
@@ -107865,7 +107865,7 @@
       },
       {
         "pole": "\u514c\u5366-static",
-        "gloss": "marsh / cavity",
+        "gloss": "Dui \u00b7 broken",
         "phoneme": "\u0283",
         "mean_z": 1.142,
         "n_langs": 5,
@@ -107878,7 +107878,7 @@
       },
       {
         "pole": "\u514c\u5366-static",
-        "gloss": "marsh / cavity",
+        "gloss": "Dui \u00b7 broken",
         "phoneme": "d",
         "mean_z": 0.75,
         "n_langs": 8,
@@ -107891,7 +107891,7 @@
       },
       {
         "pole": "\u96e2\u5366-dynamic",
-        "gloss": "fire / contraction",
+        "gloss": "Li \u00b7 attach",
         "phoneme": "a\u0361\u026a",
         "mean_z": 0.411,
         "n_langs": 7,
@@ -107904,7 +107904,7 @@
       },
       {
         "pole": "\u4e2d\u5366-static",
-        "gloss": "center / uniformity",
+        "gloss": "Taiji \u00b7 monotonous",
         "phoneme": "\u0251",
         "mean_z": -0.714,
         "n_langs": 6,
@@ -107917,7 +107917,7 @@
       },
       {
         "pole": "\u826e\u5366-static",
-        "gloss": "mountain / cover",
+        "gloss": "Gen \u00b7 constrain",
         "phoneme": "t\u0361\u0283",
         "mean_z": 0.27,
         "n_langs": 10,
@@ -107930,7 +107930,7 @@
       },
       {
         "pole": "\u96e2\u5366-dynamic",
-        "gloss": "fire / contraction",
+        "gloss": "Li \u00b7 attach",
         "phoneme": "\u0259",
         "mean_z": 0.26,
         "n_langs": 11,
@@ -107943,7 +107943,7 @@
       },
       {
         "pole": "\u5764\u5366-static",
-        "gloss": "earth / void",
+        "gloss": "Kun \u00b7 empty",
         "phoneme": "i",
         "mean_z": 0.229,
         "n_langs": 22,
@@ -107956,7 +107956,7 @@
       },
       {
         "pole": "\u96e2\u5366-dynamic",
-        "gloss": "fire / contraction",
+        "gloss": "Li \u00b7 attach",
         "phoneme": "b",
         "mean_z": -0.182,
         "n_langs": 20,
@@ -107969,7 +107969,7 @@
       },
       {
         "pole": "\u5dfd\u5366-dynamic",
-        "gloss": "wind / seepage",
+        "gloss": "Xun \u00b7 leak",
         "phoneme": "m",
         "mean_z": 0.691,
         "n_langs": 12,
@@ -107982,7 +107982,7 @@
       },
       {
         "pole": "\u826e\u5366-static",
-        "gloss": "mountain / cover",
+        "gloss": "Gen \u00b7 constrain",
         "phoneme": "\u028a",
         "mean_z": 0.32,
         "n_langs": 7,
@@ -107995,7 +107995,7 @@
       },
       {
         "pole": "\u9707\u5366-static",
-        "gloss": "thunder / base",
+        "gloss": "Zhen \u00b7 load",
         "phoneme": "\u0259",
         "mean_z": -0.269,
         "n_langs": 10,
@@ -108008,7 +108008,7 @@
       },
       {
         "pole": "\u9707\u5366-static",
-        "gloss": "thunder / base",
+        "gloss": "Zhen \u00b7 load",
         "phoneme": "y",
         "mean_z": -0.267,
         "n_langs": 8,
@@ -108021,7 +108021,7 @@
       },
       {
         "pole": "\u5764\u5366-dynamic",
-        "gloss": "earth / stillness",
+        "gloss": "Kun \u00b7 still",
         "phoneme": "t\u0361\u0283",
         "mean_z": -0.264,
         "n_langs": 10,
@@ -108034,7 +108034,7 @@
       },
       {
         "pole": "\u4e2d\u5366-dynamic",
-        "gloss": "center / mixture",
+        "gloss": "Taiji \u00b7 variegated",
         "phoneme": "v",
         "mean_z": 0.659,
         "n_langs": 7,
@@ -108047,7 +108047,7 @@
       },
       {
         "pole": "\u5dfd\u5366-static",
-        "gloss": "wind / detachment",
+        "gloss": "Xun \u00b7 airy",
         "phoneme": "\u0254",
         "mean_z": 0.647,
         "n_langs": 7,
@@ -108060,7 +108060,7 @@
       },
       {
         "pole": "\u4e7e\u5366-static",
-        "gloss": "sky / fullness",
+        "gloss": "Qian \u00b7 multiple",
         "phoneme": "\u026a",
         "mean_z": 0.413,
         "n_langs": 11,
@@ -108073,7 +108073,7 @@
       },
       {
         "pole": "\u4e7e\u5366-dynamic",
-        "gloss": "sky / tumult",
+        "gloss": "Qian \u00b7 vibrant",
         "phoneme": "\u027e",
         "mean_z": 0.866,
         "n_langs": 5,
@@ -108086,7 +108086,7 @@
       },
       {
         "pole": "\u574e\u5366-static",
-        "gloss": "water / core",
+        "gloss": "Kan \u00b7 occupy",
         "phoneme": "n",
         "mean_z": 0.19,
         "n_langs": 22,
@@ -108099,7 +108099,7 @@
       },
       {
         "pole": "\u96e2\u5366-dynamic",
-        "gloss": "fire / contraction",
+        "gloss": "Li \u00b7 attach",
         "phoneme": "\u028a",
         "mean_z": -0.318,
         "n_langs": 7,
@@ -108112,7 +108112,7 @@
       },
       {
         "pole": "\u826e\u5366-dynamic",
-        "gloss": "mountain / descent",
+        "gloss": "Gen \u00b7 fall",
         "phoneme": "w",
         "mean_z": 0.239,
         "n_langs": 11,
@@ -108125,7 +108125,7 @@
       },
       {
         "pole": "\u5764\u5366-static",
-        "gloss": "earth / void",
+        "gloss": "Kun \u00b7 empty",
         "phoneme": "u",
         "mean_z": -0.21,
         "n_langs": 20,
@@ -108138,7 +108138,7 @@
       },
       {
         "pole": "\u5764\u5366-dynamic",
-        "gloss": "earth / stillness",
+        "gloss": "Kun \u00b7 still",
         "phoneme": "f",
         "mean_z": -0.2,
         "n_langs": 16,
@@ -108151,7 +108151,7 @@
       },
       {
         "pole": "\u96e2\u5366-dynamic",
-        "gloss": "fire / contraction",
+        "gloss": "Li \u00b7 attach",
         "phoneme": "d",
         "mean_z": 0.194,
         "n_langs": 19,
@@ -108164,7 +108164,7 @@
       },
       {
         "pole": "\u4e2d\u5366-dynamic",
-        "gloss": "center / mixture",
+        "gloss": "Taiji \u00b7 variegated",
         "phoneme": "\u0261",
         "mean_z": 0.515,
         "n_langs": 9,
@@ -108177,7 +108177,7 @@
       },
       {
         "pole": "\u5dfd\u5366-static",
-        "gloss": "wind / detachment",
+        "gloss": "Xun \u00b7 airy",
         "phoneme": "u",
         "mean_z": 0.389,
         "n_langs": 16,
@@ -108190,7 +108190,7 @@
       },
       {
         "pole": "\u96e2\u5366-dynamic",
-        "gloss": "fire / contraction",
+        "gloss": "Li \u00b7 attach",
         "phoneme": "z",
         "mean_z": 0.23,
         "n_langs": 14,
@@ -108203,7 +108203,7 @@
       },
       {
         "pole": "\u5764\u5366-dynamic",
-        "gloss": "earth / stillness",
+        "gloss": "Kun \u00b7 still",
         "phoneme": "d",
         "mean_z": 0.167,
         "n_langs": 19,
@@ -108216,7 +108216,7 @@
       },
       {
         "pole": "\u5dfd\u5366-dynamic",
-        "gloss": "wind / seepage",
+        "gloss": "Xun \u00b7 leak",
         "phoneme": "p",
         "mean_z": 0.769,
         "n_langs": 7,
@@ -108229,7 +108229,7 @@
       },
       {
         "pole": "\u574e\u5366-dynamic",
-        "gloss": "water / dispersal",
+        "gloss": "Kan \u00b7 radiate",
         "phoneme": "b",
         "mean_z": 0.354,
         "n_langs": 14,
@@ -108242,7 +108242,7 @@
       },
       {
         "pole": "\u5764\u5366-dynamic",
-        "gloss": "earth / stillness",
+        "gloss": "Kun \u00b7 still",
         "phoneme": "y",
         "mean_z": 0.232,
         "n_langs": 8,
@@ -108255,7 +108255,7 @@
       },
       {
         "pole": "\u5764\u5366-dynamic",
-        "gloss": "earth / stillness",
+        "gloss": "Kun \u00b7 still",
         "phoneme": "\u014b",
         "mean_z": 0.223,
         "n_langs": 11,
@@ -108268,7 +108268,7 @@
       },
       {
         "pole": "\u514c\u5366-static",
-        "gloss": "marsh / cavity",
+        "gloss": "Dui \u00b7 broken",
         "phoneme": "\u026a",
         "mean_z": 0.948,
         "n_langs": 6,
@@ -108281,7 +108281,7 @@
       },
       {
         "pole": "\u4e7e\u5366-static",
-        "gloss": "sky / fullness",
+        "gloss": "Qian \u00b7 multiple",
         "phoneme": "p",
         "mean_z": -0.294,
         "n_langs": 19,
@@ -108294,7 +108294,7 @@
       },
       {
         "pole": "\u574e\u5366-dynamic",
-        "gloss": "water / dispersal",
+        "gloss": "Kan \u00b7 radiate",
         "phoneme": "n",
         "mean_z": -0.277,
         "n_langs": 22,
@@ -108307,7 +108307,7 @@
       },
       {
         "pole": "\u96e2\u5366-dynamic",
-        "gloss": "fire / contraction",
+        "gloss": "Li \u00b7 attach",
         "phoneme": "a",
         "mean_z": 0.154,
         "n_langs": 21,
@@ -108320,7 +108320,7 @@
       },
       {
         "pole": "\u96e2\u5366-static",
-        "gloss": "fire / enclosure",
+        "gloss": "Li \u00b7 contain",
         "phoneme": "z",
         "mean_z": 0.993,
         "n_langs": 5,
@@ -108333,7 +108333,7 @@
       },
       {
         "pole": "\u514c\u5366-static",
-        "gloss": "marsh / cavity",
+        "gloss": "Dui \u00b7 broken",
         "phoneme": "s",
         "mean_z": 0.601,
         "n_langs": 14,
@@ -108346,7 +108346,7 @@
       },
       {
         "pole": "\u5764\u5366-static",
-        "gloss": "earth / void",
+        "gloss": "Kun \u00b7 empty",
         "phoneme": "e",
         "mean_z": -0.233,
         "n_langs": 18,
@@ -108359,7 +108359,7 @@
       },
       {
         "pole": "\u514c\u5366-static",
-        "gloss": "marsh / cavity",
+        "gloss": "Dui \u00b7 broken",
         "phoneme": "p",
         "mean_z": 0.651,
         "n_langs": 11,
@@ -108372,7 +108372,7 @@
       },
       {
         "pole": "\u574e\u5366-static",
-        "gloss": "water / core",
+        "gloss": "Kan \u00b7 occupy",
         "phoneme": "r",
         "mean_z": 0.194,
         "n_langs": 16,
@@ -108385,7 +108385,7 @@
       },
       {
         "pole": "\u5dfd\u5366-static",
-        "gloss": "wind / detachment",
+        "gloss": "Xun \u00b7 airy",
         "phoneme": "w",
         "mean_z": 0.683,
         "n_langs": 5,
@@ -108398,7 +108398,7 @@
       },
       {
         "pole": "\u514c\u5366-static",
-        "gloss": "marsh / cavity",
+        "gloss": "Dui \u00b7 broken",
         "phoneme": "t",
         "mean_z": 0.489,
         "n_langs": 17,
@@ -108411,7 +108411,7 @@
       },
       {
         "pole": "\u574e\u5366-static",
-        "gloss": "water / core",
+        "gloss": "Kan \u00b7 occupy",
         "phoneme": "v",
         "mean_z": -0.217,
         "n_langs": 14,
@@ -108424,7 +108424,7 @@
       },
       {
         "pole": "\u514c\u5366-dynamic",
-        "gloss": "marsh / emission",
+        "gloss": "Dui \u00b7 express",
         "phoneme": "k",
         "mean_z": -0.17,
         "n_langs": 21,
@@ -108437,7 +108437,7 @@
       },
       {
         "pole": "\u514c\u5366-dynamic",
-        "gloss": "marsh / emission",
+        "gloss": "Dui \u00b7 express",
         "phoneme": "c",
         "mean_z": 0.319,
         "n_langs": 7,
@@ -108450,7 +108450,7 @@
       },
       {
         "pole": "\u574e\u5366-dynamic",
-        "gloss": "water / dispersal",
+        "gloss": "Kan \u00b7 radiate",
         "phoneme": "o",
         "mean_z": -0.289,
         "n_langs": 19,
@@ -108463,7 +108463,7 @@
       },
       {
         "pole": "\u9707\u5366-dynamic",
-        "gloss": "thunder / rising",
+        "gloss": "Zhen \u00b7 rise",
         "phoneme": "h",
         "mean_z": 0.254,
         "n_langs": 15,
@@ -108476,7 +108476,7 @@
       },
       {
         "pole": "\u826e\u5366-dynamic",
-        "gloss": "mountain / descent",
+        "gloss": "Gen \u00b7 fall",
         "phoneme": "v",
         "mean_z": -0.187,
         "n_langs": 14,
@@ -108489,7 +108489,7 @@
       },
       {
         "pole": "\u514c\u5366-dynamic",
-        "gloss": "marsh / emission",
+        "gloss": "Dui \u00b7 express",
         "phoneme": "u",
         "mean_z": -0.186,
         "n_langs": 21,
@@ -108502,7 +108502,7 @@
       },
       {
         "pole": "\u96e2\u5366-dynamic",
-        "gloss": "fire / contraction",
+        "gloss": "Li \u00b7 attach",
         "phoneme": "\u027e",
         "mean_z": 0.368,
         "n_langs": 5,
@@ -108515,7 +108515,7 @@
       },
       {
         "pole": "\u5764\u5366-dynamic",
-        "gloss": "earth / stillness",
+        "gloss": "Kun \u00b7 still",
         "phoneme": "\u00f0",
         "mean_z": 0.273,
         "n_langs": 6,
@@ -108528,7 +108528,7 @@
       },
       {
         "pole": "\u514c\u5366-dynamic",
-        "gloss": "marsh / emission",
+        "gloss": "Dui \u00b7 express",
         "phoneme": "\u026a",
         "mean_z": -0.26,
         "n_langs": 10,
@@ -108541,7 +108541,7 @@
       },
       {
         "pole": "\u514c\u5366-static",
-        "gloss": "marsh / cavity",
+        "gloss": "Dui \u00b7 broken",
         "phoneme": "a",
         "mean_z": -0.581,
         "n_langs": 15,
@@ -108554,7 +108554,7 @@
       },
       {
         "pole": "\u9707\u5366-dynamic",
-        "gloss": "thunder / rising",
+        "gloss": "Zhen \u00b7 rise",
         "phoneme": "\u026a",
         "mean_z": 0.282,
         "n_langs": 10,
@@ -108567,7 +108567,7 @@
       },
       {
         "pole": "\u574e\u5366-static",
-        "gloss": "water / core",
+        "gloss": "Kan \u00b7 occupy",
         "phoneme": "\u025b",
         "mean_z": 0.192,
         "n_langs": 16,
@@ -108580,7 +108580,7 @@
       },
       {
         "pole": "\u514c\u5366-static",
-        "gloss": "marsh / cavity",
+        "gloss": "Dui \u00b7 broken",
         "phoneme": "\u0261",
         "mean_z": 0.843,
         "n_langs": 5,
@@ -108593,7 +108593,7 @@
       },
       {
         "pole": "\u96e2\u5366-static",
-        "gloss": "fire / enclosure",
+        "gloss": "Li \u00b7 contain",
         "phoneme": "\u014b",
         "mean_z": 0.73,
         "n_langs": 5,
@@ -108606,7 +108606,7 @@
       },
       {
         "pole": "\u514c\u5366-dynamic",
-        "gloss": "marsh / emission",
+        "gloss": "Dui \u00b7 express",
         "phoneme": "\u0254",
         "mean_z": -0.246,
         "n_langs": 9,
@@ -108619,7 +108619,7 @@
       },
       {
         "pole": "\u514c\u5366-dynamic",
-        "gloss": "marsh / emission",
+        "gloss": "Dui \u00b7 express",
         "phoneme": "h",
         "mean_z": 0.205,
         "n_langs": 16,
@@ -108632,7 +108632,7 @@
       },
       {
         "pole": "\u5dfd\u5366-dynamic",
-        "gloss": "wind / seepage",
+        "gloss": "Xun \u00b7 leak",
         "phoneme": "\u0251",
         "mean_z": 0.816,
         "n_langs": 5,
@@ -108645,7 +108645,7 @@
       },
       {
         "pole": "\u5dfd\u5366-dynamic",
-        "gloss": "wind / seepage",
+        "gloss": "Xun \u00b7 leak",
         "phoneme": "\u0261",
         "mean_z": 0.781,
         "n_langs": 6,
@@ -108658,7 +108658,7 @@
       },
       {
         "pole": "\u5dfd\u5366-dynamic",
-        "gloss": "wind / seepage",
+        "gloss": "Xun \u00b7 leak",
         "phoneme": "r",
         "mean_z": 0.537,
         "n_langs": 12,
@@ -108671,7 +108671,7 @@
       },
       {
         "pole": "\u4e7e\u5366-dynamic",
-        "gloss": "sky / tumult",
+        "gloss": "Qian \u00b7 vibrant",
         "phoneme": "o",
         "mean_z": 0.509,
         "n_langs": 14,
@@ -108684,7 +108684,7 @@
       },
       {
         "pole": "\u514c\u5366-static",
-        "gloss": "marsh / cavity",
+        "gloss": "Dui \u00b7 broken",
         "phoneme": "i",
         "mean_z": 0.455,
         "n_langs": 19,
@@ -108697,7 +108697,7 @@
       },
       {
         "pole": "\u4e2d\u5366-dynamic",
-        "gloss": "center / mixture",
+        "gloss": "Taiji \u00b7 variegated",
         "phoneme": "u",
         "mean_z": 0.399,
         "n_langs": 12,
@@ -108710,7 +108710,7 @@
       },
       {
         "pole": "\u574e\u5366-dynamic",
-        "gloss": "water / dispersal",
+        "gloss": "Kan \u00b7 radiate",
         "phoneme": "\u0283",
         "mean_z": 0.388,
         "n_langs": 10,
@@ -108723,7 +108723,7 @@
       },
       {
         "pole": "\u574e\u5366-dynamic",
-        "gloss": "water / dispersal",
+        "gloss": "Kan \u00b7 radiate",
         "phoneme": "\u0261",
         "mean_z": 0.333,
         "n_langs": 13,
@@ -108736,7 +108736,7 @@
       },
       {
         "pole": "\u826e\u5366-dynamic",
-        "gloss": "mountain / descent",
+        "gloss": "Gen \u00b7 fall",
         "phoneme": "d\u0361\u0292",
         "mean_z": 0.31,
         "n_langs": 7,
@@ -108749,7 +108749,7 @@
       },
       {
         "pole": "\u826e\u5366-dynamic",
-        "gloss": "mountain / descent",
+        "gloss": "Gen \u00b7 fall",
         "phoneme": "\u03b8",
         "mean_z": 0.305,
         "n_langs": 5,
@@ -108762,7 +108762,7 @@
       },
       {
         "pole": "\u574e\u5366-static",
-        "gloss": "water / core",
+        "gloss": "Kan \u00b7 occupy",
         "phoneme": "x",
         "mean_z": 0.287,
         "n_langs": 6,
@@ -108775,7 +108775,7 @@
       },
       {
         "pole": "\u514c\u5366-dynamic",
-        "gloss": "marsh / emission",
+        "gloss": "Dui \u00b7 express",
         "phoneme": "\u0251",
         "mean_z": 0.274,
         "n_langs": 7,
@@ -108788,7 +108788,7 @@
       },
       {
         "pole": "\u574e\u5366-dynamic",
-        "gloss": "water / dispersal",
+        "gloss": "Kan \u00b7 radiate",
         "phoneme": "e",
         "mean_z": -0.266,
         "n_langs": 17,
@@ -108801,7 +108801,7 @@
       },
       {
         "pole": "\u574e\u5366-static",
-        "gloss": "water / core",
+        "gloss": "Kan \u00b7 occupy",
         "phoneme": "t\u0361\u0283",
         "mean_z": 0.211,
         "n_langs": 10,
@@ -108814,7 +108814,7 @@
       },
       {
         "pole": "\u514c\u5366-dynamic",
-        "gloss": "marsh / emission",
+        "gloss": "Dui \u00b7 express",
         "phoneme": "r",
         "mean_z": -0.194,
         "n_langs": 16,
@@ -108827,7 +108827,7 @@
       },
       {
         "pole": "\u574e\u5366-static",
-        "gloss": "water / core",
+        "gloss": "Kan \u00b7 occupy",
         "phoneme": "m",
         "mean_z": -0.168,
         "n_langs": 21,
@@ -108840,7 +108840,7 @@
       },
       {
         "pole": "\u5dfd\u5366-dynamic",
-        "gloss": "wind / seepage",
+        "gloss": "Xun \u00b7 leak",
         "phoneme": "t",
         "mean_z": 0.584,
         "n_langs": 11,
@@ -108853,7 +108853,7 @@
       },
       {
         "pole": "\u574e\u5366-dynamic",
-        "gloss": "water / dispersal",
+        "gloss": "Kan \u00b7 radiate",
         "phoneme": "\u0251",
         "mean_z": 0.46,
         "n_langs": 7,
@@ -108866,7 +108866,7 @@
       },
       {
         "pole": "\u826e\u5366-dynamic",
-        "gloss": "mountain / descent",
+        "gloss": "Gen \u00b7 fall",
         "phoneme": "c",
         "mean_z": 0.258,
         "n_langs": 7,
@@ -108879,7 +108879,7 @@
       },
       {
         "pole": "\u574e\u5366-static",
-        "gloss": "water / core",
+        "gloss": "Kan \u00b7 occupy",
         "phoneme": "y",
         "mean_z": -0.253,
         "n_langs": 7,
@@ -108892,7 +108892,7 @@
       },
       {
         "pole": "\u5764\u5366-static",
-        "gloss": "earth / void",
+        "gloss": "Kun \u00b7 empty",
         "phoneme": "k",
         "mean_z": -0.184,
         "n_langs": 22,
@@ -108905,7 +108905,7 @@
       },
       {
         "pole": "\u574e\u5366-dynamic",
-        "gloss": "water / dispersal",
+        "gloss": "Kan \u00b7 radiate",
         "phoneme": "\u0259",
         "mean_z": 0.34,
         "n_langs": 10,
@@ -108918,7 +108918,7 @@
       },
       {
         "pole": "\u574e\u5366-dynamic",
-        "gloss": "water / dispersal",
+        "gloss": "Kan \u00b7 radiate",
         "phoneme": "s",
         "mean_z": -0.247,
         "n_langs": 21,
@@ -108931,7 +108931,7 @@
       },
       {
         "pole": "\u826e\u5366-static",
-        "gloss": "mountain / cover",
+        "gloss": "Gen \u00b7 constrain",
         "phoneme": "m",
         "mean_z": -0.141,
         "n_langs": 22,
@@ -108944,7 +108944,7 @@
       },
       {
         "pole": "\u5dfd\u5366-static",
-        "gloss": "wind / detachment",
+        "gloss": "Xun \u00b7 airy",
         "phoneme": "\u026a",
         "mean_z": 0.588,
         "n_langs": 6,
@@ -108957,7 +108957,7 @@
       },
       {
         "pole": "\u9707\u5366-dynamic",
-        "gloss": "thunder / rising",
+        "gloss": "Zhen \u00b7 rise",
         "phoneme": "\u027e",
         "mean_z": 0.347,
         "n_langs": 6,
@@ -108970,7 +108970,7 @@
       },
       {
         "pole": "\u5764\u5366-dynamic",
-        "gloss": "earth / stillness",
+        "gloss": "Kun \u00b7 still",
         "phoneme": "a\u0361\u026a",
         "mean_z": 0.284,
         "n_langs": 8,
@@ -108983,7 +108983,7 @@
       },
       {
         "pole": "\u96e2\u5366-dynamic",
-        "gloss": "fire / contraction",
+        "gloss": "Li \u00b7 attach",
         "phoneme": "e",
         "mean_z": 0.171,
         "n_langs": 19,
@@ -108996,7 +108996,7 @@
       },
       {
         "pole": "\u826e\u5366-static",
-        "gloss": "mountain / cover",
+        "gloss": "Gen \u00b7 constrain",
         "phoneme": "o",
         "mean_z": 0.139,
         "n_langs": 19,
@@ -109009,7 +109009,7 @@
       },
       {
         "pole": "\u4e2d\u5366-dynamic",
-        "gloss": "center / mixture",
+        "gloss": "Taiji \u00b7 variegated",
         "phoneme": "\u025b",
         "mean_z": 0.523,
         "n_langs": 9,
@@ -109022,7 +109022,7 @@
       },
       {
         "pole": "\u96e2\u5366-static",
-        "gloss": "fire / enclosure",
+        "gloss": "Li \u00b7 contain",
         "phoneme": "e",
         "mean_z": 0.453,
         "n_langs": 15,
@@ -109035,7 +109035,7 @@
       },
       {
         "pole": "\u9707\u5366-dynamic",
-        "gloss": "thunder / rising",
+        "gloss": "Zhen \u00b7 rise",
         "phoneme": "t",
         "mean_z": 0.18,
         "n_langs": 22,
@@ -109048,7 +109048,7 @@
       },
       {
         "pole": "\u826e\u5366-dynamic",
-        "gloss": "mountain / descent",
+        "gloss": "Gen \u00b7 fall",
         "phoneme": "f",
         "mean_z": -0.167,
         "n_langs": 17,
@@ -109061,7 +109061,7 @@
       },
       {
         "pole": "\u96e2\u5366-static",
-        "gloss": "fire / enclosure",
+        "gloss": "Li \u00b7 contain",
         "phoneme": "u",
         "mean_z": 0.474,
         "n_langs": 12,
@@ -109074,7 +109074,7 @@
       },
       {
         "pole": "\u9707\u5366-dynamic",
-        "gloss": "thunder / rising",
+        "gloss": "Zhen \u00b7 rise",
         "phoneme": "\u028a",
         "mean_z": -0.383,
         "n_langs": 6,
@@ -109087,7 +109087,7 @@
       },
       {
         "pole": "\u5dfd\u5366-static",
-        "gloss": "wind / detachment",
+        "gloss": "Xun \u00b7 airy",
         "phoneme": "m",
         "mean_z": 0.332,
         "n_langs": 20,
@@ -109100,7 +109100,7 @@
       },
       {
         "pole": "\u4e7e\u5366-static",
-        "gloss": "sky / fullness",
+        "gloss": "Qian \u00b7 multiple",
         "phoneme": "t",
         "mean_z": -0.232,
         "n_langs": 20,
@@ -109113,7 +109113,7 @@
       },
       {
         "pole": "\u514c\u5366-dynamic",
-        "gloss": "marsh / emission",
+        "gloss": "Dui \u00b7 express",
         "phoneme": "z",
         "mean_z": 0.171,
         "n_langs": 13,
@@ -109126,7 +109126,7 @@
       },
       {
         "pole": "\u5dfd\u5366-dynamic",
-        "gloss": "wind / seepage",
+        "gloss": "Xun \u00b7 leak",
         "phoneme": "h",
         "mean_z": 0.851,
         "n_langs": 5,
@@ -109139,7 +109139,7 @@
       },
       {
         "pole": "\u4e7e\u5366-static",
-        "gloss": "sky / fullness",
+        "gloss": "Qian \u00b7 multiple",
         "phoneme": "\u0254",
         "mean_z": 0.31,
         "n_langs": 10,
@@ -109152,7 +109152,7 @@
       },
       {
         "pole": "\u826e\u5366-static",
-        "gloss": "mountain / cover",
+        "gloss": "Gen \u00b7 constrain",
         "phoneme": "d\u0361\u0292",
         "mean_z": 0.286,
         "n_langs": 6,
@@ -109165,7 +109165,7 @@
       },
       {
         "pole": "\u5dfd\u5366-dynamic",
-        "gloss": "wind / seepage",
+        "gloss": "Xun \u00b7 leak",
         "phoneme": "j",
         "mean_z": 0.718,
         "n_langs": 7,
@@ -109178,7 +109178,7 @@
       },
       {
         "pole": "\u4e7e\u5366-dynamic",
-        "gloss": "sky / tumult",
+        "gloss": "Qian \u00b7 vibrant",
         "phoneme": "m",
         "mean_z": 0.36,
         "n_langs": 20,
@@ -109191,7 +109191,7 @@
       },
       {
         "pole": "\u9707\u5366-static",
-        "gloss": "thunder / base",
+        "gloss": "Zhen \u00b7 load",
         "phoneme": "h",
         "mean_z": -0.162,
         "n_langs": 15,
@@ -109204,7 +109204,7 @@
       },
       {
         "pole": "\u514c\u5366-dynamic",
-        "gloss": "marsh / emission",
+        "gloss": "Dui \u00b7 express",
         "phoneme": "t\u0361\u0283",
         "mean_z": -0.185,
         "n_langs": 10,
@@ -109217,7 +109217,7 @@
       },
       {
         "pole": "\u4e7e\u5366-static",
-        "gloss": "sky / fullness",
+        "gloss": "Qian \u00b7 multiple",
         "phoneme": "b",
         "mean_z": 0.225,
         "n_langs": 19,
@@ -109230,7 +109230,7 @@
       },
       {
         "pole": "\u5dfd\u5366-dynamic",
-        "gloss": "wind / seepage",
+        "gloss": "Xun \u00b7 leak",
         "phoneme": "\u026a",
         "mean_z": 0.724,
         "n_langs": 6,
@@ -109243,7 +109243,7 @@
       },
       {
         "pole": "\u4e7e\u5366-static",
-        "gloss": "sky / fullness",
+        "gloss": "Qian \u00b7 multiple",
         "phoneme": "\u0283",
         "mean_z": -0.296,
         "n_langs": 9,
@@ -109256,7 +109256,7 @@
       },
       {
         "pole": "\u574e\u5366-static",
-        "gloss": "water / core",
+        "gloss": "Kan \u00b7 occupy",
         "phoneme": "d\u0361\u0292",
         "mean_z": -0.257,
         "n_langs": 6,
@@ -109269,7 +109269,7 @@
       },
       {
         "pole": "\u514c\u5366-dynamic",
-        "gloss": "marsh / emission",
+        "gloss": "Dui \u00b7 express",
         "phoneme": "l",
         "mean_z": -0.128,
         "n_langs": 21,
@@ -109282,7 +109282,7 @@
       },
       {
         "pole": "\u96e2\u5366-static",
-        "gloss": "fire / enclosure",
+        "gloss": "Li \u00b7 contain",
         "phoneme": "w",
         "mean_z": 0.703,
         "n_langs": 5,
@@ -109295,7 +109295,7 @@
       },
       {
         "pole": "\u9707\u5366-dynamic",
-        "gloss": "thunder / rising",
+        "gloss": "Zhen \u00b7 rise",
         "phoneme": "a",
         "mean_z": 0.16,
         "n_langs": 21,
@@ -109308,7 +109308,7 @@
       },
       {
         "pole": "\u826e\u5366-dynamic",
-        "gloss": "mountain / descent",
+        "gloss": "Gen \u00b7 fall",
         "phoneme": "p",
         "mean_z": -0.139,
         "n_langs": 20,
@@ -109321,7 +109321,7 @@
       },
       {
         "pole": "\u5764\u5366-dynamic",
-        "gloss": "earth / stillness",
+        "gloss": "Kun \u00b7 still",
         "phoneme": "\u0261",
         "mean_z": 0.125,
         "n_langs": 17,
@@ -109334,7 +109334,7 @@
       },
       {
         "pole": "\u96e2\u5366-static",
-        "gloss": "fire / enclosure",
+        "gloss": "Li \u00b7 contain",
         "phoneme": "\u0261",
         "mean_z": 0.639,
         "n_langs": 7,
@@ -109347,7 +109347,7 @@
       },
       {
         "pole": "\u574e\u5366-dynamic",
-        "gloss": "water / dispersal",
+        "gloss": "Kan \u00b7 radiate",
         "phoneme": "v",
         "mean_z": 0.291,
         "n_langs": 12,
@@ -109360,7 +109360,7 @@
       },
       {
         "pole": "\u514c\u5366-dynamic",
-        "gloss": "marsh / emission",
+        "gloss": "Dui \u00b7 express",
         "phoneme": "\u027e",
         "mean_z": 0.257,
         "n_langs": 6,
@@ -109373,7 +109373,7 @@
       },
       {
         "pole": "\u514c\u5366-dynamic",
-        "gloss": "marsh / emission",
+        "gloss": "Dui \u00b7 express",
         "phoneme": "e",
         "mean_z": 0.139,
         "n_langs": 19,
@@ -109386,7 +109386,7 @@
       },
       {
         "pole": "\u5764\u5366-dynamic",
-        "gloss": "earth / stillness",
+        "gloss": "Kun \u00b7 still",
         "phoneme": "l",
         "mean_z": 0.119,
         "n_langs": 21,
@@ -109399,7 +109399,7 @@
       },
       {
         "pole": "\u96e2\u5366-static",
-        "gloss": "fire / enclosure",
+        "gloss": "Li \u00b7 contain",
         "phoneme": "o",
         "mean_z": 0.448,
         "n_langs": 15,
@@ -109412,7 +109412,7 @@
       },
       {
         "pole": "\u5764\u5366-static",
-        "gloss": "earth / void",
+        "gloss": "Kun \u00b7 empty",
         "phoneme": "\u0261",
         "mean_z": -0.204,
         "n_langs": 12,
@@ -109425,7 +109425,7 @@
       },
       {
         "pole": "\u5764\u5366-dynamic",
-        "gloss": "earth / stillness",
+        "gloss": "Kun \u00b7 still",
         "phoneme": "w",
         "mean_z": 0.177,
         "n_langs": 9,
@@ -109438,7 +109438,7 @@
       },
       {
         "pole": "\u5764\u5366-static",
-        "gloss": "earth / void",
+        "gloss": "Kun \u00b7 empty",
         "phoneme": "x",
         "mean_z": 0.281,
         "n_langs": 7,
@@ -109451,7 +109451,7 @@
       },
       {
         "pole": "\u4e7e\u5366-static",
-        "gloss": "sky / fullness",
+        "gloss": "Qian \u00b7 multiple",
         "phoneme": "t\u0361\u0283",
         "mean_z": -0.42,
         "n_langs": 6,
@@ -109464,7 +109464,7 @@
       },
       {
         "pole": "\u4e7e\u5366-static",
-        "gloss": "sky / fullness",
+        "gloss": "Qian \u00b7 multiple",
         "phoneme": "f",
         "mean_z": -0.247,
         "n_langs": 13,
@@ -109477,7 +109477,7 @@
       },
       {
         "pole": "\u5764\u5366-static",
-        "gloss": "earth / void",
+        "gloss": "Kun \u00b7 empty",
         "phoneme": "o",
         "mean_z": 0.184,
         "n_langs": 19,
@@ -109490,7 +109490,7 @@
       },
       {
         "pole": "\u574e\u5366-static",
-        "gloss": "water / core",
+        "gloss": "Kan \u00b7 occupy",
         "phoneme": "\u026a",
         "mean_z": -0.183,
         "n_langs": 10,
@@ -109503,7 +109503,7 @@
       },
       {
         "pole": "\u5764\u5366-dynamic",
-        "gloss": "earth / stillness",
+        "gloss": "Kun \u00b7 still",
         "phoneme": "\u0254",
         "mean_z": 0.159,
         "n_langs": 11,
@@ -109516,7 +109516,7 @@
       },
       {
         "pole": "\u4e7e\u5366-static",
-        "gloss": "sky / fullness",
+        "gloss": "Qian \u00b7 multiple",
         "phoneme": "l",
         "mean_z": -0.21,
         "n_langs": 20,
@@ -109529,7 +109529,7 @@
       },
       {
         "pole": "\u4e2d\u5366-dynamic",
-        "gloss": "center / mixture",
+        "gloss": "Taiji \u00b7 variegated",
         "phoneme": "a",
         "mean_z": 0.26,
         "n_langs": 20,
@@ -109542,7 +109542,7 @@
       },
       {
         "pole": "\u5764\u5366-static",
-        "gloss": "earth / void",
+        "gloss": "Kun \u00b7 empty",
         "phoneme": "\u028a",
         "mean_z": 0.259,
         "n_langs": 7,
@@ -109555,7 +109555,7 @@
       },
       {
         "pole": "\u574e\u5366-dynamic",
-        "gloss": "water / dispersal",
+        "gloss": "Kan \u00b7 radiate",
         "phoneme": "i",
         "mean_z": 0.223,
         "n_langs": 21,
@@ -109568,7 +109568,7 @@
       },
       {
         "pole": "\u96e2\u5366-dynamic",
-        "gloss": "fire / contraction",
+        "gloss": "Li \u00b7 attach",
         "phoneme": "x",
         "mean_z": -0.204,
         "n_langs": 9,
@@ -109581,7 +109581,7 @@
       },
       {
         "pole": "\u514c\u5366-dynamic",
-        "gloss": "marsh / emission",
+        "gloss": "Dui \u00b7 express",
         "phoneme": "v",
         "mean_z": 0.167,
         "n_langs": 13,
@@ -109594,7 +109594,7 @@
       },
       {
         "pole": "\u9707\u5366-static",
-        "gloss": "thunder / base",
+        "gloss": "Zhen \u00b7 load",
         "phoneme": "v",
         "mean_z": -0.162,
         "n_langs": 14,
@@ -109607,7 +109607,7 @@
       },
       {
         "pole": "\u4e2d\u5366-dynamic",
-        "gloss": "center / mixture",
+        "gloss": "Taiji \u00b7 variegated",
         "phoneme": "\u0259",
         "mean_z": 0.44,
         "n_langs": 8,
@@ -109620,7 +109620,7 @@
       },
       {
         "pole": "\u4e2d\u5366-dynamic",
-        "gloss": "center / mixture",
+        "gloss": "Taiji \u00b7 variegated",
         "phoneme": "l",
         "mean_z": 0.267,
         "n_langs": 19,
@@ -109633,7 +109633,7 @@
       },
       {
         "pole": "\u5764\u5366-static",
-        "gloss": "earth / void",
+        "gloss": "Kun \u00b7 empty",
         "phoneme": "\u025b",
         "mean_z": 0.186,
         "n_langs": 14,
@@ -109646,7 +109646,7 @@
       },
       {
         "pole": "\u9707\u5366-dynamic",
-        "gloss": "thunder / rising",
+        "gloss": "Zhen \u00b7 rise",
         "phoneme": "\u0261",
         "mean_z": 0.172,
         "n_langs": 16,
@@ -109659,7 +109659,7 @@
       },
       {
         "pole": "\u826e\u5366-static",
-        "gloss": "mountain / cover",
+        "gloss": "Gen \u00b7 constrain",
         "phoneme": "\u00f0",
         "mean_z": -0.29,
         "n_langs": 5,
@@ -109672,7 +109672,7 @@
       },
       {
         "pole": "\u9707\u5366-dynamic",
-        "gloss": "thunder / rising",
+        "gloss": "Zhen \u00b7 rise",
         "phoneme": "\u014b",
         "mean_z": -0.221,
         "n_langs": 8,
@@ -109685,7 +109685,7 @@
       },
       {
         "pole": "\u9707\u5366-static",
-        "gloss": "thunder / base",
+        "gloss": "Zhen \u00b7 load",
         "phoneme": "\u0251",
         "mean_z": 0.18,
         "n_langs": 8,
@@ -109698,7 +109698,7 @@
       },
       {
         "pole": "\u574e\u5366-static",
-        "gloss": "water / core",
+        "gloss": "Kan \u00b7 occupy",
         "phoneme": "s",
         "mean_z": -0.122,
         "n_langs": 22,
@@ -109711,7 +109711,7 @@
       },
       {
         "pole": "\u826e\u5366-dynamic",
-        "gloss": "mountain / descent",
+        "gloss": "Gen \u00b7 fall",
         "phoneme": "\u0272",
         "mean_z": 0.237,
         "n_langs": 6,
@@ -109724,7 +109724,7 @@
       },
       {
         "pole": "\u574e\u5366-static",
-        "gloss": "water / core",
+        "gloss": "Kan \u00b7 occupy",
         "phoneme": "\u028c",
         "mean_z": 0.231,
         "n_langs": 6,
@@ -109737,7 +109737,7 @@
       },
       {
         "pole": "\u826e\u5366-dynamic",
-        "gloss": "mountain / descent",
+        "gloss": "Gen \u00b7 fall",
         "phoneme": "\u025b",
         "mean_z": -0.132,
         "n_langs": 15,
@@ -109750,7 +109750,7 @@
       },
       {
         "pole": "\u514c\u5366-dynamic",
-        "gloss": "marsh / emission",
+        "gloss": "Dui \u00b7 express",
         "phoneme": "d",
         "mean_z": 0.129,
         "n_langs": 19,
@@ -109763,7 +109763,7 @@
       },
       {
         "pole": "\u4e2d\u5366-dynamic",
-        "gloss": "center / mixture",
+        "gloss": "Taiji \u00b7 variegated",
         "phoneme": "h",
         "mean_z": 0.473,
         "n_langs": 7,
@@ -109776,7 +109776,7 @@
       },
       {
         "pole": "\u4e2d\u5366-dynamic",
-        "gloss": "center / mixture",
+        "gloss": "Taiji \u00b7 variegated",
         "phoneme": "r",
         "mean_z": -0.376,
         "n_langs": 11,
@@ -109789,7 +109789,7 @@
       },
       {
         "pole": "\u574e\u5366-dynamic",
-        "gloss": "water / dispersal",
+        "gloss": "Kan \u00b7 radiate",
         "phoneme": "u",
         "mean_z": 0.219,
         "n_langs": 19,
@@ -109802,7 +109802,7 @@
       },
       {
         "pole": "\u4e2d\u5366-dynamic",
-        "gloss": "center / mixture",
+        "gloss": "Taiji \u00b7 variegated",
         "phoneme": "t\u0361\u0283",
         "mean_z": 0.465,
         "n_langs": 5,
@@ -109815,7 +109815,7 @@
       },
       {
         "pole": "\u5dfd\u5366-dynamic",
-        "gloss": "wind / seepage",
+        "gloss": "Xun \u00b7 leak",
         "phoneme": "l",
         "mean_z": 0.346,
         "n_langs": 12,
@@ -109828,7 +109828,7 @@
       },
       {
         "pole": "\u9707\u5366-dynamic",
-        "gloss": "thunder / rising",
+        "gloss": "Zhen \u00b7 rise",
         "phoneme": "b",
         "mean_z": -0.153,
         "n_langs": 19,
@@ -109841,7 +109841,7 @@
       },
       {
         "pole": "\u9707\u5366-static",
-        "gloss": "thunder / base",
+        "gloss": "Zhen \u00b7 load",
         "phoneme": "j",
         "mean_z": -0.115,
         "n_langs": 17,
@@ -109854,7 +109854,7 @@
       },
       {
         "pole": "\u574e\u5366-dynamic",
-        "gloss": "water / dispersal",
+        "gloss": "Kan \u00b7 radiate",
         "phoneme": "p",
         "mean_z": 0.205,
         "n_langs": 19,
@@ -109867,7 +109867,7 @@
       },
       {
         "pole": "\u9707\u5366-static",
-        "gloss": "thunder / base",
+        "gloss": "Zhen \u00b7 load",
         "phoneme": "e",
         "mean_z": -0.112,
         "n_langs": 19,
@@ -109880,7 +109880,7 @@
       },
       {
         "pole": "\u4e2d\u5366-static",
-        "gloss": "center / uniformity",
+        "gloss": "Taiji \u00b7 monotonous",
         "phoneme": "\u0261",
         "mean_z": 0.281,
         "n_langs": 10,
@@ -109893,7 +109893,7 @@
       },
       {
         "pole": "\u4e2d\u5366-static",
-        "gloss": "center / uniformity",
+        "gloss": "Taiji \u00b7 monotonous",
         "phoneme": "k",
         "mean_z": -0.224,
         "n_langs": 22,
@@ -109906,7 +109906,7 @@
       },
       {
         "pole": "\u96e2\u5366-dynamic",
-        "gloss": "fire / contraction",
+        "gloss": "Li \u00b7 attach",
         "phoneme": "i",
         "mean_z": 0.127,
         "n_langs": 22,
@@ -109919,7 +109919,7 @@
       },
       {
         "pole": "\u4e7e\u5366-dynamic",
-        "gloss": "sky / tumult",
+        "gloss": "Qian \u00b7 vibrant",
         "phoneme": "\u0259",
         "mean_z": 0.476,
         "n_langs": 6,
@@ -109932,7 +109932,7 @@
       },
       {
         "pole": "\u4e7e\u5366-dynamic",
-        "gloss": "sky / tumult",
+        "gloss": "Qian \u00b7 vibrant",
         "phoneme": "\u026a",
         "mean_z": 0.416,
         "n_langs": 8,
@@ -109945,7 +109945,7 @@
       },
       {
         "pole": "\u4e7e\u5366-static",
-        "gloss": "sky / fullness",
+        "gloss": "Qian \u00b7 multiple",
         "phoneme": "r",
         "mean_z": 0.191,
         "n_langs": 15,
@@ -109958,7 +109958,7 @@
       },
       {
         "pole": "\u5dfd\u5366-static",
-        "gloss": "wind / detachment",
+        "gloss": "Xun \u00b7 airy",
         "phoneme": "r",
         "mean_z": 0.299,
         "n_langs": 13,
@@ -109971,7 +109971,7 @@
       },
       {
         "pole": "\u4e7e\u5366-static",
-        "gloss": "sky / fullness",
+        "gloss": "Qian \u00b7 multiple",
         "phoneme": "i",
         "mean_z": 0.149,
         "n_langs": 22,
@@ -109984,7 +109984,7 @@
       },
       {
         "pole": "\u5764\u5366-dynamic",
-        "gloss": "earth / stillness",
+        "gloss": "Kun \u00b7 still",
         "phoneme": "z",
         "mean_z": 0.124,
         "n_langs": 15,
@@ -109997,7 +109997,7 @@
       },
       {
         "pole": "\u9707\u5366-dynamic",
-        "gloss": "thunder / rising",
+        "gloss": "Zhen \u00b7 rise",
         "phoneme": "n",
         "mean_z": 0.13,
         "n_langs": 22,
@@ -110010,7 +110010,7 @@
       },
       {
         "pole": "\u826e\u5366-dynamic",
-        "gloss": "mountain / descent",
+        "gloss": "Gen \u00b7 fall",
         "phoneme": "k",
         "mean_z": -0.102,
         "n_langs": 22,
@@ -110023,7 +110023,7 @@
       },
       {
         "pole": "\u4e2d\u5366-static",
-        "gloss": "center / uniformity",
+        "gloss": "Taiji \u00b7 monotonous",
         "phoneme": "t\u0361\u0283",
         "mean_z": 0.334,
         "n_langs": 8,
@@ -110036,7 +110036,7 @@
       },
       {
         "pole": "\u4e2d\u5366-static",
-        "gloss": "center / uniformity",
+        "gloss": "Taiji \u00b7 monotonous",
         "phoneme": "f",
         "mean_z": 0.263,
         "n_langs": 10,
@@ -110049,7 +110049,7 @@
       },
       {
         "pole": "\u574e\u5366-static",
-        "gloss": "water / core",
+        "gloss": "Kan \u00b7 occupy",
         "phoneme": "k",
         "mean_z": 0.1,
         "n_langs": 21,
@@ -110062,7 +110062,7 @@
       },
       {
         "pole": "\u4e7e\u5366-dynamic",
-        "gloss": "sky / tumult",
+        "gloss": "Qian \u00b7 vibrant",
         "phoneme": "n",
         "mean_z": 0.272,
         "n_langs": 19,
@@ -110075,7 +110075,7 @@
       },
       {
         "pole": "\u574e\u5366-static",
-        "gloss": "water / core",
+        "gloss": "Kan \u00b7 occupy",
         "phoneme": "\u027e",
         "mean_z": 0.224,
         "n_langs": 5,
@@ -110088,7 +110088,7 @@
       },
       {
         "pole": "\u5764\u5366-dynamic",
-        "gloss": "earth / stillness",
+        "gloss": "Kun \u00b7 still",
         "phoneme": "\u0259",
         "mean_z": -0.144,
         "n_langs": 10,
@@ -110101,7 +110101,7 @@
       },
       {
         "pole": "\u96e2\u5366-static",
-        "gloss": "fire / enclosure",
+        "gloss": "Li \u00b7 contain",
         "phoneme": "\u026a",
         "mean_z": 0.468,
         "n_langs": 7,
@@ -110114,7 +110114,7 @@
       },
       {
         "pole": "\u5764\u5366-static",
-        "gloss": "earth / void",
+        "gloss": "Kun \u00b7 empty",
         "phoneme": "m",
         "mean_z": 0.13,
         "n_langs": 22,
@@ -110127,7 +110127,7 @@
       },
       {
         "pole": "\u514c\u5366-static",
-        "gloss": "marsh / cavity",
+        "gloss": "Dui \u00b7 broken",
         "phoneme": "m",
         "mean_z": 0.44,
         "n_langs": 12,
@@ -110140,7 +110140,7 @@
       },
       {
         "pole": "\u514c\u5366-dynamic",
-        "gloss": "marsh / emission",
+        "gloss": "Dui \u00b7 express",
         "phoneme": "w",
         "mean_z": -0.145,
         "n_langs": 9,
@@ -110153,7 +110153,7 @@
       },
       {
         "pole": "\u5764\u5366-static",
-        "gloss": "earth / void",
+        "gloss": "Kun \u00b7 empty",
         "phoneme": "\u0254",
         "mean_z": -0.205,
         "n_langs": 9,
@@ -110166,7 +110166,7 @@
       },
       {
         "pole": "\u9707\u5366-dynamic",
-        "gloss": "thunder / rising",
+        "gloss": "Zhen \u00b7 rise",
         "phoneme": "v",
         "mean_z": 0.136,
         "n_langs": 13,
@@ -110179,7 +110179,7 @@
       },
       {
         "pole": "\u574e\u5366-static",
-        "gloss": "water / core",
+        "gloss": "Kan \u00b7 occupy",
         "phoneme": "\u03b8",
         "mean_z": 0.22,
         "n_langs": 5,
@@ -110192,7 +110192,7 @@
       },
       {
         "pole": "\u826e\u5366-static",
-        "gloss": "mountain / cover",
+        "gloss": "Gen \u00b7 constrain",
         "phoneme": "w",
         "mean_z": 0.123,
         "n_langs": 10,
@@ -110205,7 +110205,7 @@
       },
       {
         "pole": "\u96e2\u5366-dynamic",
-        "gloss": "fire / contraction",
+        "gloss": "Li \u00b7 attach",
         "phoneme": "j",
         "mean_z": 0.103,
         "n_langs": 19,
@@ -110218,7 +110218,7 @@
       },
       {
         "pole": "\u5dfd\u5366-dynamic",
-        "gloss": "wind / seepage",
+        "gloss": "Xun \u00b7 leak",
         "phoneme": "\u028c",
         "mean_z": 0.65,
         "n_langs": 5,
@@ -110231,7 +110231,7 @@
       },
       {
         "pole": "\u96e2\u5366-static",
-        "gloss": "fire / enclosure",
+        "gloss": "Li \u00b7 contain",
         "phoneme": "i",
         "mean_z": -0.208,
         "n_langs": 20,
@@ -110244,7 +110244,7 @@
       },
       {
         "pole": "\u4e7e\u5366-static",
-        "gloss": "sky / fullness",
+        "gloss": "Qian \u00b7 multiple",
         "phoneme": "\u0259",
         "mean_z": 0.173,
         "n_langs": 10,
@@ -110257,7 +110257,7 @@
       },
       {
         "pole": "\u574e\u5366-static",
-        "gloss": "water / core",
+        "gloss": "Kan \u00b7 occupy",
         "phoneme": "l",
         "mean_z": 0.082,
         "n_langs": 20,
@@ -110270,7 +110270,7 @@
       },
       {
         "pole": "\u9707\u5366-static",
-        "gloss": "thunder / base",
+        "gloss": "Zhen \u00b7 load",
         "phoneme": "a\u0361\u026a",
         "mean_z": 0.165,
         "n_langs": 5,
@@ -110283,7 +110283,7 @@
       },
       {
         "pole": "\u574e\u5366-static",
-        "gloss": "water / core",
+        "gloss": "Kan \u00b7 occupy",
         "phoneme": "i",
         "mean_z": -0.097,
         "n_langs": 22,
@@ -110296,7 +110296,7 @@
       },
       {
         "pole": "\u96e2\u5366-static",
-        "gloss": "fire / enclosure",
+        "gloss": "Li \u00b7 contain",
         "phoneme": "h",
         "mean_z": 0.428,
         "n_langs": 5,
@@ -110309,7 +110309,7 @@
       },
       {
         "pole": "\u514c\u5366-static",
-        "gloss": "marsh / cavity",
+        "gloss": "Dui \u00b7 broken",
         "phoneme": "o",
         "mean_z": 0.357,
         "n_langs": 11,
@@ -110322,7 +110322,7 @@
       },
       {
         "pole": "\u4e2d\u5366-dynamic",
-        "gloss": "center / mixture",
+        "gloss": "Taiji \u00b7 variegated",
         "phoneme": "p",
         "mean_z": -0.287,
         "n_langs": 9,
@@ -110335,7 +110335,7 @@
       },
       {
         "pole": "\u4e7e\u5366-static",
-        "gloss": "sky / fullness",
+        "gloss": "Qian \u00b7 multiple",
         "phoneme": "\u014b",
         "mean_z": 0.264,
         "n_langs": 6,
@@ -110348,7 +110348,7 @@
       },
       {
         "pole": "\u574e\u5366-dynamic",
-        "gloss": "water / dispersal",
+        "gloss": "Kan \u00b7 radiate",
         "phoneme": "\u026a",
         "mean_z": -0.231,
         "n_langs": 8,
@@ -110361,7 +110361,7 @@
       },
       {
         "pole": "\u514c\u5366-dynamic",
-        "gloss": "marsh / emission",
+        "gloss": "Dui \u00b7 express",
         "phoneme": "\u028a",
         "mean_z": -0.189,
         "n_langs": 6,
@@ -110374,7 +110374,7 @@
       },
       {
         "pole": "\u9707\u5366-static",
-        "gloss": "thunder / base",
+        "gloss": "Zhen \u00b7 load",
         "phoneme": "t\u0361\u0283",
         "mean_z": 0.126,
         "n_langs": 11,
@@ -110387,7 +110387,7 @@
       },
       {
         "pole": "\u5dfd\u5366-static",
-        "gloss": "wind / detachment",
+        "gloss": "Xun \u00b7 airy",
         "phoneme": "e",
         "mean_z": -0.22,
         "n_langs": 14,
@@ -110400,7 +110400,7 @@
       },
       {
         "pole": "\u574e\u5366-static",
-        "gloss": "water / core",
+        "gloss": "Kan \u00b7 occupy",
         "phoneme": "b",
         "mean_z": 0.111,
         "n_langs": 21,
@@ -110413,7 +110413,7 @@
       },
       {
         "pole": "\u514c\u5366-dynamic",
-        "gloss": "marsh / emission",
+        "gloss": "Dui \u00b7 express",
         "phoneme": "n",
         "mean_z": 0.089,
         "n_langs": 22,
@@ -110426,7 +110426,7 @@
       },
       {
         "pole": "\u4e2d\u5366-dynamic",
-        "gloss": "center / mixture",
+        "gloss": "Taiji \u00b7 variegated",
         "phoneme": "t",
         "mean_z": 0.177,
         "n_langs": 18,
@@ -110439,7 +110439,7 @@
       },
       {
         "pole": "\u826e\u5366-static",
-        "gloss": "mountain / cover",
+        "gloss": "Gen \u00b7 constrain",
         "phoneme": "x",
         "mean_z": -0.127,
         "n_langs": 9,
@@ -110452,7 +110452,7 @@
       },
       {
         "pole": "\u5764\u5366-dynamic",
-        "gloss": "earth / stillness",
+        "gloss": "Kun \u00b7 still",
         "phoneme": "u",
         "mean_z": 0.086,
         "n_langs": 21,
@@ -110465,7 +110465,7 @@
       },
       {
         "pole": "\u826e\u5366-dynamic",
-        "gloss": "mountain / descent",
+        "gloss": "Gen \u00b7 fall",
         "phoneme": "j",
         "mean_z": 0.081,
         "n_langs": 20,
@@ -110478,7 +110478,7 @@
       },
       {
         "pole": "\u574e\u5366-dynamic",
-        "gloss": "water / dispersal",
+        "gloss": "Kan \u00b7 radiate",
         "phoneme": "t\u0361\u0283",
         "mean_z": 0.2,
         "n_langs": 10,
@@ -110491,7 +110491,7 @@
       },
       {
         "pole": "\u574e\u5366-dynamic",
-        "gloss": "water / dispersal",
+        "gloss": "Kan \u00b7 radiate",
         "phoneme": "d",
         "mean_z": 0.15,
         "n_langs": 17,
@@ -110504,7 +110504,7 @@
       },
       {
         "pole": "\u9707\u5366-static",
-        "gloss": "thunder / base",
+        "gloss": "Zhen \u00b7 load",
         "phoneme": "\u027e",
         "mean_z": -0.146,
         "n_langs": 6,
@@ -110517,7 +110517,7 @@
       },
       {
         "pole": "\u826e\u5366-dynamic",
-        "gloss": "mountain / descent",
+        "gloss": "Gen \u00b7 fall",
         "phoneme": "t\u0361s",
         "mean_z": 0.137,
         "n_langs": 7,
@@ -110530,7 +110530,7 @@
       },
       {
         "pole": "\u826e\u5366-static",
-        "gloss": "mountain / cover",
+        "gloss": "Gen \u00b7 constrain",
         "phoneme": "\u0251",
         "mean_z": 0.126,
         "n_langs": 8,
@@ -110543,7 +110543,7 @@
       },
       {
         "pole": "\u9707\u5366-static",
-        "gloss": "thunder / base",
+        "gloss": "Zhen \u00b7 load",
         "phoneme": "r",
         "mean_z": -0.107,
         "n_langs": 16,
@@ -110556,7 +110556,7 @@
       },
       {
         "pole": "\u5dfd\u5366-static",
-        "gloss": "wind / detachment",
+        "gloss": "Xun \u00b7 airy",
         "phoneme": "t",
         "mean_z": -0.199,
         "n_langs": 18,
@@ -110569,7 +110569,7 @@
       },
       {
         "pole": "\u826e\u5366-dynamic",
-        "gloss": "mountain / descent",
+        "gloss": "Gen \u00b7 fall",
         "phoneme": "\u027e",
         "mean_z": -0.16,
         "n_langs": 6,
@@ -110582,7 +110582,7 @@
       },
       {
         "pole": "\u5764\u5366-dynamic",
-        "gloss": "earth / stillness",
+        "gloss": "Kun \u00b7 still",
         "phoneme": "\u0251",
         "mean_z": -0.138,
         "n_langs": 8,
@@ -110595,7 +110595,7 @@
       },
       {
         "pole": "\u96e2\u5366-static",
-        "gloss": "fire / enclosure",
+        "gloss": "Li \u00b7 contain",
         "phoneme": "j",
         "mean_z": 0.331,
         "n_langs": 7,
@@ -110608,7 +110608,7 @@
       },
       {
         "pole": "\u514c\u5366-dynamic",
-        "gloss": "marsh / emission",
+        "gloss": "Dui \u00b7 express",
         "phoneme": "d\u0361\u0292",
         "mean_z": 0.173,
         "n_langs": 6,
@@ -110621,7 +110621,7 @@
       },
       {
         "pole": "\u826e\u5366-static",
-        "gloss": "mountain / cover",
+        "gloss": "Gen \u00b7 constrain",
         "phoneme": "a\u0361\u028a",
         "mean_z": 0.172,
         "n_langs": 5,
@@ -110634,7 +110634,7 @@
       },
       {
         "pole": "\u826e\u5366-static",
-        "gloss": "mountain / cover",
+        "gloss": "Gen \u00b7 constrain",
         "phoneme": "a",
         "mean_z": 0.081,
         "n_langs": 21,
@@ -110647,7 +110647,7 @@
       },
       {
         "pole": "\u96e2\u5366-static",
-        "gloss": "fire / enclosure",
+        "gloss": "Li \u00b7 contain",
         "phoneme": "k",
         "mean_z": 0.211,
         "n_langs": 19,
@@ -110660,7 +110660,7 @@
       },
       {
         "pole": "\u514c\u5366-dynamic",
-        "gloss": "marsh / emission",
+        "gloss": "Dui \u00b7 express",
         "phoneme": "f",
         "mean_z": 0.087,
         "n_langs": 18,
@@ -110673,7 +110673,7 @@
       },
       {
         "pole": "\u514c\u5366-static",
-        "gloss": "marsh / cavity",
+        "gloss": "Dui \u00b7 broken",
         "phoneme": "r",
         "mean_z": 0.321,
         "n_langs": 11,
@@ -110686,7 +110686,7 @@
       },
       {
         "pole": "\u826e\u5366-dynamic",
-        "gloss": "mountain / descent",
+        "gloss": "Gen \u00b7 fall",
         "phoneme": "\u028c",
         "mean_z": -0.167,
         "n_langs": 5,
@@ -110699,7 +110699,7 @@
       },
       {
         "pole": "\u5764\u5366-dynamic",
-        "gloss": "earth / stillness",
+        "gloss": "Kun \u00b7 still",
         "phoneme": "\u027e",
         "mean_z": -0.145,
         "n_langs": 6,
@@ -110712,7 +110712,7 @@
       },
       {
         "pole": "\u4e2d\u5366-static",
-        "gloss": "center / uniformity",
+        "gloss": "Taiji \u00b7 monotonous",
         "phoneme": "b",
         "mean_z": -0.186,
         "n_langs": 16,
@@ -110725,7 +110725,7 @@
       },
       {
         "pole": "\u4e2d\u5366-static",
-        "gloss": "center / uniformity",
+        "gloss": "Taiji \u00b7 monotonous",
         "phoneme": "u",
         "mean_z": 0.159,
         "n_langs": 15,
@@ -110738,7 +110738,7 @@
       },
       {
         "pole": "\u5dfd\u5366-dynamic",
-        "gloss": "wind / seepage",
+        "gloss": "Xun \u00b7 leak",
         "phoneme": "e",
         "mean_z": 0.267,
         "n_langs": 11,
@@ -110751,7 +110751,7 @@
       },
       {
         "pole": "\u5764\u5366-static",
-        "gloss": "earth / void",
+        "gloss": "Kun \u00b7 empty",
         "phoneme": "f",
         "mean_z": 0.131,
         "n_langs": 14,
@@ -110764,7 +110764,7 @@
       },
       {
         "pole": "\u4e2d\u5366-dynamic",
-        "gloss": "center / mixture",
+        "gloss": "Taiji \u00b7 variegated",
         "phoneme": "\u027e",
         "mean_z": -0.314,
         "n_langs": 5,
@@ -110777,7 +110777,7 @@
       },
       {
         "pole": "\u4e7e\u5366-dynamic",
-        "gloss": "sky / tumult",
+        "gloss": "Qian \u00b7 vibrant",
         "phoneme": "a",
         "mean_z": -0.179,
         "n_langs": 20,
@@ -110790,7 +110790,7 @@
       },
       {
         "pole": "\u5764\u5366-static",
-        "gloss": "earth / void",
+        "gloss": "Kun \u00b7 empty",
         "phoneme": "t\u0361\u0283",
         "mean_z": -0.141,
         "n_langs": 9,
@@ -110803,7 +110803,7 @@
       },
       {
         "pole": "\u514c\u5366-dynamic",
-        "gloss": "marsh / emission",
+        "gloss": "Dui \u00b7 express",
         "phoneme": "\u014b",
         "mean_z": 0.11,
         "n_langs": 9,
@@ -110816,7 +110816,7 @@
       },
       {
         "pole": "\u826e\u5366-static",
-        "gloss": "mountain / cover",
+        "gloss": "Gen \u00b7 constrain",
         "phoneme": "\u0259",
         "mean_z": -0.084,
         "n_langs": 11,
@@ -110829,7 +110829,7 @@
       },
       {
         "pole": "\u4e7e\u5366-dynamic",
-        "gloss": "sky / tumult",
+        "gloss": "Qian \u00b7 vibrant",
         "phoneme": "u",
         "mean_z": 0.253,
         "n_langs": 11,
@@ -110842,7 +110842,7 @@
       },
       {
         "pole": "\u96e2\u5366-dynamic",
-        "gloss": "fire / contraction",
+        "gloss": "Li \u00b7 attach",
         "phoneme": "\u028c",
         "mean_z": 0.147,
         "n_langs": 6,
@@ -110855,7 +110855,7 @@
       },
       {
         "pole": "\u514c\u5366-dynamic",
-        "gloss": "marsh / emission",
+        "gloss": "Dui \u00b7 express",
         "phoneme": "\u0259",
         "mean_z": 0.126,
         "n_langs": 11,
@@ -110868,7 +110868,7 @@
       },
       {
         "pole": "\u5764\u5366-dynamic",
-        "gloss": "earth / stillness",
+        "gloss": "Kun \u00b7 still",
         "phoneme": "r",
         "mean_z": -0.073,
         "n_langs": 16,
@@ -110881,7 +110881,7 @@
       },
       {
         "pole": "\u96e2\u5366-dynamic",
-        "gloss": "fire / contraction",
+        "gloss": "Li \u00b7 attach",
         "phoneme": "h",
         "mean_z": 0.097,
         "n_langs": 14,
@@ -110894,7 +110894,7 @@
       },
       {
         "pole": "\u5764\u5366-dynamic",
-        "gloss": "earth / stillness",
+        "gloss": "Kun \u00b7 still",
         "phoneme": "b",
         "mean_z": 0.081,
         "n_langs": 20,
@@ -110907,7 +110907,7 @@
       },
       {
         "pole": "\u514c\u5366-static",
-        "gloss": "marsh / cavity",
+        "gloss": "Dui \u00b7 broken",
         "phoneme": "n",
         "mean_z": -0.243,
         "n_langs": 16,
@@ -110920,7 +110920,7 @@
       },
       {
         "pole": "\u826e\u5366-dynamic",
-        "gloss": "mountain / descent",
+        "gloss": "Gen \u00b7 fall",
         "phoneme": "b",
         "mean_z": -0.082,
         "n_langs": 20,
@@ -110933,7 +110933,7 @@
       },
       {
         "pole": "\u514c\u5366-dynamic",
-        "gloss": "marsh / emission",
+        "gloss": "Dui \u00b7 express",
         "phoneme": "j",
         "mean_z": -0.078,
         "n_langs": 19,
@@ -110946,7 +110946,7 @@
       },
       {
         "pole": "\u826e\u5366-static",
-        "gloss": "mountain / cover",
+        "gloss": "Gen \u00b7 constrain",
         "phoneme": "u",
         "mean_z": 0.068,
         "n_langs": 21,
@@ -110959,7 +110959,7 @@
       },
       {
         "pole": "\u4e7e\u5366-dynamic",
-        "gloss": "sky / tumult",
+        "gloss": "Qian \u00b7 vibrant",
         "phoneme": "\u0261",
         "mean_z": 0.341,
         "n_langs": 5,
@@ -110972,7 +110972,7 @@
       },
       {
         "pole": "\u4e2d\u5366-static",
-        "gloss": "center / uniformity",
+        "gloss": "Taiji \u00b7 monotonous",
         "phoneme": "\u0254",
         "mean_z": -0.311,
         "n_langs": 5,
@@ -110985,7 +110985,7 @@
       },
       {
         "pole": "\u5dfd\u5366-static",
-        "gloss": "wind / detachment",
+        "gloss": "Xun \u00b7 airy",
         "phoneme": "\u0259",
         "mean_z": 0.216,
         "n_langs": 9,
@@ -110998,7 +110998,7 @@
       },
       {
         "pole": "\u5764\u5366-static",
-        "gloss": "earth / void",
+        "gloss": "Kun \u00b7 empty",
         "phoneme": "v",
         "mean_z": 0.095,
         "n_langs": 14,
@@ -111011,7 +111011,7 @@
       },
       {
         "pole": "\u826e\u5366-static",
-        "gloss": "mountain / cover",
+        "gloss": "Gen \u00b7 constrain",
         "phoneme": "e",
         "mean_z": -0.064,
         "n_langs": 19,
@@ -111024,7 +111024,7 @@
       },
       {
         "pole": "\u574e\u5366-static",
-        "gloss": "water / core",
+        "gloss": "Kan \u00b7 occupy",
         "phoneme": "f",
         "mean_z": -0.099,
         "n_langs": 16,
@@ -111037,7 +111037,7 @@
       },
       {
         "pole": "\u9707\u5366-static",
-        "gloss": "thunder / base",
+        "gloss": "Zhen \u00b7 load",
         "phoneme": "\u025b",
         "mean_z": 0.081,
         "n_langs": 16,
@@ -111050,7 +111050,7 @@
       },
       {
         "pole": "\u4e7e\u5366-dynamic",
-        "gloss": "sky / tumult",
+        "gloss": "Qian \u00b7 vibrant",
         "phoneme": "p",
         "mean_z": 0.185,
         "n_langs": 15,
@@ -111063,7 +111063,7 @@
       },
       {
         "pole": "\u96e2\u5366-static",
-        "gloss": "fire / enclosure",
+        "gloss": "Li \u00b7 contain",
         "phoneme": "a",
         "mean_z": 0.177,
         "n_langs": 17,
@@ -111076,7 +111076,7 @@
       },
       {
         "pole": "\u9707\u5366-dynamic",
-        "gloss": "thunder / rising",
+        "gloss": "Zhen \u00b7 rise",
         "phoneme": "y",
         "mean_z": 0.174,
         "n_langs": 6,
@@ -111089,7 +111089,7 @@
       },
       {
         "pole": "\u5764\u5366-dynamic",
-        "gloss": "earth / stillness",
+        "gloss": "Kun \u00b7 still",
         "phoneme": "\u0272",
         "mean_z": 0.106,
         "n_langs": 6,
@@ -111102,7 +111102,7 @@
       },
       {
         "pole": "\u9707\u5366-static",
-        "gloss": "thunder / base",
+        "gloss": "Zhen \u00b7 load",
         "phoneme": "x",
         "mean_z": 0.105,
         "n_langs": 9,
@@ -111115,7 +111115,7 @@
       },
       {
         "pole": "\u574e\u5366-dynamic",
-        "gloss": "water / dispersal",
+        "gloss": "Kan \u00b7 radiate",
         "phoneme": "m",
         "mean_z": -0.101,
         "n_langs": 21,
@@ -111128,7 +111128,7 @@
       },
       {
         "pole": "\u574e\u5366-dynamic",
-        "gloss": "water / dispersal",
+        "gloss": "Kan \u00b7 radiate",
         "phoneme": "l",
         "mean_z": 0.098,
         "n_langs": 21,
@@ -111141,7 +111141,7 @@
       },
       {
         "pole": "\u4e2d\u5366-static",
-        "gloss": "center / uniformity",
+        "gloss": "Taiji \u00b7 monotonous",
         "phoneme": "p",
         "mean_z": 0.157,
         "n_langs": 15,
@@ -111154,7 +111154,7 @@
       },
       {
         "pole": "\u514c\u5366-dynamic",
-        "gloss": "marsh / emission",
+        "gloss": "Dui \u00b7 express",
         "phoneme": "m",
         "mean_z": -0.057,
         "n_langs": 22,
@@ -111167,7 +111167,7 @@
       },
       {
         "pole": "\u5764\u5366-static",
-        "gloss": "earth / void",
+        "gloss": "Kun \u00b7 empty",
         "phoneme": "y",
         "mean_z": 0.119,
         "n_langs": 8,
@@ -111180,7 +111180,7 @@
       },
       {
         "pole": "\u4e2d\u5366-static",
-        "gloss": "center / uniformity",
+        "gloss": "Taiji \u00b7 monotonous",
         "phoneme": "e",
         "mean_z": 0.109,
         "n_langs": 18,
@@ -111193,7 +111193,7 @@
       },
       {
         "pole": "\u9707\u5366-dynamic",
-        "gloss": "thunder / rising",
+        "gloss": "Zhen \u00b7 rise",
         "phoneme": "f",
         "mean_z": -0.098,
         "n_langs": 17,
@@ -111206,7 +111206,7 @@
       },
       {
         "pole": "\u826e\u5366-static",
-        "gloss": "mountain / cover",
+        "gloss": "Gen \u00b7 constrain",
         "phoneme": "\u027e",
         "mean_z": 0.137,
         "n_langs": 5,
@@ -111219,7 +111219,7 @@
       },
       {
         "pole": "\u826e\u5366-static",
-        "gloss": "mountain / cover",
+        "gloss": "Gen \u00b7 constrain",
         "phoneme": "\u0254",
         "mean_z": 0.097,
         "n_langs": 10,
@@ -111232,7 +111232,7 @@
       },
       {
         "pole": "\u5764\u5366-dynamic",
-        "gloss": "earth / stillness",
+        "gloss": "Kun \u00b7 still",
         "phoneme": "e",
         "mean_z": 0.057,
         "n_langs": 19,
@@ -111245,7 +111245,7 @@
       },
       {
         "pole": "\u4e7e\u5366-static",
-        "gloss": "sky / fullness",
+        "gloss": "Qian \u00b7 multiple",
         "phoneme": "\u028c",
         "mean_z": -0.214,
         "n_langs": 6,
@@ -111258,7 +111258,7 @@
       },
       {
         "pole": "\u514c\u5366-dynamic",
-        "gloss": "marsh / emission",
+        "gloss": "Dui \u00b7 express",
         "phoneme": "\u0261",
         "mean_z": 0.08,
         "n_langs": 16,
@@ -111271,7 +111271,7 @@
       },
       {
         "pole": "\u4e7e\u5366-static",
-        "gloss": "sky / fullness",
+        "gloss": "Qian \u00b7 multiple",
         "phoneme": "x",
         "mean_z": 0.2,
         "n_langs": 5,
@@ -111284,7 +111284,7 @@
       },
       {
         "pole": "\u4e2d\u5366-static",
-        "gloss": "center / uniformity",
+        "gloss": "Taiji \u00b7 monotonous",
         "phoneme": "r",
         "mean_z": -0.128,
         "n_langs": 15,
@@ -111297,7 +111297,7 @@
       },
       {
         "pole": "\u514c\u5366-static",
-        "gloss": "marsh / cavity",
+        "gloss": "Dui \u00b7 broken",
         "phoneme": "b",
         "mean_z": 0.283,
         "n_langs": 9,
@@ -111310,7 +111310,7 @@
       },
       {
         "pole": "\u4e7e\u5366-dynamic",
-        "gloss": "sky / tumult",
+        "gloss": "Qian \u00b7 vibrant",
         "phoneme": "\u0251",
         "mean_z": 0.281,
         "n_langs": 5,
@@ -111323,7 +111323,7 @@
       },
       {
         "pole": "\u5dfd\u5366-dynamic",
-        "gloss": "wind / seepage",
+        "gloss": "Xun \u00b7 leak",
         "phoneme": "i",
         "mean_z": 0.229,
         "n_langs": 16,
@@ -111336,7 +111336,7 @@
       },
       {
         "pole": "\u96e2\u5366-static",
-        "gloss": "fire / enclosure",
+        "gloss": "Li \u00b7 contain",
         "phoneme": "n",
         "mean_z": 0.159,
         "n_langs": 18,
@@ -111349,7 +111349,7 @@
       },
       {
         "pole": "\u5764\u5366-static",
-        "gloss": "earth / void",
+        "gloss": "Kun \u00b7 empty",
         "phoneme": "w",
         "mean_z": -0.076,
         "n_langs": 11,
@@ -111362,7 +111362,7 @@
       },
       {
         "pole": "\u4e7e\u5366-dynamic",
-        "gloss": "sky / tumult",
+        "gloss": "Qian \u00b7 vibrant",
         "phoneme": "h",
         "mean_z": 0.248,
         "n_langs": 8,
@@ -111375,7 +111375,7 @@
       },
       {
         "pole": "\u574e\u5366-dynamic",
-        "gloss": "water / dispersal",
+        "gloss": "Kan \u00b7 radiate",
         "phoneme": "z",
         "mean_z": 0.134,
         "n_langs": 9,
@@ -111388,7 +111388,7 @@
       },
       {
         "pole": "\u826e\u5366-static",
-        "gloss": "mountain / cover",
+        "gloss": "Gen \u00b7 constrain",
         "phoneme": "\u028c",
         "mean_z": 0.096,
         "n_langs": 6,
@@ -111401,7 +111401,7 @@
       },
       {
         "pole": "\u9707\u5366-dynamic",
-        "gloss": "thunder / rising",
+        "gloss": "Zhen \u00b7 rise",
         "phoneme": "r",
         "mean_z": 0.086,
         "n_langs": 16,
@@ -111414,7 +111414,7 @@
       },
       {
         "pole": "\u5dfd\u5366-static",
-        "gloss": "wind / detachment",
+        "gloss": "Xun \u00b7 airy",
         "phoneme": "s",
         "mean_z": -0.114,
         "n_langs": 18,
@@ -111427,7 +111427,7 @@
       },
       {
         "pole": "\u826e\u5366-dynamic",
-        "gloss": "mountain / descent",
+        "gloss": "Gen \u00b7 fall",
         "phoneme": "\u0251",
         "mean_z": 0.108,
         "n_langs": 8,
@@ -111440,7 +111440,7 @@
       },
       {
         "pole": "\u4e7e\u5366-dynamic",
-        "gloss": "sky / tumult",
+        "gloss": "Qian \u00b7 vibrant",
         "phoneme": "b",
         "mean_z": -0.236,
         "n_langs": 5,
@@ -111453,7 +111453,7 @@
       },
       {
         "pole": "\u514c\u5366-static",
-        "gloss": "marsh / cavity",
+        "gloss": "Dui \u00b7 broken",
         "phoneme": "e",
         "mean_z": 0.198,
         "n_langs": 12,
@@ -111466,7 +111466,7 @@
       },
       {
         "pole": "\u4e7e\u5366-static",
-        "gloss": "sky / fullness",
+        "gloss": "Qian \u00b7 multiple",
         "phoneme": "d\u0361\u0292",
         "mean_z": -0.14,
         "n_langs": 5,
@@ -111479,7 +111479,7 @@
       },
       {
         "pole": "\u4e7e\u5366-static",
-        "gloss": "sky / fullness",
+        "gloss": "Qian \u00b7 multiple",
         "phoneme": "v",
         "mean_z": -0.122,
         "n_langs": 11,
@@ -111492,7 +111492,7 @@
       },
       {
         "pole": "\u514c\u5366-dynamic",
-        "gloss": "marsh / emission",
+        "gloss": "Dui \u00b7 express",
         "phoneme": "a\u0361\u026a",
         "mean_z": 0.108,
         "n_langs": 5,
@@ -111505,7 +111505,7 @@
       },
       {
         "pole": "\u4e7e\u5366-static",
-        "gloss": "sky / fullness",
+        "gloss": "Qian \u00b7 multiple",
         "phoneme": "a",
         "mean_z": 0.094,
         "n_langs": 21,
@@ -111518,7 +111518,7 @@
       },
       {
         "pole": "\u826e\u5366-dynamic",
-        "gloss": "mountain / descent",
+        "gloss": "Gen \u00b7 fall",
         "phoneme": "x",
         "mean_z": 0.091,
         "n_langs": 9,
@@ -111531,7 +111531,7 @@
       },
       {
         "pole": "\u826e\u5366-dynamic",
-        "gloss": "mountain / descent",
+        "gloss": "Gen \u00b7 fall",
         "phoneme": "u",
         "mean_z": -0.059,
         "n_langs": 20,
@@ -111544,7 +111544,7 @@
       },
       {
         "pole": "\u574e\u5366-static",
-        "gloss": "water / core",
+        "gloss": "Kan \u00b7 occupy",
         "phoneme": "e",
         "mean_z": 0.055,
         "n_langs": 19,
@@ -111557,7 +111557,7 @@
       },
       {
         "pole": "\u96e2\u5366-static",
-        "gloss": "fire / enclosure",
+        "gloss": "Li \u00b7 contain",
         "phoneme": "\u0251",
         "mean_z": 0.238,
         "n_langs": 5,
@@ -111570,7 +111570,7 @@
       },
       {
         "pole": "\u4e2d\u5366-dynamic",
-        "gloss": "center / mixture",
+        "gloss": "Taiji \u00b7 variegated",
         "phoneme": "\u0251",
         "mean_z": -0.211,
         "n_langs": 7,
@@ -111583,7 +111583,7 @@
       },
       {
         "pole": "\u5dfd\u5366-dynamic",
-        "gloss": "wind / seepage",
+        "gloss": "Xun \u00b7 leak",
         "phoneme": "a",
         "mean_z": -0.148,
         "n_langs": 18,
@@ -111596,7 +111596,7 @@
       },
       {
         "pole": "\u574e\u5366-dynamic",
-        "gloss": "water / dispersal",
+        "gloss": "Kan \u00b7 radiate",
         "phoneme": "a",
         "mean_z": -0.092,
         "n_langs": 21,
@@ -111609,7 +111609,7 @@
       },
       {
         "pole": "\u574e\u5366-static",
-        "gloss": "water / core",
+        "gloss": "Kan \u00b7 occupy",
         "phoneme": "\u0251",
         "mean_z": 0.084,
         "n_langs": 8,
@@ -111622,7 +111622,7 @@
       },
       {
         "pole": "\u5764\u5366-dynamic",
-        "gloss": "earth / stillness",
+        "gloss": "Kun \u00b7 still",
         "phoneme": "s",
         "mean_z": 0.042,
         "n_langs": 22,
@@ -111635,7 +111635,7 @@
       },
       {
         "pole": "\u4e2d\u5366-static",
-        "gloss": "center / uniformity",
+        "gloss": "Taiji \u00b7 monotonous",
         "phoneme": "\u0259",
         "mean_z": 0.122,
         "n_langs": 9,
@@ -111648,7 +111648,7 @@
       },
       {
         "pole": "\u96e2\u5366-dynamic",
-        "gloss": "fire / contraction",
+        "gloss": "Li \u00b7 attach",
         "phoneme": "\u0251",
         "mean_z": 0.094,
         "n_langs": 8,
@@ -111661,7 +111661,7 @@
       },
       {
         "pole": "\u4e7e\u5366-dynamic",
-        "gloss": "sky / tumult",
+        "gloss": "Qian \u00b7 vibrant",
         "phoneme": "l",
         "mean_z": 0.184,
         "n_langs": 15,
@@ -111674,7 +111674,7 @@
       },
       {
         "pole": "\u4e7e\u5366-static",
-        "gloss": "sky / fullness",
+        "gloss": "Qian \u00b7 multiple",
         "phoneme": "e",
         "mean_z": -0.07,
         "n_langs": 18,
@@ -111687,7 +111687,7 @@
       },
       {
         "pole": "\u574e\u5366-dynamic",
-        "gloss": "water / dispersal",
+        "gloss": "Kan \u00b7 radiate",
         "phoneme": "j",
         "mean_z": 0.105,
         "n_langs": 12,
@@ -111700,7 +111700,7 @@
       },
       {
         "pole": "\u5764\u5366-static",
-        "gloss": "earth / void",
+        "gloss": "Kun \u00b7 empty",
         "phoneme": "\u027e",
         "mean_z": 0.132,
         "n_langs": 5,
@@ -111713,7 +111713,7 @@
       },
       {
         "pole": "\u826e\u5366-dynamic",
-        "gloss": "mountain / descent",
+        "gloss": "Gen \u00b7 fall",
         "phoneme": "h",
         "mean_z": -0.051,
         "n_langs": 15,
@@ -111726,7 +111726,7 @@
       },
       {
         "pole": "\u574e\u5366-static",
-        "gloss": "water / core",
+        "gloss": "Kan \u00b7 occupy",
         "phoneme": "p",
         "mean_z": 0.043,
         "n_langs": 21,
@@ -111739,7 +111739,7 @@
       },
       {
         "pole": "\u4e7e\u5366-dynamic",
-        "gloss": "sky / tumult",
+        "gloss": "Qian \u00b7 vibrant",
         "phoneme": "d",
         "mean_z": 0.161,
         "n_langs": 10,
@@ -111752,7 +111752,7 @@
       },
       {
         "pole": "\u96e2\u5366-dynamic",
-        "gloss": "fire / contraction",
+        "gloss": "Li \u00b7 attach",
         "phoneme": "\u0283",
         "mean_z": 0.069,
         "n_langs": 13,
@@ -111765,7 +111765,7 @@
       },
       {
         "pole": "\u96e2\u5366-dynamic",
-        "gloss": "fire / contraction",
+        "gloss": "Li \u00b7 attach",
         "phoneme": "w",
         "mean_z": -0.056,
         "n_langs": 11,
@@ -111778,7 +111778,7 @@
       },
       {
         "pole": "\u5dfd\u5366-dynamic",
-        "gloss": "wind / seepage",
+        "gloss": "Xun \u00b7 leak",
         "phoneme": "v",
         "mean_z": 0.252,
         "n_langs": 5,
@@ -111791,7 +111791,7 @@
       },
       {
         "pole": "\u4e2d\u5366-static",
-        "gloss": "center / uniformity",
+        "gloss": "Taiji \u00b7 monotonous",
         "phoneme": "z",
         "mean_z": 0.136,
         "n_langs": 6,
@@ -111804,7 +111804,7 @@
       },
       {
         "pole": "\u4e7e\u5366-dynamic",
-        "gloss": "sky / tumult",
+        "gloss": "Qian \u00b7 vibrant",
         "phoneme": "\u025b",
         "mean_z": 0.166,
         "n_langs": 9,
@@ -111817,7 +111817,7 @@
       },
       {
         "pole": "\u5dfd\u5366-static",
-        "gloss": "wind / detachment",
+        "gloss": "Xun \u00b7 airy",
         "phoneme": "p",
         "mean_z": 0.095,
         "n_langs": 14,
@@ -111830,7 +111830,7 @@
       },
       {
         "pole": "\u9707\u5366-dynamic",
-        "gloss": "thunder / rising",
+        "gloss": "Zhen \u00b7 rise",
         "phoneme": "p",
         "mean_z": 0.071,
         "n_langs": 21,
@@ -111843,7 +111843,7 @@
       },
       {
         "pole": "\u9707\u5366-static",
-        "gloss": "thunder / base",
+        "gloss": "Zhen \u00b7 load",
         "phoneme": "w",
         "mean_z": 0.066,
         "n_langs": 11,
@@ -111856,7 +111856,7 @@
       },
       {
         "pole": "\u96e2\u5366-dynamic",
-        "gloss": "fire / contraction",
+        "gloss": "Li \u00b7 attach",
         "phoneme": "f",
         "mean_z": 0.048,
         "n_langs": 18,
@@ -111869,7 +111869,7 @@
       },
       {
         "pole": "\u5764\u5366-dynamic",
-        "gloss": "earth / stillness",
+        "gloss": "Kun \u00b7 still",
         "phoneme": "i",
         "mean_z": 0.04,
         "n_langs": 22,
@@ -111882,7 +111882,7 @@
       },
       {
         "pole": "\u4e7e\u5366-dynamic",
-        "gloss": "sky / tumult",
+        "gloss": "Qian \u00b7 vibrant",
         "phoneme": "e",
         "mean_z": 0.109,
         "n_langs": 16,
@@ -111895,7 +111895,7 @@
       },
       {
         "pole": "\u514c\u5366-dynamic",
-        "gloss": "marsh / emission",
+        "gloss": "Dui \u00b7 express",
         "phoneme": "b",
         "mean_z": -0.05,
         "n_langs": 19,
@@ -111908,7 +111908,7 @@
       },
       {
         "pole": "\u4e7e\u5366-dynamic",
-        "gloss": "sky / tumult",
+        "gloss": "Qian \u00b7 vibrant",
         "phoneme": "k",
         "mean_z": -0.13,
         "n_langs": 19,
@@ -111921,7 +111921,7 @@
       },
       {
         "pole": "\u5764\u5366-static",
-        "gloss": "earth / void",
+        "gloss": "Kun \u00b7 empty",
         "phoneme": "\u026a",
         "mean_z": 0.079,
         "n_langs": 10,
@@ -111934,7 +111934,7 @@
       },
       {
         "pole": "\u5dfd\u5366-dynamic",
-        "gloss": "wind / seepage",
+        "gloss": "Xun \u00b7 leak",
         "phoneme": "n",
         "mean_z": -0.153,
         "n_langs": 12,
@@ -111947,7 +111947,7 @@
       },
       {
         "pole": "\u826e\u5366-static",
-        "gloss": "mountain / cover",
+        "gloss": "Gen \u00b7 constrain",
         "phoneme": "t\u0361s",
         "mean_z": 0.092,
         "n_langs": 5,
@@ -111960,7 +111960,7 @@
       },
       {
         "pole": "\u5dfd\u5366-dynamic",
-        "gloss": "wind / seepage",
+        "gloss": "Xun \u00b7 leak",
         "phoneme": "\u0259",
         "mean_z": 0.184,
         "n_langs": 5,
@@ -111973,7 +111973,7 @@
       },
       {
         "pole": "\u4e2d\u5366-static",
-        "gloss": "center / uniformity",
+        "gloss": "Taiji \u00b7 monotonous",
         "phoneme": "\u027e",
         "mean_z": 0.143,
         "n_langs": 6,
@@ -111986,7 +111986,7 @@
       },
       {
         "pole": "\u9707\u5366-static",
-        "gloss": "thunder / base",
+        "gloss": "Zhen \u00b7 load",
         "phoneme": "u",
         "mean_z": 0.04,
         "n_langs": 21,
@@ -111999,7 +111999,7 @@
       },
       {
         "pole": "\u514c\u5366-dynamic",
-        "gloss": "marsh / emission",
+        "gloss": "Dui \u00b7 express",
         "phoneme": "\u025b",
         "mean_z": 0.039,
         "n_langs": 13,
@@ -112012,7 +112012,7 @@
       },
       {
         "pole": "\u826e\u5366-dynamic",
-        "gloss": "mountain / descent",
+        "gloss": "Gen \u00b7 fall",
         "phoneme": "t",
         "mean_z": -0.038,
         "n_langs": 21,
@@ -112025,7 +112025,7 @@
       },
       {
         "pole": "\u96e2\u5366-dynamic",
-        "gloss": "fire / contraction",
+        "gloss": "Li \u00b7 attach",
         "phoneme": "t\u0361s",
         "mean_z": 0.079,
         "n_langs": 6,
@@ -112038,7 +112038,7 @@
       },
       {
         "pole": "\u514c\u5366-static",
-        "gloss": "marsh / cavity",
+        "gloss": "Dui \u00b7 broken",
         "phoneme": "h",
         "mean_z": 0.187,
         "n_langs": 5,
@@ -112051,7 +112051,7 @@
       },
       {
         "pole": "\u4e2d\u5366-static",
-        "gloss": "center / uniformity",
+        "gloss": "Taiji \u00b7 monotonous",
         "phoneme": "\u014b",
         "mean_z": 0.124,
         "n_langs": 6,
@@ -112064,7 +112064,7 @@
       },
       {
         "pole": "\u574e\u5366-dynamic",
-        "gloss": "water / dispersal",
+        "gloss": "Kan \u00b7 radiate",
         "phoneme": "\u028c",
         "mean_z": -0.115,
         "n_langs": 6,
@@ -112077,7 +112077,7 @@
       },
       {
         "pole": "\u4e2d\u5366-static",
-        "gloss": "center / uniformity",
+        "gloss": "Taiji \u00b7 monotonous",
         "phoneme": "v",
         "mean_z": 0.086,
         "n_langs": 10,
@@ -112090,7 +112090,7 @@
       },
       {
         "pole": "\u4e2d\u5366-static",
-        "gloss": "center / uniformity",
+        "gloss": "Taiji \u00b7 monotonous",
         "phoneme": "o",
         "mean_z": -0.073,
         "n_langs": 16,
@@ -112103,7 +112103,7 @@
       },
       {
         "pole": "\u4e7e\u5366-static",
-        "gloss": "sky / fullness",
+        "gloss": "Qian \u00b7 multiple",
         "phoneme": "d",
         "mean_z": 0.068,
         "n_langs": 16,
@@ -112116,7 +112116,7 @@
       },
       {
         "pole": "\u9707\u5366-static",
-        "gloss": "thunder / base",
+        "gloss": "Zhen \u00b7 load",
         "phoneme": "d\u0361\u0292",
         "mean_z": 0.065,
         "n_langs": 6,
@@ -112129,7 +112129,7 @@
       },
       {
         "pole": "\u5764\u5366-static",
-        "gloss": "earth / void",
+        "gloss": "Kun \u00b7 empty",
         "phoneme": "n",
         "mean_z": -0.041,
         "n_langs": 22,
@@ -112142,7 +112142,7 @@
       },
       {
         "pole": "\u5764\u5366-dynamic",
-        "gloss": "earth / stillness",
+        "gloss": "Kun \u00b7 still",
         "phoneme": "t",
         "mean_z": -0.036,
         "n_langs": 21,
@@ -112155,7 +112155,7 @@
       },
       {
         "pole": "\u574e\u5366-static",
-        "gloss": "water / core",
+        "gloss": "Kan \u00b7 occupy",
         "phoneme": "u",
         "mean_z": 0.031,
         "n_langs": 20,
@@ -112168,7 +112168,7 @@
       },
       {
         "pole": "\u4e2d\u5366-dynamic",
-        "gloss": "center / mixture",
+        "gloss": "Taiji \u00b7 variegated",
         "phoneme": "n",
         "mean_z": -0.096,
         "n_langs": 20,
@@ -112181,7 +112181,7 @@
       },
       {
         "pole": "\u574e\u5366-static",
-        "gloss": "water / core",
+        "gloss": "Kan \u00b7 occupy",
         "phoneme": "\u028a",
         "mean_z": 0.076,
         "n_langs": 7,
@@ -112194,7 +112194,7 @@
       },
       {
         "pole": "\u5764\u5366-dynamic",
-        "gloss": "earth / stillness",
+        "gloss": "Kun \u00b7 still",
         "phoneme": "d\u0361\u0292",
         "mean_z": 0.059,
         "n_langs": 6,
@@ -112207,7 +112207,7 @@
       },
       {
         "pole": "\u5764\u5366-static",
-        "gloss": "earth / void",
+        "gloss": "Kun \u00b7 empty",
         "phoneme": "p",
         "mean_z": 0.05,
         "n_langs": 20,
@@ -112220,7 +112220,7 @@
       },
       {
         "pole": "\u96e2\u5366-static",
-        "gloss": "fire / enclosure",
+        "gloss": "Li \u00b7 contain",
         "phoneme": "\u0259",
         "mean_z": 0.141,
         "n_langs": 6,
@@ -112233,7 +112233,7 @@
       },
       {
         "pole": "\u4e2d\u5366-dynamic",
-        "gloss": "center / mixture",
+        "gloss": "Taiji \u00b7 variegated",
         "phoneme": "s",
         "mean_z": 0.104,
         "n_langs": 20,
@@ -112246,7 +112246,7 @@
       },
       {
         "pole": "\u96e2\u5366-dynamic",
-        "gloss": "fire / contraction",
+        "gloss": "Li \u00b7 attach",
         "phoneme": "y",
         "mean_z": -0.053,
         "n_langs": 8,
@@ -112259,7 +112259,7 @@
       },
       {
         "pole": "\u574e\u5366-static",
-        "gloss": "water / core",
+        "gloss": "Kan \u00b7 occupy",
         "phoneme": "\u0283",
         "mean_z": 0.047,
         "n_langs": 10,
@@ -112272,7 +112272,7 @@
       },
       {
         "pole": "\u574e\u5366-static",
-        "gloss": "water / core",
+        "gloss": "Kan \u00b7 occupy",
         "phoneme": "h",
         "mean_z": -0.046,
         "n_langs": 14,
@@ -112285,7 +112285,7 @@
       },
       {
         "pole": "\u5764\u5366-static",
-        "gloss": "earth / void",
+        "gloss": "Kun \u00b7 empty",
         "phoneme": "d",
         "mean_z": 0.045,
         "n_langs": 18,
@@ -112298,7 +112298,7 @@
       },
       {
         "pole": "\u9707\u5366-static",
-        "gloss": "thunder / base",
+        "gloss": "Zhen \u00b7 load",
         "phoneme": "m",
         "mean_z": -0.03,
         "n_langs": 22,
@@ -112311,7 +112311,7 @@
       },
       {
         "pole": "\u4e7e\u5366-dynamic",
-        "gloss": "sky / tumult",
+        "gloss": "Qian \u00b7 vibrant",
         "phoneme": "t",
         "mean_z": -0.089,
         "n_langs": 16,
@@ -112324,7 +112324,7 @@
       },
       {
         "pole": "\u826e\u5366-dynamic",
-        "gloss": "mountain / descent",
+        "gloss": "Gen \u00b7 fall",
         "phoneme": "e",
         "mean_z": 0.032,
         "n_langs": 19,
@@ -112337,7 +112337,7 @@
       },
       {
         "pole": "\u826e\u5366-dynamic",
-        "gloss": "mountain / descent",
+        "gloss": "Gen \u00b7 fall",
         "phoneme": "y",
         "mean_z": 0.045,
         "n_langs": 7,
@@ -112350,7 +112350,7 @@
       },
       {
         "pole": "\u96e2\u5366-dynamic",
-        "gloss": "fire / contraction",
+        "gloss": "Li \u00b7 attach",
         "phoneme": "t\u0361\u0283",
         "mean_z": -0.038,
         "n_langs": 10,
@@ -112363,7 +112363,7 @@
       },
       {
         "pole": "\u574e\u5366-static",
-        "gloss": "water / core",
+        "gloss": "Kan \u00b7 occupy",
         "phoneme": "a",
         "mean_z": -0.032,
         "n_langs": 21,
@@ -112376,7 +112376,7 @@
       },
       {
         "pole": "\u9707\u5366-static",
-        "gloss": "thunder / base",
+        "gloss": "Zhen \u00b7 load",
         "phoneme": "\u00f8",
         "mean_z": -0.049,
         "n_langs": 5,
@@ -112389,7 +112389,7 @@
       },
       {
         "pole": "\u5dfd\u5366-static",
-        "gloss": "wind / detachment",
+        "gloss": "Xun \u00b7 airy",
         "phoneme": "d",
         "mean_z": -0.093,
         "n_langs": 11,
@@ -112402,7 +112402,7 @@
       },
       {
         "pole": "\u9707\u5366-static",
-        "gloss": "thunder / base",
+        "gloss": "Zhen \u00b7 load",
         "phoneme": "c",
         "mean_z": -0.039,
         "n_langs": 7,
@@ -112415,7 +112415,7 @@
       },
       {
         "pole": "\u9707\u5366-static",
-        "gloss": "thunder / base",
+        "gloss": "Zhen \u00b7 load",
         "phoneme": "\u0254",
         "mean_z": -0.039,
         "n_langs": 10,
@@ -112428,7 +112428,7 @@
       },
       {
         "pole": "\u5dfd\u5366-static",
-        "gloss": "wind / detachment",
+        "gloss": "Xun \u00b7 airy",
         "phoneme": "k",
         "mean_z": 0.047,
         "n_langs": 20,
@@ -112441,7 +112441,7 @@
       },
       {
         "pole": "\u826e\u5366-dynamic",
-        "gloss": "mountain / descent",
+        "gloss": "Gen \u00b7 fall",
         "phoneme": "z",
         "mean_z": -0.028,
         "n_langs": 13,
@@ -112454,7 +112454,7 @@
       },
       {
         "pole": "\u4e7e\u5366-static",
-        "gloss": "sky / fullness",
+        "gloss": "Qian \u00b7 multiple",
         "phoneme": "\u0251",
         "mean_z": 0.048,
         "n_langs": 7,
@@ -112467,7 +112467,7 @@
       },
       {
         "pole": "\u5764\u5366-static",
-        "gloss": "earth / void",
+        "gloss": "Kun \u00b7 empty",
         "phoneme": "z",
         "mean_z": 0.039,
         "n_langs": 10,
@@ -112480,7 +112480,7 @@
       },
       {
         "pole": "\u514c\u5366-dynamic",
-        "gloss": "marsh / emission",
+        "gloss": "Dui \u00b7 express",
         "phoneme": "\u0283",
         "mean_z": -0.029,
         "n_langs": 11,
@@ -112493,7 +112493,7 @@
       },
       {
         "pole": "\u96e2\u5366-dynamic",
-        "gloss": "fire / contraction",
+        "gloss": "Li \u00b7 attach",
         "phoneme": "r",
         "mean_z": 0.028,
         "n_langs": 16,
@@ -112506,7 +112506,7 @@
       },
       {
         "pole": "\u5764\u5366-dynamic",
-        "gloss": "earth / stillness",
+        "gloss": "Kun \u00b7 still",
         "phoneme": "\u025b",
         "mean_z": 0.025,
         "n_langs": 16,
@@ -112519,7 +112519,7 @@
       },
       {
         "pole": "\u514c\u5366-dynamic",
-        "gloss": "marsh / emission",
+        "gloss": "Dui \u00b7 express",
         "phoneme": "p",
         "mean_z": -0.023,
         "n_langs": 21,
@@ -112532,7 +112532,7 @@
       },
       {
         "pole": "\u9707\u5366-dynamic",
-        "gloss": "thunder / rising",
+        "gloss": "Zhen \u00b7 rise",
         "phoneme": "t\u0361\u0283",
         "mean_z": -0.034,
         "n_langs": 10,
@@ -112545,7 +112545,7 @@
       },
       {
         "pole": "\u826e\u5366-dynamic",
-        "gloss": "mountain / descent",
+        "gloss": "Gen \u00b7 fall",
         "phoneme": "n",
         "mean_z": 0.018,
         "n_langs": 22,
@@ -112558,7 +112558,7 @@
       },
       {
         "pole": "\u4e2d\u5366-static",
-        "gloss": "center / uniformity",
+        "gloss": "Taiji \u00b7 monotonous",
         "phoneme": "l",
         "mean_z": -0.05,
         "n_langs": 21,
@@ -112571,7 +112571,7 @@
       },
       {
         "pole": "\u9707\u5366-dynamic",
-        "gloss": "thunder / rising",
+        "gloss": "Zhen \u00b7 rise",
         "phoneme": "s",
         "mean_z": -0.019,
         "n_langs": 22,
@@ -112584,7 +112584,7 @@
       },
       {
         "pole": "\u514c\u5366-dynamic",
-        "gloss": "marsh / emission",
+        "gloss": "Dui \u00b7 express",
         "phoneme": "t\u0361s",
         "mean_z": 0.024,
         "n_langs": 6,
@@ -112597,7 +112597,7 @@
       },
       {
         "pole": "\u5764\u5366-dynamic",
-        "gloss": "earth / stillness",
+        "gloss": "Kun \u00b7 still",
         "phoneme": "o",
         "mean_z": -0.012,
         "n_langs": 19,
@@ -112610,7 +112610,7 @@
       },
       {
         "pole": "\u574e\u5366-static",
-        "gloss": "water / core",
+        "gloss": "Kan \u00b7 occupy",
         "phoneme": "\u0254",
         "mean_z": 0.023,
         "n_langs": 9,
@@ -112623,7 +112623,7 @@
       },
       {
         "pole": "\u4e2d\u5366-static",
-        "gloss": "center / uniformity",
+        "gloss": "Taiji \u00b7 monotonous",
         "phoneme": "d",
         "mean_z": 0.038,
         "n_langs": 15,
@@ -112636,7 +112636,7 @@
       },
       {
         "pole": "\u9707\u5366-dynamic",
-        "gloss": "thunder / rising",
+        "gloss": "Zhen \u00b7 rise",
         "phoneme": "z",
         "mean_z": 0.024,
         "n_langs": 11,
@@ -112649,7 +112649,7 @@
       },
       {
         "pole": "\u9707\u5366-static",
-        "gloss": "thunder / base",
+        "gloss": "Zhen \u00b7 load",
         "phoneme": "n",
         "mean_z": -0.022,
         "n_langs": 22,
@@ -112662,7 +112662,7 @@
       },
       {
         "pole": "\u826e\u5366-dynamic",
-        "gloss": "mountain / descent",
+        "gloss": "Gen \u00b7 fall",
         "phoneme": "r",
         "mean_z": -0.021,
         "n_langs": 16,
@@ -112675,7 +112675,7 @@
       },
       {
         "pole": "\u574e\u5366-dynamic",
-        "gloss": "water / dispersal",
+        "gloss": "Kan \u00b7 radiate",
         "phoneme": "\u027e",
         "mean_z": 0.052,
         "n_langs": 5,
@@ -112688,7 +112688,7 @@
       },
       {
         "pole": "\u574e\u5366-dynamic",
-        "gloss": "water / dispersal",
+        "gloss": "Kan \u00b7 radiate",
         "phoneme": "\u025b",
         "mean_z": -0.036,
         "n_langs": 13,
@@ -112701,7 +112701,7 @@
       },
       {
         "pole": "\u4e7e\u5366-static",
-        "gloss": "sky / fullness",
+        "gloss": "Qian \u00b7 multiple",
         "phoneme": "\u028a",
         "mean_z": -0.035,
         "n_langs": 7,
@@ -112714,7 +112714,7 @@
       },
       {
         "pole": "\u826e\u5366-static",
-        "gloss": "mountain / cover",
+        "gloss": "Gen \u00b7 constrain",
         "phoneme": "\u03b8",
         "mean_z": -0.034,
         "n_langs": 5,
@@ -112727,7 +112727,7 @@
       },
       {
         "pole": "\u4e7e\u5366-static",
-        "gloss": "sky / fullness",
+        "gloss": "Qian \u00b7 multiple",
         "phoneme": "\u025b",
         "mean_z": -0.027,
         "n_langs": 14,
@@ -112740,7 +112740,7 @@
       },
       {
         "pole": "\u9707\u5366-dynamic",
-        "gloss": "thunder / rising",
+        "gloss": "Zhen \u00b7 rise",
         "phoneme": "\u028c",
         "mean_z": 0.023,
         "n_langs": 6,
@@ -112753,7 +112753,7 @@
       },
       {
         "pole": "\u4e2d\u5366-static",
-        "gloss": "center / uniformity",
+        "gloss": "Taiji \u00b7 monotonous",
         "phoneme": "t",
         "mean_z": 0.021,
         "n_langs": 21,
@@ -112766,7 +112766,7 @@
       },
       {
         "pole": "\u4e2d\u5366-static",
-        "gloss": "center / uniformity",
+        "gloss": "Taiji \u00b7 monotonous",
         "phoneme": "n",
         "mean_z": -0.018,
         "n_langs": 22,
@@ -112779,7 +112779,7 @@
       },
       {
         "pole": "\u826e\u5366-static",
-        "gloss": "mountain / cover",
+        "gloss": "Gen \u00b7 constrain",
         "phoneme": "c",
         "mean_z": 0.017,
         "n_langs": 6,
@@ -112792,7 +112792,7 @@
       },
       {
         "pole": "\u96e2\u5366-dynamic",
-        "gloss": "fire / contraction",
+        "gloss": "Li \u00b7 attach",
         "phoneme": "v",
         "mean_z": 0.017,
         "n_langs": 14,
@@ -112805,7 +112805,7 @@
       },
       {
         "pole": "\u574e\u5366-static",
-        "gloss": "water / core",
+        "gloss": "Kan \u00b7 occupy",
         "phoneme": "o",
         "mean_z": 0.015,
         "n_langs": 19,
@@ -112818,7 +112818,7 @@
       },
       {
         "pole": "\u9707\u5366-static",
-        "gloss": "thunder / base",
+        "gloss": "Zhen \u00b7 load",
         "phoneme": "l",
         "mean_z": 0.015,
         "n_langs": 20,
@@ -112831,7 +112831,7 @@
       },
       {
         "pole": "\u4e2d\u5366-static",
-        "gloss": "center / uniformity",
+        "gloss": "Taiji \u00b7 monotonous",
         "phoneme": "\u028a",
         "mean_z": -0.079,
         "n_langs": 6,
@@ -112844,7 +112844,7 @@
       },
       {
         "pole": "\u96e2\u5366-dynamic",
-        "gloss": "fire / contraction",
+        "gloss": "Li \u00b7 attach",
         "phoneme": "\u03b8",
         "mean_z": 0.038,
         "n_langs": 5,
@@ -112857,7 +112857,7 @@
       },
       {
         "pole": "\u514c\u5366-static",
-        "gloss": "marsh / cavity",
+        "gloss": "Dui \u00b7 broken",
         "phoneme": "\u025b",
         "mean_z": -0.037,
         "n_langs": 9,
@@ -112870,7 +112870,7 @@
       },
       {
         "pole": "\u96e2\u5366-static",
-        "gloss": "fire / enclosure",
+        "gloss": "Li \u00b7 contain",
         "phoneme": "s",
         "mean_z": 0.034,
         "n_langs": 17,
@@ -112883,7 +112883,7 @@
       },
       {
         "pole": "\u5dfd\u5366-static",
-        "gloss": "wind / detachment",
+        "gloss": "Xun \u00b7 airy",
         "phoneme": "\u025b",
         "mean_z": 0.024,
         "n_langs": 10,
@@ -112896,7 +112896,7 @@
       },
       {
         "pole": "\u574e\u5366-static",
-        "gloss": "water / core",
+        "gloss": "Kan \u00b7 occupy",
         "phoneme": "c",
         "mean_z": 0.02,
         "n_langs": 6,
@@ -112909,7 +112909,7 @@
       },
       {
         "pole": "\u5764\u5366-static",
-        "gloss": "earth / void",
+        "gloss": "Kun \u00b7 empty",
         "phoneme": "\u0259",
         "mean_z": -0.014,
         "n_langs": 10,
@@ -112922,7 +112922,7 @@
       },
       {
         "pole": "\u5764\u5366-dynamic",
-        "gloss": "earth / stillness",
+        "gloss": "Kun \u00b7 still",
         "phoneme": "\u0283",
         "mean_z": 0.013,
         "n_langs": 11,
@@ -112935,7 +112935,7 @@
       },
       {
         "pole": "\u574e\u5366-static",
-        "gloss": "water / core",
+        "gloss": "Kan \u00b7 occupy",
         "phoneme": "z",
         "mean_z": 0.011,
         "n_langs": 12,
@@ -112948,7 +112948,7 @@
       },
       {
         "pole": "\u96e2\u5366-dynamic",
-        "gloss": "fire / contraction",
+        "gloss": "Li \u00b7 attach",
         "phoneme": "\u014b",
         "mean_z": 0.009,
         "n_langs": 11,
@@ -112961,7 +112961,7 @@
       },
       {
         "pole": "\u574e\u5366-dynamic",
-        "gloss": "water / dispersal",
+        "gloss": "Kan \u00b7 radiate",
         "phoneme": "x",
         "mean_z": 0.041,
         "n_langs": 5,
@@ -112974,7 +112974,7 @@
       },
       {
         "pole": "\u4e2d\u5366-static",
-        "gloss": "center / uniformity",
+        "gloss": "Taiji \u00b7 monotonous",
         "phoneme": "\u026a",
         "mean_z": 0.026,
         "n_langs": 9,
@@ -112987,7 +112987,7 @@
       },
       {
         "pole": "\u9707\u5366-dynamic",
-        "gloss": "thunder / rising",
+        "gloss": "Zhen \u00b7 rise",
         "phoneme": "a\u0361\u026a",
         "mean_z": 0.018,
         "n_langs": 6,
@@ -113000,7 +113000,7 @@
       },
       {
         "pole": "\u5764\u5366-static",
-        "gloss": "earth / void",
+        "gloss": "Kun \u00b7 empty",
         "phoneme": "\u014b",
         "mean_z": -0.012,
         "n_langs": 9,
@@ -113013,7 +113013,7 @@
       },
       {
         "pole": "\u9707\u5366-static",
-        "gloss": "thunder / base",
+        "gloss": "Zhen \u00b7 load",
         "phoneme": "\u028c",
         "mean_z": -0.009,
         "n_langs": 6,
@@ -113026,7 +113026,7 @@
       },
       {
         "pole": "\u514c\u5366-dynamic",
-        "gloss": "marsh / emission",
+        "gloss": "Dui \u00b7 express",
         "phoneme": "\u028c",
         "mean_z": 0.018,
         "n_langs": 6,
@@ -113039,7 +113039,7 @@
       },
       {
         "pole": "\u574e\u5366-dynamic",
-        "gloss": "water / dispersal",
+        "gloss": "Kan \u00b7 radiate",
         "phoneme": "r",
         "mean_z": 0.011,
         "n_langs": 16,
@@ -113052,7 +113052,7 @@
       },
       {
         "pole": "\u96e2\u5366-dynamic",
-        "gloss": "fire / contraction",
+        "gloss": "Li \u00b7 attach",
         "phoneme": "\u026a",
         "mean_z": -0.01,
         "n_langs": 10,
@@ -113065,7 +113065,7 @@
       },
       {
         "pole": "\u514c\u5366-static",
-        "gloss": "marsh / cavity",
+        "gloss": "Dui \u00b7 broken",
         "phoneme": "\u027e",
         "mean_z": 0.044,
         "n_langs": 5,
@@ -113078,7 +113078,7 @@
       },
       {
         "pole": "\u4e7e\u5366-static",
-        "gloss": "sky / fullness",
+        "gloss": "Qian \u00b7 multiple",
         "phoneme": "\u027e",
         "mean_z": 0.027,
         "n_langs": 5,
@@ -113091,7 +113091,7 @@
       },
       {
         "pole": "\u5dfd\u5366-static",
-        "gloss": "wind / detachment",
+        "gloss": "Xun \u00b7 airy",
         "phoneme": "i",
         "mean_z": -0.019,
         "n_langs": 20,
@@ -113104,7 +113104,7 @@
       },
       {
         "pole": "\u574e\u5366-static",
-        "gloss": "water / core",
+        "gloss": "Kan \u00b7 occupy",
         "phoneme": "a\u0361\u028a",
         "mean_z": -0.018,
         "n_langs": 6,
@@ -113117,7 +113117,7 @@
       },
       {
         "pole": "\u826e\u5366-static",
-        "gloss": "mountain / cover",
+        "gloss": "Gen \u00b7 constrain",
         "phoneme": "y",
         "mean_z": -0.014,
         "n_langs": 7,
@@ -113130,7 +113130,7 @@
       },
       {
         "pole": "\u5764\u5366-static",
-        "gloss": "earth / void",
+        "gloss": "Kun \u00b7 empty",
         "phoneme": "\u0251",
         "mean_z": -0.012,
         "n_langs": 7,
@@ -113143,7 +113143,7 @@
       },
       {
         "pole": "\u9707\u5366-dynamic",
-        "gloss": "thunder / rising",
+        "gloss": "Zhen \u00b7 rise",
         "phoneme": "\u0251",
         "mean_z": 0.01,
         "n_langs": 8,
@@ -113156,7 +113156,7 @@
       },
       {
         "pole": "\u96e2\u5366-static",
-        "gloss": "fire / enclosure",
+        "gloss": "Li \u00b7 contain",
         "phoneme": "t",
         "mean_z": 0.01,
         "n_langs": 17,
@@ -113169,7 +113169,7 @@
       },
       {
         "pole": "\u4e2d\u5366-dynamic",
-        "gloss": "center / mixture",
+        "gloss": "Taiji \u00b7 variegated",
         "phoneme": "o",
         "mean_z": -0.008,
         "n_langs": 14,
@@ -113182,7 +113182,7 @@
       },
       {
         "pole": "\u826e\u5366-dynamic",
-        "gloss": "mountain / descent",
+        "gloss": "Gen \u00b7 fall",
         "phoneme": "t\u0361\u0283",
         "mean_z": 0.006,
         "n_langs": 10,
@@ -113195,7 +113195,7 @@
       },
       {
         "pole": "\u5764\u5366-static",
-        "gloss": "earth / void",
+        "gloss": "Kun \u00b7 empty",
         "phoneme": "\u0283",
         "mean_z": -0.003,
         "n_langs": 10,
@@ -113208,7 +113208,7 @@
       },
       {
         "pole": "\u4e2d\u5366-dynamic",
-        "gloss": "center / mixture",
+        "gloss": "Taiji \u00b7 variegated",
         "phoneme": "\u0283",
         "mean_z": 0.014,
         "n_langs": 5,
@@ -113221,7 +113221,7 @@
       },
       {
         "pole": "\u826e\u5366-dynamic",
-        "gloss": "mountain / descent",
+        "gloss": "Gen \u00b7 fall",
         "phoneme": "\u0259",
         "mean_z": 0.005,
         "n_langs": 10,
@@ -113234,7 +113234,7 @@
       },
       {
         "pole": "\u5764\u5366-dynamic",
-        "gloss": "earth / stillness",
+        "gloss": "Kun \u00b7 still",
         "phoneme": "\u0263",
         "mean_z": -0.009,
         "n_langs": 5,
@@ -113247,7 +113247,7 @@
       },
       {
         "pole": "\u4e2d\u5366-static",
-        "gloss": "center / uniformity",
+        "gloss": "Taiji \u00b7 monotonous",
         "phoneme": "m",
         "mean_z": -0.004,
         "n_langs": 21,
@@ -113260,7 +113260,7 @@
       },
       {
         "pole": "\u9707\u5366-static",
-        "gloss": "thunder / base",
+        "gloss": "Zhen \u00b7 load",
         "phoneme": "f",
         "mean_z": -0.001,
         "n_langs": 19,
@@ -113273,7 +113273,7 @@
       },
       {
         "pole": "\u514c\u5366-static",
-        "gloss": "marsh / cavity",
+        "gloss": "Dui \u00b7 broken",
         "phoneme": "\u0259",
         "mean_z": 0.004,
         "n_langs": 5,
@@ -113286,7 +113286,7 @@
       },
       {
         "pole": "\u826e\u5366-dynamic",
-        "gloss": "mountain / descent",
+        "gloss": "Gen \u00b7 fall",
         "phoneme": "\u0254",
         "mean_z": -0.001,
         "n_langs": 10,
@@ -113299,7 +113299,7 @@
       },
       {
         "pole": "\u514c\u5366-dynamic",
-        "gloss": "marsh / emission",
+        "gloss": "Dui \u00b7 express",
         "phoneme": "y",
         "mean_z": -0.001,
         "n_langs": 8,
@@ -113312,7 +113312,7 @@
       },
       {
         "pole": "\u96e2\u5366-static",
-        "gloss": "fire / enclosure",
+        "gloss": "Li \u00b7 contain",
         "phoneme": "d",
         "mean_z": 0.001,
         "n_langs": 9,
