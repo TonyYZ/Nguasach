@@ -87,6 +87,8 @@ button{font:inherit; color:inherit; cursor:pointer}
 .pole .sd{font-size:10px; color:var(--faint); letter-spacing:.04em}
 .clearf{margin:6px 8px 0; font-size:12px; color:var(--seal); background:none; border:0; padding:4px 0; display:none}
 .clearf.show{display:block}
+.wt-row{display:flex; align-items:center; gap:7px; margin:8px 8px 2px; font-size:12px; color:var(--muted); cursor:pointer; user-select:none}
+.wt-row input{accent-color:var(--seal); cursor:pointer}
 
 /* ---------------- matrix ---------------- */
 .matrix-wrap{overflow:auto; min-height:0; position:relative}
@@ -166,6 +168,9 @@ td.dim .cell{opacity:.22}
 .dom-badge{display:inline-block; margin-top:6px; padding:2px 7px; border-radius:4px;
   font-family:var(--mono); font-size:10.5px; letter-spacing:.02em;
   background:var(--sunk); color:var(--seal); border:1px solid var(--line)}
+.wt-tag{font:400 11px/1 "IBM Plex Mono",monospace; color:var(--seal); vertical-align:middle;
+  border:1px solid var(--line); border-radius:4px; padding:2px 5px}
+.alt-top{font:400 11px/1 "IBM Plex Mono",monospace; color:var(--faint)}
 .copy{margin:14px 22px 24px; padding:9px 12px; border:1px solid var(--line-strong); border-radius:8px; background:var(--paper); font-size:12px; display:flex; align-items:center; gap:8px; justify-content:center}
 .copy:hover{border-color:var(--seal); color:var(--seal)}
 .copy.done{color:var(--pos); border-color:var(--pos)}
@@ -191,6 +196,10 @@ td.dim .cell{opacity:.22}
       <input id="q" type="search" placeholder="filter by hanzi, gloss, syllable…" autocomplete="off">
     </label>
     <button class="clearf" id="clearf">← clear filter</button>
+    <label class="wt-row" title="Weight each word by 1/√(size of its shared-Hanzi family in the cell), so a large single-morpheme family (色×16) stops dominating.">
+      <input type="checkbox" id="wt-toggle">
+      <span>morpheme-weighted poles</span>
+    </label>
     <div class="rail-scroll">
       <div class="legend-h" id="legend-h"></div>
       <div id="legend"></div>
@@ -254,25 +263,41 @@ pole_names.forEach(name=>{
 
 /* ---- matrix ---- */
 const grid=document.getElementById('grid');
-let head='<thead><tr><th></th>'+onsets.map(o=>`<th data-on="${o}" class="mono">${o}</th>`).join('')+'</tr></thead>';
-let body='<tbody>';
-for(const r of rhymes){
-  body+=`<tr><th data-rh="${r}" class="mono">${r}</th>`;
-  for(const o of onsets){
-    const c=table[o]?.[r];
-    if(!c){ body+=`<td><div class="cell empty"><span class="syl">·</span></div></td>`; continue; }
-    const p=c.pole?.[0]?.name;
-    body+=`<td data-on="${o}" data-rh="${r}">
-      <button class="cell" data-key="${o}|${r}">
-        <span class="tint" style="opacity:${(c.n/maxN*0.16).toFixed(3)}"></span>
-        <span class="gly">${p?gly(p):''}</span>
-        <span class="syl">${c.syllable}</span>
-        <span class="n">${c.n}</span>
-      </button></td>`;
+// raw vs morpheme-weighted (1/√family) cell mean -- toggled in the rail
+let WEIGHTED=false;
+const cellPole = c => (WEIGHTED && c.pole_weighted) ? c.pole_weighted : (c.pole||[]);
+const cellPar  = c => (WEIGHTED && c.parallel_poles_weighted) ? c.parallel_poles_weighted
+                                                             : (c.parallel_poles||[]);
+function drawGrid(){
+  let head='<thead><tr><th></th>'+onsets.map(o=>`<th data-on="${o}" class="mono">${o}</th>`).join('')+'</tr></thead>';
+  let body='<tbody>';
+  for(const r of rhymes){
+    body+=`<tr><th data-rh="${r}" class="mono">${r}</th>`;
+    for(const o of onsets){
+      const c=table[o]?.[r];
+      if(!c){ body+=`<td><div class="cell empty"><span class="syl">·</span></div></td>`; continue; }
+      const p=cellPole(c)[0]?.name;
+      body+=`<td data-on="${o}" data-rh="${r}">
+        <button class="cell" data-key="${o}|${r}">
+          <span class="tint" style="opacity:${(c.n/maxN*0.16).toFixed(3)}"></span>
+          <span class="gly">${p?gly(p):''}</span>
+          <span class="syl">${c.syllable}</span>
+          <span class="n">${c.n}</span>
+        </button></td>`;
+    }
+    body+='</tr>';
   }
-  body+='</tr>';
+  grid.innerHTML=head+body+'</tbody>';
 }
-grid.innerHTML=head+body+'</tbody>';
+drawGrid();
+
+const wt=document.getElementById('wt-toggle');
+if(wt) wt.addEventListener('change',()=>{
+  WEIGHTED=wt.checked;
+  drawGrid();
+  if(typeof applyFilter==='function') applyFilter();
+  if(selKey) select(selKey); else if(filter && filter.type==='pole') showPole?.();
+});
 
 document.getElementById('stat').textContent = `${DATA.n_cells} cells`;
 document.getElementById('legend-h').textContent =
@@ -299,7 +324,8 @@ function select(key){
   app.classList.add('open'); drawer.classList.remove('empty');
 }
 function renderDrawer(c){
-  const poles=(c.pole||[]).map(p=>{
+  const activePole = cellPole(c);
+  const poles=activePole.map(p=>{
     const w=Math.max(4,(p.score+ (p.score<0?0.3:0))*140);
     return `<button class="bar-row bar-row-btn" data-pole="${p.name}" title="show ${nm(p.name)} phoneme profile"><span class="gly">${gly(p.name)}</span>
       <span><span class="nm ${CJK}">${base(p.name)}</span>
@@ -307,7 +333,7 @@ function renderDrawer(c){
         <div class="bar"><i style="width:${Math.min(100,w)}%"></i></div></span>
       <span class="v">${p.score.toFixed(2)}</span></button>`;
   }).join('');
-  const pairList = c.parallel_poles || (c.parallel_pole ? [c.parallel_pole] : []);
+  const pairList = cellPar(c).length ? cellPar(c) : (c.parallel_pole ? [c.parallel_pole] : []);
   const par = pairList.length ? pairList.map(pp =>
       `<div class="parallel-row">` +
       pp.name.split(' + ').map(n=>`<span class="${CJK}">${base(n)}${sd(n)?`<span style="color:var(--faint)">·${sd(n)}</span>`:''}</span>`).join('<span class="op">∥</span>') +
@@ -319,22 +345,17 @@ function renderDrawer(c){
   // morpheme-dominance flag + weighted reading when it changes the top pole
   const domBadge = (c.frac_share>=0.6 && c.n>=4)
     ? `<span class="dom-badge" title="${Math.round(c.frac_share*100)}% of this cell's words contain 「${c.dom_char}」 — the pole below largely reflects that one morpheme, not the syllable">morpheme-dominated · 「${c.dom_char}」 ${Math.round(c.frac_share*100)}%</span>` : '';
-  const pw = c.pole_weighted || [];
-  const weightedNote = (pw.length && c.pole && pw[0].name!==c.pole[0].name)
-    ? `<div class="d-sect"><h3>morpheme-weighted  (1/√family)</h3>${
-        pw.map(p=>`<div class="bar-row"><span class="gly">${gly(p.name)}</span>`+
-          `<span><span class="nm ${CJK}">${base(p.name)}</span> `+
-          `<span style="color:var(--faint);font-size:11px">${sd(p.name)?sd(p.name)+' · ':''}${p.gloss}</span></span>`+
-          `<span class="v">${p.score.toFixed(2)}</span></div>`).join('')}</div>` : '';
+  const altTop = (c.pole && c.pole_weighted && c.pole[0].name!==c.pole_weighted[0].name)
+    ? `<span class="alt-top" title="the other reading">${WEIGHTED ? 'raw' : 'weighted'}: ${base((WEIGHTED?c.pole:c.pole_weighted)[0].name)}</span>` : '';
   drawer.innerHTML=`
     <div class="d-head">
       <button class="d-close" onclick="deselect()" aria-label="close">×</button>
-      <div class="d-syl">${c.syllable}</div>
+      <div class="d-syl">${c.syllable} ${WEIGHTED?'<span class="wt-tag">1/√fam</span>':''}</div>
       <div class="d-ipa">${c.onset==='∅'?'∅':c.onset} + ${c.rhyme} · ${c.n} word${c.n>1?'s':''}</div>
       ${domBadge}
-      ${c.pole?`<div class="d-struct"><span class="big">${gly(c.pole[0].name)}</span>
-        <span class="txt"><span class="nm ${CJK}">${nm(c.pole[0].name)}</span><br>
-        <span class="gl">${c.pole[0].gloss}</span></span></div>`:''}
+      ${activePole.length?`<div class="d-struct"><span class="big">${gly(activePole[0].name)}</span>
+        <span class="txt"><span class="nm ${CJK}">${nm(activePole[0].name)}</span> ${altTop}<br>
+        <span class="gl">${activePole[0].gloss}</span></span></div>`:''}
     </div>
     ${poles?`<div class="d-sect"><h3>nearest poles</h3>${poles}</div>`:''}
     ${weightedNote}
@@ -355,8 +376,8 @@ window.deselect=deselect;
 
 function copyCell(c){
   const L=[`${c.syllable}  (${c.onset==='∅'?'∅':c.onset} + ${c.rhyme})  ·  ${c.n} words`];
-  if(c.pole) L.push(`pole: ${nm(c.pole[0].name)} — ${c.pole[0].gloss}`
-    +`  |  next: ${c.pole.slice(1).map(p=>nm(p.name)).join(', ')}`);
+  if(c.pole) L.push(`pole: ${nm(cellPole(c)[0].name)} — ${cellPole(c)[0].gloss}`
+    +`  |  next: ${cellPole(c).slice(1).map(p=>nm(p.name)).join(', ')}`);
   const pl=c.parallel_poles||(c.parallel_pole?[c.parallel_pole]:[]);
   if(pl.length) L.push(`parallel ∥: ${pl.map(p=>`${p.name} (${p.score.toFixed(2)})`).join(' ; ')}`);
   if(c.neighbors?.length) L.push(`neighbours: ${c.neighbors.slice(0,12).join(', ')}`);
@@ -416,7 +437,7 @@ function toggleFilter(type,val){
 }
 function matchCell(c){
   if(!filter) return true;
-  if(filter.type==='pole') return c.pole && c.pole[0].name===filter.val;
+  if(filter.type==='pole') return cellPole(c)[0] && cellPole(c)[0].name===filter.val;
   const v=filter.val;
   if(c.syllable.toLowerCase().includes(v)) return true;
   return (c.words||[]).some(w=>w.hanzi.includes(filter.val)||w.english.toLowerCase().includes(v)||w.pinyin.includes(v));
