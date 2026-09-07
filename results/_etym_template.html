@@ -181,7 +181,7 @@ td.dim .cell{opacity:.22}
   <aside class="rail">
     <div class="rail-head">
       <h1>Etym Table</h1>
-      <div class="sub">Mandarin <b>onset × rhyme</b> → nearest trigram etym. <span id="stat"></span></div>
+      <div class="sub">Mandarin <b>onset × rhyme</b> → nearest etym pole. <span id="stat"></span></div>
     </div>
     <label class="search">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
@@ -189,7 +189,7 @@ td.dim .cell{opacity:.22}
     </label>
     <button class="clearf" id="clearf">← clear filter</button>
     <div class="rail-scroll">
-      <div class="legend-h">九卦 · static / dynamic</div>
+      <div class="legend-h" id="legend-h"></div>
       <div id="legend"></div>
     </div>
   </aside>
@@ -197,19 +197,40 @@ td.dim .cell{opacity:.22}
   <div class="matrix-wrap" id="mwrap"><table id="grid"></table></div>
 
   <aside class="drawer empty" id="drawer">
-    <div class="hint">Select a cell to see its etym structure — the trigram pole its words'
+    <div class="hint">Select a cell to see its etym structure — the pole its words'
       averaged meaning lands nearest, the parallel composition, and the words themselves.
-      Click a trigram in the legend for that pole's over-/under-used phonemes.</div>
+      Click a pole in the legend for that pole's over-/under-used phonemes.</div>
   </aside>
 </div>
 
 <script type="application/json" id="etym-data">/*__ETYM_DATA__*/</script>
 <script>
 const DATA = JSON.parse(document.getElementById('etym-data').textContent);
-const GLYPH = {'坤':'☷','艮':'☶','坎':'☵','巽':'☴','中':'◎','震':'☳','離':'☲','兌':'☱','乾':'☰'};
-const base = n => n.split('-')[0];
-const sd   = n => n.split('-')[1];               // static | dynamic
-const gly  = n => GLYPH[(n||'').split('卦')[0].replace('-','')] || '·';
+
+// Two pole sets are supported: the 18 I-Ching trigrams ("坤卦-static" ...) and
+// a flat menu of sensory/affect poles ("SOUR", "SMALL" ...). Detect and render
+// each accordingly -- trigram glyph vs emoji, "· static/dynamic" suffix vs none.
+const TRIGRAM = {'坤':'☷','艮':'☶','坎':'☵','巽':'☴','中':'◎','震':'☳','離':'☲','兌':'☱','乾':'☰'};
+const EMOJI = {
+  SMALL:'🐜',BIG:'🐘',LONG:'📏',SHORT:'▪️',TALL:'🗼',DEEP:'🕳️',
+  ROUND:'⭕',FLAT:'⬜',POINTED:'🔺',STRAIGHT:'➖',BENT:'〰️',HOLE:'🕳️',
+  ROUGH:'🪨',SMOOTH:'🧊',HARD:'🧱',SOFT:'🧸',STICKY:'🍯',
+  WET:'💧',DRY:'🏜️',HOT:'🔥',COLD:'❄️',WARM:'☀️',
+  BRIGHT:'💡',DARK:'🌑',RED:'🔴',WHITE:'⚪',BLACK:'⚫',YELLOW:'🟡',GREEN:'🟢',BLUE:'🔵',SHINY:'✨',
+  FAST:'⚡',SLOW:'🐌',UP:'⬆️',DOWN:'⬇️',FLOW:'🌊',FLY:'🕊️',STOP:'✋',SHAKE:'📳',
+  LOUD:'📢',QUIET:'🤫',BANG:'💥',HUM:'🐝',
+  HEAVY:'🏋️',STRONG:'💪',WEAK:'🥀',PUSH:'👐',PULL:'🪝',HIT:'👊',
+  SWEET:'🍬',SOUR:'🍋',BITTER:'☕',SALTY:'🧂',STINK:'🦨',
+  PAIN:'🤕',ITCH:'🌿',
+  FEAR:'😱',ANGER:'💢',HAPPY:'😀',SAD:'😢',LOVE:'❤️',HATE:'👿',DISGUST:'🤢',CALM:'😌',
+};
+const IS_TRIGRAM = /卦-(static|dynamic)$/.test(DATA.pole_names[0] || '');
+const base = n => IS_TRIGRAM ? n.split('-')[0] : n;
+const sd   = n => IS_TRIGRAM ? (n.split('-')[1] || '') : '';
+const gly  = n => IS_TRIGRAM ? (TRIGRAM[(n||'').split('卦')[0].replace('-','')] || '·')
+                             : (EMOJI[(n||'').split(' + ')[0]] || '◆');
+const nm   = n => { const s = sd(n); return s ? `${base(n)} · ${s}` : base(n); };
+const CJK  = IS_TRIGRAM ? 'cjk' : '';
 
 const {onsets, rhymes, table, pole_names, pole_glosses} = DATA;
 const POLE_GLOSS = Object.fromEntries(pole_names.map((n,i)=>[n, pole_glosses[i]]));
@@ -222,7 +243,7 @@ pole_names.forEach(name=>{
   const b=document.createElement('button');
   b.className='pole'; b.dataset.pole=name;
   b.innerHTML=`<span class="gly">${gly(name)}</span>
-    <span><span class="nm cjk">${base(name)}</span> <span class="sd">${sd(name)}</span>
+    <span><span class="nm ${CJK}">${base(name)}</span> <span class="sd">${sd(name)}</span>
     <span class="gl">${POLE_GLOSS[name]||''}</span></span>`;
   b.onclick=()=>{ toggleFilter('pole',name); showPole(); };
   legend.appendChild(b);
@@ -251,6 +272,8 @@ for(const r of rhymes){
 grid.innerHTML=head+body+'</tbody>';
 
 document.getElementById('stat').textContent = `${DATA.n_cells} cells`;
+document.getElementById('legend-h').textContent =
+  IS_TRIGRAM ? '九卦 · static / dynamic' : `${pole_names.length} poles`;
 
 /* ---- selection ---- */
 const app=document.getElementById('app'), drawer=document.getElementById('drawer');
@@ -275,16 +298,16 @@ function select(key){
 function renderDrawer(c){
   const poles=(c.pole||[]).map(p=>{
     const w=Math.max(4,(p.score+ (p.score<0?0.3:0))*140);
-    return `<button class="bar-row bar-row-btn" data-pole="${p.name}" title="show ${base(p.name)} ${sd(p.name)} phoneme profile"><span class="gly">${gly(p.name)}</span>
-      <span><span class="nm cjk">${base(p.name)}</span>
-        <span style="color:var(--faint);font-size:11px">${sd(p.name)} · ${p.gloss}</span>
+    return `<button class="bar-row bar-row-btn" data-pole="${p.name}" title="show ${nm(p.name)} phoneme profile"><span class="gly">${gly(p.name)}</span>
+      <span><span class="nm ${CJK}">${base(p.name)}</span>
+        <span style="color:var(--faint);font-size:11px">${sd(p.name) ? sd(p.name)+' · ' : ''}${p.gloss}</span>
         <div class="bar"><i style="width:${Math.min(100,w)}%"></i></div></span>
       <span class="v">${p.score.toFixed(2)}</span></button>`;
   }).join('');
   const pairList = c.parallel_poles || (c.parallel_pole ? [c.parallel_pole] : []);
   const par = pairList.length ? pairList.map(pp =>
       `<div class="parallel-row">` +
-      pp.name.split(' + ').map(n=>`<span class="cjk">${base(n)}<span style="color:var(--faint)">·${sd(n)}</span></span>`).join('<span class="op">∥</span>') +
+      pp.name.split(' + ').map(n=>`<span class="${CJK}">${base(n)}${sd(n)?`<span style="color:var(--faint)">·${sd(n)}</span>`:''}</span>`).join('<span class="op">∥</span>') +
       `<span class="v" style="margin-left:8px">${pp.score.toFixed(2)}</span></div>`
     ).join('') : '—';
   const nbrs=(c.neighbors||[]).slice(0,12).map((n,i)=>`${i?', ':''}<b>${n}</b>`).join('');
@@ -296,7 +319,7 @@ function renderDrawer(c){
       <div class="d-syl">${c.syllable}</div>
       <div class="d-ipa">${c.onset==='∅'?'∅':c.onset} + ${c.rhyme} · ${c.n} word${c.n>1?'s':''}</div>
       ${c.pole?`<div class="d-struct"><span class="big">${gly(c.pole[0].name)}</span>
-        <span class="txt"><span class="nm cjk">${base(c.pole[0].name)} · ${sd(c.pole[0].name)}</span><br>
+        <span class="txt"><span class="nm ${CJK}">${nm(c.pole[0].name)}</span><br>
         <span class="gl">${c.pole[0].gloss}</span></span></div>`:''}
     </div>
     ${poles?`<div class="d-sect"><h3>nearest poles</h3>${poles}</div>`:''}
@@ -317,8 +340,8 @@ window.deselect=deselect;
 
 function copyCell(c){
   const L=[`${c.syllable}  (${c.onset==='∅'?'∅':c.onset} + ${c.rhyme})  ·  ${c.n} words`];
-  if(c.pole) L.push(`pole: ${base(c.pole[0].name)} ${sd(c.pole[0].name)} — ${c.pole[0].gloss}`
-    +`  |  next: ${c.pole.slice(1).map(p=>base(p.name)+' '+sd(p.name)).join(', ')}`);
+  if(c.pole) L.push(`pole: ${nm(c.pole[0].name)} — ${c.pole[0].gloss}`
+    +`  |  next: ${c.pole.slice(1).map(p=>nm(p.name)).join(', ')}`);
   const pl=c.parallel_poles||(c.parallel_pole?[c.parallel_pole]:[]);
   if(pl.length) L.push(`parallel ∥: ${pl.map(p=>`${p.name} (${p.score.toFixed(2)})`).join(' ; ')}`);
   if(c.neighbors?.length) L.push(`neighbours: ${c.neighbors.slice(0,12).join(', ')}`);
@@ -347,8 +370,8 @@ function renderPole(name){
   drawer.innerHTML = `
     <div class="d-head">
       <button class="d-close" onclick="clearPole()" aria-label="close">×</button>
-      <div class="d-syl" style="font-family:'Spectral',serif">${gly(name)} <span class="cjk">${base(name)}</span></div>
-      <div class="d-ipa"><span class="cjk">${sd(name)}</span> · ${p.gloss} · ${p.n_concepts} concept${p.n_concepts===1?'':'s'} assigned</div>
+      <div class="d-syl" style="font-family:'Spectral',serif">${gly(name)} <span class="${CJK}">${base(name)}</span></div>
+      <div class="d-ipa">${sd(name)?`<span class="cjk">${sd(name)}</span> · `:''}${p.gloss} · ${p.n_concepts} concept${p.n_concepts===1?'':'s'} assigned</div>
     </div>
     ${p.n_concepts>=3 ? `
       <div class="d-sect"><h3>over-used phonemes  (raw z, none clear FDR)</h3><div class="chips">${up||'<span class="d-note">none</span>'}</div></div>
@@ -356,7 +379,7 @@ function renderPole(name){
     : `<div class="d-sect"><p class="d-note">Too few Chinese concepts project onto this pole for a phoneme profile.</p></div>`}
     <div class="d-sect"><h3>pole seed words</h3><div class="pole-words">${sw}</div></div>
     <div class="d-sect"><p class="d-note">Phonemes whose rate among Chinese words assigned to this
-      pole is high (+) or low (&minus;) vs. their rate across all 18 poles. Pole assignment: nearest
+      pole is high (+) or low (&minus;) vs. their rate across all ${pole_names.length} poles. Pole assignment: nearest
       anchor after a ridge phonetic&rarr;semantic projection.</p></div>`;
   app.classList.add('open'); drawer.classList.remove('empty');
 }
