@@ -113,30 +113,50 @@ def run(cfg: Config, n_jobs: int = 1) -> dict:
                  "vec": None if vec is None else vec}
             )
 
+    def _poles(m, sp_mat, pr_mat):
+        m = m / (np.linalg.norm(m) or 1)
+        sp, spp = sp_mat @ m, pr_mat @ m
+        return (
+            [{"name": names[k], "gloss": glosses[k], "score": round(float(sp[k]), 3)}
+             for k in np.argsort(-sp)[:3]],
+            [{"name": pair_names[k], "score": round(float(spp[k]), 3)}
+             for k in np.argsort(-spp)[:3]],
+        )
+
     cells = []
     table: dict[str, dict[str, dict]] = {}
     for rhyme in sorted(rhymes):
         for onset in sorted(grid.get(rhyme, {})):
             items = grid[rhyme][onset]
-            vecs = [it["vec"] for it in items if it["vec"] is not None]
+            keep = [it for it in items if it["vec"] is not None]
+            vecs = [it["vec"] for it in keep]
+            # morpheme-family weight: discount a word by 1/sqrt(size of its
+            # largest shared-Hanzi family within this cell). Words sharing no
+            # character with any other cell member keep weight 1.
+            from collections import Counter as _C
+            char_fam = _C(ch for it in keep for ch in set(it["hanzi"]))
+            wts = np.array([
+                1.0 / np.sqrt(max([char_fam[ch] for ch in set(it["hanzi"]) if char_fam[ch] >= 2] or [1]))
+                for it in keep], dtype=float)
+            # transparency: dominant character + fraction of cell sharing it
+            all_chars = _C(ch for it in items for ch in it["hanzi"])
+            dom_char, _dc = all_chars.most_common(1)[0] if items else ("", 0)
+            frac_share = (sum(1 for it in items if dom_char in it["hanzi"]) / len(items)
+                          if items else 0.0)
             entry = {
                 "onset": onset, "rhyme": rhyme, "syllable": f"{'' if onset=='∅' else onset}{rhyme}",
                 "n": len(items),
+                "dom_char": dom_char, "frac_share": round(frac_share, 2),
                 "words": [{"hanzi": it["hanzi"], "english": it["english"], "pinyin": it["pinyin"]}
                           for it in items[:40]],
             }
             if vecs:
-                m = np.mean(vecs, axis=0)
-                m = m / (np.linalg.norm(m) or 1)
-                sp = anch @ m
-                spp = pair_anch @ m
-                order = np.argsort(-sp)[:3]
-                entry["pole"] = [{"name": names[k], "gloss": glosses[k],
-                                  "score": round(float(sp[k]), 3)} for k in order]
-                porder = np.argsort(-spp)[:3]
-                entry["parallel_poles"] = [{"name": pair_names[k], "score": round(float(spp[k]), 3)}
-                                           for k in porder]
+                V = np.asarray(vecs)
+                entry["pole"], entry["parallel_poles"] = _poles(V.mean(axis=0), anch, pair_anch)
+                pw, ppw = _poles(np.average(V, axis=0, weights=wts), anch, pair_anch)
+                entry["pole_weighted"], entry["parallel_poles_weighted"] = pw, ppw
                 entry["parallel_pole"] = entry["parallel_poles"][0]   # back-compat
+                m = V.mean(axis=0); m = m / (np.linalg.norm(m) or 1)
                 nbr = mat @ m
                 entry["neighbors"] = [labels[k].rstrip("_")
                                       for k in np.argsort(-nbr)[:12] if labels[k].rstrip("_")]
@@ -193,15 +213,17 @@ def _csv(path, cells: list[dict]) -> None:
 
     with path.open("w", encoding="utf-8", newline="") as fh:
         w = csv.writer(fh)
-        w.writerow(["syllable", "onset", "rhyme", "n", "pole_1", "pole_2", "pole_3",
+        w.writerow(["syllable", "onset", "rhyme", "n", "dom_char", "frac_share",
+                    "pole_1", "pole_2", "pole_3", "pole_1_wt", "pole_2_wt", "pole_3_wt",
                     "parallel_1", "parallel_2", "parallel_3", "neighbors", "example_words"])
         for c in cells:
             pole = c.get("pole", [])
+            polew = c.get("pole_weighted", [])
             w.writerow([
                 c["syllable"], c["onset"], c["rhyme"], c["n"],
-                pole[0]["name"] if len(pole) > 0 else "",
-                pole[1]["name"] if len(pole) > 1 else "",
-                pole[2]["name"] if len(pole) > 2 else "",
+                c.get("dom_char", ""), c.get("frac_share", ""),
+                *[(pole + [{}, {}, {}])[i].get("name", "") for i in range(3)],
+                *[(polew + [{}, {}, {}])[i].get("name", "") for i in range(3)],
                 *[(c.get("parallel_poles", [{}, {}, {}]) + [{}, {}, {}])[i].get("name", "")
                   for i in range(3)],
                 " ".join(c.get("neighbors", [])[:8]),

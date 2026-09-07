@@ -163,6 +163,9 @@ td.dim .cell{opacity:.22}
 .parallel .op{color:var(--seal); margin:0 5px}
 .parallel-row{display:flex; align-items:baseline; margin:3px 0}
 .parallel-row .v{color:var(--faint); font-size:11px; font-family:var(--mono)}
+.dom-badge{display:inline-block; margin-top:6px; padding:2px 7px; border-radius:4px;
+  font-family:var(--mono); font-size:10.5px; letter-spacing:.02em;
+  background:var(--sunk); color:var(--seal); border:1px solid var(--line)}
 .copy{margin:14px 22px 24px; padding:9px 12px; border:1px solid var(--line-strong); border-radius:8px; background:var(--paper); font-size:12px; display:flex; align-items:center; gap:8px; justify-content:center}
 .copy:hover{border-color:var(--seal); color:var(--seal)}
 .copy.done{color:var(--pos); border-color:var(--pos)}
@@ -313,16 +316,28 @@ function renderDrawer(c){
   const nbrs=(c.neighbors||[]).slice(0,12).map((n,i)=>`${i?', ':''}<b>${n}</b>`).join('');
   const words=(c.words||[]).map(w=>`<div class="wd"><span class="hz">${w.hanzi}</span>
       <span class="en">${w.english}</span><span class="py">${w.pinyin}</span></div>`).join('');
+  // morpheme-dominance flag + weighted reading when it changes the top pole
+  const domBadge = (c.frac_share>=0.6 && c.n>=4)
+    ? `<span class="dom-badge" title="${Math.round(c.frac_share*100)}% of this cell's words contain 「${c.dom_char}」 — the pole below largely reflects that one morpheme, not the syllable">morpheme-dominated · 「${c.dom_char}」 ${Math.round(c.frac_share*100)}%</span>` : '';
+  const pw = c.pole_weighted || [];
+  const weightedNote = (pw.length && c.pole && pw[0].name!==c.pole[0].name)
+    ? `<div class="d-sect"><h3>morpheme-weighted  (1/√family)</h3>${
+        pw.map(p=>`<div class="bar-row"><span class="gly">${gly(p.name)}</span>`+
+          `<span><span class="nm ${CJK}">${base(p.name)}</span> `+
+          `<span style="color:var(--faint);font-size:11px">${sd(p.name)?sd(p.name)+' · ':''}${p.gloss}</span></span>`+
+          `<span class="v">${p.score.toFixed(2)}</span></div>`).join('')}</div>` : '';
   drawer.innerHTML=`
     <div class="d-head">
       <button class="d-close" onclick="deselect()" aria-label="close">×</button>
       <div class="d-syl">${c.syllable}</div>
       <div class="d-ipa">${c.onset==='∅'?'∅':c.onset} + ${c.rhyme} · ${c.n} word${c.n>1?'s':''}</div>
+      ${domBadge}
       ${c.pole?`<div class="d-struct"><span class="big">${gly(c.pole[0].name)}</span>
         <span class="txt"><span class="nm ${CJK}">${nm(c.pole[0].name)}</span><br>
         <span class="gl">${c.pole[0].gloss}</span></span></div>`:''}
     </div>
     ${poles?`<div class="d-sect"><h3>nearest poles</h3>${poles}</div>`:''}
+    ${weightedNote}
     <div class="d-sect"><h3>parallel composition ∥</h3><div class="parallel">${par}</div></div>
     ${nbrs?`<div class="d-sect"><h3>meaning neighbours</h3><div class="nbr">${nbrs}</div></div>`:''}
     <div class="d-sect"><h3>${c.n} words with this syllable</h3><div class="words">${words}</div></div>
