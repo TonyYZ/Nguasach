@@ -20,3 +20,11 @@ null_iters: 50
 bootstrap_iters: 300
 
 qc_mode: exclude_flagged
+
+# isolated scratch dirs -- the smoke stages regenerate *V.txt / *Emb.txt, and
+# must NOT clobber the full-corpus data/interim + data/processed that the paper
+# configs share (this bit us once: pytest -> test_ipa_phonetics -> 200-concept
+# interim overwrote the 1968-concept files).
+paths:
+  interim: data/interim_smoke
+  processed: data/processed_smoke

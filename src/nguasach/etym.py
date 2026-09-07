@@ -168,8 +168,8 @@ def _pole_phoneme_profiles(cfg: Config, pole_names: list[str]) -> dict:
     from . import association as A
 
     spec = A.load_poles(cfg)
-    names, anchors = A.pole_anchors(cfg, spec)
-    pole_of, concepts = A.assign_poles(cfg, "Chinese", anchors)
+    names, anchors, _sub = A.pole_anchors(cfg, spec)
+    pole_of, concepts = A.assign_poles(cfg, "Chinese", anchors, _sub)
     phones = A.phoneme_rows(cfg, "Chinese")
     z, vocab, counts = A.zscores(pole_of, concepts, phones, len(names))
     sizes = np.bincount(pole_of, minlength=len(names))

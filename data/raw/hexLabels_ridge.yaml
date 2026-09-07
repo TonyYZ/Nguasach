@@ -1,0 +1,298 @@
+poles:
+- name: 坤卦-static
+  gloss: earth / void
+  words:
+  - void
+  - empty
+  - sparse
+  - few
+  - clean
+  - space
+  bridge:
+  - hollow
+  - blank
+  - bare
+  - barren
+- name: 坤卦-dynamic
+  gloss: earth / stillness
+  words:
+  - static
+  - motionless
+  - quiet
+  - calm
+  - fixed
+  - dead
+  - stay
+  bridge:
+  - frozen
+  - dead
+  - flat
+  - dormant
+- name: 艮卦-static
+  gloss: mountain / cover
+  words:
+  - high
+  - aloft
+  - top
+  - cover
+  - shell
+  - protect
+  - roof
+  - surface
+  - limit
+  - constrain
+  bridge:
+  - shield
+  - mask
+  - veil
+  - curb
+  - cap
+- name: 艮卦-dynamic
+  gloss: mountain / descent
+  words:
+  - retreat
+  - return
+  - come
+  - descend
+  - fall
+  - gravity
+  - backward
+  - pull
+  bridge:
+  - sink
+  - drop
+  - decline
+  - slump
+  - collapse
+  - plunge
+- name: 坎卦-static
+  gloss: water / core
+  words:
+  - inner
+  - core
+  - center
+  - middle
+  - occupy
+  - obstruct
+  - barrier
+  - separated
+  - isolated
+  bridge:
+  - trapped
+  - stuck
+  - enclosed
+  - cornered
+  - pit
+- name: 坎卦-dynamic
+  gloss: water / dispersal
+  words:
+  - separate
+  - split
+  - repel
+  - break
+  - disconnect
+  - radiate
+  - disperse
+  - spread
+  - source
+  - expand
+  - detach
+  bridge:
+  - scatter
+  - split
+  - drift
+  - shatter
+  - fracture
+- name: 巽卦-static
+  gloss: wind / detachment
+  words:
+  - tall
+  - lush
+  - drifting
+  - unsupported
+  - detached
+  bridge:
+  - loose
+  - floating
+  - adrift
+  - dangling
+- name: 巽卦-dynamic
+  gloss: wind / seepage
+  words:
+  - leak
+  - seep
+  - shed
+  - erode
+  - decay
+  - discard
+  - feedback
+  - loosen
+  - release
+  bridge:
+  - wear
+  - fade
+  - leak
+  - drain
+  - dissolve
+  - erode
+- name: 中卦-static
+  gloss: center / uniformity
+  words:
+  - vague
+  - monotonous
+  - homogeneous
+  - uniformity
+  bridge:
+  - flat
+  - plain
+  - even
+  - level
+  - bland
+- name: 中卦-dynamic
+  gloss: center / mixture
+  words:
+  - varying
+  - mixed
+  - intricate
+  - complex
+  - random
+  bridge:
+  - tangled
+  - muddy
+  - murky
+  - knotted
+  - jumbled
+- name: 震卦-static
+  gloss: thunder / base
+  words:
+  - support
+  - carry
+  - base
+  - low
+  - bottom
+  - floor
+  - ground
+  - platform
+  - deep
+  bridge:
+  - ground
+  - root
+  - anchor
+  - bedrock
+  - pillar
+- name: 震卦-dynamic
+  gloss: thunder / rising
+  words:
+  - depart
+  - advance
+  - go
+  - rise
+  - ascend
+  - climb
+  - forward
+  - push
+  - overcome
+  bridge:
+  - rise
+  - climb
+  - surge
+  - soar
+  - spring
+- name: 離卦-static
+  gloss: fire / enclosure
+  words:
+  - enclosure
+  - surface
+  - periphery
+  - surround
+  - hollow
+  - contain
+  - together
+  - eachother
+  bridge:
+  - frame
+  - shell
+  - outline
+  - border
+  - facade
+- name: 離卦-dynamic
+  gloss: fire / contraction
+  words:
+  - combine
+  - concentrate
+  - join
+  - attach
+  - connect
+  - attract
+  - receive
+  - shrink
+  - contract
+  bridge:
+  - grip
+  - cling
+  - bind
+  - fuse
+  - hug
+- name: 兌卦-static
+  gloss: marsh / cavity
+  words:
+  - recessed
+  - cavity
+  - shallow
+  - exposed
+  - incomplete
+  bridge:
+  - gap
+  - notch
+  - dent
+  - hollow
+  - opening
+- name: 兌卦-dynamic
+  gloss: marsh / emission
+  words:
+  - express
+  - depart
+  - emit
+  - throw
+  - eject
+  - give
+  - grow
+  - swell
+  - abandon
+  bridge:
+  - burst
+  - spout
+  - pour
+  - vent
+  - gush
+- name: 乾卦-static
+  gloss: sky / fullness
+  words:
+  - congested
+  - teeming
+  - abundant
+  - enormous
+  - whole
+  bridge:
+  - packed
+  - stuffed
+  - brimming
+  - crammed
+  - dense
+- name: 乾卦-dynamic
+  gloss: sky / tumult
+  words:
+  - tumultuous
+  - chaotic
+  - energetic
+  - lively
+  - hustle
+  - bustle
+  - dynamic
+  - vibrant
+  bridge:
+  - storm
+  - rush
+  - churn
+  - whirl
+  - blaze

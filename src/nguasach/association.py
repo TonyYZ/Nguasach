@@ -40,33 +40,56 @@ def load_poles(cfg: Config) -> list[dict]:
     return yaml.safe_load(cfg.paths.resolve("hex_labels").read_text(encoding="utf-8"))["poles"]
 
 
-def pole_anchors(cfg: Config, poles: list[dict]) -> tuple[list[str], np.ndarray]:
+def _mean_vec(words, idx, mat):
+    rows = [mat[idx[f"{w}_"]] for w in words if f"{w}_" in idx]
+    return np.mean(rows, axis=0) if rows else None
+
+
+def pole_anchors(cfg: Config, poles: list[dict]):
+    """(names, sub_vecs, sub_pole).
+
+    Point poles: sub_vecs is (n_poles, dim), sub_pole = arange(n_poles).
+    Ridge poles (cfg.pole_ridge_steps > 1 and a pole has a ``bridge:`` list):
+    that pole is sampled at `steps` points from its literal-seed centroid
+    toward its bridge-word centroid; sub_pole maps each row back to its pole.
+    """
     labels, mat = load_emb(cfg.paths.resolve("processed") / "SemanticsEmb.txt")
     idx = {lab: i for i, lab in enumerate(labels)}
-    names, vecs = [], []
+    steps = max(1, int(getattr(cfg, "pole_ridge_steps", 1)))
+    names, vecs, sub_pole = [], [], []
     for pole in poles:
-        rows = [mat[idx[f"{w}_"]] for w in pole["words"] if f"{w}_" in idx]
-        if rows:
-            names.append(pole["name"])
-            vecs.append(np.mean(rows, axis=0))
+        a = _mean_vec(pole["words"], idx, mat)
+        if a is None:
+            continue
+        pi = len(names)
+        names.append(pole["name"])
+        b = _mean_vec(pole.get("bridge", []), idx, mat) if steps > 1 else None
+        if b is None:
+            vecs.append(a); sub_pole.append(pi)
+        else:
+            for k in range(steps):
+                vecs.append(a + (k / (steps - 1)) * (b - a))
+                sub_pole.append(pi)
     v = np.asarray(vecs, dtype=np.float32)
     v /= np.linalg.norm(v, axis=1, keepdims=True).clip(min=1e-12)
-    return names, v
+    return names, v, np.asarray(sub_pole, dtype=int)
 
 
-def assign_poles(cfg: Config, lang: str, anchor_vecs: np.ndarray) -> np.ndarray:
+def assign_poles(cfg: Config, lang: str, anchor_vecs: np.ndarray,
+                 sub_pole: np.ndarray | None = None) -> np.ndarray:
     """Concept -> pole index, via a full-fit L(phonetic)->Semantics projection.
 
     The pole assignment is on the *projected sound* (that is the thing under
     test); the optional ``pole_margin_quantile`` filter is on the concept's
     *actual meaning* -- keep only concepts whose semantic vector is genuinely
-    near some pole, so an iconic-pole run isn't diluted by everyday concepts
-    that belong to no pole."""
+    near some pole. ``sub_pole`` maps ridge sub-anchor rows back to poles
+    (identity for point poles)."""
     pd = crossval.load_pair_data(cfg, lang, "Semantics")
     model = make_map(cfg.map, cfg.ridge_alpha).fit(pd.xs, pd.xt)
     proj = model.predict(pd.xs)
     proj /= np.linalg.norm(proj, axis=1, keepdims=True).clip(min=1e-12)
-    pole_of = np.argmax(proj @ anchor_vecs.T, axis=1)
+    nearest = np.argmax(proj @ anchor_vecs.T, axis=1)
+    pole_of = nearest if sub_pole is None else sub_pole[nearest]
     concepts = pd.concepts
     q = getattr(cfg, "pole_margin_quantile", 0.0)
     if q > 0.0:
@@ -114,7 +137,7 @@ def run(cfg: Config, n_jobs: int = 1) -> dict:
     results_dir = cfg.paths.resolve("results")
     results_dir.mkdir(parents=True, exist_ok=True)
     poles = load_poles(cfg)
-    names, anchors = pole_anchors(cfg, poles)
+    names, anchors, _sub_pole = pole_anchors(cfg, poles)
     n_poles = len(names)
     null_iters = cfg.null_iters
 
@@ -125,7 +148,7 @@ def run(cfg: Config, n_jobs: int = 1) -> dict:
     # cross-linguistic pooled test below can align them onto a shared phoneme set.
     stash: list[dict] = []
     for lang in cfg.languages:
-        pole_of, concepts = assign_poles(cfg, lang, anchors)
+        pole_of, concepts = assign_poles(cfg, lang, anchors, _sub_pole)
         phones = phoneme_rows(cfg, lang)
         z, vocab, counts = zscores(pole_of, concepts, phones, n_poles)
 

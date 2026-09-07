@@ -175,3 +175,5 @@ data/raw/ids-cldf/
 data/interim/wiktionary_cache*.json
 
 data/interim/nakdan_cache.json
+data/interim_smoke/
+data/processed_smoke/

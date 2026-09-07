@@ -119,6 +119,11 @@ class Config:
     #                                   any pole (0.0 = keep all; 0.5 = keep the
     #                                   semantically-nearest half). For iconic-pole
     #                                   runs where most everyday concepts sit near no pole.
+    pole_ridge_steps: int = 1         # 1 = point poles (centroid only). >1 = ridge
+    #                                   poles: for any pole with a `bridge:` seed list
+    #                                   in the YAML, sample this many points along
+    #                                   anchor->bridge and assign by nearest sub-point
+    #                                   (取象比類 metaphorical extension).
 
     # --- translation QC ---
     qc_mode: str = "exclude_flagged"  # "exclude_flagged" | "downweight" | "off"
