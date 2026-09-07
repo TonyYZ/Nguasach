@@ -1,0 +1,314 @@
+poles:
+- name: 坤卦-static
+  gloss: earth / void
+  words:
+  - void
+  - empty
+  - sparse
+  - few
+  - clean
+  - space
+  - lack
+  - absence
+  - nothing
+  - poverty
+  - blank
+  - vacant
+  - ignorance
+- name: 坤卦-dynamic
+  gloss: earth / stillness
+  words:
+  - static
+  - motionless
+  - quiet
+  - calm
+  - fixed
+  - dead
+  - stay
+  - peace
+  - boredom
+  - stagnant
+  - dormant
+  - passive
+  - inert
+  - rest
+- name: 艮卦-static
+  gloss: mountain / cover
+  words:
+  - high
+  - aloft
+  - top
+  - cover
+  - shell
+  - protect
+  - roof
+  - surface
+  - limit
+  - constrain
+  - conceal
+  - hide
+  - secret
+  - shield
+  - restrain
+  - inhibit
+  - private
+- name: 艮卦-dynamic
+  gloss: mountain / descent
+  words:
+  - retreat
+  - return
+  - come
+  - descend
+  - fall
+  - gravity
+  - backward
+  - pull
+  - decline
+  - sink
+  - drop
+  - slump
+  - sad
+  - depressed
+  - fail
+  - worsen
+  - decay
+  - humble
+- name: 坎卦-static
+  gloss: water / core
+  words:
+  - inner
+  - core
+  - center
+  - middle
+  - occupy
+  - obstruct
+  - barrier
+  - separated
+  - isolated
+  - trapped
+  - danger
+  - difficulty
+  - lonely
+  - essence
+  - hidden
+  - fear
+- name: 坎卦-dynamic
+  gloss: water / dispersal
+  words:
+  - separate
+  - split
+  - repel
+  - break
+  - disconnect
+  - radiate
+  - disperse
+  - spread
+  - source
+  - expand
+  - detach
+  - divide
+  - scatter
+  - estrange
+  - distribute
+  - diverge
+  - dissolve
+  - hate
+- name: 巽卦-static
+  gloss: wind / detachment
+  words:
+  - tall
+  - lush
+  - drifting
+  - unsupported
+  - detached
+  - aimless
+  - unstable
+  - vague
+  - aloof
+  - adrift
+  - free
+- name: 巽卦-dynamic
+  gloss: wind / seepage
+  words:
+  - leak
+  - seep
+  - shed
+  - erode
+  - decay
+  - discard
+  - feedback
+  - loosen
+  - release
+  - gradual
+  - persuade
+  - corrupt
+  - relinquish
+  - forgive
+  - relieve
+  - fade
+- name: 中卦-static
+  gloss: center / uniformity
+  words:
+  - vague
+  - monotonous
+  - homogeneous
+  - uniformity
+  - same
+  - balanced
+  - neutral
+  - moderate
+  - equal
+  - average
+  - ordinary
+- name: 中卦-dynamic
+  gloss: center / mixture
+  words:
+  - varying
+  - mixed
+  - intricate
+  - complex
+  - random
+  - confused
+  - diverse
+  - tangled
+  - ambiguous
+  - hybrid
+  - muddled
+- name: 震卦-static
+  gloss: thunder / base
+  words:
+  - support
+  - carry
+  - base
+  - low
+  - bottom
+  - floor
+  - ground
+  - platform
+  - deep
+  - foundation
+  - principle
+  - basis
+  - cause
+  - fundamental
+  - security
+  - dependable
+- name: 震卦-dynamic
+  gloss: thunder / rising
+  words:
+  - depart
+  - advance
+  - go
+  - rise
+  - ascend
+  - climb
+  - forward
+  - push
+  - overcome
+  - progress
+  - succeed
+  - grow
+  - improve
+  - ambition
+  - excited
+  - thrive
+  - anger
+- name: 離卦-static
+  gloss: fire / enclosure
+  words:
+  - enclosure
+  - surface
+  - periphery
+  - surround
+  - hollow
+  - contain
+  - together
+  - eachother
+  - appearance
+  - display
+  - visible
+  - clear
+  - recognize
+  - belong
+  - unity
+- name: 離卦-dynamic
+  gloss: fire / contraction
+  words:
+  - combine
+  - concentrate
+  - join
+  - attach
+  - connect
+  - attract
+  - receive
+  - shrink
+  - contract
+  - attachment
+  - focus
+  - intense
+  - cling
+  - love
+  - devotion
+  - understand
+- name: 兌卦-static
+  gloss: marsh / cavity
+  words:
+  - recessed
+  - cavity
+  - shallow
+  - exposed
+  - incomplete
+  - open
+  - vulnerable
+  - superficial
+  - receptive
+  - candid
+- name: 兌卦-dynamic
+  gloss: marsh / emission
+  words:
+  - express
+  - depart
+  - emit
+  - throw
+  - eject
+  - give
+  - grow
+  - swell
+  - abandon
+  - speak
+  - joy
+  - cheerful
+  - pleased
+  - generous
+  - celebrate
+- name: 乾卦-static
+  gloss: sky / fullness
+  words:
+  - congested
+  - teeming
+  - abundant
+  - enormous
+  - whole
+  - complete
+  - powerful
+  - total
+  - plenty
+  - rich
+- name: 乾卦-dynamic
+  gloss: sky / tumult
+  words:
+  - tumultuous
+  - chaotic
+  - energetic
+  - lively
+  - hustle
+  - bustle
+  - dynamic
+  - vibrant
+  - active
+  - vigorous
+  - stress
+  - turmoil
+  - forceful
+  - dominant
+  - frantic
