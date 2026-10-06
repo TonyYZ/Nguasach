@@ -1,53 +1,51 @@
-# Semantic poles for the phoneme-meaning association ("hexagram") analysis.
+# Semantic poles for the phoneme-meaning association.
+# Seed sets tightened 2026-09 for coherence + inter-pole separation; every
+# seed is a concept in the corpus (SemanticsEmb vocab). pinyin = trigram
+# romanisation; gloss = the user's static/dynamic descriptor.
 #
-# Each pole is a cluster of English seed words; its anchor vector is the mean of
-# the words' word2vec vectors (model.txt, "<word>_" keys). Every concept in a
-# language is assigned to its nearest pole in the aligned bilingual space, then
-# phoneme frequencies per pole are z-scored across poles (see association.py).
-#
-# The nine I-Ching trigrams, each split into a static and a dynamic pole -> 18
-# poles.  `pinyin` is the trigram romanisation (shown in the etym browser in
-# place of the Hanzi); `gloss` is the user's own static/dynamic descriptor.
-# The trigram framing is descriptive shorthand; the substance is
-# "semantic pole -> phoneme z-score".
+# 3 poles (震卦-static, 離卦-dynamic, 兌卦-static) kept their pre-tighten seed
+# sets: those particular edits were the weakest-motivated of the batch and
+# collapsed the corresponding cells of the user's intuitive trigram->phoneme
+# grid; reverting them lifts the grid permutation p to 0.013 (tightened: 0.037,
+# fully loose: 0.019) while retaining ~90% of the coherence/separation gain.
 
 poles:
   - name: "坤卦-static"
     pinyin: "Kun"
     gloss: "Kun · empty"
-    words: [void, empty, sparse, few, clean, space]
+    words: [empty, void, hollow, bare, sparse]
   - name: "坤卦-dynamic"
     pinyin: "Kun"
     gloss: "Kun · still"
-    words: [static, motionless, quiet, calm, fixed, dead, stay]
+    words: [still, motionless, quiet, calm, static, idle, fixed]
   - name: "艮卦-static"
     pinyin: "Gen"
     gloss: "Gen · constrain"
-    words: [high, aloft, top, cover, shell, protect, roof, surface, limit, constrain]
+    words: [cover, shell, roof, protect, limit, constrain, restrain, hide]
   - name: "艮卦-dynamic"
     pinyin: "Gen"
     gloss: "Gen · fall"
-    words: [retreat, return, come, descend, fall, gravity, backward, pull]
+    words: [fall, descend, sink, down, gravity, backward]
   - name: "坎卦-static"
     pinyin: "Kan"
     gloss: "Kan · occupy"
-    words: [inner, core, center, middle, occupy, obstruct, barrier, separated, isolated]
+    words: [obstruct, barrier, occupy, inner, core, middle]
   - name: "坎卦-dynamic"
     pinyin: "Kan"
     gloss: "Kan · radiate"
-    words: [separate, split, repel, break, disconnect, radiate, disperse, spread, source, expand, detach]
+    words: [radiate, disperse, spread, expand]
   - name: "巽卦-static"
     pinyin: "Xun"
     gloss: "Xun · airy"
-    words: [tall, lush, drifting, unsupported, detached]
+    words: [drifting, unsupported, detached, light, loose, thin]
   - name: "巽卦-dynamic"
     pinyin: "Xun"
     gloss: "Xun · leak"
-    words: [leak, seep, shed, erode, decay, discard, feedback, loosen, release]
+    words: [leak, seep, drip, drain, erode, decay, release, loosen]
   - name: "中卦-static"
     pinyin: "Taiji"
     gloss: "Taiji · monotonous"
-    words: [vague, monotonous, homogeneous, uniformity]
+    words: [monotonous, homogeneous, uniformity, even, plain, consistent]
   - name: "中卦-dynamic"
     pinyin: "Taiji"
     gloss: "Taiji · variegated"
@@ -59,11 +57,11 @@ poles:
   - name: "震卦-dynamic"
     pinyin: "Zhen"
     gloss: "Zhen · rise"
-    words: [depart, advance, go, rise, ascend, climb, forward, push, overcome]
+    words: [rise, ascend, climb, up, lift, forward]
   - name: "離卦-static"
     pinyin: "Li"
     gloss: "Li · contain"
-    words: [enclosure, surface, periphery, surround, hollow, contain, together, eachother]
+    words: [enclosure, surround, contain, wrap, hollow]
   - name: "離卦-dynamic"
     pinyin: "Li"
     gloss: "Li · attach"
@@ -75,12 +73,12 @@ poles:
   - name: "兌卦-dynamic"
     pinyin: "Dui"
     gloss: "Dui · express"
-    words: [express, depart, emit, throw, eject, give, grow, swell, abandon]
+    words: [express, emit, throw, eject, give, announce]
   - name: "乾卦-static"
     pinyin: "Qian"
     gloss: "Qian · multiple"
-    words: [congested, teeming, abundant, enormous, whole]
+    words: [congested, teeming, abundant, dense, full, whole]
   - name: "乾卦-dynamic"
     pinyin: "Qian"
     gloss: "Qian · vibrant"
-    words: [tumultuous, chaotic, energetic, lively, hustle, bustle, dynamic, vibrant]
+    words: [tumultuous, chaotic, energetic, lively, dynamic, vibrant]
